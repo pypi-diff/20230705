@@ -597,3 +597,39 @@
 [2023-07-05 00:48:58] INFO root fetch - processPackages [repr-llm]: Remove: archive file [/home/abi/fetcher/tmp/repr_llm-0.2.1.tar.gz]
 [2023-07-05 00:48:58] INFO root fetch - main [MainThread]: End processing [repr-llm]: success
 [2023-07-05 00:48:58] INFO root fetch - main [MainThread]: Store serial: [18760212]
+[2023-07-05 00:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760212]
+[2023-07-05 00:54:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 00:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-05 00:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raspberrypi-control
+[2023-07-05 00:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrahouse-toolkit
+[2023-07-05 00:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: network-connector
+[2023-07-05 00:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-cors
+[2023-07-05 00:54:07] INFO root fetch - processPackages [raspberrypi-control]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-05 00:54:07] INFO root fetch - processPackages [infrahouse-toolkit]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-05 00:54:07] WARNING root fetch - processPackages [fastapi-cors]: Skipping, unable to determine old version
+[2023-07-05 00:54:07] INFO root fetch - main [MainThread]: End processing [fastapi-cors] error
+[2023-07-05 00:54:07] WARNING root fetch - processPackages [network-connector]: Skipping, unable to determine old version
+[2023-07-05 00:54:07] INFO root fetch - main [MainThread]: End processing [network-connector] error
+[2023-07-05 00:54:07] INFO root fetch - processPackages [crypto-screening]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 00:54:07] INFO root fetch - processPackages [raspberrypi-control]: Downloading https://files.pythonhosted.org/packages/46/89/dda5862a06a02fddc1598c68501b42773b65ad3b3eb5340d8ed206fa7eb7/raspberrypi_control-2.0.1.tar.gz
+[2023-07-05 00:54:07] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/57/07/7071e8bb02ba25fd0ae55365fa7cfe7687b13c0323cf0cccf2114fe29ad5/infrahouse-toolkit-1.4.0.tar.gz
+[2023-07-05 00:54:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/13/4f/af0b717bb6021883d38e634cefa86d38741fb101f572daa564a8cace3af3/crypto-screening-1.9.0.tar.gz
+[2023-07-05 00:54:07] INFO root fetch - processPackages [raspberrypi-control]: Downloading https://files.pythonhosted.org/packages/2a/8f/1d2341f3c84734ba848184ea2c31545227e07d4def6a62d4fecea7d2aada/raspberrypi_control-2.0.2.tar.gz
+[2023-07-05 00:54:07] INFO root fetch - processPackages [infrahouse-toolkit]: Downloading https://files.pythonhosted.org/packages/86/3d/d74b177d14a6070b95ca1417ac291a37fa90a0b7a4d9818eeb4cdca8768a/infrahouse-toolkit-1.5.0.tar.gz
+[2023-07-05 00:54:07] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/d6/54/34730d13b5feb5b7694196cfa7ee61b1413a8ae0c1c30e7c00826e0b720b/crypto-screening-1.9.1.tar.gz
+[2023-07-05 00:54:07] INFO root fetch - processPackages [infrahouse-toolkit]: executing diffoscope
+[2023-07-05 00:54:07] INFO root fetch - processPackages [infrahouse-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahouse-toolkit-1.4.0.tar.gz tmp/infrahouse-toolkit-1.5.0.tar.gz --markdown 20230705/i/infrahouse-toolkit/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-05 00:54:07] INFO root fetch - processPackages [raspberrypi-control]: executing diffoscope
+[2023-07-05 00:54:07] INFO root fetch - processPackages [raspberrypi-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspberrypi_control-2.0.1.tar.gz tmp/raspberrypi_control-2.0.2.tar.gz --markdown 20230705/r/raspberrypi-control/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-05 00:54:07] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-05 00:54:07] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.9.0.tar.gz tmp/crypto-screening-1.9.1.tar.gz --markdown 20230705/c/crypto-screening/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 00:54:08] INFO root fetch - processPackages [raspberrypi-control]: Remove: archive file [/home/abi/fetcher/tmp/raspberrypi_control-2.0.1.tar.gz]
+[2023-07-05 00:54:08] INFO root fetch - processPackages [raspberrypi-control]: Remove: archive file [/home/abi/fetcher/tmp/raspberrypi_control-2.0.2.tar.gz]
+[2023-07-05 00:54:08] INFO root fetch - main [MainThread]: End processing [raspberrypi-control]: success
+[2023-07-05 00:54:08] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.4.0.tar.gz]
+[2023-07-05 00:54:08] INFO root fetch - processPackages [infrahouse-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/infrahouse-toolkit-1.5.0.tar.gz]
+[2023-07-05 00:54:08] INFO root fetch - main [MainThread]: End processing [infrahouse-toolkit]: success
+[2023-07-05 00:54:08] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.0.tar.gz]
+[2023-07-05 00:54:08] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.1.tar.gz]
+[2023-07-05 00:54:08] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-05 00:54:08] INFO root fetch - main [MainThread]: Store serial: [18760230]
