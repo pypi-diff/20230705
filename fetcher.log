@@ -380,3 +380,36 @@
 [2023-07-05 00:22:58] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2023-07-05 00:22:58] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-07-05 00:22:58] INFO root fetch - main [MainThread]: Store serial: [18760114]
+[2023-07-05 00:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760114]
+[2023-07-05 00:28:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 00:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sync-dl-ytapi
+[2023-07-05 00:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-07-05 00:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-cors
+[2023-07-05 00:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlpia2-wikipedia
+[2023-07-05 00:28:08] INFO root fetch - processPackages [sync-dl-ytapi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-05 00:28:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 00:28:08] INFO root fetch - processPackages [nlpia2-wikipedia]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-05 00:28:08] WARNING root fetch - processPackages [fastapi-cors]: Skipping, unable to determine old version
+[2023-07-05 00:28:08] INFO root fetch - main [MainThread]: End processing [fastapi-cors] error
+[2023-07-05 00:28:08] INFO root fetch - processPackages [sync-dl-ytapi]: Downloading https://files.pythonhosted.org/packages/03/f8/64e77d1de75091cdc3a21ef70761da2281bcec3b82fc171a5d2f8c3e02cd/sync_dl_ytapi-1.1.1-py3-none-any.whl
+[2023-07-05 00:28:08] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-05 00:28:08] INFO root fetch - processPackages [nlpia2-wikipedia]: Downloading https://files.pythonhosted.org/packages/cd/9a/992188b5128fe8f7b0bdbb9597cfa3e0f85ed3bb00e96c220ff74956ae91/nlpia2_wikipedia-1.5.3.tar.gz
+[2023-07-05 00:28:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-05 00:28:09] INFO root fetch - processPackages [sync-dl-ytapi]: Downloading https://files.pythonhosted.org/packages/dd/f7/7e74e2da35b6960e9f16252198801e8d837763a2559fa8feff716ac19186/sync_dl_ytapi-1.1.2-py3-none-any.whl
+[2023-07-05 00:28:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-05 00:28:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230705/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 00:28:09] INFO root fetch - processPackages [sync-dl-ytapi]: executing diffoscope
+[2023-07-05 00:28:09] INFO root fetch - processPackages [sync-dl-ytapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sync_dl_ytapi-1.1.1-py3-none-any.whl.zip tmp/sync_dl_ytapi-1.1.2-py3-none-any.whl.zip --markdown 20230705/s/sync-dl-ytapi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-05 00:28:09] INFO root fetch - processPackages [nlpia2-wikipedia]: Downloading https://files.pythonhosted.org/packages/f3/4a/c6cec762f0945e35249160af2351e6b28b02dca546c9f81488711e52c30d/nlpia2_wikipedia-1.5.4.tar.gz
+[2023-07-05 00:28:09] INFO root fetch - processPackages [nlpia2-wikipedia]: executing diffoscope
+[2023-07-05 00:28:09] INFO root fetch - processPackages [nlpia2-wikipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpia2_wikipedia-1.5.3.tar.gz tmp/nlpia2_wikipedia-1.5.4.tar.gz --markdown 20230705/n/nlpia2-wikipedia/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-05 00:28:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-05 00:28:09] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-05 00:28:10] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-05 00:28:10] INFO root fetch - processPackages [sync-dl-ytapi]: Remove: archive file [/home/abi/fetcher/tmp/sync_dl_ytapi-1.1.1-py3-none-any.whl.zip]
+[2023-07-05 00:28:10] INFO root fetch - processPackages [sync-dl-ytapi]: Remove: archive file [/home/abi/fetcher/tmp/sync_dl_ytapi-1.1.2-py3-none-any.whl.zip]
+[2023-07-05 00:28:10] INFO root fetch - main [MainThread]: End processing [sync-dl-ytapi]: success
+[2023-07-05 00:28:10] INFO root fetch - processPackages [nlpia2-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/nlpia2_wikipedia-1.5.3.tar.gz]
+[2023-07-05 00:28:10] INFO root fetch - processPackages [nlpia2-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/nlpia2_wikipedia-1.5.4.tar.gz]
+[2023-07-05 00:28:10] INFO root fetch - main [MainThread]: End processing [nlpia2-wikipedia]: success
+[2023-07-05 00:28:10] INFO root fetch - main [MainThread]: Store serial: [18760127]
