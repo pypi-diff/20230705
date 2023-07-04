@@ -276,3 +276,41 @@
 [2023-07-05 00:12:36] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-4.4.9.tar.gz]
 [2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [johnsnowlabs]: success
 [2023-07-05 00:12:36] INFO root fetch - main [MainThread]: Store serial: [18760073]
+[2023-07-05 00:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760073]
+[2023-07-05 00:17:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outputfile
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-inference
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-plugin-manager
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-config
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-tvm
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ovos-config]: New version: [0.0.9a6] Old Version: [0.0.9a5]
+[2023-07-05 00:17:45] INFO root fetch - processPackages [outputfile]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-07-05 00:17:45] WARNING root fetch - processPackages [llm-inference]: Skipping, unable to determine old version
+[2023-07-05 00:17:45] INFO root fetch - main [MainThread]: End processing [llm-inference] error
+[2023-07-05 00:17:45] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.14.dev9]
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/00/40/2f28776213f8846271bcb0c5acad044cbf7340e248c1efa2b99332b69afd/ovos-config-0.0.9a5.tar.gz
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2023-07-05 00:17:45] INFO root fetch - processPackages [outputfile]: Downloading https://files.pythonhosted.org/packages/10/66/f8a7bef0c8b2ee5c61b9153cca8b963d85f9b29c3c6ddcfd9072cd7129fc/outputfile-1.0.0.tar.gz
+[2023-07-05 00:17:45] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/97/25/3524632ea469082fdcd74f8989d5b4ac507351cb9f2ed216b86976d1dbaf/apache_tvm-0.14.dev9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 00:17:45] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-config]: Downloading https://files.pythonhosted.org/packages/0e/27/fd24bba7718bf24f47e35b7dc41763dba65d64a2e20b8107759d62108d7b/ovos-config-0.0.9a6.tar.gz
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230705/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 00:17:46] INFO root fetch - processPackages [outputfile]: Downloading https://files.pythonhosted.org/packages/b6/6b/f2453429c2cee6d1ea2101459ce8be1193dc0b7f6ea716a7bb51c467ae99/outputfile-1.0.1.tar.gz
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-config]: executing diffoscope
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-config-0.0.9a5.tar.gz tmp/ovos-config-0.0.9a6.tar.gz --markdown 20230705/o/ovos-config/0.0.9a5-0.0.9a6/diff.md --exclude *.pyd
+[2023-07-05 00:17:46] INFO root fetch - processPackages [outputfile]: executing diffoscope
+[2023-07-05 00:17:46] INFO root fetch - processPackages [outputfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outputfile-1.0.0.tar.gz tmp/outputfile-1.0.1.tar.gz --markdown 20230705/o/outputfile/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip]
+[2023-07-05 00:17:46] INFO root fetch - processPackages [ovos-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip]
+[2023-07-05 00:17:46] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-07-05 00:17:47] INFO root fetch - processPackages [outputfile]: Remove: archive file [/home/abi/fetcher/tmp/outputfile-1.0.0.tar.gz]
+[2023-07-05 00:17:47] INFO root fetch - processPackages [outputfile]: Remove: archive file [/home/abi/fetcher/tmp/outputfile-1.0.1.tar.gz]
+[2023-07-05 00:17:47] INFO root fetch - main [MainThread]: End processing [outputfile]: success
+[2023-07-05 00:17:47] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 82327624>=10485760
+[2023-07-05 00:17:47] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-07-05 00:17:47] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a5.tar.gz]
+[2023-07-05 00:17:47] INFO root fetch - processPackages [ovos-config]: Remove: archive file [/home/abi/fetcher/tmp/ovos-config-0.0.9a6.tar.gz]
+[2023-07-05 00:17:47] INFO root fetch - main [MainThread]: End processing [ovos-config]: success
+[2023-07-05 00:17:47] INFO root fetch - main [MainThread]: Store serial: [18760093]
