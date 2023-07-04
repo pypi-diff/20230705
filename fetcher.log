@@ -633,3 +633,74 @@
 [2023-07-05 00:54:08] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.1.tar.gz]
 [2023-07-05 00:54:08] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-05 00:54:08] INFO root fetch - main [MainThread]: Store serial: [18760230]
+[2023-07-05 00:59:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760230]
+[2023-07-05 00:59:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awkward
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metoffice-weather-cli
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captchaai
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cb2game
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: network-connector
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-plugin-webhook-receiver
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-yolox-pytorch
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-cors
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metaphor-python
+[2023-07-05 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easy-local-features
+[2023-07-05 00:59:17] INFO root fetch - processPackages [fastapi-cors]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 00:59:17] INFO root fetch - processPackages [metoffice-weather-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 00:59:17] INFO root fetch - processPackages [captchaai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 00:59:17] INFO root fetch - processPackages [awkward]: New version: [2.3.0] Old Version: [2.2.4]
+[2023-07-05 00:59:17] WARNING root fetch - processPackages [network-connector]: Skipping, unable to determine old version
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cb2game]: New version: [0.9.8] Old Version: [0.9.5]
+[2023-07-05 00:59:17] INFO root fetch - main [MainThread]: End processing [network-connector] error
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 00:59:17] WARNING root fetch - processPackages [metaphor-python]: Skipping, unable to determine old version
+[2023-07-05 00:59:17] INFO root fetch - main [MainThread]: End processing [metaphor-python] error
+[2023-07-05 00:59:17] WARNING root fetch - processPackages [netbox-plugin-webhook-receiver]: Skipping, unable to determine old version
+[2023-07-05 00:59:17] INFO root fetch - main [MainThread]: End processing [netbox-plugin-webhook-receiver] error
+[2023-07-05 00:59:17] INFO root fetch - processPackages [easy-local-features]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-05 00:59:17] INFO root fetch - processPackages [captchaai]: Downloading https://files.pythonhosted.org/packages/fc/ed/ec469d5cf07a100a39aa8163925fa5b2726f5b46d59545513b3f679d0d2d/captchaai-0.0.1.tar.gz
+[2023-07-05 00:59:17] INFO root fetch - processPackages [fastapi-cors]: Downloading https://files.pythonhosted.org/packages/57/42/d7676d35539db3ee9cb4b7edadc6460a2a5063687782429568cf3ff8e560/fastapi-cors-0.0.1.tar.gz
+[2023-07-05 00:59:17] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/d6/48/e0c26c9f6b086e596cf2524e3add2c15736e34020689a5af694f672f58c5/awkward-2.2.4.tar.gz
+[2023-07-05 00:59:17] INFO root fetch - processPackages [metoffice-weather-cli]: Downloading https://files.pythonhosted.org/packages/4d/36/b57cb4f086cf43e5c212423a61eae8e599b5eeab35cdce24985f338f26e3/metoffice-weather-cli-0.1.0.tar.gz
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cb2game]: Downloading https://files.pythonhosted.org/packages/ad/af/0a751c353faea1f828f6abdffb33b77dade4e0d5308e731c464ff2c0b884/cb2game-0.9.5-py3-none-any.whl
+[2023-07-05 00:59:17] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/dd/d6/3b3abfa3b12dfda67cfa235516e43b1ca5ddc20bca7922bc5b0bfce5ff8e/easy_local_features-0.3.0.tar.gz
+[2023-07-05 00:59:17] WARNING root fetch - processPackages [cb2game]: Skipping package: exceeds size limit 99893611>=10485760
+[2023-07-05 00:59:17] INFO root fetch - main [MainThread]: End processing [cb2game] error
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-05 00:59:17] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230705/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 00:59:17] INFO root fetch - processPackages [metoffice-weather-cli]: Downloading https://files.pythonhosted.org/packages/cf/72/68ab34d668ce00203e0d12f80af715d316f8442d9a3536202bb73a30eee8/metoffice-weather-cli-0.1.1.tar.gz
+[2023-07-05 00:59:18] INFO root fetch - processPackages [metoffice-weather-cli]: executing diffoscope
+[2023-07-05 00:59:18] INFO root fetch - processPackages [metoffice-weather-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metoffice-weather-cli-0.1.0.tar.gz tmp/metoffice-weather-cli-0.1.1.tar.gz --markdown 20230705/m/metoffice-weather-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 00:59:18] INFO root fetch - processPackages [fastapi-cors]: Downloading https://files.pythonhosted.org/packages/ef/b1/2de9cfe88746bd42342f963650dfcd37c86fb07367b813f2775880027e7e/fastapi-cors-0.0.2.tar.gz
+[2023-07-05 00:59:18] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/cf/91/6338d59fa4604f07a2bdbc94a4dd6753ed3e9cb47ac677e89f4b5f654ab5/easy_local_features-0.3.1.tar.gz
+[2023-07-05 00:59:18] INFO root fetch - processPackages [captchaai]: Downloading https://files.pythonhosted.org/packages/ad/5d/641f0063f1baad8fd3cd3910aa264c2b45ff2b1313dbd6515d4865fde67b/captchaai-0.0.2.tar.gz
+[2023-07-05 00:59:18] INFO root fetch - processPackages [fastapi-cors]: executing diffoscope
+[2023-07-05 00:59:18] INFO root fetch - processPackages [fastapi-cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-cors-0.0.1.tar.gz tmp/fastapi-cors-0.0.2.tar.gz --markdown 20230705/f/fastapi-cors/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 00:59:18] INFO root fetch - processPackages [captchaai]: executing diffoscope
+[2023-07-05 00:59:18] INFO root fetch - processPackages [captchaai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captchaai-0.0.1.tar.gz tmp/captchaai-0.0.2.tar.gz --markdown 20230705/c/captchaai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 00:59:18] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-07-05 00:59:18] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.3.0.tar.gz tmp/easy_local_features-0.3.1.tar.gz --markdown 20230705/e/easy-local-features/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-05 00:59:18] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/e1/1d/434bcc91aa8b4c465e2962ec9a5346f74ab055bc8862fdb8ccbcbbfe8125/awkward-2.3.0.tar.gz
+[2023-07-05 00:59:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-05 00:59:18] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-05 00:59:18] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-05 00:59:18] INFO root fetch - processPackages [fastapi-cors]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-cors-0.0.1.tar.gz]
+[2023-07-05 00:59:18] INFO root fetch - processPackages [fastapi-cors]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-cors-0.0.2.tar.gz]
+[2023-07-05 00:59:18] INFO root fetch - main [MainThread]: End processing [fastapi-cors]: success
+[2023-07-05 00:59:19] INFO root fetch - processPackages [captchaai]: Remove: archive file [/home/abi/fetcher/tmp/captchaai-0.0.1.tar.gz]
+[2023-07-05 00:59:19] INFO root fetch - processPackages [captchaai]: Remove: archive file [/home/abi/fetcher/tmp/captchaai-0.0.2.tar.gz]
+[2023-07-05 00:59:19] INFO root fetch - main [MainThread]: End processing [captchaai]: success
+[2023-07-05 00:59:19] INFO root fetch - processPackages [metoffice-weather-cli]: Remove: archive file [/home/abi/fetcher/tmp/metoffice-weather-cli-0.1.0.tar.gz]
+[2023-07-05 00:59:19] INFO root fetch - processPackages [metoffice-weather-cli]: Remove: archive file [/home/abi/fetcher/tmp/metoffice-weather-cli-0.1.1.tar.gz]
+[2023-07-05 00:59:19] INFO root fetch - main [MainThread]: End processing [metoffice-weather-cli]: success
+[2023-07-05 00:59:19] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.0.tar.gz]
+[2023-07-05 00:59:19] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.1.tar.gz]
+[2023-07-05 00:59:19] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-07-05 00:59:19] INFO root fetch - processPackages [awkward]: executing diffoscope
+[2023-07-05 00:59:19] INFO root fetch - processPackages [awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-2.2.4.tar.gz tmp/awkward-2.3.0.tar.gz --markdown 20230705/a/awkward/2.2.4-2.3.0/diff.md --exclude *.pyd
+[2023-07-05 00:59:25] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.2.4.tar.gz]
+[2023-07-05 00:59:25] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.3.0.tar.gz]
+[2023-07-05 00:59:25] INFO root fetch - main [MainThread]: End processing [awkward]: success
+[2023-07-05 00:59:25] INFO root fetch - main [MainThread]: Store serial: [18760261]
