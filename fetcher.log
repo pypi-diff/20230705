@@ -1013,3 +1013,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:20:11] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
 [2023-07-05 01:20:11] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
 [2023-07-05 01:20:11] INFO root fetch - main [MainThread]: Store serial: [18760341]
+[2023-07-05 01:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760341]
+[2023-07-05 01:25:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: population-trend
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usermgr
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill-pg
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bittensor
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hagrid
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sql-repository
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crypto-screening
+[2023-07-05 01:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: b2sim
+[2023-07-05 01:25:20] INFO root fetch - processPackages [crypto-screening]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [population-trend]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-05 01:25:20] WARNING root fetch - processPackages [sql-repository]: Skipping, unable to determine old version
+[2023-07-05 01:25:20] INFO root fetch - main [MainThread]: End processing [sql-repository] error
+[2023-07-05 01:25:20] INFO root fetch - processPackages [bittensor]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [usermgr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [b2sim]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 01:25:20] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/d6/54/34730d13b5feb5b7694196cfa7ee61b1413a8ae0c1c30e7c00826e0b720b/crypto-screening-1.9.1.tar.gz
+[2023-07-05 01:25:20] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [population-trend]: Downloading https://files.pythonhosted.org/packages/75/99/3fb43b050969308bd88efb65699a676fd9e4e3645a046677fc093b249941/population_trend-3.0.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [usermgr]: Downloading https://files.pythonhosted.org/packages/fd/95/186f846d48367f7c80c8ee430898e1a1e12ded22de030dd4e3e999e9faa2/usermgr-0.1.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/0e/68/1e92aecbc4b51a1dd7ca8aec5750de9f8880a6487f4eba873a00b6913f9c/b2sim-1.0.6.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/47/af/e4e924c6d257dbed9f593415f21e6a944a23580cfd10a83714663983dbfd/crypto-screening-1.9.2.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [bittensor]: Downloading https://files.pythonhosted.org/packages/f2/3d/3fe29717eb54aac6704a5a8c008e858d2acc7d21eb2bd7a290603c7a8604/bittensor-5.3.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [population-trend]: Downloading https://files.pythonhosted.org/packages/af/db/328f3103cba37c988a5cf4cff44704c0bae5930d39af6249d71b8d734536/population_trend-3.1.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [usermgr]: Downloading https://files.pythonhosted.org/packages/66/aa/9ab7cca8fb1e1ea2ae58828e96d858de31268e031e3bad8bff78475e307e/usermgr-0.1.1.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.9.1.tar.gz tmp/crypto-screening-1.9.2.tar.gz --markdown 20230705/c/crypto-screening/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230705/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [bittensor]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [bittensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-5.2.0.tar.gz tmp/bittensor-5.3.0.tar.gz --markdown 20230705/b/bittensor/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/f9/7f/3e98f72256ad2d34f728094f8e4d301b936fa1456aa1edbaf910aa3bdbd9/b2sim-1.0.7.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [usermgr]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [usermgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usermgr-0.1.0.tar.gz tmp/usermgr-0.1.1.tar.gz --markdown 20230705/u/usermgr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-05 01:25:21] INFO root fetch - processPackages [population-trend]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [population-trend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/population_trend-3.0.0.tar.gz tmp/population_trend-3.1.0.tar.gz --markdown 20230705/p/population-trend/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230705/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.6.tar.gz tmp/b2sim-1.0.7.tar.gz --markdown 20230705/b/b2sim/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-05 01:25:21] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230705/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 01:25:22] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-05 01:25:22] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230705/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 01:25:22] INFO root fetch - processPackages [usermgr]: Remove: archive file [/home/abi/fetcher/tmp/usermgr-0.1.0.tar.gz]
+[2023-07-05 01:25:22] INFO root fetch - processPackages [usermgr]: Remove: archive file [/home/abi/fetcher/tmp/usermgr-0.1.1.tar.gz]
+[2023-07-05 01:25:22] INFO root fetch - main [MainThread]: End processing [usermgr]: success
+[2023-07-05 01:25:22] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-5.2.0.tar.gz]
+[2023-07-05 01:25:22] INFO root fetch - processPackages [bittensor]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-5.3.0.tar.gz]
+[2023-07-05 01:25:22] INFO root fetch - main [MainThread]: End processing [bittensor]: success
+[2023-07-05 01:25:23] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-05 01:25:23] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-05 01:25:23] INFO root fetch - processPackages [population-trend]: Remove: archive file [/home/abi/fetcher/tmp/population_trend-3.0.0.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - processPackages [population-trend]: Remove: archive file [/home/abi/fetcher/tmp/population_trend-3.1.0.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - main [MainThread]: End processing [population-trend]: success
+[2023-07-05 01:25:23] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.1.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.2.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-05 01:25:23] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.6.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.7.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-05 01:25:23] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-05 01:25:23] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-05 01:25:29] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-05 01:25:29] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-05 01:25:29] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-05 01:25:29] INFO root fetch - main [MainThread]: Store serial: [18760372]
