@@ -413,3 +413,72 @@
 [2023-07-05 00:28:10] INFO root fetch - processPackages [nlpia2-wikipedia]: Remove: archive file [/home/abi/fetcher/tmp/nlpia2_wikipedia-1.5.4.tar.gz]
 [2023-07-05 00:28:10] INFO root fetch - main [MainThread]: End processing [nlpia2-wikipedia]: success
 [2023-07-05 00:28:10] INFO root fetch - main [MainThread]: Store serial: [18760127]
+[2023-07-05 00:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760127]
+[2023-07-05 00:33:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysvgedit
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywebgo
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-f-meliq
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erdantic
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spimdisasm
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sync-dl
+[2023-07-05 00:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: griptape-tools
+[2023-07-05 00:33:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 00:33:20] INFO root fetch - processPackages [pywebgo]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 00:33:20] INFO root fetch - processPackages [erdantic]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 00:33:20] INFO root fetch - processPackages [pysvgedit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 00:33:20] WARNING root fetch - processPackages [test-f-meliq]: Skipping, unable to determine old version
+[2023-07-05 00:33:20] INFO root fetch - main [MainThread]: End processing [test-f-meliq] error
+[2023-07-05 00:33:20] INFO root fetch - processPackages [sync-dl]: New version: [2.3.7] Old Version: [2.3.5]
+[2023-07-05 00:33:20] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-05 00:33:20] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 00:33:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/81/56/c42c32e49fb4026f015287fa1a38d74d2be3163719b4d87ac8d2d48172ac/cjm-yolox-pytorch-0.0.8.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/cd/07/e2b433a0701f40f05a430cd066288a99a8daad769454e04dd5e3930dedf8/erdantic-0.5.0.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [sync-dl]: Downloading https://files.pythonhosted.org/packages/9a/e0/d72b4786a6eddbf8d8c493bf5fe6da2b88b6df1734db1b533e8a32e7474c/sync_dl-2.3.5-py3-none-any.whl
+[2023-07-05 00:33:20] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/98/6d/d39d2df9f884fa732e848cd05d352c801f7c6dc6bf87109ef2ae0f2844cb/pywebgo-0.0.7.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [pysvgedit]: Downloading https://files.pythonhosted.org/packages/6f/74/0c16713fee6a3638f06ce7deff1dec4247ba409aaa3f7d559f2a96ef923a/pysvgedit-0.0.3.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/80/f6/2945313523cc8317cb34e41910b4de85f151c6fcc6fea79f7ad8c382d8e0/griptape_tools-0.9.1.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/19/01/8c2bfea1bf44894068c0b7c40f80fa8f25c95ba61d6c7b1f2d0c05a1c1e2/cjm-yolox-pytorch-0.0.9.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2023-07-05 00:33:20] INFO root fetch - processPackages [sync-dl]: Downloading https://files.pythonhosted.org/packages/3f/c1/eae6261cccaaf23f582f365dfd7be55fb5b6d26f3eb265eb0cc6fd724499/sync_dl-2.3.7-py3-none-any.whl
+[2023-07-05 00:33:21] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.8.tar.gz tmp/cjm-yolox-pytorch-0.0.9.tar.gz --markdown 20230705/c/cjm-yolox-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 00:33:21] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230705/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-05 00:33:21] INFO root fetch - processPackages [pywebgo]: Downloading https://files.pythonhosted.org/packages/79/d0/524a38520d67a82a39f7fbcc4c2158b470d021a9a62b6afe28c91ee286de/pywebgo-0.0.8.tar.gz
+[2023-07-05 00:33:21] INFO root fetch - processPackages [erdantic]: Downloading https://files.pythonhosted.org/packages/3e/d7/1e808aad701017b4d42c0f93505652c258ee8c389db7a5eec4db9fd93517/erdantic-0.5.1.tar.gz
+[2023-07-05 00:33:21] INFO root fetch - processPackages [sync-dl]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [sync-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sync_dl-2.3.5-py3-none-any.whl.zip tmp/sync_dl-2.3.7-py3-none-any.whl.zip --markdown 20230705/s/sync-dl/2.3.5-2.3.7/diff.md --exclude *.pyd
+[2023-07-05 00:33:21] INFO root fetch - processPackages [griptape-tools]: Downloading https://files.pythonhosted.org/packages/93/f3/cee260713c8847e2863876ce5fdb8817ed49bd31ce80cd349a8276389733/griptape_tools-0.9.2.tar.gz
+[2023-07-05 00:33:21] INFO root fetch - processPackages [erdantic]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [erdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdantic-0.5.0.tar.gz tmp/erdantic-0.5.1.tar.gz --markdown 20230705/e/erdantic/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 00:33:21] INFO root fetch - processPackages [pywebgo]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [pywebgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebgo-0.0.7.tar.gz tmp/pywebgo-0.0.8.tar.gz --markdown 20230705/p/pywebgo/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 00:33:21] INFO root fetch - processPackages [pysvgedit]: Downloading https://files.pythonhosted.org/packages/6a/34/b45b44e48f4493f51a55da007a1780f03c3c2febd18c31109fff5bf54d8a/pysvgedit-0.0.4.tar.gz
+[2023-07-05 00:33:21] INFO root fetch - processPackages [pysvgedit]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [pysvgedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysvgedit-0.0.3.tar.gz tmp/pysvgedit-0.0.4.tar.gz --markdown 20230705/p/pysvgedit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 00:33:21] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-07-05 00:33:21] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230705/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 00:33:22] INFO root fetch - processPackages [pywebgo]: Remove: archive file [/home/abi/fetcher/tmp/pywebgo-0.0.7.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [pywebgo]: Remove: archive file [/home/abi/fetcher/tmp/pywebgo-0.0.8.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [pywebgo]: success
+[2023-07-05 00:33:22] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-0.5.0.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [erdantic]: Remove: archive file [/home/abi/fetcher/tmp/erdantic-0.5.1.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [erdantic]: success
+[2023-07-05 00:33:22] INFO root fetch - processPackages [sync-dl]: Remove: archive file [/home/abi/fetcher/tmp/sync_dl-2.3.5-py3-none-any.whl.zip]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [sync-dl]: Remove: archive file [/home/abi/fetcher/tmp/sync_dl-2.3.7-py3-none-any.whl.zip]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [sync-dl]: success
+[2023-07-05 00:33:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.8.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.9.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-05 00:33:22] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.1.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [spimdisasm]: Remove: archive file [/home/abi/fetcher/tmp/spimdisasm-1.9.2.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-07-05 00:33:22] INFO root fetch - processPackages [pysvgedit]: Remove: archive file [/home/abi/fetcher/tmp/pysvgedit-0.0.3.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [pysvgedit]: Remove: archive file [/home/abi/fetcher/tmp/pysvgedit-0.0.4.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [pysvgedit]: success
+[2023-07-05 00:33:22] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.1.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - processPackages [griptape-tools]: Remove: archive file [/home/abi/fetcher/tmp/griptape_tools-0.9.2.tar.gz]
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-07-05 00:33:22] INFO root fetch - main [MainThread]: Store serial: [18760150]
