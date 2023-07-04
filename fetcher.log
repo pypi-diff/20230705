@@ -1400,3 +1400,125 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:41:12] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-hooks-contrib-2023.5.tar.gz]
 [2023-07-05 01:41:12] INFO root fetch - main [MainThread]: End processing [pyinstaller-hooks-contrib]: success
 [2023-07-05 01:41:12] INFO root fetch - main [MainThread]: Store serial: [18760523]
+[2023-07-05 01:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760523]
+[2023-07-05 01:46:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 01:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dongwha-datalab
+[2023-07-05 01:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fakeredis
+[2023-07-05 01:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crypto-screening
+[2023-07-05 01:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skyplane-nightly
+[2023-07-05 01:46:21] INFO root fetch - processPackages [crypto-screening]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-05 01:46:21] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.22] Old Version: [0.0.0.21]
+[2023-07-05 01:46:21] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev202307032345] Old Version: [0.3.2.dev202307022344]
+[2023-07-05 01:46:21] INFO root fetch - processPackages [fakeredis]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-05 01:46:21] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/09/2c/8778c1e21b3fbc699112060221ca1881f25f400678f0fc80622456734361/crypto-screening-1.9.3.tar.gz
+[2023-07-05 01:46:21] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/78/96/a7cb1a0cb2c780b4f4955e20b0bb5a790cb30e9230f4557530ce72d69530/skyplane_nightly-0.3.2.dev202307022344.tar.gz
+[2023-07-05 01:46:21] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-07-05 01:46:21] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.21-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.22-py3-none-any.whl.zip --markdown 20230705/d/dongwha-datalab/0.0.0.21-0.0.0.22/diff.md --exclude *.pyd
+[2023-07-05 01:46:21] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/27/c5/a8bb6a94bad96b40a7e760bbbac99c73a6868017ab58c54a66bf62d6041d/fakeredis-2.9.1.tar.gz
+[2023-07-05 01:46:21] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/9f/f1/dd908037121f53d5b6ec2bc9820872d629d299a592811797e3bccc076679/crypto-screening-1.9.4.tar.gz
+[2023-07-05 01:46:21] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-05 01:46:21] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.9.3.tar.gz tmp/crypto-screening-1.9.4.tar.gz --markdown 20230705/c/crypto-screening/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-05 01:46:21] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/7f/ac/0b98efc82f9aba6e31cc143b7c142ab8a1414e4d8ed889ca3c634e4954d4/skyplane_nightly-0.3.2.dev202307032345.tar.gz
+[2023-07-05 01:46:22] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/c9/d0/063259876691b0c48dfa578a01777c92875d9f234e1ac49900f305c4a9aa/fakeredis-2.9.2.tar.gz
+[2023-07-05 01:46:22] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: time="2023-07-05T01:46:21+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-07-05 01:46:22] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-07-05 01:46:22] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-05 01:46:22] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev202307022344.tar.gz tmp/skyplane_nightly-0.3.2.dev202307032345.tar.gz --markdown 20230705/s/skyplane-nightly/0.3.2.dev202307022344-0.3.2.dev202307032345/diff.md --exclude *.pyd
+[2023-07-05 01:46:22] INFO root fetch - processPackages [fakeredis]: executing diffoscope
+[2023-07-05 01:46:22] INFO root fetch - processPackages [fakeredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeredis-2.9.1.tar.gz tmp/fakeredis-2.9.2.tar.gz --markdown 20230705/f/fakeredis/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-05 01:46:22] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.3.tar.gz]
+[2023-07-05 01:46:22] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.4.tar.gz]
+[2023-07-05 01:46:22] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-05 01:46:23] INFO root fetch - processPackages [fakeredis]: Remove: archive file [/home/abi/fetcher/tmp/fakeredis-2.9.1.tar.gz]
+[2023-07-05 01:46:23] INFO root fetch - processPackages [fakeredis]: Remove: archive file [/home/abi/fetcher/tmp/fakeredis-2.9.2.tar.gz]
+[2023-07-05 01:46:23] INFO root fetch - main [MainThread]: End processing [fakeredis]: success
+[2023-07-05 01:46:23] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307022344.tar.gz]
+[2023-07-05 01:46:23] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev202307032345.tar.gz]
+[2023-07-05 01:46:23] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-05 01:46:23] INFO root fetch - main [MainThread]: Store serial: [18760533]
