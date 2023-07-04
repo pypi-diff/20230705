@@ -944,3 +944,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:14:59] INFO root fetch - processPackages [tinytuya]: Remove: archive file [/home/abi/fetcher/tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip]
 [2023-07-05 01:14:59] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
 [2023-07-05 01:14:59] INFO root fetch - main [MainThread]: Store serial: [18760317]
+[2023-07-05 01:20:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760317]
+[2023-07-05 01:20:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ormlite
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AgenciBr
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-cors
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbmlutils
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goxlr
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ormlite
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remotior-sensus
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: versionoverlord
+[2023-07-05 01:20:08] INFO root fetch - processPackages [fastapi-cors]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [sbmlutils]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ormlite]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [ormlite]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [AgenciBr]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [fastapi-cors]: Downloading https://files.pythonhosted.org/packages/ef/b1/2de9cfe88746bd42342f963650dfcd37c86fb07367b813f2775880027e7e/fastapi-cors-0.0.2.tar.gz
+[2023-07-05 01:20:08] INFO root fetch - processPackages [goxlr]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [versionoverlord]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-07-05 01:20:08] INFO root fetch - processPackages [sbmlutils]: Downloading https://files.pythonhosted.org/packages/c6/36/65807b91f5d44f9b100ff969fb5bfc4dc6e2b0464a51566ce8b2b5de5510/sbmlutils-0.8.1.tar.gz
+[2023-07-05 01:20:09] WARNING root fetch - processPackages [sbmlutils]: Skipping package: exceeds size limit 25979501>=10485760
+[2023-07-05 01:20:09] INFO root fetch - main [MainThread]: End processing [sbmlutils] error
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/2f/3f/c3d4ae8d2519d2d5f5d515a9a4a21ef6c3ea21fe02cf2655c6a4fb5cd7de/ormlite-0.2.0.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/2f/3f/c3d4ae8d2519d2d5f5d515a9a4a21ef6c3ea21fe02cf2655c6a4fb5cd7de/ormlite-0.2.0.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [AgenciBr]: Downloading https://files.pythonhosted.org/packages/d7/c5/144fc8fa9e955d69a57c8b185f01087eeb829df658e1f61994051dbdd151/AgenciBr-0.1.5.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/c8/49/92e98ea2dda437d3dbbb59fe6942609fe3b2ef74d29a88195e1b84255282/goxlr-1.0.4.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [versionoverlord]: Downloading https://files.pythonhosted.org/packages/4b/0e/1e7ec3550f12a2aed033fb992ecbeeb2e01319ae408bf1ef9dd91f6356c2/versionoverlord-0.5.8.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [fastapi-cors]: Downloading https://files.pythonhosted.org/packages/92/ca/bca205418f2a4f4a130f58a571f241773128fac4790dab30fe4716e8752d/fastapi-cors-0.0.3.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [fastapi-cors]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [fastapi-cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-cors-0.0.2.tar.gz tmp/fastapi-cors-0.0.3.tar.gz --markdown 20230705/f/fastapi-cors/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/cb/b8/3a7f638c23338fa80045956c61d968012ec41eeb4cc707e9f1ecedbad9de/ormlite-0.2.1.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/cb/b8/3a7f638c23338fa80045956c61d968012ec41eeb4cc707e9f1ecedbad9de/ormlite-0.2.1.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [AgenciBr]: Downloading https://files.pythonhosted.org/packages/46/02/7b26863691fa1bbccca737b38b241166358e1030f1b7739ae23b383ecb4d/AgenciBr-0.1.6.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/49/c1/c938e7458baa417421ae8d0206e70a836d64570b45f24fa0988fde7724d7/goxlr-1.0.5.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [versionoverlord]: Downloading https://files.pythonhosted.org/packages/eb/5a/804a44ffabfca85db7d939887cbd5dc0ade1268d62bb6a61b8265bf57427/versionoverlord-0.6.0.tar.gz
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormlite-0.2.0.tar.gz tmp/ormlite-0.2.1.tar.gz --markdown 20230705/o/ormlite/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [ormlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormlite-0.2.0.tar.gz tmp/ormlite-0.2.1.tar.gz --markdown 20230705/o/ormlite/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 01:20:09] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230705/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 01:20:09] INFO root fetch - processPackages [AgenciBr]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [AgenciBr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgenciBr-0.1.5.tar.gz tmp/AgenciBr-0.1.6.tar.gz --markdown 20230705/A/AgenciBr/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 01:20:09] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.0.4.tar.gz tmp/goxlr-1.0.5.tar.gz --markdown 20230705/g/goxlr/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-05 01:20:09] INFO root fetch - processPackages [versionoverlord]: executing diffoscope
+[2023-07-05 01:20:09] INFO root fetch - processPackages [versionoverlord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versionoverlord-0.5.8.tar.gz tmp/versionoverlord-0.6.0.tar.gz --markdown 20230705/v/versionoverlord/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 01:20:10] INFO root fetch - processPackages [fastapi-cors]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-cors-0.0.2.tar.gz]
+[2023-07-05 01:20:10] INFO root fetch - processPackages [fastapi-cors]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-cors-0.0.3.tar.gz]
+[2023-07-05 01:20:10] INFO root fetch - main [MainThread]: End processing [fastapi-cors]: success
+[2023-07-05 01:20:10] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.2.0.tar.gz]
+[2023-07-05 01:20:10] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.2.1.tar.gz]
+[2023-07-05 01:20:10] INFO root fetch - main [MainThread]: End processing [ormlite]: success
+[2023-07-05 01:20:11] INFO root fetch - main [MainThread]: End processing [ormlite]: success
+[2023-07-05 01:20:11] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.4.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.5.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-05 01:20:11] INFO root fetch - processPackages [versionoverlord]: Remove: archive file [/home/abi/fetcher/tmp/versionoverlord-0.5.8.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - processPackages [versionoverlord]: Remove: archive file [/home/abi/fetcher/tmp/versionoverlord-0.6.0.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - main [MainThread]: End processing [versionoverlord]: success
+[2023-07-05 01:20:11] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.5.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.6.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - main [MainThread]: End processing [AgenciBr]: success
+[2023-07-05 01:20:11] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-05 01:20:11] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-05 01:20:11] INFO root fetch - main [MainThread]: Store serial: [18760341]
