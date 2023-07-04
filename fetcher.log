@@ -150,3 +150,72 @@
 [2023-07-05 00:02:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-05 00:02:13] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-07-05 00:02:13] INFO root fetch - main [MainThread]: Store serial: [18760015]
+[2023-07-05 00:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760015]
+[2023-07-05 00:07:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhman
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-inference
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-error-report-2
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textology
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: garak
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tanki
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lolcatt
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yabte
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vbcore
+[2023-07-05 00:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fast-checkers
+[2023-07-05 00:07:23] INFO root fetch - processPackages [llama-inference]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 00:07:23] INFO root fetch - processPackages [vbcore]: New version: [2.1.0rc0] Old Version: [2.1.0]
+[2023-07-05 00:07:23] INFO root fetch - processPackages [django-error-report-2]: New version: [0.4.1] Old Version: [0.4.0a1]
+[2023-07-05 00:07:23] INFO root fetch - processPackages [yabte]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-05 00:07:23] WARNING root fetch - processPackages [textology]: Skipping, unable to determine old version
+[2023-07-05 00:07:23] INFO root fetch - main [MainThread]: End processing [textology] error
+[2023-07-05 00:07:23] INFO root fetch - processPackages [lolcatt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 00:07:23] WARNING root fetch - processPackages [Tanki]: Skipping, unable to determine old version
+[2023-07-05 00:07:23] INFO root fetch - main [MainThread]: End processing [Tanki] error
+[2023-07-05 00:07:23] WARNING root fetch - processPackages [fast-checkers]: Skipping, unable to determine old version
+[2023-07-05 00:07:23] INFO root fetch - main [MainThread]: End processing [fast-checkers] error
+[2023-07-05 00:07:23] WARNING root fetch - processPackages [pyhman]: Skipping, unable to determine old version
+[2023-07-05 00:07:23] INFO root fetch - main [MainThread]: End processing [pyhman] error
+[2023-07-05 00:07:23] INFO root fetch - processPackages [garak]: New version: [0.9.post3] Old Version: [0.9.post2]
+[2023-07-05 00:07:23] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/ec/32/a326e4f898a7c0c754e34a29c69e8126f7e403aba032efbb1ee6f851d1f9/django-error-report-2-0.4.0a1.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/37/79/e0c2a16021dbe054ae67f286bf75a1dc940fa4a0128f0bba62ed7f437bd0/vbcore-2.1.0.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [llama-inference]: Downloading https://files.pythonhosted.org/packages/8b/58/ec2a6c52fe5f6c568d03aca68891e5ddfda9023fd272d60a22e9a31bb7e4/llama_inference-0.0.3.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/f3/15/34d8e143210c5e6ec5353fb53a9b36269fa6f871c4e53a0f88dea67681af/lolcatt-0.1.1.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [yabte]: Downloading https://files.pythonhosted.org/packages/24/48/d6d67235a5e111d10ef4d466d67ece16d97c3e28d65bf4ae816061a7aa9e/yabte-0.3.5.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/03/df/1f7c0c0498f0b20f9f47da2a3f0d97091567e575df6c574929ec2d2ed74f/garak-0.9.post2.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [vbcore]: Downloading https://files.pythonhosted.org/packages/7b/c7/f78615dabf4d57c46c49fb00b5261aafc63f44b03b93110829f8436332ff/vbcore-2.1.0rc0.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/f2/89/a62f7e5b4a06e7cc31b8f2ffca193e59bc2b42340a45c45efe09ee05ac0a/django-error-report-2-0.4.1.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [django-error-report-2]: executing diffoscope
+[2023-07-05 00:07:23] INFO root fetch - processPackages [django-error-report-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-error-report-2-0.4.0a1.tar.gz tmp/django-error-report-2-0.4.1.tar.gz --markdown 20230705/d/django-error-report-2/0.4.0a1-0.4.1/diff.md --exclude *.pyd
+[2023-07-05 00:07:23] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/0a/24/7f58173f1f804fc5f446a9ec36740c388de6b5e3430c858f48c7e566ae86/lolcatt-0.1.2.tar.gz
+[2023-07-05 00:07:23] INFO root fetch - processPackages [llama-inference]: Downloading https://files.pythonhosted.org/packages/c7/57/6edd35ca1d9e0bc7216daa1ba4f215342316792dc721f17a5c815a8e6c63/llama_inference-0.0.4.tar.gz
+[2023-07-05 00:07:24] INFO root fetch - processPackages [garak]: Downloading https://files.pythonhosted.org/packages/db/33/48b9aff5805cd85069c8cef6c1f79de816a42850ef54e9db130e2bd7b4aa/garak-0.9.post3.tar.gz
+[2023-07-05 00:07:24] INFO root fetch - processPackages [yabte]: Downloading https://files.pythonhosted.org/packages/de/5c/f80241afb972cc3d1f0be6f58890dd8b559576ba6997089c61abb6a08446/yabte-0.3.6.tar.gz
+[2023-07-05 00:07:24] INFO root fetch - processPackages [lolcatt]: executing diffoscope
+[2023-07-05 00:07:24] INFO root fetch - processPackages [lolcatt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolcatt-0.1.1.tar.gz tmp/lolcatt-0.1.2.tar.gz --markdown 20230705/l/lolcatt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 00:07:24] INFO root fetch - processPackages [llama-inference]: executing diffoscope
+[2023-07-05 00:07:24] INFO root fetch - processPackages [llama-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_inference-0.0.3.tar.gz tmp/llama_inference-0.0.4.tar.gz --markdown 20230705/l/llama-inference/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 00:07:24] INFO root fetch - processPackages [vbcore]: executing diffoscope
+[2023-07-05 00:07:24] INFO root fetch - processPackages [vbcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbcore-2.1.0.tar.gz tmp/vbcore-2.1.0rc0.tar.gz --markdown 20230705/v/vbcore/2.1.0-2.1.0rc0/diff.md --exclude *.pyd
+[2023-07-05 00:07:24] INFO root fetch - processPackages [garak]: executing diffoscope
+[2023-07-05 00:07:24] INFO root fetch - processPackages [garak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garak-0.9.post2.tar.gz tmp/garak-0.9.post3.tar.gz --markdown 20230705/g/garak/0.9.post2-0.9.post3/diff.md --exclude *.pyd
+[2023-07-05 00:07:24] INFO root fetch - processPackages [yabte]: executing diffoscope
+[2023-07-05 00:07:24] INFO root fetch - processPackages [yabte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yabte-0.3.5.tar.gz tmp/yabte-0.3.6.tar.gz --markdown 20230705/y/yabte/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-05 00:07:25] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.0a1.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.1.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [django-error-report-2]: success
+[2023-07-05 00:07:25] INFO root fetch - processPackages [llama-inference]: Remove: archive file [/home/abi/fetcher/tmp/llama_inference-0.0.3.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - processPackages [llama-inference]: Remove: archive file [/home/abi/fetcher/tmp/llama_inference-0.0.4.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [llama-inference]: success
+[2023-07-05 00:07:25] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.1.1.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.1.2.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [lolcatt]: success
+[2023-07-05 00:07:25] INFO root fetch - processPackages [yabte]: Remove: archive file [/home/abi/fetcher/tmp/yabte-0.3.5.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - processPackages [yabte]: Remove: archive file [/home/abi/fetcher/tmp/yabte-0.3.6.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [yabte]: success
+[2023-07-05 00:07:25] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.1.0.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - processPackages [vbcore]: Remove: archive file [/home/abi/fetcher/tmp/vbcore-2.1.0rc0.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [vbcore]: success
+[2023-07-05 00:07:25] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post2.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [garak]: success
+[2023-07-05 00:07:25] INFO root fetch - main [MainThread]: Store serial: [18760056]
