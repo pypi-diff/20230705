@@ -1,0 +1,152 @@
+[2023-07-05 00:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18759954]
+[2023-07-05 00:01:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datupapi
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8-json
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylhe
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2gui
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagger-io
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gffutils
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nerdcore
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: glyphsLib
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hiddifypanel
+[2023-07-05 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: q2rad
+[2023-07-05 00:01:56] INFO root fetch - processPackages [flake8-json]: New version: [23.7.0] Old Version: [21.7.0]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [datupapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [gffutils]: New version: [0.9] Old Version: [0.8.7.1]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [glyphsLib]: New version: [6.2.3] Old Version: [6.2.2]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [pylhe]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [hiddifypanel]: New version: [7.1.4] Old Version: [7.1.3]
+[2023-07-05 00:01:56] INFO root fetch - processPackages [dagger-io]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-05 00:01:57] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [flake8-json]: Downloading https://files.pythonhosted.org/packages/44/64/f131b8bc63acc2c000974a8d565b5019ef176719a64fbd6b8da19f27cf70/flake8-json-21.7.0.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [gffutils]: Downloading https://files.pythonhosted.org/packages/a7/fa/3d8cd13f58540098f5efb3ec7dd33d1bb6a27ee06e377e1d6a2419b4be25/gffutils-0.8.7.1.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [glyphsLib]: Downloading https://files.pythonhosted.org/packages/00/66/ea8c20168200afbe1f7e2a87ac2bfe413ad2c3ab94f0d362aaa9630aeecc/glyphsLib-6.2.2.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/1d/ac/5081ecaeb46eff6a3d8d6902c7c5cb49ce1eef0ad43338a8fed29140ce89/datupapi-1.9.0-py3-none-any.whl
+[2023-07-05 00:01:57] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/bb/b6/5bc05a5fa2aac2f67a67215e18844a916f29d0fd9acc4f81af219d0bdb0a/hiddifypanel-7.1.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 00:01:57] INFO root fetch - processPackages [pylhe]: Downloading https://files.pythonhosted.org/packages/bc/1c/b1360d3e8140135dee372e98badd0021379ebeefb67085e2cc71b519bf9d/pylhe-0.6.0.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/16/8d/1579825bb884e6fe8823f3f7c426e25778ca042599bde0781fb621fa6cc6/dagger_io-0.6.2.tar.gz
+[2023-07-05 00:01:57] WARNING root fetch - processPackages [glyphsLib]: Skipping package: exceeds size limit 25796492>=10485760
+[2023-07-05 00:01:57] INFO root fetch - processPackages [glyphsLib]: Start processing: django-error-report-2
+[2023-07-05 00:01:57] INFO root fetch - main [MainThread]: End processing [glyphsLib] error
+[2023-07-05 00:01:57] INFO root fetch - processPackages [django-error-report-2]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-07-05 00:01:57] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [flake8-json]: Downloading https://files.pythonhosted.org/packages/2a/5c/a74547fffd4deaeca90ddf49bd7589866d9ef8f20e2b2cee122322caa7df/flake8_json-23.7.0.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/27/81/b6418317ef2dded58cbde2aa8d0eb286f42a143cef3fdc8efd1c4f83ac57/django-error-report-2-0.4.0a0.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-05 00:01:57] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230705/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 00:01:57] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [flake8-json]: executing diffoscope
+[2023-07-05 00:01:57] INFO root fetch - processPackages [flake8-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-json-21.7.0.tar.gz tmp/flake8_json-23.7.0.tar.gz --markdown 20230705/f/flake8-json/21.7.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-05 00:01:57] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/99/c3/687a6d58ca2f4a184e6c99a1478991f6b135e8abd32973e2385a002fb2b5/dagger_io-0.6.3.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [pylhe]: Downloading https://files.pythonhosted.org/packages/9d/1d/465d45ae7f914f71cb85a5540fd03baef56b2137d79d07efd69db82ab0c5/pylhe-0.7.0.tar.gz
+[2023-07-05 00:01:57] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/d6/2c/228b04741162c0ccb1494c9c89d6c22551aeecd23eb2f8db49b9aa73cea5/datupapi-1.9.1-py3-none-any.whl
+[2023-07-05 00:01:57] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-05 00:01:57] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230705/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-05 00:01:58] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/ec/32/a326e4f898a7c0c754e34a29c69e8126f7e403aba032efbb1ee6f851d1f9/django-error-report-2-0.4.0a1.tar.gz
+[2023-07-05 00:01:58] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2023-07-05 00:01:58] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.6.2.tar.gz tmp/dagger_io-0.6.3.tar.gz --markdown 20230705/d/dagger-io/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-05 00:01:58] INFO root fetch - processPackages [pylhe]: executing diffoscope
+[2023-07-05 00:01:58] INFO root fetch - processPackages [pylhe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylhe-0.6.0.tar.gz tmp/pylhe-0.7.0.tar.gz --markdown 20230705/p/pylhe/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-05 00:01:58] INFO root fetch - processPackages [datupapi]: executing diffoscope
+[2023-07-05 00:01:58] INFO root fetch - processPackages [datupapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datupapi-1.9.0-py3-none-any.whl.zip tmp/datupapi-1.9.1-py3-none-any.whl.zip --markdown 20230705/d/datupapi/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 00:01:58] INFO root fetch - processPackages [gffutils]: Downloading https://files.pythonhosted.org/packages/b4/ea/54ca403a8d471849606fb432b9afcf73c8c5105ea2dd87b8d38bd5217c5a/gffutils-0.9.tar.gz
+[2023-07-05 00:01:58] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-07-05 00:01:58] INFO root fetch - processPackages [django-error-report-2]: executing diffoscope
+[2023-07-05 00:01:58] INFO root fetch - processPackages [django-error-report-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-error-report-2-0.4.0a0.tar.gz tmp/django-error-report-2-0.4.0a1.tar.gz --markdown 20230705/d/django-error-report-2/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-07-05 00:01:58] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-05 00:01:58] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230705/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-05 00:01:59] INFO root fetch - processPackages [flake8-json]: Remove: archive file [/home/abi/fetcher/tmp/flake8-json-21.7.0.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [flake8-json]: Remove: archive file [/home/abi/fetcher/tmp/flake8_json-23.7.0.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [flake8-json]: Start processing: fetch-features
+[2023-07-05 00:01:59] INFO root fetch - main [MainThread]: End processing [flake8-json]: success
+[2023-07-05 00:01:59] INFO root fetch - processPackages [fetch-features]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [pylhe]: Remove: archive file [/home/abi/fetcher/tmp/pylhe-0.6.0.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.9.0-py3-none-any.whl.zip]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [pylhe]: Remove: archive file [/home/abi/fetcher/tmp/pylhe-0.7.0.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.9.1-py3-none-any.whl.zip]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [pylhe]: Start processing: gpt-review
+[2023-07-05 00:01:59] INFO root fetch - processPackages [datupapi]: Start processing: asyncpgpromise
+[2023-07-05 00:01:59] INFO root fetch - main [MainThread]: End processing [pylhe]: success
+[2023-07-05 00:01:59] INFO root fetch - main [MainThread]: End processing [datupapi]: success
+[2023-07-05 00:01:59] INFO root fetch - processPackages [asyncpgpromise]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [gpt-review]: New version: [0.9.5rc954.post1] Old Version: [0.9.5rc943.post1]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.0a0.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.0a1.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [django-error-report-2]: Start processing: uniquer
+[2023-07-05 00:01:59] INFO root fetch - main [MainThread]: End processing [django-error-report-2]: success
+[2023-07-05 00:01:59] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.6.2.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.6.3.tar.gz]
+[2023-07-05 00:01:59] INFO root fetch - processPackages [dagger-io]: Start processing: django-error-report-2
+[2023-07-05 00:01:59] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2023-07-05 00:02:00] INFO root fetch - processPackages [django-error-report-2]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [q2rad]: Start processing: swarms
+[2023-07-05 00:02:00] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-05 00:02:00] INFO root fetch - processPackages [fetch-features]: Downloading https://files.pythonhosted.org/packages/dc/df/893e3caf3fa5f7fc466072e401d8987b74fefd8b9fa0b63868367b56d403/fetch_features-0.2.8.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [swarms]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-05 00:02:00] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-05 00:02:00] INFO root fetch - processPackages [uniquer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/27/81/b6418317ef2dded58cbde2aa8d0eb286f42a143cef3fdc8efd1c4f83ac57/django-error-report-2-0.4.0a0.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [asyncpgpromise]: Downloading https://files.pythonhosted.org/packages/be/02/9feb0d7d6c880591783d1de5ae636150c89cbece03a3ae99cbf8ac362e1c/asyncpgpromise-0.1.0.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-05 00:02:00] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-05 00:02:00] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-05 00:02:00] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/f6/26/c56b0538f3b9633b9fc904a2f0e5cb69f7f6c08f8231bbab21cdbc854329/swarms-0.5.0.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [gffutils]: executing diffoscope
+[2023-07-05 00:02:00] INFO root fetch - processPackages [gffutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gffutils-0.8.7.1.tar.gz tmp/gffutils-0.9.tar.gz --markdown 20230705/g/gffutils/0.8.7.1-0.9/diff.md --exclude *.pyd
+[2023-07-05 00:02:00] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/05/f4/9b25be63b9f1a706f6c329c69b082ea2b549a982e69d58e4534ece221d56/gpt_review-0.9.5rc943.post1.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [uniquer]: Downloading https://files.pythonhosted.org/packages/13/21/086afac6264f8351f0da1ec95c6ff281d01c32226ef9185916c7ca06de5f/uniquer-1.0.1.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [django-error-report-2]: Downloading https://files.pythonhosted.org/packages/ec/32/a326e4f898a7c0c754e34a29c69e8126f7e403aba032efbb1ee6f851d1f9/django-error-report-2-0.4.0a1.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1c/5e/f2ed106887918e5e0833fb00e668b7e3c31fd2fe249e4d9492b744697353/swarms-0.5.1.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [asyncpgpromise]: Downloading https://files.pythonhosted.org/packages/73/d8/41918e48308677c62e6b2c11d94e5967e2d24ecac13d027dda8b2fb267df/asyncpgpromise-0.1.1.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [django-error-report-2]: executing diffoscope
+[2023-07-05 00:02:00] INFO root fetch - processPackages [django-error-report-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-error-report-2-0.4.0a0.tar.gz tmp/django-error-report-2-0.4.0a1.tar.gz --markdown 20230705/d/django-error-report-2/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-07-05 00:02:00] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/82/37/68ddd8cdda4311b7ed78bed63e4e58eebb1a10d7b6a60bcb4c83e1cf3e75/gpt_review-0.9.5rc954.post1.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 00:02:00] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.0.tar.gz tmp/swarms-0.5.1.tar.gz --markdown 20230705/s/swarms/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 00:02:00] INFO root fetch - processPackages [asyncpgpromise]: executing diffoscope
+[2023-07-05 00:02:00] INFO root fetch - processPackages [asyncpgpromise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpgpromise-0.1.0.tar.gz tmp/asyncpgpromise-0.1.1.tar.gz --markdown 20230705/a/asyncpgpromise/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 00:02:00] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-07-05 00:02:00] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/4c/13/c19acae36b7b10240152cd5e5b46078b9c01ceff1e29a09d5482bf422377/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 00:02:00] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_review-0.9.5rc943.post1.tar.gz tmp/gpt_review-0.9.5rc954.post1.tar.gz --markdown 20230705/g/gpt-review/0.9.5rc943.post1-0.9.5rc954.post1/diff.md --exclude *.pyd
+[2023-07-05 00:02:00] INFO root fetch - processPackages [uniquer]: Downloading https://files.pythonhosted.org/packages/20/b1/abda972354716815fcbd27c0b185005d5b7ad21020902521f74f49d8a21d/uniquer-1.0.2.tar.gz
+[2023-07-05 00:02:00] INFO root fetch - processPackages [fetch-features]: Downloading https://files.pythonhosted.org/packages/2b/db/d2f3d4dd1076587fd8a2c1136606c571f8464e926d9f492e4aaa2987859e/fetch_features-0.2.9.tar.gz
+[2023-07-05 00:02:01] INFO root fetch - processPackages [uniquer]: executing diffoscope
+[2023-07-05 00:02:01] INFO root fetch - processPackages [uniquer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniquer-1.0.1.tar.gz tmp/uniquer-1.0.2.tar.gz --markdown 20230705/u/uniquer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 00:02:01] INFO root fetch - processPackages [fetch-features]: executing diffoscope
+[2023-07-05 00:02:01] INFO root fetch - processPackages [fetch-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch_features-0.2.8.tar.gz tmp/fetch_features-0.2.9.tar.gz --markdown 20230705/f/fetch-features/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 00:02:02] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.0a0.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [django-error-report-2]: Remove: archive file [/home/abi/fetcher/tmp/django-error-report-2-0.4.0a1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [django-error-report-2]: success
+[2023-07-05 00:02:02] INFO root fetch - processPackages [asyncpgpromise]: Remove: archive file [/home/abi/fetcher/tmp/asyncpgpromise-0.1.0.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [asyncpgpromise]: Remove: archive file [/home/abi/fetcher/tmp/asyncpgpromise-0.1.1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [asyncpgpromise]: success
+[2023-07-05 00:02:02] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.0.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 00:02:02] INFO root fetch - processPackages [gffutils]: Remove: archive file [/home/abi/fetcher/tmp/gffutils-0.8.7.1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [gffutils]: Remove: archive file [/home/abi/fetcher/tmp/gffutils-0.9.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [gffutils]: success
+[2023-07-05 00:02:02] INFO root fetch - processPackages [fetch-features]: Remove: archive file [/home/abi/fetcher/tmp/fetch_features-0.2.8.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [fetch-features]: Remove: archive file [/home/abi/fetcher/tmp/fetch_features-0.2.9.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [fetch-features]: success
+[2023-07-05 00:02:02] INFO root fetch - processPackages [uniquer]: Remove: archive file [/home/abi/fetcher/tmp/uniquer-1.0.1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [uniquer]: Remove: archive file [/home/abi/fetcher/tmp/uniquer-1.0.2.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [uniquer]: success
+[2023-07-05 00:02:02] INFO root fetch - processPackages [gpt-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt_review-0.9.5rc943.post1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - processPackages [gpt-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt_review-0.9.5rc954.post1.tar.gz]
+[2023-07-05 00:02:02] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-07-05 00:02:03] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-07-05 00:02:03] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-7.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230705/h/hiddifypanel/7.1.3-7.1.4/diff.md --exclude *.pyd
+[2023-07-05 00:02:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 00:02:13] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-7.1.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 00:02:13] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-07-05 00:02:13] INFO root fetch - main [MainThread]: Store serial: [18760015]
