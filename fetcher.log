@@ -1570,3 +1570,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:51:35] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-05 01:51:35] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-05 01:51:35] INFO root fetch - main [MainThread]: Store serial: [18760546]
+[2023-07-05 01:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760546]
+[2023-07-05 01:56:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resfeci
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testless-textanalyzer
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: empyrial
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: relative-dose-1d
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ApiLogicServer
+[2023-07-05 01:56:44] INFO root fetch - processPackages [testless-textanalyzer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-05 01:56:44] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/48/f0/73d02375994d8441d966480dd6edb4e0c5912026bec97934c9c0370aaa28/testless_textanalyzer-0.1.4.tar.gz
+[2023-07-05 01:56:44] INFO root fetch - processPackages [relative-dose-1d]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-05 01:56:44] INFO root fetch - processPackages [resfeci]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-05 01:56:44] INFO root fetch - processPackages [empyrial]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-07-05 01:56:44] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/a8/d3/d0a783fbcf3063259f455bdcb2387b915d362d75a4960a6d65579710e8f3/resfeci-0.0.14.tar.gz
+[2023-07-05 01:56:44] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/3a/3e/b5e2c69cfcd51f197064d92cc13648c1ed3a10ccd863f25c023eff55ea3a/relative_dose_1d-0.1.3.tar.gz
+[2023-07-05 01:56:44] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/0e/b1/18cfd6aff0494c7476da16f2163520a76a39b88dd89710679397800c8522/empyrial-2.0.1.tar.gz
+[2023-07-05 01:56:44] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/1a/7e/33ae6b439b8db3d87d6bff22b7b0a426dc6416afd303e73016270728bab1/ApiLogicServer-9.0.0.tar.gz
+[2023-07-05 01:56:45] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/76/a7/80be2d5f4e1c9ff43b0287c9385bfc87dea0e2f63a55f441a5d35056c846/testless_textanalyzer-0.1.5.tar.gz
+[2023-07-05 01:56:45] INFO root fetch - processPackages [testless-textanalyzer]: executing diffoscope
+[2023-07-05 01:56:45] INFO root fetch - processPackages [testless-textanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_textanalyzer-0.1.4.tar.gz tmp/testless_textanalyzer-0.1.5.tar.gz --markdown 20230705/t/testless-textanalyzer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-05 01:56:45] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/68/f6/c02d7e78881a0c2da8042b3f58dc12fe78e3ca2ac54e271c1e642ecc592f/resfeci-0.0.15.tar.gz
+[2023-07-05 01:56:45] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/f2/ed/447f2adcc1ff5f621043cfcc226a6413ae5d176a4f7f57f61a5cabe8ad60/relative_dose_1d-0.1.4.tar.gz
+[2023-07-05 01:56:45] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/da/00/e043e26e09fcb43647e2f8d1cc02f9dc9e513da5a429631cdaee0f5d66b8/empyrial-2.0.2.tar.gz
+[2023-07-05 01:56:45] INFO root fetch - processPackages [resfeci]: executing diffoscope
+[2023-07-05 01:56:45] INFO root fetch - processPackages [resfeci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resfeci-0.0.14.tar.gz tmp/resfeci-0.0.15.tar.gz --markdown 20230705/r/resfeci/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-05 01:56:45] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-07-05 01:56:45] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.1.tar.gz tmp/empyrial-2.0.2.tar.gz --markdown 20230705/e/empyrial/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-05 01:56:45] INFO root fetch - processPackages [relative-dose-1d]: executing diffoscope
+[2023-07-05 01:56:45] INFO root fetch - processPackages [relative-dose-1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative_dose_1d-0.1.3.tar.gz tmp/relative_dose_1d-0.1.4.tar.gz --markdown 20230705/r/relative-dose-1d/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-05 01:56:46] INFO root fetch - processPackages [testless-textanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/testless_textanalyzer-0.1.4.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - processPackages [testless-textanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/testless_textanalyzer-0.1.5.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - main [MainThread]: End processing [testless-textanalyzer]: success
+[2023-07-05 01:56:46] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.1.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.2.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-07-05 01:56:46] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.14.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.15.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - main [MainThread]: End processing [resfeci]: success
+[2023-07-05 01:56:46] INFO root fetch - processPackages [relative-dose-1d]: Remove: archive file [/home/abi/fetcher/tmp/relative_dose_1d-0.1.3.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - processPackages [relative-dose-1d]: Remove: archive file [/home/abi/fetcher/tmp/relative_dose_1d-0.1.4.tar.gz]
+[2023-07-05 01:56:46] INFO root fetch - main [MainThread]: End processing [relative-dose-1d]: success
+[2023-07-05 01:56:46] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/80/46/2ccec7ddac7b8e6991eb8ffcd3c55e94a685e36afe3cfd0dc843fb67afd6/ApiLogicServer-9.1.0-py3-none-any.whl
+[2023-07-05 01:56:49] INFO root fetch - processPackages [ApiLogicServer]: executing diffoscope
+[2023-07-05 01:56:49] INFO root fetch - processPackages [ApiLogicServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApiLogicServer-9.0.0.tar.gz tmp/ApiLogicServer-9.1.0-py3-none-any.whl.zip --markdown 20230705/A/ApiLogicServer/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-07-05 01:56:52] INFO root fetch - processPackages [ApiLogicServer]: Remove: archive file [/home/abi/fetcher/tmp/ApiLogicServer-9.0.0.tar.gz]
+[2023-07-05 01:56:52] INFO root fetch - processPackages [ApiLogicServer]: Remove: archive file [/home/abi/fetcher/tmp/ApiLogicServer-9.1.0-py3-none-any.whl.zip]
+[2023-07-05 01:56:52] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
+[2023-07-05 01:56:52] INFO root fetch - main [MainThread]: Store serial: [18760557]
