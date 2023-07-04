@@ -541,3 +541,59 @@
 [2023-07-05 00:43:46] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.1.tar.gz]
 [2023-07-05 00:43:46] INFO root fetch - main [MainThread]: End processing [bus-station]: success
 [2023-07-05 00:43:46] INFO root fetch - main [MainThread]: Store serial: [18760189]
+[2023-07-05 00:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760189]
+[2023-07-05 00:48:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbmlutils
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-inference
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imdb-api-raw
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: result
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drupaljsonapiclient
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: squiral
+[2023-07-05 00:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repr-llm
+[2023-07-05 00:48:56] INFO root fetch - processPackages [squiral]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-05 00:48:56] INFO root fetch - processPackages [drupaljsonapiclient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 00:48:56] INFO root fetch - processPackages [llm-inference]: New version: [0.0.4] Old Version: [0.0.0]
+[2023-07-05 00:48:56] INFO root fetch - processPackages [result]: New version: [0.9.0] Old Version: [0.8.0b1]
+[2023-07-05 00:48:56] WARNING root fetch - processPackages [imdb-api-raw]: Skipping, unable to determine old version
+[2023-07-05 00:48:56] INFO root fetch - main [MainThread]: End processing [imdb-api-raw] error
+[2023-07-05 00:48:56] INFO root fetch - processPackages [sbmlutils]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-05 00:48:56] INFO root fetch - processPackages [llm-inference]: Downloading https://files.pythonhosted.org/packages/61/cf/d26f90a0c9bdeb9c255e65fbf7220ac5641ad1870935346221c667f8bb58/llm_inference-0.0.0.tar.gz
+[2023-07-05 00:48:56] INFO root fetch - processPackages [squiral]: Downloading https://files.pythonhosted.org/packages/77/94/e9215459d734034c70bc3c0ed26e4b5e6e189ba4d66467c24c1f2cc97d33/squiral-0.4.1.tar.gz
+[2023-07-05 00:48:56] INFO root fetch - processPackages [repr-llm]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 00:48:56] INFO root fetch - processPackages [sbmlutils]: Downloading https://files.pythonhosted.org/packages/c6/36/65807b91f5d44f9b100ff969fb5bfc4dc6e2b0464a51566ce8b2b5de5510/sbmlutils-0.8.1.tar.gz
+[2023-07-05 00:48:56] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/04/5c/0baf4d9b61f61a2221136bf5b2fd1e7c8d35cc67d1096ca856943f7c46cd/drupaljsonapiclient-1.0.8.tar.gz
+[2023-07-05 00:48:56] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/7d/82/86e2b39e6c16e534e4f904f54e5f86c160ad29d6fc9a8a32bc3f5f4bb835/result-0.8.0b1.tar.gz
+[2023-07-05 00:48:56] WARNING root fetch - processPackages [sbmlutils]: Skipping package: exceeds size limit 25979501>=10485760
+[2023-07-05 00:48:56] INFO root fetch - main [MainThread]: End processing [sbmlutils] error
+[2023-07-05 00:48:56] INFO root fetch - processPackages [repr-llm]: Downloading https://files.pythonhosted.org/packages/ad/80/d0a35fe076c37d0458fb2f9740259adb9ab0b333bdaa4e2fb88171bf639e/repr_llm-0.2.0.tar.gz
+[2023-07-05 00:48:56] INFO root fetch - processPackages [llm-inference]: Downloading https://files.pythonhosted.org/packages/d1/44/5ee70859c66498cc47410cf81488713ef75b3a25a68fbd15184664c5fced/llm_inference-0.0.4.tar.gz
+[2023-07-05 00:48:57] INFO root fetch - processPackages [squiral]: Downloading https://files.pythonhosted.org/packages/68/21/5e7d87845f0b3a93b6095e0a95c5fae511618ec4d5c6452c33fea2e0d760/squiral-0.4.2.tar.gz
+[2023-07-05 00:48:57] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/06/5c/d708fa9a26212a7d95d540282c7689583490f9f899f2902a5e6c96752a47/drupaljsonapiclient-1.0.9.tar.gz
+[2023-07-05 00:48:57] INFO root fetch - processPackages [squiral]: executing diffoscope
+[2023-07-05 00:48:57] INFO root fetch - processPackages [squiral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squiral-0.4.1.tar.gz tmp/squiral-0.4.2.tar.gz --markdown 20230705/s/squiral/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-05 00:48:57] INFO root fetch - processPackages [llm-inference]: executing diffoscope
+[2023-07-05 00:48:57] INFO root fetch - processPackages [llm-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_inference-0.0.0.tar.gz tmp/llm_inference-0.0.4.tar.gz --markdown 20230705/l/llm-inference/0.0.0-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 00:48:57] INFO root fetch - processPackages [drupaljsonapiclient]: executing diffoscope
+[2023-07-05 00:48:57] INFO root fetch - processPackages [drupaljsonapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drupaljsonapiclient-1.0.8.tar.gz tmp/drupaljsonapiclient-1.0.9.tar.gz --markdown 20230705/d/drupaljsonapiclient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 00:48:57] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/e1/d2/a6ac37982c8e314f71acd5d4a509dfde718f0c0fc8590b35b7d64101097e/result-0.9.0.tar.gz
+[2023-07-05 00:48:57] INFO root fetch - processPackages [repr-llm]: Downloading https://files.pythonhosted.org/packages/4d/5a/c5becf8a21abcf7430950568dc470287985404207196db15d2dc3d0d8da2/repr_llm-0.2.1.tar.gz
+[2023-07-05 00:48:57] INFO root fetch - processPackages [result]: executing diffoscope
+[2023-07-05 00:48:57] INFO root fetch - processPackages [result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/result-0.8.0b1.tar.gz tmp/result-0.9.0.tar.gz --markdown 20230705/r/result/0.8.0b1-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 00:48:57] INFO root fetch - processPackages [repr-llm]: executing diffoscope
+[2023-07-05 00:48:57] INFO root fetch - processPackages [repr-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repr_llm-0.2.0.tar.gz tmp/repr_llm-0.2.1.tar.gz --markdown 20230705/r/repr-llm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 00:48:58] INFO root fetch - processPackages [squiral]: Remove: archive file [/home/abi/fetcher/tmp/squiral-0.4.1.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - processPackages [squiral]: Remove: archive file [/home/abi/fetcher/tmp/squiral-0.4.2.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - main [MainThread]: End processing [squiral]: success
+[2023-07-05 00:48:58] INFO root fetch - processPackages [llm-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_inference-0.0.0.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - processPackages [llm-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_inference-0.0.4.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - main [MainThread]: End processing [llm-inference]: success
+[2023-07-05 00:48:58] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.8.0b1.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.9.0.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - main [MainThread]: End processing [result]: success
+[2023-07-05 00:48:58] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.8.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.9.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - main [MainThread]: End processing [drupaljsonapiclient]: success
+[2023-07-05 00:48:58] INFO root fetch - processPackages [repr-llm]: Remove: archive file [/home/abi/fetcher/tmp/repr_llm-0.2.0.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - processPackages [repr-llm]: Remove: archive file [/home/abi/fetcher/tmp/repr_llm-0.2.1.tar.gz]
+[2023-07-05 00:48:58] INFO root fetch - main [MainThread]: End processing [repr-llm]: success
+[2023-07-05 00:48:58] INFO root fetch - main [MainThread]: Store serial: [18760212]
