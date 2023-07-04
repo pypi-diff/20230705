@@ -219,3 +219,60 @@
 [2023-07-05 00:07:25] INFO root fetch - processPackages [garak]: Remove: archive file [/home/abi/fetcher/tmp/garak-0.9.post3.tar.gz]
 [2023-07-05 00:07:25] INFO root fetch - main [MainThread]: End processing [garak]: success
 [2023-07-05 00:07:25] INFO root fetch - main [MainThread]: Store serial: [18760056]
+[2023-07-05 00:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760056]
+[2023-07-05 00:12:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nerdcore
+[2023-07-05 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: johnsnowlabs
+[2023-07-05 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: johnsnowlabs-for-databricks
+[2023-07-05 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iceberg-dsl
+[2023-07-05 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-chain
+[2023-07-05 00:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chargemaster-parsers
+[2023-07-05 00:12:34] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 00:12:34] INFO root fetch - processPackages [iceberg-dsl]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-05 00:12:34] INFO root fetch - processPackages [chargemaster-parsers]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 00:12:34] INFO root fetch - processPackages [llm-chain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 00:12:34] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: New version: [4.4.9] Old Version: [4.4.8rc1]
+[2023-07-05 00:12:34] INFO root fetch - processPackages [johnsnowlabs]: New version: [4.4.9] Old Version: [4.4.8]
+[2023-07-05 00:12:34] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-05 00:12:34] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/ad/0a/0c7f7c227359c09f5e88c872ee082cdd6d578afd846a72d7bd6e23351c19/llm-chain-0.0.8.tar.gz
+[2023-07-05 00:12:34] INFO root fetch - processPackages [iceberg-dsl]: Downloading https://files.pythonhosted.org/packages/0e/62/efb288efc6c3412a4546f35d025fe0a96d8acd722daa5d29461fba58c9d5/iceberg-dsl-0.0.2.tar.gz
+[2023-07-05 00:12:34] INFO root fetch - processPackages [chargemaster-parsers]: Downloading https://files.pythonhosted.org/packages/c8/3b/1985ae72914d02e2954d8df9d57a6b8f38f67d7a7f3b072fdc25ba28a520/chargemaster_parsers-0.0.3.tar.gz
+[2023-07-05 00:12:34] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/58/a6/f460e5e8fcd9b196e69f79bd55baa42ea29b8853709edce43bc9faf18c55/johnsnowlabs_for_databricks-4.4.8rc1.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/e0/3a/2b375d77dc06f4f9b7b4259a6c3f8c01f5266598586477644e7339cafc08/johnsnowlabs-4.4.8.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [llm-chain]: Downloading https://files.pythonhosted.org/packages/86/bb/a6773e0c83b405b184e19aa3f5e6e685a38e64842b41a0f551b6844a6510/llm-chain-0.0.9.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [llm-chain]: executing diffoscope
+[2023-07-05 00:12:35] INFO root fetch - processPackages [llm-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-chain-0.0.8.tar.gz tmp/llm-chain-0.0.9.tar.gz --markdown 20230705/l/llm-chain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 00:12:35] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-05 00:12:35] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230705/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 00:12:35] INFO root fetch - processPackages [chargemaster-parsers]: Downloading https://files.pythonhosted.org/packages/d5/92/13962acca0d1744b97b6dc28cb1f90a688a345496290aa14d1c7da4feb7a/chargemaster_parsers-0.0.4.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Downloading https://files.pythonhosted.org/packages/c7/f5/47f783f14e182e5a7fe81c3f74f539a82603f4f6e2468b965946a68e4e57/johnsnowlabs_for_databricks-4.4.9.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [iceberg-dsl]: Downloading https://files.pythonhosted.org/packages/3e/9a/a537b7ac2404616c3cb4c8ea3725b45896deb0b6c617bda33358be0d6f80/iceberg-dsl-0.0.4.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs]: Downloading https://files.pythonhosted.org/packages/53/21/e4418e7682e6221769a64148a8ca576b39f81db0fa220d2011e7bbce7865/johnsnowlabs-4.4.9.tar.gz
+[2023-07-05 00:12:35] INFO root fetch - processPackages [chargemaster-parsers]: executing diffoscope
+[2023-07-05 00:12:35] INFO root fetch - processPackages [chargemaster-parsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargemaster_parsers-0.0.3.tar.gz tmp/chargemaster_parsers-0.0.4.tar.gz --markdown 20230705/c/chargemaster-parsers/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: executing diffoscope
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs_for_databricks-4.4.8rc1.tar.gz tmp/johnsnowlabs_for_databricks-4.4.9.tar.gz --markdown 20230705/j/johnsnowlabs-for-databricks/4.4.8rc1-4.4.9/diff.md --exclude *.pyd
+[2023-07-05 00:12:35] INFO root fetch - processPackages [iceberg-dsl]: executing diffoscope
+[2023-07-05 00:12:35] INFO root fetch - processPackages [iceberg-dsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceberg-dsl-0.0.2.tar.gz tmp/iceberg-dsl-0.0.4.tar.gz --markdown 20230705/i/iceberg-dsl/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs]: executing diffoscope
+[2023-07-05 00:12:35] INFO root fetch - processPackages [johnsnowlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/johnsnowlabs-4.4.8.tar.gz tmp/johnsnowlabs-4.4.9.tar.gz --markdown 20230705/j/johnsnowlabs/4.4.8-4.4.9/diff.md --exclude *.pyd
+[2023-07-05 00:12:36] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.8.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - processPackages [llm-chain]: Remove: archive file [/home/abi/fetcher/tmp/llm-chain-0.0.9.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [llm-chain]: success
+[2023-07-05 00:12:36] INFO root fetch - processPackages [iceberg-dsl]: Remove: archive file [/home/abi/fetcher/tmp/iceberg-dsl-0.0.2.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - processPackages [iceberg-dsl]: Remove: archive file [/home/abi/fetcher/tmp/iceberg-dsl-0.0.4.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [iceberg-dsl]: success
+[2023-07-05 00:12:36] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-05 00:12:36] INFO root fetch - processPackages [chargemaster-parsers]: Remove: archive file [/home/abi/fetcher/tmp/chargemaster_parsers-0.0.3.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - processPackages [chargemaster-parsers]: Remove: archive file [/home/abi/fetcher/tmp/chargemaster_parsers-0.0.4.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [chargemaster-parsers]: success
+[2023-07-05 00:12:36] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-4.4.8rc1.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - processPackages [johnsnowlabs-for-databricks]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs_for_databricks-4.4.9.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [johnsnowlabs-for-databricks]: success
+[2023-07-05 00:12:36] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-4.4.8.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - processPackages [johnsnowlabs]: Remove: archive file [/home/abi/fetcher/tmp/johnsnowlabs-4.4.9.tar.gz]
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: End processing [johnsnowlabs]: success
+[2023-07-05 00:12:36] INFO root fetch - main [MainThread]: Store serial: [18760073]
