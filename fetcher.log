@@ -1177,3 +1177,164 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:30:41] INFO root fetch - processPackages [neon-diana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_diana_utils-0.0.6a4-py3-none-any.whl.zip]
 [2023-07-05 01:30:41] INFO root fetch - main [MainThread]: End processing [neon-diana-utils]: success
 [2023-07-05 01:30:41] INFO root fetch - main [MainThread]: Store serial: [18760400]
+[2023-07-05 01:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760400]
+[2023-07-05 01:35:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-ft
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg-napari-trackmate
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-ionq
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-google
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-web
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-rigetti
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-core
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-pasqal
+[2023-07-05 01:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-aqt
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230630133613] Old Version: [1.2.0.dev20230629203543]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-ft]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [vollseg-napari-trackmate]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230704233149] Old Version: [1.2.0.dev20230630133613]
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/c5/36/765b32bfec368c93e9d9ca141c27421ca121f2ec1ef209c46f0f946434b9/cirq-1.2.0.dev20230629203543-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/e9/50/7a42ad41c178015da8d679265a4d8564e07ad6bc205b943f3407b5d982ae/cirq_aqt-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/36/7b/2f3310a5560e8d0654c691dcdf8dc2ab49ffa8e3967c085e053b5783776b/cirq_web-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/4e/81/032afd0a971b8dc113ac0b8aecd16e03af30dbe3e7050253a5388f505dce/cirq_ft-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/4d/96/b3b728aba0b0dec5016c5f888a048c1276a4ab0ba12c18c337728089744e/vollseg-napari-trackmate-2.2.8.tar.gz
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/a2/fa/8c652b4814364f5a26784cb82788ca73ec6e9ca6347746c2279b854c3da3/cirq_ionq-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/f4/e4/e7542bb8254da8ebcbb1da9ec0ac8734fb2a92306e603e688bcbd94b8d3d/cirq_pasqal-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/d8/8a/e557695ec47be440cdd46bb430cf4a042a47a2ee8a7c1c934b621ab7ca47/cirq_google-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/2b/9b/cda788adca6ebefc6130f24c87b9337429e884d378c042559fcd66b9e23b/cirq_core-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:50] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/e1/78/7188a9b8d6cd0c4ced6b0ab45e8b58c5bd07b7e55f6156dda7d91e6c104c/cirq_rigetti-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/36/a1/bc22ac86ef928163f1d78406b3a6e038aafadb54db446ad1f1151bc7ba60/cirq_aqt-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/a9/bd/477c6695ea086ac05b8f4f74ae378d18e87c510eb64c1292e27dbf76d4b1/cirq_ionq-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/0a/3b/477b1d11d54dd6212d1fc34033c2062f49ba0c44ee55a54f3ff6e8721a8e/cirq_ft-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/35/0e/6046af8a2eb115108f0bd8786bf8d7e55349be81faa11fbbe2b059ad9768/cirq_web-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/09/17/2845fadc82e37cc5fde2b419cc434eeb755d3ba8062cf1ca036b22a7a930/cirq-1.2.0.dev20230630133613-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/3c/d5/a6802a57dfbd094706ac55f2a95e4606068f2cce4a7013d479e3514dc203/cirq_google-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/c5/9e/437d457ffdd454f28262587cb93e75b077e5ec8f0af70b48e8129ed913a0/cirq_pasqal-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/3d/57/b74af1bad8314e36c1a465f5247565aeb4b574de930e0d7e88232b84d754/cirq_rigetti-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-aqt/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/33/3b/1cff6696b48bdfbe285cfe00054da6de997397c16d3dc0bef064a8eb521d/cirq_core-1.2.0.dev20230704233149-py3-none-any.whl
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230629203543-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230630133613-py3-none-any.whl.zip --markdown 20230705/c/cirq/1.2.0.dev20230629203543-1.2.0.dev20230630133613/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-ionq/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_ft-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-ft/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [vollseg-napari-trackmate]: Downloading https://files.pythonhosted.org/packages/c8/01/2f5ee784b16d4ffaef986523320f05b00ea325e404de5419b47fa899ea6e/vollseg-napari-trackmate-2.2.9.tar.gz
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-web/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-pasqal/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-rigetti/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-core/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230630133613-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230704233149-py3-none-any.whl.zip --markdown 20230705/c/cirq-google/1.2.0.dev20230630133613-1.2.0.dev20230704233149/diff.md --exclude *.pyd
+[2023-07-05 01:35:51] INFO root fetch - processPackages [vollseg-napari-trackmate]: executing diffoscope
+[2023-07-05 01:35:51] INFO root fetch - processPackages [vollseg-napari-trackmate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vollseg-napari-trackmate-2.2.8.tar.gz tmp/vollseg-napari-trackmate-2.2.9.tar.gz --markdown 20230705/v/vollseg-napari-trackmate/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-05 01:35:52] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230629203543-py3-none-any.whl.zip]
+[2023-07-05 01:35:52] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:52] INFO root fetch - processPackages [cirq]: Start processing: dry-scraper
+[2023-07-05 01:35:52] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-07-05 01:35:52] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:52] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:52] INFO root fetch - processPackages [cirq-aqt]: Start processing: testless-textanalyzer
+[2023-07-05 01:35:52] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-07-05 01:35:52] INFO root fetch - processPackages [dry-scraper]: New version: [0.1.8.6] Old Version: [0.1.8.5]
+[2023-07-05 01:35:52] INFO root fetch - processPackages [testless-textanalyzer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/2b/06/c555ef2d98840677ca1cb98018a6ca82dfe730fc57e123eb4e6d7da7415e/dry_scraper-0.1.8.5.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-ionq]: Start processing: imagecodecs
+[2023-07-05 01:35:53] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-07-05 01:35:53] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/18/dd/bf04be9fd0af7c71241e1ef6ba4bebb1bc41176cc23c1629d250a48e136a/testless_textanalyzer-0.1.2.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [imagecodecs]: New version: [2023.7.4] Old Version: [2023.3.16]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [dry-scraper]: Downloading https://files.pythonhosted.org/packages/67/f8/dbbf9993ab6afb862c3988c5b143789508f5f30aee12dc9ed700091cdb6e/dry_scraper-0.1.8.6.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-ft]: Start processing: tifffile
+[2023-07-05 01:35:53] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2023-07-05 01:35:53] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/67/d4/65d5bf07b091a827b4ecf1b866dbcae1dfa58521cf31ced67d2e1576c99b/testless_textanalyzer-0.1.3.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-web]: Start processing: binsync
+[2023-07-05 01:35:53] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-07-05 01:35:53] INFO root fetch - processPackages [dry-scraper]: executing diffoscope
+[2023-07-05 01:35:53] INFO root fetch - processPackages [dry-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dry_scraper-0.1.8.5.tar.gz tmp/dry_scraper-0.1.8.6.tar.gz --markdown 20230705/d/dry-scraper/0.1.8.5-0.1.8.6/diff.md --exclude *.pyd
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-rigetti]: Start processing: home-assistant-streamdeck-yaml
+[2023-07-05 01:35:53] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-07-05 01:35:53] INFO root fetch - processPackages [testless-textanalyzer]: executing diffoscope
+[2023-07-05 01:35:53] INFO root fetch - processPackages [testless-textanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_textanalyzer-0.1.2.tar.gz tmp/testless_textanalyzer-0.1.3.tar.gz --markdown 20230705/t/testless-textanalyzer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-05 01:35:53] INFO root fetch - processPackages [imagecodecs]: Downloading https://files.pythonhosted.org/packages/0a/63/c29f3e6677883f97a9988a31f61523b9a40b9fb00c10f1a99935403d3a32/imagecodecs-2023.3.16.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [binsync]: New version: [3.9.0] Old Version: [3.6.0]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [tifffile]: New version: [2023.7.4] Old Version: [2023.4.12]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [cirq-pasqal]: Start processing: jupyterlab-spellchecker
+[2023-07-05 01:35:53] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-07-05 01:35:53] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [jupyterlab-spellchecker]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/45/d6/79979cbf9a1d6e4bd3e36c619114e5c9d22d7c34cdecac3e17b41869273c/tifffile-2023.4.12.tar.gz
+[2023-07-05 01:35:53] WARNING root fetch - processPackages [imagecodecs]: Skipping package: exceeds size limit 22452941>=10485760
+[2023-07-05 01:35:53] INFO root fetch - processPackages [imagecodecs]: Start processing: meshwell
+[2023-07-05 01:35:53] INFO root fetch - main [MainThread]: End processing [imagecodecs] error
+[2023-07-05 01:35:53] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/41/ed/6955625418feda88463248efd6f96d8d07c9b8583ff33b756d7990f45186/binsync-3.6.0.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Downloading https://files.pythonhosted.org/packages/3f/b5/1f37f2fe3c71638b8f4c0ca1da7df4d8c4fad0858ef03b2cd5659565ed13/home_assistant_streamdeck_yaml-2023.7.1.tar.gz
+[2023-07-05 01:35:53] INFO root fetch - processPackages [meshwell]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 01:35:53] INFO root fetch - processPackages [jupyterlab-spellchecker]: Downloading https://files.pythonhosted.org/packages/ce/23/da76c102e3d424c439f4df1142a02c9c8ebf0df9c782e79bf39efa4af828/jupyterlab-spellchecker-0.7.2.tar.gz
+[2023-07-05 01:35:54] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/a4/86/564cf8e5e773a7f747ba79a6b40eed678e6e919a48f4b09d0c28444c36aa/tifffile-2023.7.4.tar.gz
+[2023-07-05 01:35:54] INFO root fetch - processPackages [meshwell]: Downloading https://files.pythonhosted.org/packages/6c/52/8441d4ac5f67ae40bd8de09f68e6e44b35b7aaf59fe2edf39de11df47f92/meshwell-0.0.2.tar.gz
+[2023-07-05 01:35:54] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Downloading https://files.pythonhosted.org/packages/28/bb/8d0560c54311e2da43495dcdc39553b74e3546743f4f08a1e35c08047784/home_assistant_streamdeck_yaml-2023.7.2.tar.gz
+[2023-07-05 01:35:54] INFO root fetch - processPackages [tifffile]: executing diffoscope
+[2023-07-05 01:35:54] INFO root fetch - processPackages [tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifffile-2023.4.12.tar.gz tmp/tifffile-2023.7.4.tar.gz --markdown 20230705/t/tifffile/2023.4.12-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 01:35:54] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/b6/86/bbec3dc5ab126a930960864b284c79d2c6cf4dea64e63b280ff2f2ecc9a8/binsync-3.9.0.tar.gz
+[2023-07-05 01:35:54] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.8.tar.gz]
+[2023-07-05 01:35:54] INFO root fetch - processPackages [vollseg-napari-trackmate]: Remove: archive file [/home/abi/fetcher/tmp/vollseg-napari-trackmate-2.2.9.tar.gz]
+[2023-07-05 01:35:54] INFO root fetch - main [MainThread]: End processing [vollseg-napari-trackmate]: success
+[2023-07-05 01:35:54] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: executing diffoscope
+[2023-07-05 01:35:54] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_streamdeck_yaml-2023.7.1.tar.gz tmp/home_assistant_streamdeck_yaml-2023.7.2.tar.gz --markdown 20230705/h/home-assistant-streamdeck-yaml/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-05 01:35:54] INFO root fetch - processPackages [testless-textanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/testless_textanalyzer-0.1.2.tar.gz]
+[2023-07-05 01:35:54] INFO root fetch - processPackages [testless-textanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/testless_textanalyzer-0.1.3.tar.gz]
+[2023-07-05 01:35:54] INFO root fetch - main [MainThread]: End processing [testless-textanalyzer]: success
+[2023-07-05 01:35:54] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.5.tar.gz]
+[2023-07-05 01:35:54] INFO root fetch - processPackages [dry-scraper]: Remove: archive file [/home/abi/fetcher/tmp/dry_scraper-0.1.8.6.tar.gz]
+[2023-07-05 01:35:54] INFO root fetch - main [MainThread]: End processing [dry-scraper]: success
+[2023-07-05 01:35:54] INFO root fetch - processPackages [meshwell]: Downloading https://files.pythonhosted.org/packages/41/d1/7fcf6838e45b79d0748377c69162bcba7a75362e89dc666d897dcde40781/meshwell-0.0.3.tar.gz
+[2023-07-05 01:35:54] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2023-07-05 01:35:54] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-3.6.0.tar.gz tmp/binsync-3.9.0.tar.gz --markdown 20230705/b/binsync/3.6.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-05 01:35:54] INFO root fetch - processPackages [meshwell]: executing diffoscope
+[2023-07-05 01:35:54] INFO root fetch - processPackages [meshwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshwell-0.0.2.tar.gz tmp/meshwell-0.0.3.tar.gz --markdown 20230705/m/meshwell/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 01:35:55] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:55] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:55] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-07-05 01:35:55] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_streamdeck_yaml-2023.7.1.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - processPackages [home-assistant-streamdeck-yaml]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_streamdeck_yaml-2023.7.2.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - main [MainThread]: End processing [home-assistant-streamdeck-yaml]: success
+[2023-07-05 01:35:55] INFO root fetch - processPackages [meshwell]: Remove: archive file [/home/abi/fetcher/tmp/meshwell-0.0.2.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - processPackages [meshwell]: Remove: archive file [/home/abi/fetcher/tmp/meshwell-0.0.3.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - main [MainThread]: End processing [meshwell]: success
+[2023-07-05 01:35:55] INFO root fetch - processPackages [jupyterlab-spellchecker]: Downloading https://files.pythonhosted.org/packages/24/46/68255d72a27633e1c66efcf48e19f573a1294ebc9bb472576690718772ab/jupyterlab-spellchecker-0.7.3.tar.gz
+[2023-07-05 01:35:55] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2023.4.12.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2023.7.4.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - main [MainThread]: End processing [tifffile]: success
+[2023-07-05 01:35:55] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-3.6.0.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-3.9.0.tar.gz]
+[2023-07-05 01:35:55] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2023-07-05 01:35:56] INFO root fetch - processPackages [jupyterlab-spellchecker]: executing diffoscope
+[2023-07-05 01:35:56] INFO root fetch - processPackages [jupyterlab-spellchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-spellchecker-0.7.2.tar.gz tmp/jupyterlab-spellchecker-0.7.3.tar.gz --markdown 20230705/j/jupyterlab-spellchecker/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-05 01:35:59] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230630133613-py3-none-any.whl.zip]
+[2023-07-05 01:35:59] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230704233149-py3-none-any.whl.zip]
+[2023-07-05 01:35:59] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-07-05 01:35:59] INFO root fetch - processPackages [jupyterlab-spellchecker]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-spellchecker-0.7.2.tar.gz]
+[2023-07-05 01:35:59] INFO root fetch - processPackages [jupyterlab-spellchecker]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-spellchecker-0.7.3.tar.gz]
+[2023-07-05 01:35:59] INFO root fetch - main [MainThread]: End processing [jupyterlab-spellchecker]: success
+[2023-07-05 01:35:59] INFO root fetch - main [MainThread]: Store serial: [18760448]
