@@ -890,3 +890,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:04:38] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230704.tar.gz]
 [2023-07-05 01:04:38] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2023-07-05 01:04:38] INFO root fetch - main [MainThread]: Store serial: [18760292]
+[2023-07-05 01:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760292]
+[2023-07-05 01:09:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 01:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfCropMargins
+[2023-07-05 01:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-python
+[2023-07-05 01:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-api-proxy
+[2023-07-05 01:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelbit
+[2023-07-05 01:09:47] WARNING root fetch - processPackages [metaphor-python]: Skipping, unable to determine old version
+[2023-07-05 01:09:47] INFO root fetch - main [MainThread]: End processing [metaphor-python] error
+[2023-07-05 01:09:47] INFO root fetch - processPackages [neon-api-proxy]: New version: [0.4.2a1] Old Version: [0.4.1a1]
+[2023-07-05 01:09:47] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-05 01:09:47] INFO root fetch - processPackages [pdfCropMargins]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 01:09:47] INFO root fetch - processPackages [neon-api-proxy]: Downloading https://files.pythonhosted.org/packages/b5/0b/b5feb71e8307f7420f50839fbd06c6e8f826e3a5ca057c87528fb5b457db/neon-api-proxy-0.4.1a1.tar.gz
+[2023-07-05 01:09:47] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-07-05 01:09:47] INFO root fetch - processPackages [pdfCropMargins]: Downloading https://files.pythonhosted.org/packages/02/5a/0a4f125ee1dbeb97f42e959544a5b3f13df1fd0e767fea7caf889ab981b1/pdfCropMargins-2.0.2-py2.py3-none-any.whl
+[2023-07-05 01:09:47] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-07-05 01:09:47] INFO root fetch - processPackages [neon-api-proxy]: Downloading https://files.pythonhosted.org/packages/ac/a7/4012b967ab31e7225447f2fedc091a1d41fb36f8c76c669337e8aba3ac1f/neon-api-proxy-0.4.2a1.tar.gz
+[2023-07-05 01:09:47] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-07-05 01:09:47] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230705/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-05 01:09:47] INFO root fetch - processPackages [neon-api-proxy]: executing diffoscope
+[2023-07-05 01:09:47] INFO root fetch - processPackages [neon-api-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-api-proxy-0.4.1a1.tar.gz tmp/neon-api-proxy-0.4.2a1.tar.gz --markdown 20230705/n/neon-api-proxy/0.4.1a1-0.4.2a1/diff.md --exclude *.pyd
+[2023-07-05 01:09:47] INFO root fetch - processPackages [pdfCropMargins]: Downloading https://files.pythonhosted.org/packages/92/ec/e5869bafd3d41243f7f9ed047fb073f9be1ca897b577bfafb15a36f9e433/pdfCropMargins-2.0.3-py2.py3-none-any.whl
+[2023-07-05 01:09:48] INFO root fetch - processPackages [pdfCropMargins]: executing diffoscope
+[2023-07-05 01:09:48] INFO root fetch - processPackages [pdfCropMargins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfCropMargins-2.0.2-py2.py3-none-any.whl.zip tmp/pdfCropMargins-2.0.3-py2.py3-none-any.whl.zip --markdown 20230705/p/pdfCropMargins/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 01:09:48] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-07-05 01:09:48] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-07-05 01:09:48] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-07-05 01:09:48] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon-api-proxy-0.4.1a1.tar.gz]
+[2023-07-05 01:09:48] INFO root fetch - processPackages [neon-api-proxy]: Remove: archive file [/home/abi/fetcher/tmp/neon-api-proxy-0.4.2a1.tar.gz]
+[2023-07-05 01:09:48] INFO root fetch - main [MainThread]: End processing [neon-api-proxy]: success
+[2023-07-05 01:09:49] INFO root fetch - processPackages [pdfCropMargins]: Remove: archive file [/home/abi/fetcher/tmp/pdfCropMargins-2.0.2-py2.py3-none-any.whl.zip]
+[2023-07-05 01:09:49] INFO root fetch - processPackages [pdfCropMargins]: Remove: archive file [/home/abi/fetcher/tmp/pdfCropMargins-2.0.3-py2.py3-none-any.whl.zip]
+[2023-07-05 01:09:49] INFO root fetch - main [MainThread]: End processing [pdfCropMargins]: success
+[2023-07-05 01:09:49] INFO root fetch - main [MainThread]: Store serial: [18760314]
