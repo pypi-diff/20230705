@@ -923,3 +923,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:09:49] INFO root fetch - processPackages [pdfCropMargins]: Remove: archive file [/home/abi/fetcher/tmp/pdfCropMargins-2.0.3-py2.py3-none-any.whl.zip]
 [2023-07-05 01:09:49] INFO root fetch - main [MainThread]: End processing [pdfCropMargins]: success
 [2023-07-05 01:09:49] INFO root fetch - main [MainThread]: Store serial: [18760314]
+[2023-07-05 01:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760314]
+[2023-07-05 01:14:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-05 01:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinytuya
+[2023-07-05 01:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ormlite
+[2023-07-05 01:14:57] INFO root fetch - processPackages [ormlite]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 01:14:57] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/71/51/162ac37dedc79c5948d4c4df646ce9753818f2a201f98316d2b4be270261/ormlite-0.1.0.tar.gz
+[2023-07-05 01:14:57] INFO root fetch - processPackages [tinytuya]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 01:14:58] INFO root fetch - processPackages [ormlite]: Downloading https://files.pythonhosted.org/packages/f3/a6/8d906c6f73bb70f364ea6782af16df0f32ae0483e5af742e0036836d44c6/ormlite-0.1.1.tar.gz
+[2023-07-05 01:14:58] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/22/7d/9d5fa82f83de2bc3db572f4410c55462fbeac68779f13c61ab259b930b3b/tinytuya-1.9.0-py2.py3-none-any.whl
+[2023-07-05 01:14:58] INFO root fetch - processPackages [ormlite]: executing diffoscope
+[2023-07-05 01:14:58] INFO root fetch - processPackages [ormlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormlite-0.1.0.tar.gz tmp/ormlite-0.1.1.tar.gz --markdown 20230705/o/ormlite/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 01:14:58] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/6b/dd/19d76df53a7c336d3c501f30b519cec78154f50351414491f01fa4ea7c75/tinytuya-1.9.1-py2.py3-none-any.whl
+[2023-07-05 01:14:58] INFO root fetch - processPackages [tinytuya]: executing diffoscope
+[2023-07-05 01:14:58] INFO root fetch - processPackages [tinytuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip --markdown 20230705/t/tinytuya/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 01:14:59] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.1.0.tar.gz]
+[2023-07-05 01:14:59] INFO root fetch - processPackages [ormlite]: Remove: archive file [/home/abi/fetcher/tmp/ormlite-0.1.1.tar.gz]
+[2023-07-05 01:14:59] INFO root fetch - main [MainThread]: End processing [ormlite]: success
+[2023-07-05 01:14:59] INFO root fetch - processPackages [tinytuya]: Remove: archive file [/home/abi/fetcher/tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip]
+[2023-07-05 01:14:59] INFO root fetch - processPackages [tinytuya]: Remove: archive file [/home/abi/fetcher/tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip]
+[2023-07-05 01:14:59] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
+[2023-07-05 01:14:59] INFO root fetch - main [MainThread]: Store serial: [18760317]
