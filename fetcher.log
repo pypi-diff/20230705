@@ -704,3 +704,189 @@
 [2023-07-05 00:59:25] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.3.0.tar.gz]
 [2023-07-05 00:59:25] INFO root fetch - main [MainThread]: End processing [awkward]: success
 [2023-07-05 00:59:25] INFO root fetch - main [MainThread]: Store serial: [18760261]
+[2023-07-05 01:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760261]
+[2023-07-05 01:04:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-local-features
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-grasshopper-core
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raspberrypi-control
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dongwha-datalab
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: isolate-proto
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-grasshopper
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-screening
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fal-serverless
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-07-05 01:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flwr-nightly
+[2023-07-05 01:04:34] INFO root fetch - processPackages [easy-local-features]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [isolate-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [crypto-screening]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [dongwha-datalab]: New version: [0.0.0.22] Old Version: [0.0.0.21]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [raspberrypi-control]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [honeybee-grasshopper-core]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230703] Old Version: [1.5.0.dev20230630]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [fal-serverless]: New version: [0.6.37] Old Version: [0.6.36]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230704] Old Version: [0.7.0b20230703]
+[2023-07-05 01:04:34] INFO root fetch - processPackages [raspberrypi-control]: Downloading https://files.pythonhosted.org/packages/2a/8f/1d2341f3c84734ba848184ea2c31545227e07d4def6a62d4fecea7d2aada/raspberrypi_control-2.0.2.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/7c/08/a86a0757d62331c01439fcbbe56d263191c77c1b8976cd070c5f95f67e1a/flwr_nightly-1.5.0.dev20230630.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/d6/54/34730d13b5feb5b7694196cfa7ee61b1413a8ae0c1c30e7c00826e0b720b/crypto-screening-1.9.1.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/ac/d5/00d904b6e902d82b33e3af60d2612c7e74dea91a3152ab1ba1d204ed7aec/fal_serverless-0.6.36.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/fa/8a/f2719791cdda1843c75d559893bcfbee60dc9548d47a6c7ebbc5ca17efe1/isolate_proto-0.0.8.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/6c/42/fd32a5be80546e542044069fbd1a29646e7c549b924caaa94294437dd89b/tmnt-cu101-0.7.0b20230703.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/30/e6/3685f99cfd36f45ae30b5ab732ec26ae4730b99648a47480cf683b1142a4/lbt-grasshopper-1.6.8.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/dd/d6/3b3abfa3b12dfda67cfa235516e43b1ca5ddc20bca7922bc5b0bfce5ff8e/easy_local_features-0.3.0.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [honeybee-grasshopper-core]: Downloading https://files.pythonhosted.org/packages/ac/e4/eea858d9e1db52a66889fbc651df5778c83ca0b7375070416b3584cbcc93/honeybee-grasshopper-core-1.9.0.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/47/af/e4e924c6d257dbed9f593415f21e6a944a23580cfd10a83714663983dbfd/crypto-screening-1.9.2.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [raspberrypi-control]: Downloading https://files.pythonhosted.org/packages/85/33/55b785ede062abef62a3f9e8be31aff106c0a4b933a5d7ddb849a16588d5/raspberrypi_control-2.0.3.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/5f/89/d95dc6416f0a5bed49e779dc08591f10db187c578080072666c350abb851/flwr_nightly-1.5.0.dev20230703.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [dongwha-datalab]: Downloading https://files.pythonhosted.org/packages/7c/c9/ccff5b84ed6df8eef19d8f69ada00cdc1b91ac0926e8987b66fe294ce364/dongwha_datalab-0.0.0.22-py3-none-any.whl
+[2023-07-05 01:04:34] INFO root fetch - processPackages [isolate-proto]: Downloading https://files.pythonhosted.org/packages/b8/c1/616d33b533bec635af64d61f363188d18ee72950aa1fc3bf02c5073168cf/isolate_proto-0.0.9.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/cf/91/6338d59fa4604f07a2bdbc94a4dd6753ed3e9cb47ac677e89f4b5f654ab5/easy_local_features-0.3.1.tar.gz
+[2023-07-05 01:04:34] INFO root fetch - processPackages [fal-serverless]: Downloading https://files.pythonhosted.org/packages/55/64/083f679ad95ef6e1962b13c470940fb8e5a8db1aa7a0d96bd0c1c876c766/fal_serverless-0.6.37.tar.gz
+[2023-07-05 01:04:35] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.9.1.tar.gz tmp/crypto-screening-1.9.2.tar.gz --markdown 20230705/c/crypto-screening/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [raspberrypi-control]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [raspberrypi-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspberrypi_control-2.0.2.tar.gz tmp/raspberrypi_control-2.0.3.tar.gz --markdown 20230705/r/raspberrypi-control/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ef/07/5a3568416a1abee51cf225d712dba0e6f8cb32fd185f614423426c6e02fe/tmnt-cu101-0.7.0b20230704.tar.gz
+[2023-07-05 01:04:35] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230630.tar.gz tmp/flwr_nightly-1.5.0.dev20230703.tar.gz --markdown 20230705/f/flwr-nightly/1.5.0.dev20230630-1.5.0.dev20230703/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.3.0.tar.gz tmp/easy_local_features-0.3.1.tar.gz --markdown 20230705/e/easy-local-features/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [fal-serverless]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [fal-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fal_serverless-0.6.36.tar.gz tmp/fal_serverless-0.6.37.tar.gz --markdown 20230705/f/fal-serverless/0.6.36-0.6.37/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [isolate-proto]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [isolate-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isolate_proto-0.0.8.tar.gz tmp/isolate_proto-0.0.9.tar.gz --markdown 20230705/i/isolate-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [dongwha-datalab]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [dongwha-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dongwha_datalab-0.0.0.21-py3-none-any.whl.zip tmp/dongwha_datalab-0.0.0.22-py3-none-any.whl.zip --markdown 20230705/d/dongwha-datalab/0.0.0.21-0.0.0.22/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [honeybee-grasshopper-core]: Downloading https://files.pythonhosted.org/packages/9f/d3/178ae65f9205bae55d153ddf7bded46daea544a32ff51fb34d6715864dae/honeybee-grasshopper-core-1.9.1.tar.gz
+[2023-07-05 01:04:35] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230703.tar.gz tmp/tmnt-cu101-0.7.0b20230704.tar.gz --markdown 20230705/t/tmnt-cu101/0.7.0b20230703-0.7.0b20230704/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [honeybee-grasshopper-core]: executing diffoscope
+[2023-07-05 01:04:35] INFO root fetch - processPackages [honeybee-grasshopper-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-core-1.9.0.tar.gz tmp/honeybee-grasshopper-core-1.9.1.tar.gz --markdown 20230705/h/honeybee-grasshopper-core/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 01:04:35] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/24/e9/d155575f4d38b7ae3d21b6f6e0c4c34409ce3b7b0412b7e24694915ec0e0/lbt-grasshopper-1.6.9.tar.gz
+[2023-07-05 01:04:36] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2023-07-05 01:04:36] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.6.8.tar.gz tmp/lbt-grasshopper-1.6.9.tar.gz --markdown 20230705/l/lbt-grasshopper/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-07-05 01:04:36] INFO root fetch - processPackages [raspberrypi-control]: Remove: archive file [/home/abi/fetcher/tmp/raspberrypi_control-2.0.2.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [raspberrypi-control]: Remove: archive file [/home/abi/fetcher/tmp/raspberrypi_control-2.0.3.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [raspberrypi-control]: Start processing: tmnt
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [raspberrypi-control]: success
+[2023-07-05 01:04:36] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230704] Old Version: [0.7.0b20230703]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.8.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [isolate-proto]: Remove: archive file [/home/abi/fetcher/tmp/isolate_proto-0.0.9.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [isolate-proto]: success
+[2023-07-05 01:04:36] ERROR root fetch - processPackages [dongwha-datalab]: Diffoscope failed: time="2023-07-05T01:04:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid start byte
+
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [dongwha-datalab] error
+[2023-07-05 01:04:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.1.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.2.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-05 01:04:36] INFO root fetch - processPackages [fal-serverless]: Remove: archive file [/home/abi/fetcher/tmp/fal_serverless-0.6.36.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [fal-serverless]: Remove: archive file [/home/abi/fetcher/tmp/fal_serverless-0.6.37.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [fal-serverless]: success
+[2023-07-05 01:04:36] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/94/2e/b579b412efe097e2153e533ce42ed248e3ae0d491c771cbd6b237a15ad53/tmnt-0.7.0b20230703.tar.gz
+[2023-07-05 01:04:36] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.0.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.1.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-07-05 01:04:36] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230703.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230704.tar.gz]
+[2023-07-05 01:04:36] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-05 01:04:37] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230630.tar.gz]
+[2023-07-05 01:04:37] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230703.tar.gz]
+[2023-07-05 01:04:37] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-05 01:04:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/6d/d7/7cac0fd61df0fc6e8fa34f46fff16333e57e471182fac810999e10599bf8/tmnt-0.7.0b20230704.tar.gz
+[2023-07-05 01:04:37] INFO root fetch - processPackages [honeybee-grasshopper-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-core-1.9.0.tar.gz]
+[2023-07-05 01:04:37] INFO root fetch - processPackages [honeybee-grasshopper-core]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-core-1.9.1.tar.gz]
+[2023-07-05 01:04:37] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-core]: success
+[2023-07-05 01:04:37] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.8.tar.gz]
+[2023-07-05 01:04:37] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.6.9.tar.gz]
+[2023-07-05 01:04:37] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2023-07-05 01:04:37] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-05 01:04:37] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230703.tar.gz tmp/tmnt-0.7.0b20230704.tar.gz --markdown 20230705/t/tmnt/0.7.0b20230703-0.7.0b20230704/diff.md --exclude *.pyd
+[2023-07-05 01:04:38] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230703.tar.gz]
+[2023-07-05 01:04:38] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230704.tar.gz]
+[2023-07-05 01:04:38] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-05 01:04:38] INFO root fetch - main [MainThread]: Store serial: [18760292]
