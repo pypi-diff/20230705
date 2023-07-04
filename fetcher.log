@@ -1338,3 +1338,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:35:59] INFO root fetch - processPackages [jupyterlab-spellchecker]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-spellchecker-0.7.3.tar.gz]
 [2023-07-05 01:35:59] INFO root fetch - main [MainThread]: End processing [jupyterlab-spellchecker]: success
 [2023-07-05 01:35:59] INFO root fetch - main [MainThread]: Store serial: [18760448]
+[2023-07-05 01:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760448]
+[2023-07-05 01:41:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amplpy
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resfeci
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbmlutils
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentaskpy
+[2023-07-05 01:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyinstaller-hooks-contrib
+[2023-07-05 01:41:08] INFO root fetch - processPackages [sbmlutils]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-05 01:41:08] INFO root fetch - processPackages [resfeci]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-05 01:41:08] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-05 01:41:08] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-05 01:41:08] INFO root fetch - processPackages [opentaskpy]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-05 01:41:08] INFO root fetch - processPackages [swarms]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-05 01:41:08] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: New version: [2023.5] Old Version: [2023.4]
+[2023-07-05 01:41:08] INFO root fetch - processPackages [amplpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-05 01:41:09] INFO root fetch - processPackages [sbmlutils]: Downloading https://files.pythonhosted.org/packages/a7/23/ca5a4dafd1d2645efdca8e85610640601571cf74b39e8418cf810291b1db/sbmlutils-0.8.2.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/49/0f/3c80ed17e899326713427efbcfd2dadb72115e4c9ee3aa9266bff123cde4/resfeci-0.0.12.tar.gz
+[2023-07-05 01:41:09] WARNING root fetch - processPackages [sbmlutils]: Skipping package: exceeds size limit 25990660>=10485760
+[2023-07-05 01:41:09] INFO root fetch - main [MainThread]: End processing [sbmlutils] error
+[2023-07-05 01:41:09] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/95/1e/6b8dd6ec46cda589e45847dd943cee9ebe864c0966e9314a3e01546c9b9a/opentaskpy-0.8.1.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/b4/c6/81b12aeecddc1d7a2115d9bdcde08dc5b0a09e766e5c9b321e506ebee4dc/swarms-0.5.2.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Downloading https://files.pythonhosted.org/packages/ad/10/34d13a5a983a9bf1fc89cb27cf7f8cccf3d296176bb23db51c592600dce4/pyinstaller-hooks-contrib-2023.4.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/df/d0/91d8cc0bbf91db951b00a5005ee6bd85015a896b74551a7725d5152fe6a7/amplpy-0.9.2.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/fa/6a/a513b8e1f729c5864efc81865b7e5eb9964caf4561327ef0889b2f76ffc4/resfeci-0.0.13.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-05 01:41:09] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230705/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-05 01:41:09] INFO root fetch - processPackages [opentaskpy]: Downloading https://files.pythonhosted.org/packages/55/5e/e1649c92e39fa5463eee87af2417041582137708d256f1e8080e447c4950/opentaskpy-0.9.0.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a4/cf/6685c130c968cec84df8f1cd2e439443139f779d676cbb898f1e1a1356f3/swarms-0.5.3.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [resfeci]: executing diffoscope
+[2023-07-05 01:41:09] INFO root fetch - processPackages [resfeci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resfeci-0.0.12.tar.gz tmp/resfeci-0.0.13.tar.gz --markdown 20230705/r/resfeci/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-05 01:41:09] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Downloading https://files.pythonhosted.org/packages/7b/8c/135fd27cae5ea0bd5061dac882049977198943cdbc06fcbb8c417c25fba5/pyinstaller-hooks-contrib-2023.5.tar.gz
+[2023-07-05 01:41:09] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 01:41:09] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.2.tar.gz tmp/swarms-0.5.3.tar.gz --markdown 20230705/s/swarms/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-05 01:41:09] INFO root fetch - processPackages [opentaskpy]: executing diffoscope
+[2023-07-05 01:41:09] INFO root fetch - processPackages [opentaskpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentaskpy-0.8.1.tar.gz tmp/opentaskpy-0.9.0.tar.gz --markdown 20230705/o/opentaskpy/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 01:41:09] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: executing diffoscope
+[2023-07-05 01:41:09] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinstaller-hooks-contrib-2023.4.tar.gz tmp/pyinstaller-hooks-contrib-2023.5.tar.gz --markdown 20230705/p/pyinstaller-hooks-contrib/2023.4-2023.5/diff.md --exclude *.pyd
+[2023-07-05 01:41:09] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/cf/22/5b01cf9c3cc1a70c81f3fc27901121a544a5e75eea08a20c9953565ac9d2/amplpy-0.9.3.tar.gz
+[2023-07-05 01:41:10] INFO root fetch - processPackages [amplpy]: executing diffoscope
+[2023-07-05 01:41:10] INFO root fetch - processPackages [amplpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplpy-0.9.2.tar.gz tmp/amplpy-0.9.3.tar.gz --markdown 20230705/a/amplpy/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-05 01:41:10] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-05 01:41:10] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-05 01:41:10] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-05 01:41:10] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.12.tar.gz]
+[2023-07-05 01:41:10] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.13.tar.gz]
+[2023-07-05 01:41:10] INFO root fetch - main [MainThread]: End processing [resfeci]: success
+[2023-07-05 01:41:10] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.2.tar.gz]
+[2023-07-05 01:41:10] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.3.tar.gz]
+[2023-07-05 01:41:10] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 01:41:11] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.8.1.tar.gz]
+[2023-07-05 01:41:11] INFO root fetch - processPackages [opentaskpy]: Remove: archive file [/home/abi/fetcher/tmp/opentaskpy-0.9.0.tar.gz]
+[2023-07-05 01:41:11] INFO root fetch - main [MainThread]: End processing [opentaskpy]: success
+[2023-07-05 01:41:11] INFO root fetch - processPackages [amplpy]: Remove: archive file [/home/abi/fetcher/tmp/amplpy-0.9.2.tar.gz]
+[2023-07-05 01:41:11] INFO root fetch - processPackages [amplpy]: Remove: archive file [/home/abi/fetcher/tmp/amplpy-0.9.3.tar.gz]
+[2023-07-05 01:41:12] INFO root fetch - main [MainThread]: End processing [amplpy]: success
+[2023-07-05 01:41:12] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-hooks-contrib-2023.4.tar.gz]
+[2023-07-05 01:41:12] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-hooks-contrib-2023.5.tar.gz]
+[2023-07-05 01:41:12] INFO root fetch - main [MainThread]: End processing [pyinstaller-hooks-contrib]: success
+[2023-07-05 01:41:12] INFO root fetch - main [MainThread]: Store serial: [18760523]
