@@ -524,3 +524,20 @@
 [2023-07-05 00:38:34] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
 [2023-07-05 00:38:34] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-07-05 00:38:34] INFO root fetch - main [MainThread]: Store serial: [18760186]
+[2023-07-05 00:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760186]
+[2023-07-05 00:43:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-05 00:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bus-station
+[2023-07-05 00:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbmlutils
+[2023-07-05 00:43:44] INFO root fetch - processPackages [bus-station]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-07-05 00:43:44] INFO root fetch - processPackages [sbmlutils]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-05 00:43:44] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/01/b0/86592e5b90f934d96073ec32eac769e817efae4e405dd5e333a5e1634136/bus_station-6.1.0.tar.gz
+[2023-07-05 00:43:45] INFO root fetch - processPackages [sbmlutils]: Downloading https://files.pythonhosted.org/packages/c6/36/65807b91f5d44f9b100ff969fb5bfc4dc6e2b0464a51566ce8b2b5de5510/sbmlutils-0.8.1.tar.gz
+[2023-07-05 00:43:45] WARNING root fetch - processPackages [sbmlutils]: Skipping package: exceeds size limit 25979501>=10485760
+[2023-07-05 00:43:45] INFO root fetch - main [MainThread]: End processing [sbmlutils] error
+[2023-07-05 00:43:45] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/d1/67/5cdad8f6032ff9bcb864c361f972805d4592bb2e75309dae77949f9aec5c/bus_station-6.1.1.tar.gz
+[2023-07-05 00:43:45] INFO root fetch - processPackages [bus-station]: executing diffoscope
+[2023-07-05 00:43:45] INFO root fetch - processPackages [bus-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_station-6.1.0.tar.gz tmp/bus_station-6.1.1.tar.gz --markdown 20230705/b/bus-station/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-07-05 00:43:46] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.0.tar.gz]
+[2023-07-05 00:43:46] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.1.tar.gz]
+[2023-07-05 00:43:46] INFO root fetch - main [MainThread]: End processing [bus-station]: success
+[2023-07-05 00:43:46] INFO root fetch - main [MainThread]: Store serial: [18760189]
