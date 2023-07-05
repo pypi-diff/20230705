@@ -21720,3 +21720,210 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 17:00:47] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.6.dev2.tar.gz]
 [2023-07-05 17:00:47] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
 [2023-07-05 17:00:47] INFO root fetch - main [MainThread]: Store serial: [18768940]
+[2023-07-05 17:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768940]
+[2023-07-05 17:05:57] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dissect.evidence
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.executable
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dissect.extfs
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretix-cashpayment
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test1293
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.fat
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretflow
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secretflow-lite
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckms
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maisaedu-utilities-prefect
+[2023-07-05 17:05:57] INFO root fetch - processPackages [secretflow]: New version: [1.0.0b0] Old Version: [0.8.3b0]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.extfs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [pretix-cashpayment]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.fat]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.evidence]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ckms]: New version: [0.64.0] Old Version: [0.63.0]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.executable]: New version: [1.4.dev2] Old Version: [1.4.dev1]
+[2023-07-05 17:05:57] WARNING root fetch - processPackages [test1293]: Skipping, unable to determine old version
+[2023-07-05 17:05:57] INFO root fetch - processPackages [test1293]: Start processing: maisaedu-poormans-dms
+[2023-07-05 17:05:57] INFO root fetch - main [MainThread]: End processing [test1293] error
+[2023-07-05 17:05:57] INFO root fetch - processPackages [secretflow-lite]: New version: [1.0.0b0] Old Version: [0.8.3b0]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 17:05:57] INFO root fetch - processPackages [ckms]: Downloading https://files.pythonhosted.org/packages/29/b3/ca32794028b6cbf891329909f416c1acd1ed85e913f7c2bbafc30cf617fb/ckms-0.63.0.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.extfs]: Downloading https://files.pythonhosted.org/packages/b7/82/ad4712a0bd3fffdc4e73aebfea75748b8a021f939dfdd6e90acadcefb785/dissect.extfs-3.6.dev1.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [pretix-cashpayment]: Downloading https://files.pythonhosted.org/packages/d4/53/2c42f81c8d2f3dfedae3cad0fb2112ef3bbbb6d3bd39d7dfc32768e7d4ea/pretix-cashpayment-2.0.2.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/b0/26/aae937cb22b694b1b245eb71d56157200cc219542b04cbca0faf96615d6e/secretflow-0.8.3b0-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/a2/94/843e12b0a965aeeead1a2aade338ce9b9646e70075d67af07462279a8f17/dissect.executable-1.4.dev1.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/c6/bd/dc670da13a0b35c1b6133e7047e5aae899000c5fa6ec22389e433699339a/dissect.evidence-3.6.dev1.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/f7/3c/7eb7be9d703f397aaa54a4f3892405c0c9cd5be424d2404d47fd497c83d5/dissect.fat-3.6.dev1.tar.gz
+[2023-07-05 17:05:57] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/21/fb/d5aedaf18077d0af34cf632df25d2c88c965769a45cf569bfb1f7678cedc/secretflow_lite-0.8.3b0-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-05 17:05:57] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [ckms]: Downloading https://files.pythonhosted.org/packages/8e/fb/2f9f391b6532a19ff5c03a38fa10e6417f05c1b4929cd4b2480b58e6c3a9/ckms-0.64.0.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [pretix-cashpayment]: Downloading https://files.pythonhosted.org/packages/ed/bb/dd4ba7a6dd27f7984ab4973fbd5ff37e7cf15f2ed59d7ce36fdfa8e5fa4b/pretix-cashpayment-2.0.3.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.extfs]: Downloading https://files.pythonhosted.org/packages/21/63/69c4e2deef83a589d3d6de3ad3b173855be7182926a21fd672d70110cbf4/dissect.extfs-3.6.dev2.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.executable]: Downloading https://files.pythonhosted.org/packages/ec/a9/63c16eb7217413cdf5f560448b60646a6079eef33c89707fdf465af50b5e/dissect.executable-1.4.dev2.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.evidence]: Downloading https://files.pythonhosted.org/packages/3f/ac/1c14aae71bafe0bf041c0ddb106b9049a88fd515ac42ff7f398f32b87ee8/dissect.evidence-3.6.dev2.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [ckms]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [ckms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckms-0.63.0.tar.gz tmp/ckms-0.64.0.tar.gz --markdown 20230705/c/ckms/0.63.0-0.64.0/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [pretix-cashpayment]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [pretix-cashpayment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-cashpayment-2.0.2.tar.gz tmp/pretix-cashpayment-2.0.3.tar.gz --markdown 20230705/p/pretix-cashpayment/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.fat]: Downloading https://files.pythonhosted.org/packages/ec/a5/731da985605c00f7924ab132df0647588477ba38e7c6e657857588b2dc60/dissect.fat-3.6.dev2.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-07-05 17:05:58] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/0c/f8/d0f12045c66765943acb93f1b6cecaafa431af51d8ae4af385ac650b15ec/secretflow_lite-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.extfs]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.extfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.extfs-3.6.dev1.tar.gz tmp/dissect.extfs-3.6.dev2.tar.gz --markdown 20230705/d/dissect.extfs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.executable]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.executable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.executable-1.4.dev1.tar.gz tmp/dissect.executable-1.4.dev2.tar.gz --markdown 20230705/d/dissect.executable/1.4.dev1-1.4.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230705/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.evidence]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.evidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.evidence-3.6.dev1.tar.gz tmp/dissect.evidence-3.6.dev2.tar.gz --markdown 20230705/d/dissect.evidence/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230705/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.fat]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [dissect.fat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.fat-3.6.dev1.tar.gz tmp/dissect.fat-3.6.dev2.tar.gz --markdown 20230705/d/dissect.fat/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:05:58] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/38/e1/812cc3fd8d354b324ced03d5f759b557da94b349f5d87788a8c339835f18/secretflow-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl
+[2023-07-05 17:05:58] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2023-07-05 17:05:58] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-0.8.3b0-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20230705/s/secretflow-lite/0.8.3b0-1.0.0b0/diff.md --exclude *.pyd
+[2023-07-05 17:05:59] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-07-05 17:05:59] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-0.8.3b0-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20230705/s/secretflow/0.8.3b0-1.0.0b0/diff.md --exclude *.pyd
+[2023-07-05 17:05:59] INFO root fetch - processPackages [pretix-cashpayment]: Remove: archive file [/home/abi/fetcher/tmp/pretix-cashpayment-2.0.2.tar.gz]
+[2023-07-05 17:05:59] INFO root fetch - processPackages [pretix-cashpayment]: Remove: archive file [/home/abi/fetcher/tmp/pretix-cashpayment-2.0.3.tar.gz]
+[2023-07-05 17:05:59] INFO root fetch - processPackages [pretix-cashpayment]: Start processing: cbra
+[2023-07-05 17:05:59] INFO root fetch - main [MainThread]: End processing [pretix-cashpayment]: success
+[2023-07-05 17:06:00] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a99]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.executable]: Remove: archive file [/home/abi/fetcher/tmp/dissect.executable-1.4.dev1.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.executable]: Remove: archive file [/home/abi/fetcher/tmp/dissect.executable-1.4.dev2.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.executable]: Start processing: bridgecrew
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [dissect.executable]: success
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.extfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.extfs-3.6.dev1.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.extfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.extfs-3.6.dev2.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.extfs]: Start processing: 121twas
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [dissect.extfs]: success
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: dissect.ffs
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-07-05 17:06:00] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: h21ak9-42f821
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-07-05 17:06:00] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/af/88/3a153e5aa2b82ead874b96b5f03840a68acf0a2fd0a8e77b0e770c40e5a0/cbra-2.0.0a99.tar.gz
+[2023-07-05 17:06:00] WARNING root fetch - processPackages [121twas]: Skipping, unable to determine old version
+[2023-07-05 17:06:00] INFO root fetch - processPackages [121twas]: Start processing: event-model
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [121twas] error
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.evidence]: Remove: archive file [/home/abi/fetcher/tmp/dissect.evidence-3.6.dev1.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.evidence]: Remove: archive file [/home/abi/fetcher/tmp/dissect.evidence-3.6.dev2.tar.gz]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.evidence]: Start processing: maximus
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [dissect.evidence]: success
+[2023-07-05 17:06:00] WARNING root fetch - processPackages [h21ak9-42f821]: Skipping, unable to determine old version
+[2023-07-05 17:06:00] INFO root fetch - processPackages [h21ak9-42f821]: Start processing: openoligo
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [h21ak9-42f821] error
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.ffs]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [openoligo]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [event-model]: New version: [1.9.0a3] Old Version: [1.9.0a2]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-05 17:06:00] WARNING root fetch - processPackages [maximus]: Skipping, unable to determine old version
+[2023-07-05 17:06:00] INFO root fetch - processPackages [maximus]: Start processing: etherbase-predeployed
+[2023-07-05 17:06:00] INFO root fetch - main [MainThread]: End processing [maximus] error
+[2023-07-05 17:06:00] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/7a/f6/de520b40f0636f94826db47f098f77df60e46417b02f38e37be246e4ad22/openoligo-0.1.5.tar.gz
+[2023-07-05 17:06:00] INFO root fetch - processPackages [etherbase-predeployed]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-07-05 17:06:00] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/e5/e9/c0a4b6caef484327b602e40690e2c579120363e7262ece047ca892406f52/dissect.ffs-3.6.dev1.tar.gz
+[2023-07-05 17:06:00] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/51/21/b929f05a9c58146b2f29c0797c3ff99adef6ce1de0f05470ac5076d248fc/etherbase-predeployed-1.1.0b2.tar.gz
+[2023-07-05 17:06:00] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/99/ee/42e07110de4632fbb07b21d5e2137eb8cd05b20958b88fd1353c88310172/event-model-1.9.0a2.tar.gz
+[2023-07-05 17:06:00] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/e3/30/881c6ff6126ad5e84aee92c87271280498b0d03f3c7ad7ca93e0e0fd381b/cbra-3.0.0a7.tar.gz
+[2023-07-05 17:06:01] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-05 17:06:01] INFO root fetch - processPackages [etherbase-predeployed]: Downloading https://files.pythonhosted.org/packages/3d/3d/9e8a9263aced10d2e82058dcb79e0685a5e6db3102a640656eebcfc6a889/etherbase-predeployed-1.1.0b3.tar.gz
+[2023-07-05 17:06:01] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-07-05 17:06:01] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a99.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230705/c/cbra/2.0.0a99-3.0.0a7/diff.md --exclude *.pyd
+[2023-07-05 17:06:01] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/8c/de/efd96d1352d9f6797636b9d3547a1fd6fdec7f8d01958420141b6e3553db/openoligo-0.1.6.tar.gz
+[2023-07-05 17:06:01] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-05 17:06:01] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230705/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-05 17:06:01] INFO root fetch - processPackages [openoligo]: executing diffoscope
+[2023-07-05 17:06:01] INFO root fetch - processPackages [openoligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openoligo-0.1.5.tar.gz tmp/openoligo-0.1.6.tar.gz --markdown 20230705/o/openoligo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 17:06:01] INFO root fetch - processPackages [event-model]: Downloading https://files.pythonhosted.org/packages/0f/6e/02fa17189113f1bef88703ae97792f1e2ebeef32a91ac72031c979e58f6e/event-model-1.9.0a3.tar.gz
+[2023-07-05 17:06:01] INFO root fetch - processPackages [dissect.ffs]: Downloading https://files.pythonhosted.org/packages/8a/f7/3f95094722d42aa41ec1e875797ce4afbab2d02eb3bf16a1557b7b743a94/dissect.ffs-3.6.dev2.tar.gz
+[2023-07-05 17:06:01] INFO root fetch - processPackages [etherbase-predeployed]: executing diffoscope
+[2023-07-05 17:06:01] INFO root fetch - processPackages [etherbase-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etherbase-predeployed-1.1.0b2.tar.gz tmp/etherbase-predeployed-1.1.0b3.tar.gz --markdown 20230705/e/etherbase-predeployed/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-07-05 17:06:01] INFO root fetch - processPackages [event-model]: executing diffoscope
+[2023-07-05 17:06:01] INFO root fetch - processPackages [event-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-model-1.9.0a2.tar.gz tmp/event-model-1.9.0a3.tar.gz --markdown 20230705/e/event-model/1.9.0a2-1.9.0a3/diff.md --exclude *.pyd
+[2023-07-05 17:06:01] INFO root fetch - processPackages [dissect.ffs]: executing diffoscope
+[2023-07-05 17:06:01] INFO root fetch - processPackages [dissect.ffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.ffs-3.6.dev1.tar.gz tmp/dissect.ffs-3.6.dev2.tar.gz --markdown 20230705/d/dissect.ffs/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:06:01] INFO root fetch - processPackages [ckms]: Remove: archive file [/home/abi/fetcher/tmp/ckms-0.63.0.tar.gz]
+[2023-07-05 17:06:01] INFO root fetch - processPackages [ckms]: Remove: archive file [/home/abi/fetcher/tmp/ckms-0.64.0.tar.gz]
+[2023-07-05 17:06:01] INFO root fetch - processPackages [ckms]: Start processing: aliyun-python-sdk-rds
+[2023-07-05 17:06:01] INFO root fetch - main [MainThread]: End processing [ckms]: success
+[2023-07-05 17:06:01] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-05 17:06:01] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-05 17:06:02] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-05 17:06:02] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-05 17:06:02] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230705/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-05 17:06:02] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.5.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.6.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [openoligo]: Start processing: predeployed-generator
+[2023-07-05 17:06:02] INFO root fetch - main [MainThread]: End processing [openoligo]: success
+[2023-07-05 17:06:02] INFO root fetch - processPackages [predeployed-generator]: New version: [1.2.0b0] Old Version: [1.2.0a5]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b2.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [etherbase-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/etherbase-predeployed-1.1.0b3.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [etherbase-predeployed]: Start processing: cushy-storage
+[2023-07-05 17:06:02] INFO root fetch - main [MainThread]: End processing [etherbase-predeployed]: success
+[2023-07-05 17:06:02] INFO root fetch - processPackages [dissect.fat]: Remove: archive file [/home/abi/fetcher/tmp/dissect.fat-3.6.dev1.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [dissect.fat]: Remove: archive file [/home/abi/fetcher/tmp/dissect.fat-3.6.dev2.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [bridgecrew]: Start processing: git-remote-oracle
+[2023-07-05 17:06:02] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-05 17:06:02] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/4b/ac/8dba0475a1323d9493c36ed9019331d4c450df2278c6b3c0ed9aa97cfbd7/predeployed-generator-1.2.0a5.tar.gz
+[2023-07-05 17:06:02] INFO root fetch - processPackages [dissect.fat]: Start processing: ibis-framework
+[2023-07-05 17:06:02] INFO root fetch - main [MainThread]: End processing [dissect.fat]: success
+[2023-07-05 17:06:02] INFO root fetch - processPackages [cushy-storage]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a2.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [event-model]: Remove: archive file [/home/abi/fetcher/tmp/event-model-1.9.0a3.tar.gz]
+[2023-07-05 17:06:02] INFO root fetch - processPackages [event-model]: Start processing: ebook-converter-noimage
+[2023-07-05 17:06:02] INFO root fetch - main [MainThread]: End processing [event-model]: success
+[2023-07-05 17:06:03] WARNING root fetch - processPackages [ebook-converter-noimage]: Skipping, unable to determine old version
+[2023-07-05 17:06:03] INFO root fetch - main [MainThread]: End processing [ebook-converter-noimage] error
+[2023-07-05 17:06:03] INFO root fetch - processPackages [git-remote-oracle]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 17:06:03] INFO root fetch - processPackages [ibis-framework]: New version: [v0.6.0] Old Version: [6.0.0]
+[2023-07-05 17:06:03] INFO root fetch - processPackages [cushy-storage]: Downloading https://files.pythonhosted.org/packages/95/be/fafae64cf7bb07f37be4e4558ad65f9e9807985e8b57310beb97fbdbe251/cushy-storage-1.2.2.tar.gz
+[2023-07-05 17:06:03] INFO root fetch - processPackages [predeployed-generator]: Downloading https://files.pythonhosted.org/packages/59/ef/5f573c87d7f02a698ddc62e7e1e527193e405ec0dc0c71dff8fe3827eed8/predeployed-generator-1.2.0b0.tar.gz
+[2023-07-05 17:06:03] INFO root fetch - processPackages [dissect.ffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ffs-3.6.dev1.tar.gz]
+[2023-07-05 17:06:03] INFO root fetch - processPackages [dissect.ffs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.ffs-3.6.dev2.tar.gz]
+[2023-07-05 17:06:03] INFO root fetch - main [MainThread]: End processing [dissect.ffs]: success
+[2023-07-05 17:06:03] INFO root fetch - processPackages [git-remote-oracle]: Downloading https://files.pythonhosted.org/packages/dc/97/f55ecd727f692a663a8b60c9e0f51bd02c33055747378f65a6beaee3767e/git_remote_oracle-0.0.1.tar.gz
+[2023-07-05 17:06:03] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/ee/5c/ae3e619a433850d5b0b8b5cb2bee9f187591cb92eb707e4b9d5000ba1d42/ibis_framework-6.0.0.tar.gz
+[2023-07-05 17:06:03] INFO root fetch - processPackages [predeployed-generator]: executing diffoscope
+[2023-07-05 17:06:03] INFO root fetch - processPackages [predeployed-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predeployed-generator-1.2.0a5.tar.gz tmp/predeployed-generator-1.2.0b0.tar.gz --markdown 20230705/p/predeployed-generator/1.2.0a5-1.2.0b0/diff.md --exclude *.pyd
+[2023-07-05 17:06:03] INFO root fetch - processPackages [cushy-storage]: Downloading https://files.pythonhosted.org/packages/3b/e9/d8cf8e16bb0a27255c41aad664cf8a219ee040acc103b33f8931e88ccc22/cushy-storage-1.2.3.tar.gz
+[2023-07-05 17:06:03] INFO root fetch - processPackages [git-remote-oracle]: Downloading https://files.pythonhosted.org/packages/09/4d/825be954959ec35da3a216b87b2f7a229c47b5e00a1d1eee694340d4d3e0/git_remote_oracle-0.0.2.tar.gz
+[2023-07-05 17:06:03] INFO root fetch - processPackages [cushy-storage]: executing diffoscope
+[2023-07-05 17:06:03] INFO root fetch - processPackages [cushy-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cushy-storage-1.2.2.tar.gz tmp/cushy-storage-1.2.3.tar.gz --markdown 20230705/c/cushy-storage/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-05 17:06:03] INFO root fetch - processPackages [git-remote-oracle]: executing diffoscope
+[2023-07-05 17:06:03] INFO root fetch - processPackages [git-remote-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_remote_oracle-0.0.1.tar.gz tmp/git_remote_oracle-0.0.2.tar.gz --markdown 20230705/g/git-remote-oracle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 17:06:03] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/0b/3d/fbf4278e9e436717a6fe476a81d1abec511869bba1cf642b601472bf6408/ibis-framework-v0.6.0.tar.gz
+[2023-07-05 17:06:04] INFO root fetch - processPackages [ibis-framework]: executing diffoscope
+[2023-07-05 17:06:04] INFO root fetch - processPackages [ibis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis_framework-6.0.0.tar.gz tmp/ibis-framework-v0.6.0.tar.gz --markdown 20230705/i/ibis-framework/6.0.0-v0.6.0/diff.md --exclude *.pyd
+[2023-07-05 17:06:04] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0a5.tar.gz]
+[2023-07-05 17:06:04] INFO root fetch - processPackages [predeployed-generator]: Remove: archive file [/home/abi/fetcher/tmp/predeployed-generator-1.2.0b0.tar.gz]
+[2023-07-05 17:06:04] INFO root fetch - main [MainThread]: End processing [predeployed-generator]: success
+[2023-07-05 17:06:05] INFO root fetch - processPackages [cushy-storage]: Remove: archive file [/home/abi/fetcher/tmp/cushy-storage-1.2.2.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - processPackages [cushy-storage]: Remove: archive file [/home/abi/fetcher/tmp/cushy-storage-1.2.3.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - main [MainThread]: End processing [cushy-storage]: success
+[2023-07-05 17:06:05] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-2.0.0a99.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - processPackages [cbra]: Remove: archive file [/home/abi/fetcher/tmp/cbra-3.0.0a7.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-07-05 17:06:05] INFO root fetch - processPackages [git-remote-oracle]: Remove: archive file [/home/abi/fetcher/tmp/git_remote_oracle-0.0.1.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - processPackages [git-remote-oracle]: Remove: archive file [/home/abi/fetcher/tmp/git_remote_oracle-0.0.2.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - main [MainThread]: End processing [git-remote-oracle]: success
+[2023-07-05 17:06:05] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-05 17:06:05] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-05 17:06:07] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis_framework-6.0.0.tar.gz]
+[2023-07-05 17:06:07] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
+[2023-07-05 17:06:07] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
+[2023-07-05 17:06:09] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-0.8.3b0-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-05 17:06:09] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-05 17:06:09] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2023-07-05 17:06:09] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-0.8.3b0-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-05 17:06:09] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-07-05 17:06:09] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-07-05 17:06:09] INFO root fetch - main [MainThread]: Store serial: [18769021]
