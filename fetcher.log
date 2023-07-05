@@ -13829,3 +13829,108 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:55:01] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.9.tar.gz]
 [2023-07-05 11:55:01] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
 [2023-07-05 11:55:01] INFO root fetch - main [MainThread]: Store serial: [18765499]
+[2023-07-05 12:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765499]
+[2023-07-05 12:00:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 12:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvfuser-cu121
+[2023-07-05 12:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu118
+[2023-07-05 12:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antm
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elf-rss
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu117
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-feeder
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: courtvision
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cycode
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: remoulade
+[2023-07-05 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: windmill-api
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-05 12:00:11] WARNING root fetch - processPackages [json-feeder]: Skipping, unable to determine old version
+[2023-07-05 12:00:11] INFO root fetch - processPackages [json-feeder]: Start processing: wmill
+[2023-07-05 12:00:11] INFO root fetch - main [MainThread]: End processing [json-feeder] error
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [antm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [elf-rss]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 12:00:11] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev6] Old Version: [0.2.6.dev5]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [courtvision]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [remoulade]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 12:00:11] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [elf-rss]: Downloading https://files.pythonhosted.org/packages/3e/75/a4e0b69cb25d056f992c0e3b3610eb7e2494b635c1ed764dad4b09716af3/ELF_RSS-2.6.8.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/56/db/283f7abd040472bd5101b171b2836fe81e4cdd3d7fd75cb37baf65dcced1/remoulade-1.2.3.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [courtvision]: Downloading https://files.pythonhosted.org/packages/de/c2/13b295e3b93fbb72a9ad99c059e9b4528ffbc864b6ff1f16ebe7e9f8a5ae/courtvision-0.1.0-py3-none-any.whl
+[2023-07-05 12:00:11] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/2a/c2/0028a65e943aa6a0eac876661e56ba585678ee1aacbeb26bec647209b5d0/cycode-0.2.6.dev5.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [antm]: Downloading https://files.pythonhosted.org/packages/3f/9a/af101837e8785d87faee729abef23e2a36f91ab8844c44ba812fb07e210b/antm-0.1.1.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-07-05 12:00:11] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 12:00:12] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [courtvision]: Downloading https://files.pythonhosted.org/packages/d4/44/74566ae28ee32c4ff8f46269e56c4a7cffc479ddbab3c78d6bea67bed57d/courtvision-0.2.0-py3-none-any.whl
+[2023-07-05 12:00:12] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230705/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [remoulade]: Downloading https://files.pythonhosted.org/packages/4f/db/55fc1ab2bbd41cd702aaf40c71961708034267162e43aa9c5a58d068f7fe/remoulade-1.2.4.tar.gz
+[2023-07-05 12:00:12] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230705/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/2b/81/340955ccdd3414da21085ec1eb73fc2958d65c129fb4fa6d633fa9c5fbc7/cycode-0.2.6.dev6.tar.gz
+[2023-07-05 12:00:12] INFO root fetch - processPackages [antm]: Downloading https://files.pythonhosted.org/packages/8a/a0/a3a5f3d7ebdc8cef36be36bff1882404e750a04131bfe3b1b131fff29866/antm-0.1.2.tar.gz
+[2023-07-05 12:00:12] INFO root fetch - processPackages [elf-rss]: Downloading https://files.pythonhosted.org/packages/70/59/5e0d1330a8cfbe4f1140944026566b8b2b3a33dbc4968f545b440466be90/ELF_RSS-2.6.9.tar.gz
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [courtvision]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [courtvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/courtvision-0.1.0-py3-none-any.whl.zip tmp/courtvision-0.2.0-py3-none-any.whl.zip --markdown 20230705/c/courtvision/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [remoulade]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [remoulade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remoulade-1.2.3.tar.gz tmp/remoulade-1.2.4.tar.gz --markdown 20230705/r/remoulade/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev5.tar.gz tmp/cycode-0.2.6.dev6.tar.gz --markdown 20230705/c/cycode/0.2.6.dev5-0.2.6.dev6/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [antm]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [antm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antm-0.1.1.tar.gz tmp/antm-0.1.2.tar.gz --markdown 20230705/a/antm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 12:00:12] INFO root fetch - processPackages [elf-rss]: executing diffoscope
+[2023-07-05 12:00:12] INFO root fetch - processPackages [elf-rss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ELF_RSS-2.6.8.tar.gz tmp/ELF_RSS-2.6.9.tar.gz --markdown 20230705/e/elf-rss/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-07-05 12:00:13] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-05 12:00:13] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-05 12:00:13] INFO root fetch - processPackages [wmill]: Start processing: wmill-pg
+[2023-07-05 12:00:13] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-05 12:00:13] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 12:00:14] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-07-05 12:00:14] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-07-05 12:00:14] INFO root fetch - processPackages [courtvision]: Remove: archive file [/home/abi/fetcher/tmp/courtvision-0.1.0-py3-none-any.whl.zip]
+[2023-07-05 12:00:14] INFO root fetch - processPackages [courtvision]: Remove: archive file [/home/abi/fetcher/tmp/courtvision-0.2.0-py3-none-any.whl.zip]
+[2023-07-05 12:00:14] INFO root fetch - main [MainThread]: End processing [courtvision]: success
+[2023-07-05 12:00:14] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-05 12:00:14] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230705/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 12:00:14] INFO root fetch - processPackages [antm]: Remove: archive file [/home/abi/fetcher/tmp/antm-0.1.1.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - processPackages [antm]: Remove: archive file [/home/abi/fetcher/tmp/antm-0.1.2.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - main [MainThread]: End processing [antm]: success
+[2023-07-05 12:00:14] INFO root fetch - processPackages [elf-rss]: Remove: archive file [/home/abi/fetcher/tmp/ELF_RSS-2.6.8.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - processPackages [elf-rss]: Remove: archive file [/home/abi/fetcher/tmp/ELF_RSS-2.6.9.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - main [MainThread]: End processing [elf-rss]: success
+[2023-07-05 12:00:14] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev5.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev6.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-05 12:00:14] INFO root fetch - processPackages [remoulade]: Remove: archive file [/home/abi/fetcher/tmp/remoulade-1.2.3.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - processPackages [remoulade]: Remove: archive file [/home/abi/fetcher/tmp/remoulade-1.2.4.tar.gz]
+[2023-07-05 12:00:14] INFO root fetch - main [MainThread]: End processing [remoulade]: success
+[2023-07-05 12:00:15] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 12:00:15] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 12:00:15] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-07-05 12:00:15] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 12:00:15] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 12:00:15] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-05 12:00:15] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 12:00:15] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 12:00:15] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-05 12:00:15] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-05 12:00:15] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-05 12:00:15] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-05 12:00:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-05 12:00:20] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-05 12:00:20] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-05 12:00:20] INFO root fetch - main [MainThread]: Store serial: [18765533]
