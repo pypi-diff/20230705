@@ -7729,3 +7729,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:06:43] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.5.tar.gz]
 [2023-07-05 06:06:43] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2023-07-05 06:06:43] INFO root fetch - main [MainThread]: Store serial: [18762768]
+[2023-07-05 06:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762768]
+[2023-07-05 06:11:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 06:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gefpy
+[2023-07-05 06:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mgmtsystem-nonconformity
+[2023-07-05 06:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mgmtsystem-nonconformity
+[2023-07-05 06:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cPyparsing
+[2023-07-05 06:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: john-calculator
+[2023-07-05 06:11:54] INFO root fetch - processPackages [gefpy]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-05 06:11:54] INFO root fetch - processPackages [cPyparsing]: New version: [2.4.7.2.0.0] Old Version: [2.4.7.1.2.1]
+[2023-07-05 06:11:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-05 06:11:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-07-05 06:11:54] WARNING root fetch - processPackages [john-calculator]: Skipping, unable to determine old version
+[2023-07-05 06:11:54] INFO root fetch - main [MainThread]: End processing [john-calculator] error
+[2023-07-05 06:11:54] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/0e/7b/70b6d8ffe4d4763940542234c6a8fda585faadc83b8db539c04603b56c53/gefpy-0.7.1-cp38-cp38-win_amd64.whl
+[2023-07-05 06:11:54] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/d0/44/49b91c35e074634560c0b70adc7fa3792976d6a51485422e3a3272bfd7c3/cPyparsing-2.4.7.1.2.1.tar.gz
+[2023-07-05 06:11:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/18/5a/af3a5ecddd14fe33ad32623d6111b6943491991c16f46d07dddd9c9d3d44/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-05 06:11:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/18/5a/af3a5ecddd14fe33ad32623d6111b6943491991c16f46d07dddd9c9d3d44/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl
+[2023-07-05 06:11:54] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 26223470>=10485760
+[2023-07-05 06:11:54] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-07-05 06:11:54] INFO root fetch - processPackages [cPyparsing]: Downloading https://files.pythonhosted.org/packages/d0/e4/ddc36b9fa8b574b7eee8772e233a407b894950b1e33fca5f241985042383/cPyparsing-2.4.7.2.0.0.tar.gz
+[2023-07-05 06:11:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/16/8c/3c89c850193f97f475b22924800e31ff4672f76f816d2e5e7ab72d888390/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-05 06:11:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/16/8c/3c89c850193f97f475b22924800e31ff4672f76f816d2e5e7ab72d888390/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl
+[2023-07-05 06:11:55] INFO root fetch - processPackages [cPyparsing]: executing diffoscope
+[2023-07-05 06:11:55] INFO root fetch - processPackages [cPyparsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPyparsing-2.4.7.1.2.1.tar.gz tmp/cPyparsing-2.4.7.2.0.0.tar.gz --markdown 20230705/c/cPyparsing/2.4.7.1.2.1-2.4.7.2.0.0/diff.md --exclude *.pyd
+[2023-07-05 06:11:55] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-07-05 06:11:55] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-mgmtsystem-nonconformity/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-05 06:11:55] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-07-05 06:11:55] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-mgmtsystem-nonconformity/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-07-05 06:11:56] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-07-05 06:11:56] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-05 06:11:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity]: success
+[2023-07-05 06:11:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity]: success
+[2023-07-05 06:11:58] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.1.2.1.tar.gz]
+[2023-07-05 06:11:58] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.0.0.tar.gz]
+[2023-07-05 06:11:58] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
+[2023-07-05 06:11:58] INFO root fetch - main [MainThread]: Store serial: [18762793]
