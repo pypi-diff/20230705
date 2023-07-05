@@ -4920,3 +4920,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 02:58:03] INFO root fetch - processPackages [ansys-fluent-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys-fluent-core-0.16.dev2.tar.gz]
 [2023-07-05 02:58:03] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core]: success
 [2023-07-05 02:58:03] INFO root fetch - main [MainThread]: Store serial: [18761684]
+[2023-07-05 03:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761684]
+[2023-07-05 03:03:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noiseflow
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intecomm-form-validators
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tccli-intl-en
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rotman-ncs
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-basic-commands
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dank-mids
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-07-05 03:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smart-chromadb
+[2023-07-05 03:03:20] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1688518755] Old Version: [0.1.1688518746]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [noiseflow]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-05 03:03:20] WARNING root fetch - processPackages [rotman-ncs]: Skipping, unable to determine old version
+[2023-07-05 03:03:20] INFO root fetch - processPackages [rotman-ncs]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-05 03:03:20] INFO root fetch - main [MainThread]: End processing [rotman-ncs] error
+[2023-07-05 03:03:20] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1688518755] Old Version: [0.1.1688518746]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [smart-chromadb]: New version: [0.1.dev733] Old Version: [0.1.dev732]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [py-basic-commands]: New version: [0.2.25b2] Old Version: [0.2.25b1]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [yplib]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-05 03:03:20] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/a9/45/654c3e32c9e2936436f837d650aea959ebdd5b268c2425d99905e0053c01/eia-odin-pkg-rioatmadja2018-0.1.1688518746.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [smart-chromadb]: Downloading https://files.pythonhosted.org/packages/6b/27/684eb237312bc682de6aa0be9a33c6ceec14ec9148456eba63e0bf0ecade/smart_chromadb-0.1.dev732.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/a9/45/654c3e32c9e2936436f837d650aea959ebdd5b268c2425d99905e0053c01/eia-odin-pkg-rioatmadja2018-0.1.1688518746.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/98/fd/2b4b4d65b6cc2d5696a265abec99603ddc93052aa57168b851d79199e3d6/py_basic_commands-0.2.25b1.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/91/9f/be08b57e66ca6e7909341987c9e29034bce8c8bde76331d1a2d52524524a/noiseflow-0.0.5.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/51/3e/12ac0c72371b75b970246ed733182c31f3507cc5c2dd2679e3e3c2b4eaea/yplib-2.2.1.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-05 03:03:20] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/ac/b5/17fc1247663f2845d4b5b1c48e1192a31d3d3f084b97bb893d913d42dc89/eia_odin_pkg_rioatmadja2018-0.1.1688518755-py3-none-any.whl
+[2023-07-05 03:03:21] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/ac/b5/17fc1247663f2845d4b5b1c48e1192a31d3d3f084b97bb893d913d42dc89/eia_odin_pkg_rioatmadja2018-0.1.1688518755-py3-none-any.whl
+[2023-07-05 03:03:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [py-basic-commands]: Downloading https://files.pythonhosted.org/packages/4d/a2/995443361cc15799cd9cb824da96e6a0b317db521fc1d8958ab867f07d89/py_basic_commands-0.2.25b2.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [smart-chromadb]: Downloading https://files.pythonhosted.org/packages/a6/95/99df93412c2126ae42e70cf8a9e798cebeb789d75bf437a8b7a1bd0e3892/smart_chromadb-0.1.dev733.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/da/b8/1c37133bf3804e9ec8d9a7672d546a40096e2f631dec11960a20f062d26b/noiseflow-0.0.6-cp311-cp311-win_amd64.whl
+[2023-07-05 03:03:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c9/cb/f3d901d4dbac1168ae05e8b885a4938105e0fcded4b7049ecaf141ac2e8c/yplib-2.2.2.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230705/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1688518746.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1688518755-py3-none-any.whl.zip --markdown 20230705/e/eia-odin-pkg-rioatmadja2018/0.1.1688518746-0.1.1688518755/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1688518746.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1688518755-py3-none-any.whl.zip --markdown 20230705/e/eia-odin-pkg-rioatmadja2018/0.1.1688518746-0.1.1688518755/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [py-basic-commands]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [py-basic-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_basic_commands-0.2.25b1.tar.gz tmp/py_basic_commands-0.2.25b2.tar.gz --markdown 20230705/p/py-basic-commands/0.2.25b1-0.2.25b2/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.1.tar.gz tmp/yplib-2.2.2.tar.gz --markdown 20230705/y/yplib/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-05 03:03:21] INFO root fetch - processPackages [smart-chromadb]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [smart-chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_chromadb-0.1.dev732.tar.gz tmp/smart_chromadb-0.1.dev733.tar.gz --markdown 20230705/s/smart-chromadb/0.1.dev732-0.1.dev733/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230705/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230705/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.5.tar.gz tmp/noiseflow-0.0.6-cp311-cp311-win_amd64.whl.zip --markdown 20230705/n/noiseflow/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-05 03:03:21] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-05 03:03:21] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230705/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-05 03:03:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Remove: archive file [/home/abi/fetcher/tmp/eia-odin-pkg-rioatmadja2018-0.1.1688518746.tar.gz]
+[2023-07-05 03:03:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Remove: archive file [/home/abi/fetcher/tmp/eia_odin_pkg_rioatmadja2018-0.1.1688518755-py3-none-any.whl.zip]
+[2023-07-05 03:03:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Start processing: openpibo-python
+[2023-07-05 03:03:22] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-07-05 03:03:22] INFO root fetch - processPackages [openpibo-python]: New version: [0.9.2.9] Old Version: [0.9.2.8]
+[2023-07-05 03:03:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Start processing: cdk-databrew-cicd
+[2023-07-05 03:03:22] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-07-05 03:03:22] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-05 03:03:22] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-05 03:03:22] INFO root fetch - processPackages [dank-mids]: Start processing: nonebot-adapter-villa
+[2023-07-05 03:03:22] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-05 03:03:22] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 03:03:22] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 03:03:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.1.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.2.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-05 03:03:23] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.5.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.6-cp311-cp311-win_amd64.whl.zip]
+[2023-07-05 03:03:23] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-07-05 03:03:23] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/5f/38/2b3353b14db8eb0b9f3134e12d07d253caa4a2921cd7e04d9bc7d33908c3/nonebot_adapter_villa-0.5.0.tar.gz
+[2023-07-05 03:03:23] INFO root fetch - processPackages [py-basic-commands]: Remove: archive file [/home/abi/fetcher/tmp/py_basic_commands-0.2.25b1.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - processPackages [py-basic-commands]: Remove: archive file [/home/abi/fetcher/tmp/py_basic_commands-0.2.25b2.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - main [MainThread]: End processing [py-basic-commands]: success
+[2023-07-05 03:03:23] INFO root fetch - processPackages [openpibo-python]: Downloading https://files.pythonhosted.org/packages/8c/44/f4dc4462c26bf53e438a9f52811a9330696b7fe63e9f5db33b1c31f9ca69/openpibo_python-0.9.2.8-py3-none-any.whl
+[2023-07-05 03:03:23] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-05 03:03:23] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-05 03:03:23] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/7b/48/9774b3c77a566758ad5dfe924f46458cfaaa211bb26232baff209550d874/nonebot_adapter_villa-0.5.1.tar.gz
+[2023-07-05 03:03:23] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-05 03:03:23] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.5.0.tar.gz tmp/nonebot_adapter_villa-0.5.1.tar.gz --markdown 20230705/n/nonebot-adapter-villa/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 03:03:23] INFO root fetch - processPackages [openpibo-python]: Downloading https://files.pythonhosted.org/packages/10/de/8b098614f964fd40b24224c491ae6eede239ecaae59f8d66fa1cb7d3d770/openpibo_python-0.9.2.9-py3-none-any.whl
+[2023-07-05 03:03:23] INFO root fetch - processPackages [smart-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/smart_chromadb-0.1.dev732.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - processPackages [smart-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/smart_chromadb-0.1.dev733.tar.gz]
+[2023-07-05 03:03:23] INFO root fetch - main [MainThread]: End processing [smart-chromadb]: success
+[2023-07-05 03:03:23] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-05 03:03:24] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-05 03:03:24] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230705/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:03:24] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.0.tar.gz]
+[2023-07-05 03:03:24] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.1.tar.gz]
+[2023-07-05 03:03:24] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-05 03:03:24] INFO root fetch - processPackages [openpibo-python]: executing diffoscope
+[2023-07-05 03:03:24] INFO root fetch - processPackages [openpibo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpibo_python-0.9.2.8-py3-none-any.whl.zip tmp/openpibo_python-0.9.2.9-py3-none-any.whl.zip --markdown 20230705/o/openpibo-python/0.9.2.8-0.9.2.9/diff.md --exclude *.pyd
+[2023-07-05 03:03:24] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-05 03:03:24] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-05 03:03:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-05 03:03:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-05 03:03:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-05 03:03:24] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-05 03:03:25] INFO root fetch - processPackages [openpibo-python]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_python-0.9.2.8-py3-none-any.whl.zip]
+[2023-07-05 03:03:25] INFO root fetch - processPackages [openpibo-python]: Remove: archive file [/home/abi/fetcher/tmp/openpibo_python-0.9.2.9-py3-none-any.whl.zip]
+[2023-07-05 03:03:25] INFO root fetch - main [MainThread]: End processing [openpibo-python]: success
+[2023-07-05 03:03:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-05 03:03:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-05 03:03:25] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-05 03:03:25] INFO root fetch - main [MainThread]: Store serial: [18761730]
