@@ -10723,3 +10723,84 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 09:37:13] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
 [2023-07-05 09:37:13] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2023-07-05 09:37:13] INFO root fetch - main [MainThread]: Store serial: [18763940]
+[2023-07-05 09:42:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763940]
+[2023-07-05 09:42:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: segment-guard
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featdist
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dingtalk-stream
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrogibs
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymongo-inmemory
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MetaGram
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satamanosturi
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kanonym4text
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rohmu
+[2023-07-05 09:42:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlfoundry
+[2023-07-05 09:42:28] WARNING root fetch - processPackages [MetaGram]: Skipping, unable to determine old version
+[2023-07-05 09:42:28] INFO root fetch - main [MainThread]: End processing [MetaGram] error
+[2023-07-05 09:42:28] INFO root fetch - processPackages [hydrogibs]: New version: [0.5.2] Old Version: [0.0.23]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [kanonym4text]: New version: [0.1.7a0] Old Version: [0.1.6]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [featdist]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [rohmu]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 09:42:28] WARNING root fetch - processPackages [satamanosturi]: Skipping, unable to determine old version
+[2023-07-05 09:42:28] INFO root fetch - main [MainThread]: End processing [satamanosturi] error
+[2023-07-05 09:42:28] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/da/a2/59a805f7b5ec22afebc82149584ca18c8c735795359701fee9b387091a6f/kanonym4text-0.1.6.tar.gz
+[2023-07-05 09:42:28] INFO root fetch - processPackages [segment-guard]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [pymongo-inmemory]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/53/4e/a9163a3b32f82306902616ed245fb10bcd51c9400730a1227ed2840e4871/hydrogibs-0.0.23.tar.gz
+[2023-07-05 09:42:28] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/dd/73/0b95e81172554684a9d06499106897a32c801a659d0539149f71b1d22a13/dingtalk-stream-0.6.0.tar.gz
+[2023-07-05 09:42:28] INFO root fetch - processPackages [mlfoundry]: New version: [0.9.1rc1] Old Version: [0.9.0rc1]
+[2023-07-05 09:42:28] INFO root fetch - processPackages [featdist]: Downloading https://files.pythonhosted.org/packages/e2/67/15a1e17605dc2a657ccf701f745a99c6525e60f1878a9b492dffd0b0673a/featdist-0.1.4.tar.gz
+[2023-07-05 09:42:28] INFO root fetch - processPackages [rohmu]: Downloading https://files.pythonhosted.org/packages/7a/14/7139a644ea9479a49f0431b8dfef18dd6205a88c7d3dfc00fa9492803ec5/rohmu-1.1.0.tar.gz
+[2023-07-05 09:42:28] INFO root fetch - processPackages [pymongo-inmemory]: Downloading https://files.pythonhosted.org/packages/d2/ad/40eab1e34546d5a95e350132c83d37758977da2cd41548edaf6c7977143b/pymongo_inmemory-0.2.9.tar.gz
+[2023-07-05 09:42:28] INFO root fetch - processPackages [segment-guard]: Downloading https://files.pythonhosted.org/packages/c3/62/780b8b3c15f3a0d9ee56c481d272a45c0c119d7c557b6012a4232942cb7f/segment-guard-0.0.2.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/4e/9b/b24039b964747f8b5f12c934c7d065ba63c62ed83d856598d47ec876d756/kanonym4text-0.1.7a0-py3-none-any.whl
+[2023-07-05 09:42:29] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/68/0f/a0c1c4093506218578ee45dd5d8f6b74b6d32341df49692c2379ce9d7954/hydrogibs-0.5.2.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.1.6.tar.gz tmp/kanonym4text-0.1.7a0-py3-none-any.whl.zip --markdown 20230705/k/kanonym4text/0.1.6-0.1.7a0/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.23.tar.gz tmp/hydrogibs-0.5.2.tar.gz --markdown 20230705/h/hydrogibs/0.0.23-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [featdist]: Downloading https://files.pythonhosted.org/packages/a3/5e/596493970ffcfe2c27bf53a2baa628fa0421bbb4c9ff3bf31713dfbc1d08/featdist-0.1.5.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/8a/de/ecb9bcdcbf027d10c99a9e08f3575bc04ed96db73048af0dd530431e0cfa/dingtalk-stream-0.6.1.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [rohmu]: Downloading https://files.pythonhosted.org/packages/a0/18/50f2cba1c317ce0081db2b15d396c8aab4339df88967f38ac3928e7462ab/rohmu-1.1.1.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [pymongo-inmemory]: Downloading https://files.pythonhosted.org/packages/98/34/a225c7245537e991df7dd8509b30ebaeb1458ff8ab5eb68dd3b6892e6cf2/pymongo_inmemory-0.3.0.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [segment-guard]: Downloading https://files.pythonhosted.org/packages/7c/cc/b67c5a8c5c82ea59b6467379fada2f5e785a4eb708df77b9b750647e9240/segment-guard-0.0.3.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [featdist]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [featdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featdist-0.1.4.tar.gz tmp/featdist-0.1.5.tar.gz --markdown 20230705/f/featdist/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/83/1b/b824bfe1604154c2548f623d79855050fd62f89dc34a275e474faf27c6a2/mlfoundry-0.9.0rc1.tar.gz
+[2023-07-05 09:42:29] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.6.0.tar.gz tmp/dingtalk-stream-0.6.1.tar.gz --markdown 20230705/d/dingtalk-stream/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [pymongo-inmemory]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [pymongo-inmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymongo_inmemory-0.2.9.tar.gz tmp/pymongo_inmemory-0.3.0.tar.gz --markdown 20230705/p/pymongo-inmemory/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [rohmu]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [rohmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rohmu-1.1.0.tar.gz tmp/rohmu-1.1.1.tar.gz --markdown 20230705/r/rohmu/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [segment-guard]: executing diffoscope
+[2023-07-05 09:42:29] INFO root fetch - processPackages [segment-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-guard-0.0.2.tar.gz tmp/segment-guard-0.0.3.tar.gz --markdown 20230705/s/segment-guard/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 09:42:29] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/44/c4/2f44ea91c732ea8f0984315c4517d30803c3cbc21cf77d2a6a7f76f7ae0f/mlfoundry-0.9.1rc1.tar.gz
+[2023-07-05 09:42:30] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-07-05 09:42:30] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.9.0rc1.tar.gz tmp/mlfoundry-0.9.1rc1.tar.gz --markdown 20230705/m/mlfoundry/0.9.0rc1-0.9.1rc1/diff.md --exclude *.pyd
+[2023-07-05 09:42:30] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.6.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.7a0-py3-none-any.whl.zip]
+[2023-07-05 09:42:30] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-05 09:42:30] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.0.23.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.5.2.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-07-05 09:42:30] INFO root fetch - processPackages [featdist]: Remove: archive file [/home/abi/fetcher/tmp/featdist-0.1.4.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - processPackages [featdist]: Remove: archive file [/home/abi/fetcher/tmp/featdist-0.1.5.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - main [MainThread]: End processing [featdist]: success
+[2023-07-05 09:42:30] INFO root fetch - processPackages [pymongo-inmemory]: Remove: archive file [/home/abi/fetcher/tmp/pymongo_inmemory-0.2.9.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - processPackages [pymongo-inmemory]: Remove: archive file [/home/abi/fetcher/tmp/pymongo_inmemory-0.3.0.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - main [MainThread]: End processing [pymongo-inmemory]: success
+[2023-07-05 09:42:30] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.6.0.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.6.1.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-07-05 09:42:30] INFO root fetch - processPackages [segment-guard]: Remove: archive file [/home/abi/fetcher/tmp/segment-guard-0.0.2.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - processPackages [segment-guard]: Remove: archive file [/home/abi/fetcher/tmp/segment-guard-0.0.3.tar.gz]
+[2023-07-05 09:42:30] INFO root fetch - main [MainThread]: End processing [segment-guard]: success
+[2023-07-05 09:42:31] INFO root fetch - processPackages [rohmu]: Remove: archive file [/home/abi/fetcher/tmp/rohmu-1.1.0.tar.gz]
+[2023-07-05 09:42:31] INFO root fetch - processPackages [rohmu]: Remove: archive file [/home/abi/fetcher/tmp/rohmu-1.1.1.tar.gz]
+[2023-07-05 09:42:31] INFO root fetch - main [MainThread]: End processing [rohmu]: success
+[2023-07-05 09:42:31] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.0rc1.tar.gz]
+[2023-07-05 09:42:31] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.1rc1.tar.gz]
+[2023-07-05 09:42:31] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-07-05 09:42:31] INFO root fetch - main [MainThread]: Store serial: [18763977]
