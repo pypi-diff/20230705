@@ -18911,3 +18911,189 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:22:39] INFO root fetch - processPackages [unicat]: Remove: archive file [/home/abi/fetcher/tmp/unicat-0.3.0.tar.gz]
 [2023-07-05 15:22:39] INFO root fetch - main [MainThread]: End processing [unicat]: success
 [2023-07-05 15:22:39] INFO root fetch - main [MainThread]: Store serial: [18767664]
+[2023-07-05 15:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767664]
+[2023-07-05 15:27:49] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micrOSDevToolKit
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irispreppy
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dithering
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lfinancial
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fabcohort
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabcohort
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pretix-net-mail
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-update
+[2023-07-05 15:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aspose-ocr-python-net
+[2023-07-05 15:27:50] INFO root fetch - processPackages [aspose-ocr-python-net]: New version: [23.7.0] Old Version: [23.5.0]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [fabcohort]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [lfinancial]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [fabcohort]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [pretix-net-mail]: New version: [1.4.0] Old Version: [1.3]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.8] Old Version: [1.17.7]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [nonebot-plugin-update]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [dithering]: New version: [0.1.17] Old Version: [0.1.15]
+[2023-07-05 15:27:50] INFO root fetch - processPackages [irispreppy]: Downloading https://files.pythonhosted.org/packages/39/93/04fff2af743c71f380d93f2f85a9c3c005b20f13018ff51fac9eceb85376/irispreppy-1.1.8.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/df/8a/30e66661fe70226cc5e370af8010459a68a07b9e935590044bdc21a3f480/fabcohort-0.2.4.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/43/21/7807de8c7de3d4129c994d34f672dadc420394320a2c5f3142d3056a8da7/lfinancial-0.1.8.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/df/8a/30e66661fe70226cc5e370af8010459a68a07b9e935590044bdc21a3f480/fabcohort-0.2.4.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [aspose-ocr-python-net]: Downloading https://files.pythonhosted.org/packages/15/87/1b2d337f0caed05812a42ab4dc318f230fde5a14a0578c69b3bfb58e981b/aspose_ocr_python_net-23.5.0-py3-none-win_amd64.whl
+[2023-07-05 15:27:50] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/45/66/f3ed4d689b45da3d3e0991014261157e4d76535c41da482bd143a3f6292e/micrOSDevToolKit-1.17.7.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [nonebot-plugin-update]: Downloading https://files.pythonhosted.org/packages/a7/d6/01816f4e988e1617825a81ac52f7f3ca84631da04bce9691d76ad7dc9cc6/nonebot_plugin_update-0.1.1.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [pretix-net-mail]: Downloading https://files.pythonhosted.org/packages/31/81/b57c6b86b2a4ec0448ef321c5b5b6c37326019aed1497162625fecf6ae36/pretix_net_mail-1.3.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/08/0b/dd065d2f99835bf2f6d58e3a8b8333b417db792c5aebc8c40d309a157b7a/dithering-0.1.15.tar.gz
+[2023-07-05 15:27:50] WARNING root fetch - processPackages [aspose-ocr-python-net]: Skipping package: exceeds size limit 278624868>=10485760
+[2023-07-05 15:27:50] INFO root fetch - processPackages [aspose-ocr-python-net]: Start processing: nbdev-apl
+[2023-07-05 15:27:50] INFO root fetch - main [MainThread]: End processing [aspose-ocr-python-net] error
+[2023-07-05 15:27:50] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-05 15:27:50] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.876] Old Version: [0.0.875]
+[2023-07-05 15:27:51] INFO root fetch - processPackages [irispreppy]: Downloading https://files.pythonhosted.org/packages/6d/fd/0a33174ba3b02921f9fad58a9ed6fcfb9fd975ade4b7d33e0957ff862724/irispreppy-1.1.9.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230705/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/28/01/b8a6519a3ed97730c288b392aab6436a1e1142440f384220ace8219e57ed/fabcohort-0.2.5.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/99/88/1f96696ed8d210541037fc6c33980d12e3082ad8a7fdbceb4c9713e3e44d/nbdev-apl-0.0.875.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [fabcohort]: Downloading https://files.pythonhosted.org/packages/28/01/b8a6519a3ed97730c288b392aab6436a1e1142440f384220ace8219e57ed/fabcohort-0.2.5.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/f7/7a/47bbcc51aff4576587f3f5d8692b9278f2c3b28149277462468dbc587b4a/lfinancial-0.1.9.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nonebot-plugin-update]: Downloading https://files.pythonhosted.org/packages/77/57/475ed37313c61344b7c17735dd7fd5962916c0bdf9a3a9c1ee07ea489b73/nonebot_plugin_update-0.1.2.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [pretix-net-mail]: Downloading https://files.pythonhosted.org/packages/7f/29/bcddb45696892bc36687a08c0ecbbaec6170b7f57a7ac4121b85fd5f569c/pretix_net_mail-1.4.0.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [fabcohort]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [fabcohort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabcohort-0.2.4.tar.gz tmp/fabcohort-0.2.5.tar.gz --markdown 20230705/f/fabcohort/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.1.8.tar.gz tmp/lfinancial-0.1.9.tar.gz --markdown 20230705/l/lfinancial/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [fabcohort]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [fabcohort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabcohort-0.2.4.tar.gz tmp/fabcohort-0.2.5.tar.gz --markdown 20230705/f/fabcohort/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/f0/ad/76f49fb748a27c65fdbd8cdf7cdc7d814e020fa20068cb46a4b4ce0fad51/dithering-0.1.17.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nonebot-plugin-update]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nonebot-plugin-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_update-0.1.1.tar.gz tmp/nonebot_plugin_update-0.1.2.tar.gz --markdown 20230705/n/nonebot-plugin-update/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [pretix-net-mail]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [pretix-net-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix_net_mail-1.3.tar.gz tmp/pretix_net_mail-1.4.0.tar.gz --markdown 20230705/p/pretix-net-mail/1.3-1.4.0/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230705/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/d5/39/e35b56926651413d70130bcf5a8488b3ca06ad9d96c1b04c668da48c898a/nbdev-apl-0.0.876.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.15.tar.gz tmp/dithering-0.1.17.tar.gz --markdown 20230705/d/dithering/0.1.15-0.1.17/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/a7/d2/c985abe966d3b9405056ffd1291c820a6a5f1a52934f76071e441aa5348c/micrOSDevToolKit-1.17.8.tar.gz
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-05 15:27:51] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.875.tar.gz tmp/nbdev-apl-0.0.876.tar.gz --markdown 20230705/n/nbdev-apl/0.0.875-0.0.876/diff.md --exclude *.pyd
+[2023-07-05 15:27:51] WARNING root fetch - processPackages [micrOSDevToolKit]: Skipping package: exceeds size limit 90163272>=10485760
+[2023-07-05 15:27:51] INFO root fetch - processPackages [micrOSDevToolKit]: Start processing: Simba-UW-tf-dev
+[2023-07-05 15:27:51] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit] error
+[2023-07-05 15:27:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.64.5] Old Version: [1.64.4]
+[2023-07-05 15:27:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/16/ca/40ef0e00b9b55c236c945c72128f559a093f02c8f6891286bfcf71c9c2fe/Simba-UW-tf-dev-1.64.4.tar.gz
+[2023-07-05 15:27:52] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-05 15:27:52] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-05 15:27:52] INFO root fetch - processPackages [nbdev-django]: Start processing: modelDrivenRpa
+[2023-07-05 15:27:52] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-05 15:27:52] INFO root fetch - processPackages [modelDrivenRpa]: New version: [1.7] Old Version: [1.6]
+[2023-07-05 15:27:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/90/29/1fbcda995de49ea9a72206df0a8fefc84297907aeda4ba7a11826d34ed53/Simba-UW-tf-dev-1.64.5.tar.gz
+[2023-07-05 15:27:52] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/7b/bd/fb08cf0d8bc7605afb0c422f3025cacab11571b38235f829092fe20ad506/modelDrivenRpa-1.6.tar.gz
+[2023-07-05 15:27:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-05 15:27:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.64.4.tar.gz tmp/Simba-UW-tf-dev-1.64.5.tar.gz --markdown 20230705/S/Simba-UW-tf-dev/1.64.4-1.64.5/diff.md --exclude *.pyd
+[2023-07-05 15:27:52] INFO root fetch - processPackages [fabcohort]: Remove: archive file [/home/abi/fetcher/tmp/fabcohort-0.2.4.tar.gz]
+[2023-07-05 15:27:52] INFO root fetch - processPackages [fabcohort]: Remove: archive file [/home/abi/fetcher/tmp/fabcohort-0.2.5.tar.gz]
+[2023-07-05 15:27:52] INFO root fetch - processPackages [fabcohort]: Start processing: fwdviewpy
+[2023-07-05 15:27:52] INFO root fetch - main [MainThread]: End processing [fabcohort]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/80/9d/8524c0fb7d64f812387b0fb6fca59f6867d78680230c250032449089a8ea/modelDrivenRpa-1.7.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [fabcohort]: Start processing: sneakpeek
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [fabcohort]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.8.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.1.9.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [lfinancial]: Start processing: pyecotrend-ista
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [sneakpeek]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [modelDrivenRpa]: executing diffoscope
+[2023-07-05 15:27:53] INFO root fetch - processPackages [modelDrivenRpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelDrivenRpa-1.6.tar.gz tmp/modelDrivenRpa-1.7.tar.gz --markdown 20230705/m/modelDrivenRpa/1.6-1.7/diff.md --exclude *.pyd
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nonebot-plugin-update]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_update-0.1.1.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nonebot-plugin-update]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_update-0.1.2.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nonebot-plugin-update]: Start processing: pythorhead
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-update]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pretix-net-mail]: Remove: archive file [/home/abi/fetcher/tmp/pretix_net_mail-1.3.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pretix-net-mail]: Remove: archive file [/home/abi/fetcher/tmp/pretix_net_mail-1.4.0.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pretix-net-mail]: Start processing: balena-sdk
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [pretix-net-mail]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pythorhead]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.15.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.17.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [dithering]: Start processing: pyseistr-win
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.875.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.876.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nbdev-apl]: Start processing: returnn
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [irispreppy]: Remove: archive file [/home/abi/fetcher/tmp/irispreppy-1.1.8.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [irispreppy]: Remove: archive file [/home/abi/fetcher/tmp/irispreppy-1.1.9.tar.gz]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [irispreppy]: Start processing: nonebot-plugin-update
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-07-05 15:27:53] INFO root fetch - processPackages [sneakpeek]: Downloading https://files.pythonhosted.org/packages/55/be/238bf1a143a1e0e28297d098b25bf24e87a7800e08013880e12d84e6b8da/sneakpeek-0.8.1.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/49/15/aea378d4d4e85b3e6c2c1042b5c1f51f9328340bbc85c946e808e6c5fd1b/pythorhead-0.9.2.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nonebot-plugin-update]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-07-05 15:27:53] WARNING root fetch - processPackages [pyseistr-win]: Skipping, unable to determine old version
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pyseistr-win]: Start processing: cfinterface
+[2023-07-05 15:27:53] INFO root fetch - main [MainThread]: End processing [pyseistr-win] error
+[2023-07-05 15:27:53] INFO root fetch - processPackages [returnn]: New version: [1.20230705.150114] Old Version: [1.20230704.111750]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nonebot-plugin-update]: Downloading https://files.pythonhosted.org/packages/77/57/475ed37313c61344b7c17735dd7fd5962916c0bdf9a3a9c1ee07ea489b73/nonebot_plugin_update-0.1.2.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-05 15:27:53] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230705/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/35/32/a5feb8496f42ff98cf5e6a1647ea39fa57a8247bd05ab0e595c5f393d73b/pyecotrend-ista-2.0.8.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [cfinterface]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c1/fa/85c3735e3c50c153ffc2c378a1fddb2f33d95bc334d4a415d7db6589fd8a/pythorhead-0.9.3.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [sneakpeek]: Downloading https://files.pythonhosted.org/packages/e4/c8/4d3747d40b8282575dae1736803f6694d93e38266e389eedb4425b72e05c/sneakpeek-0.8.2.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/52/0d/8932dbb7fee897c0f504a1849c824f1ade39f851d15ffcac53d93495c081/returnn-1.20230704.111750.tar.gz
+[2023-07-05 15:27:53] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-07-05 15:27:53] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230705/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-07-05 15:27:53] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.9.2.tar.gz tmp/pythorhead-0.9.3.tar.gz --markdown 20230705/p/pythorhead/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-05 15:27:53] INFO root fetch - processPackages [nonebot-plugin-update]: Downloading https://files.pythonhosted.org/packages/9a/2b/98bbfcdc8b8722c2cb8064c13efd7fef5bf79c4dd4ed87c88159f9ba7e61/nonebot_plugin_update-0.1.3.tar.gz
+[2023-07-05 15:27:54] INFO root fetch - processPackages [sneakpeek]: executing diffoscope
+[2023-07-05 15:27:54] INFO root fetch - processPackages [sneakpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneakpeek-0.8.1.tar.gz tmp/sneakpeek-0.8.2.tar.gz --markdown 20230705/s/sneakpeek/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-05 15:27:54] INFO root fetch - processPackages [cfinterface]: Downloading https://files.pythonhosted.org/packages/3e/27/24c658db85821d066478f35fee3b040c858d4bab38ebf248c3a4ed637d8d/cfinterface-1.4.0.tar.gz
+[2023-07-05 15:27:54] INFO root fetch - processPackages [nonebot-plugin-update]: executing diffoscope
+[2023-07-05 15:27:54] INFO root fetch - processPackages [nonebot-plugin-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_update-0.1.2.tar.gz tmp/nonebot_plugin_update-0.1.3.tar.gz --markdown 20230705/n/nonebot-plugin-update/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-05 15:27:54] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/cc/27/fcb258c5233a8a07977dabc10418a5ae080ed57bfe2355f6906796eb2579/pyecotrend-ista-2.0.9.tar.gz
+[2023-07-05 15:27:54] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/73/cf/f3f30f2c69d58521f6ea72287b40a816fda60377ca3b7834d38e31bd24cc/returnn-1.20230705.150114.tar.gz
+[2023-07-05 15:27:54] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.6.tar.gz]
+[2023-07-05 15:27:54] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.7.tar.gz]
+[2023-07-05 15:27:54] INFO root fetch - main [MainThread]: End processing [modelDrivenRpa]: success
+[2023-07-05 15:27:54] INFO root fetch - processPackages [cfinterface]: Downloading https://files.pythonhosted.org/packages/b3/84/bde63d4637ec13fb7285bc3c36ce5de8150554abf31c784bd1f8a958cd5e/cfinterface-1.4.1.tar.gz
+[2023-07-05 15:27:54] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-07-05 15:27:54] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230705/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-05 15:27:54] INFO root fetch - processPackages [cfinterface]: executing diffoscope
+[2023-07-05 15:27:54] INFO root fetch - processPackages [cfinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfinterface-1.4.0.tar.gz tmp/cfinterface-1.4.1.tar.gz --markdown 20230705/c/cfinterface/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-05 15:27:54] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-05 15:27:54] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230704.111750.tar.gz tmp/returnn-1.20230705.150114.tar.gz --markdown 20230705/r/returnn/1.20230704.111750-1.20230705.150114/diff.md --exclude *.pyd
+[2023-07-05 15:27:55] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-05 15:27:55] INFO root fetch - processPackages [sneakpeek]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek-0.8.1.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - processPackages [sneakpeek]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek-0.8.2.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - main [MainThread]: End processing [sneakpeek]: success
+[2023-07-05 15:27:55] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.4.1.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.5.0.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-07-05 15:27:55] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.2.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.3.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-07-05 15:27:55] INFO root fetch - processPackages [nonebot-plugin-update]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_update-0.1.2.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - processPackages [nonebot-plugin-update]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_update-0.1.3.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-update]: success
+[2023-07-05 15:27:55] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.8.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-2.0.9.tar.gz]
+[2023-07-05 15:27:55] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-07-05 15:27:56] INFO root fetch - processPackages [cfinterface]: Remove: archive file [/home/abi/fetcher/tmp/cfinterface-1.4.0.tar.gz]
+[2023-07-05 15:27:56] INFO root fetch - processPackages [cfinterface]: Remove: archive file [/home/abi/fetcher/tmp/cfinterface-1.4.1.tar.gz]
+[2023-07-05 15:27:56] INFO root fetch - main [MainThread]: End processing [cfinterface]: success
+[2023-07-05 15:27:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.4.tar.gz]
+[2023-07-05 15:27:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.5.tar.gz]
+[2023-07-05 15:27:57] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-05 15:27:58] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230704.111750.tar.gz]
+[2023-07-05 15:27:58] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230705.150114.tar.gz]
+[2023-07-05 15:27:58] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-05 15:27:58] INFO root fetch - main [MainThread]: Store serial: [18767817]
