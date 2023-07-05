@@ -13099,3 +13099,219 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:23:34] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.9.0.tar.gz]
 [2023-07-05 11:23:34] INFO root fetch - main [MainThread]: End processing [celescope]: success
 [2023-07-05 11:23:34] INFO root fetch - main [MainThread]: Store serial: [18765121]
+[2023-07-05 11:28:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765121]
+[2023-07-05 11:28:43] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: summa-embed
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwxlib
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jina-hubble-sdk
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysyn-data
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yolov5-utils
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-common
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linien-server
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linien-client
+[2023-07-05 11:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linien-gui
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-server]: New version: [0.8.0rc8] Old Version: [0.8.0rc6]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [pysyn-data]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-client]: New version: [0.8.0rc8] Old Version: [0.8.0rc6]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [mwxlib]: New version: [0.86.0] Old Version: [0.85.6]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-common]: New version: [0.8.0rc8] Old Version: [0.8.0rc6]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-gui]: New version: [0.8.0rc8] Old Version: [0.8.0rc6]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [yolov5-utils]: New version: [7.1.3] Old Version: [7.1.2]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [jina-hubble-sdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [summa-embed]: New version: [0.17.7] Old Version: [0.17.6]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-05 11:28:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/4b/83/15601984396c5cb0d42b96ad81cd7262f0359a1f9640671a43b05ef79cf4/pysyn-data-0.3.7.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/7f/63/1a51fe6c7d9171f076b3263dd7aa7b348d60ba6df0ee88e06bb69e0d36fd/linien-server-0.8.0rc6.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/76/44/0171dab5ab3fb45923c6097fb7d494e8d8fde2b304eae080a5488d645946/linien-client-0.8.0rc6.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [yolov5-utils]: Downloading https://files.pythonhosted.org/packages/f2/e5/9b93a13c30a379d9f4a171ed91705c32cb9b102f50f6532ef3803f244220/yolov5-utils-7.1.2.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/51/e1/2e9ec8aa330ab23fcdd8b0842755c2200fa89b42ded6306f5a1fb8ef575f/linien-gui-0.8.0rc6.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/ef/98/bf892cb39592a943b74479a981d6ebb1335f4dd1051cf361a60b7618ab03/linien-common-0.8.0rc6.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [jina-hubble-sdk]: Downloading https://files.pythonhosted.org/packages/e3/a7/c61c78fd5351be996cb9d68fc531438da4f16c50a45e2955e798723cbd96/jina-hubble-sdk-0.9.1.tar.gz
+[2023-07-05 11:28:43] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/54/70/136a65b5c5c2ae2c338077960373da907d04b1bb6a1721186ac0737d22ca/mwxlib-0.85.6-py3-none-any.whl
+[2023-07-05 11:28:44] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/bd/dc/f5e8381ada5a3956907c663d0890d943bfc5c390a750db298fd0ae5d3fba/summa_embed-0.17.6.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230705/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/f6/34/b96863ddaf91d803e4387a39e43fc8a5d8b2f232dec3bea0ac37f0cca388/pysyn-data-0.3.8.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/9a/75/b7a00cafcb61e411e7c3bb4e4c96d86b3d3ba5d2c7f6f1e7fc590b6cd926/linien-client-0.8.0rc8.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/b1/02/a21902d38dfb7d581736f361658bf73ed60e879ef8e8cc233c2270ac1915/linien-server-0.8.0rc8.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/1f/ca/7d1b6d9708631980064fe1827d375ee8077236c3b20d7dc87bce7a36f8c1/summa_embed-0.17.7.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [jina-hubble-sdk]: Downloading https://files.pythonhosted.org/packages/2d/5c/9a19759f26c21b0c73694870d6b9004301a67dbd09829567443e810542c5/jina-hubble-sdk-0.9.2.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [yolov5-utils]: Downloading https://files.pythonhosted.org/packages/e7/90/3fa5e9856128e66f65f346d080b3cba242c9ee9b4fe03b9b3f2ea5c5a254/yolov5-utils-7.1.3.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/f6/f4/0dc79d26d0db84f5c29ff5fe997e036e9e1a0bba81ec2f5a07c3138fccb2/linien-common-0.8.0rc8.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/3b/77/f5da965ddcc396aadd55258e4c16a55a285d913fdbe0462bbe795913fc94/linien-gui-0.8.0rc8.tar.gz
+[2023-07-05 11:28:44] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/68/0b/41fe36ba11b4ba8028a325f44cf9304cc82314a3326fec087f4c19209ebc/mwxlib-0.86.0-py3-none-any.whl
+[2023-07-05 11:28:44] INFO root fetch - processPackages [pysyn-data]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [pysyn-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyn-data-0.3.7.tar.gz tmp/pysyn-data-0.3.8.tar.gz --markdown 20230705/p/pysyn-data/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-0.8.0rc6.tar.gz tmp/linien-client-0.8.0rc8.tar.gz --markdown 20230705/l/linien-client/0.8.0rc6-0.8.0rc8/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [jina-hubble-sdk]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-0.8.0rc6.tar.gz tmp/linien-server-0.8.0rc8.tar.gz --markdown 20230705/l/linien-server/0.8.0rc6-0.8.0rc8/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [jina-hubble-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-hubble-sdk-0.9.1.tar.gz tmp/jina-hubble-sdk-0.9.2.tar.gz --markdown 20230705/j/jina-hubble-sdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.6.tar.gz tmp/summa_embed-0.17.7.tar.gz --markdown 20230705/s/summa-embed/0.17.6-0.17.7/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.85.6-py3-none-any.whl.zip tmp/mwxlib-0.86.0-py3-none-any.whl.zip --markdown 20230705/m/mwxlib/0.85.6-0.86.0/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-0.8.0rc6.tar.gz tmp/linien-common-0.8.0rc8.tar.gz --markdown 20230705/l/linien-common/0.8.0rc6-0.8.0rc8/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [yolov5-utils]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [yolov5-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov5-utils-7.1.2.tar.gz tmp/yolov5-utils-7.1.3.tar.gz --markdown 20230705/y/yolov5-utils/7.1.2-7.1.3/diff.md --exclude *.pyd
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2023-07-05 11:28:44] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-0.8.0rc6.tar.gz tmp/linien-gui-0.8.0rc8.tar.gz --markdown 20230705/l/linien-gui/0.8.0rc6-0.8.0rc8/diff.md --exclude *.pyd
+[2023-07-05 11:28:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-05 11:28:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-05 11:28:45] INFO root fetch - processPackages [spanishconjugator]: Start processing: spanishconjugator
+[2023-07-05 11:28:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-05 11:28:46] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.7.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.8.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [pysyn-data]: Start processing: lw-shell
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [pysyn-data]: success
+[2023-07-05 11:28:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-05 11:28:46] WARNING root fetch - processPackages [lw-shell]: Skipping, unable to determine old version
+[2023-07-05 11:28:46] INFO root fetch - processPackages [lw-shell]: Start processing: tlgateway
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [lw-shell] error
+[2023-07-05 11:28:46] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc6.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc8.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [linien-client]: Start processing: orchestrator-core
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2023-07-05 11:28:46] INFO root fetch - processPackages [jina-hubble-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jina-hubble-sdk-0.9.1.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [jina-hubble-sdk]: Remove: archive file [/home/abi/fetcher/tmp/jina-hubble-sdk-0.9.2.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [jina-hubble-sdk]: Start processing: pytlgateway
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [jina-hubble-sdk]: success
+[2023-07-05 11:28:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-05 11:28:46] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [orchestrator-core]: New version: [1.2.2rc3] Old Version: [1.2.2rc2]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-07-05 11:28:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-05 11:28:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230705/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-05 11:28:46] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.85.6-py3-none-any.whl.zip]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.86.0-py3-none-any.whl.zip]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [mwxlib]: Start processing: ScoutSuite
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-07-05 11:28:46] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc6.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc8.tar.gz]
+[2023-07-05 11:28:46] INFO root fetch - processPackages [linien-common]: Start processing: GyMockWx
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2023-07-05 11:28:46] INFO root fetch - processPackages [ScoutSuite]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-07-05 11:28:46] WARNING root fetch - processPackages [GyMockWx]: Skipping, unable to determine old version
+[2023-07-05 11:28:46] INFO root fetch - processPackages [GyMockWx]: Start processing: textgen
+[2023-07-05 11:28:46] INFO root fetch - main [MainThread]: End processing [GyMockWx] error
+[2023-07-05 11:28:46] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/da/e8/7538a58b2cee01f9e84397d4702c69be6020ec475b7633a150c27e9db083/orchestrator_core-1.2.2rc2.tar.gz
+[2023-07-05 11:28:46] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc6.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc8.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [linien-server]: Start processing: SwissArmyTransformer
+[2023-07-05 11:28:47] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2023-07-05 11:28:47] INFO root fetch - processPackages [textgen]: New version: [1.0.0] Old Version: [0.2.7]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [SwissArmyTransformer]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc6.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc8.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [linien-gui]: Start processing: pysyn-data
+[2023-07-05 11:28:47] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2023-07-05 11:28:47] INFO root fetch - processPackages [ScoutSuite]: Downloading https://files.pythonhosted.org/packages/e1/10/3d3a76c6468d3486f270cd2b7d1b6ee1e3584fff4f07c8fb325d32781234/ScoutSuite-5.9.0.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [pysyn-data]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/80/82/9e9e6fe9c11a9c0c2acf8d4bd835212be091050a4044d54faff9b41f281f/textgen-0.2.7.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/4b/83/15601984396c5cb0d42b96ad81cd7262f0359a1f9640671a43b05ef79cf4/pysyn-data-0.3.7.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-07-05 11:28:47] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230705/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 11:28:47] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/56/7c/1490e7e70eb601e30e9fecfbd64ee56cffb9905f2109ade6534c00640f87/SwissArmyTransformer-0.3.7.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.6.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.7.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [summa-embed]: Start processing: codegrade
+[2023-07-05 11:28:47] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-07-05 11:28:47] INFO root fetch - processPackages [yolov5-utils]: Remove: archive file [/home/abi/fetcher/tmp/yolov5-utils-7.1.2.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [yolov5-utils]: Remove: archive file [/home/abi/fetcher/tmp/yolov5-utils-7.1.3.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [yolov5-utils]: Start processing: DataPipelineExecutor
+[2023-07-05 11:28:47] INFO root fetch - main [MainThread]: End processing [yolov5-utils]: success
+[2023-07-05 11:28:47] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [DataPipelineExecutor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/ad/bc/4d0bd7d732128686cebfd1036f38ce826c3a1ce1a24e43ee5a38e301515f/orchestrator_core-1.2.2rc3.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/f6/34/b96863ddaf91d803e4387a39e43fc8a5d8b2f232dec3bea0ac37f0cca388/pysyn-data-0.3.8.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [pysyn-data]: executing diffoscope
+[2023-07-05 11:28:47] INFO root fetch - processPackages [pysyn-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyn-data-0.3.7.tar.gz tmp/pysyn-data-0.3.8.tar.gz --markdown 20230705/p/pysyn-data/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-05 11:28:47] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [textgen]: Downloading https://files.pythonhosted.org/packages/09/f6/a56db95e9a6cd637909f39383e0fb14afdfe43de338e1b690f68513f3870/textgen-1.0.0.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [DataPipelineExecutor]: Downloading https://files.pythonhosted.org/packages/94/17/9e353c64330bb6dcc503b54a7992bdbe0ef5b1c9161dd2e97f485b601d02/DataPipelineExecutor-0.0.2.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-05 11:28:47] INFO root fetch - processPackages [spanishconjugator]: Start processing: adapta
+[2023-07-05 11:28:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-05 11:28:47] INFO root fetch - processPackages [ScoutSuite]: Downloading https://files.pythonhosted.org/packages/ba/86/c7eb7bc6d2c5cb417ea3ec6e0d98e3f051d7240107dff3f7069c2f0053dd/ScoutSuite-5.9.1.tar.gz
+[2023-07-05 11:28:47] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-07-05 11:28:47] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.2.2rc2.tar.gz tmp/orchestrator_core-1.2.2rc3.tar.gz --markdown 20230705/o/orchestrator-core/1.2.2rc2-1.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 11:28:47] INFO root fetch - processPackages [adapta]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-07-05 11:28:48] INFO root fetch - processPackages [textgen]: executing diffoscope
+[2023-07-05 11:28:48] INFO root fetch - processPackages [SwissArmyTransformer]: Downloading https://files.pythonhosted.org/packages/97/3d/968f774e567d302fac85942fcad0284a329d902253d3bb35847681a48fa4/SwissArmyTransformer-0.4.0.tar.gz
+[2023-07-05 11:28:48] INFO root fetch - processPackages [textgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textgen-0.2.7.tar.gz tmp/textgen-1.0.0.tar.gz --markdown 20230705/t/textgen/0.2.7-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 11:28:48] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-07-05 11:28:48] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230705/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 11:28:48] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2023-07-05 11:28:48] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/e8/a0/4b931f604283ab5133299737083c8836b4d46008353579e44a3c668cbb38/adapta-2.2.9.tar.gz
+[2023-07-05 11:28:48] INFO root fetch - processPackages [DataPipelineExecutor]: Downloading https://files.pythonhosted.org/packages/1c/6d/32132373f27325ca4444540a4d280147b8c44b48700ddec62b661911657c/DataPipelineExecutor-0.0.3.tar.gz
+[2023-07-05 11:28:48] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-07-05 11:28:48] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-07-05 11:28:48] INFO root fetch - processPackages [tlgateway]: Start processing: ieseg-credscore
+[2023-07-05 11:28:48] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-07-05 11:28:48] INFO root fetch - processPackages [ieseg-credscore]: New version: [0.23.9] Old Version: [0.23.8]
+[2023-07-05 11:28:48] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2023-07-05 11:28:48] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20230705/c/codegrade/16.1.8-16.1.9/diff.md --exclude *.pyd
+[2023-07-05 11:28:48] INFO root fetch - processPackages [DataPipelineExecutor]: executing diffoscope
+[2023-07-05 11:28:48] INFO root fetch - processPackages [DataPipelineExecutor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataPipelineExecutor-0.0.2.tar.gz tmp/DataPipelineExecutor-0.0.3.tar.gz --markdown 20230705/D/DataPipelineExecutor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 11:28:48] INFO root fetch - processPackages [SwissArmyTransformer]: executing diffoscope
+[2023-07-05 11:28:48] INFO root fetch - processPackages [SwissArmyTransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SwissArmyTransformer-0.3.7.tar.gz tmp/SwissArmyTransformer-0.4.0.tar.gz --markdown 20230705/S/SwissArmyTransformer/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-07-05 11:28:48] INFO root fetch - processPackages [ieseg-credscore]: Downloading https://files.pythonhosted.org/packages/bd/e3/b98ba5c1fe98464839694d63ab8b116abccc3f00353ae823f78f8cb2f35b/ieseg_credscore-0.23.8.tar.gz
+[2023-07-05 11:28:48] INFO root fetch - processPackages [ScoutSuite]: executing diffoscope
+[2023-07-05 11:28:48] INFO root fetch - processPackages [ScoutSuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScoutSuite-5.9.0.tar.gz tmp/ScoutSuite-5.9.1.tar.gz --markdown 20230705/S/ScoutSuite/5.9.0-5.9.1/diff.md --exclude *.pyd
+[2023-07-05 11:28:48] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.7.tar.gz]
+[2023-07-05 11:28:48] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.8.tar.gz]
+[2023-07-05 11:28:48] INFO root fetch - processPackages [pysyn-data]: Start processing: alchemite-apiclient
+[2023-07-05 11:28:48] INFO root fetch - main [MainThread]: End processing [pysyn-data]: success
+[2023-07-05 11:28:49] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/0d/0a/7b761f86f64cb0fc6e8f6900d17fdd21fa38616b5e8534c2da3922755bb3/adapta-2.3.0.tar.gz
+[2023-07-05 11:28:49] INFO root fetch - processPackages [ieseg-credscore]: Downloading https://files.pythonhosted.org/packages/f8/05/d8fce4d2dd8e125cbf9a7bde33ac5bcb08fe4158541b26e7b93c7c07bb70/ieseg_credscore-0.23.9.tar.gz
+[2023-07-05 11:28:49] INFO root fetch - processPackages [alchemite-apiclient]: New version: [0.57.0] Old Version: [0.56.0]
+[2023-07-05 11:28:49] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-07-05 11:28:49] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.2.9.tar.gz tmp/adapta-2.3.0.tar.gz --markdown 20230705/a/adapta/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-07-05 11:28:49] INFO root fetch - processPackages [ieseg-credscore]: executing diffoscope
+[2023-07-05 11:28:49] INFO root fetch - processPackages [ieseg-credscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ieseg_credscore-0.23.8.tar.gz tmp/ieseg_credscore-0.23.9.tar.gz --markdown 20230705/i/ieseg-credscore/0.23.8-0.23.9/diff.md --exclude *.pyd
+[2023-07-05 11:28:49] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/93/e1/87129d3607e0f52104072532476c3c91a02afbffa23dced2036a4bf0f963/alchemite_apiclient-0.56.0.tar.gz
+[2023-07-05 11:28:49] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-07-05 11:28:49] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-07-05 11:28:49] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-07-05 11:28:49] INFO root fetch - processPackages [alchemite-apiclient]: Downloading https://files.pythonhosted.org/packages/de/c0/8fee841e23c6db1db6d1dfc1b9297b01a82ed293df5b33060c023254cd06/alchemite_apiclient-0.57.0.tar.gz
+[2023-07-05 11:28:50] INFO root fetch - processPackages [DataPipelineExecutor]: Remove: archive file [/home/abi/fetcher/tmp/DataPipelineExecutor-0.0.2.tar.gz]
+[2023-07-05 11:28:50] INFO root fetch - processPackages [DataPipelineExecutor]: Remove: archive file [/home/abi/fetcher/tmp/DataPipelineExecutor-0.0.3.tar.gz]
+[2023-07-05 11:28:50] INFO root fetch - main [MainThread]: End processing [DataPipelineExecutor]: success
+[2023-07-05 11:28:50] INFO root fetch - processPackages [alchemite-apiclient]: executing diffoscope
+[2023-07-05 11:28:50] INFO root fetch - processPackages [alchemite-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemite_apiclient-0.56.0.tar.gz tmp/alchemite_apiclient-0.57.0.tar.gz --markdown 20230705/a/alchemite-apiclient/0.56.0-0.57.0/diff.md --exclude *.pyd
+[2023-07-05 11:28:50] INFO root fetch - processPackages [textgen]: Remove: archive file [/home/abi/fetcher/tmp/textgen-0.2.7.tar.gz]
+[2023-07-05 11:28:50] INFO root fetch - processPackages [textgen]: Remove: archive file [/home/abi/fetcher/tmp/textgen-1.0.0.tar.gz]
+[2023-07-05 11:28:50] INFO root fetch - main [MainThread]: End processing [textgen]: success
+[2023-07-05 11:28:50] INFO root fetch - processPackages [ieseg-credscore]: Remove: archive file [/home/abi/fetcher/tmp/ieseg_credscore-0.23.8.tar.gz]
+[2023-07-05 11:28:50] INFO root fetch - processPackages [ieseg-credscore]: Remove: archive file [/home/abi/fetcher/tmp/ieseg_credscore-0.23.9.tar.gz]
+[2023-07-05 11:28:50] INFO root fetch - main [MainThread]: End processing [ieseg-credscore]: success
+[2023-07-05 11:28:51] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.2.9.tar.gz]
+[2023-07-05 11:28:51] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.0.tar.gz]
+[2023-07-05 11:28:51] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-07-05 11:28:51] INFO root fetch - processPackages [SwissArmyTransformer]: Remove: archive file [/home/abi/fetcher/tmp/SwissArmyTransformer-0.3.7.tar.gz]
+[2023-07-05 11:28:51] INFO root fetch - processPackages [SwissArmyTransformer]: Remove: archive file [/home/abi/fetcher/tmp/SwissArmyTransformer-0.4.0.tar.gz]
+[2023-07-05 11:28:51] INFO root fetch - main [MainThread]: End processing [SwissArmyTransformer]: success
+[2023-07-05 11:28:52] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.2rc2.tar.gz]
+[2023-07-05 11:28:52] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.2.2rc3.tar.gz]
+[2023-07-05 11:28:52] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-07-05 11:28:53] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2023-07-05 11:28:53] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2023-07-05 11:28:53] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2023-07-05 11:28:54] INFO root fetch - processPackages [ScoutSuite]: Remove: archive file [/home/abi/fetcher/tmp/ScoutSuite-5.9.0.tar.gz]
+[2023-07-05 11:28:54] INFO root fetch - processPackages [ScoutSuite]: Remove: archive file [/home/abi/fetcher/tmp/ScoutSuite-5.9.1.tar.gz]
+[2023-07-05 11:28:54] INFO root fetch - main [MainThread]: End processing [ScoutSuite]: success
+[2023-07-05 11:28:54] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.56.0.tar.gz]
+[2023-07-05 11:28:54] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.57.0.tar.gz]
+[2023-07-05 11:28:54] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
+[2023-07-05 11:28:54] INFO root fetch - main [MainThread]: Store serial: [18765228]
