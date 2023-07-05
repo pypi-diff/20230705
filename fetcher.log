@@ -17477,3 +17477,101 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:29:27] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-05 14:29:27] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-05 14:29:27] INFO root fetch - main [MainThread]: Store serial: [18767041]
+[2023-07-05 14:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767041]
+[2023-07-05 14:34:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zibanu-django
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmu-dataio
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PhysiPy-Python
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datachain
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rondsspark
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zibanu-django-logging
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sail
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarms
+[2023-07-05 14:34:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leanit-mweb
+[2023-07-05 14:34:36] INFO root fetch - processPackages [fmu-dataio]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-07-05 14:34:36] INFO root fetch - processPackages [datachain]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-05 14:34:36] INFO root fetch - processPackages [leanit-mweb]: New version: [23.7.1] Old Version: [23.6.9]
+[2023-07-05 14:34:36] WARNING root fetch - processPackages [zibanu-django-logging]: Skipping, unable to determine old version
+[2023-07-05 14:34:36] WARNING root fetch - processPackages [PhysiPy-Python]: Skipping, unable to determine old version
+[2023-07-05 14:34:36] INFO root fetch - processPackages [zibanu-django-logging]: Start processing: coiled
+[2023-07-05 14:34:36] INFO root fetch - processPackages [sail]: New version: [0.5.2] Old Version: [0.3.1]
+[2023-07-05 14:34:36] INFO root fetch - main [MainThread]: End processing [zibanu-django-logging] error
+[2023-07-05 14:34:36] INFO root fetch - processPackages [PhysiPy-Python]: Start processing: dstack
+[2023-07-05 14:34:36] INFO root fetch - main [MainThread]: End processing [PhysiPy-Python] error
+[2023-07-05 14:34:36] INFO root fetch - processPackages [swarms]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-05 14:34:36] INFO root fetch - processPackages [zibanu-django]: New version: [1.2.1] Old Version: [1.2.0b1]
+[2023-07-05 14:34:36] INFO root fetch - processPackages [irene-pro]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-07-05 14:34:37] WARNING root fetch - processPackages [rondsspark]: Skipping, unable to determine old version
+[2023-07-05 14:34:37] INFO root fetch - processPackages [rondsspark]: Start processing: opentok
+[2023-07-05 14:34:37] INFO root fetch - main [MainThread]: End processing [rondsspark] error
+[2023-07-05 14:34:37] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-07-05 14:34:37] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/05/d9/661fb759266b4723109404513bbe49d57cf920f64ae0c30295c018ff3b30/irene_pro-0.0.81.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/9b/d2/c32e3c5acea729d8ee7e0cc26db02c0bae9a82cdb0e6e160696ca6e0bd37/sail-0.3.1.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/dd/e4/eea037a612f4e005ff2982d205c6b182d01ab54fae4ce17a0a4e3673e119/swarms-0.5.7.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/3f/0f/0e0969a491022db1bd985573ff4d466289f92a64fc3469e213f18c23f526/datachain-1.2.0.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-07-05 14:34:37] INFO root fetch - processPackages [fmu-dataio]: Downloading https://files.pythonhosted.org/packages/08/04/5525cd55b1074cfc34f3cfdb6bb2d4b124b543db9e67e1ebc68480283f09/fmu-dataio-1.7.0.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [opentok]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-07-05 14:34:37] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-07-05 14:34:37] WARNING root fetch - processPackages [fmu-dataio]: Skipping package: exceeds size limit 14279266>=10485760
+[2023-07-05 14:34:37] INFO root fetch - main [MainThread]: End processing [fmu-dataio] error
+[2023-07-05 14:34:37] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/8c/fe/0557e81b4473f0dc856b61cefe7794e4b395aeb333e10c3b8b35d4133da1/zibanu-django-1.2.0b1.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [opentok]: Downloading https://files.pythonhosted.org/packages/53/18/94b190c95614fe6ab65edd083b97840de6a45b40ec62ddc9da7502d94c3a/opentok-3.6.0.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/3a/63/c072136119792418e7067613ff869960e4c52b50c5a5b7113442e4a585a0/sail-0.5.2-py3-none-any.whl
+[2023-07-05 14:34:37] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/91/a0/e4a49b79c789b71b9a3170dc333ac567101230997d8c7fae59374ac9b9d0/swarms-0.5.8.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/49/21/8e53b07af7f06ee1d537ee4fabf03e1cb3c361ccf876714c87664fcb7e6a/datachain-1.2.1.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/b0/25/07e0ec1e8c07e8caba58d053f4308a25a2bd3f8b19fdfc7f010344fafa47/irene_pro-0.0.82.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/19/95/cde39aaa9d82bfe672cee7cf796ecdba39a7f6c5bb3552a48b3af5066b32/leanit-mweb-23.7.1.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/08/a7/1b7a6baba41adbcd3a70e38ed42a1fba9f099883bb192af27fa862da607b/zibanu-django-1.2.1.tar.gz
+[2023-07-05 14:34:37] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.7.tar.gz tmp/swarms-0.5.8.tar.gz --markdown 20230705/s/swarms/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-05 14:34:37] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [sail]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.81.tar.gz tmp/irene_pro-0.0.82.tar.gz --markdown 20230705/i/irene-pro/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-07-05 14:34:37] INFO root fetch - processPackages [sail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sail-0.3.1.tar.gz tmp/sail-0.5.2-py3-none-any.whl.zip --markdown 20230705/s/sail/0.3.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 14:34:37] INFO root fetch - processPackages [datachain]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [datachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain-1.2.0.tar.gz tmp/datachain-1.2.1.tar.gz --markdown 20230705/d/datachain/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-05 14:34:37] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.9.tar.gz tmp/leanit-mweb-23.7.1.tar.gz --markdown 20230705/l/leanit-mweb/23.6.9-23.7.1/diff.md --exclude *.pyd
+[2023-07-05 14:34:37] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230705/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-07-05 14:34:37] INFO root fetch - processPackages [zibanu-django]: executing diffoscope
+[2023-07-05 14:34:37] INFO root fetch - processPackages [zibanu-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-1.2.0b1.tar.gz tmp/zibanu-django-1.2.1.tar.gz --markdown 20230705/z/zibanu-django/1.2.0b1-1.2.1/diff.md --exclude *.pyd
+[2023-07-05 14:34:38] INFO root fetch - processPackages [opentok]: Downloading https://files.pythonhosted.org/packages/c2/37/387a4c7f6a8a9e6c90d3df3acfd0c8be437be430b126468536ef800f1248/opentok-3.6.1-py2.py3-none-any.whl
+[2023-07-05 14:34:38] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-07-05 14:34:38] INFO root fetch - processPackages [opentok]: executing diffoscope
+[2023-07-05 14:34:38] INFO root fetch - processPackages [opentok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentok-3.6.0.tar.gz tmp/opentok-3.6.1-py2.py3-none-any.whl.zip --markdown 20230705/o/opentok/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-07-05 14:34:38] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-07-05 14:34:38] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230705/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-07-05 14:34:39] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.81.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.82.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.3.1.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.5.2-py3-none-any.whl.zip]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [sail]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.0.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.1.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [datachain]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.7.1.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.7.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.8.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-1.2.0b1.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-1.2.1.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
+[2023-07-05 14:34:39] INFO root fetch - processPackages [opentok]: Remove: archive file [/home/abi/fetcher/tmp/opentok-3.6.0.tar.gz]
+[2023-07-05 14:34:39] INFO root fetch - processPackages [opentok]: Remove: archive file [/home/abi/fetcher/tmp/opentok-3.6.1-py2.py3-none-any.whl.zip]
+[2023-07-05 14:34:39] INFO root fetch - main [MainThread]: End processing [opentok]: success
+[2023-07-05 14:34:40] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-07-05 14:34:40] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-07-05 14:34:40] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-07-05 14:34:40] INFO root fetch - main [MainThread]: Store serial: [18767096]
