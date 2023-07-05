@@ -11414,3 +11414,156 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 10:13:56] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.3.2rc1.tar.gz]
 [2023-07-05 10:13:56] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
 [2023-07-05 10:13:56] INFO root fetch - main [MainThread]: Store serial: [18764284]
+[2023-07-05 10:19:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764284]
+[2023-07-05 10:19:04] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-05 10:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-data-aggregator-sdk
+[2023-07-05 10:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: power-grid-model
+[2023-07-05 10:19:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sanic-api
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-contributor-assets
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolphie
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PowDevLif
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipkg
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ailola
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: censius
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyConSolv
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ailola]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [PowDevLif]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [dolphie]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [PyConSolv]: New version: [0.9.2.3] Old Version: [0.9.2.2]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ipkg]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [sanic-api]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [censius]: New version: [1.7.5] Old Version: [1.7.4]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post882] Old Version: [1.0.0.post881]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9203313270508] Old Version: [1.5.0rc9202711764156]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.3]
+[2023-07-05 10:19:05] INFO root fetch - processPackages [PowDevLif]: Downloading https://files.pythonhosted.org/packages/c2/91/2f79f127ec7607f45d1b713f42906511ef837e9692ec2d85e1a51a476356/PowDevLif-0.0.5.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/af/e3/0d169038e0fe08ab4cb50913f9adaa0e1e6f352207f72302e37e86888be2/ailola-0.9.8.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/c3/70/addfaac72ad09047349d3f1b3903a54b5ed957b09b1904a7c8bdd08ef69b/dolphie-2.0.6.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/1c/1f/5c064f7cda53b94dd5e63d1b272ada459fa30f1c462d984cf73976294bc7/ul-data-aggregator-sdk-8.11.3.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/70/28/49ca4c0b6f6b493055c939ed749b83e4668b32de76ff4a5bc0536423cfc7/power-grid-model-1.5.0rc9202711764156.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [sanic-api]: Downloading https://files.pythonhosted.org/packages/7a/2b/467c44339d492f18c4b8868b20055e332273bb7fcb7e34b4cdd1f328086a/sanic-api-0.2.5.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [ipkg]: Downloading https://files.pythonhosted.org/packages/d0/af/265d07e589858aeeae1289049244d591dc242f8d248786a3734a6e29aca3/ipkg-0.1.9.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [PyConSolv]: Downloading https://files.pythonhosted.org/packages/0c/f3/911ce4f5ee364c69ad1ea5f2baf3b011e644395b28c20b8b08b878e84b04/pyconsolv-0.9.2.2.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/6c/4a/6693535704677a8f3dd526ca4a03bea42a9ebb46983485a8cde6aef38153/censius-1.7.4.tar.gz
+[2023-07-05 10:19:05] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/82/49/7677e0355cea89886a631081b01e4e4d15c7767d34c64f9b490459cc3e3e/nucliadb_contributor_assets-1.0.0.post881-py3-none-any.whl
+[2023-07-05 10:19:05] WARNING root fetch - processPackages [PyConSolv]: Skipping package: exceeds size limit 82191442>=10485760
+[2023-07-05 10:19:05] INFO root fetch - processPackages [PyConSolv]: Start processing: spu
+[2023-07-05 10:19:05] INFO root fetch - main [MainThread]: End processing [PyConSolv] error
+[2023-07-05 10:19:05] INFO root fetch - processPackages [spu]: New version: [0.4.1b0] Old Version: [0.4.0b1]
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ailola]: Downloading https://files.pythonhosted.org/packages/0a/02/d1ca04f4904163f75791f299f0615467ccefaa60386ef5034bb9446d8c1e/ailola-0.9.9.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ipkg]: Downloading https://files.pythonhosted.org/packages/9c/8d/4125c6c04e1a40eadf8ccae9ca77999201a3d808dd2a9b983f7df2fd83a2/ipkg-0.2.0.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [PowDevLif]: Downloading https://files.pythonhosted.org/packages/8c/76/4d46000e1c2d15cda4d4fc251f9dc42b6a7deff1bfabe4a0f8f475f00954/PowDevLif-0.0.6.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/0a/b8/766e0cb9f6097ce11646955732d1ff5a20020fceb902b95f82ef35e0690e/dolphie-2.0.7.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [sanic-api]: Downloading https://files.pythonhosted.org/packages/ca/52/63f665e048caa257feeb3ecb8fc26982dfe43d07f76978907d449829f60a/sanic-api-0.2.6.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ailola]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ailola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailola-0.9.8.tar.gz tmp/ailola-0.9.9.tar.gz --markdown 20230705/a/ailola/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/d1/4d/61fed4571857e90f9e279aa9f7a43555b49c7b9ae192c04664e330a70153/power-grid-model-1.5.0rc9203313270508.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/7d/50/760d90a5ca9ca72c61281f290921308f57de29c675e2abebcfc256f1523b/censius-1.7.5.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [spu]: Downloading https://files.pythonhosted.org/packages/26/03/7b46d2f5e3dea282c08df72a0485c411fe5656d443e6954d8d89a3c87008/spu-0.4.0b1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 10:19:06] INFO root fetch - processPackages [PowDevLif]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [PowDevLif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDevLif-0.0.5.tar.gz tmp/PowDevLif-0.0.6.tar.gz --markdown 20230705/P/PowDevLif/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ipkg]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ipkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipkg-0.1.9.tar.gz tmp/ipkg-0.2.0.tar.gz --markdown 20230705/i/ipkg/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.6.tar.gz tmp/dolphie-2.0.7.tar.gz --markdown 20230705/d/dolphie/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 15657580>=10485760
+[2023-07-05 10:19:06] INFO root fetch - processPackages [spu]: Start processing: EModelRunner
+[2023-07-05 10:19:06] INFO root fetch - main [MainThread]: End processing [spu] error
+[2023-07-05 10:19:06] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/b4/b8/00049619b6010a15fa2c14fd0526b58e2ca8120734f16eb2d6845705323f/nucliadb_contributor_assets-1.0.0.post882-py3-none-any.whl
+[2023-07-05 10:19:06] INFO root fetch - processPackages [sanic-api]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [sanic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-api-0.2.5.tar.gz tmp/sanic-api-0.2.6.tar.gz --markdown 20230705/s/sanic-api/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [EModelRunner]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.3.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230705/u/ul-data-aggregator-sdk/8.11.3-8.9.5/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [censius]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [censius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censius-1.7.4.tar.gz tmp/censius-1.7.5.tar.gz --markdown 20230705/c/censius/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9202711764156.tar.gz tmp/power-grid-model-1.5.0rc9203313270508.tar.gz --markdown 20230705/p/power-grid-model/1.5.0rc9202711764156-1.5.0rc9203313270508/diff.md --exclude *.pyd
+[2023-07-05 10:19:06] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/9d/72/a73be0059677ac21267b7e278445669d1dbbf87faf6df1937edee503f97f/EModelRunner-1.1.8.tar.gz
+[2023-07-05 10:19:06] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-05 10:19:06] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post881-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post882-py3-none-any.whl.zip --markdown 20230705/n/nucliadb-contributor-assets/1.0.0.post881-1.0.0.post882/diff.md --exclude *.pyd
+[2023-07-05 10:19:07] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/51/8c/e29428db1a20fbe7eac5b359049ce5d16626028aa41be0f4b1f92ebfa124/EModelRunner-1.1.9.tar.gz
+[2023-07-05 10:19:07] INFO root fetch - processPackages [EModelRunner]: executing diffoscope
+[2023-07-05 10:19:07] INFO root fetch - processPackages [EModelRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EModelRunner-1.1.8.tar.gz tmp/EModelRunner-1.1.9.tar.gz --markdown 20230705/E/EModelRunner/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.6.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.7.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dolphie]: Start processing: abbyPython
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-05 10:19:08] WARNING root fetch - processPackages [abbyPython]: Skipping, unable to determine old version
+[2023-07-05 10:19:08] INFO root fetch - processPackages [abbyPython]: Start processing: django-quanttide-projects
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [abbyPython] error
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.8.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ailola]: Remove: archive file [/home/abi/fetcher/tmp/ailola-0.9.9.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ailola]: Start processing: dimjournal
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [ailola]: success
+[2023-07-05 10:19:08] WARNING root fetch - processPackages [django-quanttide-projects]: Skipping, unable to determine old version
+[2023-07-05 10:19:08] INFO root fetch - processPackages [django-quanttide-projects]: Start processing: specmatic
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [django-quanttide-projects] error
+[2023-07-05 10:19:08] INFO root fetch - processPackages [PowDevLif]: Remove: archive file [/home/abi/fetcher/tmp/PowDevLif-0.0.5.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [PowDevLif]: Remove: archive file [/home/abi/fetcher/tmp/PowDevLif-0.0.6.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [PowDevLif]: Start processing: CustomCFLib
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [PowDevLif]: success
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.3.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Start processing: einops
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dimjournal]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [specmatic]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [censius]: Remove: archive file [/home/abi/fetcher/tmp/censius-1.7.4.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [sanic-api]: Remove: archive file [/home/abi/fetcher/tmp/sanic-api-0.2.5.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [censius]: Remove: archive file [/home/abi/fetcher/tmp/censius-1.7.5.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [sanic-api]: Remove: archive file [/home/abi/fetcher/tmp/sanic-api-0.2.6.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [censius]: Start processing: dbt-artifacts-parser
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [censius]: success
+[2023-07-05 10:19:08] INFO root fetch - processPackages [sanic-api]: Start processing: sj-tool
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [sanic-api]: success
+[2023-07-05 10:19:08] INFO root fetch - processPackages [einops]: New version: [0.6.2rc0] Old Version: [0.6.1]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ipkg]: Remove: archive file [/home/abi/fetcher/tmp/ipkg-0.1.9.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [ipkg]: Remove: archive file [/home/abi/fetcher/tmp/ipkg-0.2.0.tar.gz]
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [ipkg]: success
+[2023-07-05 10:19:08] WARNING root fetch - processPackages [CustomCFLib]: Skipping, unable to determine old version
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [CustomCFLib] error
+[2023-07-05 10:19:08] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dimjournal]: Downloading https://files.pythonhosted.org/packages/24/ca/b808b6a287f147bef29f73cf4cd925abcf0949e415afd1f18927d045413f/dimjournal-1.0.8.tar.gz
+[2023-07-05 10:19:08] INFO root fetch - processPackages [einops]: Downloading https://files.pythonhosted.org/packages/ac/09/9d5fb513bda4845044802b389e0e1ecddb47b01a7934d33d3b406adf5073/einops-0.6.1.tar.gz
+[2023-07-05 10:19:08] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 10:19:08] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/9a/45/3c1a6ed88fbd10f3366eb99a47f15605c8d55fd09589100d9f0d74be7940/specmatic-0.9.0.tar.gz
+[2023-07-05 10:19:08] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79091199>=10485760
+[2023-07-05 10:19:08] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-07-05 10:19:08] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/f3/ab/b439ba5d4514245875e48b27ab7a2f4365205806556408fef9e4c429db21/dbt-artifacts-parser-0.3.1.tar.gz
+[2023-07-05 10:19:08] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 10:19:08] INFO root fetch - processPackages [einops]: Downloading https://files.pythonhosted.org/packages/d1/d4/30c8c3ca796853641b935c676971b9ae65f08c4fb168abab3cc958512c49/einops-0.6.2rc0.tar.gz
+[2023-07-05 10:19:09] INFO root fetch - processPackages [dimjournal]: Downloading https://files.pythonhosted.org/packages/b4/88/839b54a4dbf036b237d17d892231270741e78dbc0ad5bbcff0d48a484058/dimjournal-1.0.9.tar.gz
+[2023-07-05 10:19:09] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 10:19:09] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:19:09] INFO root fetch - processPackages [einops]: executing diffoscope
+[2023-07-05 10:19:09] INFO root fetch - processPackages [einops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/einops-0.6.1.tar.gz tmp/einops-0.6.2rc0.tar.gz --markdown 20230705/e/einops/0.6.1-0.6.2rc0/diff.md --exclude *.pyd
+[2023-07-05 10:19:09] INFO root fetch - processPackages [dimjournal]: executing diffoscope
+[2023-07-05 10:19:09] INFO root fetch - processPackages [dimjournal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimjournal-1.0.8.tar.gz tmp/dimjournal-1.0.9.tar.gz --markdown 20230705/d/dimjournal/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:19:09] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/fb/9b/62f085e5766218840a47c471acff7b435388faca459804cf3c6f9f01f15f/dbt_artifacts_parser-0.3.2.tar.gz
+[2023-07-05 10:19:09] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2023-07-05 10:19:09] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-artifacts-parser-0.3.1.tar.gz tmp/dbt_artifacts_parser-0.3.2.tar.gz --markdown 20230705/d/dbt-artifacts-parser/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-05 10:19:10] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 10:19:10] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 10:19:10] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 10:19:10] INFO root fetch - processPackages [dimjournal]: Remove: archive file [/home/abi/fetcher/tmp/dimjournal-1.0.8.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - processPackages [dimjournal]: Remove: archive file [/home/abi/fetcher/tmp/dimjournal-1.0.9.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - main [MainThread]: End processing [dimjournal]: success
+[2023-07-05 10:19:10] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9202711764156.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9203313270508.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-05 10:19:10] INFO root fetch - processPackages [einops]: Remove: archive file [/home/abi/fetcher/tmp/einops-0.6.1.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - processPackages [einops]: Remove: archive file [/home/abi/fetcher/tmp/einops-0.6.2rc0.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - main [MainThread]: End processing [einops]: success
+[2023-07-05 10:19:10] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.8.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.9.tar.gz]
+[2023-07-05 10:19:10] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
+[2023-07-05 10:19:11] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt-artifacts-parser-0.3.1.tar.gz]
+[2023-07-05 10:19:11] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.3.2.tar.gz]
+[2023-07-05 10:19:11] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2023-07-05 10:19:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post881-py3-none-any.whl.zip]
+[2023-07-05 10:19:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post882-py3-none-any.whl.zip]
+[2023-07-05 10:19:21] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-05 10:19:21] INFO root fetch - main [MainThread]: Store serial: [18764355]
