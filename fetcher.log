@@ -23069,3 +23069,473 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 17:31:35] INFO root fetch - processPackages [google-cloud-compute]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-compute-1.9.0.tar.gz]
 [2023-07-05 17:31:35] INFO root fetch - main [MainThread]: End processing [google-cloud-compute]: success
 [2023-07-05 17:31:35] INFO root fetch - main [MainThread]: Store serial: [18769499]
+[2023-07-05 17:36:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18769499]
+[2023-07-05 17:36:58] INFO root fetch - main [MainThread]: Found 55 changed packages
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-cloud-container
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-vision
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-api-gen
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ZEO
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agixtsdk
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tdfs4ds
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noteable-origami
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: repid
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyverse-api
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fps-noauth
+[2023-07-05 17:36:58] INFO root fetch - processPackages [noteable-origami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [jupyverse-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [google-cloud-container]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [tdfs4ds]: New version: [0.1.0.1] Old Version: [0.1.0.0]
+[2023-07-05 17:36:58] WARNING root fetch - processPackages [tg-api-gen]: Skipping, unable to determine old version
+[2023-07-05 17:36:58] INFO root fetch - processPackages [tg-api-gen]: Start processing: fps-auth
+[2023-07-05 17:36:58] INFO root fetch - main [MainThread]: End processing [tg-api-gen] error
+[2023-07-05 17:36:58] INFO root fetch - processPackages [ZEO]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [fps-noauth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [google-cloud-vision]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [repid]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-05 17:36:58] INFO root fetch - processPackages [fps-auth]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:36:59] INFO root fetch - processPackages [google-cloud-container]: Downloading https://files.pythonhosted.org/packages/9f/8d/5d2864511401e860531a2dc96c9b966237756ea7efcabaff757e216c3eff/google-cloud-container-2.8.1.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [noteable-origami]: Downloading https://files.pythonhosted.org/packages/0c/92/f5b5a17bb583fdce32e401cc77337788271177c1388d60111670ac4b92fc/noteable_origami-0.0.8.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/b4/83/41428f8ff00f7da8d6f95d7502cc94bc63506632e4d27ae954af871ba7cd/jupyverse_api-0.1.8.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [ZEO]: Downloading https://files.pythonhosted.org/packages/3d/95/fe89bed32cd6d9717f34e2d2dce062fcac62bbdb0525f2a3e16aebca98a5/ZEO-5.4.0.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [google-cloud-vision]: Downloading https://files.pythonhosted.org/packages/fb/5b/5fa56b4fa93f23caa55cbafdd717f0aaa3cda82e09e24219210c5917515b/google-cloud-vision-3.4.3.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/ff/03/d194c7e0fb15d78326c57b1045430df46a0c334ae3f39b9a4ef24e60a4c4/agixtsdk-0.0.7.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/3c/d2/1c4d072c685b3581905b4468a16790dd73edb29865719b96fbb030838a3d/tdfs4ds-0.1.0.0-py3-none-any.whl
+[2023-07-05 17:36:59] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/d9/a2/c8b5f51a1b912416803cd58bc07e92b66e27f73f9ec4a7feacce59bd34e0/fps_noauth-0.1.8.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/d5/35/f0d4c7754e4d69c28bcbe4ac81f0dc2362ec0b311833d06dcc60e24e8dfb/repid-1.4.2.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/df/b9/8adeaf2348bf9408b77e083791daeea73b671961ae94b12e51c8d9913ea2/fps_auth-0.1.8.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [google-cloud-vision]: Downloading https://files.pythonhosted.org/packages/cf/0d/7c4aa4d69c4ba6a4a6950d4122f674ceb394c11085a66b38d7863f7ac649/google-cloud-vision-3.4.4.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/26/06/6293bd1eb345ccc76653d1c40661b337534311c8aa809d13c6c20008dcb1/repid-1.4.3.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [google-cloud-container]: Downloading https://files.pythonhosted.org/packages/a6/0f/71a16bec82f5b84b1aa6c4b9e6d8d7c40de8f7abe8d0b150e7a45bbb927c/google-cloud-container-2.9.0.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [ZEO]: Downloading https://files.pythonhosted.org/packages/99/33/6d58c57279caf9e4c2cb5cd076eeb1bbf48ef359e49f21e6b37cee710e35/ZEO-5.4.1.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/26/e3/00489df3e5cd395303a35931c111f607d33b3154f27346169a434c61e06d/jupyverse_api-0.1.9.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/64/ad/f0d251f3a8b31f98251a9b6ee02eda3379a6d23dadf79beed7e965a56b66/tdfs4ds-0.1.0.1-py3-none-any.whl
+[2023-07-05 17:36:59] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [noteable-origami]: Downloading https://files.pythonhosted.org/packages/bc/8a/148c28e6da363c15abeb9e8e2b1c939b91abbcfa800f6a680eedc8237896/noteable_origami-0.0.9.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/1d/0d/6d96bc190489f768cc983f6fa15af9f5029cedf32b08a54c57ebdeb1018e/fps_noauth-0.1.9.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/de/8d/f52c3724a8d645b8a24d959870dddb0cec39279bb5d84ed561c9b611ccce/fps_auth-0.1.9.tar.gz
+[2023-07-05 17:36:59] INFO root fetch - processPackages [google-cloud-vision]: executing diffoscope
+[2023-07-05 17:36:59] INFO root fetch - processPackages [google-cloud-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-vision-3.4.3.tar.gz tmp/google-cloud-vision-3.4.4.tar.gz --markdown 20230705/g/google-cloud-vision/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [google-cloud-container]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [google-cloud-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-container-2.8.1.tar.gz tmp/google-cloud-container-2.9.0.tar.gz --markdown 20230705/g/google-cloud-container/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [repid]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [repid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repid-1.4.2.tar.gz tmp/repid-1.4.3.tar.gz --markdown 20230705/r/repid/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [fps-noauth]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [fps-noauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_noauth-0.1.8.tar.gz tmp/fps_noauth-0.1.9.tar.gz --markdown 20230705/f/fps-noauth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [jupyverse-api]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [jupyverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse_api-0.1.8.tar.gz tmp/jupyverse_api-0.1.9.tar.gz --markdown 20230705/j/jupyverse-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [ZEO]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [ZEO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZEO-5.4.0.tar.gz tmp/ZEO-5.4.1.tar.gz --markdown 20230705/Z/ZEO/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [noteable-origami]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [noteable-origami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteable_origami-0.0.8.tar.gz tmp/noteable_origami-0.0.9.tar.gz --markdown 20230705/n/noteable-origami/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [tdfs4ds]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [tdfs4ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfs4ds-0.1.0.0-py3-none-any.whl.zip tmp/tdfs4ds-0.1.0.1-py3-none-any.whl.zip --markdown 20230705/t/tdfs4ds/0.1.0.0-0.1.0.1/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [fps-auth]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [fps-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth-0.1.8.tar.gz tmp/fps_auth-0.1.9.tar.gz --markdown 20230705/f/fps-auth/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:00] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-07-05 17:37:00] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.7.tar.gz tmp/agixtsdk-0.0.8.tar.gz --markdown 20230705/a/agixtsdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 17:37:01] INFO root fetch - processPackages [jupyverse-api]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse_api-0.1.8.tar.gz]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [jupyverse-api]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse_api-0.1.9.tar.gz]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [jupyverse-api]: Start processing: fps-auth-fief
+[2023-07-05 17:37:01] INFO root fetch - main [MainThread]: End processing [jupyverse-api]: success
+[2023-07-05 17:37:01] INFO root fetch - processPackages [fps-auth-fief]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [fps-noauth]: Remove: archive file [/home/abi/fetcher/tmp/fps_noauth-0.1.8.tar.gz]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [fps-noauth]: Remove: archive file [/home/abi/fetcher/tmp/fps_noauth-0.1.9.tar.gz]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [fps-noauth]: Start processing: bilibili-live
+[2023-07-05 17:37:01] INFO root fetch - main [MainThread]: End processing [fps-noauth]: success
+[2023-07-05 17:37:01] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.7.tar.gz]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [agixtsdk]: Start processing: fps-contents
+[2023-07-05 17:37:01] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-07-05 17:37:01] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.1.0.0-py3-none-any.whl.zip]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.1.0.1-py3-none-any.whl.zip]
+[2023-07-05 17:37:01] INFO root fetch - processPackages [tdfs4ds]: Start processing: few-shot-priming
+[2023-07-05 17:37:01] INFO root fetch - main [MainThread]: End processing [tdfs4ds]: success
+[2023-07-05 17:37:02] INFO root fetch - processPackages [bilibili-live]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-contents]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [noteable-origami]: Remove: archive file [/home/abi/fetcher/tmp/noteable_origami-0.0.8.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [noteable-origami]: Remove: archive file [/home/abi/fetcher/tmp/noteable_origami-0.0.9.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [noteable-origami]: Start processing: fps-frontend
+[2023-07-05 17:37:02] INFO root fetch - main [MainThread]: End processing [noteable-origami]: success
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth-0.1.8.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth-0.1.9.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth]: Start processing: fps-jupyterlab
+[2023-07-05 17:37:02] INFO root fetch - main [MainThread]: End processing [fps-auth]: success
+[2023-07-05 17:37:02] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.4.2.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.4.3.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [repid]: Start processing: fps-kernels
+[2023-07-05 17:37:02] INFO root fetch - main [MainThread]: End processing [repid]: success
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-frontend]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/50/9c/f9ec7fc8d487bc5a23a73a2345d35856690154e7b052e8138d220ea99287/fps_auth_fief-0.1.8.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-kernels]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-jupyterlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [bilibili-live]: Downloading https://files.pythonhosted.org/packages/2a/5c/73cace169e6f584d84ac4da3b701e3763fdce5980f19f12e20470da599a6/bilibili-live-0.8.3.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/e8/55/719d0dbc04b98c3ba145372973f4ad0d3263dad65bea3161b972ca012e7d/fps_contents-0.1.8.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/00/15/0c42ab53a0eb06f6d1cbe7fa9aa46610901e9c4e284fb321359052a0ab82/fps_frontend-0.1.8.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/0f/f4/7eeb1b4de9e5dba9b3e5c9b21975d0e688c422dade6a301e2b40808b1257/fps_kernels-0.1.8.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [google-cloud-container]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-container-2.8.1.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [google-cloud-container]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-container-2.9.0.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [google-cloud-container]: Start processing: fps-lab
+[2023-07-05 17:37:02] INFO root fetch - main [MainThread]: End processing [google-cloud-container]: success
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/db/61/3291b50fa460ffee57aebcfddbbbc9b59d70f164a83e95d5afa99e04dcea/fps_jupyterlab-0.1.8.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-lab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-05 17:37:02] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230705/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/ca/ac/d36c0f42284be4b2830028731134ab4563da360ca74d8c921b78a622d9fd/fps_auth_fief-0.1.9.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [ZEO]: Remove: archive file [/home/abi/fetcher/tmp/ZEO-5.4.0.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [ZEO]: Remove: archive file [/home/abi/fetcher/tmp/ZEO-5.4.1.tar.gz]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [ZEO]: Start processing: fps-nbconvert
+[2023-07-05 17:37:02] INFO root fetch - main [MainThread]: End processing [ZEO]: success
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-nbconvert]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/98/87/93d6847962574058c87a3d4f71f8ec78ec81d4c49d12eef62693bfbd1ac8/fps_contents-0.1.9.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [bilibili-live]: Downloading https://files.pythonhosted.org/packages/3f/da/0a5a2735d620b2710e6ff5df0317e723c93fff27d271168ca5da545905f5/bilibili-live-0.9.0.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/ae/68/d99decb5017f28b0cabbd81c7d5d608f7ed819661e2cc973814a35c24fd4/fps_lab-0.1.8.tar.gz
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth-fief]: executing diffoscope
+[2023-07-05 17:37:02] INFO root fetch - processPackages [fps-auth-fief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_fief-0.1.8.tar.gz tmp/fps_auth_fief-0.1.9.tar.gz --markdown 20230705/f/fps-auth-fief/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/45/20/b900e502bdab51dc96fd410444440e8e7ee7abf4118771f87e1ab5c71da4/fps_frontend-0.1.9.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/51/17/5c37fb829ddb55a9c9eea9c981dcf6583b6e7593dde151d39baa0e050a5f/fps_jupyterlab-0.1.9.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/a1/46/17f6b7968189bd6556a71f25ccc655b8a7c1026861b1ad8b81aac827ee3b/fps_kernels-0.1.9.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-contents]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-contents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_contents-0.1.8.tar.gz tmp/fps_contents-0.1.9.tar.gz --markdown 20230705/f/fps-contents/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/ec/3c/0207ad187377f1f3e38afd24a8a3624d4605c12b174a6e7f5e7f0ad58373/fps_nbconvert-0.1.8.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [bilibili-live]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [bilibili-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-live-0.8.3.tar.gz tmp/bilibili-live-0.9.0.tar.gz --markdown 20230705/b/bilibili-live/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-frontend]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_frontend-0.1.8.tar.gz tmp/fps_frontend-0.1.9.tar.gz --markdown 20230705/f/fps-frontend/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-jupyterlab]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupyterlab-0.1.8.tar.gz tmp/fps_jupyterlab-0.1.9.tar.gz --markdown 20230705/f/fps-jupyterlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-kernels]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_kernels-0.1.8.tar.gz tmp/fps_kernels-0.1.9.tar.gz --markdown 20230705/f/fps-kernels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [google-cloud-vision]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-vision-3.4.3.tar.gz]
+[2023-07-05 17:37:03] INFO root fetch - processPackages [google-cloud-vision]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-vision-3.4.4.tar.gz]
+[2023-07-05 17:37:03] INFO root fetch - processPackages [google-cloud-vision]: Start processing: fps-retrolab
+[2023-07-05 17:37:03] INFO root fetch - main [MainThread]: End processing [google-cloud-vision]: success
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/66/10/6040805d2dc4c662907f17752bb9dc0c6439e24beb65768b78983bd8b4fd/fps_lab-0.1.9.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-retrolab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/ec/fa/245b7e8358e7a274756a81b1e79ba664b7ab405c85dc95006576107dbf6e/fps_nbconvert-0.1.9.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-lab]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_lab-0.1.8.tar.gz tmp/fps_lab-0.1.9.tar.gz --markdown 20230705/f/fps-lab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:03] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-05 17:37:03] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-05 17:37:03] INFO root fetch - processPackages [few-shot-priming]: Start processing: bert4torch
+[2023-07-05 17:37:03] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-05 17:37:03] INFO root fetch - processPackages [bert4torch]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-retrolab]: Downloading https://files.pythonhosted.org/packages/5f/30/5d4123192fdfc73a9c7ed2bad67264a91ffbcd5833df3cc25e5f1d569483/fps_retrolab-0.1.8.tar.gz
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-nbconvert]: executing diffoscope
+[2023-07-05 17:37:03] INFO root fetch - processPackages [fps-nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_nbconvert-0.1.8.tar.gz tmp/fps_nbconvert-0.1.9.tar.gz --markdown 20230705/f/fps-nbconvert/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bert4torch]: Downloading https://files.pythonhosted.org/packages/e7/e9/4f5cc43434d2a5110e17e58e9286cf5086fd43c14eaa35dd77b7e797e41a/bert4torch-0.2.8.tar.gz
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-auth-fief]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_fief-0.1.8.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-auth-fief]: Remove: archive file [/home/abi/fetcher/tmp/fps_auth_fief-0.1.9.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-auth-fief]: Start processing: google-cloud-gke-hub
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [fps-auth-fief]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [google-cloud-gke-hub]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-retrolab]: Downloading https://files.pythonhosted.org/packages/78/8c/1cb08a91abeed29cc00c7c24037cf5000af2d8a5ccab96812466a23b8331/fps_retrolab-0.1.9.tar.gz
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-frontend]: Remove: archive file [/home/abi/fetcher/tmp/fps_frontend-0.1.8.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-frontend]: Remove: archive file [/home/abi/fetcher/tmp/fps_frontend-0.1.9.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-frontend]: Start processing: fps-terminals
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [fps-frontend]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [google-cloud-gke-hub]: Downloading https://files.pythonhosted.org/packages/cb/5a/013f89a145f10d3770ad987d8a746f47df705c5f2d65151003b77e1d1aa7/google-cloud-gke-hub-1.8.1.tar.gz
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-contents]: Remove: archive file [/home/abi/fetcher/tmp/fps_contents-0.1.8.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-contents]: Remove: archive file [/home/abi/fetcher/tmp/fps_contents-0.1.9.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-contents]: Start processing: fps-yjs
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [fps-contents]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-retrolab]: executing diffoscope
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-retrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_retrolab-0.1.8.tar.gz tmp/fps_retrolab-0.1.9.tar.gz --markdown 20230705/f/fps-retrolab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bert4torch]: Downloading https://files.pythonhosted.org/packages/32/f0/c7601c953f4867508163093ea0ff9f291759a95d997b3491157dc6aa4eb8/bert4torch-0.2.9.tar.gz
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-terminals]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bilibili-live]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-live-0.8.3.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bilibili-live]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-live-0.9.0.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bilibili-live]: Start processing: fps-resource-usage
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [bilibili-live]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-yjs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupyterlab-0.1.8.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/fps_jupyterlab-0.1.9.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-jupyterlab]: Start processing: whyqd
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [fps-jupyterlab]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-resource-usage]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-kernels]: Remove: archive file [/home/abi/fetcher/tmp/fps_kernels-0.1.8.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-kernels]: Remove: archive file [/home/abi/fetcher/tmp/fps_kernels-0.1.9.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-kernels]: Start processing: fps-login
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [fps-kernels]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [whyqd]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-login]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bert4torch]: executing diffoscope
+[2023-07-05 17:37:04] INFO root fetch - processPackages [bert4torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4torch-0.2.8.tar.gz tmp/bert4torch-0.2.9.tar.gz --markdown 20230705/b/bert4torch/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/3b/4e/a8cefcb4dfbc2fbff7979f48f61b9b4b9665bc254a4a08b9449b2cf4693b/fps_terminals-0.1.8.tar.gz
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/64/d3/161ae1650fad7f902e279cacd0b449cfac166e25cbeccac662817627ff16/fps_yjs-0.1.8.tar.gz
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-lab]: Remove: archive file [/home/abi/fetcher/tmp/fps_lab-0.1.8.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-lab]: Remove: archive file [/home/abi/fetcher/tmp/fps_lab-0.1.9.tar.gz]
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-lab]: Start processing: fps-webdav
+[2023-07-05 17:37:04] INFO root fetch - main [MainThread]: End processing [fps-lab]: success
+[2023-07-05 17:37:04] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/aa/f0/5ca2b404df7f3262421b0cfd5800e3fa9560c3aa106ae349024d53cc8498/fps_resource_usage-0.1.8.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-webdav]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/32/13/cfc4dcea69b127e3ed22ade545149e560364c366ae8519c0c86fbb4babce/whyqd-1.0.0.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/fps_nbconvert-0.1.8.tar.gz]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-nbconvert]: Remove: archive file [/home/abi/fetcher/tmp/fps_nbconvert-0.1.9.tar.gz]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-nbconvert]: Start processing: google-cloud-storage-transfer
+[2023-07-05 17:37:05] INFO root fetch - main [MainThread]: End processing [fps-nbconvert]: success
+[2023-07-05 17:37:05] INFO root fetch - processPackages [google-cloud-gke-hub]: Downloading https://files.pythonhosted.org/packages/eb/b2/bae02764ddea68858d90cb4dda1ff2005a0bab4663fbd44711ebadcdf65d/google-cloud-gke-hub-1.9.0.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/33/96/a53774325e242034f7028b1cafad6ba8a55c0bc77fee230b47b300feedc7/fps_login-0.1.8.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [google-cloud-storage-transfer]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [google-cloud-gke-hub]: executing diffoscope
+[2023-07-05 17:37:05] INFO root fetch - processPackages [google-cloud-gke-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-gke-hub-1.8.1.tar.gz tmp/google-cloud-gke-hub-1.9.0.tar.gz --markdown 20230705/g/google-cloud-gke-hub/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-webdav]: Downloading https://files.pythonhosted.org/packages/87/97/8f656d6678d78c33d61c55fdfebd32eac2ca424cd363d9631594feab8b47/fps_webdav-0.1.8.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/9a/cc/30bdc07c2410245c180b8739713b3cb2194b6c9b469f3ffa9a088d8e825e/fps_terminals-0.1.9.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/d2/d1/03813ad73dd45b8b3d7bedeba204f06ebd203e4fe77630f6094fe9b240be/fps_yjs-0.1.9.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [google-cloud-storage-transfer]: Downloading https://files.pythonhosted.org/packages/42/0b/e1430ee34d4a8caeb67013788539400715e632da7fe446e03e39867ac830/google-cloud-storage-transfer-1.9.0.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/a8/4c/d1ef4d365cda595b4815506e292dcd24a2240afcf7a6ff629efa1c43b059/fps_resource_usage-0.1.9.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-retrolab]: Remove: archive file [/home/abi/fetcher/tmp/fps_retrolab-0.1.8.tar.gz]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-retrolab]: Remove: archive file [/home/abi/fetcher/tmp/fps_retrolab-0.1.9.tar.gz]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-retrolab]: Start processing: weekshot-lottery-winner-selection
+[2023-07-05 17:37:05] INFO root fetch - main [MainThread]: End processing [fps-retrolab]: success
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/b1/51/6f74b84165a9f4372773a3ac8629dceeed65fe56fc34a1b9a56d72e5733c/fps_login-0.1.9.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-resource-usage]: executing diffoscope
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-resource-usage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_resource_usage-0.1.8.tar.gz tmp/fps_resource_usage-0.1.9.tar.gz --markdown 20230705/f/fps-resource-usage/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-terminals]: executing diffoscope
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_terminals-0.1.8.tar.gz tmp/fps_terminals-0.1.9.tar.gz --markdown 20230705/f/fps-terminals/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:05] WARNING root fetch - processPackages [weekshot-lottery-winner-selection]: Skipping, unable to determine old version
+[2023-07-05 17:37:05] INFO root fetch - processPackages [weekshot-lottery-winner-selection]: Start processing: jupyverse
+[2023-07-05 17:37:05] INFO root fetch - main [MainThread]: End processing [weekshot-lottery-winner-selection] error
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-yjs]: executing diffoscope
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-yjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_yjs-0.1.8.tar.gz tmp/fps_yjs-0.1.9.tar.gz --markdown 20230705/f/fps-yjs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:05] INFO root fetch - processPackages [jupyverse]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [google-cloud-storage-transfer]: Downloading https://files.pythonhosted.org/packages/5d/c8/322e2ae2e48d2e27bc8cdb09c825dd5dec19bc3183add6831e016221c195/google-cloud-storage-transfer-1.9.1.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-login]: executing diffoscope
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_login-0.1.8.tar.gz tmp/fps_login-0.1.9.tar.gz --markdown 20230705/f/fps-login/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:05] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/86/95/e40b2b78f90bed919d290edf9d1bddfedbd9036ff124e58bcd4f8622d24f/whyqd-1.0.1.tar.gz
+[2023-07-05 17:37:05] INFO root fetch - processPackages [bert4torch]: Remove: archive file [/home/abi/fetcher/tmp/bert4torch-0.2.8.tar.gz]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [bert4torch]: Remove: archive file [/home/abi/fetcher/tmp/bert4torch-0.2.9.tar.gz]
+[2023-07-05 17:37:05] INFO root fetch - processPackages [bert4torch]: Start processing: appcensus-dynamic-repos
+[2023-07-05 17:37:05] INFO root fetch - main [MainThread]: End processing [bert4torch]: success
+[2023-07-05 17:37:05] INFO root fetch - processPackages [fps-webdav]: Downloading https://files.pythonhosted.org/packages/29/12/9c81beeb52820db8999cfa8644d458d407ff7746c0edeaa148c773bdc2da/fps_webdav-0.1.9.tar.gz
+[2023-07-05 17:37:06] INFO root fetch - processPackages [appcensus-dynamic-repos]: New version: [0.6.1.91] Old Version: [0.6.0.76]
+[2023-07-05 17:37:06] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/b8/7a/447160873a26d9cdc809a608332995ba1b84c7ee19a1baa0ace7d8f17fa4/jupyverse-0.1.8.tar.gz
+[2023-07-05 17:37:06] INFO root fetch - processPackages [google-cloud-storage-transfer]: executing diffoscope
+[2023-07-05 17:37:06] INFO root fetch - processPackages [google-cloud-storage-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-storage-transfer-1.9.0.tar.gz tmp/google-cloud-storage-transfer-1.9.1.tar.gz --markdown 20230705/g/google-cloud-storage-transfer/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-webdav]: executing diffoscope
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_webdav-0.1.8.tar.gz tmp/fps_webdav-0.1.9.tar.gz --markdown 20230705/f/fps-webdav/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:06] INFO root fetch - processPackages [appcensus-dynamic-repos]: Downloading https://files.pythonhosted.org/packages/c5/7a/6598aa678064f168dc68e72a5cd334529ea7bbb4e596e662ba576ca948ad/appcensus_dynamic_repos-0.6.0.76.tar.gz
+[2023-07-05 17:37:06] INFO root fetch - processPackages [whyqd]: executing diffoscope
+[2023-07-05 17:37:06] INFO root fetch - processPackages [whyqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyqd-1.0.0.tar.gz tmp/whyqd-1.0.1.tar.gz --markdown 20230705/w/whyqd/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 17:37:06] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/46/8d/1637025184a6cba81b93c64be43b508a557fb84d72df40291522fef1708d/jupyverse-0.1.9.tar.gz
+[2023-07-05 17:37:06] INFO root fetch - processPackages [appcensus-dynamic-repos]: Downloading https://files.pythonhosted.org/packages/7d/69/84fefad6bed25ce0e1cc7997c17a7dd99fd2bf91582df8c085a4772ab3f3/appcensus_dynamic_repos-0.6.1.91.tar.gz
+[2023-07-05 17:37:06] INFO root fetch - processPackages [jupyverse]: executing diffoscope
+[2023-07-05 17:37:06] INFO root fetch - processPackages [jupyverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse-0.1.8.tar.gz tmp/jupyverse-0.1.9.tar.gz --markdown 20230705/j/jupyverse/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-terminals]: Remove: archive file [/home/abi/fetcher/tmp/fps_terminals-0.1.8.tar.gz]
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-terminals]: Remove: archive file [/home/abi/fetcher/tmp/fps_terminals-0.1.9.tar.gz]
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-terminals]: Start processing: google-cloud-workflows
+[2023-07-05 17:37:06] INFO root fetch - main [MainThread]: End processing [fps-terminals]: success
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.1.8.tar.gz]
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-yjs]: Remove: archive file [/home/abi/fetcher/tmp/fps_yjs-0.1.9.tar.gz]
+[2023-07-05 17:37:06] INFO root fetch - processPackages [fps-yjs]: Start processing: spyral-cli
+[2023-07-05 17:37:06] INFO root fetch - main [MainThread]: End processing [fps-yjs]: success
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [spyral-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [appcensus-dynamic-repos]: executing diffoscope
+[2023-07-05 17:37:07] INFO root fetch - processPackages [appcensus-dynamic-repos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appcensus_dynamic_repos-0.6.0.76.tar.gz tmp/appcensus_dynamic_repos-0.6.1.91.tar.gz --markdown 20230705/a/appcensus-dynamic-repos/0.6.0.76-0.6.1.91/diff.md --exclude *.pyd
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-resource-usage]: Remove: archive file [/home/abi/fetcher/tmp/fps_resource_usage-0.1.8.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-resource-usage]: Remove: archive file [/home/abi/fetcher/tmp/fps_resource_usage-0.1.9.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-resource-usage]: Start processing: google-cloud-videointelligence
+[2023-07-05 17:37:07] INFO root fetch - main [MainThread]: End processing [fps-resource-usage]: success
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-videointelligence]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-gke-hub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gke-hub-1.8.1.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-gke-hub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gke-hub-1.9.0.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-gke-hub]: Start processing: capstone
+[2023-07-05 17:37:07] INFO root fetch - main [MainThread]: End processing [google-cloud-gke-hub]: success
+[2023-07-05 17:37:07] INFO root fetch - processPackages [capstone]: New version: [5.0.0rc4] Old Version: [5.0.0rc2]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-workflows]: Downloading https://files.pythonhosted.org/packages/54/73/376a6d4f9ae8de4dc9dadb9656f9e4d2804ce609284193c479095dac7e34/google-cloud-workflows-1.9.0.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.1.8.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-login]: Remove: archive file [/home/abi/fetcher/tmp/fps_login-0.1.9.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-login]: Start processing: globus-compute-sdk
+[2023-07-05 17:37:07] INFO root fetch - main [MainThread]: End processing [fps-login]: success
+[2023-07-05 17:37:07] INFO root fetch - processPackages [spyral-cli]: Downloading https://files.pythonhosted.org/packages/e8/ec/87211f141216862fac611aea6d326ff2cf35a9eb1b5e5f5e0970010090d6/spyral_cli-1.0.5.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-videointelligence]: Downloading https://files.pythonhosted.org/packages/3c/1e/293e3483198ccf1819ad6fea03b1c8f2aa27716b2d92cbd78cd6421d4b9e/google-cloud-videointelligence-2.8.3.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [globus-compute-sdk]: New version: [2.2.3a0] Old Version: [2.2.1]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-webdav]: Remove: archive file [/home/abi/fetcher/tmp/fps_webdav-0.1.8.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-webdav]: Remove: archive file [/home/abi/fetcher/tmp/fps_webdav-0.1.9.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [fps-webdav]: Start processing: globus-compute-endpoint
+[2023-07-05 17:37:07] INFO root fetch - main [MainThread]: End processing [fps-webdav]: success
+[2023-07-05 17:37:07] INFO root fetch - processPackages [capstone]: Downloading https://files.pythonhosted.org/packages/a6/6f/6d98f636aba7f064e235b345667e50219b7a53b7ef8871ed7ac6bc50d3fd/capstone-5.0.0rc2.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [globus-compute-endpoint]: New version: [2.2.3a0] Old Version: [2.2.1]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/80/17/b6307625b003384740b1cfe57fbbf1ef97a0d82ee2b053bd12a86dc52a59/globus-compute-sdk-2.2.1.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-workflows]: Downloading https://files.pythonhosted.org/packages/e4/1d/de72daaa7228f7ab61f7b531b3cf1fc158d871f34f8d8ff46d0000177dbb/google-cloud-workflows-1.9.1.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [spyral-cli]: Downloading https://files.pythonhosted.org/packages/e9/8a/533d8e0b64319182941b9d9b13b711be35720a6ede4084caa3c8f51f8eaa/spyral_cli-1.0.6.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-storage-transfer]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-storage-transfer-1.9.0.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-storage-transfer]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-storage-transfer-1.9.1.tar.gz]
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-storage-transfer]: Start processing: reqmgr2ms-transferor
+[2023-07-05 17:37:07] INFO root fetch - main [MainThread]: End processing [google-cloud-storage-transfer]: success
+[2023-07-05 17:37:07] INFO root fetch - processPackages [google-cloud-videointelligence]: Downloading https://files.pythonhosted.org/packages/c3/67/74c21b4ab94aeead36b75d6d269773bbe5e26c7f58b9ac1649b9e1ee8629/google-cloud-videointelligence-2.9.0.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/46/dc/60baef50a09d9bf863b35492748d8d1b22376d019cd3cca1c17c7a47b69a/globus-compute-endpoint-2.2.1.tar.gz
+[2023-07-05 17:37:07] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [google-cloud-workflows]: executing diffoscope
+[2023-07-05 17:37:08] INFO root fetch - processPackages [google-cloud-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-workflows-1.9.0.tar.gz tmp/google-cloud-workflows-1.9.1.tar.gz --markdown 20230705/g/google-cloud-workflows/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:37:08] INFO root fetch - processPackages [spyral-cli]: executing diffoscope
+[2023-07-05 17:37:08] INFO root fetch - processPackages [spyral-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyral_cli-1.0.5.tar.gz tmp/spyral_cli-1.0.6.tar.gz --markdown 20230705/s/spyral-cli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-05 17:37:08] INFO root fetch - processPackages [appcensus-dynamic-repos]: Remove: archive file [/home/abi/fetcher/tmp/appcensus_dynamic_repos-0.6.0.76.tar.gz]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [appcensus-dynamic-repos]: Remove: archive file [/home/abi/fetcher/tmp/appcensus_dynamic_repos-0.6.1.91.tar.gz]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [appcensus-dynamic-repos]: Start processing: reqmgr2ms-monitor
+[2023-07-05 17:37:08] INFO root fetch - main [MainThread]: End processing [appcensus-dynamic-repos]: success
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/95/0a/281597b841df4a4ef4fd7f70a4c8c6c9f41efdf23ae8452deceb220919a8/reqmgr2ms-transferor-2.2.2rc3.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/c7/af/61acb5383ccf2ab7711579de2a971dec495dd4c7cf5097386421643b9520/globus-compute-sdk-2.2.3a0.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [google-cloud-videointelligence]: executing diffoscope
+[2023-07-05 17:37:08] INFO root fetch - processPackages [google-cloud-videointelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-videointelligence-2.8.3.tar.gz tmp/google-cloud-videointelligence-2.9.0.tar.gz --markdown 20230705/g/google-cloud-videointelligence/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/df/84/da7d2292bd47df8f7eb465c5b72f475b2f3cc9d0c0f9371d5a0205d65a45/reqmgr2ms-monitor-2.2.2rc3.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/3b/90/11d59cb5e0802b05b233f0e6564b5d5d7a8f8b109599aeb0a41d89e44790/reqmgr2ms-transferor-2.2.2rc4.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [whyqd]: Remove: archive file [/home/abi/fetcher/tmp/whyqd-1.0.0.tar.gz]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [whyqd]: Remove: archive file [/home/abi/fetcher/tmp/whyqd-1.0.1.tar.gz]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [whyqd]: Start processing: reqmon
+[2023-07-05 17:37:08] INFO root fetch - main [MainThread]: End processing [whyqd]: success
+[2023-07-05 17:37:08] INFO root fetch - processPackages [globus-compute-sdk]: executing diffoscope
+[2023-07-05 17:37:08] INFO root fetch - processPackages [globus-compute-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-sdk-2.2.1.tar.gz tmp/globus-compute-sdk-2.2.3a0.tar.gz --markdown 20230705/g/globus-compute-sdk/2.2.1-2.2.3a0/diff.md --exclude *.pyd
+[2023-07-05 17:37:08] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/71/20/c9d7749e07b7961559375709eada7890ab20a33f03491f6037c36e4bcc5e/globus-compute-endpoint-2.2.3a0.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmon]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.2rc3.tar.gz tmp/reqmgr2ms-transferor-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-transferor/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/18/17/4a1c51eafa0aee14b5e9152114ef8241f683a45d78a68b92f920e202afed/reqmon-2.2.2rc3.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [globus-compute-endpoint]: executing diffoscope
+[2023-07-05 17:37:08] INFO root fetch - processPackages [globus-compute-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-endpoint-2.2.1.tar.gz tmp/globus-compute-endpoint-2.2.3a0.tar.gz --markdown 20230705/g/globus-compute-endpoint/2.2.1-2.2.3a0/diff.md --exclude *.pyd
+[2023-07-05 17:37:08] INFO root fetch - processPackages [capstone]: Downloading https://files.pythonhosted.org/packages/72/4c/2766bfe89b99b47d2ef831cd4d9a348a8508f9978c52e7908dab936e3370/capstone-5.0.0rc4.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.1.8.tar.gz]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [jupyverse]: Remove: archive file [/home/abi/fetcher/tmp/jupyverse-0.1.9.tar.gz]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [jupyverse]: Start processing: reqmgr2ms-unmerged
+[2023-07-05 17:37:08] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/30/db/92519a15b1c22a43d5c2ad1423225547f511b4e8f47029018b9a44184d46/reqmon-2.2.2rc4.tar.gz
+[2023-07-05 17:37:08] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/fe/94/3a9bebe4d9f59a28ea5c6fb717d730d28be81ae7643bab2e830691984c92/reqmgr2ms-monitor-2.2.2rc4.tar.gz
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/cd/b3/1063c779f56a7ba8c1ca308b8af4d1d7ca1f35df463856efbbde1e1bc394/reqmgr2ms-unmerged-2.2.2rc3.tar.gz
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.2rc3.tar.gz tmp/reqmon-2.2.2rc4.tar.gz --markdown 20230705/r/reqmon/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.2rc3.tar.gz tmp/reqmgr2ms-monitor-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-monitor/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:09] INFO root fetch - processPackages [capstone]: executing diffoscope
+[2023-07-05 17:37:09] INFO root fetch - processPackages [capstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capstone-5.0.0rc2.tar.gz tmp/capstone-5.0.0rc4.tar.gz --markdown 20230705/c/capstone/5.0.0rc2-5.0.0rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:09] INFO root fetch - processPackages [spyral-cli]: Remove: archive file [/home/abi/fetcher/tmp/spyral_cli-1.0.5.tar.gz]
+[2023-07-05 17:37:09] INFO root fetch - processPackages [spyral-cli]: Remove: archive file [/home/abi/fetcher/tmp/spyral_cli-1.0.6.tar.gz]
+[2023-07-05 17:37:09] INFO root fetch - processPackages [spyral-cli]: Start processing: garth
+[2023-07-05 17:37:09] INFO root fetch - main [MainThread]: End processing [spyral-cli]: success
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/85/44/7618cb74bb661eb8af30d45b5c2f682c5ec1de2187603e622d1d5f6a6ad0/reqmgr2ms-unmerged-2.2.2rc4.tar.gz
+[2023-07-05 17:37:09] WARNING root fetch - processPackages [garth]: Skipping, unable to determine old version
+[2023-07-05 17:37:09] INFO root fetch - processPackages [garth]: Start processing: acdcserver
+[2023-07-05 17:37:09] INFO root fetch - main [MainThread]: End processing [garth] error
+[2023-07-05 17:37:09] INFO root fetch - processPackages [acdcserver]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-07-05 17:37:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.2rc3.tar.gz tmp/reqmgr2ms-unmerged-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-unmerged/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:09] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/7b/e3/4e15aa11c7628190a047ae5cc5b7b32801f89eff131dec795addd15b5468/acdcserver-2.2.2rc3.tar.gz
+[2023-07-05 17:37:09] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/10/cd/ce9002e0de7c88f93457292a3551c876b6c628ebea077df1a4f2b49ac1e9/acdcserver-2.2.2rc4.tar.gz
+[2023-07-05 17:37:09] INFO root fetch - processPackages [google-cloud-workflows]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-workflows-1.9.0.tar.gz]
+[2023-07-05 17:37:09] INFO root fetch - processPackages [google-cloud-workflows]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-workflows-1.9.1.tar.gz]
+[2023-07-05 17:37:09] INFO root fetch - processPackages [google-cloud-workflows]: Start processing: reqmgr2
+[2023-07-05 17:37:09] INFO root fetch - main [MainThread]: End processing [google-cloud-workflows]: success
+[2023-07-05 17:37:10] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-07-05 17:37:10] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.2rc3.tar.gz tmp/acdcserver-2.2.2rc4.tar.gz --markdown 20230705/a/acdcserver/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:10] INFO root fetch - processPackages [globus-compute-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-sdk-2.2.1.tar.gz]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [globus-compute-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-sdk-2.2.3a0.tar.gz]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [globus-compute-sdk]: Start processing: global-workqueue
+[2023-07-05 17:37:10] INFO root fetch - main [MainThread]: End processing [globus-compute-sdk]: success
+[2023-07-05 17:37:10] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/ff/6e/f047dd815744f71649cf34150a224a1ebe403988bf0c88a66f8dc4c56610/reqmgr2-2.2.2rc3.tar.gz
+[2023-07-05 17:37:10] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/72/aa/046767980a1039eec57a603cc884ee348d1eab9d013dccde19b1a4d0acad/global-workqueue-2.2.2rc3.tar.gz
+[2023-07-05 17:37:10] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/2f/19/4ac41c36f42b3f2cf4270f0084296af5be696e8299dfff0a1ad8596354aa/reqmgr2-2.2.2rc4.tar.gz
+[2023-07-05 17:37:10] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/6a/99/c4e9ebdbfbe51096da7614089b59cfa606b7b0f36f593083f1cab14c1f56/global-workqueue-2.2.2rc4.tar.gz
+[2023-07-05 17:37:10] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-07-05 17:37:10] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.2rc3.tar.gz tmp/reqmgr2-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:10] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-07-05 17:37:10] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.2rc3.tar.gz tmp/global-workqueue-2.2.2rc4.tar.gz --markdown 20230705/g/global-workqueue/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:10] INFO root fetch - processPackages [globus-compute-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-endpoint-2.2.1.tar.gz]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [globus-compute-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-endpoint-2.2.3a0.tar.gz]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [globus-compute-endpoint]: Start processing: reqmgr2ms-output
+[2023-07-05 17:37:10] INFO root fetch - main [MainThread]: End processing [globus-compute-endpoint]: success
+[2023-07-05 17:37:10] INFO root fetch - processPackages [google-cloud-videointelligence]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-videointelligence-2.8.3.tar.gz]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [google-cloud-videointelligence]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-videointelligence-2.9.0.tar.gz]
+[2023-07-05 17:37:10] INFO root fetch - processPackages [google-cloud-videointelligence]: Start processing: wmagent
+[2023-07-05 17:37:10] INFO root fetch - main [MainThread]: End processing [google-cloud-videointelligence]: success
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:11] INFO root fetch - processPackages [wmagent]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/eb/ee/86a3ff65fe2424cb60d609d30b7fcd1c8b9049c92f3b0721854de58c1163/reqmgr2ms-output-2.2.2rc3.tar.gz
+[2023-07-05 17:37:11] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/ce/ee/986d157becd13f36acda2a398ba0e15b5f471bb9f7721c45de1116f64914/wmagent-2.2.2rc3.tar.gz
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/60/dd/1828ddbf69fa1a4b6d59dd8c4c783a2ad676672ef1e81deeb86b6e1f0371/reqmgr2ms-output-2.2.2rc4.tar.gz
+[2023-07-05 17:37:11] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/74/a3/15ffcd593384e603b35171d6729a3bd42e9f634961051f0309976671c03a/wmagent-2.2.2rc4.tar.gz
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.2rc3.tar.gz tmp/reqmgr2ms-output-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-output/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:11] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-07-05 17:37:11] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.2rc3.tar.gz tmp/wmagent-2.2.2rc4.tar.gz --markdown 20230705/w/wmagent/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-transferor]: Start processing: reqmgr2ms-pileup
+[2023-07-05 17:37:11] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:11] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/ca/ab/b968f82f4aa7e812bbffe3ad042e8ea602c75f7129c752c27c314621206a/reqmgr2ms-pileup-2.2.2rc3.tar.gz
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/07/e5/869e3fcc21c7be8da797efa0e98365e8abb8c7a452db3aa51aa4daac604e/reqmgr2ms-pileup-2.2.2rc4.tar.gz
+[2023-07-05 17:37:12] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [acdcserver]: Start processing: worldvocoder
+[2023-07-05 17:37:12] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: reqmgr2ms-rulecleaner
+[2023-07-05 17:37:12] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-07-05 17:37:12] WARNING root fetch - processPackages [worldvocoder]: Skipping, unable to determine old version
+[2023-07-05 17:37:12] INFO root fetch - processPackages [worldvocoder]: Start processing: wmcore
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-07-05 17:37:12] INFO root fetch - main [MainThread]: End processing [worldvocoder] error
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.2rc3.tar.gz tmp/reqmgr2ms-pileup-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-pileup/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [wmcore]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/31/dd/f46ce918461d9a8d66491db898a2ddac0a7e97572cde9aa965e0cb209160/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz
+[2023-07-05 17:37:12] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/ab/c1/253374af5e5bbeb814bf27ec0e47ca51c8d98eebbfe907561ac79e470a95/wmcore-2.2.2rc3.tar.gz
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:12] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: batch-mailchimp
+[2023-07-05 17:37:12] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-07-05 17:37:12] INFO root fetch - processPackages [batch-mailchimp]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-05 17:37:13] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/0e/9d/0f86d6981d9c9b59578f73e19bfaf0ccc6b6440e2327ef58083504d7a6f0/wmcore-2.2.2rc4.tar.gz
+[2023-07-05 17:37:13] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/33/9c/b1f0c6bd29bfec0b54dd85e35727a05d04e31f5d7bc26fde55b49025f6d1/reqmgr2ms-rulecleaner-2.2.2rc4.tar.gz
+[2023-07-05 17:37:13] INFO root fetch - processPackages [batch-mailchimp]: Downloading https://files.pythonhosted.org/packages/c5/fd/c0e275635d010fdca291f4b9739b27cff5794ac924bed3d91e37b862c734/batch-mailchimp-1.1.2.tar.gz
+[2023-07-05 17:37:13] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-07-05 17:37:13] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.2rc3.tar.gz tmp/wmcore-2.2.2rc4.tar.gz --markdown 20230705/w/wmcore/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:13] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-07-05 17:37:13] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-rulecleaner/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:37:13] INFO root fetch - processPackages [batch-mailchimp]: Downloading https://files.pythonhosted.org/packages/cc/d7/6d406103a02fff2e5cba72488e6558c34ba72122f48815e7bf2d2365ddb2/batch-mailchimp-1.1.3.tar.gz
+[2023-07-05 17:37:13] INFO root fetch - processPackages [batch-mailchimp]: executing diffoscope
+[2023-07-05 17:37:13] INFO root fetch - processPackages [batch-mailchimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch-mailchimp-1.1.2.tar.gz tmp/batch-mailchimp-1.1.3.tar.gz --markdown 20230705/b/batch-mailchimp/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-05 17:37:13] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:13] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:13] INFO root fetch - processPackages [reqmon]: Start processing: wmagent-devtools
+[2023-07-05 17:37:13] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-07-05 17:37:14] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.2rc5] Old Version: [2.2.2rc4]
+[2023-07-05 17:37:14] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/bb/6e/545d57aa7ee54bed23684e97cc2e525419f40a64ec219243ffa0b439d637/wmagent-devtools-2.2.2rc4.tar.gz
+[2023-07-05 17:37:14] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11430039>=10485760
+[2023-07-05 17:37:14] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-07-05 17:37:14] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:14] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:14] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-07-05 17:37:14] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:14] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:14] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-07-05 17:37:15] INFO root fetch - processPackages [batch-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/batch-mailchimp-1.1.2.tar.gz]
+[2023-07-05 17:37:15] INFO root fetch - processPackages [batch-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/batch-mailchimp-1.1.3.tar.gz]
+[2023-07-05 17:37:15] INFO root fetch - main [MainThread]: End processing [batch-mailchimp]: success
+[2023-07-05 17:37:15] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:15] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:15] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-07-05 17:37:15] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:15] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:15] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-07-05 17:37:17] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:17] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:17] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-07-05 17:37:17] INFO root fetch - processPackages [capstone]: Remove: archive file [/home/abi/fetcher/tmp/capstone-5.0.0rc2.tar.gz]
+[2023-07-05 17:37:17] INFO root fetch - processPackages [capstone]: Remove: archive file [/home/abi/fetcher/tmp/capstone-5.0.0rc4.tar.gz]
+[2023-07-05 17:37:17] INFO root fetch - main [MainThread]: End processing [capstone]: success
+[2023-07-05 17:37:22] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:22] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:22] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-07-05 17:37:28] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc3.tar.gz]
+[2023-07-05 17:37:28] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc4.tar.gz]
+[2023-07-05 17:37:28] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-07-05 17:37:28] INFO root fetch - main [MainThread]: Store serial: [18769690]
