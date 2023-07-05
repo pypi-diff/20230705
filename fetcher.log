@@ -20626,3 +20626,152 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:23:04] INFO root fetch - main [MainThread]: End processing [ora2]: success
 [2023-07-05 16:23:04] INFO root fetch - main [MainThread]: End processing [ora2]: success
 [2023-07-05 16:23:04] INFO root fetch - main [MainThread]: Store serial: [18768463]
+[2023-07-05 16:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768463]
+[2023-07-05 16:28:13] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AshCrypt
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-fabric
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: f5mkupy
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samna
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lb-telemetry
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dnastack-client-library
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dexcolor
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SELDOMpy
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fatld
+[2023-07-05 16:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-05 16:28:13] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.3.9] Old Version: [0.8.3.8]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [dexcolor]: New version: [0.1.2] Old Version: [0.1]
+[2023-07-05 16:28:13] WARNING root fetch - processPackages [f5mkupy]: Skipping, unable to determine old version
+[2023-07-05 16:28:13] INFO root fetch - processPackages [f5mkupy]: Start processing: mdast-cli
+[2023-07-05 16:28:13] INFO root fetch - main [MainThread]: End processing [f5mkupy] error
+[2023-07-05 16:28:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [lb-telemetry]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [AshCrypt]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [fatld]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [dnastack-client-library]: New version: [3.0.84a1651270839] Old Version: [3.0.81a1650987643]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/32/d5/dc26f6fc11ad66bbce9301b960cec7ff9dcf121a06b7eb82293b9c9cccf0/SELDOMpy-0.8.3.8.tar.gz
+[2023-07-05 16:28:13] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-07-05 16:28:13] INFO root fetch - processPackages [mdast-cli]: New version: [2023.7.1] Old Version: [2023.6.1]
+[2023-07-05 16:28:13] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/00/21/17cf9ac13d4b9459bf13d6a17dd2cfdeadb6752366e33d674c30e233fcc4/dexcolor-0.1.tar.gz
+[2023-07-05 16:28:13] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-05 16:28:13] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/a5/7b/18c6a0589415b823e08b73c6b477cd2b4b2aebad456466b3cd8b1ec58e57/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl
+[2023-07-05 16:28:14] INFO root fetch - processPackages [fatld]: Downloading https://files.pythonhosted.org/packages/7a/a1/b75b249c77879b43eed1a988bb010f859dc23f6242fa35167bc3176ad8d9/fatld-0.1.6.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/43/7d/abcdfc1d986eaaa1d61b5faa56c8560374a525fa63b6d92a79b553c573c4/lb-telemetry-0.0.4.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-07-05 16:28:14] INFO root fetch - processPackages [mdast-cli]: Downloading https://files.pythonhosted.org/packages/f3/bf/d69f46ce05a400483dc9ee8ead4160f0c57e7c6d2273b9339ba768957ae3/mdast_cli-2023.6.1.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/3d/e3/39bbaf5efbea48ac4978687ff4bc9779901e1a8678f5c6b0dfe22b310a0a/AshCrypt-1.2.3.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/1c/46/e521bde7e43501ba03a33b8cc30f42fababf154f35e7cc9aaa809c6eff3a/SELDOMpy-0.8.3.9.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230705/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/b3/62/064dd96453cbe5c2611058f370d91fed1d63c7d65507e5749d87b846286e/dexcolor-0.1.2.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.8.tar.gz tmp/SELDOMpy-0.8.3.9.tar.gz --markdown 20230705/S/SELDOMpy/0.8.3.8-0.8.3.9/diff.md --exclude *.pyd
+[2023-07-05 16:28:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230705/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-05 16:28:14] INFO root fetch - processPackages [fatld]: Downloading https://files.pythonhosted.org/packages/01/2b/92e673e4f98c0d23719a779874f8809733e607f2648cee8993db1b019ae0/fatld-0.1.7.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/9c/bb/b5087527021067a214597fe0d41ec92c8cac123d348a5b80feecfbdc5b4b/lb-telemetry-0.1.0.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dexcolor]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dexcolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexcolor-0.1.tar.gz tmp/dexcolor-0.1.2.tar.gz --markdown 20230705/d/dexcolor/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dnastack-client-library]: Downloading https://files.pythonhosted.org/packages/17/c7/5b87ff0cbee36b18e2e564381bca5b902804ee6c2844ca28031ffa63db35/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl
+[2023-07-05 16:28:14] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/32/61/06a05c49a04bab88b89baecb7ecd0fbc71b42d530a22c192f22f05979cbe/AshCrypt-1.2.4.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [mdast-cli]: Downloading https://files.pythonhosted.org/packages/df/09/90d622c4a6a12f34b1795fdca5726704c874ab1c73eeefc047aac3b5a67d/mdast_cli-2023.7.1.tar.gz
+[2023-07-05 16:28:14] INFO root fetch - processPackages [fatld]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [fatld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fatld-0.1.6.tar.gz tmp/fatld-0.1.7.tar.gz --markdown 20230705/f/fatld/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-05 16:28:14] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-07-05 16:28:14] INFO root fetch - processPackages [lb-telemetry]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [lb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb-telemetry-0.0.4.tar.gz tmp/lb-telemetry-0.1.0.tar.gz --markdown 20230705/l/lb-telemetry/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dnastack-client-library]: executing diffoscope
+[2023-07-05 16:28:14] INFO root fetch - processPackages [dnastack-client-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip --markdown 20230705/d/dnastack-client-library/3.0.81a1650987643-3.0.84a1651270839/diff.md --exclude *.pyd
+[2023-07-05 16:28:15] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-05 16:28:15] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.2.3.tar.gz tmp/AshCrypt-1.2.4.tar.gz --markdown 20230705/A/AshCrypt/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-05 16:28:15] INFO root fetch - processPackages [mdast-cli]: executing diffoscope
+[2023-07-05 16:28:15] INFO root fetch - processPackages [mdast-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdast_cli-2023.6.1.tar.gz tmp/mdast_cli-2023.7.1.tar.gz --markdown 20230705/m/mdast-cli/2023.6.1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-05 16:28:15] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-07-05 16:28:15] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230705/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:28:16] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [samna]: Start processing: pwnic
+[2023-07-05 16:28:16] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-07-05 16:28:16] WARNING root fetch - processPackages [pwnic]: Skipping, unable to determine old version
+[2023-07-05 16:28:16] INFO root fetch - processPackages [pwnic]: Start processing: helium
+[2023-07-05 16:28:16] INFO root fetch - main [MainThread]: End processing [pwnic] error
+[2023-07-05 16:28:16] INFO root fetch - processPackages [helium]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [helium]: Downloading https://files.pythonhosted.org/packages/28/b9/d69ae1e5a3ab40ce1096014d1178e8e64bccd041acdad2093afa1003f76a/helium-3.1.0.tar.gz
+[2023-07-05 16:28:16] WARNING root fetch - processPackages [helium]: Skipping package: exceeds size limit 26053939>=10485760
+[2023-07-05 16:28:16] INFO root fetch - processPackages [helium]: Start processing: eagerx-tutorials
+[2023-07-05 16:28:16] INFO root fetch - main [MainThread]: End processing [helium] error
+[2023-07-05 16:28:16] INFO root fetch - processPackages [eagerx-tutorials]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.1.tar.gz]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.1.2.tar.gz]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [dexcolor]: Start processing: cycode
+[2023-07-05 16:28:16] INFO root fetch - main [MainThread]: End processing [dexcolor]: success
+[2023-07-05 16:28:16] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev7] Old Version: [0.2.6.dev6]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/2b/81/340955ccdd3414da21085ec1eb73fc2958d65c129fb4fa6d633fa9c5fbc7/cycode-0.2.6.dev6.tar.gz
+[2023-07-05 16:28:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [spanishconjugator]: Start processing: flowtask
+[2023-07-05 16:28:16] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-05 16:28:16] INFO root fetch - processPackages [fatld]: Remove: archive file [/home/abi/fetcher/tmp/fatld-0.1.6.tar.gz]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [fatld]: Remove: archive file [/home/abi/fetcher/tmp/fatld-0.1.7.tar.gz]
+[2023-07-05 16:28:16] INFO root fetch - processPackages [fatld]: Start processing: spanishconjugator
+[2023-07-05 16:28:16] INFO root fetch - main [MainThread]: End processing [fatld]: success
+[2023-07-05 16:28:17] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [eagerx-tutorials]: Downloading https://files.pythonhosted.org/packages/ec/1e/7694f4f067738ed9ed5e1ba17137f873d30bcf853760ab9d972aca0d30f6/eagerx_tutorials-0.1.8.tar.gz
+[2023-07-05 16:28:17] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.0.4.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.1.0.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [lb-telemetry]: Start processing: qworker
+[2023-07-05 16:28:17] INFO root fetch - main [MainThread]: End processing [lb-telemetry]: success
+[2023-07-05 16:28:17] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 16:28:17] INFO root fetch - processPackages [qworker]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e4/e5/14b68e9d0f4948078508934d22cc7a62f5e473d327c664855e3e03a8b063/cycode-0.2.6.dev7.tar.gz
+[2023-07-05 16:28:17] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.2.3.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.2.4.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-05 16:28:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-05 16:28:17] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/05/ab/a6c851c81a2baa3ca6b01d585dfe58731fc256f1bfe2ccba47020d9138ec/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 16:28:17] INFO root fetch - processPackages [mdast-cli]: Remove: archive file [/home/abi/fetcher/tmp/mdast_cli-2023.6.1.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [mdast-cli]: Remove: archive file [/home/abi/fetcher/tmp/mdast_cli-2023.7.1.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - main [MainThread]: End processing [mdast-cli]: success
+[2023-07-05 16:28:17] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-05 16:28:17] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev6.tar.gz tmp/cycode-0.2.6.dev7.tar.gz --markdown 20230705/c/cycode/0.2.6.dev6-0.2.6.dev7/diff.md --exclude *.pyd
+[2023-07-05 16:28:17] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.8.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.9.tar.gz]
+[2023-07-05 16:28:17] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-05 16:28:17] INFO root fetch - processPackages [eagerx-tutorials]: Downloading https://files.pythonhosted.org/packages/f1/03/37ee3c4b2d5f37fd7729171fc17c83d6ee1d6bfa08ff1f6fa147d94ff2a0/eagerx_tutorials-0.1.9.tar.gz
+[2023-07-05 16:28:17] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-05 16:28:17] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.0.81a1650987643-py3-none-any.whl.zip]
+[2023-07-05 16:28:17] INFO root fetch - processPackages [dnastack-client-library]: Remove: archive file [/home/abi/fetcher/tmp/dnastack_client_library-3.0.84a1651270839-py3-none-any.whl.zip]
+[2023-07-05 16:28:17] INFO root fetch - main [MainThread]: End processing [dnastack-client-library]: success
+[2023-07-05 16:28:17] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/49/7d/292c6ab6085be9b02a88ca7bbc43266254e8564c1e18d61acd1239abeee3/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 16:28:17] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 16:28:17] INFO root fetch - processPackages [eagerx-tutorials]: executing diffoscope
+[2023-07-05 16:28:17] INFO root fetch - processPackages [eagerx-tutorials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagerx_tutorials-0.1.8.tar.gz tmp/eagerx_tutorials-0.1.9.tar.gz --markdown 20230705/e/eagerx-tutorials/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 16:28:17] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-05 16:28:17] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230705/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-05 16:28:17] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-05 16:28:17] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/q/qworker/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-05 16:28:18] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-07-05 16:28:18] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-07-05 16:28:18] INFO root fetch - processPackages [eagerx-tutorials]: Remove: archive file [/home/abi/fetcher/tmp/eagerx_tutorials-0.1.8.tar.gz]
+[2023-07-05 16:28:18] INFO root fetch - processPackages [eagerx-tutorials]: Remove: archive file [/home/abi/fetcher/tmp/eagerx_tutorials-0.1.9.tar.gz]
+[2023-07-05 16:28:18] INFO root fetch - main [MainThread]: End processing [eagerx-tutorials]: success
+[2023-07-05 16:28:19] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-05 16:28:19] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-05 16:28:19] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-05 16:28:19] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2023-07-05 16:28:19] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2023-07-05 16:28:19] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-07-05 16:28:19] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 16:28:19] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 16:28:19] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-05 16:28:19] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev6.tar.gz]
+[2023-07-05 16:28:19] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev7.tar.gz]
+[2023-07-05 16:28:19] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-05 16:28:20] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 16:28:20] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 16:28:20] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-07-05 16:28:20] INFO root fetch - main [MainThread]: Store serial: [18768519]
