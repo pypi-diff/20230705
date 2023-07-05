@@ -5101,3 +5101,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:08:54] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-05 03:08:54] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-05 03:08:54] INFO root fetch - main [MainThread]: Store serial: [18761754]
+[2023-07-05 03:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761754]
+[2023-07-05 03:14:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmake-init
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idf-build-apps
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raydp-nightly
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psdr-jit
+[2023-07-05 03:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-07-05 03:14:03] INFO root fetch - processPackages [psdr-jit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 03:14:03] INFO root fetch - processPackages [idf-build-apps]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 03:14:03] INFO root fetch - processPackages [cmake-init]: New version: [0.37.0] Old Version: [0.36.1]
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:14:04] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.7.5.dev0] Old Version: [2023.7.4.dev0]
+[2023-07-05 03:14:04] INFO root fetch - processPackages [psdr-jit]: Downloading https://files.pythonhosted.org/packages/53/7a/0a88a3e4ef27587f04e09dc863c7cd6a5156fbad78c9dd69633941cde6d5/psdr_jit-0.1.1-cp38-cp38-win_amd64.whl
+[2023-07-05 03:14:04] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/15/2e/5e0395eb41311ad8fa81184eb33fc4403e572500c9334c9e06c4acdd0be7/idf_build_apps-1.0.1.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cmake-init]: Downloading https://files.pythonhosted.org/packages/fa/a6/9b4411bf6557346e0227bfae7b62d872eb70519980ddda735f9197515b43/cmake-init-0.36.1.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/ac/3c/062297c4eaa774969d41e96b11e2a4cea3cf0ac8c2d2bb77e81667ed1bb7/raydp_nightly-2023.7.4.dev0-py3-none-any.whl
+[2023-07-05 03:14:04] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/78/b0/c5c8227e39ffa23fcd0553a545cb2ed2c63a8641bc6968fc3c4bdf4dcd76/idf_build_apps-1.0.2.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cmake-init]: Downloading https://files.pythonhosted.org/packages/83/fd/791e179c8ad1360e9daaf45e8615bcc465ba03b5c8969a5665573b2977d3/cmake-init-0.37.0.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cmake-init]: executing diffoscope
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cmake-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake-init-0.36.1.tar.gz tmp/cmake-init-0.37.0.tar.gz --markdown 20230705/c/cmake-init/0.36.1-0.37.0/diff.md --exclude *.pyd
+[2023-07-05 03:14:04] INFO root fetch - processPackages [idf-build-apps]: executing diffoscope
+[2023-07-05 03:14:04] INFO root fetch - processPackages [idf-build-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf_build_apps-1.0.1.tar.gz tmp/idf_build_apps-1.0.2.tar.gz --markdown 20230705/i/idf-build-apps/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-05 03:14:04] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230705/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:14:05] INFO root fetch - processPackages [psdr-jit]: Downloading https://files.pythonhosted.org/packages/93/0a/b42ab0b6f630610e26c1d6e6f9b7857cb74ba09ca02051ea6de577afb1b8/psdr-jit-0.1.2.tar.gz
+[2023-07-05 03:14:05] INFO root fetch - processPackages [psdr-jit]: executing diffoscope
+[2023-07-05 03:14:05] INFO root fetch - processPackages [psdr-jit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psdr_jit-0.1.1-cp38-cp38-win_amd64.whl.zip tmp/psdr-jit-0.1.2.tar.gz --markdown 20230705/p/psdr-jit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 03:14:05] INFO root fetch - processPackages [cmake-init]: Remove: archive file [/home/abi/fetcher/tmp/cmake-init-0.36.1.tar.gz]
+[2023-07-05 03:14:05] INFO root fetch - processPackages [cmake-init]: Remove: archive file [/home/abi/fetcher/tmp/cmake-init-0.37.0.tar.gz]
+[2023-07-05 03:14:05] INFO root fetch - main [MainThread]: End processing [cmake-init]: success
+[2023-07-05 03:14:05] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-05 03:14:05] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-05 03:14:05] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-05 03:14:05] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-05 03:14:05] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.1.tar.gz]
+[2023-07-05 03:14:05] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.2.tar.gz]
+[2023-07-05 03:14:05] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
+[2023-07-05 03:14:05] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/0a/48/44e6d5f53f0163269b01ea8d85eba779f431c6eee07edb197cb29beb1f0a/raydp_nightly-2023.7.5.dev0-py3-none-any.whl
+[2023-07-05 03:14:06] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-05 03:14:06] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-05 03:14:06] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-05 03:14:07] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-05 03:14:07] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230705/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-05 03:14:07] INFO root fetch - processPackages [raydp-nightly]: executing diffoscope
+[2023-07-05 03:14:07] INFO root fetch - processPackages [raydp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp_nightly-2023.7.4.dev0-py3-none-any.whl.zip tmp/raydp_nightly-2023.7.5.dev0-py3-none-any.whl.zip --markdown 20230705/r/raydp-nightly/2023.7.4.dev0-2023.7.5.dev0/diff.md --exclude *.pyd
+[2023-07-05 03:14:07] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-05 03:14:07] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230705/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:14:08] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 03:14:08] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 03:14:08] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-05 03:14:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-05 03:14:08] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-05 03:14:08] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-05 03:14:09] INFO root fetch - processPackages [psdr-jit]: Remove: archive file [/home/abi/fetcher/tmp/psdr_jit-0.1.1-cp38-cp38-win_amd64.whl.zip]
+[2023-07-05 03:14:09] INFO root fetch - processPackages [psdr-jit]: Remove: archive file [/home/abi/fetcher/tmp/psdr-jit-0.1.2.tar.gz]
+[2023-07-05 03:14:09] INFO root fetch - main [MainThread]: End processing [psdr-jit]: success
+[2023-07-05 03:14:56] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.7.4.dev0-py3-none-any.whl.zip]
+[2023-07-05 03:14:56] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.7.5.dev0-py3-none-any.whl.zip]
+[2023-07-05 03:14:56] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
+[2023-07-05 03:14:56] INFO root fetch - main [MainThread]: Store serial: [18761783]
