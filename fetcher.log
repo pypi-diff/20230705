@@ -18590,3 +18590,205 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:11:42] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.8.tar.gz]
 [2023-07-05 15:11:42] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-07-05 15:11:42] INFO root fetch - main [MainThread]: Store serial: [18767516]
+[2023-07-05 15:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767516]
+[2023-07-05 15:16:52] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelDrivenRpa
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akerbp.mlops
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcs-phy
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-stdlib
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oidc-drf
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aleksis-app-postbuero
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-app-rdm
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenGeode-core
+[2023-07-05 15:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rasa
+[2023-07-05 15:16:52] INFO root fetch - processPackages [qcs-phy]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [modelDrivenRpa]: New version: [1.6] Old Version: [1.5]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [aleksis-app-postbuero]: New version: [2.0.1.dev1] Old Version: [2.0.1.dev0]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [rasa]: New version: [3.6.1a1] Old Version: [3.6.1]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.9.1] Old Version: [15.0.1.9.0.2]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.0rc7]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a5] Old Version: [3.2.1a2]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 15:16:52] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-05 15:16:52] INFO root fetch - processPackages [aleksis-app-postbuero]: Downloading https://files.pythonhosted.org/packages/7e/6c/47c0b0f6f0c1a88bf404ad20672166ea5e9989a5b80c3a66331f336a3d88/aleksis_app_postbuero-2.0.1.dev0.tar.gz
+[2023-07-05 15:16:52] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/91/a1/ab7a12f2e954918b8efacf44ceff84029cceff0cfff74a6baea4dfa45550/rasa-3.6.1.tar.gz
+[2023-07-05 15:16:52] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-05 15:16:52] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/b0/2f/a30587d7296633b019fd6538415f6f65a5d4f4a45cd41792d7999f5e880c/qcs_phy-1.0.5.tar.gz
+[2023-07-05 15:16:52] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/35/83/6a9594a22012b4ebc77aa5e5d647bbba1634df7afd96ba7e8878ed653475/odoo_addon_ddmrp-15.0.1.9.0.2-py3-none-any.whl
+[2023-07-05 15:16:52] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/50/ff/1730cd1de3973a0e9fbd31c6dae509f8f052d540e85d0a88cd7ee27370ce/OpenGeode_core-14.4.0rc7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 15:16:52] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/a4/78/e4d559fd3d7787e5a44ec3aaa28b369857844e07df6237516d7f57aac5c7/modelDrivenRpa-1.5.tar.gz
+[2023-07-05 15:16:52] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-05 15:16:53] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14122985>=10485760
+[2023-07-05 15:16:53] INFO root fetch - processPackages [OpenGeode-core]: Start processing: ocf-datapipes
+[2023-07-05 15:16:53] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-05 15:16:53] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [aleksis-app-postbuero]: Downloading https://files.pythonhosted.org/packages/76/3d/07a2f4693cb6517055b4abb32612cfc6f7bac1775648bc14cc54dfbf2efb/aleksis_app_postbuero-2.0.1.dev1.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/f2/4e/c2c697d934be79e26c2406513a414f09de8a9d147eeb6639c1961de260c0/akerbp.mlops-3.2.1a2.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-05 15:16:53] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230705/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/b7/4a/8e1aee33205fe6973165526ee7941972f68af7d7f8250e95942ada836ad6/qcs_phy-1.0.7.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/7a/8b/ae120c3aacff014bcf2b1c2834ecb9c06ce9b7d8db26797fea4524d4052c/odoo_addon_ddmrp-15.0.1.9.1-py3-none-any.whl
+[2023-07-05 15:16:53] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/7b/bd/fb08cf0d8bc7605afb0c422f3025cacab11571b38235f829092fe20ad506/modelDrivenRpa-1.6.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [aleksis-app-postbuero]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [aleksis-app-postbuero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_postbuero-2.0.1.dev0.tar.gz tmp/aleksis_app_postbuero-2.0.1.dev1.tar.gz --markdown 20230705/a/aleksis-app-postbuero/2.0.1.dev0-2.0.1.dev1/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230705/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/d2/96/3bbf902a50844dcc6b3fdd814c17bb36c3e0a91aa392c8658d01179636f9/rasa-3.6.1a1.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [qcs-phy]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [qcs-phy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_phy-1.0.5.tar.gz tmp/qcs_phy-1.0.7.tar.gz --markdown 20230705/q/qcs-phy/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.9.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.9.1-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-ddmrp/15.0.1.9.0.2-15.0.1.9.1/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [modelDrivenRpa]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [modelDrivenRpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelDrivenRpa-1.5.tar.gz tmp/modelDrivenRpa-1.6.tar.gz --markdown 20230705/m/modelDrivenRpa/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.6.1.tar.gz tmp/rasa-3.6.1a1.tar.gz --markdown 20230705/r/rasa/3.6.1-3.6.1a1/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/32/11/0f27ed413328261eca787bc8c27798e427f75296b88a2c0c56fa309a6d11/akerbp.mlops-3.2.1a5.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-07-05 15:16:53] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20230705/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a2.tar.gz tmp/akerbp.mlops-3.2.1a5.tar.gz --markdown 20230705/a/akerbp.mlops/3.2.1a2-3.2.1a5/diff.md --exclude *.pyd
+[2023-07-05 15:16:53] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-07-05 15:16:53] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230705/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-05 15:16:54] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-05 15:16:54] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-05 15:16:54] INFO root fetch - processPackages [oidc-drf]: Start processing: nbdev-numpy
+[2023-07-05 15:16:54] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-05 15:16:54] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 15:16:54] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-05 15:16:54] INFO root fetch - processPackages [qcs-phy]: Remove: archive file [/home/abi/fetcher/tmp/qcs_phy-1.0.5.tar.gz]
+[2023-07-05 15:16:54] INFO root fetch - processPackages [qcs-phy]: Remove: archive file [/home/abi/fetcher/tmp/qcs_phy-1.0.7.tar.gz]
+[2023-07-05 15:16:54] INFO root fetch - processPackages [qcs-phy]: Start processing: apysc
+[2023-07-05 15:16:54] INFO root fetch - main [MainThread]: End processing [qcs-phy]: success
+[2023-07-05 15:16:55] INFO root fetch - processPackages [aleksis-app-postbuero]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_postbuero-2.0.1.dev0.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [aleksis-app-postbuero]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_postbuero-2.0.1.dev1.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [aleksis-app-postbuero]: Start processing: lusid-workflow-sdk-preview
+[2023-07-05 15:16:55] INFO root fetch - main [MainThread]: End processing [aleksis-app-postbuero]: success
+[2023-07-05 15:16:55] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.333] Old Version: [0.1.331]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.5.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.6.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [modelDrivenRpa]: Start processing: multimetric
+[2023-07-05 15:16:55] INFO root fetch - main [MainThread]: End processing [modelDrivenRpa]: success
+[2023-07-05 15:16:55] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: qdrant-haystack
+[2023-07-05 15:16:55] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-05 15:16:55] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [multimetric]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [qdrant-haystack]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-05 15:16:55] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230705/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 15:16:55] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/88/ba/d096f75810ecb92721e5d07da3ae2fb2f0bcc7b66edef4ed0fbfde1a7e19/lusid-workflow-sdk-preview-0.1.331.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/d2/22/e33d0ae08cc7c28d131baa0338cb809458cf792f0571ccfc08b467615916/multimetric-2.0.2.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/0d/03/446fec92ff3a42dafc6d8c1bb70a022e67718659e96f7dafea42cf9ef2ce/qdrant_haystack-1.0.5.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.0.2-py3-none-any.whl.zip]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [odoo-addon-ddmrp]: Start processing: firebolt-sdk
+[2023-07-05 15:16:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-07-05 15:16:55] INFO root fetch - processPackages [multimetric]: Downloading https://files.pythonhosted.org/packages/e4/33/f81aefd40acf22d541d76becbf282b057662fe835b94a77b6c5b15a08ded/multimetric-2.0.3.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [firebolt-sdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/3f/8d/280eaf6663ddcdb4c84b097f79faf5a578b77e17cbea00b1315c7d8d90a0/qdrant_haystack-1.0.6.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-05 15:16:55] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b3/a1/6f80cda693c7f448f2c35ad544f2f563c5584e585d4020a03fdb6dd35ef1/lusid-workflow-sdk-preview-0.1.333.tar.gz
+[2023-07-05 15:16:55] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230705/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:16:55] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a2.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a5.tar.gz]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [akerbp.mlops]: Start processing: tableauhyperapi
+[2023-07-05 15:16:55] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-05 15:16:55] INFO root fetch - processPackages [tableauhyperapi]: New version: [0.0.9746] Old Version: [0.0.17360]
+[2023-07-05 15:16:55] INFO root fetch - processPackages [multimetric]: executing diffoscope
+[2023-07-05 15:16:55] INFO root fetch - processPackages [multimetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimetric-2.0.2.tar.gz tmp/multimetric-2.0.3.tar.gz --markdown 20230705/m/multimetric/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 15:16:56] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/d0/58/5ecf1049bb44e3ad3cfd2b8b06e88039c9960dda3bd0a3d110d6e2027960/firebolt_sdk-0.9.1.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2023-07-05 15:16:56] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.331.tar.gz tmp/lusid-workflow-sdk-preview-0.1.333.tar.gz --markdown 20230705/l/lusid-workflow-sdk-preview/0.1.331-0.1.333/diff.md --exclude *.pyd
+[2023-07-05 15:16:56] INFO root fetch - processPackages [qdrant-haystack]: executing diffoscope
+[2023-07-05 15:16:56] INFO root fetch - processPackages [qdrant-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_haystack-1.0.5.tar.gz tmp/qdrant_haystack-1.0.6.tar.gz --markdown 20230705/q/qdrant-haystack/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-05 15:16:56] INFO root fetch - processPackages [tableauhyperapi]: Downloading https://files.pythonhosted.org/packages/cf/c5/f86ed803c31398a5c43f913bfa8cb25f689b2ff7b48833a4b05b8c941a13/tableauhyperapi-0.0.17360-py3-none-win_amd64.whl
+[2023-07-05 15:16:56] WARNING root fetch - processPackages [tableauhyperapi]: Skipping package: exceeds size limit 48316497>=10485760
+[2023-07-05 15:16:56] INFO root fetch - processPackages [tableauhyperapi]: Start processing: glue-jupyterlab
+[2023-07-05 15:16:56] INFO root fetch - main [MainThread]: End processing [tableauhyperapi] error
+[2023-07-05 15:16:56] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [ocf-datapipes]: Start processing: oidc-drf
+[2023-07-05 15:16:56] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-07-05 15:16:56] WARNING root fetch - processPackages [glue-jupyterlab]: Skipping, unable to determine old version
+[2023-07-05 15:16:56] INFO root fetch - processPackages [glue-jupyterlab]: Start processing: micrOSDevToolKit
+[2023-07-05 15:16:56] INFO root fetch - main [MainThread]: End processing [glue-jupyterlab] error
+[2023-07-05 15:16:56] INFO root fetch - processPackages [oidc-drf]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.6] Old Version: [1.17.5]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/36/75/0e56487388828f40b0a8d401716a3cd255d3085e731e6ca3745ab28a86d2/oidc_drf-1.2.8.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/64/98/7f86e21f9bfcc5e8072cdce68751b934628ef929ec7949b3e89da13b2bc1/micrOSDevToolKit-1.17.5.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [firebolt-sdk]: Downloading https://files.pythonhosted.org/packages/17/6d/4e1a456bfc90f686b530a3bf12c5ff99b38aeee22d0ab88725b1db0a3c17/firebolt_sdk-0.9.2.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-pandas
+[2023-07-05 15:16:56] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-05 15:16:56] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/d7/de/e7417f81d3a2bb32b6f2acb0044fcadd08723cefbe4019f55c809d6c5afe/oidc_drf-1.2.9.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [firebolt-sdk]: executing diffoscope
+[2023-07-05 15:16:56] INFO root fetch - processPackages [firebolt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebolt_sdk-0.9.1.tar.gz tmp/firebolt_sdk-0.9.2.tar.gz --markdown 20230705/f/firebolt-sdk/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 15:16:56] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/de/da/ed50b298835b738afba17e73a7a74399dcec62989d7f4ef6aa10bd39ba17/micrOSDevToolKit-1.17.6.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-05 15:16:56] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2023-07-05 15:16:56] INFO root fetch - processPackages [invenio-app-rdm]: Start processing: cg
+[2023-07-05 15:16:56] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2023-07-05 15:16:56] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-05 15:16:56] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.2.8.tar.gz tmp/oidc_drf-1.2.9.tar.gz --markdown 20230705/o/oidc-drf/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-05 15:16:56] INFO root fetch - processPackages [cg]: New version: [38.0.0] Old Version: [37.2.0]
+[2023-07-05 15:16:57] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a3/61/d82f5d69aa7f78b2a88c5aea8f705f0192a96c57dbc279e5dc0935900651/cg-37.2.0.tar.gz
+[2023-07-05 15:16:57] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-05 15:16:57] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-05 15:16:57] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.17.5.tar.gz tmp/micrOSDevToolKit-1.17.6.tar.gz --markdown 20230705/m/micrOSDevToolKit/1.17.5-1.17.6/diff.md --exclude *.pyd
+[2023-07-05 15:16:57] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-05 15:16:57] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230705/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 15:16:57] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-1.0.5.tar.gz]
+[2023-07-05 15:16:57] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-1.0.6.tar.gz]
+[2023-07-05 15:16:57] INFO root fetch - processPackages [qdrant-haystack]: Start processing: facteur
+[2023-07-05 15:16:57] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
+[2023-07-05 15:16:57] WARNING root fetch - processPackages [facteur]: Skipping, unable to determine old version
+[2023-07-05 15:16:57] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-2.0.2.tar.gz]
+[2023-07-05 15:16:57] INFO root fetch - processPackages [facteur]: Start processing: nonebot-plugin-update
+[2023-07-05 15:16:57] INFO root fetch - main [MainThread]: End processing [facteur] error
+[2023-07-05 15:16:57] INFO root fetch - processPackages [multimetric]: Remove: archive file [/home/abi/fetcher/tmp/multimetric-2.0.3.tar.gz]
+[2023-07-05 15:16:57] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.6.1.tar.gz]
+[2023-07-05 15:16:57] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.6.1a1.tar.gz]
+[2023-07-05 15:16:57] INFO root fetch - main [MainThread]: End processing [multimetric]: success
+[2023-07-05 15:16:57] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-07-05 15:16:57] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/af/03/aa392bb053833a599f57683f6a3b9dd2aa1f40a6ec61896089c8d7293afc/cg-38.0.0.tar.gz
+[2023-07-05 15:16:57] WARNING root fetch - processPackages [nonebot-plugin-update]: Skipping, unable to determine old version
+[2023-07-05 15:16:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-update] error
+[2023-07-05 15:16:58] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.8.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.2.9.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-05 15:16:58] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-05 15:16:58] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-37.2.0.tar.gz tmp/cg-38.0.0.tar.gz --markdown 20230705/c/cg/37.2.0-38.0.0/diff.md --exclude *.pyd
+[2023-07-05 15:16:58] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.331.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.333.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2023-07-05 15:16:58] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-0.9.1.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - processPackages [firebolt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/firebolt_sdk-0.9.2.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - main [MainThread]: End processing [firebolt-sdk]: success
+[2023-07-05 15:16:58] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-05 15:16:58] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.5.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.6.tar.gz]
+[2023-07-05 15:16:58] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-05 15:17:00] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-05 15:17:00] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-05 15:17:00] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-05 15:17:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-37.2.0.tar.gz]
+[2023-07-05 15:17:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.0.0.tar.gz]
+[2023-07-05 15:17:03] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-05 15:17:03] INFO root fetch - main [MainThread]: Store serial: [18767594]
