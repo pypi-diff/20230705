@@ -6260,3 +6260,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:47:12] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.4.tar.gz]
 [2023-07-05 04:47:12] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-05 04:47:12] INFO root fetch - main [MainThread]: Store serial: [18762284]
+[2023-07-05 04:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762284]
+[2023-07-05 04:52:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: empyrial
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yyxx-game-pkg
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdf-blank-detection
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PrSpiders
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yttext
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casbin-rabbitmq-watcher
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resfeci
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Alphakit
+[2023-07-05 04:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nextpcg
+[2023-07-05 04:52:28] WARNING root fetch - processPackages [yttext]: Skipping, unable to determine old version
+[2023-07-05 04:52:28] INFO root fetch - main [MainThread]: End processing [yttext] error
+[2023-07-05 04:52:28] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 04:52:28] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.5.2] Old Version: [2023.7.5.1]
+[2023-07-05 04:52:28] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [resfeci]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-05 04:52:28] WARNING root fetch - processPackages [pdf-blank-detection]: Skipping, unable to determine old version
+[2023-07-05 04:52:28] INFO root fetch - main [MainThread]: End processing [pdf-blank-detection] error
+[2023-07-05 04:52:28] WARNING root fetch - processPackages [casbin-rabbitmq-watcher]: Skipping, unable to determine old version
+[2023-07-05 04:52:28] INFO root fetch - main [MainThread]: End processing [casbin-rabbitmq-watcher] error
+[2023-07-05 04:52:28] INFO root fetch - processPackages [empyrial]: New version: [2.0.7] Old Version: [2.0.5]
+[2023-07-05 04:52:28] WARNING root fetch - processPackages [Alphakit]: Skipping, unable to determine old version
+[2023-07-05 04:52:28] INFO root fetch - main [MainThread]: End processing [Alphakit] error
+[2023-07-05 04:52:28] INFO root fetch - processPackages [PrSpiders]: New version: [0.5.2.7] Old Version: [0.5.2.6]
+[2023-07-05 04:52:28] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/6a/ba/2db200102e6513f599bdb0c7a62f53c06405750e3f7c3e63cb0816a50722/yyxx_game_pkg-2023.7.5.1.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/c8/53/3192475aa9dec8c4dfe3809bf83e2ee1256384f44c2240d7ad338bc1d43d/resfeci-0.0.16.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/e5/fe/3a85c0a2b796abadc8c9810933f1333eb145df79cf6a8fa4b7f75e9118de/empyrial-2.0.5.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/ff/97/0a295502df7374c08e8b6132418bc695a1feeb47b7cdeeb9b71672018dfa/PrSpiders-0.5.2.6.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-05 04:52:28] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230705/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 04:52:28] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/80/78/ec2e12b541bb5b1dc84b078ac4d43c12e483ff3a1d1d20de170a99b3b9e0/yyxx_game_pkg-2023.7.5.2.tar.gz
+[2023-07-05 04:52:28] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/93/72/125bbad73c61476ac8d444003c97f808f5f66b7dcc4d6c04a6e81829d13f/empyrial-2.0.7.tar.gz
+[2023-07-05 04:52:29] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/24/d7/6016d86591fda81e5e1d5f6392a4faebac590800c1c679268d39fa7ee135/resfeci-0.0.17.tar.gz
+[2023-07-05 04:52:29] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/83/a4/f7064decc966e6c21ccc4bca2a0842a5cc8051cb0b9a209249f246cfc927/PrSpiders-0.5.2.7.tar.gz
+[2023-07-05 04:52:29] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-07-05 04:52:29] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.5.tar.gz tmp/empyrial-2.0.7.tar.gz --markdown 20230705/e/empyrial/2.0.5-2.0.7/diff.md --exclude *.pyd
+[2023-07-05 04:52:29] INFO root fetch - processPackages [resfeci]: executing diffoscope
+[2023-07-05 04:52:29] INFO root fetch - processPackages [resfeci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resfeci-0.0.16.tar.gz tmp/resfeci-0.0.17.tar.gz --markdown 20230705/r/resfeci/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-05 04:52:29] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-07-05 04:52:29] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.5.2.6.tar.gz tmp/PrSpiders-0.5.2.7.tar.gz --markdown 20230705/P/PrSpiders/0.5.2.6-0.5.2.7/diff.md --exclude *.pyd
+[2023-07-05 04:52:29] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-05 04:52:29] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-05 04:52:29] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-05 04:52:29] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-05 04:52:29] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.5.1.tar.gz tmp/yyxx_game_pkg-2023.7.5.2.tar.gz --markdown 20230705/y/yyxx-game-pkg/2023.7.5.1-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 04:52:30] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.5.tar.gz]
+[2023-07-05 04:52:30] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.7.tar.gz]
+[2023-07-05 04:52:30] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-07-05 04:52:30] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.16.tar.gz]
+[2023-07-05 04:52:30] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.17.tar.gz]
+[2023-07-05 04:52:30] INFO root fetch - main [MainThread]: End processing [resfeci]: success
+[2023-07-05 04:52:30] INFO root fetch - processPackages [PrSpiders]: Remove: archive file [/home/abi/fetcher/tmp/PrSpiders-0.5.2.6.tar.gz]
+[2023-07-05 04:52:30] INFO root fetch - processPackages [PrSpiders]: Remove: archive file [/home/abi/fetcher/tmp/PrSpiders-0.5.2.7.tar.gz]
+[2023-07-05 04:52:30] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-07-05 04:52:31] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.1.tar.gz]
+[2023-07-05 04:52:31] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.2.tar.gz]
+[2023-07-05 04:52:31] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-05 04:52:31] INFO root fetch - main [MainThread]: Store serial: [18762316]
