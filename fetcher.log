@@ -7880,3 +7880,109 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:27:37] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.1.tar.gz]
 [2023-07-05 06:27:37] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-07-05 06:27:37] INFO root fetch - main [MainThread]: Store serial: [18762832]
+[2023-07-05 06:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762832]
+[2023-07-05 06:32:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-partner-contact
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightdash-ops
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djem
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dank-mids
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-pos
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySide2-Fluent-Widgets
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agsadmin
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-core
+[2023-07-05 06:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet-runtime
+[2023-07-05 06:32:46] INFO root fetch - processPackages [agsadmin]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20230704.0] Old Version: [16.0.20230629.1]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [odoo-addons-oca-pos]: New version: [16.0.20230627.0] Old Version: [16.0.20230517.0]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [flet-core]: New version: [0.8.0.dev1601] Old Version: [0.8.0.dev1597]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [djem]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [flet-runtime]: New version: [0.8.0.dev1601] Old Version: [0.8.0.dev1597]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [lightdash-ops]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-05 06:32:46] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-05 06:32:46] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/cb/d9/7df3b6be726f2be7775eecf9bef9f4cb2bb54f89379a269b3a71d8c0f75a/flet_core-0.8.0.dev1597.tar.gz
+[2023-07-05 06:32:46] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/3a/c0/679dedbc90a31968e348f6e275f081d18a0aa88c2527c1e82496e2834b9d/flet_runtime-0.8.0.dev1597.tar.gz
+[2023-07-05 06:32:46] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-05 06:32:46] INFO root fetch - processPackages [agsadmin]: Downloading https://files.pythonhosted.org/packages/91/bb/1baa6a8adaa889289615223ab36c9c0e06f3560950e2ae049a1c1d2f9897/agsadmin-0.5.1-py2.py3-none-any.whl
+[2023-07-05 06:32:46] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/88/50/b4f50d0c497203b36a170f9efca728bc643abb1c7da7c679b80f18abf6f4/odoo_addons_oca_partner_contact-16.0.20230629.1-py3-none-any.whl
+[2023-07-05 06:32:46] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/03/c9/c67db3f154bb91216c3c45270ed55c664d51f9f9a834fbe427f61ca9493d/PySide2-Fluent-Widgets-1.0.0.tar.gz
+[2023-07-05 06:32:46] INFO root fetch - processPackages [djem]: Downloading https://files.pythonhosted.org/packages/da/14/35aa503a2daf75153ccb3a2da127ce8afc5c1410a9572b6f70a71b62f653/djem-0.9.0a2.tar.gz
+[2023-07-05 06:32:46] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/db/86/2f29a860daa2788a2fa7a77807006df6a3a8957af331cc2829473c245195/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl
+[2023-07-05 06:32:46] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/88/68/f4e0dcb1eabb0a149daf3689e9512b89d1dc1ad0a7814cadd33ae663803d/lightdash_ops-0.1.1.tar.gz
+[2023-07-05 06:32:47] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-05 06:32:47] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-05 06:32:47] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/cb/5e/7fd4412d00a0dc879674bf670dded1fcde9ac1a55ca472f9a03f6484b086/flet_runtime-0.8.0.dev1601-py3-none-any.whl
+[2023-07-05 06:32:47] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/ad/c5/09b3598ab383ae64e755285987c8c416a941cb30c18e94d3d92547aca9d1/flet_core-0.8.0.dev1601-py3-none-any.whl
+[2023-07-05 06:32:47] INFO root fetch - processPackages [agsadmin]: Downloading https://files.pythonhosted.org/packages/53/86/6689911d2ecfdc90ac3d4db849c5f693bed364fafc1a52facc3f2fa7792f/agsadmin-0.5.2-py2.py3-none-any.whl
+[2023-07-05 06:32:47] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/ce/6a/b430804da4552adae11638dba7dbcd56fb984bccc6509f44ce6e6011f8bd/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 06:32:47] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230705/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [djem]: Downloading https://files.pythonhosted.org/packages/58/af/537ad0a44cebcf038c2afc191be2be5d03ab5869dcdaedc9413ce3a4d628/djem-0.9.0a3.tar.gz
+[2023-07-05 06:32:47] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230705/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/8e/db/4038b9a4c3e21fbb616994e66a677c2e7da02723ec4ddeb643119ac6254a/PySide2-Fluent-Widgets-1.0.1.tar.gz
+[2023-07-05 06:32:47] INFO root fetch - processPackages [agsadmin]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [agsadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsadmin-0.5.1-py2.py3-none-any.whl.zip tmp/agsadmin-0.5.2-py2.py3-none-any.whl.zip --markdown 20230705/a/agsadmin/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20230629.1-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-partner-contact/16.0.20230629.1-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/95/44/0419c6f702832e8c10b2fe9323a3e27b858463cb2f3079dba1ce23f212d2/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl
+[2023-07-05 06:32:47] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/92/a0/3a407bcf602b74e9744ef1362a5af70f33c409244abbe15c17e6699ba0a0/lightdash_ops-0.2.0.tar.gz
+[2023-07-05 06:32:47] INFO root fetch - processPackages [djem]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [djem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djem-0.9.0a2.tar.gz tmp/djem-0.9.0a3.tar.gz --markdown 20230705/d/djem/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.0.dev1597.tar.gz tmp/flet_runtime-0.8.0.dev1601-py3-none-any.whl.zip --markdown 20230705/f/flet-runtime/0.8.0.dev1597-0.8.0.dev1601/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.8.0.dev1597.tar.gz tmp/flet_core-0.8.0.dev1601-py3-none-any.whl.zip --markdown 20230705/f/flet-core/0.8.0.dev1597-0.8.0.dev1601/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [odoo-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl.zip tmp/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-pos/16.0.20230517.0-16.0.20230627.0/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [lightdash-ops]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [lightdash-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_ops-0.1.1.tar.gz tmp/lightdash_ops-0.2.0.tar.gz --markdown 20230705/l/lightdash-ops/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 06:32:47] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-07-05 06:32:47] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-1.0.0.tar.gz tmp/PySide2-Fluent-Widgets-1.0.1.tar.gz --markdown 20230705/P/PySide2-Fluent-Widgets/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 06:32:49] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230629.1-py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Start processing: flet-embed
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [dank-mids]: Start processing: flet
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-embed]: New version: [0.8.0.dev1601] Old Version: [0.8.0.dev1597]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20230517.0-py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [odoo-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_pos-16.0.20230627.0-py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-pos]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet]: New version: [0.8.0.dev1601] Old Version: [0.8.0.dev1597]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/7c/61/6414a2ff4b4510d2a96fb94dd69f2633332329ac2302fe3a1be27e7768ab/flet_embed-0.8.0.dev1597.tar.gz
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1597.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.8.0.dev1601-py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/32/4d/8e6ff7a0480b94753fac401277dec5eaa1c889040dddcc14954c188a8c35/flet-0.8.0.dev1597.tar.gz
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1597.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.0.dev1601-py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [djem]: Remove: archive file [/home/abi/fetcher/tmp/djem-0.9.0a2.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [djem]: Remove: archive file [/home/abi/fetcher/tmp/djem-0.9.0a3.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [djem]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/5b/ce/d8f8d1ace611c087cb0a3d5fccd8cdee190d2052ba0ca66a66912efbc6f3/flet_embed-0.8.0.dev1601-py3-none-any.whl
+[2023-07-05 06:32:49] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.1.1.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.2.0.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [lightdash-ops]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [agsadmin]: Remove: archive file [/home/abi/fetcher/tmp/agsadmin-0.5.1-py2.py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [agsadmin]: Remove: archive file [/home/abi/fetcher/tmp/agsadmin-0.5.2-py2.py3-none-any.whl.zip]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [agsadmin]: success
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2023-07-05 06:32:49] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.0.dev1597.tar.gz tmp/flet_embed-0.8.0.dev1601-py3-none-any.whl.zip --markdown 20230705/f/flet-embed/0.8.0.dev1597-0.8.0.dev1601/diff.md --exclude *.pyd
+[2023-07-05 06:32:49] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-1.0.0.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-1.0.1.tar.gz]
+[2023-07-05 06:32:49] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-07-05 06:32:50] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/71/53/7febdabb1d959f60180b136720cc94b414b04e320d525357374e0309608d/flet-0.8.0.dev1601-py3-none-win_amd64.whl
+[2023-07-05 06:32:50] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1597.tar.gz]
+[2023-07-05 06:32:50] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.0.dev1601-py3-none-any.whl.zip]
+[2023-07-05 06:32:50] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2023-07-05 06:32:50] WARNING root fetch - processPackages [flet]: Skipping package: exceeds size limit 22680687>=10485760
+[2023-07-05 06:32:50] INFO root fetch - main [MainThread]: End processing [flet] error
+[2023-07-05 06:32:50] INFO root fetch - main [MainThread]: Store serial: [18762868]
