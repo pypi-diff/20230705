@@ -6424,3 +6424,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:02:57] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
 [2023-07-05 05:02:57] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-07-05 05:02:57] INFO root fetch - main [MainThread]: Store serial: [18762350]
+[2023-07-05 05:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762350]
+[2023-07-05 05:08:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zscaler-api-talkers
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-credit-control
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-devops20210625-py2
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-devops20210625
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: empyrial
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-crm
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-25
+[2023-07-05 05:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intecomm-edc
+[2023-07-05 05:08:06] INFO root fetch - processPackages [alibabacloud-devops20210625]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: New version: [16.0.20230622.0] Old Version: [16.0.20230608.0]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [empyrial]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [zscaler-api-talkers]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/78/ad/4d79999e52624fecb42991af86a8b12f19b82e4f68bf3a4c6af74937fdb3/empyrial-2.0.8.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 05:08:07] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: Downloading https://files.pythonhosted.org/packages/51/1d/cfaccf2cfc1cabc9e9d251f31aeb2663c795e657b03b297325443711b843/alibabacloud_devops20210625-3.0.0.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/e9/10/af7d348f7c7b970b75aba4547cc240f11e0a8fdd2f0510b970ff0ca3311a/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Downloading https://files.pythonhosted.org/packages/73/c6/d366e29050f840f42bde1d6c7bcf17b09c37c4f51e17026e455822491604/alibabacloud_devops20210625_py2-3.0.0.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/0c/3c/dbaa494d9f1732bc63311504bd1dcce85e12a99efa60735c628b62b99cf8/odoo_addon_account_credit_control-16.0.1.0.2-py3-none-any.whl
+[2023-07-05 05:08:07] INFO root fetch - processPackages [zscaler-api-talkers]: Downloading https://files.pythonhosted.org/packages/80/b4/a41d63e31ee90f638ad3caf17a35ae9acbfdcc65bf273498919291f3993d/zscaler_api_talkers-4.1.0.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/e5/a9/005d00fc6052ea18f5d56f5bbf04180a6e7a8326f5a49712ceee53e29a42/empyrial-2.0.9.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: Downloading https://files.pythonhosted.org/packages/b3/87/a0a1a210ee39de08753b4891f48b757ab80b1f9b20b87fe40be0895285df/alibabacloud_devops20210625-3.0.1.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-07-05 05:08:07] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.8.tar.gz tmp/empyrial-2.0.9.tar.gz --markdown 20230705/e/empyrial/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Downloading https://files.pythonhosted.org/packages/d5/30/ab131feafdee1943cb71f2a7691ae426a60a6ed3000634587394996fca1d/alibabacloud_devops20210625_py2-3.0.1.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/aa/5e/e823fb019f0cc7a5e4ca7f026b0da516c7d894d85d016d020b2402af6d2e/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/d3/8e/897472535fe1aae932c8f6c7a18796491504c3c722fa6deb5b2845753957/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: executing diffoscope
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_devops20210625-3.0.0.tar.gz tmp/alibabacloud_devops20210625-3.0.1.tar.gz --markdown 20230705/a/alibabacloud-devops20210625/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: executing diffoscope
+[2023-07-05 05:08:07] INFO root fetch - processPackages [zscaler-api-talkers]: Downloading https://files.pythonhosted.org/packages/8a/33/6b94d94fb0651928127cef55641c679db20c059c12b3b67d1554aa6a65c6/zscaler_api_talkers-4.1.1.tar.gz
+[2023-07-05 05:08:07] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_devops20210625_py2-3.0.0.tar.gz tmp/alibabacloud_devops20210625_py2-3.0.1.tar.gz --markdown 20230705/a/alibabacloud-devops20210625-py2/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-05 05:08:07] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-05 05:08:07] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230705/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: executing diffoscope
+[2023-07-05 05:08:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl.zip tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-crm/16.0.20230608.0-16.0.20230622.0/diff.md --exclude *.pyd
+[2023-07-05 05:08:08] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-07-05 05:08:08] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-account-credit-control/16.0.1.0.2-16.0.1.0.2.1/diff.md --exclude *.pyd
+[2023-07-05 05:08:08] INFO root fetch - processPackages [zscaler-api-talkers]: executing diffoscope
+[2023-07-05 05:08:08] INFO root fetch - processPackages [zscaler-api-talkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler_api_talkers-4.1.0.tar.gz tmp/zscaler_api_talkers-4.1.1.tar.gz --markdown 20230705/z/zscaler-api-talkers/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-07-05 05:08:08] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-07-05 05:08:08] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-07-05 05:08:08] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230705/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 05:08:08] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.8.tar.gz]
+[2023-07-05 05:08:08] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.9.tar.gz]
+[2023-07-05 05:08:08] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-07-05 05:08:09] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230608.0-py3-none-any.whl.zip]
+[2023-07-05 05:08:09] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20230622.0-py3-none-any.whl.zip]
+[2023-07-05 05:08:09] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-crm]: success
+[2023-07-05 05:08:09] INFO root fetch - processPackages [zscaler-api-talkers]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_api_talkers-4.1.0.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - processPackages [zscaler-api-talkers]: Remove: archive file [/home/abi/fetcher/tmp/zscaler_api_talkers-4.1.1.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - main [MainThread]: End processing [zscaler-api-talkers]: success
+[2023-07-05 05:08:09] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-05 05:08:09] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625_py2-3.0.0.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - processPackages [alibabacloud-devops20210625-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625_py2-3.0.1.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625-py2]: success
+[2023-07-05 05:08:09] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.0.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - processPackages [alibabacloud-devops20210625]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_devops20210625-3.0.1.tar.gz]
+[2023-07-05 05:08:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-devops20210625]: success
+[2023-07-05 05:08:11] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-05 05:08:11] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2023-07-05 05:08:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-07-05 05:08:11] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-07-05 05:08:11] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-07-05 05:08:11] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-07-05 05:08:11] INFO root fetch - main [MainThread]: Store serial: [18762372]
