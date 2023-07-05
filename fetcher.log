@@ -5393,3 +5393,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:26:21] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
 [2023-07-05 03:26:21] INFO root fetch - main [MainThread]: End processing [yplib]: success
 [2023-07-05 03:26:21] INFO root fetch - main [MainThread]: Store serial: [18761889]
+[2023-07-05 03:31:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761889]
+[2023-07-05 03:31:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 03:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cohost
+[2023-07-05 03:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-07-05 03:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bplib-fork
+[2023-07-05 03:31:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bplib-fork
+[2023-07-05 03:31:30] WARNING root fetch - processPackages [bplib-fork]: Skipping, unable to determine old version
+[2023-07-05 03:31:30] INFO root fetch - main [MainThread]: End processing [bplib-fork] error
+[2023-07-05 03:31:30] WARNING root fetch - processPackages [bplib-fork]: Skipping, unable to determine old version
+[2023-07-05 03:31:30] INFO root fetch - main [MainThread]: End processing [bplib-fork] error
+[2023-07-05 03:31:30] INFO root fetch - processPackages [cohost]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-07-05 03:31:30] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-05 03:31:30] INFO root fetch - processPackages [cohost]: Downloading https://files.pythonhosted.org/packages/be/43/7ea2ebddea6cfc01e4f65eb4e0f480002d60f84048f997c9e4495cd36644/cohost-0.2.6.tar.gz
+[2023-07-05 03:31:30] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-05 03:31:31] INFO root fetch - processPackages [cohost]: Downloading https://files.pythonhosted.org/packages/9c/56/a14343ba4f82d0ed60b765584ae8a18de986e0679e42c2125bf0c6c92ba8/cohost-0.3.0.tar.gz
+[2023-07-05 03:31:31] INFO root fetch - processPackages [cohost]: executing diffoscope
+[2023-07-05 03:31:31] INFO root fetch - processPackages [cohost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohost-0.2.6.tar.gz tmp/cohost-0.3.0.tar.gz --markdown 20230705/c/cohost/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-07-05 03:31:32] INFO root fetch - processPackages [cohost]: Remove: archive file [/home/abi/fetcher/tmp/cohost-0.2.6.tar.gz]
+[2023-07-05 03:31:32] INFO root fetch - processPackages [cohost]: Remove: archive file [/home/abi/fetcher/tmp/cohost-0.3.0.tar.gz]
+[2023-07-05 03:31:32] INFO root fetch - main [MainThread]: End processing [cohost]: success
+[2023-07-05 03:31:32] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-05 03:31:32] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-05 03:31:32] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230705/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-05 03:31:33] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-05 03:31:33] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-05 03:31:33] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-05 03:31:33] INFO root fetch - main [MainThread]: Store serial: [18761904]
