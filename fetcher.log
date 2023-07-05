@@ -10657,3 +10657,69 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 09:31:31] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
 [2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [lamindb]: success
 [2023-07-05 09:31:31] INFO root fetch - main [MainThread]: Store serial: [18763920]
+[2023-07-05 09:36:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763920]
+[2023-07-05 09:36:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbumongo
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signal-ocean
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydrogibs
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygbop
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rod
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastel
+[2023-07-05 09:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytheia
+[2023-07-05 09:36:40] INFO root fetch - processPackages [hydrogibs]: New version: [0.5.2] Old Version: [0.0.22]
+[2023-07-05 09:36:40] INFO root fetch - processPackages [pbumongo]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-05 09:36:40] INFO root fetch - processPackages [pbumongo]: Downloading https://files.pythonhosted.org/packages/e2/60/ee5db4441aaccb074a095e44d26357674aced2e8203381c9c634fd7c5fa0/pbumongo-1.0.2.tar.gz
+[2023-07-05 09:36:40] INFO root fetch - processPackages [signal-ocean]: New version: [7.0.0] Old Version: [6.2.0]
+[2023-07-05 09:36:40] INFO root fetch - processPackages [pygbop]: New version: [0.2.0.1] Old Version: [0.1.1.5]
+[2023-07-05 09:36:40] INFO root fetch - processPackages [fastel]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-05 09:36:40] INFO root fetch - processPackages [rod]: New version: [0.1.dev86] Old Version: [0.1.dev85]
+[2023-07-05 09:36:41] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/a8/d9/b9df0f4c3edc4f53f91ba09107c3cff1e2d427a7b7c4578e3e900e67eddc/hydrogibs-0.0.22.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pytheia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 09:36:41] INFO root fetch - processPackages [fastel]: Downloading https://files.pythonhosted.org/packages/d4/7c/0ac3553271018540f34e1c23fe0d5f1dd1c745d8eceb8354f57ba65bab50/fastel-2.7.8.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/b0/c3/1b25662396d4468f590a8b9545b1500a36b9085ea8251d96be2a6917fa91/signal-ocean-6.2.0.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/5e/60/5c60f7d9e9a0a3f9f8f5508d11e2038c39bf9b7f946415ff3af10cd43265/pygbop-0.1.1.5.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [rod]: Downloading https://files.pythonhosted.org/packages/20/c7/6114e435b8b6158a7751d66a6f915cfd094d222dd43777274809a8a8a9fc/rod-0.1.dev85.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/68/0f/a0c1c4093506218578ee45dd5d8f6b74b6d32341df49692c2379ce9d7954/hydrogibs-0.5.2.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/db/cb/0be1f2ecd21e8ed7f9f3f3818b3f882fcd1f904b8e53b78b8665bbccf06c/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pbumongo]: Downloading https://files.pythonhosted.org/packages/2f/20/8a5faaa14245c30f10bbae1076b58846dcea73119e2cad34ea9d169a54b5/pbumongo-1.1.0.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pbumongo]: executing diffoscope
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pbumongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbumongo-1.0.2.tar.gz tmp/pbumongo-1.1.0.tar.gz --markdown 20230705/p/pbumongo/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 09:36:41] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-07-05 09:36:41] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.22.tar.gz tmp/hydrogibs-0.5.2.tar.gz --markdown 20230705/h/hydrogibs/0.0.22-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 09:36:41] INFO root fetch - processPackages [signal-ocean]: Downloading https://files.pythonhosted.org/packages/1f/44/2c319b7e080fab621aad268916b807284721ea1253cf27a3c0a804bfdc26/signal-ocean-7.0.0.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [rod]: Downloading https://files.pythonhosted.org/packages/67/e3/f26f593521d55960d2262369ce4cfbf7341a295898a75b1404c2f12b236f/rod-0.1.dev86.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [fastel]: Downloading https://files.pythonhosted.org/packages/9c/ee/07f1d2a50223ed3acf40b6c4fe9e9cf7cddc2cc50050109b66f2104c8dec/fastel-2.7.9.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [rod]: executing diffoscope
+[2023-07-05 09:36:41] INFO root fetch - processPackages [rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rod-0.1.dev85.tar.gz tmp/rod-0.1.dev86.tar.gz --markdown 20230705/r/rod/0.1.dev85-0.1.dev86/diff.md --exclude *.pyd
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/d4/7c/460788ac7ea29daaed65b7e153e0578b4e5600c93d3e949e67a182d19e42/pygbop-0.2.0.1.tar.gz
+[2023-07-05 09:36:41] INFO root fetch - processPackages [signal-ocean]: executing diffoscope
+[2023-07-05 09:36:41] INFO root fetch - processPackages [signal-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal-ocean-6.2.0.tar.gz tmp/signal-ocean-7.0.0.tar.gz --markdown 20230705/s/signal-ocean/6.2.0-7.0.0/diff.md --exclude *.pyd
+[2023-07-05 09:36:41] INFO root fetch - processPackages [fastel]: executing diffoscope
+[2023-07-05 09:36:41] INFO root fetch - processPackages [fastel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastel-2.7.8.tar.gz tmp/fastel-2.7.9.tar.gz --markdown 20230705/f/fastel/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pygbop]: executing diffoscope
+[2023-07-05 09:36:41] INFO root fetch - processPackages [pygbop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbop-0.1.1.5.tar.gz tmp/pygbop-0.2.0.1.tar.gz --markdown 20230705/p/pygbop/0.1.1.5-0.2.0.1/diff.md --exclude *.pyd
+[2023-07-05 09:36:42] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.0.22.tar.gz]
+[2023-07-05 09:36:42] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.5.2.tar.gz]
+[2023-07-05 09:36:42] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-07-05 09:36:42] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.0.2.tar.gz]
+[2023-07-05 09:36:42] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.1.0.tar.gz]
+[2023-07-05 09:36:42] INFO root fetch - main [MainThread]: End processing [pbumongo]: success
+[2023-07-05 09:36:43] INFO root fetch - processPackages [rod]: Remove: archive file [/home/abi/fetcher/tmp/rod-0.1.dev85.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - processPackages [rod]: Remove: archive file [/home/abi/fetcher/tmp/rod-0.1.dev86.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - main [MainThread]: End processing [rod]: success
+[2023-07-05 09:36:43] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.1.1.5.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.1.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - main [MainThread]: End processing [pygbop]: success
+[2023-07-05 09:36:43] INFO root fetch - processPackages [fastel]: Remove: archive file [/home/abi/fetcher/tmp/fastel-2.7.8.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - processPackages [fastel]: Remove: archive file [/home/abi/fetcher/tmp/fastel-2.7.9.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - main [MainThread]: End processing [fastel]: success
+[2023-07-05 09:36:43] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-6.2.0.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - processPackages [signal-ocean]: Remove: archive file [/home/abi/fetcher/tmp/signal-ocean-7.0.0.tar.gz]
+[2023-07-05 09:36:43] INFO root fetch - main [MainThread]: End processing [signal-ocean]: success
+[2023-07-05 09:36:44] INFO root fetch - processPackages [pytheia]: Downloading https://files.pythonhosted.org/packages/f4/1f/4929381cf46e92fdccf72ceab1b4a6858800ceff635f10e85be29b2a662e/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl
+[2023-07-05 09:36:46] INFO root fetch - processPackages [pytheia]: executing diffoscope
+[2023-07-05 09:36:46] INFO root fetch - processPackages [pytheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip --markdown 20230705/p/pytheia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 09:37:13] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.1.8-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2023-07-05 09:37:13] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
+[2023-07-05 09:37:13] INFO root fetch - main [MainThread]: End processing [pytheia]: success
+[2023-07-05 09:37:13] INFO root fetch - main [MainThread]: Store serial: [18763940]
