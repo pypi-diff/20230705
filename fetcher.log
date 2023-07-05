@@ -20438,3 +20438,191 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:17:36] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc2.tar.gz]
 [2023-07-05 16:17:36] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-07-05 16:17:36] INFO root fetch - main [MainThread]: Store serial: [18768388]
+[2023-07-05 16:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768388]
+[2023-07-05 16:22:51] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idoctorai
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wakaranai
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrecdp
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-loggings
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ul-data-aggregator-sdk
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miko-analyzer
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypipr
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e-models
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyseistr-win
+[2023-07-05 16:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrecdp
+[2023-07-05 16:22:52] WARNING root fetch - processPackages [pyseistr-win]: Skipping, unable to determine old version
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyseistr-win]: Start processing: graph-jsp-env
+[2023-07-05 16:22:52] INFO root fetch - main [MainThread]: End processing [pyseistr-win] error
+[2023-07-05 16:22:52] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.3]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [e-models]: New version: [1.5] Old Version: [1.4.0.1]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [idoctorai]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [wakaranai]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyrecdp]: New version: [1.6.1b2023070107] Old Version: [1.6.1b2023062819]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyrecdp]: New version: [1.6.1b2023070107] Old Version: [1.6.1b2023062819]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/1c/1f/5c064f7cda53b94dd5e63d1b272ada459fa30f1c462d984cf73976294bc7/ul-data-aggregator-sdk-8.11.3.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [miko-analyzer]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [graph-jsp-env]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/6a/34/b1af92289b1bb1134c7a9a367f5771ead38ee6bcf760e88cac3603fa2702/pydantic-loggings-0.8.0.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/b5/b3/462bdcacfec012ca0f15a8557710103924dac8f8d9c53ff3caa0edcbc533/pyrecdp-1.6.1b2023062819.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/fe/67/d8843fbbc6a542717ac00da20574f81cf46a0c66b83f4a74ca17c50c41d6/e-models-1.4.0.1.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [wakaranai]: Downloading https://files.pythonhosted.org/packages/a5/b3/49df4d60829cdb437716d465919be9dfe73eda9d75844c3a2051c25f604f/wakaranai-0.0.1rc2.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/b5/b3/462bdcacfec012ca0f15a8557710103924dac8f8d9c53ff3caa0edcbc533/pyrecdp-1.6.1b2023062819.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/71/07/a45a6993d21f4d504dcf9c3de679301896d49b59732a58e0e9e399b833be/idoctorai-0.6.7.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [graph-jsp-env]: Downloading https://files.pythonhosted.org/packages/92/7a/78b01edf454d183fbd6589f0a8ef6bf661247c3f1805676dda2d3167c440/graph-jsp-env-0.2.0.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/ab/c8/085b6ffd91326548ba3b355e72cc410286860516c34310924a6182dab40b/pydantic-loggings-0.9.0.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [miko-analyzer]: Downloading https://files.pythonhosted.org/packages/d1/ee/96d4ad9a9121a5ff5ac1a5e02bb0235723a9f066ff4f07d90f427ec8960e/miko_analyzer-0.3.1.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/40/3c/b4de340fa9e6d0ad6af8621a4db4a26984e43042a814a5f806694002582b/e-models-1.5.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/28/76/2d0ec798bd63da5c22d073dd29c6691b8128c3a9db745e807306212901c1/pyrecdp-1.6.1b2023070107.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [wakaranai]: Downloading https://files.pythonhosted.org/packages/40/50/f55a3ec278bb96f2fd743330c68c39d312d310f725b464cc39430736249c/wakaranai-0.0.1rc3.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pyrecdp]: Downloading https://files.pythonhosted.org/packages/28/76/2d0ec798bd63da5c22d073dd29c6691b8128c3a9db745e807306212901c1/pyrecdp-1.6.1b2023070107.tar.gz
+[2023-07-05 16:22:52] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.8.0.tar.gz tmp/pydantic-loggings-0.9.0.tar.gz --markdown 20230705/p/pydantic-loggings/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.3.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230705/u/ul-data-aggregator-sdk/8.11.3-8.9.5/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/6e/c6/c0fc26054c8697bed9af152ed9e55a2098cd3eb001693c8b21b10fcfe152/idoctorai-0.6.8.tar.gz
+[2023-07-05 16:22:53] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.4.0.1.tar.gz tmp/e-models-1.5.tar.gz --markdown 20230705/e/e-models/1.4.0.1-1.5/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-07-05 16:22:53] INFO root fetch - processPackages [graph-jsp-env]: Downloading https://files.pythonhosted.org/packages/d9/b3/3cfc3fc0e0be6a5e7f75e708aa5efce8ee9bf615a4daa10cdc0387551384/graph-jsp-env-0.2.1.tar.gz
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.6.1b2023062819.tar.gz tmp/pyrecdp-1.6.1b2023070107.tar.gz --markdown 20230705/p/pyrecdp/1.6.1b2023062819-1.6.1b2023070107/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.6.1b2023062819.tar.gz tmp/pyrecdp-1.6.1b2023070107.tar.gz --markdown 20230705/p/pyrecdp/1.6.1b2023062819-1.6.1b2023070107/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [miko-analyzer]: Downloading https://files.pythonhosted.org/packages/a3/96/dac59292441b8acb82cf5d4c0b807a960d5dea204b2fadefc5a6f333ea20/miko_analyzer-0.3.2.tar.gz
+[2023-07-05 16:22:53] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.6.7.tar.gz tmp/idoctorai-0.6.8.tar.gz --markdown 20230705/i/idoctorai/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [wakaranai]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [wakaranai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakaranai-0.0.1rc2.tar.gz tmp/wakaranai-0.0.1rc3.tar.gz --markdown 20230705/w/wakaranai/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230705/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [miko-analyzer]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [miko-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miko_analyzer-0.3.1.tar.gz tmp/miko_analyzer-0.3.2.tar.gz --markdown 20230705/m/miko-analyzer/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-05 16:22:53] INFO root fetch - processPackages [graph-jsp-env]: executing diffoscope
+[2023-07-05 16:22:53] INFO root fetch - processPackages [graph-jsp-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-jsp-env-0.2.0.tar.gz tmp/graph-jsp-env-0.2.1.tar.gz --markdown 20230705/g/graph-jsp-env/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 16:22:54] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.8.0.tar.gz]
+[2023-07-05 16:22:54] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.9.0.tar.gz]
+[2023-07-05 16:22:54] INFO root fetch - processPackages [pydantic-loggings]: Start processing: ora2
+[2023-07-05 16:22:54] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-05 16:22:54] INFO root fetch - processPackages [ora2]: New version: [5.1.0] Old Version: [5.0.4]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.4.0.1.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.5.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [e-models]: Start processing: xpanse
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.3.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Start processing: ora2
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [wakaranai]: Remove: archive file [/home/abi/fetcher/tmp/wakaranai-0.0.1rc2.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [wakaranai]: Remove: archive file [/home/abi/fetcher/tmp/wakaranai-0.0.1rc3.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [wakaranai]: Start processing: whyylog
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [wakaranai]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/af/7a/1d39440d79f8cbb7054c2c237a1391ffbdddd4990d19ad1a05ca1b7b3c6a/ora2-5.0.4.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ora2]: New version: [5.1.0] Old Version: [5.0.4]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [xpanse]: New version: [2.0.0rc5] Old Version: [2.0.0rc4]
+[2023-07-05 16:22:55] WARNING root fetch - processPackages [whyylog]: Skipping, unable to determine old version
+[2023-07-05 16:22:55] INFO root fetch - processPackages [whyylog]: Start processing: catencfamily
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [whyylog] error
+[2023-07-05 16:22:55] INFO root fetch - processPackages [graph-jsp-env]: Remove: archive file [/home/abi/fetcher/tmp/graph-jsp-env-0.2.0.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [graph-jsp-env]: Remove: archive file [/home/abi/fetcher/tmp/graph-jsp-env-0.2.1.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [graph-jsp-env]: Start processing: meow-base
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [graph-jsp-env]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [miko-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/miko_analyzer-0.3.1.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [miko-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/miko_analyzer-0.3.2.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [miko-analyzer]: Start processing: minecraftstatus
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [miko-analyzer]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/af/7a/1d39440d79f8cbb7054c2c237a1391ffbdddd4990d19ad1a05ca1b7b3c6a/ora2-5.0.4.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [catencfamily]: New version: [0.0.84] Old Version: [0.0.82]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pypipr]: Start processing: label-noise-correction
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [meow-base]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.7.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.8.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [idoctorai]: Start processing: liionpack
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [meow-base]: Downloading https://files.pythonhosted.org/packages/7c/a6/326d2311dc5bf43f277973aa2ddc46c9d7d2d5af6342830de31efe36e03d/meow_base-1.0.2.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/b6/0a/e1d4e9aa931bba946ef70c8b85b5f0a74c98024fe1a3ea7703cf7e1bf9de/xpanse-2.0.0rc4.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pyrecdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrecdp-1.6.1b2023062819.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pyrecdp]: Remove: archive file [/home/abi/fetcher/tmp/pyrecdp-1.6.1b2023070107.tar.gz]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pyrecdp]: Start processing: SELDOMpy
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [label-noise-correction]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [liionpack]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [minecraftstatus]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [pyrecdp]: Start processing: minet
+[2023-07-05 16:22:55] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-07-05 16:22:55] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.3.9] Old Version: [0.8.3.8]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/94/cc/dd01e9528666067934f80d0962906a8f1fbb6eb405c89609b48a101739fe/catencfamily-0.0.82.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/32/d5/dc26f6fc11ad66bbce9301b960cec7ff9dcf121a06b7eb82293b9c9cccf0/SELDOMpy-0.8.3.8.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-05 16:22:55] INFO root fetch - processPackages [label-noise-correction]: Downloading https://files.pythonhosted.org/packages/ce/d3/4df79145114c7a9034108fe9b17d74de6500d7230e6dc15195332d9a575e/label_noise_correction-0.0.3.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [liionpack]: Downloading https://files.pythonhosted.org/packages/6d/6f/d17a4e14069aba276f26c6697ace97b67c2460ff72b52baeaff24015ad94/liionpack-0.3.6.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [meow-base]: Downloading https://files.pythonhosted.org/packages/91/1d/4bffee2c0863c3d44cf6ea2d2309395c365da9be73953046fbc794fe6eef/meow_base-1.0.3.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/54/d9/9d6dd1d7eb65512c26606c797f664e6ae14f760723b7b32bd647c5888e2d/ora2-5.1.0.tar.gz
+[2023-07-05 16:22:55] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [ora2]: Downloading https://files.pythonhosted.org/packages/54/d9/9d6dd1d7eb65512c26606c797f664e6ae14f760723b7b32bd647c5888e2d/ora2-5.1.0.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/1c/46/e521bde7e43501ba03a33b8cc30f42fababf154f35e7cc9aaa809c6eff3a/SELDOMpy-0.8.3.9.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minecraftstatus]: Downloading https://files.pythonhosted.org/packages/14/ee/e7854714de0efe8a2a11ae8da6620883aaa6f0301b75c46dc130f04eaefd/minecraftstatus-0.0.7.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/e0/07/d5922b552d783547fa26aba248e463f968f70f5de693ef6dc351cc3e117e/catencfamily-0.0.84.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [meow-base]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [meow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow_base-1.0.2.tar.gz tmp/meow_base-1.0.3.tar.gz --markdown 20230705/m/meow-base/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-05 16:22:56] INFO root fetch - processPackages [label-noise-correction]: Downloading https://files.pythonhosted.org/packages/45/cd/29d926f83ba50287aed09e2c25ad96dab5d5a07ce7efc40f6dfc0ac0e3f0/label_noise_correction-0.0.4.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.8.tar.gz tmp/SELDOMpy-0.8.3.9.tar.gz --markdown 20230705/S/SELDOMpy/0.8.3.8-0.8.3.9/diff.md --exclude *.pyd
+[2023-07-05 16:22:56] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.82.tar.gz tmp/catencfamily-0.0.84.tar.gz --markdown 20230705/c/catencfamily/0.0.82-0.0.84/diff.md --exclude *.pyd
+[2023-07-05 16:22:56] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/21/64/2a408fa7b683d7ba9ef97ffdf2924bf07059042c60859bc1e4a6a63b29d8/xpanse-2.0.0rc5.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230705/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minecraftstatus]: Downloading https://files.pythonhosted.org/packages/4a/cb/4bfd493553ab86ff60df4b8fe68f35ad27e9e4916afccee6f1def46cdefd/minecraftstatus-0.0.8.tar.gz
+[2023-07-05 16:22:56] INFO root fetch - processPackages [label-noise-correction]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [label-noise-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label_noise_correction-0.0.3.tar.gz tmp/label_noise_correction-0.0.4.tar.gz --markdown 20230705/l/label-noise-correction/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 16:22:56] INFO root fetch - processPackages [xpanse]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [xpanse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpanse-2.0.0rc4.tar.gz tmp/xpanse-2.0.0rc5.tar.gz --markdown 20230705/x/xpanse/2.0.0rc4-2.0.0rc5/diff.md --exclude *.pyd
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minecraftstatus]: executing diffoscope
+[2023-07-05 16:22:56] INFO root fetch - processPackages [minecraftstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraftstatus-0.0.7.tar.gz tmp/minecraftstatus-0.0.8.tar.gz --markdown 20230705/m/minecraftstatus/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 16:22:57] INFO root fetch - processPackages [liionpack]: Downloading https://files.pythonhosted.org/packages/97/5f/f89ab14eec5e11daf7a78f8126b31f3d419da13729a4d8453f0df9f60149/liionpack-0.3.7.tar.gz
+[2023-07-05 16:22:57] INFO root fetch - processPackages [meow-base]: Remove: archive file [/home/abi/fetcher/tmp/meow_base-1.0.2.tar.gz]
+[2023-07-05 16:22:57] INFO root fetch - processPackages [meow-base]: Remove: archive file [/home/abi/fetcher/tmp/meow_base-1.0.3.tar.gz]
+[2023-07-05 16:22:57] INFO root fetch - processPackages [meow-base]: Start processing: tno.quantum.communication.qkd-key-rate
+[2023-07-05 16:22:57] INFO root fetch - main [MainThread]: End processing [meow-base]: success
+[2023-07-05 16:22:57] WARNING root fetch - processPackages [tno.quantum.communication.qkd-key-rate]: Skipping, unable to determine old version
+[2023-07-05 16:22:57] INFO root fetch - main [MainThread]: End processing [tno.quantum.communication.qkd-key-rate] error
+[2023-07-05 16:22:57] INFO root fetch - processPackages [ora2]: executing diffoscope
+[2023-07-05 16:22:57] INFO root fetch - processPackages [ora2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora2-5.0.4.tar.gz tmp/ora2-5.1.0.tar.gz --markdown 20230705/o/ora2/5.0.4-5.1.0/diff.md --exclude *.pyd
+[2023-07-05 16:22:57] INFO root fetch - processPackages [ora2]: executing diffoscope
+[2023-07-05 16:22:57] INFO root fetch - processPackages [ora2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ora2-5.0.4.tar.gz tmp/ora2-5.1.0.tar.gz --markdown 20230705/o/ora2/5.0.4-5.1.0/diff.md --exclude *.pyd
+[2023-07-05 16:22:57] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.82.tar.gz]
+[2023-07-05 16:22:57] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.84.tar.gz]
+[2023-07-05 16:22:57] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-07-05 16:22:57] INFO root fetch - processPackages [label-noise-correction]: Remove: archive file [/home/abi/fetcher/tmp/label_noise_correction-0.0.3.tar.gz]
+[2023-07-05 16:22:57] INFO root fetch - processPackages [label-noise-correction]: Remove: archive file [/home/abi/fetcher/tmp/label_noise_correction-0.0.4.tar.gz]
+[2023-07-05 16:22:57] INFO root fetch - main [MainThread]: End processing [label-noise-correction]: success
+[2023-07-05 16:22:58] INFO root fetch - processPackages [minecraftstatus]: Remove: archive file [/home/abi/fetcher/tmp/minecraftstatus-0.0.7.tar.gz]
+[2023-07-05 16:22:58] INFO root fetch - processPackages [minecraftstatus]: Remove: archive file [/home/abi/fetcher/tmp/minecraftstatus-0.0.8.tar.gz]
+[2023-07-05 16:22:58] INFO root fetch - main [MainThread]: End processing [minecraftstatus]: success
+[2023-07-05 16:22:58] INFO root fetch - processPackages [liionpack]: executing diffoscope
+[2023-07-05 16:22:58] INFO root fetch - processPackages [liionpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liionpack-0.3.6.tar.gz tmp/liionpack-0.3.7.tar.gz --markdown 20230705/l/liionpack/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-05 16:22:58] INFO root fetch - processPackages [xpanse]: Remove: archive file [/home/abi/fetcher/tmp/xpanse-2.0.0rc4.tar.gz]
+[2023-07-05 16:22:58] INFO root fetch - processPackages [xpanse]: Remove: archive file [/home/abi/fetcher/tmp/xpanse-2.0.0rc5.tar.gz]
+[2023-07-05 16:22:58] INFO root fetch - main [MainThread]: End processing [xpanse]: success
+[2023-07-05 16:22:58] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.8.tar.gz]
+[2023-07-05 16:22:58] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.9.tar.gz]
+[2023-07-05 16:22:58] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-05 16:22:59] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a8.tar.gz]
+[2023-07-05 16:22:59] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a9.tar.gz]
+[2023-07-05 16:22:59] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-07-05 16:22:59] INFO root fetch - processPackages [liionpack]: Remove: archive file [/home/abi/fetcher/tmp/liionpack-0.3.6.tar.gz]
+[2023-07-05 16:22:59] INFO root fetch - processPackages [liionpack]: Remove: archive file [/home/abi/fetcher/tmp/liionpack-0.3.7.tar.gz]
+[2023-07-05 16:22:59] INFO root fetch - main [MainThread]: End processing [liionpack]: success
+[2023-07-05 16:23:04] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-5.0.4.tar.gz]
+[2023-07-05 16:23:04] INFO root fetch - processPackages [ora2]: Remove: archive file [/home/abi/fetcher/tmp/ora2-5.1.0.tar.gz]
+[2023-07-05 16:23:04] INFO root fetch - main [MainThread]: End processing [ora2]: success
+[2023-07-05 16:23:04] INFO root fetch - main [MainThread]: End processing [ora2]: success
+[2023-07-05 16:23:04] INFO root fetch - main [MainThread]: Store serial: [18768463]
