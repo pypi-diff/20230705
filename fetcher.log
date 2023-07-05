@@ -12407,3 +12407,126 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 10:51:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-05 10:51:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-05 10:51:12] INFO root fetch - main [MainThread]: Store serial: [18764773]
+[2023-07-05 10:56:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764773]
+[2023-07-05 10:56:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytbai
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Cubic-solver
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exasol-script-languages-container-ci-setup
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightdash-client-python
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spyral-cli
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molgenis-emx2-pyclient
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elfebot
+[2023-07-05 10:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nxstools
+[2023-07-05 10:56:23] WARNING root fetch - processPackages [Cubic-solver]: Skipping, unable to determine old version
+[2023-07-05 10:56:23] INFO root fetch - processPackages [Cubic-solver]: Start processing: antwerpen
+[2023-07-05 10:56:23] INFO root fetch - main [MainThread]: End processing [Cubic-solver] error
+[2023-07-05 10:56:23] INFO root fetch - processPackages [spyral-cli]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [crypto-screening]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [elfebot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.200.1] Old Version: [8.200.0]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [pytbai]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [kfish]: New version: [99.0.202307041737] Old Version: [99.0.202307041542]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [nxstools]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [lightdash-client-python]: New version: [0.651.1] Old Version: [0.621.0]
+[2023-07-05 10:56:23] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/c9/c4/f365e85cedcc63f80ea463cbfb8e064d0a5a8263105706891a01f38f7155/molgenis_emx2_pyclient-8.200.0.tar.gz
+[2023-07-05 10:56:23] INFO root fetch - processPackages [spyral-cli]: Downloading https://files.pythonhosted.org/packages/cb/2e/de19a19daae975f7beed497c313cf04a8544f12061668d1afc98449be0e3/spyral_cli-1.0.3.tar.gz
+[2023-07-05 10:56:23] INFO root fetch - processPackages [antwerpen]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 10:56:24] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/84/46/b2964365a310f4a41c0aeb355140878571512cbc27ccf85f2e26f5f69789/nxstools-3.8.0.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f6/a3/6063ad9035b33ecceb92d2dfba81a4e6a0ea2563364af27a379bd6039fd9/kfish-99.0.202307041542-py3-none-any.whl
+[2023-07-05 10:56:24] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/24/0d/b00ee41f60c12b524dc0aa274a940e9f8ed373797731ab4a6e1139e289a3/crypto-screening-1.9.6.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/54/8d/34e11fe57a695c046d0a54adb86733c6b7ce6056076b7bb358e2d2a6daf3/elfebot-0.0.4-py3-none-any.whl
+[2023-07-05 10:56:24] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/74/28/4b1709088e2179ba30ddf13e15a8145d9625b0ee13b3d4a79f2c8b09aac1/pytbai-1.1.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Downloading https://files.pythonhosted.org/packages/4e/f5/3466d90ec175725f4bebc70edec2dc7d81ba647d39e0dbacbcb76ec162d4/exasol_script_languages_container_ci_setup-1.1.0.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/51/fd/ae61d03eeaefd03ebcb2a57b757fb1d4deace43b83c3c5be78d92e141c6b/lightdash_client_python-0.621.0.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [spyral-cli]: Downloading https://files.pythonhosted.org/packages/8d/22/84513ac077c589de4e6b3c9c72f11034b7bb821d247075bf60d795db8276/spyral_cli-1.0.4.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/f9/4a/c6722de0dada2e6c16af2b8f25fe3bc42a315d9900f6f5e1099357ae18c1/molgenis_emx2_pyclient-8.200.1.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [antwerpen]: Downloading https://files.pythonhosted.org/packages/29/13/f0f43ae8d01b2873b8027a210af3a8e499559b2a503fd4e71d5306b29995/antwerpen-0.1.0.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/29/8e/93a6f5b4edd7700152dcccf0674c634307677f662e8aeadfc993746f6475/kfish-99.0.202307041737-py3-none-any.whl
+[2023-07-05 10:56:24] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/6a/e3/f64b164b602fab97572e8ba56c867b7f678a7724a9dc85a64e9ec7b4fecf/pytbai-1.1.1.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/c1/ed/9a79336d49acc4c2db6ab51c0bbbf088b0cfc55cd9599dcb7b5f3c562ae9/crypto-screening-1.9.7.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [spyral-cli]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [spyral-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyral_cli-1.0.3.tar.gz tmp/spyral_cli-1.0.4.tar.gz --markdown 20230705/s/spyral-cli/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-05 10:56:24] INFO root fetch - processPackages [nxstools]: Downloading https://files.pythonhosted.org/packages/07/02/9c4773f7d22547c1f62765ea915c410a90195e7a3b6a1d4ea0947c516c39/nxstools-3.9.0.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.200.0.tar.gz tmp/molgenis_emx2_pyclient-8.200.1.tar.gz --markdown 20230705/m/molgenis-emx2-pyclient/8.200.0-8.200.1/diff.md --exclude *.pyd
+[2023-07-05 10:56:24] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/fa/df/49894e63a160d1696a426e706182cc80957470be10bcfa281d7013917504/elfebot-0.0.5-py3-none-any.whl
+[2023-07-05 10:56:24] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307041542-py3-none-any.whl.zip tmp/kfish-99.0.202307041737-py3-none-any.whl.zip --markdown 20230705/k/kfish/99.0.202307041542-99.0.202307041737/diff.md --exclude *.pyd
+[2023-07-05 10:56:24] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.1.tar.gz tmp/pytbai-1.1.1.tar.gz --markdown 20230705/p/pytbai/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 10:56:24] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Downloading https://files.pythonhosted.org/packages/2c/0c/bc0bb36f9cac627b10f78976bd5f8403db9b47bec151b16e4c5b0f1435c8/exasol_script_languages_container_ci_setup-1.2.0.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/f4/f0/1fffe7150ba304dc81d9ab04dd1f63c7280721a32fb1ea55993f80e2ce45/lightdash_client_python-0.651.1.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [antwerpen]: Downloading https://files.pythonhosted.org/packages/27/9e/d2883786a6d877cfae783af2928638ade63bed7c8f0dffa0f8fabf80d04f/antwerpen-0.1.1.tar.gz
+[2023-07-05 10:56:24] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.9.6.tar.gz tmp/crypto-screening-1.9.7.tar.gz --markdown 20230705/c/crypto-screening/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-05 10:56:24] INFO root fetch - processPackages [nxstools]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [nxstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxstools-3.8.0.tar.gz tmp/nxstools-3.9.0.tar.gz --markdown 20230705/n/nxstools/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-05 10:56:24] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: executing diffoscope
+[2023-07-05 10:56:24] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_script_languages_container_ci_setup-1.1.0.tar.gz tmp/exasol_script_languages_container_ci_setup-1.2.0.tar.gz --markdown 20230705/e/exasol-script-languages-container-ci-setup/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 10:56:25] INFO root fetch - processPackages [elfebot]: executing diffoscope
+[2023-07-05 10:56:25] INFO root fetch - processPackages [elfebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elfebot-0.0.4-py3-none-any.whl.zip tmp/elfebot-0.0.5-py3-none-any.whl.zip --markdown 20230705/e/elfebot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 10:56:25] INFO root fetch - processPackages [lightdash-client-python]: executing diffoscope
+[2023-07-05 10:56:25] INFO root fetch - processPackages [lightdash-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_client_python-0.621.0.tar.gz tmp/lightdash_client_python-0.651.1.tar.gz --markdown 20230705/l/lightdash-client-python/0.621.0-0.651.1/diff.md --exclude *.pyd
+[2023-07-05 10:56:25] INFO root fetch - processPackages [antwerpen]: executing diffoscope
+[2023-07-05 10:56:25] INFO root fetch - processPackages [antwerpen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antwerpen-0.1.0.tar.gz tmp/antwerpen-0.1.1.tar.gz --markdown 20230705/a/antwerpen/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 10:56:26] INFO root fetch - processPackages [spyral-cli]: Remove: archive file [/home/abi/fetcher/tmp/spyral_cli-1.0.3.tar.gz]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [spyral-cli]: Remove: archive file [/home/abi/fetcher/tmp/spyral_cli-1.0.4.tar.gz]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [spyral-cli]: Start processing: lusid-workflow-sdk-preview
+[2023-07-05 10:56:26] INFO root fetch - main [MainThread]: End processing [spyral-cli]: success
+[2023-07-05 10:56:26] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.330] Old Version: [0.1.209]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.200.0.tar.gz]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.200.1.tar.gz]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: qontract-reconcile
+[2023-07-05 10:56:26] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-05 10:56:26] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ee/44/514a348a73ce7661653ca1d2755ec8b01fc20b1a3abfc2f9478a254d24c5/lusid-workflow-sdk-preview-0.1.209.tar.gz
+[2023-07-05 10:56:26] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-05 10:56:26] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307041542-py3-none-any.whl.zip]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307041737-py3-none-any.whl.zip]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [kfish]: Start processing: cubicweb
+[2023-07-05 10:56:26] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-05 10:56:26] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/90/bd/9abc60f6b62fc5afa95b43d84cae2c99864ee8c661be12563cb83dacc9f0/lusid-workflow-sdk-preview-0.1.330.tar.gz
+[2023-07-05 10:56:26] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.1.tar.gz]
+[2023-07-05 10:56:26] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.1.1.tar.gz]
+[2023-07-05 10:56:26] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-05 10:56:26] INFO root fetch - processPackages [cubicweb]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-05 10:56:27] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2023-07-05 10:56:27] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.209.tar.gz tmp/lusid-workflow-sdk-preview-0.1.330.tar.gz --markdown 20230705/l/lusid-workflow-sdk-preview/0.1.209-0.1.330/diff.md --exclude *.pyd
+[2023-07-05 10:56:27] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.6.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.7.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-05 10:56:27] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.4-py3-none-any.whl.zip]
+[2023-07-05 10:56:27] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.5-py3-none-any.whl.zip]
+[2023-07-05 10:56:27] INFO root fetch - main [MainThread]: End processing [elfebot]: success
+[2023-07-05 10:56:27] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-05 10:56:27] INFO root fetch - processPackages [antwerpen]: Remove: archive file [/home/abi/fetcher/tmp/antwerpen-0.1.0.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - processPackages [antwerpen]: Remove: archive file [/home/abi/fetcher/tmp/antwerpen-0.1.1.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - main [MainThread]: End processing [antwerpen]: success
+[2023-07-05 10:56:27] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_ci_setup-1.1.0.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - processPackages [exasol-script-languages-container-ci-setup]: Remove: archive file [/home/abi/fetcher/tmp/exasol_script_languages_container_ci_setup-1.2.0.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - main [MainThread]: End processing [exasol-script-languages-container-ci-setup]: success
+[2023-07-05 10:56:27] INFO root fetch - processPackages [cubicweb]: Downloading https://files.pythonhosted.org/packages/40/12/94430b70a0681e70281f908f9f9cdbb78ad8171f3b70e37a2742139c3b41/cubicweb-4.0.0.tar.gz
+[2023-07-05 10:56:27] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-05 10:56:27] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230705/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-05 10:56:27] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.8.0.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - processPackages [nxstools]: Remove: archive file [/home/abi/fetcher/tmp/nxstools-3.9.0.tar.gz]
+[2023-07-05 10:56:27] INFO root fetch - main [MainThread]: End processing [nxstools]: success
+[2023-07-05 10:56:27] INFO root fetch - processPackages [cubicweb]: Downloading https://files.pythonhosted.org/packages/30/c1/d878dde72146ab3780cf92b2e48e33a8062ac5691ed19e67e827c57fe42a/cubicweb-4.1.0.tar.gz
+[2023-07-05 10:56:28] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.209.tar.gz]
+[2023-07-05 10:56:28] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.330.tar.gz]
+[2023-07-05 10:56:28] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2023-07-05 10:56:29] INFO root fetch - processPackages [cubicweb]: executing diffoscope
+[2023-07-05 10:56:29] INFO root fetch - processPackages [cubicweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-4.0.0.tar.gz tmp/cubicweb-4.1.0.tar.gz --markdown 20230705/c/cubicweb/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-05 10:56:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-05 10:56:30] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-05 10:56:30] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-05 10:56:36] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.621.0.tar.gz]
+[2023-07-05 10:56:36] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.651.1.tar.gz]
+[2023-07-05 10:56:36] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
+[2023-07-05 10:56:36] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.0.0.tar.gz]
+[2023-07-05 10:56:36] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.1.0.tar.gz]
+[2023-07-05 10:56:36] INFO root fetch - main [MainThread]: End processing [cubicweb]: success
+[2023-07-05 10:56:36] INFO root fetch - main [MainThread]: Store serial: [18764816]
