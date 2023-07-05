@@ -10432,3 +10432,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 09:21:05] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-05 09:21:05] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-05 09:21:05] INFO root fetch - main [MainThread]: Store serial: [18763779]
+[2023-07-05 09:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763779]
+[2023-07-05 09:26:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hak
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dithering
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbu
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrogibs
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: social-media
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aloso
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aloso
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: berrydb
+[2023-07-05 09:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: molgenis-emx2-pyclient
+[2023-07-05 09:26:15] INFO root fetch - processPackages [berrydb]: New version: [1.0.0] Old Version: [0.0.32]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [hydrogibs]: New version: [0.5.2] Old Version: [0.0.21]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [aloso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [dithering]: New version: [0.1.11] Old Version: [0.1.0]
+[2023-07-05 09:26:15] WARNING root fetch - processPackages [social-media]: Skipping, unable to determine old version
+[2023-07-05 09:26:15] INFO root fetch - processPackages [social-media]: Start processing: agh-vqis
+[2023-07-05 09:26:15] INFO root fetch - main [MainThread]: End processing [social-media] error
+[2023-07-05 09:26:15] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.200.1] Old Version: [8.200.0]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [pbu]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [agh-vqis]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-07-05 09:26:15] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-05 09:26:15] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/75/11/29f4fe05bdfd88f44291dde6838ea17756f1ac3322695d976d8958ec3236/berrydb-0.0.32-py3-none-any.whl
+[2023-07-05 09:26:15] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/50/9d/0ff14b1bc5f2263235cdcf24ed3d3350aa202844d04965c4926ec9b0c09b/aloso-0.0.8-py3-none-any.whl
+[2023-07-05 09:26:15] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/e1/eb/362d28b7bcb9501c3e3bf7a95385e4edeb6a8cb1f69d6a44c873c2cfefb7/hydrogibs-0.0.21.tar.gz
+[2023-07-05 09:26:15] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/c9/c4/f365e85cedcc63f80ea463cbfb8e064d0a5a8263105706891a01f38f7155/molgenis_emx2_pyclient-8.200.0.tar.gz
+[2023-07-05 09:26:15] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/21/6a/39fbb53485bc9b351e9284a4ccbf88ad5d253e9582bba80da6a95d413167/agh_vqis-3.0.3.tar.gz
+[2023-07-05 09:26:15] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-07-05 09:26:15] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/a5/25/5dda95b2613e4268fde3657c50f0d60a16d20e3deb6d5051d805e43ebbb0/dithering-0.1.0.tar.gz
+[2023-07-05 09:26:15] INFO root fetch - processPackages [pbu]: Downloading https://files.pythonhosted.org/packages/d5/b5/29ace71be327098652cae4d82cb8a6cce846f34e9facc01509c23266e9f5/pbu-1.0.3.tar.gz
+[2023-07-05 09:26:15] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/2a/a0/ad8ae2cfd819a235eea7f9e5e44eed03043287423cc413acb458c35d4257/berrydb-1.0.0.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/68/0f/a0c1c4093506218578ee45dd5d8f6b74b6d32341df49692c2379ce9d7954/hydrogibs-0.5.2.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-05 09:26:16] INFO root fetch - processPackages [aloso]: Downloading https://files.pythonhosted.org/packages/8d/c7/4327030a3a76e4d5eb22fc9af6b920dd9d50887fe3bd59e743a9e7b1ac9d/aloso-0.0.9-py3-none-any.whl
+[2023-07-05 09:26:16] INFO root fetch - processPackages [berrydb]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [berrydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb-0.0.32-py3-none-any.whl.zip tmp/berrydb-1.0.0.tar.gz --markdown 20230705/b/berrydb/0.0.32-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.21.tar.gz tmp/hydrogibs-0.5.2.tar.gz --markdown 20230705/h/hydrogibs/0.0.21-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [agh-vqis]: Downloading https://files.pythonhosted.org/packages/98/29/e981a563e2cf1050cdd0754158bf3d4c18e3af64c3ee344a69f0b16d844d/agh_vqis-3.0.4.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230705/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [aloso]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [aloso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aloso-0.0.8-py3-none-any.whl.zip tmp/aloso-0.0.9-py3-none-any.whl.zip --markdown 20230705/a/aloso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/f9/4a/c6722de0dada2e6c16af2b8f25fe3bc42a315d9900f6f5e1099357ae18c1/molgenis_emx2_pyclient-8.200.1.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/5d/5a/8cca4f7c62497fcb269878525c7264c728fef71e477fe53a79e076507b76/dithering-0.1.11.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [agh-vqis]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [agh-vqis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agh_vqis-3.0.3.tar.gz tmp/agh_vqis-3.0.4.tar.gz --markdown 20230705/a/agh-vqis/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [pbu]: Downloading https://files.pythonhosted.org/packages/ae/b5/fa1a5c8aab9d5cd0c3cfd7004b70fcb0e9acba58b6edb4335c60a7e257fa/pbu-1.1.0.tar.gz
+[2023-07-05 09:26:16] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.200.0.tar.gz tmp/molgenis_emx2_pyclient-8.200.1.tar.gz --markdown 20230705/m/molgenis-emx2-pyclient/8.200.0-8.200.1/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230705/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-07-05 09:26:16] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.0.tar.gz tmp/dithering-0.1.11.tar.gz --markdown 20230705/d/dithering/0.1.0-0.1.11/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [pbu]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [pbu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbu-1.0.3.tar.gz tmp/pbu-1.1.0.tar.gz --markdown 20230705/p/pbu/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 09:26:16] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-07-05 09:26:16] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230705/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-05 09:26:17] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-0.0.32-py3-none-any.whl.zip]
+[2023-07-05 09:26:17] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.0.tar.gz]
+[2023-07-05 09:26:17] INFO root fetch - processPackages [berrydb]: Start processing: stability-matrix-tools
+[2023-07-05 09:26:17] INFO root fetch - main [MainThread]: End processing [berrydb]: success
+[2023-07-05 09:26:17] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.0.21.tar.gz]
+[2023-07-05 09:26:17] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.5.2.tar.gz]
+[2023-07-05 09:26:17] INFO root fetch - processPackages [hydrogibs]: Start processing: pbumongo
+[2023-07-05 09:26:17] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-07-05 09:26:17] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 09:26:17] INFO root fetch - processPackages [pbumongo]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.8-py3-none-any.whl.zip]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [aloso]: Remove: archive file [/home/abi/fetcher/tmp/aloso-0.0.9-py3-none-any.whl.zip]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [aloso]: Start processing: hak
+[2023-07-05 09:26:18] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-05 09:26:18] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/9e/9a/94dbbd2e5823d507da56a8e3ba22aca646d86ac1538de03b6c2517f2802c/stability_matrix_tools-0.1.8.tar.gz
+[2023-07-05 09:26:18] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.200.0.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.200.1.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-05 09:26:18] INFO root fetch - main [MainThread]: End processing [aloso]: success
+[2023-07-05 09:26:18] INFO root fetch - processPackages [pbumongo]: Downloading https://files.pythonhosted.org/packages/e2/60/ee5db4441aaccb074a095e44d26357674aced2e8203381c9c634fd7c5fa0/pbumongo-1.0.2.tar.gz
+[2023-07-05 09:26:18] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.0.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.11.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-05 09:26:18] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-05 09:26:18] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230705/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:26:18] INFO root fetch - processPackages [pbu]: Remove: archive file [/home/abi/fetcher/tmp/pbu-1.0.3.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [pbu]: Remove: archive file [/home/abi/fetcher/tmp/pbu-1.1.0.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - main [MainThread]: End processing [pbu]: success
+[2023-07-05 09:26:18] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/9e/2e/4b6a4802897636c87b43cfb630e5ffac91c5dfd180a965e0f16175c021df/stability_matrix_tools-0.1.9.tar.gz
+[2023-07-05 09:26:18] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-05 09:26:18] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.1.8.tar.gz tmp/stability_matrix_tools-0.1.9.tar.gz --markdown 20230705/s/stability-matrix-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 09:26:18] INFO root fetch - processPackages [pbumongo]: Downloading https://files.pythonhosted.org/packages/2f/20/8a5faaa14245c30f10bbae1076b58846dcea73119e2cad34ea9d169a54b5/pbumongo-1.1.0.tar.gz
+[2023-07-05 09:26:18] INFO root fetch - processPackages [pbumongo]: executing diffoscope
+[2023-07-05 09:26:18] INFO root fetch - processPackages [pbumongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbumongo-1.0.2.tar.gz tmp/pbumongo-1.1.0.tar.gz --markdown 20230705/p/pbumongo/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 09:26:18] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-05 09:26:18] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-05 09:26:19] ERROR root fetch - processPackages [hak]: Diffoscope failed: time="2023-07-05T09:26:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/hak-0.0.8.tar.gz does not exist
+
+[2023-07-05 09:26:19] INFO root fetch - main [MainThread]: End processing [hak] error
+[2023-07-05 09:26:19] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.0.3.tar.gz]
+[2023-07-05 09:26:19] INFO root fetch - processPackages [agh-vqis]: Remove: archive file [/home/abi/fetcher/tmp/agh_vqis-3.0.4.tar.gz]
+[2023-07-05 09:26:19] INFO root fetch - main [MainThread]: End processing [agh-vqis]: success
+[2023-07-05 09:26:19] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip]
+[2023-07-05 09:26:19] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-05 09:26:19] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-07-05 09:26:19] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.8.tar.gz]
+[2023-07-05 09:26:19] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.9.tar.gz]
+[2023-07-05 09:26:19] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-05 09:26:19] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.0.2.tar.gz]
+[2023-07-05 09:26:19] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.1.0.tar.gz]
+[2023-07-05 09:26:19] INFO root fetch - main [MainThread]: End processing [pbumongo]: success
+[2023-07-05 09:26:19] INFO root fetch - main [MainThread]: Store serial: [18763893]
