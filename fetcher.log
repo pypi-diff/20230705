@@ -14809,3 +14809,82 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:38:08] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a5.tar.gz]
 [2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
 [2023-07-05 12:38:08] INFO root fetch - main [MainThread]: Store serial: [18765899]
+[2023-07-05 12:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765899]
+[2023-07-05 12:43:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grpc-gateway
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndbioimage
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataplicity
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arabica
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-magnet-data
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huggingface-hub
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RandomUsernames
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: innerverz
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-blive-danmaku
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: innerverz
+[2023-07-05 12:43:17] INFO root fetch - processPackages [ndbioimage]: New version: [2023.7.0] Old Version: [2023.6.1]
+[2023-07-05 12:43:17] WARNING root fetch - processPackages [RandomUsernames]: Skipping, unable to determine old version
+[2023-07-05 12:43:17] INFO root fetch - main [MainThread]: End processing [RandomUsernames] error
+[2023-07-05 12:43:17] INFO root fetch - processPackages [huggingface-hub]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2023-07-05 12:43:17] INFO root fetch - processPackages [innerverz]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-05 12:43:17] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: New version: [0.3.3] Old Version: [0.3.22]
+[2023-07-05 12:43:17] INFO root fetch - processPackages [innerverz]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-05 12:43:17] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-05 12:43:17] WARNING root fetch - processPackages [grpc-gateway]: Skipping, unable to determine old version
+[2023-07-05 12:43:17] INFO root fetch - main [MainThread]: End processing [grpc-gateway] error
+[2023-07-05 12:43:18] INFO root fetch - processPackages [arabica]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-07-05 12:43:18] INFO root fetch - processPackages [django-magnet-data]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-05 12:43:18] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/ca/ee/40928c4c23956026df2dbe909d69bcfa3af59c0edde4b33da44a6a82e00a/ndbioimage-2023.6.1.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/18/22/396f7b9147571df8656841321b502255d5c918c485460fb0f61bd9bc4c10/huggingface_hub-0.9.0rc3.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/47/27/ef2e54502d071d2ec033547bbcea3082bf16e84af0ec18fb0f1d7fdfc55b/nonebot_plugin_blive_danmaku-0.3.22.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/6d/5c/abfdbfa113d2298322f9c60a30b1d405a90b4414f99159e4fdde200c63b7/innerverz-0.0.33.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/6d/5c/abfdbfa113d2298322f9c60a30b1d405a90b4414f99159e4fdde200c63b7/innerverz-0.0.33.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/02/e1/01dec68a90d5c696636599601c00411f15e7f3dc2bb4b36e58e46cb0033a/arabica-1.6.7.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [django-magnet-data]: Downloading https://files.pythonhosted.org/packages/35/ef/4531755281b9999a5d6fe4ba95a7a8f3379c106f0ec49f693de553c1cd43/django-magnet-data-1.1.8.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Downloading https://files.pythonhosted.org/packages/be/45/5568322d75221045bae7736a1c31f7ef1a2d11ede6df7e43ed4d71d2c3aa/nonebot_plugin_blive_danmaku-0.3.3.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/f2/ba/09da7dd3a60abdba0bdab4391adf26bf74ee3d13ee431cd6edd9c842da05/huggingface_hub-0.9.1.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/a1/44/bcfc3bfdd51d39e1370d9649f1add994a56420c971caeb1493714486a656/ndbioimage-2023.7.0.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a4/48/4eb66b997a5efc2f8258ad4579b324d5defb2abee5480896eb83236dd3e4/innerverz-0.0.34.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a4/48/4eb66b997a5efc2f8258ad4579b324d5defb2abee5480896eb83236dd3e4/innerverz-0.0.34.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/70/7b/614e1046a9f04b3d9b516686902a290e3f38ae5a1cdfe754fa2507e2e66b/arabica-1.6.8.tar.gz
+[2023-07-05 12:43:18] INFO root fetch - processPackages [huggingface-hub]: executing diffoscope
+[2023-07-05 12:43:18] INFO root fetch - processPackages [huggingface-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_hub-0.9.0rc3.tar.gz tmp/huggingface_hub-0.9.1.tar.gz --markdown 20230705/h/huggingface-hub/0.9.0rc3-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.33.tar.gz tmp/innerverz-0.0.34.tar.gz --markdown 20230705/i/innerverz/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-05 12:43:18] INFO root fetch - processPackages [ndbioimage]: executing diffoscope
+[2023-07-05 12:43:18] INFO root fetch - processPackages [ndbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndbioimage-2023.6.1.tar.gz tmp/ndbioimage-2023.7.0.tar.gz --markdown 20230705/n/ndbioimage/2023.6.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 12:43:18] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.33.tar.gz tmp/innerverz-0.0.34.tar.gz --markdown 20230705/i/innerverz/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-05 12:43:18] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: executing diffoscope
+[2023-07-05 12:43:18] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_blive_danmaku-0.3.22.tar.gz tmp/nonebot_plugin_blive_danmaku-0.3.3.tar.gz --markdown 20230705/n/nonebot-plugin-blive-danmaku/0.3.22-0.3.3/diff.md --exclude *.pyd
+[2023-07-05 12:43:19] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-07-05 12:43:19] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.7.tar.gz tmp/arabica-1.6.8.tar.gz --markdown 20230705/a/arabica/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-07-05 12:43:19] INFO root fetch - processPackages [django-magnet-data]: Downloading https://files.pythonhosted.org/packages/f4/2c/0ef26f080b328f97bc616f0dbe705e891d7836a0ad11921593cf70bad03c/django-magnet-data-1.1.9.tar.gz
+[2023-07-05 12:43:19] INFO root fetch - processPackages [django-magnet-data]: executing diffoscope
+[2023-07-05 12:43:19] INFO root fetch - processPackages [django-magnet-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-magnet-data-1.1.8.tar.gz tmp/django-magnet-data-1.1.9.tar.gz --markdown 20230705/d/django-magnet-data/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 12:43:19] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-05 12:43:19] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230705/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-05 12:43:20] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.0rc3.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.1.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [huggingface-hub]: success
+[2023-07-05 12:43:20] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.7.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.8.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-07-05 12:43:20] INFO root fetch - processPackages [django-magnet-data]: Remove: archive file [/home/abi/fetcher/tmp/django-magnet-data-1.1.8.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [django-magnet-data]: Remove: archive file [/home/abi/fetcher/tmp/django-magnet-data-1.1.9.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [django-magnet-data]: success
+[2023-07-05 12:43:20] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.33.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.34.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 12:43:20] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-05 12:43:20] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2023.6.1.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2023.7.0.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [ndbioimage]: success
+[2023-07-05 12:43:20] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.22.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.3.tar.gz]
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
+[2023-07-05 12:43:20] INFO root fetch - main [MainThread]: Store serial: [18765931]
