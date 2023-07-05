@@ -5167,3 +5167,179 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:14:56] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.7.5.dev0-py3-none-any.whl.zip]
 [2023-07-05 03:14:56] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2023-07-05 03:14:56] INFO root fetch - main [MainThread]: Store serial: [18761783]
+[2023-07-05 03:20:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761783]
+[2023-07-05 03:20:17] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-git-snippet
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-imagesearch
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fovus
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparksnake
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NikGapps
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bplib-fork
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tradingcomdados
+[2023-07-05 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jijmodeling-transpiler
+[2023-07-05 03:20:17] INFO root fetch - processPackages [jijmodeling-transpiler]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 03:20:17] WARNING root fetch - processPackages [bplib-fork]: Skipping, unable to determine old version
+[2023-07-05 03:20:17] INFO root fetch - processPackages [fovus]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [bplib-fork]: Start processing: zrouter
+[2023-07-05 03:20:17] INFO root fetch - main [MainThread]: End processing [bplib-fork] error
+[2023-07-05 03:20:17] INFO root fetch - processPackages [python-imagesearch]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [sparksnake]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [NikGapps]: New version: [1.56] Old Version: [1.55]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [tradingcomdados]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [mkdocs-git-snippet]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [zrouter]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230705] Old Version: [0.0.8.dev20230704]
+[2023-07-05 03:20:17] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/d9/08/d690bacd0d8a7bc39603153c1aa976eabc717c41442f20e9d61a1d6c2bb4/NikGapps-1.55.tar.gz
+[2023-07-05 03:20:17] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-05 03:20:17] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/d9/42/b3d90dca1230150c1be12fd5ba244cfe3138377d06e2956a7978833a0f47/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl
+[2023-07-05 03:20:17] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/4f/ea/d09f88586007903cec70f5ea761fc1c47d7acf42571ecb5b1ca57e0ae0f2/fovus-1.0.6-py3-none-any.whl
+[2023-07-05 03:20:17] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564567>=10485760
+[2023-07-05 03:20:18] INFO root fetch - processPackages [NikGapps]: Start processing: Finance-JindowinDate
+[2023-07-05 03:20:18] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-05 03:20:18] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/07/82/b61aa887aa1d5119b80feb0143d565e3cf5c7acca393fe99c8acf9712b7f/sparksnake-0.1.8.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [mkdocs-git-snippet]: Downloading https://files.pythonhosted.org/packages/f4/ae/30d12ced1bafb563a914b2ddca2f280f8439695f304beea5ac455610e650/mkdocs-git-snippet-0.1.1.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [python-imagesearch]: Downloading https://files.pythonhosted.org/packages/ff/eb/81e726ec48714b56432d4113100d85b77807eef592204fb850632daa15b6/python-imagesearch-1.2.2.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/9a/04/f6a834931acc26d80db5816f0c53245b9ca54bcc57a01b519ab1f0324c50/zrouter-0.3.5.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [tradingcomdados]: Downloading https://files.pythonhosted.org/packages/d1/3b/0f771bf4e4d4fce4cd83505cb785106188714f8c9499af5c84ce9309366f/tradingcomdados-1.2.1.tar.gz
+[2023-07-05 03:20:18] WARNING root fetch - processPackages [Finance-JindowinDate]: Skipping, unable to determine old version
+[2023-07-05 03:20:18] INFO root fetch - processPackages [Finance-JindowinDate]: Start processing: pytest-embedded
+[2023-07-05 03:20:18] INFO root fetch - main [MainThread]: End processing [Finance-JindowinDate] error
+[2023-07-05 03:20:18] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/90/13/a6d6e76ea57672a728618c10bb79dd24eaeb483ad40ca3d99d4760189a6d/aemcmc-nightly-0.0.8.dev20230704.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [pytest-embedded]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [python-imagesearch]: Downloading https://files.pythonhosted.org/packages/68/49/57790345ceddee02a5162341da103f67f2271bd78164d7172bd0c1f8dde2/python-imagesearch-1.3.0.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [mkdocs-git-snippet]: Downloading https://files.pythonhosted.org/packages/b8/00/763b952253f1a45305f1d23b189d77dbda2616c304c2bbb83628dd0c1c72/mkdocs-git-snippet-0.1.2.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [zrouter]: Downloading https://files.pythonhosted.org/packages/05/18/c833dca24fc8cf3fcc327e2de0a43633a9e3b2255e2ef5dfb9f320f13dca/zrouter-0.3.6.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [tradingcomdados]: Downloading https://files.pythonhosted.org/packages/b5/ed/6adf9bbd83a66f30f002d6ef81308f03106975527e226778187d0c4bc7ed/tradingcomdados-1.2.2.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/27/39/5211e0f3a206863c8f7839d38a85edd29e29742dd6cb3da59ef498cde15a/pytest_embedded-1.3.2.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [sparksnake]: Downloading https://files.pythonhosted.org/packages/96/eb/78a26281cfc4ee84b9572f8495ca91db74d482a3c9752fba1c7b2faa0466/sparksnake-0.1.9.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/a0/ac/5dd2bdba889a35bc79744a6045d033464f2d4f2b72e4670b023fc13bd5c6/aemcmc-nightly-0.0.8.dev20230705.tar.gz
+[2023-07-05 03:20:18] INFO root fetch - processPackages [jijmodeling-transpiler]: Downloading https://files.pythonhosted.org/packages/16/d1/984fca7af7d02b69489490825f756e7cdd61017d5ce77197c910e38ac64c/jijmodeling_transpiler-0.5.1-cp39-cp39-win_amd64.whl
+[2023-07-05 03:20:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230705/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [zrouter]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [zrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrouter-0.3.5.tar.gz tmp/zrouter-0.3.6.tar.gz --markdown 20230705/z/zrouter/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [tradingcomdados]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [tradingcomdados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingcomdados-1.2.1.tar.gz tmp/tradingcomdados-1.2.2.tar.gz --markdown 20230705/t/tradingcomdados/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [mkdocs-git-snippet]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [mkdocs-git-snippet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-snippet-0.1.1.tar.gz tmp/mkdocs-git-snippet-0.1.2.tar.gz --markdown 20230705/m/mkdocs-git-snippet/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [python-imagesearch]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [python-imagesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-imagesearch-1.2.2.tar.gz tmp/python-imagesearch-1.3.0.tar.gz --markdown 20230705/p/python-imagesearch/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [jijmodeling-transpiler]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [jijmodeling-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling_transpiler-0.5.1-cp39-cp39-win_amd64.whl.zip --markdown 20230705/j/jijmodeling-transpiler/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/ee/a6/ed77aa0c4e3fbd54c43c7758bcc95f9253663613dd90dedbcabb9d7fb094/fovus-1.0.7-py3-none-any.whl
+[2023-07-05 03:20:18] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230704.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230705.tar.gz --markdown 20230705/a/aemcmc-nightly/0.0.8.dev20230704-0.0.8.dev20230705/diff.md --exclude *.pyd
+[2023-07-05 03:20:18] INFO root fetch - processPackages [sparksnake]: executing diffoscope
+[2023-07-05 03:20:18] INFO root fetch - processPackages [sparksnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksnake-0.1.8.tar.gz tmp/sparksnake-0.1.9.tar.gz --markdown 20230705/s/sparksnake/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 03:20:19] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/eb/0a/067ec342948a030e6a86a677e8e7da55b84848a936fcb16b788f2ab63316/pytest_embedded-1.3.3.tar.gz
+[2023-07-05 03:20:19] INFO root fetch - processPackages [fovus]: executing diffoscope
+[2023-07-05 03:20:19] INFO root fetch - processPackages [fovus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fovus-1.0.6-py3-none-any.whl.zip tmp/fovus-1.0.7-py3-none-any.whl.zip --markdown 20230705/f/fovus/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-05 03:20:19] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2023-07-05 03:20:19] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded-1.3.2.tar.gz tmp/pytest_embedded-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:20] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.5.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [zrouter]: Remove: archive file [/home/abi/fetcher/tmp/zrouter-0.3.6.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [zrouter]: Start processing: duckdb
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [zrouter]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [tradingcomdados]: Remove: archive file [/home/abi/fetcher/tmp/tradingcomdados-1.2.1.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [tradingcomdados]: Remove: archive file [/home/abi/fetcher/tmp/tradingcomdados-1.2.2.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [tradingcomdados]: Start processing: pytest-embedded-serial
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [tradingcomdados]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [mkdocs-git-snippet]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-snippet-0.1.1.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [mkdocs-git-snippet]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-snippet-0.1.2.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [mkdocs-git-snippet]: Start processing: pytest-embedded-serial-esp
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [mkdocs-git-snippet]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev161] Old Version: [0.8.2.dev157]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [python-imagesearch]: Remove: archive file [/home/abi/fetcher/tmp/python-imagesearch-1.2.2.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [python-imagesearch]: Remove: archive file [/home/abi/fetcher/tmp/python-imagesearch-1.3.0.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [python-imagesearch]: Start processing: pytest-embedded-idf
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [python-imagesearch]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.1.8.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [sparksnake]: Remove: archive file [/home/abi/fetcher/tmp/sparksnake-0.1.9.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [sparksnake]: Start processing: pytest-embedded-jtag
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [sparksnake]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/24/61/cd17083a37703d6ce9aa03e295e46c4a010d5ec5292df9c710ea02e75032/duckdb-0.8.2.dev157.tar.gz
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/e7/b0/875d0cb79a4ad79224eb4f8897634d516db0db5c22202385d910321ca074/pytest_embedded_serial-1.3.2.tar.gz
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230704.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230705.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: pytest-embedded-qemu
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.3.2.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.3.3.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded]: Start processing: pytest-embedded-arduino
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Start processing: Inde-Abbre
+[2023-07-05 03:20:20] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/1d/a2/dc6c879d47509cbfc808ed8fdd1a9f3601442e0edb663ed65d9479909edf/pytest_embedded_serial_esp-1.3.2.tar.gz
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [Inde-Abbre]: New version: [0.1] Old Version: [0.0.8]
+[2023-07-05 03:20:20] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:21] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.6-py3-none-any.whl.zip]
+[2023-07-05 03:20:21] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.0.7-py3-none-any.whl.zip]
+[2023-07-05 03:20:21] INFO root fetch - main [MainThread]: End processing [fovus]: success
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/bc/de/4182e1da57da87efae4b49da9add130f2a2d82b33cdc17c640086e95ccd8/pytest_embedded_idf-1.3.2.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/28/29/0ffde70cea9e90344e4c3c70de95319e3ba87e13e1cb96a9aba80e5d9bbf/Inde_Abbre-0.0.8.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/48/28/b0f69552640430ad5cec9146096d702aa4ebb8380aad8dd529fa5c474c85/pytest_embedded_jtag-1.3.2.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/5e/e6/96cc6b4af39123f0820decb17b208052689586f2f3f55e0f87e9e51685f8/pytest_embedded_qemu-1.3.2.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/7e/c4/823df75ea738f12d9c910c06413281ec98976e5107fe255427835f4f3f79/pytest_embedded_serial-1.3.3.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/a9/87/19a333fa2ab71561e2d6ae5c4fa7c4a4342cf49187e302c32067774a4cf6/pytest_embedded_arduino-1.3.2.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/c4/cd/22d5d7331b1d3cd522632cd91e0434d1ebe6de2bb9074a19dbae073ae3ae/Inde_Abbre-0.1.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/e7/9c/3433272ed7f9602f3b2625ee51b8a5b7bfdee390344b75fcf5ef7b189f4e/pytest_embedded_serial_esp-1.3.3.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial-1.3.2.tar.gz tmp/pytest_embedded_serial-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded-serial/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:21] INFO root fetch - processPackages [Inde-Abbre]: executing diffoscope
+[2023-07-05 03:20:21] INFO root fetch - processPackages [Inde-Abbre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Inde_Abbre-0.0.8.tar.gz tmp/Inde_Abbre-0.1.tar.gz --markdown 20230705/I/Inde-Abbre/0.0.8-0.1/diff.md --exclude *.pyd
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/df/48/dd6b8d0bc14f9e8042ddb2734587e58831413e89fa3b978084071b61076b/pytest_embedded_idf-1.3.3.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_serial_esp-1.3.2.tar.gz tmp/pytest_embedded_serial_esp-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded-serial-esp/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/90/ed/341d303841dc9be3df2d8ca7df9ed1ea5daed870e625277afdeb53f2c99f/pytest_embedded_jtag-1.3.3.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/13/05/0a194a993a8c2a0ac6c2419f3bb0208f183f454c9db641e4fa2febbc0503/pytest_embedded_qemu-1.3.3.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_idf-1.3.2.tar.gz tmp/pytest_embedded_idf-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded-idf/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/bd/4d/30a73ac0d933616596a3421f6b8a4ebf6fbc02c171be793ef71727aa167a/pytest_embedded_arduino-1.3.3.tar.gz
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_jtag-1.3.2.tar.gz tmp/pytest_embedded_jtag-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded-jtag/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2023-07-05 03:20:21] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_qemu-1.3.2.tar.gz tmp/pytest_embedded_qemu-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded-qemu/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_embedded_arduino-1.3.2.tar.gz tmp/pytest_embedded_arduino-1.3.3.tar.gz --markdown 20230705/p/pytest-embedded-arduino/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:20:22] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.0.8.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.1.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - main [MainThread]: End processing [Inde-Abbre]: success
+[2023-07-05 03:20:22] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a4/af/87bb8ee66d4017e2a5b392bea471a2a56897184dc460b5f318865829156e/duckdb-0.8.2.dev161.tar.gz
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.3.2.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.3.3.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.3.2.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.3.3.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.3.2.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.3.3.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.3.2.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.3.3.tar.gz]
+[2023-07-05 03:20:22] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2023-07-05 03:20:23] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 03:20:23] INFO root fetch - processPackages [jijmodeling-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling_transpiler-0.5.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 03:20:23] INFO root fetch - main [MainThread]: End processing [jijmodeling-transpiler]: success
+[2023-07-05 03:20:23] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.3.2.tar.gz]
+[2023-07-05 03:20:23] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.3.3.tar.gz]
+[2023-07-05 03:20:23] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2023-07-05 03:20:23] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.3.2.tar.gz]
+[2023-07-05 03:20:23] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.3.3.tar.gz]
+[2023-07-05 03:20:23] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2023-07-05 03:20:24] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-07-05 03:20:24] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.2.dev157.tar.gz tmp/duckdb-0.8.2.dev161.tar.gz --markdown 20230705/d/duckdb/0.8.2.dev157-0.8.2.dev161/diff.md --exclude *.pyd
+[2023-07-05 03:21:11] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev157.tar.gz]
+[2023-07-05 03:21:11] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev161.tar.gz]
+[2023-07-05 03:21:11] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-07-05 03:21:11] INFO root fetch - main [MainThread]: Store serial: [18761867]
