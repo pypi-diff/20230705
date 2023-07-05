@@ -11135,3 +11135,63 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 09:58:14] INFO root fetch - processPackages [towhee.models]: Remove: archive file [/home/abi/fetcher/tmp/towhee.models-1.1.1-py3-none-any.whl.zip]
 [2023-07-05 09:58:14] INFO root fetch - main [MainThread]: End processing [towhee.models]: success
 [2023-07-05 09:58:14] INFO root fetch - main [MainThread]: Store serial: [18764174]
+[2023-07-05 10:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764174]
+[2023-07-05 10:03:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlint-core
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlint
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PowDevLif
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-xex
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: segment-guard
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tiny-vk
+[2023-07-05 10:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sj-tool
+[2023-07-05 10:03:23] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.7.5.1] Old Version: [2023.6.9.4]
+[2023-07-05 10:03:23] INFO root fetch - processPackages [segment-guard]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 10:03:23] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 10:03:23] INFO root fetch - processPackages [PowDevLif]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 10:03:23] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-07-05 10:03:23] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-05 10:03:23] WARNING root fetch - processPackages [tiny-vk]: Skipping, unable to determine old version
+[2023-07-05 10:03:23] INFO root fetch - main [MainThread]: End processing [tiny-vk] error
+[2023-07-05 10:03:23] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7e/4b/99845d4299aeeb575ce97db43258bdcc83af27bbd5546004f96bd39c2e92/vnpy_xex-2023.6.9.4.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [segment-guard]: Downloading https://files.pythonhosted.org/packages/c3/62/780b8b3c15f3a0d9ee56c481d272a45c0c119d7c557b6012a4232942cb7f/segment-guard-0.0.2.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 10:03:23] INFO root fetch - processPackages [PowDevLif]: Downloading https://files.pythonhosted.org/packages/13/71/60290cff5d95278081cebd528135da1ece09e76555b2ad26da302e4d3618/PowDevLif-0.0.3.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/5b/5a/21a35893dc478dbadf89b2b03261ee5585494ba6e801a8f94c9664f78490/gitlint-0.8.2.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/7a/3f/c11be6426880b469fbe1a3c199b57eee705a7cb7966f301cc09f257733a7/gitlint_core-0.20.0.dev8.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 10:03:23] INFO root fetch - processPackages [segment-guard]: Downloading https://files.pythonhosted.org/packages/7c/cc/b67c5a8c5c82ea59b6467379fada2f5e785a4eb708df77b9b750647e9240/segment-guard-0.0.3.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/4b/02/ba4d813ac0729d1c29475a3705dd25d69b1722ac5a2e90fa68b7165a30a4/vnpy_xex-2023.7.5.1.tar.gz
+[2023-07-05 10:03:23] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 10:03:23] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:03:24] INFO root fetch - processPackages [PowDevLif]: Downloading https://files.pythonhosted.org/packages/9a/2b/c1dc5c7b074337eddb431e7a8721cb195d47064ad96521a41db3d66588ff/PowDevLif-0.0.4.tar.gz
+[2023-07-05 10:03:24] INFO root fetch - processPackages [segment-guard]: executing diffoscope
+[2023-07-05 10:03:24] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-07-05 10:03:24] INFO root fetch - processPackages [segment-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-guard-0.0.2.tar.gz tmp/segment-guard-0.0.3.tar.gz --markdown 20230705/s/segment-guard/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 10:03:24] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.9.4.tar.gz tmp/vnpy_xex-2023.7.5.1.tar.gz --markdown 20230705/v/vnpy-xex/2023.6.9.4-2023.7.5.1/diff.md --exclude *.pyd
+[2023-07-05 10:03:24] INFO root fetch - processPackages [gitlint]: Downloading https://files.pythonhosted.org/packages/d6/f1/3556a8e92846fac5b29b34e3c9c20fb5dcfddbf558227ac15ee4a4e4b06c/gitlint-0.9.0.tar.gz
+[2023-07-05 10:03:24] INFO root fetch - processPackages [gitlint-core]: Downloading https://files.pythonhosted.org/packages/bd/76/20021dcb9ac1f8236b853a783b3b68d9f84ad9527e2fd5c583ef08249923/gitlint_core-0.20.0.dev9.tar.gz
+[2023-07-05 10:03:24] INFO root fetch - processPackages [PowDevLif]: executing diffoscope
+[2023-07-05 10:03:24] INFO root fetch - processPackages [PowDevLif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDevLif-0.0.3.tar.gz tmp/PowDevLif-0.0.4.tar.gz --markdown 20230705/P/PowDevLif/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 10:03:24] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-07-05 10:03:24] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230705/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 10:03:24] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-07-05 10:03:24] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230705/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-07-05 10:03:24] INFO root fetch - processPackages [segment-guard]: Remove: archive file [/home/abi/fetcher/tmp/segment-guard-0.0.2.tar.gz]
+[2023-07-05 10:03:24] INFO root fetch - processPackages [segment-guard]: Remove: archive file [/home/abi/fetcher/tmp/segment-guard-0.0.3.tar.gz]
+[2023-07-05 10:03:24] INFO root fetch - main [MainThread]: End processing [segment-guard]: success
+[2023-07-05 10:03:25] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 10:03:25] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 10:03:25] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 10:03:25] INFO root fetch - processPackages [PowDevLif]: Remove: archive file [/home/abi/fetcher/tmp/PowDevLif-0.0.3.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - processPackages [PowDevLif]: Remove: archive file [/home/abi/fetcher/tmp/PowDevLif-0.0.4.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - main [MainThread]: End processing [PowDevLif]: success
+[2023-07-05 10:03:25] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.9.4.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.7.5.1.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-07-05 10:03:25] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.8.2.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - processPackages [gitlint]: Remove: archive file [/home/abi/fetcher/tmp/gitlint-0.9.0.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-07-05 10:03:25] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev8.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
+[2023-07-05 10:03:25] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-07-05 10:03:25] INFO root fetch - main [MainThread]: Store serial: [18764196]
