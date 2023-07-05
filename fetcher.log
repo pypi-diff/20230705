@@ -7986,3 +7986,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:32:50] WARNING root fetch - processPackages [flet]: Skipping package: exceeds size limit 22680687>=10485760
 [2023-07-05 06:32:50] INFO root fetch - main [MainThread]: End processing [flet] error
 [2023-07-05 06:32:50] INFO root fetch - main [MainThread]: Store serial: [18762868]
+[2023-07-05 06:37:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762868]
+[2023-07-05 06:37:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 06:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-pyodide
+[2023-07-05 06:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-product-pricelist-assortment
+[2023-07-05 06:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appver
+[2023-07-05 06:37:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyQt6-Fluent-Widgets
+[2023-07-05 06:37:59] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-05 06:37:59] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: New version: [14.0.2.2.1.dev1] Old Version: [14.0.2.2.0]
+[2023-07-05 06:38:00] INFO root fetch - processPackages [flet-pyodide]: New version: [0.8.0.dev1601] Old Version: [0.8.0.dev1597]
+[2023-07-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/0b/f0/c33b79d20b59d3ad41943e87c4616cc4610f0962203b7f67aaa78759edd9/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl
+[2023-07-05 06:38:00] WARNING root fetch - processPackages [appver]: Skipping, unable to determine old version
+[2023-07-05 06:38:00] INFO root fetch - main [MainThread]: End processing [appver] error
+[2023-07-05 06:38:00] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c5/a2/5d4f3ecb64b992911d44cbc9a665c5a07c1e1132293b104115fc7bfce74a/PyQt6-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/58/7d/4d8417adb6d16db5e7639bb7ad68a1bb83eeb1d91adf0a6f470cae192f1c/odoo14_addon_product_pricelist_assortment-14.0.2.2.1.dev1-py3-none-any.whl
+[2023-07-05 06:38:00] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/42/24/ca199db8eaae2d2989ac178fdc6fbda2120aca44bd26d63408c57663aacc/flet_pyodide-0.8.0.dev1597.tar.gz
+[2023-07-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: executing diffoscope
+[2023-07-05 06:38:00] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl.zip tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.1.dev1-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-product-pricelist-assortment/14.0.2.2.0-14.0.2.2.1.dev1/diff.md --exclude *.pyd
+[2023-07-05 06:38:00] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/a2/8f/fad09c4c5abfd70f49b8c486053f915234c4beaa9e85c22c37d01b2b7571/flet_pyodide-0.8.0.dev1601.tar.gz
+[2023-07-05 06:38:00] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/35/53/04c3a1f53dc66877ee25e413c1aa50bad44c05f99c916a1571df43833a88/PyQt6-Fluent-Widgets-1.0.0.tar.gz
+[2023-07-05 06:38:00] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2023-07-05 06:38:00] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.0.dev1597.tar.gz tmp/flet_pyodide-0.8.0.dev1601.tar.gz --markdown 20230705/f/flet-pyodide/0.8.0.dev1597-0.8.0.dev1601/diff.md --exclude *.pyd
+[2023-07-05 06:38:01] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-07-05 06:38:01] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz tmp/PyQt6-Fluent-Widgets-1.0.0.tar.gz --markdown 20230705/P/PyQt6-Fluent-Widgets/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.0-py3-none-any.whl.zip]
+[2023-07-05 06:38:01] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.2.1.dev1-py3-none-any.whl.zip]
+[2023-07-05 06:38:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-pricelist-assortment]: success
+[2023-07-05 06:38:01] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1597.tar.gz]
+[2023-07-05 06:38:01] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.0.dev1601.tar.gz]
+[2023-07-05 06:38:01] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2023-07-05 06:38:04] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-05 06:38:04] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.0.tar.gz]
+[2023-07-05 06:38:04] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-07-05 06:38:04] INFO root fetch - main [MainThread]: Store serial: [18762889]
