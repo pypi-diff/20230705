@@ -5343,3 +5343,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:21:11] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev161.tar.gz]
 [2023-07-05 03:21:11] INFO root fetch - main [MainThread]: End processing [duckdb]: success
 [2023-07-05 03:21:11] INFO root fetch - main [MainThread]: Store serial: [18761867]
+[2023-07-05 03:26:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761867]
+[2023-07-05 03:26:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sonicparanoid
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satori-ci
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NikGapps
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-hugo-deploy
+[2023-07-05 03:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: distributions-ex-num0
+[2023-07-05 03:26:20] INFO root fetch - processPackages [NikGapps]: New version: [1.56] Old Version: [1.55]
+[2023-07-05 03:26:20] INFO root fetch - processPackages [yplib]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-05 03:26:20] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-05 03:26:20] INFO root fetch - processPackages [sonicparanoid]: New version: [2.0.5a1] Old Version: [2.0.4]
+[2023-07-05 03:26:20] INFO root fetch - processPackages [yplib]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-05 03:26:20] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:26:20] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/d9/08/d690bacd0d8a7bc39603153c1aa976eabc717c41442f20e9d61a1d6c2bb4/NikGapps-1.55.tar.gz
+[2023-07-05 03:26:20] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-07-05 03:26:20] WARNING root fetch - processPackages [distributions-ex-num0]: Skipping, unable to determine old version
+[2023-07-05 03:26:20] INFO root fetch - main [MainThread]: End processing [distributions-ex-num0] error
+[2023-07-05 03:26:20] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-05 03:26:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c9/cb/f3d901d4dbac1168ae05e8b885a4938105e0fcded4b7049ecaf141ac2e8c/yplib-2.2.2.tar.gz
+[2023-07-05 03:26:20] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564567>=10485760
+[2023-07-05 03:26:20] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-05 03:26:20] INFO root fetch - processPackages [sonicparanoid]: Downloading https://files.pythonhosted.org/packages/42/47/d596f8bf36f2fdece3ac32b0cde5645bf373194a5e69e892269a0c7f58ff/sonicparanoid-2.0.4.tar.gz
+[2023-07-05 03:26:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c9/cb/f3d901d4dbac1168ae05e8b885a4938105e0fcded4b7049ecaf141ac2e8c/yplib-2.2.2.tar.gz
+[2023-07-05 03:26:20] WARNING root fetch - processPackages [sonicparanoid]: Skipping package: exceeds size limit 89284109>=10485760
+[2023-07-05 03:26:20] INFO root fetch - main [MainThread]: End processing [sonicparanoid] error
+[2023-07-05 03:26:20] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-07-05 03:26:20] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-05 03:26:20] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-07-05 03:26:20] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230705/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-05 03:26:20] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-05 03:26:20] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230705/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:26:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/dd/46/073aca3ef67f18349bfe4a25b2e84340f9d45e113231be506d35caf36585/yplib-2.2.3.tar.gz
+[2023-07-05 03:26:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/dd/46/073aca3ef67f18349bfe4a25b2e84340f9d45e113231be506d35caf36585/yplib-2.2.3.tar.gz
+[2023-07-05 03:26:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-05 03:26:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.2.tar.gz tmp/yplib-2.2.3.tar.gz --markdown 20230705/y/yplib/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-05 03:26:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-05 03:26:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.2.tar.gz tmp/yplib-2.2.3.tar.gz --markdown 20230705/y/yplib/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-05 03:26:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-05 03:26:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-05 03:26:21] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-05 03:26:21] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.2.tar.gz]
+[2023-07-05 03:26:21] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.3.tar.gz]
+[2023-07-05 03:26:21] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-05 03:26:21] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-07-05 03:26:21] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-07-05 03:26:21] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-07-05 03:26:21] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-05 03:26:21] INFO root fetch - main [MainThread]: Store serial: [18761889]
