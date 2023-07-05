@@ -21298,3 +21298,107 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:44:29] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.5.tar.gz]
 [2023-07-05 16:44:29] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-07-05 16:44:29] INFO root fetch - main [MainThread]: Store serial: [18768771]
+[2023-07-05 16:49:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768771]
+[2023-07-05 16:49:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xpanse
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flypp
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tarandm-analytics
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autodice
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycrosaccade
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tradingsystems
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flypp
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iformat
+[2023-07-05 16:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytbai
+[2023-07-05 16:49:39] INFO root fetch - processPackages [flypp]: New version: [520] Old Version: [5.2.1.2.2]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [pytbai]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [flypp]: New version: [520] Old Version: [5.2.1.2.2]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [autodice]: New version: [1.0.3.dev2] Old Version: [1.0.2.dev2]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [iformat]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [tradingsystems]: New version: [0.6.3] Old Version: [0.5.9]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/74/28/4b1709088e2179ba30ddf13e15a8145d9625b0ee13b3d4a79f2c8b09aac1/pytbai-1.1.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [pycrosaccade]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [tarandm-analytics]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [xpanse]: New version: [2.0.0rc8] Old Version: [2.0.0rc4]
+[2023-07-05 16:49:39] ERROR root fetch - processPackages [flypp]: Unable to fetch info: No such project/version 'flypp' 5.2.1.2.2
+[2023-07-05 16:49:39] ERROR root fetch - processPackages [flypp]: Unable to fetch info: No such project/version 'flypp' 5.2.1.2.2
+[2023-07-05 16:49:39] INFO root fetch - processPackages [flypp]: Start processing: retake-dev
+[2023-07-05 16:49:39] INFO root fetch - main [MainThread]: End processing [flypp] error
+[2023-07-05 16:49:39] INFO root fetch - processPackages [flypp]: Start processing: orthanc-api-client
+[2023-07-05 16:49:39] INFO root fetch - main [MainThread]: End processing [flypp] error
+[2023-07-05 16:49:39] INFO root fetch - processPackages [retake-dev]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/cb/b2/61566fdce971c4fb5cb50c71033b5b4ae9da0a737a106c15addf20ff8184/iformat-0.2.0.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [autodice]: Downloading https://files.pythonhosted.org/packages/8e/85/e8c32d0458be96983eacf6f708a5ba4fb9c50ee02abc090c209877cd1c9f/autodice-1.0.2.dev2.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [orthanc-api-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 16:49:39] INFO root fetch - processPackages [tarandm-analytics]: Downloading https://files.pythonhosted.org/packages/3c/70/6e8185cfcfe1e9c15adb55377bd2fbe8510bf0006a9970e293fde3b5f470/tarandm_analytics-0.0.4.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [retake-dev]: Downloading https://files.pythonhosted.org/packages/46/8b/58c7b1c0dd88b7e8fe5e712b936fa4b96ee3aeb44dc7a98049ac2fad2099/retake_dev-0.0.4.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [pycrosaccade]: Downloading https://files.pythonhosted.org/packages/6f/00/5ee035f3726637d6373be1aff262093c5eb3ffdd028b1492d79abdd7386f/pycrosaccade-0.4.2.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [tradingsystems]: Downloading https://files.pythonhosted.org/packages/8d/29/e29e12dc8b203e784532800776737d8df9d42f98e999ac85a4e9b7866f43/tradingsystems-0.5.9-py3-none-any.whl
+[2023-07-05 16:49:39] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/b6/0a/e1d4e9aa931bba946ef70c8b85b5f0a74c98024fe1a3ea7703cf7e1bf9de/xpanse-2.0.0rc4.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-05 16:49:39] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/6a/e3/f64b164b602fab97572e8ba56c867b7f678a7724a9dc85a64e9ec7b4fecf/pytbai-1.1.1.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.1.tar.gz tmp/pytbai-1.1.1.tar.gz --markdown 20230705/p/pytbai/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/64/27/b22f2dc1f3139b2d207a9ccb06a282fe6d02c41bb45c145e18c54325292e/iformat-0.2.1.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [orthanc-api-client]: Downloading https://files.pythonhosted.org/packages/d3/bb/5e4faf3e3a5f69003789d5b91a42a13657767f8431b010a7ac293ad91b7d/orthanc_api_client-0.9.0.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [autodice]: Downloading https://files.pythonhosted.org/packages/cf/f0/8cbdcf1d703aab834f20e1e5d735e87c1448a5527cb8edef9ac7eafaa62a/autodice-1.0.3.dev2.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [tarandm-analytics]: Downloading https://files.pythonhosted.org/packages/3d/d9/42d61f8a5c1f19d1cd54fea3f8882ec226a7a3ef1e90d6152bc887303478/tarandm_analytics-0.0.5.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [tradingsystems]: Downloading https://files.pythonhosted.org/packages/95/59/6b57af8533fb114741e89b556d37dbe99db0c7a300961db5c19f096fc722/tradingsystems-0.6.3-py3-none-any.whl
+[2023-07-05 16:49:40] INFO root fetch - processPackages [iformat]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [iformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iformat-0.2.0.tar.gz tmp/iformat-0.2.1.tar.gz --markdown 20230705/i/iformat/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [autodice]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [autodice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodice-1.0.2.dev2.tar.gz tmp/autodice-1.0.3.dev2.tar.gz --markdown 20230705/a/autodice/1.0.2.dev2-1.0.3.dev2/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [xpanse]: Downloading https://files.pythonhosted.org/packages/13/33/b76b0f0525f6ff00e5e173b48f0e0841e77d95f1ec357ffe2efe3c6ab4a5/xpanse-2.0.0rc8.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [retake-dev]: Downloading https://files.pythonhosted.org/packages/f8/06/ce56d42260a406e67072a1cb4381ad685f016e1fb5e21b7581bc34b686c6/retake_dev-0.0.5.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [tarandm-analytics]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [tarandm-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarandm_analytics-0.0.4.tar.gz tmp/tarandm_analytics-0.0.5.tar.gz --markdown 20230705/t/tarandm-analytics/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [tradingsystems]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [tradingsystems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingsystems-0.5.9-py3-none-any.whl.zip tmp/tradingsystems-0.6.3-py3-none-any.whl.zip --markdown 20230705/t/tradingsystems/0.5.9-0.6.3/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [retake-dev]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [retake-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retake_dev-0.0.4.tar.gz tmp/retake_dev-0.0.5.tar.gz --markdown 20230705/r/retake-dev/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [xpanse]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [xpanse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpanse-2.0.0rc4.tar.gz tmp/xpanse-2.0.0rc8.tar.gz --markdown 20230705/x/xpanse/2.0.0rc4-2.0.0rc8/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [orthanc-api-client]: Downloading https://files.pythonhosted.org/packages/a6/4e/712c36ab021efbd300d80d5b8bb2e343f1bd39b61e3d0cfcd9634e6e0db2/orthanc_api_client-0.9.1.tar.gz
+[2023-07-05 16:49:40] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230705/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-05 16:49:40] INFO root fetch - processPackages [orthanc-api-client]: executing diffoscope
+[2023-07-05 16:49:40] INFO root fetch - processPackages [orthanc-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthanc_api_client-0.9.0.tar.gz tmp/orthanc_api_client-0.9.1.tar.gz --markdown 20230705/o/orthanc-api-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 16:49:41] INFO root fetch - processPackages [pycrosaccade]: Downloading https://files.pythonhosted.org/packages/77/06/ce81550312ce52696012fd719764208f755e7e16b19cc7bdace3b6083150/pycrosaccade-0.5.0.tar.gz
+[2023-07-05 16:49:41] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.1.tar.gz]
+[2023-07-05 16:49:41] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.1.1.tar.gz]
+[2023-07-05 16:49:41] INFO root fetch - processPackages [pytbai]: Start processing: zibanu-django-auth
+[2023-07-05 16:49:41] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2023-07-05 16:49:41] WARNING root fetch - processPackages [zibanu-django-auth]: Skipping, unable to determine old version
+[2023-07-05 16:49:41] INFO root fetch - main [MainThread]: End processing [zibanu-django-auth] error
+[2023-07-05 16:49:41] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.2.0.tar.gz]
+[2023-07-05 16:49:41] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.2.1.tar.gz]
+[2023-07-05 16:49:41] INFO root fetch - main [MainThread]: End processing [iformat]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [pycrosaccade]: executing diffoscope
+[2023-07-05 16:49:42] INFO root fetch - processPackages [pycrosaccade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrosaccade-0.4.2.tar.gz tmp/pycrosaccade-0.5.0.tar.gz --markdown 20230705/p/pycrosaccade/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 16:49:42] INFO root fetch - processPackages [autodice]: Remove: archive file [/home/abi/fetcher/tmp/autodice-1.0.2.dev2.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [autodice]: Remove: archive file [/home/abi/fetcher/tmp/autodice-1.0.3.dev2.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [autodice]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [tarandm-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tarandm_analytics-0.0.4.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [tarandm-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tarandm_analytics-0.0.5.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [tarandm-analytics]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [tradingsystems]: Remove: archive file [/home/abi/fetcher/tmp/tradingsystems-0.5.9-py3-none-any.whl.zip]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [tradingsystems]: Remove: archive file [/home/abi/fetcher/tmp/tradingsystems-0.6.3-py3-none-any.whl.zip]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [tradingsystems]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [xpanse]: Remove: archive file [/home/abi/fetcher/tmp/xpanse-2.0.0rc4.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [xpanse]: Remove: archive file [/home/abi/fetcher/tmp/xpanse-2.0.0rc8.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [xpanse]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [retake-dev]: Remove: archive file [/home/abi/fetcher/tmp/retake_dev-0.0.4.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [retake-dev]: Remove: archive file [/home/abi/fetcher/tmp/retake_dev-0.0.5.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [retake-dev]: success
+[2023-07-05 16:49:42] INFO root fetch - processPackages [orthanc-api-client]: Remove: archive file [/home/abi/fetcher/tmp/orthanc_api_client-0.9.0.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - processPackages [orthanc-api-client]: Remove: archive file [/home/abi/fetcher/tmp/orthanc_api_client-0.9.1.tar.gz]
+[2023-07-05 16:49:42] INFO root fetch - main [MainThread]: End processing [orthanc-api-client]: success
+[2023-07-05 16:49:45] INFO root fetch - processPackages [pycrosaccade]: Remove: archive file [/home/abi/fetcher/tmp/pycrosaccade-0.4.2.tar.gz]
+[2023-07-05 16:49:45] INFO root fetch - processPackages [pycrosaccade]: Remove: archive file [/home/abi/fetcher/tmp/pycrosaccade-0.5.0.tar.gz]
+[2023-07-05 16:49:45] INFO root fetch - main [MainThread]: End processing [pycrosaccade]: success
+[2023-07-05 16:49:45] INFO root fetch - main [MainThread]: Store serial: [18768815]
