@@ -5627,3 +5627,100 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:42:37] INFO root fetch - processPackages [raydp]: Remove: archive file [/home/abi/fetcher/tmp/raydp-1.6.0b20230705.dev0-py3-none-any.whl.zip]
 [2023-07-05 03:42:37] INFO root fetch - main [MainThread]: End processing [raydp]: success
 [2023-07-05 03:42:37] INFO root fetch - main [MainThread]: Store serial: [18761970]
+[2023-07-05 03:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761970]
+[2023-07-05 03:47:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piperider
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hive-builder
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioregistry
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proactive
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: json-feeder
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Inde-Abbre
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sonicparanoid
+[2023-07-05 03:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive-jupyter-kernel
+[2023-07-05 03:47:47] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:47:47] WARNING root fetch - processPackages [json-feeder]: Skipping, unable to determine old version
+[2023-07-05 03:47:47] INFO root fetch - processPackages [json-feeder]: Start processing: nbdev-apl
+[2023-07-05 03:47:47] INFO root fetch - main [MainThread]: End processing [json-feeder] error
+[2023-07-05 03:47:47] INFO root fetch - processPackages [hive-builder]: New version: [3.6.8] Old Version: [3.6.7]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [Inde-Abbre]: New version: [0.1] Old Version: [0.0.9]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [sonicparanoid]: New version: [2.0.5a2] Old Version: [2.0.5a1]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.875] Old Version: [0.0.874]
+[2023-07-05 03:47:47] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-05 03:47:47] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-05 03:47:47] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-05 03:47:47] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-05 03:47:47] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/43/f3/5951ee218a910f336823b439fe60bfc45265ffa93fd6183eaaa882393063/nbdev-apl-0.0.874.tar.gz
+[2023-07-05 03:47:47] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/d6/7a/b16cd8acd4b431a10feea083d4bbaaaac79ec336d0bfd48112e5978c253a/Inde_Abbre-0.0.9-py3-none-any.whl
+[2023-07-05 03:47:47] INFO root fetch - processPackages [hive-builder]: Downloading https://files.pythonhosted.org/packages/19/1d/1ef3eef1233e1da492bb1c257ed7a9c926804312f87bcb1b3e6999c3519b/hive_builder-3.6.7.tar.gz
+[2023-07-05 03:47:47] INFO root fetch - processPackages [sonicparanoid]: Downloading https://files.pythonhosted.org/packages/ea/d1/20edfd6b74e3ac2aaf974f0f9ae013406f4c3b6fc65e5d8900d10cb155fe/sonicparanoid-2.0.5a1.tar.gz
+[2023-07-05 03:47:47] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-05 03:47:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-05 03:47:47] WARNING root fetch - processPackages [sonicparanoid]: Skipping package: exceeds size limit 89284166>=10485760
+[2023-07-05 03:47:47] INFO root fetch - processPackages [sonicparanoid]: Start processing: scotthsieh-projen-statemachine
+[2023-07-05 03:47:47] INFO root fetch - main [MainThread]: End processing [sonicparanoid] error
+[2023-07-05 03:47:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 03:47:48] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [Inde-Abbre]: Downloading https://files.pythonhosted.org/packages/c4/cd/22d5d7331b1d3cd522632cd91e0434d1ebe6de2bb9074a19dbae073ae3ae/Inde_Abbre-0.1.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-05 03:47:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/99/88/1f96696ed8d210541037fc6c33980d12e3082ad8a7fdbceb4c9713e3e44d/nbdev-apl-0.0.875.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [hive-builder]: Downloading https://files.pythonhosted.org/packages/b0/ff/64a97caad64e9afb93c77533c95cec146a0801e6a52a12ba3316d66c99f1/hive_builder-3.6.8.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [Inde-Abbre]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [Inde-Abbre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Inde_Abbre-0.0.9-py3-none-any.whl.zip tmp/Inde_Abbre-0.1.tar.gz --markdown 20230705/I/Inde-Abbre/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-07-05 03:47:48] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230705/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:47:48] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-05 03:47:48] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-05 03:47:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230705/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-05 03:47:48] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.874.tar.gz tmp/nbdev-apl-0.0.875.tar.gz --markdown 20230705/n/nbdev-apl/0.0.874-0.0.875/diff.md --exclude *.pyd
+[2023-07-05 03:47:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [hive-builder]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [hive-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hive_builder-3.6.7.tar.gz tmp/hive_builder-3.6.8.tar.gz --markdown 20230705/h/hive-builder/3.6.7-3.6.8/diff.md --exclude *.pyd
+[2023-07-05 03:47:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-05 03:47:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230705/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:47:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-05 03:47:48] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230705/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:47:49] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.0.9-py3-none-any.whl.zip]
+[2023-07-05 03:47:49] INFO root fetch - processPackages [Inde-Abbre]: Remove: archive file [/home/abi/fetcher/tmp/Inde_Abbre-0.1.tar.gz]
+[2023-07-05 03:47:49] INFO root fetch - main [MainThread]: End processing [Inde-Abbre]: success
+[2023-07-05 03:47:49] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-05 03:47:49] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-05 03:47:49] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230705/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 03:47:49] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-05 03:47:49] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-05 03:47:49] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-05 03:47:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-05 03:47:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-05 03:47:49] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-05 03:47:49] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.874.tar.gz]
+[2023-07-05 03:47:49] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.875.tar.gz]
+[2023-07-05 03:47:49] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-05 03:47:50] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-05 03:47:50] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-05 03:47:50] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-05 03:47:50] INFO root fetch - processPackages [hive-builder]: Remove: archive file [/home/abi/fetcher/tmp/hive_builder-3.6.7.tar.gz]
+[2023-07-05 03:47:50] INFO root fetch - processPackages [hive-builder]: Remove: archive file [/home/abi/fetcher/tmp/hive_builder-3.6.8.tar.gz]
+[2023-07-05 03:47:50] INFO root fetch - main [MainThread]: End processing [hive-builder]: success
+[2023-07-05 03:47:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-05 03:47:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-05 03:47:50] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-05 03:47:50] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-05 03:47:50] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230705/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-05 03:47:52] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-05 03:47:52] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-05 03:47:52] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-05 03:49:44] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-05 03:49:44] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-05 03:49:44] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-05 03:49:44] INFO root fetch - main [MainThread]: Store serial: [18762011]
