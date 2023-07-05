@@ -6541,3 +6541,104 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:13:33] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-05 05:13:33] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-05 05:13:33] INFO root fetch - main [MainThread]: Store serial: [18762390]
+[2023-07-05 05:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762390]
+[2023-07-05 05:18:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asmek-authcogs
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inhandtest
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-supporter
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-role
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-airticketopen
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsi-tk
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarms
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai2-kit
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wibuapi
+[2023-07-05 05:18:43] INFO root fetch - processPackages [qsi-tk]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [swarms]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [inhandtest]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [python-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [wibuapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.474.0]
+[2023-07-05 05:18:43] INFO root fetch - processPackages [qsi-tk]: Downloading https://files.pythonhosted.org/packages/48/43/aab210d12f680c20a841f7b471cb11711ad0affae50ffff5148ea0e6231a/qsi-tk-0.6.0.tar.gz
+[2023-07-05 05:18:43] WARNING root fetch - processPackages [asmek-authcogs]: Skipping, unable to determine old version
+[2023-07-05 05:18:43] INFO root fetch - processPackages [asmek-authcogs]: Start processing: stigg-api-client-v2
+[2023-07-05 05:18:43] INFO root fetch - main [MainThread]: End processing [asmek-authcogs] error
+[2023-07-05 05:18:43] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/b4/c6/81b12aeecddc1d7a2115d9bdcde08dc5b0a09e766e5c9b321e506ebee4dc/swarms-0.5.2.tar.gz
+[2023-07-05 05:18:43] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-05 05:18:43] WARNING root fetch - processPackages [qsi-tk]: Skipping package: exceeds size limit 58248265>=10485760
+[2023-07-05 05:18:43] INFO root fetch - processPackages [qsi-tk]: Start processing: mercury-sync
+[2023-07-05 05:18:43] INFO root fetch - main [MainThread]: End processing [qsi-tk] error
+[2023-07-05 05:18:44] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/3a/42/f19526b16ed1a03adff78bfa137dc4a2476b8157df658a3161ef8608abe4/aliyun-python-sdk-airticketopen-2.0.1.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.474.0] Old Version: [0.471.0]
+[2023-07-05 05:18:44] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/fc/cf/1116b9da73ceecaa25991c6dcb6820a4f77d808268b0b487ca0f118160dc/inhandtest-0.0.58.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/18/16344be6fd7013060b7e74f0204fe19336c3f51f1bad01e50f6eaaa60624/stigg_api_client-0.474.0.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 05:18:44] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/7b/6f/98c23a37675c8704d9b0b2bb757ff68a237bf1233e54456d2f47b8f60fc5/python-supporter-0.0.8.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [wibuapi]: Downloading https://files.pythonhosted.org/packages/c7/f5/a82441298c3b238b0e296e856ef10c12db07cd28ba51b90a4b47a72c8e52/wibuapi-0.1.2.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a4/cf/6685c130c968cec84df8f1cd2e439443139f779d676cbb898f1e1a1356f3/swarms-0.5.3.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/1b/47/c05caa2d0df65fb85978a672ba095dfd6fe7fcdfe1cfbda6c61c5d26294d/stigg_api_client_v2-0.471.0.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230705/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:18:44] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/2b/8e/1a8a80f37b4aca7eb998f559fb2a30733c40cb5f939b9bf14d125bee22ae/aliyun-python-sdk-airticketopen-2.0.2.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.2.tar.gz tmp/swarms-0.5.3.tar.gz --markdown 20230705/s/swarms/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-05 05:18:44] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/9e/c3/f261c299c111c035046ed38419f44a28a7fbeb492267d7b28aa7a9b13298/inhandtest-0.0.59.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [wibuapi]: Downloading https://files.pythonhosted.org/packages/a0/34/d4565dcac69b7bf22ee059f6bb3c5c995bec9f11ca32fdce0225e5bd4f4d/wibuapi-0.1.3.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/46/5a/b86299eadff25b47d4094f9437467e39ed8b1b422fdc8c0b0bfcd6f5770e/python-supporter-0.0.9.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-2.0.1.tar.gz tmp/aliyun-python-sdk-airticketopen-2.0.2.tar.gz --markdown 20230705/a/aliyun-python-sdk-airticketopen/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/45/df/8bb424225c18f79ca6d667b0ebb8e44b221e67d93739a8a8478e142f5c1a/stigg_api_client_v2-0.474.0.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [python-supporter]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [python-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-supporter-0.0.8.tar.gz tmp/python-supporter-0.0.9.tar.gz --markdown 20230705/p/python-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:18:44] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-05 05:18:44] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.58.tar.gz tmp/inhandtest-0.0.59.tar.gz --markdown 20230705/i/inhandtest/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.474.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230705/s/stigg-api-client/0.474.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 05:18:44] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-05 05:18:44] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230705/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 05:18:45] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-05 05:18:45] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230705/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 05:18:45] INFO root fetch - processPackages [wibuapi]: executing diffoscope
+[2023-07-05 05:18:45] INFO root fetch - processPackages [wibuapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wibuapi-0.1.2.tar.gz tmp/wibuapi-0.1.3.tar.gz --markdown 20230705/w/wibuapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-05 05:18:45] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-05 05:18:45] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.471.0.tar.gz tmp/stigg_api_client_v2-0.474.0.tar.gz --markdown 20230705/s/stigg-api-client-v2/0.471.0-0.474.0/diff.md --exclude *.pyd
+[2023-07-05 05:18:45] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-05 05:18:45] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-05 05:18:45] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.2.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.3.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-airticketopen-2.0.1.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-airticketopen-2.0.2.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.8.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.9.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [python-supporter]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.474.0.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [wibuapi]: Remove: archive file [/home/abi/fetcher/tmp/wibuapi-0.1.2.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [wibuapi]: Remove: archive file [/home/abi/fetcher/tmp/wibuapi-0.1.3.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [wibuapi]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.58.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.59.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-07-05 05:18:46] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.471.0.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.474.0.tar.gz]
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-05 05:18:46] INFO root fetch - main [MainThread]: Store serial: [18762437]
