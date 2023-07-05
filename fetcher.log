@@ -19821,3 +19821,99 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:50:12] INFO root fetch - processPackages [academic-tracker]: Remove: archive file [/home/abi/fetcher/tmp/academic_tracker-1.0.4.tar.gz]
 [2023-07-05 15:50:12] INFO root fetch - main [MainThread]: End processing [academic-tracker]: success
 [2023-07-05 15:50:12] INFO root fetch - main [MainThread]: Store serial: [18768136]
+[2023-07-05 15:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768136]
+[2023-07-05 15:55:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scvi-tools
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fragmenstein
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyfred
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylzy
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meow-base
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cameo-youtube-transcript
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gcrnet
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cPredictor
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itea
+[2023-07-05 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-request-filters
+[2023-07-05 15:55:21] INFO root fetch - processPackages [meow-base]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 15:55:21] WARNING root fetch - processPackages [cPredictor]: Skipping, unable to determine old version
+[2023-07-05 15:55:21] INFO root fetch - processPackages [cPredictor]: Start processing: tensordict-nightly
+[2023-07-05 15:55:21] INFO root fetch - main [MainThread]: End processing [cPredictor] error
+[2023-07-05 15:55:21] INFO root fetch - processPackages [pylzy]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-07-05 15:55:21] INFO root fetch - processPackages [meow-base]: Downloading https://files.pythonhosted.org/packages/cd/42/2ad9e5a0860268ed8a21d1b2612b855afdcde95589e5221d19aa52c6050f/meow_base-1.0.1.tar.gz
+[2023-07-05 15:55:21] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 15:55:21] WARNING root fetch - processPackages [cameo-youtube-transcript]: Skipping, unable to determine old version
+[2023-07-05 15:55:21] INFO root fetch - processPackages [cameo-youtube-transcript]: Start processing: pydantic-loggings
+[2023-07-05 15:55:21] INFO root fetch - main [MainThread]: End processing [cameo-youtube-transcript] error
+[2023-07-05 15:55:21] INFO root fetch - processPackages [itea]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-05 15:55:21] WARNING root fetch - processPackages [easyfred]: Skipping, unable to determine old version
+[2023-07-05 15:55:21] INFO root fetch - processPackages [easyfred]: Start processing: mkdocs-pdf
+[2023-07-05 15:55:21] INFO root fetch - main [MainThread]: End processing [easyfred] error
+[2023-07-05 15:55:21] INFO root fetch - processPackages [gcrnet]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-05 15:55:21] INFO root fetch - processPackages [Fragmenstein]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 15:55:21] INFO root fetch - processPackages [django-request-filters]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 15:55:21] INFO root fetch - processPackages [scvi-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 15:55:22] INFO root fetch - processPackages [pydantic-loggings]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/42/48/7f18c701073795582bb6556b228615252eac736a98629f7ab348ae4bbfff/tensordict_nightly-2023.7.3-cp39-cp39-win_amd64.whl
+[2023-07-05 15:55:22] INFO root fetch - processPackages [pylzy]: Downloading https://files.pythonhosted.org/packages/85/a9/f7ae477ce387d12ae5c7171f93549cb39537b378b122f941f6e3af454f04/pylzy-1.8.7.tar.gz
+[2023-07-05 15:55:22] WARNING root fetch - processPackages [mkdocs-pdf]: Skipping, unable to determine old version
+[2023-07-05 15:55:22] INFO root fetch - main [MainThread]: End processing [mkdocs-pdf] error
+[2023-07-05 15:55:22] INFO root fetch - processPackages [gcrnet]: Downloading https://files.pythonhosted.org/packages/94/fb/31e23879ed602f6f901b184c83524d16b239e02b5e7bea223f3935addb17/gcrnet-1.0.2.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [itea]: Downloading https://files.pythonhosted.org/packages/78/ac/f1690b72d88b71fd248311e2dc963e914ed26db9265bf7bcd9432cdecddc/itea-1.1.1.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [django-request-filters]: Downloading https://files.pythonhosted.org/packages/86/ac/01af46bbc79d21375c50ee5d3395ec716144736b4e764d72596a23302323/django_request_filters-0.0.1.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [scvi-tools]: Downloading https://files.pythonhosted.org/packages/87/96/2d8813cccada71b24bf3df85a968de2e91a90049e44a8144942ac7f40893/scvi_tools-1.0.1.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/0b/a4/e04b08babef0f3451bb90c887398610b7d4708a622bbe7261a90ced49075/Fragmenstein-0.9.8.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/6a/34/b1af92289b1bb1134c7a9a367f5771ead38ee6bcf760e88cac3603fa2702/pydantic-loggings-0.8.0.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [meow-base]: Downloading https://files.pythonhosted.org/packages/7c/a6/326d2311dc5bf43f277973aa2ddc46c9d7d2d5af6342830de31efe36e03d/meow_base-1.0.2.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/9a/02/2aaa77ccf8fa694adc346e50f7f37f10a0af706b1a61fd64d1966fc81393/tensordict_nightly-2023.7.4-cp39-cp39-win_amd64.whl
+[2023-07-05 15:55:22] INFO root fetch - processPackages [meow-base]: executing diffoscope
+[2023-07-05 15:55:22] INFO root fetch - processPackages [meow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow_base-1.0.1.tar.gz tmp/meow_base-1.0.2.tar.gz --markdown 20230705/m/meow-base/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-05 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.3-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.4-cp39-cp39-win_amd64.whl.zip --markdown 20230705/t/tensordict-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 15:55:22] INFO root fetch - processPackages [django-request-filters]: Downloading https://files.pythonhosted.org/packages/d9/c6/4a55b1b104b6256ecff2d8e259df61e27e50bc2b87307132134ef73c469e/django_request_filters-0.0.2.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [gcrnet]: Downloading https://files.pythonhosted.org/packages/7f/bd/1e94b1722f8048b65465375e990a3be0111f7b9fdc01a33ac0f04de82b44/gcrnet-1.0.3.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [pylzy]: Downloading https://files.pythonhosted.org/packages/6a/26/099424d7eb3ceb726822ee60735b10fb154893dadba69851842ced7cbb0c/pylzy-1.8.8.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [itea]: Downloading https://files.pythonhosted.org/packages/74/07/84aeebb7614a8de1fe1f66799f60a8640867cb45523e0466253c34fcfc05/itea-1.1.2.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [pydantic-loggings]: Downloading https://files.pythonhosted.org/packages/ab/c8/085b6ffd91326548ba3b355e72cc410286860516c34310924a6182dab40b/pydantic-loggings-0.9.0.tar.gz
+[2023-07-05 15:55:22] INFO root fetch - processPackages [Fragmenstein]: Downloading https://files.pythonhosted.org/packages/a8/d1/92821094f67e3e54cb4100ad5d2af3885b2d5fe6173dbdffc5619b1790ff/Fragmenstein-0.9.9.tar.gz
+[2023-07-05 15:55:23] INFO root fetch - processPackages [django-request-filters]: executing diffoscope
+[2023-07-05 15:55:23] INFO root fetch - processPackages [django-request-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_request_filters-0.0.1.tar.gz tmp/django_request_filters-0.0.2.tar.gz --markdown 20230705/d/django-request-filters/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 15:55:23] INFO root fetch - processPackages [pydantic-loggings]: executing diffoscope
+[2023-07-05 15:55:23] INFO root fetch - processPackages [pydantic-loggings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-loggings-0.8.0.tar.gz tmp/pydantic-loggings-0.9.0.tar.gz --markdown 20230705/p/pydantic-loggings/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 15:55:23] INFO root fetch - processPackages [gcrnet]: executing diffoscope
+[2023-07-05 15:55:23] INFO root fetch - processPackages [gcrnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcrnet-1.0.2.tar.gz tmp/gcrnet-1.0.3.tar.gz --markdown 20230705/g/gcrnet/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-05 15:55:23] INFO root fetch - processPackages [pylzy]: executing diffoscope
+[2023-07-05 15:55:23] INFO root fetch - processPackages [pylzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylzy-1.8.7.tar.gz tmp/pylzy-1.8.8.tar.gz --markdown 20230705/p/pylzy/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-07-05 15:55:23] INFO root fetch - processPackages [itea]: executing diffoscope
+[2023-07-05 15:55:23] INFO root fetch - processPackages [itea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itea-1.1.1.tar.gz tmp/itea-1.1.2.tar.gz --markdown 20230705/i/itea/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-05 15:55:23] INFO root fetch - processPackages [scvi-tools]: Downloading https://files.pythonhosted.org/packages/5f/98/c4893f97056cc19f5deab51c9ab0111b34d9a5caa2a229dafcb204ec42f4/scvi_tools-1.0.2.tar.gz
+[2023-07-05 15:55:23] INFO root fetch - processPackages [Fragmenstein]: executing diffoscope
+[2023-07-05 15:55:23] INFO root fetch - processPackages [Fragmenstein]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fragmenstein-0.9.8.tar.gz tmp/Fragmenstein-0.9.9.tar.gz --markdown 20230705/F/Fragmenstein/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 15:55:23] INFO root fetch - processPackages [meow-base]: Remove: archive file [/home/abi/fetcher/tmp/meow_base-1.0.1.tar.gz]
+[2023-07-05 15:55:23] INFO root fetch - processPackages [meow-base]: Remove: archive file [/home/abi/fetcher/tmp/meow_base-1.0.2.tar.gz]
+[2023-07-05 15:55:23] INFO root fetch - main [MainThread]: End processing [meow-base]: success
+[2023-07-05 15:55:24] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 15:55:24] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 15:55:24] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-05 15:55:24] INFO root fetch - processPackages [django-request-filters]: Remove: archive file [/home/abi/fetcher/tmp/django_request_filters-0.0.1.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - processPackages [django-request-filters]: Remove: archive file [/home/abi/fetcher/tmp/django_request_filters-0.0.2.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - processPackages [gcrnet]: Remove: archive file [/home/abi/fetcher/tmp/gcrnet-1.0.2.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - main [MainThread]: End processing [django-request-filters]: success
+[2023-07-05 15:55:24] INFO root fetch - processPackages [gcrnet]: Remove: archive file [/home/abi/fetcher/tmp/gcrnet-1.0.3.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - main [MainThread]: End processing [gcrnet]: success
+[2023-07-05 15:55:24] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.8.0.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - processPackages [pydantic-loggings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-loggings-0.9.0.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - main [MainThread]: End processing [pydantic-loggings]: success
+[2023-07-05 15:55:24] INFO root fetch - processPackages [itea]: Remove: archive file [/home/abi/fetcher/tmp/itea-1.1.1.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - processPackages [itea]: Remove: archive file [/home/abi/fetcher/tmp/itea-1.1.2.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - main [MainThread]: End processing [itea]: success
+[2023-07-05 15:55:24] INFO root fetch - processPackages [scvi-tools]: executing diffoscope
+[2023-07-05 15:55:24] INFO root fetch - processPackages [scvi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scvi_tools-1.0.1.tar.gz tmp/scvi_tools-1.0.2.tar.gz --markdown 20230705/s/scvi-tools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 15:55:24] INFO root fetch - processPackages [pylzy]: Remove: archive file [/home/abi/fetcher/tmp/pylzy-1.8.7.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - processPackages [pylzy]: Remove: archive file [/home/abi/fetcher/tmp/pylzy-1.8.8.tar.gz]
+[2023-07-05 15:55:24] INFO root fetch - main [MainThread]: End processing [pylzy]: success
+[2023-07-05 15:55:27] INFO root fetch - processPackages [scvi-tools]: Remove: archive file [/home/abi/fetcher/tmp/scvi_tools-1.0.1.tar.gz]
+[2023-07-05 15:55:27] INFO root fetch - processPackages [scvi-tools]: Remove: archive file [/home/abi/fetcher/tmp/scvi_tools-1.0.2.tar.gz]
+[2023-07-05 15:55:27] INFO root fetch - main [MainThread]: End processing [scvi-tools]: success
+[2023-07-05 15:55:27] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.8.tar.gz]
+[2023-07-05 15:55:27] INFO root fetch - processPackages [Fragmenstein]: Remove: archive file [/home/abi/fetcher/tmp/Fragmenstein-0.9.9.tar.gz]
+[2023-07-05 15:55:27] INFO root fetch - main [MainThread]: End processing [Fragmenstein]: success
+[2023-07-05 15:55:27] INFO root fetch - main [MainThread]: Store serial: [18768189]
