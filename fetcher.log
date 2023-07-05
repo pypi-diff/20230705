@@ -19643,3 +19643,181 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:44:47] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.4.4b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-05 15:44:47] INFO root fetch - main [MainThread]: End processing [sf-heu]: success
 [2023-07-05 15:44:47] INFO root fetch - main [MainThread]: Store serial: [18768054]
+[2023-07-05 15:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768054]
+[2023-07-05 15:50:05] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wakaranai
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowtask
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siat
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rkvst-archivist
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelDrivenRpa
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bombaysoftwares-pysupp
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuflow-rest
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kuflow-robotframework
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kuflow-temporal-common
+[2023-07-05 15:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuflow-temporal-activity-kuflow
+[2023-07-05 15:50:05] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [siat]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [bombaysoftwares-pysupp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [kuflow-temporal-common]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [modelDrivenRpa]: New version: [1.9] Old Version: [1.8]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [kuflow-robotframework]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [kuflow-rest]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [wakaranai]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [rkvst-archivist]: New version: [0.24.1] Old Version: [0.24.0]
+[2023-07-05 15:50:05] INFO root fetch - processPackages [wakaranai]: Downloading https://files.pythonhosted.org/packages/75/dd/d765d18f673f3b4c7a1944800177ff67d6df1047cb7f5ece7b05110aa5c1/wakaranai-0.0.1rc1.tar.gz
+[2023-07-05 15:50:05] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/b6/09/f334c5428bb792114c21fa2625e90ee1407ce509204ec184bcfb7ab1b48e/siat-2.2.4-py3-none-any.whl
+[2023-07-05 15:50:05] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Downloading https://files.pythonhosted.org/packages/8b/93/69b793c97bb74592bfc6093c4d5450c94d8cfd9435d10f613318bcd857c3/bombaysoftwares-pysupp-1.0.0.tar.gz
+[2023-07-05 15:50:05] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/80/72/c2bf1317df5338759c4e2d218317faa3a7427c590bfd1a2bd761f15aa382/modelDrivenRpa-1.8.tar.gz
+[2023-07-05 15:50:05] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/7d/51/43da29e394c56e30a7ceab7b1029a475f29547856e88a236045748d3c9a0/kuflow_temporal_common-0.8.0.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/54/1f/ef549820a11178d03f65d7db74e2156125a31fb8a207f987281fec7acbfe/kuflow_temporal_activity_kuflow-0.8.0.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/1e/6c/712e48e1c989841fce119327c78b8e6f5f4b0ad68320b2f8de583cce2788/kuflow_rest-0.8.0.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/bf/79/701491bf5dbb09bdf2fdc49216fe495c0e1207183926d78eb7caf335ce27/kuflow_robotframework-0.8.0.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/5f/ad/8650efe48c8fcc9520cfcf073ce045ac24053e2777a96e19d8e0c97db446/rkvst-archivist-0.24.0.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [wakaranai]: Downloading https://files.pythonhosted.org/packages/a5/b3/49df4d60829cdb437716d465919be9dfe73eda9d75844c3a2051c25f604f/wakaranai-0.0.1rc2.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [wakaranai]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [wakaranai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakaranai-0.0.1rc1.tar.gz tmp/wakaranai-0.0.1rc2.tar.gz --markdown 20230705/w/wakaranai/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Downloading https://files.pythonhosted.org/packages/75/8f/cf6fbb5db4fb5bee781435a835ffde2824ad394b9da4dc8f3e09fed11e5f/bombaysoftwares-pysupp-1.0.1.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/00/68/6d5a1ba52a77289f55218d5785dd2abba8de20dffdad70ceafeb1e8d06b8/modelDrivenRpa-1.9.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-common]: Downloading https://files.pythonhosted.org/packages/83/d6/05d97e5d0ebdf50018f1545d5854a16e77fec74fbd455e845e1cb4005b84/kuflow_temporal_common-0.8.1.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Downloading https://files.pythonhosted.org/packages/15/37/824c3a423bdf0d096536d9296a83d4a1ea3863679e5009142005aa5c8438/kuflow_temporal_activity_kuflow-0.8.1.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [bombaysoftwares-pysupp]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [bombaysoftwares-pysupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bombaysoftwares-pysupp-1.0.0.tar.gz tmp/bombaysoftwares-pysupp-1.0.1.tar.gz --markdown 20230705/b/bombaysoftwares-pysupp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-robotframework]: Downloading https://files.pythonhosted.org/packages/28/49/1b21e0072512cbaa4c7de48a91fc55125f6e51ce2d6bcf6ef43476901682/kuflow_robotframework-0.8.1.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [modelDrivenRpa]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [modelDrivenRpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelDrivenRpa-1.8.tar.gz tmp/modelDrivenRpa-1.9.tar.gz --markdown 20230705/m/modelDrivenRpa/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/bf/e2/29a6d66e77b253906c5524614925f3ab60c0c61b3e73b69c1a977b6e0fe1/siat-2.2.5-py3-none-any.whl
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-rest]: Downloading https://files.pythonhosted.org/packages/52/88/ab2ae0566d23b4eba12ceb93fb4f3290b23b6f53d18cb62cb348b6bb400f/kuflow_rest-0.8.1.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/71/f4/58542e1569977d62548a4d7a4056fc29a802225f8df093cd5abf66719c57/rkvst-archivist-0.24.1.tar.gz
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-common]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_common-0.8.0.tar.gz tmp/kuflow_temporal_common-0.8.1.tar.gz --markdown 20230705/k/kuflow-temporal-common/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_kuflow-0.8.0.tar.gz tmp/kuflow_temporal_activity_kuflow-0.8.1.tar.gz --markdown 20230705/k/kuflow-temporal-activity-kuflow/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-robotframework]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_robotframework-0.8.0.tar.gz tmp/kuflow_robotframework-0.8.1.tar.gz --markdown 20230705/k/kuflow-robotframework/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [rkvst-archivist]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [rkvst-archivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rkvst-archivist-0.24.0.tar.gz tmp/rkvst-archivist-0.24.1.tar.gz --markdown 20230705/r/rkvst-archivist/0.24.0-0.24.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-rest]: executing diffoscope
+[2023-07-05 15:50:06] INFO root fetch - processPackages [kuflow-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_rest-0.8.0.tar.gz tmp/kuflow_rest-0.8.1.tar.gz --markdown 20230705/k/kuflow-rest/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:07] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-05 15:50:07] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.2.4-py3-none-any.whl.zip tmp/siat-2.2.5-py3-none-any.whl.zip --markdown 20230705/s/siat/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-07-05 15:50:07] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-07-05 15:50:07] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-07-05 15:50:07] INFO root fetch - processPackages [wakaranai]: Remove: archive file [/home/abi/fetcher/tmp/wakaranai-0.0.1rc1.tar.gz]
+[2023-07-05 15:50:07] INFO root fetch - processPackages [wakaranai]: Remove: archive file [/home/abi/fetcher/tmp/wakaranai-0.0.1rc2.tar.gz]
+[2023-07-05 15:50:07] INFO root fetch - processPackages [wakaranai]: Start processing: kuflow-temporal-activity-robotframework
+[2023-07-05 15:50:07] INFO root fetch - main [MainThread]: End processing [wakaranai]: success
+[2023-07-05 15:50:07] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-05 15:50:07] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/86/62/8d055de5228b9a90140a8e5aca53547fa27b621cea7733feebbec25859e2/kuflow_temporal_activity_robotframework-0.8.0.tar.gz
+[2023-07-05 15:50:07] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Remove: archive file [/home/abi/fetcher/tmp/bombaysoftwares-pysupp-1.0.0.tar.gz]
+[2023-07-05 15:50:07] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Remove: archive file [/home/abi/fetcher/tmp/bombaysoftwares-pysupp-1.0.1.tar.gz]
+[2023-07-05 15:50:07] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Start processing: arraylib-solve
+[2023-07-05 15:50:07] INFO root fetch - main [MainThread]: End processing [bombaysoftwares-pysupp]: success
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/54/a8/3ce0db62e41731b9c9bc19b0b253b6db4486b7a766443276c20c5d0f00d5/arraylib_solve-0.8.0.tar.gz
+[2023-07-05 15:50:08] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.8.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.9.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [modelDrivenRpa]: Start processing: tf-nightly-intel
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [modelDrivenRpa]: success
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Downloading https://files.pythonhosted.org/packages/b6/d1/7ddd223fde436733a8c9d0581bc597a8873dde12fc9cc46b88e0cbeaa319/kuflow_temporal_activity_robotframework-0.8.1.tar.gz
+[2023-07-05 15:50:08] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230704] Old Version: [2.14.0.dev20230703]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.8.0.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-common]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_common-0.8.1.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-common]: Start processing: arraylib-solve
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-common]: success
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: executing diffoscope
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuflow_temporal_activity_robotframework-0.8.0.tar.gz tmp/kuflow_temporal_activity_robotframework-0.8.1.tar.gz --markdown 20230705/k/kuflow-temporal-activity-robotframework/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.8.0.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_kuflow-0.8.1.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-temporal-activity-kuflow]: Start processing: invenio-subjects-fast
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-kuflow]: success
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.8.0.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_robotframework-0.8.1.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [kuflow-robotframework]: Start processing: mypylib
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [kuflow-robotframework]: success
+[2023-07-05 15:50:08] WARNING root fetch - processPackages [invenio-subjects-fast]: Skipping, unable to determine old version
+[2023-07-05 15:50:08] INFO root fetch - processPackages [invenio-subjects-fast]: Start processing: ai-aside
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [invenio-subjects-fast] error
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230705/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 15:50:08] INFO root fetch - processPackages [mypylib]: New version: [0.1.78] Old Version: [0.1.77]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/56/10/341a570f59fc10b8e1b5fde18969425ede095939a20c9cd5f9a7dfe01d11/tf_nightly_intel-2.14.0.dev20230703-cp39-cp39-win_amd64.whl
+[2023-07-05 15:50:08] INFO root fetch - processPackages [rkvst-archivist]: Remove: archive file [/home/abi/fetcher/tmp/rkvst-archivist-0.24.0.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [rkvst-archivist]: Remove: archive file [/home/abi/fetcher/tmp/rkvst-archivist-0.24.1.tar.gz]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [rkvst-archivist]: Start processing: micrOSDevToolKit
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [rkvst-archivist]: success
+[2023-07-05 15:50:08] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 183421915>=10485760
+[2023-07-05 15:50:08] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: catencfamily
+[2023-07-05 15:50:08] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-05 15:50:08] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.8] Old Version: [1.17.7]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-07-05 15:50:08] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230705/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 15:50:08] INFO root fetch - processPackages [ai-aside]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-05 15:50:08] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/16/b7/0e28937f9eeb89ab7987ecc00e8e1f5ee9364f6b4fd280e30c5834497e6b/mypylib-0.1.77.tar.gz
+[2023-07-05 15:50:08] INFO root fetch - processPackages [catencfamily]: New version: [0.0.84] Old Version: [0.0.82]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/a7/d2/c985abe966d3b9405056ffd1291c820a6a5f1a52934f76071e441aa5348c/micrOSDevToolKit-1.17.8.tar.gz
+[2023-07-05 15:50:09] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/02/bc/99c5c6575aa4cc357e2e1c4ed214dfa79b4e76d07ac90af36bd967d5057e/ai-aside-2.0.1.tar.gz
+[2023-07-05 15:50:09] WARNING root fetch - processPackages [micrOSDevToolKit]: Skipping package: exceeds size limit 90163272>=10485760
+[2023-07-05 15:50:09] INFO root fetch - processPackages [micrOSDevToolKit]: Start processing: kuscia
+[2023-07-05 15:50:09] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit] error
+[2023-07-05 15:50:09] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/94/cc/dd01e9528666067934f80d0962906a8f1fbb6eb405c89609b48a101739fe/catencfamily-0.0.82.tar.gz
+[2023-07-05 15:50:09] WARNING root fetch - processPackages [kuscia]: Skipping, unable to determine old version
+[2023-07-05 15:50:09] INFO root fetch - processPackages [kuscia]: Start processing: academic-tracker
+[2023-07-05 15:50:09] INFO root fetch - main [MainThread]: End processing [kuscia] error
+[2023-07-05 15:50:09] INFO root fetch - processPackages [academic-tracker]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/44/69/6764cd3910a108a91e209b1833ec9ba44b893b5745e8366f051363d3dc9c/mypylib-0.1.78.tar.gz
+[2023-07-05 15:50:09] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/f9/55/aa942df8dce5501d2786f46d1f1a65435d5c8059d4fb8e9393101f62aa0f/ai-aside-2.0.2.tar.gz
+[2023-07-05 15:50:09] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.8.0.tar.gz]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [kuflow-rest]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_rest-0.8.1.tar.gz]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [kuflow-rest]: Start processing: xfem
+[2023-07-05 15:50:09] INFO root fetch - main [MainThread]: End processing [kuflow-rest]: success
+[2023-07-05 15:50:09] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/e0/07/d5922b552d783547fa26aba248e463f968f70f5de693ef6dc351cc3e117e/catencfamily-0.0.84.tar.gz
+[2023-07-05 15:50:09] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.2.4-py3-none-any.whl.zip]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.2.5-py3-none-any.whl.zip]
+[2023-07-05 15:50:09] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-05 15:50:09] INFO root fetch - processPackages [xfem]: New version: [2.1.2301.post9.dev0] Old Version: [2.1.2301.post7.dev0]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [ai-aside]: executing diffoscope
+[2023-07-05 15:50:09] INFO root fetch - processPackages [ai-aside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-aside-2.0.1.tar.gz tmp/ai-aside-2.0.2.tar.gz --markdown 20230705/a/ai-aside/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-05 15:50:09] INFO root fetch - processPackages [academic-tracker]: Downloading https://files.pythonhosted.org/packages/7e/7b/8a8297b31ad89feb108278555e2c7edf0396606ad0023d8f9f746c8e9ab7/academic_tracker-1.0.3.tar.gz
+[2023-07-05 15:50:09] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-07-05 15:50:09] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.77.tar.gz tmp/mypylib-0.1.78.tar.gz --markdown 20230705/m/mypylib/0.1.77-0.1.78/diff.md --exclude *.pyd
+[2023-07-05 15:50:09] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-07-05 15:50:09] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.82.tar.gz tmp/catencfamily-0.0.84.tar.gz --markdown 20230705/c/catencfamily/0.0.82-0.0.84/diff.md --exclude *.pyd
+[2023-07-05 15:50:09] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.8.0.tar.gz]
+[2023-07-05 15:50:09] INFO root fetch - processPackages [kuflow-temporal-activity-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/kuflow_temporal_activity_robotframework-0.8.1.tar.gz]
+[2023-07-05 15:50:09] INFO root fetch - main [MainThread]: End processing [kuflow-temporal-activity-robotframework]: success
+[2023-07-05 15:50:09] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/6c/ac/b2e821c11e85f5a9ee51d81a8b5dbd03891fbc3a2d12e1f67586d6b0e3fd/xfem-2.1.2301.post7.dev0.tar.gz
+[2023-07-05 15:50:10] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.8.0.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.9.0.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-07-05 15:50:10] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-07-05 15:50:10] INFO root fetch - processPackages [academic-tracker]: Downloading https://files.pythonhosted.org/packages/01/90/dfd8cda26fded7a33102c2497407ae4c7067bda01fd00c5ee80630ec63b4/academic_tracker-1.0.4.tar.gz
+[2023-07-05 15:50:10] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:50:10] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:50:10] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-07-05 15:50:10] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/41/1b/0e5a5617abb1f47c109eb969790cb98a988ac58980d39d4426283662f654/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 15:50:10] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-05 15:50:10] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2301.post7.dev0.tar.gz tmp/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/x/xfem/2.1.2301.post7.dev0-2.1.2301.post9.dev0/diff.md --exclude *.pyd
+[2023-07-05 15:50:10] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-2.0.1.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-2.0.2.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - main [MainThread]: End processing [ai-aside]: success
+[2023-07-05 15:50:10] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.1.77.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.1.78.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-07-05 15:50:10] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.82.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.84.tar.gz]
+[2023-07-05 15:50:10] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-07-05 15:50:10] INFO root fetch - processPackages [academic-tracker]: executing diffoscope
+[2023-07-05 15:50:10] INFO root fetch - processPackages [academic-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/academic_tracker-1.0.3.tar.gz tmp/academic_tracker-1.0.4.tar.gz --markdown 20230705/a/academic-tracker/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-05 15:50:11] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2301.post7.dev0.tar.gz]
+[2023-07-05 15:50:11] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:50:11] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-05 15:50:12] INFO root fetch - processPackages [academic-tracker]: Remove: archive file [/home/abi/fetcher/tmp/academic_tracker-1.0.3.tar.gz]
+[2023-07-05 15:50:12] INFO root fetch - processPackages [academic-tracker]: Remove: archive file [/home/abi/fetcher/tmp/academic_tracker-1.0.4.tar.gz]
+[2023-07-05 15:50:12] INFO root fetch - main [MainThread]: End processing [academic-tracker]: success
+[2023-07-05 15:50:12] INFO root fetch - main [MainThread]: Store serial: [18768136]
