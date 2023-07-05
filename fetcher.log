@@ -10570,3 +10570,90 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 09:26:19] INFO root fetch - processPackages [pbumongo]: Remove: archive file [/home/abi/fetcher/tmp/pbumongo-1.1.0.tar.gz]
 [2023-07-05 09:26:19] INFO root fetch - main [MainThread]: End processing [pbumongo]: success
 [2023-07-05 09:26:19] INFO root fetch - main [MainThread]: Store serial: [18763893]
+[2023-07-05 09:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763893]
+[2023-07-05 09:31:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-hr-attendance-report-theoretical-time
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunyata
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-hr-employee-calendar-planning
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icinga-pusher
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazyearth
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lamindb
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdshoplib
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepab-pytorch
+[2023-07-05 09:31:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-clickzetta
+[2023-07-05 09:31:28] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [icinga-pusher]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [gdshoplib]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: New version: [14.0.1.0.5.dev1] Old Version: [14.0.1.0.4]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [sunyata]: New version: [0.0.40] Old Version: [0.0.39]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: New version: [14.0.1.6.1.dev2] Old Version: [14.0.1.6.1.dev1]
+[2023-07-05 09:31:28] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 09:31:28] WARNING root fetch - processPackages [deepab-pytorch]: Skipping, unable to determine old version
+[2023-07-05 09:31:28] INFO root fetch - main [MainThread]: End processing [deepab-pytorch] error
+[2023-07-05 09:31:28] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-07-05 09:31:28] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/73/0b/7f0c190c94d6d643bd6926117358a01049ebdfb799d6b257c6ea1e1753bc/gdshoplib-1.8.0.tar.gz
+[2023-07-05 09:31:28] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: Downloading https://files.pythonhosted.org/packages/2f/a7/f47ece38260848f8ed81088cd86fa70617ef656bd4115c551767c6c6724a/odoo14_addon_hr_attendance_report_theoretical_time-14.0.1.0.4-py3-none-any.whl
+[2023-07-05 09:31:28] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/00/4d/02676459b3bcbf303da98f1ec9a63ff2f93169f2e9a16795ab0d0f3b4b82/icinga_pusher-0.1.3.tar.gz
+[2023-07-05 09:31:28] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 09:31:28] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/c7/a8/e1e7de9e62c035527046b08a224e69ea4d8fdbf2d592da8fb1373843cdb7/sunyata-0.0.39.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/3f/4d/69cf4adabcb3bd2ef40c5ce15b995a2144a58e43b373865f97ac69e80203/odoo14_addon_hr_employee_calendar_planning-14.0.1.6.1.dev1-py3-none-any.whl
+[2023-07-05 09:31:29] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/48/91/d657572826a5d41e3284ecce0fb4393bf35e0c761799a04d0d8397113ce7/gdshoplib-1.9.0.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: Downloading https://files.pythonhosted.org/packages/c8/36/71eaf00457b5f17d4cf75fa6433ad3ee507ffba5b3de01339de8e71a2470/odoo14_addon_hr_attendance_report_theoretical_time-14.0.1.0.5.dev1-py3-none-any.whl
+[2023-07-05 09:31:29] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 09:31:29] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/7d/19/b2050d674a36b1969b214d3a61833b3bb87b899e6a2824737692e8c4f508/icinga_pusher-0.1.4.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-1.8.0.tar.gz tmp/gdshoplib-1.9.0.tar.gz --markdown 20230705/g/gdshoplib/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230705/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [sunyata]: Downloading https://files.pythonhosted.org/packages/d6/66/9703da38cab484b66bfe9ea5e9f416b57dc26f0da24f920387087b166b40/sunyata-0.0.40.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_report_theoretical_time-14.0.1.0.4-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_report_theoretical_time-14.0.1.0.5.dev1-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-hr-attendance-report-theoretical-time/14.0.1.0.4-14.0.1.0.5.dev1/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [icinga-pusher]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [icinga-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icinga_pusher-0.1.3.tar.gz tmp/icinga_pusher-0.1.4.tar.gz --markdown 20230705/i/icinga-pusher/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/5e/ff/ff251decc383a7aa9720984b17ed5a1e68aaf96ef5141125f42c9e96695e/odoo14_addon_hr_employee_calendar_planning-14.0.1.6.1.dev2-py3-none-any.whl
+[2023-07-05 09:31:29] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-05 09:31:29] INFO root fetch - processPackages [sunyata]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [sunyata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunyata-0.0.39.tar.gz tmp/sunyata-0.0.40.tar.gz --markdown 20230705/s/sunyata/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.6.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.6.1.dev2-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-hr-employee-calendar-planning/14.0.1.6.1.dev1-14.0.1.6.1.dev2/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230705/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-05 09:31:29] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230705/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-05 09:31:30] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-07-05 09:31:30] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-07-05 09:31:30] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.8.0.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-1.9.0.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_report_theoretical_time-14.0.1.0.4-py3-none-any.whl.zip]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [odoo14-addon-hr-attendance-report-theoretical-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_attendance_report_theoretical_time-14.0.1.0.5.dev1-py3-none-any.whl.zip]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.6.1.dev1-py3-none-any.whl.zip]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [odoo14-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_employee_calendar_planning-14.0.1.6.1.dev2-py3-none-any.whl.zip]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-report-theoretical-time]: success
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-employee-calendar-planning]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.3.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.4.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [icinga-pusher]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.39.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [sunyata]: Remove: archive file [/home/abi/fetcher/tmp/sunyata-0.0.40.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [sunyata]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-05 09:31:31] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-05 09:31:31] INFO root fetch - main [MainThread]: Store serial: [18763920]
