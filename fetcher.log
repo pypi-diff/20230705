@@ -5518,3 +5518,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:36:45] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.5.4.tar.gz]
 [2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [geoinsight]: success
 [2023-07-05 03:36:45] INFO root fetch - main [MainThread]: Store serial: [18761937]
+[2023-07-05 03:41:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761937]
+[2023-07-05 03:41:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bose
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: innerverz
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innerverz
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CamoTSS
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphractal
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-jbank
+[2023-07-05 03:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raydp
+[2023-07-05 03:41:54] INFO root fetch - processPackages [innerverz]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230705.dev0] Old Version: [1.6.0b20230704.dev0]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [innerverz]: New version: [0.0.33] Old Version: [0.0.32]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [bose]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [CamoTSS]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [django-jbank]: New version: [4.2.9] Old Version: [4.2.8]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [sphractal]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:41:54] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/f9/b6/35a70108d60ac8b3e7cb2fd0346e7abf36bdc31f58b3c13265109959a700/django-jbank-4.2.8.tar.gz
+[2023-07-05 03:41:54] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/b5/ae/6e5aa5c0f94abe0607b35775bf6604224b06b058fd414a7e768493ebd777/raydp-1.6.0b20230704.dev0-py3-none-any.whl
+[2023-07-05 03:41:54] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-05 03:41:54] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/2a/1b/dc7922f020d388de911a82a9e36672d8bbcdfdf6de938ec92e6afa6ec86e/innerverz-0.0.32-py3-none-any.whl
+[2023-07-05 03:41:54] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-05 03:41:54] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/2a/1b/dc7922f020d388de911a82a9e36672d8bbcdfdf6de938ec92e6afa6ec86e/innerverz-0.0.32-py3-none-any.whl
+[2023-07-05 03:41:54] INFO root fetch - processPackages [CamoTSS]: Downloading https://files.pythonhosted.org/packages/bf/89/5dd692a70a948fc379fceaa5d9be9ba2675acd517eac70dd6c7dd34c2939/CamoTSS-0.1.5.tar.gz
+[2023-07-05 03:41:54] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/ff/b0/2ffb36389cb03f66bc0eb1c373182174c09d4f3666ea92433af3f1c87b21/bose-2.0.2.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/b1/67/c97046df3eec91be774666d1dde457dcd247d08b31705f0217ebaadd091e/sphractal-0.7.0.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/6d/5c/abfdbfa113d2298322f9c60a30b1d405a90b4414f99159e4fdde200c63b7/innerverz-0.0.33.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/6d/5c/abfdbfa113d2298322f9c60a30b1d405a90b4414f99159e4fdde200c63b7/innerverz-0.0.33.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230705/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/09/69/3d90355d584b683be9cd50a87a6eef88b0dd35343c97bbd5a099f0b56d82/django-jbank-4.2.9.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/97/ae/a4142e7d70f4214e63b3a2d5f6fdfe1fc37101f4c8bb2974f0c98a72a523/bose-2.0.3.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230705/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230705/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/9b/a0/f62e233e61fed7e1419be160cdeec3f5ec6155446130154ee518629199ff/sphractal-0.7.1.tar.gz
+[2023-07-05 03:41:55] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.32-py3-none-any.whl.zip tmp/innerverz-0.0.33.tar.gz --markdown 20230705/i/innerverz/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.32-py3-none-any.whl.zip tmp/innerverz-0.0.33.tar.gz --markdown 20230705/i/innerverz/0.0.32-0.0.33/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.2.8.tar.gz tmp/django-jbank-4.2.9.tar.gz --markdown 20230705/d/django-jbank/4.2.8-4.2.9/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-2.0.2.tar.gz tmp/bose-2.0.3.tar.gz --markdown 20230705/b/bose/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 03:41:55] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/78/3b/319eca60ac4cad1417533d549aeda34631a3942d779babead5c8b86a6527/raydp-1.6.0b20230705.dev0-py3-none-any.whl
+[2023-07-05 03:41:55] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-05 03:41:55] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.7.0.tar.gz tmp/sphractal-0.7.1.tar.gz --markdown 20230705/s/sphractal/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-05 03:41:56] INFO root fetch - processPackages [CamoTSS]: Downloading https://files.pythonhosted.org/packages/e4/0d/a4a29abf3d38b5ad2258032ceec0fbbe3d86dc6a245ef8bcda51975aa785/CamoTSS-0.1.6.tar.gz
+[2023-07-05 03:41:56] INFO root fetch - processPackages [CamoTSS]: executing diffoscope
+[2023-07-05 03:41:56] INFO root fetch - processPackages [CamoTSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CamoTSS-0.1.5.tar.gz tmp/CamoTSS-0.1.6.tar.gz --markdown 20230705/C/CamoTSS/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-pandas]: Start processing: nbdev-sphinx
+[2023-07-05 03:41:56] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: pythermalcomfort
+[2023-07-05 03:41:56] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-05 03:41:56] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:41:56] INFO root fetch - processPackages [pythermalcomfort]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-05 03:41:57] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-05 03:41:57] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.32-py3-none-any.whl.zip]
+[2023-07-05 03:41:57] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.33.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 03:41:57] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-05 03:41:57] INFO root fetch - processPackages [raydp]: executing diffoscope
+[2023-07-05 03:41:57] INFO root fetch - processPackages [raydp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raydp-1.6.0b20230704.dev0-py3-none-any.whl.zip tmp/raydp-1.6.0b20230705.dev0-py3-none-any.whl.zip --markdown 20230705/r/raydp/1.6.0b20230704.dev0-1.6.0b20230705.dev0/diff.md --exclude *.pyd
+[2023-07-05 03:41:57] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 03:41:57] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.2.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.3.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-07-05 03:41:57] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.7.0.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.7.1.tar.gz]
+[2023-07-05 03:41:57] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-05 03:41:57] INFO root fetch - processPackages [pythermalcomfort]: Downloading https://files.pythonhosted.org/packages/26/65/78526fdf5de9c0d3ff0d6bcbc3e846be3036aa373e5a51b90ae38cde15da/pythermalcomfort-2.8.0.tar.gz
+[2023-07-05 03:41:57] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-05 03:41:57] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-05 03:41:57] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230705/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:41:57] INFO root fetch - processPackages [pythermalcomfort]: Downloading https://files.pythonhosted.org/packages/24/81/ee5b109aa2037c9b127a8533769bd1aa527f6ef14e47fc507eccc2bef95a/pythermalcomfort-2.8.1.tar.gz
+[2023-07-05 03:41:57] INFO root fetch - processPackages [pythermalcomfort]: executing diffoscope
+[2023-07-05 03:41:57] INFO root fetch - processPackages [pythermalcomfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythermalcomfort-2.8.0.tar.gz tmp/pythermalcomfort-2.8.1.tar.gz --markdown 20230705/p/pythermalcomfort/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-05 03:41:58] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-05 03:41:58] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-05 03:41:58] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-05 03:41:58] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.2.8.tar.gz]
+[2023-07-05 03:41:58] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.2.9.tar.gz]
+[2023-07-05 03:41:58] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2023-07-05 03:41:58] INFO root fetch - processPackages [pythermalcomfort]: Remove: archive file [/home/abi/fetcher/tmp/pythermalcomfort-2.8.0.tar.gz]
+[2023-07-05 03:41:58] INFO root fetch - processPackages [pythermalcomfort]: Remove: archive file [/home/abi/fetcher/tmp/pythermalcomfort-2.8.1.tar.gz]
+[2023-07-05 03:41:58] INFO root fetch - main [MainThread]: End processing [pythermalcomfort]: success
+[2023-07-05 03:41:59] INFO root fetch - processPackages [CamoTSS]: Remove: archive file [/home/abi/fetcher/tmp/CamoTSS-0.1.5.tar.gz]
+[2023-07-05 03:41:59] INFO root fetch - processPackages [CamoTSS]: Remove: archive file [/home/abi/fetcher/tmp/CamoTSS-0.1.6.tar.gz]
+[2023-07-05 03:41:59] INFO root fetch - main [MainThread]: End processing [CamoTSS]: success
+[2023-07-05 03:42:37] INFO root fetch - processPackages [raydp]: Remove: archive file [/home/abi/fetcher/tmp/raydp-1.6.0b20230704.dev0-py3-none-any.whl.zip]
+[2023-07-05 03:42:37] INFO root fetch - processPackages [raydp]: Remove: archive file [/home/abi/fetcher/tmp/raydp-1.6.0b20230705.dev0-py3-none-any.whl.zip]
+[2023-07-05 03:42:37] INFO root fetch - main [MainThread]: End processing [raydp]: success
+[2023-07-05 03:42:37] INFO root fetch - main [MainThread]: Store serial: [18761970]
