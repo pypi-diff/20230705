@@ -18420,3 +18420,173 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:06:27] INFO root fetch - processPackages [molcas-suite]: Remove: archive file [/home/abi/fetcher/tmp/molcas_suite-1.24.0.tar.gz]
 [2023-07-05 15:06:27] INFO root fetch - main [MainThread]: End processing [molcas-suite]: success
 [2023-07-05 15:06:27] INFO root fetch - main [MainThread]: Store serial: [18767445]
+[2023-07-05 15:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767445]
+[2023-07-05 15:11:36] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: planetary-computer
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.target
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hops
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calib3d
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RobotFramework-Examples
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-sites
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fwdviewpy
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KwoksTool
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bluecellulab
+[2023-07-05 15:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-sql-explorer-squad
+[2023-07-05 15:11:36] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [planetary-computer]: New version: [1.0.0] Old Version: [0.5.1]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [django-sql-explorer-squad]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [edc-sites]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [RobotFramework-Examples]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [calib3d]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-05 15:11:36] INFO root fetch - processPackages [bluecellulab]: New version: [1.1.0] Old Version: [1.0.3.dev1]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [hops]: New version: [3.3.0.0] Old Version: [3.2.0.0]
+[2023-07-05 15:11:36] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/c4/7c/7c6641de3f8d32e914211a3a41561b1d5e50f551060088d882899c2f9d2d/KwoksTool-0.0.4.tar.gz
+[2023-07-05 15:11:36] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-05 15:11:36] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/6c/d2/0971f47310f1e86111203d2b71e42e2b45e7f8545d3e4b302c358963aaf6/edc-sites-0.3.8.tar.gz
+[2023-07-05 15:11:36] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/fe/ca/8756ef0fa56692e67885372fd845194eb022ac0162f66c40a7b4fae8c60d/django_sql_explorer_squad-0.9.5-py3-none-any.whl
+[2023-07-05 15:11:36] INFO root fetch - processPackages [planetary-computer]: Downloading https://files.pythonhosted.org/packages/23/ce/b44f744e3a822efacd0a970d599ef6d7827a9f094c670dd56ced5a157d32/planetary-computer-0.5.1.tar.gz
+[2023-07-05 15:11:37] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-05 15:11:37] INFO root fetch - processPackages [dissect.target]: Start processing: vban-cmd
+[2023-07-05 15:11:37] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-05 15:11:37] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/78/a2/e7808fd7831039f805b08ecb7a95957d9d4324e52a81a365d202158a9171/bluecellulab-1.0.3.dev1.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [RobotFramework-Examples]: Downloading https://files.pythonhosted.org/packages/a1/5b/c5ea6647965a73e65da52e9083b1d960f5f82545212605242fb969355a09/RobotFramework-Examples-0.2.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [calib3d]: Downloading https://files.pythonhosted.org/packages/54/58/29de543d8eb45f833bdb2d9dd4db2eb1b5b4a444e7da2d391125f1321c6c/calib3d-2.9.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [vban-cmd]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-05 15:11:37] INFO root fetch - processPackages [hops]: Downloading https://files.pythonhosted.org/packages/a5/a3/b7db2fae427b776b35026b2811dca39dd5fdba871bc066b04d7d8c309322/hops-3.2.0.0.tar.gz
+[2023-07-05 15:11:37] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 13626238>=10485760
+[2023-07-05 15:11:37] INFO root fetch - processPackages [bluecellulab]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-05 15:11:37] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2023-07-05 15:11:37] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/3f/43/a49b6ccbad7f1420873fb98fadf39004bc944da811769b1dc85a106d6c1b/KwoksTool-0.0.5.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/e8/4e/b59d68bf8819bac57d73b58eaa231815d10f9f5985bdccac9fb0b618a807/vban-cmd-2.0.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/93/47/2d0fe4fb111586f78d184cca78fdb1a6d3b4edda0ca7b0d1b76cb2c2af13/edc-sites-0.3.9.tar.gz
+[2023-07-05 15:11:37] ERROR root fetch - processPackages [django-sql-explorer-squad]: Unable to fetch info: No such project/version 'django-sql-explorer-squad' 0.9.6
+[2023-07-05 15:11:37] INFO root fetch - processPackages [django-sql-explorer-squad]: Start processing: asimov
+[2023-07-05 15:11:37] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad] error
+[2023-07-05 15:11:37] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-05 15:11:37] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230705/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:11:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-05 15:11:37] INFO root fetch - processPackages [planetary-computer]: Downloading https://files.pythonhosted.org/packages/9b/d3/ccfb0e823e9beb72b7e6b749f0985c4db1530d4e4a145b1b5d12f5de417e/planetary-computer-1.0.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [asimov]: New version: [0.6.0b1] Old Version: [0.6.0a3]
+[2023-07-05 15:11:37] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-05 15:11:37] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.4.tar.gz tmp/KwoksTool-0.0.5.tar.gz --markdown 20230705/K/KwoksTool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 15:11:37] INFO root fetch - processPackages [edc-sites]: executing diffoscope
+[2023-07-05 15:11:37] INFO root fetch - processPackages [edc-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-sites-0.3.8.tar.gz tmp/edc-sites-0.3.9.tar.gz --markdown 20230705/e/edc-sites/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 15:11:37] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/c5/b9/5ed11d50773c8edea30493d6b28e0727d3b2730a9801e5192ea1fc1ab5e1/asimov-0.6.0a3-py2.py3-none-any.whl
+[2023-07-05 15:11:37] INFO root fetch - processPackages [planetary-computer]: executing diffoscope
+[2023-07-05 15:11:37] INFO root fetch - processPackages [planetary-computer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetary-computer-0.5.1.tar.gz tmp/planetary-computer-1.0.0.tar.gz --markdown 20230705/p/planetary-computer/0.5.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 15:11:37] INFO root fetch - processPackages [RobotFramework-Examples]: Downloading https://files.pythonhosted.org/packages/e3/82/cacb4b012854d29b17e45b1c67714dad38d0f8c38dcbb3649041133d960c/RobotFramework-Examples-1.0.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [calib3d]: Downloading https://files.pythonhosted.org/packages/84/89/85b94183a03d9dd4f2e289681a1e18d4c96c2460c3111486d2f624b59865/calib3d-2.9.1.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/16/aa/755037493fcc2dd6f489b8a742e0580879fd8090f4aeeb32913bd36c5557/vban_cmd-2.1.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [hops]: Downloading https://files.pythonhosted.org/packages/8a/3f/d8dac0f1a64a14224e6838804e6457e6ea03cfa97f3e3dcb9865a1ccf2d5/hops-3.3.0.0.tar.gz
+[2023-07-05 15:11:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/93/5d/2128df0be5a0bf13d88789ee731550c4e5879bfc380fb50b914ec3209dfb/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 15:11:37] INFO root fetch - processPackages [RobotFramework-Examples]: executing diffoscope
+[2023-07-05 15:11:37] INFO root fetch - processPackages [RobotFramework-Examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobotFramework-Examples-0.2.0.tar.gz tmp/RobotFramework-Examples-1.0.0.tar.gz --markdown 20230705/R/RobotFramework-Examples/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 15:11:37] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-07-05 15:11:37] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban-cmd-2.0.0.tar.gz tmp/vban_cmd-2.1.0.tar.gz --markdown 20230705/v/vban-cmd/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-05 15:11:37] INFO root fetch - processPackages [calib3d]: executing diffoscope
+[2023-07-05 15:11:38] INFO root fetch - processPackages [calib3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calib3d-2.9.0.tar.gz tmp/calib3d-2.9.1.tar.gz --markdown 20230705/c/calib3d/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-05 15:11:38] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/98/95/6194570aceb799c702604b49d3327fe07f33cf20485affb63f840be8a89d/asimov-0.6.0b1-py2.py3-none-any.whl
+[2023-07-05 15:11:38] INFO root fetch - processPackages [hops]: executing diffoscope
+[2023-07-05 15:11:38] INFO root fetch - processPackages [hops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hops-3.2.0.0.tar.gz tmp/hops-3.3.0.0.tar.gz --markdown 20230705/h/hops/3.2.0.0-3.3.0.0/diff.md --exclude *.pyd
+[2023-07-05 15:11:38] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-07-05 15:11:38] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip --markdown 20230705/a/asimov/0.6.0a3-0.6.0b1/diff.md --exclude *.pyd
+[2023-07-05 15:11:38] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4d/a9/f033c72d4dee898f2e7fac1f9442b75889d5306a3575f30e5f9b93e93f2f/fbgemm_gpu_nightly_cpu-2023.7.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 15:11:38] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-05 15:11:38] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-05 15:11:38] INFO root fetch - processPackages [fwdviewpy]: Start processing: widelearning
+[2023-07-05 15:11:38] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-05 15:11:38] INFO root fetch - processPackages [widelearning]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-05 15:11:38] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.4.tar.gz]
+[2023-07-05 15:11:38] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.5.tar.gz]
+[2023-07-05 15:11:38] INFO root fetch - processPackages [KwoksTool]: Start processing: astro-ghost
+[2023-07-05 15:11:38] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [astro-ghost]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.8.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.9.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [edc-sites]: Start processing: qtaf
+[2023-07-05 15:11:39] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [widelearning]: Downloading https://files.pythonhosted.org/packages/4a/79/a9b080d8a3685546b138b66c90b76770954d5776f7970e6e6bda85fcc7de/widelearning-0.8.4.tar.gz
+[2023-07-05 15:11:39] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/b6/54/5a2017ac709fcc3d0b35cdcd7d81bb258a4657539f57596d2ec2b306c701/astro_ghost-2.0.7.tar.gz
+[2023-07-05 15:11:39] INFO root fetch - processPackages [qtaf]: New version: [5.6.4] Old Version: [5.6.3]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [planetary-computer]: Remove: archive file [/home/abi/fetcher/tmp/planetary-computer-0.5.1.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [planetary-computer]: Remove: archive file [/home/abi/fetcher/tmp/planetary-computer-1.0.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [planetary-computer]: Start processing: leanit-mweb
+[2023-07-05 15:11:39] INFO root fetch - main [MainThread]: End processing [planetary-computer]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [leanit-mweb]: New version: [23.7.1] Old Version: [23.6.9]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [RobotFramework-Examples]: Remove: archive file [/home/abi/fetcher/tmp/RobotFramework-Examples-0.2.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [RobotFramework-Examples]: Remove: archive file [/home/abi/fetcher/tmp/RobotFramework-Examples-1.0.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [RobotFramework-Examples]: Start processing: freerec
+[2023-07-05 15:11:39] INFO root fetch - main [MainThread]: End processing [RobotFramework-Examples]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [widelearning]: executing diffoscope
+[2023-07-05 15:11:39] INFO root fetch - processPackages [widelearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widelearning-0.8.3.tar.gz tmp/widelearning-0.8.4.tar.gz --markdown 20230705/w/widelearning/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-05 15:11:39] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-07-05 15:11:39] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban-cmd-2.0.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.1.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [vban-cmd]: Start processing: isla-solver
+[2023-07-05 15:11:39] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [freerec]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [qtaf]: Downloading https://files.pythonhosted.org/packages/7e/27/ef3a05ae53f66477a8f453d8062f578fc4a2b97098d7aa745ae92e39de1c/qtaf-5.6.3.tar.gz
+[2023-07-05 15:11:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-05 15:11:39] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230705/f/fbgemm-gpu-nightly-cpu/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-05 15:11:39] INFO root fetch - processPackages [isla-solver]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [calib3d]: Remove: archive file [/home/abi/fetcher/tmp/calib3d-2.9.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [calib3d]: Remove: archive file [/home/abi/fetcher/tmp/calib3d-2.9.1.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [calib3d]: Start processing: lcax
+[2023-07-05 15:11:39] INFO root fetch - main [MainThread]: End processing [calib3d]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/19/95/cde39aaa9d82bfe672cee7cf796ecdba39a7f6c5bb3552a48b3af5066b32/leanit-mweb-23.7.1.tar.gz
+[2023-07-05 15:11:39] INFO root fetch - processPackages [hops]: Remove: archive file [/home/abi/fetcher/tmp/hops-3.2.0.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - processPackages [hops]: Remove: archive file [/home/abi/fetcher/tmp/hops-3.3.0.0.tar.gz]
+[2023-07-05 15:11:39] INFO root fetch - main [MainThread]: End processing [hops]: success
+[2023-07-05 15:11:39] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/47/df/08fcaada8e4c8781ac0ca3fb198e14ad8c0c06488ad8a5927498c6ae8543/freerec-0.4.1.tar.gz
+[2023-07-05 15:11:39] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-07-05 15:11:39] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.9.tar.gz tmp/leanit-mweb-23.7.1.tar.gz --markdown 20230705/l/leanit-mweb/23.6.9-23.7.1/diff.md --exclude *.pyd
+[2023-07-05 15:11:39] INFO root fetch - processPackages [lcax]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-05 15:11:40] INFO root fetch - processPackages [isla-solver]: Downloading https://files.pythonhosted.org/packages/c9/99/09105f20acc8de6191ce3e1d0c233588a1be090c26a381155ab775aff7b7/isla-solver-1.9.8.tar.gz
+[2023-07-05 15:11:40] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip]
+[2023-07-05 15:11:40] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip]
+[2023-07-05 15:11:40] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-07-05 15:11:40] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/81/cc/e015f6d152a41fa71ae84b7e3ae9552d3c1720e031b70dfd4e8964151397/astro_ghost-2.0.8.tar.gz
+[2023-07-05 15:11:40] INFO root fetch - processPackages [qtaf]: Downloading https://files.pythonhosted.org/packages/ef/e3/dc07ca1fe089661c60602d33606e75e0e080ed906fe04e31994cc3bf3069/qtaf-5.6.4.tar.gz
+[2023-07-05 15:11:40] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/80/0a/73dbf79e2f532b119372b876e521ba2730d1aff320358430227f7748d7d1/lcax-0.1.4.tar.gz
+[2023-07-05 15:11:40] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/9a/03/a7b326b56d0cbd33406872bdac8a406466c12ecbb3ea04319ee339737aa3/freerec-0.4.3.tar.gz
+[2023-07-05 15:11:40] INFO root fetch - processPackages [qtaf]: executing diffoscope
+[2023-07-05 15:11:40] INFO root fetch - processPackages [qtaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtaf-5.6.3.tar.gz tmp/qtaf-5.6.4.tar.gz --markdown 20230705/q/qtaf/5.6.3-5.6.4/diff.md --exclude *.pyd
+[2023-07-05 15:11:40] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/e2/9c/0391674d20bcc369ebce850f4ad06424f4834b90c74509177d2145904f02/lcax-0.1.5.tar.gz
+[2023-07-05 15:11:40] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-07-05 15:11:40] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-2.0.7.tar.gz tmp/astro_ghost-2.0.8.tar.gz --markdown 20230705/a/astro-ghost/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-05 15:11:40] INFO root fetch - processPackages [widelearning]: Remove: archive file [/home/abi/fetcher/tmp/widelearning-0.8.3.tar.gz]
+[2023-07-05 15:11:40] INFO root fetch - processPackages [widelearning]: Remove: archive file [/home/abi/fetcher/tmp/widelearning-0.8.4.tar.gz]
+[2023-07-05 15:11:40] INFO root fetch - main [MainThread]: End processing [widelearning]: success
+[2023-07-05 15:11:40] INFO root fetch - processPackages [freerec]: executing diffoscope
+[2023-07-05 15:11:40] INFO root fetch - processPackages [freerec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freerec-0.4.1.tar.gz tmp/freerec-0.4.3.tar.gz --markdown 20230705/f/freerec/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-07-05 15:11:40] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2023-07-05 15:11:40] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-0.1.4.tar.gz tmp/lcax-0.1.5.tar.gz --markdown 20230705/l/lcax/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-05 15:11:40] INFO root fetch - processPackages [isla-solver]: Downloading https://files.pythonhosted.org/packages/7e/60/798d236bff47e9112fed46b31fd94395e80dc1e3fb4d78c52663b7895151/isla-solver-1.9.9.tar.gz
+[2023-07-05 15:11:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.4-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:11:41] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:11:41] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-05 15:11:41] INFO root fetch - processPackages [isla-solver]: executing diffoscope
+[2023-07-05 15:11:41] INFO root fetch - processPackages [isla-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isla-solver-1.9.8.tar.gz tmp/isla-solver-1.9.9.tar.gz --markdown 20230705/i/isla-solver/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-05 15:11:41] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-07-05 15:11:41] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.7.1.tar.gz]
+[2023-07-05 15:11:41] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-07-05 15:11:42] INFO root fetch - processPackages [qtaf]: Remove: archive file [/home/abi/fetcher/tmp/qtaf-5.6.3.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - processPackages [qtaf]: Remove: archive file [/home/abi/fetcher/tmp/qtaf-5.6.4.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - main [MainThread]: End processing [qtaf]: success
+[2023-07-05 15:11:42] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-0.1.4.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-0.1.5.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2023-07-05 15:11:42] INFO root fetch - processPackages [freerec]: Remove: archive file [/home/abi/fetcher/tmp/freerec-0.4.1.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - processPackages [freerec]: Remove: archive file [/home/abi/fetcher/tmp/freerec-0.4.3.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - main [MainThread]: End processing [freerec]: success
+[2023-07-05 15:11:42] INFO root fetch - processPackages [isla-solver]: Remove: archive file [/home/abi/fetcher/tmp/isla-solver-1.9.8.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - processPackages [isla-solver]: Remove: archive file [/home/abi/fetcher/tmp/isla-solver-1.9.9.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - main [MainThread]: End processing [isla-solver]: success
+[2023-07-05 15:11:42] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.7.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - processPackages [astro-ghost]: Remove: archive file [/home/abi/fetcher/tmp/astro_ghost-2.0.8.tar.gz]
+[2023-07-05 15:11:42] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-07-05 15:11:42] INFO root fetch - main [MainThread]: Store serial: [18767516]
