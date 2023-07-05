@@ -8700,3 +8700,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:40:36] INFO root fetch - processPackages [recast-atlas]: Remove: archive file [/home/abi/fetcher/tmp/recast_atlas-0.3.0.tar.gz]
 [2023-07-05 07:40:36] INFO root fetch - main [MainThread]: End processing [recast-atlas]: success
 [2023-07-05 07:40:36] INFO root fetch - main [MainThread]: Store serial: [18763124]
+[2023-07-05 07:45:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763124]
+[2023-07-05 07:45:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-web
+[2023-07-05 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-privatelink
+[2023-07-05 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: berrydb-sdk
+[2023-07-05 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moptipy
+[2023-07-05 07:45:45] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230614.0] Old Version: [16.0.20230610.0]
+[2023-07-05 07:45:45] INFO root fetch - processPackages [berrydb-sdk]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-05 07:45:45] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.81]
+[2023-07-05 07:45:45] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/84/e0/0b7793c3720ee52dd58d46358db29c44221ded0ffebce85027a528e2e318/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl
+[2023-07-05 07:45:45] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-05 07:45:45] INFO root fetch - processPackages [berrydb-sdk]: Downloading https://files.pythonhosted.org/packages/21/20/3ae421a0272c63b4d81a36b7dcc5a005aa853758dbd371e097562d6ef466/berrydb_sdk-0.0.1-py3-none-any.whl
+[2023-07-05 07:45:45] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/b5/63/c027aa2843e07c36dce826c3e46d9f6e46e0bc0a47108d55d6bfb31d5db5/moptipy-0.9.81.tar.gz
+[2023-07-05 07:45:45] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: Downloading https://files.pythonhosted.org/packages/b3/b1/70f49af377d22c8a8f776698f65ffd8af9125029be5212001d621fe184f8/aliyun-python-sdk-privatelink-1.0.7.tar.gz
+[2023-07-05 07:45:45] INFO root fetch - processPackages [berrydb-sdk]: Downloading https://files.pythonhosted.org/packages/fb/1c/e41d833bfb0ff6aa825a136af8c9c532f711712451c838ea1e5e87ec804c/berrydb_sdk-1.0.0.tar.gz
+[2023-07-05 07:45:45] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/93/5f/853a4c3065a73ae96c32f12ec91eee73e11a5142213f37e89bfbd4c20572/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl
+[2023-07-05 07:45:45] INFO root fetch - processPackages [berrydb-sdk]: executing diffoscope
+[2023-07-05 07:45:45] INFO root fetch - processPackages [berrydb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb_sdk-0.0.1-py3-none-any.whl.zip tmp/berrydb_sdk-1.0.0.tar.gz --markdown 20230705/b/berrydb-sdk/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 07:45:45] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-07-05 07:45:45] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-web/16.0.20230610.0-16.0.20230614.0/diff.md --exclude *.pyd
+[2023-07-05 07:45:45] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-07-05 07:45:45] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: Downloading https://files.pythonhosted.org/packages/a0/39/dab044dbfacfdad6eca240fc9df230564b3e45513619e205a6cd97951688/aliyun-python-sdk-privatelink-1.0.8.tar.gz
+[2023-07-05 07:45:46] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: executing diffoscope
+[2023-07-05 07:45:46] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-privatelink-1.0.7.tar.gz tmp/aliyun-python-sdk-privatelink-1.0.8.tar.gz --markdown 20230705/a/aliyun-python-sdk-privatelink/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-05 07:45:46] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-07-05 07:45:46] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.81.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230705/m/moptipy/0.9.81-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 07:45:46] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230610.0-py3-none-any.whl.zip]
+[2023-07-05 07:45:46] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20230614.0-py3-none-any.whl.zip]
+[2023-07-05 07:45:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-07-05 07:45:46] INFO root fetch - processPackages [berrydb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/berrydb_sdk-0.0.1-py3-none-any.whl.zip]
+[2023-07-05 07:45:46] INFO root fetch - processPackages [berrydb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/berrydb_sdk-1.0.0.tar.gz]
+[2023-07-05 07:45:46] INFO root fetch - main [MainThread]: End processing [berrydb-sdk]: success
+[2023-07-05 07:45:46] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-privatelink-1.0.7.tar.gz]
+[2023-07-05 07:45:46] INFO root fetch - processPackages [aliyun-python-sdk-privatelink]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-privatelink-1.0.8.tar.gz]
+[2023-07-05 07:45:46] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-privatelink]: success
+[2023-07-05 07:45:48] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.81.tar.gz]
+[2023-07-05 07:45:48] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-07-05 07:45:48] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-07-05 07:45:48] INFO root fetch - main [MainThread]: Store serial: [18763138]
