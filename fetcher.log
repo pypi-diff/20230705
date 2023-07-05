@@ -19201,3 +19201,276 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:33:13] INFO root fetch - processPackages [OpenFisca-France-Local]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Local-5.3.1.tar.gz]
 [2023-07-05 15:33:13] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
 [2023-07-05 15:33:13] INFO root fetch - main [MainThread]: Store serial: [18767863]
+[2023-07-05 15:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767863]
+[2023-07-05 15:38:28] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asimov
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparc.client
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forecastmanager
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-validators
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multimodal-autoencoders
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-accelerated
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qworker
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dexcolor
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-validators
+[2023-07-05 15:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rcsb.utils.targets
+[2023-07-05 15:38:29] INFO root fetch - processPackages [forecastmanager]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 15:38:29] WARNING root fetch - processPackages [flask-validators]: Skipping, unable to determine old version
+[2023-07-05 15:38:29] INFO root fetch - processPackages [flask-validators]: Start processing: pwnic
+[2023-07-05 15:38:29] INFO root fetch - main [MainThread]: End processing [flask-validators] error
+[2023-07-05 15:38:29] INFO root fetch - processPackages [flask-validators]: New version: [0.3] Old Version: [0.2]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [qworker]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [multimodal-autoencoders]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [asimov]: New version: [0.6.0b1] Old Version: [0.6.0a3]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [sparc.client]: New version: [0.1.0] Old Version: [0.0.1.post1]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [dexcolor]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/59/96/fb7659a7583b39f89bb45952ae7d465e3c8cd6da4bb9a6797b3c9e5f298f/forecastmanager-0.0.3.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [rcsb.utils.targets]: New version: [0.73] Old Version: [0.72]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [pytorch-accelerated]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 15:38:29] WARNING root fetch - processPackages [pwnic]: Skipping, unable to determine old version
+[2023-07-05 15:38:29] INFO root fetch - processPackages [pwnic]: Start processing: nh3
+[2023-07-05 15:38:29] INFO root fetch - main [MainThread]: End processing [pwnic] error
+[2023-07-05 15:38:29] INFO root fetch - processPackages [flask-validators]: Downloading https://files.pythonhosted.org/packages/06/6d/a112e602cb32e0080758d6292191fe542a83b72689e983f1c5a0b74490e0/flask_validators-0.2.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/05/ab/a6c851c81a2baa3ca6b01d585dfe58731fc256f1bfe2ccba47020d9138ec/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 15:38:29] INFO root fetch - processPackages [multimodal-autoencoders]: Downloading https://files.pythonhosted.org/packages/40/d8/56ed0024f5d5c7b2aa8a377e978073021d13413b87e9b5ede2699a8fb01b/multimodal_autoencoders-0.2.1.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [nh3]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 15:38:29] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/b3/62/064dd96453cbe5c2611058f370d91fed1d63c7d65507e5749d87b846286e/dexcolor-0.1.2.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/c5/b9/5ed11d50773c8edea30493d6b28e0727d3b2730a9801e5192ea1fc1ab5e1/asimov-0.6.0a3-py2.py3-none-any.whl
+[2023-07-05 15:38:29] INFO root fetch - processPackages [rcsb.utils.targets]: Downloading https://files.pythonhosted.org/packages/8e/78/db631290bf557fae7025f3b662061394c07d4e4dbb8eb5cd138c038868e6/rcsb.utils.targets-0.72.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [pytorch-accelerated]: Downloading https://files.pythonhosted.org/packages/3b/6a/868c35a4f9fe93a595af743c8cc7bc6dc98db3c750f1d386d56a6df297c8/pytorch-accelerated-0.1.8.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [sparc.client]: Downloading https://files.pythonhosted.org/packages/c7/a7/05ab75eace7c94ac879641b660c74f57bac0e980bab4de99ea36198ad8be/sparc.client-0.0.1.post1.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/60/7a/4099312cb345739af3be2d0bef12d530586d97728a8e0856e29245b5a9f0/forecastmanager-0.0.4.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [nh3]: Downloading https://files.pythonhosted.org/packages/6f/51/d395474ec994e96c0e5b72f59e9fbf45508d14c4cff8464aa779851a034b/nh3-0.2.8.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [flask-validators]: Downloading https://files.pythonhosted.org/packages/58/7e/7fa2f6e6bc6a9d23acc516584c65275a47c61da156f20c859063b9cf4fd0/flask_validators-0.3.tar.gz
+[2023-07-05 15:38:29] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-07-05 15:38:29] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.0.3.tar.gz tmp/forecastmanager-0.0.4.tar.gz --markdown 20230705/f/forecastmanager/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 15:38:29] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/49/7d/292c6ab6085be9b02a88ca7bbc43266254e8564c1e18d61acd1239abeee3/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 15:38:30] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/23/a3/a473d8a3d2fa6778af248bea4a6da39025ec641ce70b8e5fd4405af669ca/dexcolor-0.2.0.tar.gz
+[2023-07-05 15:38:30] INFO root fetch - processPackages [multimodal-autoencoders]: Downloading https://files.pythonhosted.org/packages/7e/2d/5461477adb247e9b6943050cbd43036bdf175a22072e97f56461f08d9563/multimodal_autoencoders-0.2.2.tar.gz
+[2023-07-05 15:38:30] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/98/95/6194570aceb799c702604b49d3327fe07f33cf20485affb63f840be8a89d/asimov-0.6.0b1-py2.py3-none-any.whl
+[2023-07-05 15:38:30] INFO root fetch - processPackages [rcsb.utils.targets]: Downloading https://files.pythonhosted.org/packages/59/d4/db23c698be0ed39659b4094b17a38c655e0c654286824af5ac83794078b2/rcsb.utils.targets-0.73.tar.gz
+[2023-07-05 15:38:30] INFO root fetch - processPackages [sparc.client]: Downloading https://files.pythonhosted.org/packages/38/c1/e8f964b0ee64e3b7d833b0057b6c3beb81c65a686f5429ec9eba55e8a3a7/sparc.client-0.1.0.tar.gz
+[2023-07-05 15:38:30] INFO root fetch - processPackages [pytorch-accelerated]: Downloading https://files.pythonhosted.org/packages/56/43/c5a3fb11e546d410974b31843117a8105e8cb74cf6f0fc74b9d8da8c5fad/pytorch-accelerated-0.1.9.tar.gz
+[2023-07-05 15:38:30] INFO root fetch - processPackages [flask-validators]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [flask-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_validators-0.2.tar.gz tmp/flask_validators-0.3.tar.gz --markdown 20230705/f/flask-validators/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip --markdown 20230705/a/asimov/0.6.0a3-0.6.0b1/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/q/qworker/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [multimodal-autoencoders]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [multimodal-autoencoders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimodal_autoencoders-0.2.1.tar.gz tmp/multimodal_autoencoders-0.2.2.tar.gz --markdown 20230705/m/multimodal-autoencoders/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [nh3]: Downloading https://files.pythonhosted.org/packages/2b/fd/25ed19991d7513c60041351dea0d054294d074d68712830bdb800f19aee8/nh3-0.2.9.tar.gz
+[2023-07-05 15:38:30] INFO root fetch - processPackages [sparc.client]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [sparc.client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparc.client-0.0.1.post1.tar.gz tmp/sparc.client-0.1.0.tar.gz --markdown 20230705/s/sparc.client/0.0.1.post1-0.1.0/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [rcsb.utils.targets]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [rcsb.utils.targets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.targets-0.72.tar.gz tmp/rcsb.utils.targets-0.73.tar.gz --markdown 20230705/r/rcsb.utils.targets/0.72-0.73/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [pytorch-accelerated]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [pytorch-accelerated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-accelerated-0.1.8.tar.gz tmp/pytorch-accelerated-0.1.9.tar.gz --markdown 20230705/p/pytorch-accelerated/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:38:30] INFO root fetch - processPackages [dexcolor]: executing diffoscope
+[2023-07-05 15:38:30] INFO root fetch - processPackages [dexcolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexcolor-0.1.2.tar.gz tmp/dexcolor-0.2.0.tar.gz --markdown 20230705/d/dexcolor/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 15:38:31] INFO root fetch - processPackages [nh3]: executing diffoscope
+[2023-07-05 15:38:31] INFO root fetch - processPackages [nh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nh3-0.2.8.tar.gz tmp/nh3-0.2.9.tar.gz --markdown 20230705/n/nh3/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 15:38:31] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.3.tar.gz]
+[2023-07-05 15:38:31] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.4.tar.gz]
+[2023-07-05 15:38:31] INFO root fetch - processPackages [forecastmanager]: Start processing: coiled
+[2023-07-05 15:38:31] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-07-05 15:38:31] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-07-05 15:38:31] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-07-05 15:38:31] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [flask-validators]: Remove: archive file [/home/abi/fetcher/tmp/flask_validators-0.2.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [flask-validators]: Remove: archive file [/home/abi/fetcher/tmp/flask_validators-0.3.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-05 15:38:32] INFO root fetch - processPackages [flask-validators]: Start processing: meow-base
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [flask-validators]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230705/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-07-05 15:38:32] INFO root fetch - processPackages [multimodal-autoencoders]: Remove: archive file [/home/abi/fetcher/tmp/multimodal_autoencoders-0.2.1.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [multimodal-autoencoders]: Remove: archive file [/home/abi/fetcher/tmp/multimodal_autoencoders-0.2.2.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [multimodal-autoencoders]: Start processing: qwak-core
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [multimodal-autoencoders]: success
+[2023-07-05 15:38:32] WARNING root fetch - processPackages [meow-base]: Skipping, unable to determine old version
+[2023-07-05 15:38:32] INFO root fetch - processPackages [meow-base]: Start processing: cegalprizm-pythontoolpro
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [meow-base] error
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: New version: [2.3.2] Old Version: [2.3.0]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.1.2.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.2.0.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [dexcolor]: Start processing: pitop
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [dexcolor]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pytorch-accelerated]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-accelerated-0.1.8.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pytorch-accelerated]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-accelerated-0.1.9.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pytorch-accelerated]: Start processing: pitop.battery
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [pytorch-accelerated]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [rcsb.utils.targets]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.targets-0.72.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [rcsb.utils.targets]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.targets-0.73.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [rcsb.utils.targets]: Start processing: pitop.camera
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [rcsb.utils.targets]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [sparc.client]: Remove: archive file [/home/abi/fetcher/tmp/sparc.client-0.0.1.post1.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [sparc.client]: Remove: archive file [/home/abi/fetcher/tmp/sparc.client-0.1.0.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [sparc.client]: Start processing: pitop.common
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [sparc.client]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [asimov]: Start processing: pitop.core
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop]: New version: [0.8.1] Old Version: [0.7.0]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.battery]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qworker]: Start processing: pitop.display
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.camera]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [nh3]: Remove: archive file [/home/abi/fetcher/tmp/nh3-0.2.8.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [nh3]: Remove: archive file [/home/abi/fetcher/tmp/nh3-0.2.9.tar.gz]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [nh3]: Start processing: pitop.keyboard
+[2023-07-05 15:38:32] INFO root fetch - main [MainThread]: End processing [nh3]: success
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.common]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Downloading https://files.pythonhosted.org/packages/28/6f/e2796a1f1a3565fcbdab562c002a17657e0011c9705c0b4a883cddb797b9/cegalprizm_pythontoolpro-2.3.0-py3-none-any.whl
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.core]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-05 15:38:32] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230705/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.display]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.battery]: Downloading https://files.pythonhosted.org/packages/8b/20/75dc57848d703a8b3a2583fad1418dad2193cdf8148e6e7071db5b587961/pitop.battery-0.31.0.post4.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop]: Downloading https://files.pythonhosted.org/packages/16/80/02e7398d7289a776ed67e83e75b4c85acee1f3f43bc7853af66e999cfcc2/pitop-0.7.0.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.keyboard]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.camera]: Downloading https://files.pythonhosted.org/packages/3f/26/47c7945c288dafc4d99e7cd42da9f4157f3ef1c6ac6a987de76278924c8a/pitop.camera-0.31.0.post4.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.common]: Downloading https://files.pythonhosted.org/packages/a3/f5/7d617ac1ac07616ef82dfc8b52cb8966d3787816d6ab2f1b695d2deb5786/pitop.common-0.31.0.post4.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.core]: Downloading https://files.pythonhosted.org/packages/a7/af/bcc71f9b0ef86421c4b471088c3cabdcdc2e2789e5e69b1277f906965380/pitop.core-0.31.0.post4.tar.gz
+[2023-07-05 15:38:32] INFO root fetch - processPackages [pitop.display]: Downloading https://files.pythonhosted.org/packages/fb/df/9cdbc35f85a6bc645772e361a0c0df1a7d36e0f9d5d35c48e4e0f672b1d0/pitop.display-0.31.0.post4.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Downloading https://files.pythonhosted.org/packages/2e/8c/6fb40e22872c300c04831a38116c87d8b65775eb39301e28f396c217886d/cegalprizm_pythontoolpro-2.3.2-py3-none-any.whl
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.keyboard]: Downloading https://files.pythonhosted.org/packages/49/68/6fd05c85ece06ac1ba742f1420c1f1def2de237533027403a4d8fae7061f/pitop.keyboard-0.31.0.post4.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.camera]: Downloading https://files.pythonhosted.org/packages/7c/6b/c835893cb13627475eab5bd72792cd0e029e99cfa6a5eebf92a880d95030/pitop.camera-0.32.0.post1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.battery]: Downloading https://files.pythonhosted.org/packages/0c/c3/98a1e932f54beea308bd465d01ca2478376d39c2ec98740da73ee239fe6d/pitop.battery-0.32.0.post1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop]: Downloading https://files.pythonhosted.org/packages/57/6d/a791c8b1cc5bbad390f11df733dc6dd57a3d1c44855a58121349f7ec5659/pitop-0.8.1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cegalprizm_pythontoolpro-2.3.0-py3-none-any.whl.zip tmp/cegalprizm_pythontoolpro-2.3.2-py3-none-any.whl.zip --markdown 20230705/c/cegalprizm-pythontoolpro/2.3.0-2.3.2/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.core]: Downloading https://files.pythonhosted.org/packages/07/6b/647456b53f49612588b1fb632e4f0dde3d46e07ee2eced197e835d19c891/pitop.core-0.32.0.post1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.camera]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.camera-0.31.0.post4.tar.gz tmp/pitop.camera-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.camera/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.common]: Downloading https://files.pythonhosted.org/packages/46/f7/f8091fe691745ebd9fcf2941e382a93ddd8ef4629a5c8b49e96b7878a7f8/pitop.common-0.32.0.post1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.battery]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.battery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.battery-0.31.0.post4.tar.gz tmp/pitop.battery-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.battery/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.display]: Downloading https://files.pythonhosted.org/packages/dc/8a/df078e849767891e88ee597357644e7935989760e49817e98c6204202927/pitop.display-0.32.0.post1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-07-05 15:38:33] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-07-05 15:38:33] INFO root fetch - processPackages [coiled]: Start processing: pitop.miniscreen
+[2023-07-05 15:38:33] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop-0.7.0.tar.gz tmp/pitop-0.8.1.tar.gz --markdown 20230705/p/pitop/0.7.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.keyboard]: Downloading https://files.pythonhosted.org/packages/23/f5/8281b1a1170dc5cbe40b39ef23eecad6f2e861247a6ea5187db813799d36/pitop.keyboard-0.32.0.post1.tar.gz
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.core]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.core-0.31.0.post4.tar.gz tmp/pitop.core-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.core/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.common]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.common-0.31.0.post4.tar.gz tmp/pitop.common-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.common/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.miniscreen]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.display]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.display]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.display-0.31.0.post4.tar.gz tmp/pitop.display-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.display/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.keyboard]: executing diffoscope
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.keyboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.keyboard-0.31.0.post4.tar.gz tmp/pitop.keyboard-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.keyboard/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:33] INFO root fetch - processPackages [pitop.miniscreen]: Downloading https://files.pythonhosted.org/packages/11/a9/5cb099b840eda821ccfe2519b362f9841d109e935722ace2988f8f0402f1/pitop.miniscreen-0.31.0.post4.tar.gz
+[2023-07-05 15:38:34] INFO root fetch - processPackages [pitop.miniscreen]: Downloading https://files.pythonhosted.org/packages/e5/e8/c2a9e297fcfbd6715a1aaf7d5797a6a9a4bb7da17e2595a0252c05adbf9a/pitop.miniscreen-0.32.0.post1.tar.gz
+[2023-07-05 15:38:34] INFO root fetch - processPackages [pitop.miniscreen]: executing diffoscope
+[2023-07-05 15:38:34] INFO root fetch - processPackages [pitop.miniscreen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.miniscreen-0.31.0.post4.tar.gz tmp/pitop.miniscreen-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.miniscreen/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.battery]: Remove: archive file [/home/abi/fetcher/tmp/pitop.battery-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.battery]: Remove: archive file [/home/abi/fetcher/tmp/pitop.battery-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.battery]: Start processing: pitop.pma
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop.battery]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.core]: Remove: archive file [/home/abi/fetcher/tmp/pitop.core-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.core]: Remove: archive file [/home/abi/fetcher/tmp/pitop.core-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.core]: Start processing: pitop.processing
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop.core]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.pma]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.display]: Remove: archive file [/home/abi/fetcher/tmp/pitop.display-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.display]: Remove: archive file [/home/abi/fetcher/tmp/pitop.display-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.display]: Start processing: pitop.robotics
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop.display]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.camera]: Remove: archive file [/home/abi/fetcher/tmp/pitop.camera-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.camera]: Remove: archive file [/home/abi/fetcher/tmp/pitop.camera-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.camera]: Start processing: pitop.simulation
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop.camera]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.processing]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.common]: Remove: archive file [/home/abi/fetcher/tmp/pitop.common-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.common]: Remove: archive file [/home/abi/fetcher/tmp/pitop.common-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.common]: Start processing: pitop.system
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop.common]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.robotics]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.simulation]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.keyboard]: Remove: archive file [/home/abi/fetcher/tmp/pitop.keyboard-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.keyboard]: Remove: archive file [/home/abi/fetcher/tmp/pitop.keyboard-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.keyboard]: Start processing: pitopcli
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop.keyboard]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.system]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.pma]: Downloading https://files.pythonhosted.org/packages/4e/6d/7f7cc7a93276faa0fa201f2c3f47b2ba361685faa3cd36e719cb762e8fc1/pitop.pma-0.31.0.post4.tar.gz
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop]: Remove: archive file [/home/abi/fetcher/tmp/pitop-0.7.0.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop]: Remove: archive file [/home/abi/fetcher/tmp/pitop-0.8.1.tar.gz]
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop]: Start processing: pystools
+[2023-07-05 15:38:35] INFO root fetch - main [MainThread]: End processing [pitop]: success
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitop.processing]: Downloading https://files.pythonhosted.org/packages/83/a6/c53956c11435e22c2e1a8833cc79fdc4d6f64f82880aa5ee1a512a4a2666/pitop.processing-0.31.0.post4.tar.gz
+[2023-07-05 15:38:35] INFO root fetch - processPackages [pitopcli]: New version: [0.32.0.post1] Old Version: [0.31.0.post4]
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.robotics]: Downloading https://files.pythonhosted.org/packages/03/89/ba793ccf74386830974efb3d7e64784671dd67f80e10c7751ea11967a8ba/pitop.robotics-0.31.0.post4.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.simulation]: Downloading https://files.pythonhosted.org/packages/a1/e0/ca9c50393e71ae0e4304f97259cd9eac684b81a44d9dcaa51af7574c40c0/pitop.simulation-0.31.0.post4.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.system]: Downloading https://files.pythonhosted.org/packages/87/85/b6de62c7dba3009be670aa08271e9d05e7e3e33ef725a913b49cd3f33842/pitop.system-0.31.0.post4.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitopcli]: Downloading https://files.pythonhosted.org/packages/20/fe/98570e7b8cca9c4c579b5ece77cb434703ba08ae615cfe0675ab409c5638/pitopcli-0.31.0.post4.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.miniscreen]: Remove: archive file [/home/abi/fetcher/tmp/pitop.miniscreen-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.miniscreen]: Remove: archive file [/home/abi/fetcher/tmp/pitop.miniscreen-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.miniscreen]: Start processing: bitmovin-api-sdk
+[2023-07-05 15:38:36] INFO root fetch - main [MainThread]: End processing [pitop.miniscreen]: success
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.pma]: Downloading https://files.pythonhosted.org/packages/44/99/8cda7df08c3018fefc4851d0ec043e42e12d95e4537be35341757bea0442/pitop.pma-0.32.0.post1.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.robotics]: Downloading https://files.pythonhosted.org/packages/83/03/257bc5e64dd7668ac77dac9950ca178a097d0989e1dd1ec5c61bd5726105/pitop.robotics-0.32.0.post1.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.processing]: Downloading https://files.pythonhosted.org/packages/e8/3e/87df15aeaf7733fb7144102a1520bb8ef9010b333126d9e53010fb4bbba9/pitop.processing-0.32.0.post1.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.pma]: executing diffoscope
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.pma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.pma-0.31.0.post4.tar.gz tmp/pitop.pma-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.pma/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.system]: Downloading https://files.pythonhosted.org/packages/12/8f/c81f339f4bfb1bc0d3d2d62122636f3c3c900002b25205795da59b634150/pitop.system-0.32.0.post1.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.simulation]: Downloading https://files.pythonhosted.org/packages/62/6b/9174f96f57f321bffdad11f202d314b06355cb9759f35aa9c026a84a9f6f/pitop.simulation-0.32.0.post1.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.robotics]: executing diffoscope
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.robotics-0.31.0.post4.tar.gz tmp/pitop.robotics-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.robotics/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.processing]: executing diffoscope
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.processing-0.31.0.post4.tar.gz tmp/pitop.processing-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.processing/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.system]: executing diffoscope
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.system-0.31.0.post4.tar.gz tmp/pitop.system-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.system/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitopcli]: Downloading https://files.pythonhosted.org/packages/40/32/a751cad5486e39e1f797bc5dc2a898c84587fb59c64eec8457a435c2036b/pitopcli-0.32.0.post1.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.simulation]: executing diffoscope
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pitop.simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitop.simulation-0.31.0.post4.tar.gz tmp/pitop.simulation-0.32.0.post1.tar.gz --markdown 20230705/p/pitop.simulation/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:36] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-05 15:38:36] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230705/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 15:38:37] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_pythontoolpro-2.3.0-py3-none-any.whl.zip]
+[2023-07-05 15:38:37] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_pythontoolpro-2.3.2-py3-none-any.whl.zip]
+[2023-07-05 15:38:37] INFO root fetch - main [MainThread]: End processing [cegalprizm-pythontoolpro]: success
+[2023-07-05 15:38:37] INFO root fetch - processPackages [pitopcli]: executing diffoscope
+[2023-07-05 15:38:37] INFO root fetch - processPackages [pitopcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pitopcli-0.31.0.post4.tar.gz tmp/pitopcli-0.32.0.post1.tar.gz --markdown 20230705/p/pitopcli/0.31.0.post4-0.32.0.post1/diff.md --exclude *.pyd
+[2023-07-05 15:38:37] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.pma]: Remove: archive file [/home/abi/fetcher/tmp/pitop.pma-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.pma]: Remove: archive file [/home/abi/fetcher/tmp/pitop.pma-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pitop.pma]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-07-05 15:38:38] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230705/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.system]: Remove: archive file [/home/abi/fetcher/tmp/pitop.system-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.system]: Remove: archive file [/home/abi/fetcher/tmp/pitop.system-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pitop.system]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.robotics]: Remove: archive file [/home/abi/fetcher/tmp/pitop.robotics-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.robotics]: Remove: archive file [/home/abi/fetcher/tmp/pitop.robotics-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pitop.robotics]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitopcli]: Remove: archive file [/home/abi/fetcher/tmp/pitopcli-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitopcli]: Remove: archive file [/home/abi/fetcher/tmp/pitopcli-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pitopcli]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.processing]: Remove: archive file [/home/abi/fetcher/tmp/pitop.processing-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.processing]: Remove: archive file [/home/abi/fetcher/tmp/pitop.processing-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pitop.processing]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.simulation]: Remove: archive file [/home/abi/fetcher/tmp/pitop.simulation-0.31.0.post4.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pitop.simulation]: Remove: archive file [/home/abi/fetcher/tmp/pitop.simulation-0.32.0.post1.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pitop.simulation]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-05 15:38:38] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-05 15:38:50] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.98.0.tar.gz]
+[2023-07-05 15:38:50] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
+[2023-07-05 15:38:50] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-07-05 15:38:50] INFO root fetch - main [MainThread]: Store serial: [18767977]
