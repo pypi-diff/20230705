@@ -6364,3 +6364,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:57:44] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230705.tar.gz]
 [2023-07-05 04:57:44] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-05 04:57:44] INFO root fetch - main [MainThread]: Store serial: [18762330]
+[2023-07-05 05:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762330]
+[2023-07-05 05:02:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IronPdf
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empyrial
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-connector-prestashop
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ascend-deployer
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citybrain-official
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nextpcg
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sanydata
+[2023-07-05 05:02:53] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b9] Old Version: [5.0.0b8]
+[2023-07-05 05:02:53] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: New version: [14.0.2.0.3.dev8] Old Version: [14.0.2.0.3.dev7]
+[2023-07-05 05:02:53] WARNING root fetch - processPackages [IronPdf]: Skipping, unable to determine old version
+[2023-07-05 05:02:53] INFO root fetch - main [MainThread]: End processing [IronPdf] error
+[2023-07-05 05:02:53] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 05:02:53] INFO root fetch - processPackages [citybrain-official]: New version: [0.8] Old Version: [0.7]
+[2023-07-05 05:02:53] INFO root fetch - processPackages [empyrial]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-05 05:02:54] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/14/21/bdaec2af65e116d1b131aeb0545e77029103a652a5ebdd89bcc2bee0124e/odoo14_addon_connector_prestashop-14.0.2.0.3.dev7-py3-none-any.whl
+[2023-07-05 05:02:54] INFO root fetch - processPackages [sanydata]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-07-05 05:02:54] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/93/72/125bbad73c61476ac8d444003c97f808f5f66b7dcc4d6c04a6e81829d13f/empyrial-2.0.7.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/c8/4e/d1b9c0b99ad4e8960740f9d14cc03a5fdda36feb4e6eb825b8fade8472e7/ascend_deployer-5.0.0b8-py3-none-any.whl
+[2023-07-05 05:02:54] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/5e/ae/72d29cadf237e4e54323d125e59a3d8a5fb84a06e031df54aff9ca19a852/citybrain-official-0.7.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/df/ac/67e4075baf7ded104258425a451b15af0f525ae7fc3d11321d1709f11990/sanydata-3.3.2.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Downloading https://files.pythonhosted.org/packages/3e/c8/87950bac6afe6bf10b7823a67445e6ee853e88a4ccc5c5feafa45d8d5111/odoo14_addon_connector_prestashop-14.0.2.0.3.dev8-py3-none-any.whl
+[2023-07-05 05:02:54] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/78/ad/4d79999e52624fecb42991af86a8b12f19b82e4f68bf3a4c6af74937fdb3/empyrial-2.0.8.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-05 05:02:54] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230705/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 05:02:54] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/69/1f/5387feaf63a242691a4816181ddd52ee6be2dcdc055b51c630c4cd76e2fc/citybrain-official-0.8.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-07-05 05:02:54] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.7.tar.gz tmp/empyrial-2.0.8.tar.gz --markdown 20230705/e/empyrial/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-05 05:02:54] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/82/2b/de9c9891308ac9115a7f856ed337c153c087f6c6534f0a6780aea70a04f0/ascend_deployer-5.0.0b9-py3-none-any.whl
+[2023-07-05 05:02:54] INFO root fetch - processPackages [citybrain-official]: executing diffoscope
+[2023-07-05 05:02:54] INFO root fetch - processPackages [citybrain-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citybrain-official-0.7.tar.gz tmp/citybrain-official-0.8.tar.gz --markdown 20230705/c/citybrain-official/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-05 05:02:54] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: executing diffoscope
+[2023-07-05 05:02:54] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev8-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-connector-prestashop/14.0.2.0.3.dev7-14.0.2.0.3.dev8/diff.md --exclude *.pyd
+[2023-07-05 05:02:54] INFO root fetch - processPackages [sanydata]: Downloading https://files.pythonhosted.org/packages/99/e4/cf823415bbf409aeb1f6c0fa60704268a4622d1558a7107ef5e4ac11237e/sanydata-3.3.3.tar.gz
+[2023-07-05 05:02:54] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-07-05 05:02:54] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip --markdown 20230705/a/ascend-deployer/5.0.0b8-5.0.0b9/diff.md --exclude *.pyd
+[2023-07-05 05:02:54] INFO root fetch - processPackages [sanydata]: executing diffoscope
+[2023-07-05 05:02:54] INFO root fetch - processPackages [sanydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanydata-3.3.2.tar.gz tmp/sanydata-3.3.3.tar.gz --markdown 20230705/s/sanydata/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-07-05 05:02:55] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.7.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.8.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-07-05 05:02:55] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-05 05:02:55] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.7.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.8.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - main [MainThread]: End processing [citybrain-official]: success
+[2023-07-05 05:02:55] INFO root fetch - processPackages [sanydata]: Remove: archive file [/home/abi/fetcher/tmp/sanydata-3.3.2.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - processPackages [sanydata]: Remove: archive file [/home/abi/fetcher/tmp/sanydata-3.3.3.tar.gz]
+[2023-07-05 05:02:55] INFO root fetch - main [MainThread]: End processing [sanydata]: success
+[2023-07-05 05:02:56] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev7-py3-none-any.whl.zip]
+[2023-07-05 05:02:56] INFO root fetch - processPackages [odoo14-addon-connector-prestashop]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_connector_prestashop-14.0.2.0.3.dev8-py3-none-any.whl.zip]
+[2023-07-05 05:02:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-prestashop]: success
+[2023-07-05 05:02:57] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip]
+[2023-07-05 05:02:57] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
+[2023-07-05 05:02:57] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-07-05 05:02:57] INFO root fetch - main [MainThread]: Store serial: [18762350]
