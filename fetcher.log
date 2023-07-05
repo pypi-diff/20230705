@@ -8843,3 +8843,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:56:24] INFO root fetch - processPackages [spaceone-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_supervisor-1.9.7rc1-py3-none-any.whl.zip]
 [2023-07-05 07:56:24] INFO root fetch - main [MainThread]: End processing [spaceone-supervisor]: success
 [2023-07-05 07:56:24] INFO root fetch - main [MainThread]: Store serial: [18763173]
+[2023-07-05 08:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763173]
+[2023-07-05 08:01:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apexpro
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: knob
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coconut-develop
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-predict-sdk
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ailingbot
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: berrydb
+[2023-07-05 08:01:34] INFO root fetch - processPackages [zcbot-predict-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 08:01:34] INFO root fetch - processPackages [berrydb]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ailingbot]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 08:01:34] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/7d/6e/9e65ce9f340a92e3b3cb8aaeb4734cda61695713be50bb6b46770a3a587a/zcbot-predict-sdk-0.0.8.tar.gz
+[2023-07-05 08:01:34] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-05 08:01:34] WARNING root fetch - processPackages [apexpro]: Skipping, unable to determine old version
+[2023-07-05 08:01:34] INFO root fetch - main [MainThread]: End processing [apexpro] error
+[2023-07-05 08:01:34] INFO root fetch - processPackages [knob]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 08:01:34] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/0d/9a/09f687e0b932cd7c775cdb9fa5059c87104b2c800c058a42bf64f3cf6d1c/berrydb-0.0.3-py3-none-any.whl
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/8a/ce/9b75f1c338c35ce90d3e62c8d444b755e957d4eb58250c701c67334b3c69/ailingbot-0.0.6.tar.gz
+[2023-07-05 08:01:34] INFO root fetch - processPackages [zcbot-predict-sdk]: Downloading https://files.pythonhosted.org/packages/b3/fa/c78fca334a791ad8ba00725d1b676d3000e6e1160fcd28fee2ac88852932/zcbot-predict-sdk-0.0.9.tar.gz
+[2023-07-05 08:01:34] INFO root fetch - processPackages [knob]: Downloading https://files.pythonhosted.org/packages/10/a7/16523b27a067cefc6f34bb73a1d97794606d73fa566e23837b3b206b4907/knob-0.0.8.tar.gz
+[2023-07-05 08:01:34] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-05 08:01:34] INFO root fetch - processPackages [zcbot-predict-sdk]: executing diffoscope
+[2023-07-05 08:01:34] INFO root fetch - processPackages [zcbot-predict-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-predict-sdk-0.0.8.tar.gz tmp/zcbot-predict-sdk-0.0.9.tar.gz --markdown 20230705/z/zcbot-predict-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 08:01:34] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/2a/a0/ad8ae2cfd819a235eea7f9e5e44eed03043287423cc413acb458c35d4257/berrydb-1.0.0.tar.gz
+[2023-07-05 08:01:34] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/44/f5/b4f29283a13c3bed44e816f8a3917944448dd0ef60b511b04b62b83f9b1d/ailingbot-0.0.7.tar.gz
+[2023-07-05 08:01:35] INFO root fetch - processPackages [berrydb]: executing diffoscope
+[2023-07-05 08:01:35] INFO root fetch - processPackages [berrydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb-0.0.3-py3-none-any.whl.zip tmp/berrydb-1.0.0.tar.gz --markdown 20230705/b/berrydb/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 08:01:35] INFO root fetch - processPackages [ailingbot]: executing diffoscope
+[2023-07-05 08:01:35] INFO root fetch - processPackages [ailingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailingbot-0.0.6.tar.gz tmp/ailingbot-0.0.7.tar.gz --markdown 20230705/a/ailingbot/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 08:01:35] INFO root fetch - processPackages [knob]: Downloading https://files.pythonhosted.org/packages/19/61/3cf4bf4a83d16762781fea4fdd740f6b4e671467525cce3ab654fbde8beb/knob-0.0.9.tar.gz
+[2023-07-05 08:01:35] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-05 08:01:35] INFO root fetch - processPackages [knob]: executing diffoscope
+[2023-07-05 08:01:35] INFO root fetch - processPackages [knob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knob-0.0.8.tar.gz tmp/knob-0.0.9.tar.gz --markdown 20230705/k/knob/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 08:01:35] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-05 08:01:35] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230705/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-05 08:01:35] INFO root fetch - processPackages [zcbot-predict-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-predict-sdk-0.0.8.tar.gz]
+[2023-07-05 08:01:35] INFO root fetch - processPackages [zcbot-predict-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-predict-sdk-0.0.9.tar.gz]
+[2023-07-05 08:01:35] INFO root fetch - main [MainThread]: End processing [zcbot-predict-sdk]: success
+[2023-07-05 08:01:35] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-0.0.3-py3-none-any.whl.zip]
+[2023-07-05 08:01:35] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.0.tar.gz]
+[2023-07-05 08:01:35] INFO root fetch - main [MainThread]: End processing [berrydb]: success
+[2023-07-05 08:01:36] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.6.tar.gz]
+[2023-07-05 08:01:36] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.7.tar.gz]
+[2023-07-05 08:01:36] INFO root fetch - main [MainThread]: End processing [ailingbot]: success
+[2023-07-05 08:01:36] INFO root fetch - processPackages [knob]: Remove: archive file [/home/abi/fetcher/tmp/knob-0.0.8.tar.gz]
+[2023-07-05 08:01:36] INFO root fetch - processPackages [knob]: Remove: archive file [/home/abi/fetcher/tmp/knob-0.0.9.tar.gz]
+[2023-07-05 08:01:36] INFO root fetch - main [MainThread]: End processing [knob]: success
+[2023-07-05 08:01:36] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-05 08:01:36] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-05 08:01:36] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-05 08:01:36] INFO root fetch - main [MainThread]: Store serial: [18763189]
