@@ -6499,3 +6499,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:08:11] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
 [2023-07-05 05:08:11] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-07-05 05:08:11] INFO root fetch - main [MainThread]: Store serial: [18762372]
+[2023-07-05 05:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762372]
+[2023-07-05 05:13:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 05:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-avatar
+[2023-07-05 05:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastgenerateapi
+[2023-07-05 05:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summo
+[2023-07-05 05:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-07-05 05:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hellorynepkg
+[2023-07-05 05:13:24] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 05:13:24] INFO root fetch - processPackages [summo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 05:13:24] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: New version: [1.0.9] Old Version: [1.0.22]
+[2023-07-05 05:13:24] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-05 05:13:24] WARNING root fetch - processPackages [hellorynepkg]: Skipping, unable to determine old version
+[2023-07-05 05:13:24] INFO root fetch - main [MainThread]: End processing [hellorynepkg] error
+[2023-07-05 05:13:24] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-07-05 05:13:24] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-05 05:13:24] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/77/f0/a2761587256ae96768574d65b9d27ee4a59b1ec771a43853d10efece324b/aliyun-python-sdk-avatar-1.0.22.tar.gz
+[2023-07-05 05:13:24] INFO root fetch - processPackages [summo]: Downloading https://files.pythonhosted.org/packages/5b/9a/39af9e940a0f86320206c7020a98f747eaebaf648251fc78f0ca0c6fa17a/summo-0.0.3.tar.gz
+[2023-07-05 05:13:24] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-07-05 05:13:25] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-05 05:13:25] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-07-05 05:13:25] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230705/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 05:13:25] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-05 05:13:25] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230705/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-05 05:13:25] INFO root fetch - processPackages [summo]: Downloading https://files.pythonhosted.org/packages/44/94/c1be74c87dd80437154009d4f168d05a4dffe31626bfb2eea93d979c0457/summo-0.0.4.tar.gz
+[2023-07-05 05:13:25] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/ff/e8/ba9744da258b0e71cdc1b7fe1a4f25a7bd3d9806ce5911f0b24f0f754815/aliyun-python-sdk-avatar-1.0.9.tar.gz
+[2023-07-05 05:13:25] INFO root fetch - processPackages [summo]: executing diffoscope
+[2023-07-05 05:13:25] INFO root fetch - processPackages [summo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summo-0.0.3.tar.gz tmp/summo-0.0.4.tar.gz --markdown 20230705/s/summo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 05:13:25] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: executing diffoscope
+[2023-07-05 05:13:25] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-avatar-1.0.22.tar.gz tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz --markdown 20230705/a/aliyun-python-sdk-avatar/1.0.22-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:13:26] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-07-05 05:13:26] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-07-05 05:13:26] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-07-05 05:13:26] INFO root fetch - processPackages [summo]: Remove: archive file [/home/abi/fetcher/tmp/summo-0.0.3.tar.gz]
+[2023-07-05 05:13:26] INFO root fetch - processPackages [summo]: Remove: archive file [/home/abi/fetcher/tmp/summo-0.0.4.tar.gz]
+[2023-07-05 05:13:26] INFO root fetch - main [MainThread]: End processing [summo]: success
+[2023-07-05 05:13:26] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.22.tar.gz]
+[2023-07-05 05:13:26] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz]
+[2023-07-05 05:13:26] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-avatar]: success
+[2023-07-05 05:13:33] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-05 05:13:33] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-05 05:13:33] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-05 05:13:33] INFO root fetch - main [MainThread]: Store serial: [18762390]
