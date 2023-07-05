@@ -16171,3 +16171,83 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:41:19] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl.zip]
 [2023-07-05 13:41:19] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-07-05 13:41:19] INFO root fetch - main [MainThread]: Store serial: [18766409]
+[2023-07-05 13:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766409]
+[2023-07-05 13:46:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrp3
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsna-complete
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocf-datapipes
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FiberFusing
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micrOSDevToolKit
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cycode
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyre-check-nightly
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: p-ttauto-crawler
+[2023-07-05 13:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbsite
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyrp3]: New version: [1.2.0] Old Version: [1.1.1rc1]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [FiberFusing]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [dsna-complete]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.2] Old Version: [1.17.1]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [cycode]: New version: [0.2.6.dev7] Old Version: [0.2.6.dev6]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [nbsite]: New version: [0.8.2] Old Version: [0.8.1a6]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/ff/d6/33206258134fad94a291f35c893234a2d8f2b915aa6763d8e42a8376e366/dsna_complete-0.0.7.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688555559] Old Version: [0.0.101688469066]
+[2023-07-05 13:46:29] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/2b/81/340955ccdd3414da21085ec1eb73fc2958d65c129fb4fa6d633fa9c5fbc7/cycode-0.2.6.dev6.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyrp3]: Downloading https://files.pythonhosted.org/packages/90/0a/0d8cd31ee52c96fec1c283919cc80ddd858540f173d30a73d0cfbd681a73/pyrp3-1.1.1rc1.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/77/a4/44574aa42f2079c847d23daf457455806ec8a12a314bf21cc5520bc4fa05/micrOSDevToolKit-1.17.1.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/fd/de/0a088e4b5fb7a89d327af2b078e6d01aa176cf380f675445fb0c7fec51e2/FiberFusing-0.4.4-py3-none-any.whl
+[2023-07-05 13:46:29] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/ae/70/e9e36ee497e1ca95689683691a91e87a45ea0eaef484d6cb807a1f0a5959/nbsite-0.8.1a6.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/b7/a5/fedae383c302803bf6d29edbdbd742df06fc62fa9a03ebdba5b204271526/pyre-check-nightly-0.0.101688469066.tar.gz
+[2023-07-05 13:46:29] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23763208>=10485760
+[2023-07-05 13:46:29] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-05 13:46:29] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/87/bd/a2027dd72f02c69eb83fe4d335b5400978b5804a1f26c6c3baa4fe05c73d/dsna_complete-0.0.8.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyrp3]: Downloading https://files.pythonhosted.org/packages/ed/8a/1b8d176703bc025cc3e3c2b92c1857774293dd169856adf340a05f74e661/pyrp3-1.2.0.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-07-05 13:46:29] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230705/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-05 13:46:29] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e4/e5/14b68e9d0f4948078508934d22cc7a62f5e473d327c664855e3e03a8b063/cycode-0.2.6.dev7.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-07-05 13:46:29] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230705/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 13:46:29] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/32/30/306a007a134673131d2549bcce1e0613a98ff1f0439fc7d4f375af35df72/micrOSDevToolKit-1.17.2.tar.gz
+[2023-07-05 13:46:29] INFO root fetch - processPackages [dsna-complete]: executing diffoscope
+[2023-07-05 13:46:29] INFO root fetch - processPackages [dsna-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsna_complete-0.0.7.tar.gz tmp/dsna_complete-0.0.8.tar.gz --markdown 20230705/d/dsna-complete/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyrp3]: executing diffoscope
+[2023-07-05 13:46:29] INFO root fetch - processPackages [pyrp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrp3-1.1.1rc1.tar.gz tmp/pyrp3-1.2.0.tar.gz --markdown 20230705/p/pyrp3/1.1.1rc1-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 13:46:29] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/8c/27/3f277192ad8cac0c9c3fe57a435cc53ea7a060e2be9c026878412bbaf980/nbsite-0.8.2.tar.gz
+[2023-07-05 13:46:30] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/b3/77/acb32eacf725f6552727e3e8ef323f316ac8cbe659824042575defac810e/FiberFusing-0.4.5-py3-none-any.whl
+[2023-07-05 13:46:30] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-05 13:46:30] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.17.1.tar.gz tmp/micrOSDevToolKit-1.17.2.tar.gz --markdown 20230705/m/micrOSDevToolKit/1.17.1-1.17.2/diff.md --exclude *.pyd
+[2023-07-05 13:46:30] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2023-07-05 13:46:30] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-0.2.6.dev6.tar.gz tmp/cycode-0.2.6.dev7.tar.gz --markdown 20230705/c/cycode/0.2.6.dev6-0.2.6.dev7/diff.md --exclude *.pyd
+[2023-07-05 13:46:30] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-07-05 13:46:30] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.1a6.tar.gz tmp/nbsite-0.8.2.tar.gz --markdown 20230705/n/nbsite/0.8.1a6-0.8.2/diff.md --exclude *.pyd
+[2023-07-05 13:46:30] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2023-07-05 13:46:30] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-0.4.4-py3-none-any.whl.zip tmp/FiberFusing-0.4.5-py3-none-any.whl.zip --markdown 20230705/F/FiberFusing/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-05 13:46:31] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.7.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.8.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - main [MainThread]: End processing [dsna-complete]: success
+[2023-07-05 13:46:31] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-07-05 13:46:31] INFO root fetch - processPackages [pyrp3]: Remove: archive file [/home/abi/fetcher/tmp/pyrp3-1.1.1rc1.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - processPackages [pyrp3]: Remove: archive file [/home/abi/fetcher/tmp/pyrp3-1.2.0.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - main [MainThread]: End processing [pyrp3]: success
+[2023-07-05 13:46:31] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.1.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.2.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-05 13:46:31] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.1a6.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.2.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-07-05 13:46:31] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev6.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-0.2.6.dev7.tar.gz]
+[2023-07-05 13:46:31] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2023-07-05 13:46:32] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-07-05 13:46:32] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-07-05 13:46:32] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-07-05 13:46:32] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.4-py3-none-any.whl.zip]
+[2023-07-05 13:46:32] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.5-py3-none-any.whl.zip]
+[2023-07-05 13:46:32] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2023-07-05 13:46:32] INFO root fetch - main [MainThread]: Store serial: [18766437]
