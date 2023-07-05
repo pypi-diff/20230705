@@ -5842,3 +5842,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:00:12] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.22.tar.gz]
 [2023-07-05 04:00:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2023-07-05 04:00:12] INFO root fetch - main [MainThread]: Store serial: [18762070]
+[2023-07-05 04:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762070]
+[2023-07-05 04:05:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 04:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-form-validators
+[2023-07-05 04:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopack-tools
+[2023-07-05 04:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yplib
+[2023-07-05 04:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dimjournal
+[2023-07-05 04:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: empyrial
+[2023-07-05 04:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antcal
+[2023-07-05 04:05:22] INFO root fetch - processPackages [autopack-tools]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-05 04:05:22] INFO root fetch - processPackages [dimjournal]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-05 04:05:22] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 04:05:22] INFO root fetch - processPackages [empyrial]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-05 04:05:22] INFO root fetch - processPackages [yplib]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-07-05 04:05:22] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/d1/95/aece05aae422716fbb0649c5c057e5dc69047a9c3bb4358101b60c667706/empyrial-2.0.4.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [antcal]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-05 04:05:22] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/d6/13/dbe77c6eb43d8970ecd1d1048690b010eda4f85e543780d8640438bb7d5c/autopack_tools-0.2.5.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [dimjournal]: Downloading https://files.pythonhosted.org/packages/3e/1d/ce33af78605a0078c1c41193a90c4dd3b0045f5895943c600709f553b59c/dimjournal-1.0.5.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/db/eb/49e1cc3adcc0166cdf92dfa9f95154c12570c1a1abf9bee8d5c35a39a48b/yplib-2.2.5.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [antcal]: Downloading https://files.pythonhosted.org/packages/fb/85/e7492eb1fd3b7c9d772bd7b989f02966fd9d2854e46f814cefe339a48b0f/antcal-0.0.5.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/e5/fe/3a85c0a2b796abadc8c9810933f1333eb145df79cf6a8fa4b7f75e9118de/empyrial-2.0.5.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [dimjournal]: Downloading https://files.pythonhosted.org/packages/28/3a/37236515d1a0f73cc19c91b34c00892b095a1007c92afc156bbe61df64fc/dimjournal-1.0.6.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-07-05 04:05:22] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.4.tar.gz tmp/empyrial-2.0.5.tar.gz --markdown 20230705/e/empyrial/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-05 04:05:22] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/0c/fa/e3b2faae0ae5060a6be0ff817c783c85d8c868885f941975a4b61286fcca/yplib-2.2.6.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [autopack-tools]: Downloading https://files.pythonhosted.org/packages/a8/3e/3e2bec1c177c348a8eb2156bbb596c021025d078c8a5aa12f0b58dc7d659/autopack_tools-0.2.6.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [dimjournal]: executing diffoscope
+[2023-07-05 04:05:22] INFO root fetch - processPackages [dimjournal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimjournal-1.0.5.tar.gz tmp/dimjournal-1.0.6.tar.gz --markdown 20230705/d/dimjournal/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-05 04:05:22] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-05 04:05:22] INFO root fetch - processPackages [autopack-tools]: executing diffoscope
+[2023-07-05 04:05:22] INFO root fetch - processPackages [autopack-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopack_tools-0.2.5.tar.gz tmp/autopack_tools-0.2.6.tar.gz --markdown 20230705/a/autopack-tools/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-05 04:05:22] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-05 04:05:22] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.5.tar.gz tmp/yplib-2.2.6.tar.gz --markdown 20230705/y/yplib/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-07-05 04:05:22] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-05 04:05:22] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230705/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 04:05:22] INFO root fetch - processPackages [antcal]: Downloading https://files.pythonhosted.org/packages/7d/7a/2478abd4816ada6d9370b65fbf1e4a71698adae76ee75699a9f8e6564bb2/antcal-0.0.6.tar.gz
+[2023-07-05 04:05:23] INFO root fetch - processPackages [antcal]: executing diffoscope
+[2023-07-05 04:05:23] INFO root fetch - processPackages [antcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antcal-0.0.5.tar.gz tmp/antcal-0.0.6.tar.gz --markdown 20230705/a/antcal/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-05 04:05:23] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.4.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.5.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-07-05 04:05:23] INFO root fetch - processPackages [dimjournal]: Remove: archive file [/home/abi/fetcher/tmp/dimjournal-1.0.5.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - processPackages [dimjournal]: Remove: archive file [/home/abi/fetcher/tmp/dimjournal-1.0.6.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - main [MainThread]: End processing [dimjournal]: success
+[2023-07-05 04:05:23] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.5.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - processPackages [autopack-tools]: Remove: archive file [/home/abi/fetcher/tmp/autopack_tools-0.2.6.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - main [MainThread]: End processing [autopack-tools]: success
+[2023-07-05 04:05:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.5.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.6.tar.gz]
+[2023-07-05 04:05:23] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-05 04:05:24] INFO root fetch - processPackages [antcal]: Remove: archive file [/home/abi/fetcher/tmp/antcal-0.0.5.tar.gz]
+[2023-07-05 04:05:24] INFO root fetch - processPackages [antcal]: Remove: archive file [/home/abi/fetcher/tmp/antcal-0.0.6.tar.gz]
+[2023-07-05 04:05:24] INFO root fetch - main [MainThread]: End processing [antcal]: success
+[2023-07-05 04:05:24] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-05 04:05:24] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-05 04:05:24] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-05 04:05:24] INFO root fetch - main [MainThread]: Store serial: [18762087]
