@@ -7765,3 +7765,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:11:58] INFO root fetch - processPackages [cPyparsing]: Remove: archive file [/home/abi/fetcher/tmp/cPyparsing-2.4.7.2.0.0.tar.gz]
 [2023-07-05 06:11:58] INFO root fetch - main [MainThread]: End processing [cPyparsing]: success
 [2023-07-05 06:11:58] INFO root fetch - main [MainThread]: Store serial: [18762793]
+[2023-07-05 06:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762793]
+[2023-07-05 06:17:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-05 06:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c8connector
+[2023-07-05 06:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fusion-blossom
+[2023-07-05 06:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-offline
+[2023-07-05 06:17:08] INFO root fetch - processPackages [fastapi-offline]: New version: [1.6.0] Old Version: [1.5.3]
+[2023-07-05 06:17:08] INFO root fetch - processPackages [c8connector]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 06:17:08] INFO root fetch - processPackages [fusion-blossom]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-05 06:17:08] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/f5/41/1d6cf1d7e899ee8eb044b7c68250945e84ef99425e6d2c3658bbb903d580/c8connector-0.0.8.tar.gz
+[2023-07-05 06:17:08] INFO root fetch - processPackages [fastapi-offline]: Downloading https://files.pythonhosted.org/packages/f3/6b/f03a0680db33ac895a2c6d3a93c6edcb4037c7e4d3dce7552e27c3f540b1/fastapi_offline-1.5.3-py3-none-any.whl
+[2023-07-05 06:17:08] INFO root fetch - processPackages [fusion-blossom]: Downloading https://files.pythonhosted.org/packages/f4/ee/e7ec31caad6d66563a936d0da85fd0e0b153871425931ecb6f6e02f2b8b1/fusion_blossom-0.2.5.tar.gz
+[2023-07-05 06:17:08] INFO root fetch - processPackages [fastapi-offline]: Downloading https://files.pythonhosted.org/packages/be/48/ccdf8d15f194ebdba040b5fd153403525f6fb17ee9c0d1bd153fb56bc66d/fastapi_offline-1.6.0.tar.gz
+[2023-07-05 06:17:08] INFO root fetch - processPackages [c8connector]: Downloading https://files.pythonhosted.org/packages/a4/3a/d5e3d87254f7a5c4983165bbbf9752fb19c15dc5fbdaf03bbe5e5ba41f68/c8connector-0.0.9.tar.gz
+[2023-07-05 06:17:08] INFO root fetch - processPackages [c8connector]: executing diffoscope
+[2023-07-05 06:17:08] INFO root fetch - processPackages [c8connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8connector-0.0.8.tar.gz tmp/c8connector-0.0.9.tar.gz --markdown 20230705/c/c8connector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 06:17:08] INFO root fetch - processPackages [fusion-blossom]: Downloading https://files.pythonhosted.org/packages/0b/17/67efa969fa7f895b6265fc692f19038351bf50cf483e0f5acf41a484826f/fusion_blossom-0.2.6.tar.gz
+[2023-07-05 06:17:09] INFO root fetch - processPackages [fastapi-offline]: executing diffoscope
+[2023-07-05 06:17:09] INFO root fetch - processPackages [fastapi-offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_offline-1.5.3-py3-none-any.whl.zip tmp/fastapi_offline-1.6.0.tar.gz --markdown 20230705/f/fastapi-offline/1.5.3-1.6.0/diff.md --exclude *.pyd
+[2023-07-05 06:17:09] INFO root fetch - processPackages [fusion-blossom]: executing diffoscope
+[2023-07-05 06:17:09] INFO root fetch - processPackages [fusion-blossom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion_blossom-0.2.5.tar.gz tmp/fusion_blossom-0.2.6.tar.gz --markdown 20230705/f/fusion-blossom/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-05 06:17:09] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.8.tar.gz]
+[2023-07-05 06:17:09] INFO root fetch - processPackages [c8connector]: Remove: archive file [/home/abi/fetcher/tmp/c8connector-0.0.9.tar.gz]
+[2023-07-05 06:17:09] INFO root fetch - main [MainThread]: End processing [c8connector]: success
+[2023-07-05 06:17:10] INFO root fetch - processPackages [fastapi-offline]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_offline-1.5.3-py3-none-any.whl.zip]
+[2023-07-05 06:17:10] INFO root fetch - processPackages [fastapi-offline]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_offline-1.6.0.tar.gz]
+[2023-07-05 06:17:10] INFO root fetch - main [MainThread]: End processing [fastapi-offline]: success
+[2023-07-05 06:17:10] INFO root fetch - processPackages [fusion-blossom]: Remove: archive file [/home/abi/fetcher/tmp/fusion_blossom-0.2.5.tar.gz]
+[2023-07-05 06:17:10] INFO root fetch - processPackages [fusion-blossom]: Remove: archive file [/home/abi/fetcher/tmp/fusion_blossom-0.2.6.tar.gz]
+[2023-07-05 06:17:10] INFO root fetch - main [MainThread]: End processing [fusion-blossom]: success
+[2023-07-05 06:17:10] INFO root fetch - main [MainThread]: Store serial: [18762809]
