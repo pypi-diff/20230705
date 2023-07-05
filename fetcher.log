@@ -5761,3 +5761,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:54:57] INFO root fetch - processPackages [git-sim]: Remove: archive file [/home/abi/fetcher/tmp/git-sim-0.3.3.tar.gz]
 [2023-07-05 03:54:57] INFO root fetch - main [MainThread]: End processing [git-sim]: success
 [2023-07-05 03:54:57] INFO root fetch - main [MainThread]: Store serial: [18762032]
+[2023-07-05 04:00:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762032]
+[2023-07-05 04:00:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-dingtalk
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextpcg
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talk-codebase
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vban-cmd
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-wordpress
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-dummy
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Finance-JindowinDate
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazylinks
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dimjournal
+[2023-07-05 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bitbucket-pipeline-runner
+[2023-07-05 04:00:07] INFO root fetch - processPackages [bitbucket-pipeline-runner]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-05 04:00:07] WARNING root fetch - processPackages [Finance-JindowinDate]: Skipping, unable to determine old version
+[2023-07-05 04:00:07] INFO root fetch - main [MainThread]: End processing [Finance-JindowinDate] error
+[2023-07-05 04:00:07] WARNING root fetch - processPackages [dimjournal]: Skipping, unable to determine old version
+[2023-07-05 04:00:07] INFO root fetch - main [MainThread]: End processing [dimjournal] error
+[2023-07-05 04:00:07] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [vban-cmd]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.22] Old Version: [2.0.21]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Downloading https://files.pythonhosted.org/packages/36/f0/115059e9a6537cb94436735e89e179e0f85fc6244385d52b830220c23fd1/bitbucket_pipeline_runner-0.3.7.tar.gz
+[2023-07-05 04:00:07] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [git-dummy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [lazylinks]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-07-05 04:00:07] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-05 04:00:07] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-05 04:00:07] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Downloading https://files.pythonhosted.org/packages/b6/f9/ffb7c81411c3c7655878b9aec3f44d2379258a994372528ad05847aa82ca/bitbucket_pipeline_runner-0.3.8.tar.gz
+[2023-07-05 04:00:07] INFO root fetch - processPackages [lazylinks]: Downloading https://files.pythonhosted.org/packages/5b/69/b8dda184c2fb6f9387748a536ccece7ca110e3b4c6bb72ffd385eba74307/lazylinks-0.1.0.tar.gz
+[2023-07-05 04:00:07] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/16/ec/78119d6146518a404ab9bf84353701078fbb0e5c60148a3ade52239b1958/alibabacloud_dingtalk-2.0.21.tar.gz
+[2023-07-05 04:00:07] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/ef/20/2b86e7a5790b1ad38ea2a0509c3f2ad8cb545a1c54290595cea7d4124d4c/talk_codebase-0.1.37.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [git-dummy]: Downloading https://files.pythonhosted.org/packages/e7/90/8d78fdf0ed527ca4f20291b21a4d8636933bab6e532f258a4767fd289374/git-dummy-0.0.8.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/e8/4e/b59d68bf8819bac57d73b58eaa231815d10f9f5985bdccac9fb0b618a807/vban-cmd-2.0.0.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [bitbucket-pipeline-runner]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [bitbucket-pipeline-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitbucket_pipeline_runner-0.3.7.tar.gz tmp/bitbucket_pipeline_runner-0.3.8.tar.gz --markdown 20230705/b/bitbucket-pipeline-runner/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [lazylinks]: Downloading https://files.pythonhosted.org/packages/9d/ef/5371030072292b6e33fac14ad8cbefae7b70b89c0326b76ae79f0f6e21e0/lazylinks-0.1.1.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230705/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/49/9b/88aa402ec2cfb402e15aef0120d8e4d86e523ea058b1fc829ec8b7844474/talk_codebase-0.1.38.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230705/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [git-dummy]: Downloading https://files.pythonhosted.org/packages/af/06/f79913b38b6638983559dd1317fe706c40179c42dbdb72d0c6d1758ede81/git-dummy-0.0.9.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/16/aa/755037493fcc2dd6f489b8a742e0580879fd8090f4aeeb32913bd36c5557/vban_cmd-2.1.0.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b7/92/ce1a6770ad92d488b7a860e35fa03891d51abb561b1289387e40d6cad415/alibabacloud_dingtalk-2.0.22.tar.gz
+[2023-07-05 04:00:08] INFO root fetch - processPackages [lazylinks]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [lazylinks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinks-0.1.0.tar.gz tmp/lazylinks-0.1.1.tar.gz --markdown 20230705/l/lazylinks/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.37.tar.gz tmp/talk_codebase-0.1.38.tar.gz --markdown 20230705/t/talk-codebase/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [git-dummy]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [git-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-dummy-0.0.8.tar.gz tmp/git-dummy-0.0.9.tar.gz --markdown 20230705/g/git-dummy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban-cmd-2.0.0.tar.gz tmp/vban_cmd-2.1.0.tar.gz --markdown 20230705/v/vban-cmd/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-05 04:00:08] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2023-07-05 04:00:08] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.21.tar.gz tmp/alibabacloud_dingtalk-2.0.22.tar.gz --markdown 20230705/a/alibabacloud-dingtalk/2.0.21-2.0.22/diff.md --exclude *.pyd
+[2023-07-05 04:00:09] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Remove: archive file [/home/abi/fetcher/tmp/bitbucket_pipeline_runner-0.3.7.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [bitbucket-pipeline-runner]: Remove: archive file [/home/abi/fetcher/tmp/bitbucket_pipeline_runner-0.3.8.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [bitbucket-pipeline-runner]: success
+[2023-07-05 04:00:09] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-05 04:00:09] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-05 04:00:09] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.37.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.38.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-07-05 04:00:09] INFO root fetch - processPackages [lazylinks]: Remove: archive file [/home/abi/fetcher/tmp/lazylinks-0.1.0.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [lazylinks]: Remove: archive file [/home/abi/fetcher/tmp/lazylinks-0.1.1.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [lazylinks]: success
+[2023-07-05 04:00:09] INFO root fetch - processPackages [git-dummy]: Remove: archive file [/home/abi/fetcher/tmp/git-dummy-0.0.8.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [git-dummy]: Remove: archive file [/home/abi/fetcher/tmp/git-dummy-0.0.9.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [git-dummy]: success
+[2023-07-05 04:00:09] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban-cmd-2.0.0.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.1.0.tar.gz]
+[2023-07-05 04:00:09] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-07-05 04:00:12] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.21.tar.gz]
+[2023-07-05 04:00:12] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.22.tar.gz]
+[2023-07-05 04:00:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2023-07-05 04:00:12] INFO root fetch - main [MainThread]: Store serial: [18762070]
