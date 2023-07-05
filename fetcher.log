@@ -4815,3 +4815,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 02:45:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-07-05 02:45:06] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-07-05 02:45:06] INFO root fetch - main [MainThread]: Store serial: [18761644]
+[2023-07-05 02:50:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761644]
+[2023-07-05 02:50:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mass-driver-plugins
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-sites
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kubric-nightly
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmsplugin-blocks
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ou-tm351-jl-extensions
+[2023-07-05 02:50:15] INFO root fetch - processPackages [edc-sites]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 02:50:15] INFO root fetch - processPackages [cmsplugin-blocks]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-05 02:50:15] INFO root fetch - processPackages [mass-driver-plugins]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-05 02:50:15] INFO root fetch - processPackages [ou-tm351-jl-extensions]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 02:50:15] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307040046] Old Version: [4.9.2.dev202307040045]
+[2023-07-05 02:50:15] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.5] Old Version: [2023.7.4]
+[2023-07-05 02:50:16] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/6c/d2/0971f47310f1e86111203d2b71e42e2b45e7f8545d3e4b302c358963aaf6/edc-sites-0.3.8.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [cmsplugin-blocks]: Downloading https://files.pythonhosted.org/packages/53/66/de5b5a965bb3bf7d502e31165f720ef53cf3621ceb538cb4528bb3e12208/cmsplugin-blocks-1.1.0.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Downloading https://files.pythonhosted.org/packages/02/03/327ebb57042ab60fbec0a2d6ef9255f4e5c27f6883583425b4e68f5f772c/ou_tm351_jl_extensions-0.2.0.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/9d/62/a547ebb41edbe12df52106baa8e3b5684424de3a153ef9a4d365f17d4e6f/tfds-nightly-4.9.2.dev202307040045.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [mass-driver-plugins]: Downloading https://files.pythonhosted.org/packages/73/7f/34080737285a58e2d0c5203ba2ce7f4ac139a6c3045bc87c4ea434538ee8/mass_driver_plugins-0.3.2.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/58/95/533a1f0320b619311904ddee77ebcc0358a650a2cc404a03d1daebf589d2/kubric-nightly-2023.7.4.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [cmsplugin-blocks]: Downloading https://files.pythonhosted.org/packages/4e/01/7be5ada659bc444e459b76104b0b36edc391727b36333d9831674dbfcfc8/cmsplugin-blocks-1.2.0.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Downloading https://files.pythonhosted.org/packages/de/f8/6308451b76bb3083ee0e7e26be47fbc0eb253dc777eea28dc744c0234d7e/ou_tm351_jl_extensions-0.2.1.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [mass-driver-plugins]: Downloading https://files.pythonhosted.org/packages/bf/d3/f3491a7f64476da2da3dd8149a4e697345b2e554ebc9aa3ff4864a6ca678/mass_driver_plugins-0.4.0.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/bf/6c/7f2f9028a3091c72ce4b603a03d710acdc85c0c4170ed43d45ff5d2eb120/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl
+[2023-07-05 02:50:16] INFO root fetch - processPackages [mass-driver-plugins]: executing diffoscope
+[2023-07-05 02:50:16] INFO root fetch - processPackages [mass-driver-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_driver_plugins-0.3.2.tar.gz tmp/mass_driver_plugins-0.4.0.tar.gz --markdown 20230705/m/mass-driver-plugins/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-05 02:50:16] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/79/f7/bfa354798821c96c6a80fbdd260e80bfc01f69526b53ced85b0b8295f296/kubric-nightly-2023.7.5.tar.gz
+[2023-07-05 02:50:16] INFO root fetch - processPackages [cmsplugin-blocks]: executing diffoscope
+[2023-07-05 02:50:16] INFO root fetch - processPackages [cmsplugin-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsplugin-blocks-1.1.0.tar.gz tmp/cmsplugin-blocks-1.2.0.tar.gz --markdown 20230705/c/cmsplugin-blocks/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 02:50:16] INFO root fetch - processPackages [ou-tm351-jl-extensions]: executing diffoscope
+[2023-07-05 02:50:16] INFO root fetch - processPackages [ou-tm351-jl-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_tm351_jl_extensions-0.2.0.tar.gz tmp/ou_tm351_jl_extensions-0.2.1.tar.gz --markdown 20230705/o/ou-tm351-jl-extensions/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 02:50:16] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-05 02:50:16] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.4.tar.gz tmp/kubric-nightly-2023.7.5.tar.gz --markdown 20230705/k/kubric-nightly/2023.7.4-2023.7.5/diff.md --exclude *.pyd
+[2023-07-05 02:50:16] INFO root fetch - processPackages [edc-sites]: Downloading https://files.pythonhosted.org/packages/93/47/2d0fe4fb111586f78d184cca78fdb1a6d3b4edda0ca7b0d1b76cb2c2af13/edc-sites-0.3.9.tar.gz
+[2023-07-05 02:50:17] INFO root fetch - processPackages [edc-sites]: executing diffoscope
+[2023-07-05 02:50:17] INFO root fetch - processPackages [edc-sites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-sites-0.3.8.tar.gz tmp/edc-sites-0.3.9.tar.gz --markdown 20230705/e/edc-sites/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 02:50:17] INFO root fetch - processPackages [mass-driver-plugins]: Remove: archive file [/home/abi/fetcher/tmp/mass_driver_plugins-0.3.2.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - processPackages [mass-driver-plugins]: Remove: archive file [/home/abi/fetcher/tmp/mass_driver_plugins-0.4.0.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - main [MainThread]: End processing [mass-driver-plugins]: success
+[2023-07-05 02:50:17] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ou_tm351_jl_extensions-0.2.0.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - processPackages [ou-tm351-jl-extensions]: Remove: archive file [/home/abi/fetcher/tmp/ou_tm351_jl_extensions-0.2.1.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - main [MainThread]: End processing [ou-tm351-jl-extensions]: success
+[2023-07-05 02:50:17] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-05 02:50:17] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307040045.tar.gz tmp/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl.zip --markdown 20230705/t/tfds-nightly/4.9.2.dev202307040045-4.9.2.dev202307040046/diff.md --exclude *.pyd
+[2023-07-05 02:50:17] INFO root fetch - processPackages [cmsplugin-blocks]: Remove: archive file [/home/abi/fetcher/tmp/cmsplugin-blocks-1.1.0.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - processPackages [cmsplugin-blocks]: Remove: archive file [/home/abi/fetcher/tmp/cmsplugin-blocks-1.2.0.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - main [MainThread]: End processing [cmsplugin-blocks]: success
+[2023-07-05 02:50:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.4.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.5.tar.gz]
+[2023-07-05 02:50:17] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-05 02:50:18] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.8.tar.gz]
+[2023-07-05 02:50:18] INFO root fetch - processPackages [edc-sites]: Remove: archive file [/home/abi/fetcher/tmp/edc-sites-0.3.9.tar.gz]
+[2023-07-05 02:50:18] INFO root fetch - main [MainThread]: End processing [edc-sites]: success
+[2023-07-05 02:50:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307040045.tar.gz]
+[2023-07-05 02:50:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl.zip]
+[2023-07-05 02:50:21] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-05 02:50:21] INFO root fetch - main [MainThread]: Store serial: [18761661]
