@@ -21927,3 +21927,266 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 17:06:09] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.0.0b0-cp38-cp38-manylinux2014_x86_64.whl.zip]
 [2023-07-05 17:06:09] INFO root fetch - main [MainThread]: End processing [secretflow]: success
 [2023-07-05 17:06:09] INFO root fetch - main [MainThread]: Store serial: [18769021]
+[2023-07-05 17:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18769021]
+[2023-07-05 17:11:21] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-target-mssql
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-containeranalysis
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-dataproc
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gd-rpc
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idoctorai
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appconfig-cli
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: starvote
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2023-07-05 17:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-cloud-gsuiteaddons
+[2023-07-05 17:11:21] INFO root fetch - processPackages [idoctorai]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [coiled]: New version: [0.8.0] Old Version: [0.7.9.dev9]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/71/07/a45a6993d21f4d504dcf9c3de679301896d49b59732a58e0e9e399b833be/idoctorai-0.6.7.tar.gz
+[2023-07-05 17:11:21] WARNING root fetch - processPackages [gd-rpc]: Skipping, unable to determine old version
+[2023-07-05 17:11:21] INFO root fetch - processPackages [gd-rpc]: Start processing: google-cloud-dlp
+[2023-07-05 17:11:21] INFO root fetch - main [MainThread]: End processing [gd-rpc] error
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-dataproc]: New version: [5.4.2] Old Version: [5.4.1]
+[2023-07-05 17:11:21] WARNING root fetch - processPackages [appconfig-cli]: Skipping, unable to determine old version
+[2023-07-05 17:11:21] INFO root fetch - processPackages [appconfig-cli]: Start processing: sanic-beskar
+[2023-07-05 17:11:21] INFO root fetch - main [MainThread]: End processing [appconfig-cli] error
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-containeranalysis]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [starvote]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-07-05 17:11:21] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-dataproc]: Downloading https://files.pythonhosted.org/packages/0c/34/ca7342c6745048e4e7176678fffea3cd5df4b4a21582ef48b6eee1ad65dd/google-cloud-dataproc-5.4.1.tar.gz
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-dlp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-05 17:11:21] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/47/28/bece1abc54ffab5f0cddaff5d6f1e02fac1343bfb72976d5794f50dad748/macrometa-target-mssql-0.0.8.tar.gz
+[2023-07-05 17:11:21] INFO root fetch - processPackages [sanic-beskar]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: Downloading https://files.pythonhosted.org/packages/25/9e/621fbe79444eb7683d3d3cc0d752b03fc3746091ec2f63a84011bd383a73/google-cloud-gsuiteaddons-0.3.1.tar.gz
+[2023-07-05 17:11:21] INFO root fetch - processPackages [google-cloud-containeranalysis]: Downloading https://files.pythonhosted.org/packages/25/eb/763336fe6f59845800a2c57b1e4a72a25da2c4d078e4f8afbe58f1fe2689/google-cloud-containeranalysis-2.9.2.tar.gz
+[2023-07-05 17:11:21] INFO root fetch - processPackages [idoctorai]: Downloading https://files.pythonhosted.org/packages/6e/c6/c0fc26054c8697bed9af152ed9e55a2098cd3eb001693c8b21b10fcfe152/idoctorai-0.6.8.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dlp]: Downloading https://files.pythonhosted.org/packages/4e/38/56ee5da5fc56aa20354b504e22302b1eacf3295adea93061ca4d538fae13/google-cloud-dlp-3.9.1.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/bb/32/fe961b9cd5d4f6e96ef150abe631971aaf84cbb321872c0edcda6ae837f3/starvote-2.0.4.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/1c/9e/7f71adc474cca2302a47ca2d38c7da0f554e9733a1b0f28fe41ee67ac27e/coiled-0.8.0.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [idoctorai]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [idoctorai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoctorai-0.6.7.tar.gz tmp/idoctorai-0.6.8.tar.gz --markdown 20230705/i/idoctorai/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dataproc]: Downloading https://files.pythonhosted.org/packages/f9/3b/6d2ddcc3a3a988ccedcee79c32b2d4db3690637b4088631be76a972d6e3c/google-cloud-dataproc-5.4.2.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev9.tar.gz tmp/coiled-0.8.0.tar.gz --markdown 20230705/c/coiled/0.7.9.dev9-0.8.0/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [sanic-beskar]: Downloading https://files.pythonhosted.org/packages/41/25/08c3466d3679fc227fa675a257332b33952f194f2dfd0de52b7f2898f268/sanic_beskar-2.2.8.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230705/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dataproc]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dataproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dataproc-5.4.1.tar.gz tmp/google-cloud-dataproc-5.4.2.tar.gz --markdown 20230705/g/google-cloud-dataproc/5.4.1-5.4.2/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: Downloading https://files.pythonhosted.org/packages/3a/a9/da9766c310c4283793e4c9926c390e4bb810e2df12b535a93556d4328c11/google-cloud-gsuiteaddons-0.3.2.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-containeranalysis]: Downloading https://files.pythonhosted.org/packages/ab/0a/e84aad1068f1f3fe722fe4caa2acf83f53ebec63392563892aba1ed0ba24/google-cloud-containeranalysis-2.9.3.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.8.tar.gz tmp/macrometa-target-mssql-0.0.9.tar.gz --markdown 20230705/m/macrometa-target-mssql/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dlp]: Downloading https://files.pythonhosted.org/packages/63/d0/49320e1ac16298fb7c13b9e4aa3161b5272607ccb0ee00d280bf2a926e71/google-cloud-dlp-3.9.2.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-gsuiteaddons-0.3.1.tar.gz tmp/google-cloud-gsuiteaddons-0.3.2.tar.gz --markdown 20230705/g/google-cloud-gsuiteaddons/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-containeranalysis]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-containeranalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-containeranalysis-2.9.2.tar.gz tmp/google-cloud-containeranalysis-2.9.3.tar.gz --markdown 20230705/g/google-cloud-containeranalysis/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-05 17:11:22] INFO root fetch - processPackages [sanic-beskar]: Downloading https://files.pythonhosted.org/packages/9c/65/ebab60f312ea8d6a5b48c055c9a0b10625520fc5e8068f0e156f11bb6c83/sanic_beskar-2.2.9.tar.gz
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dlp]: executing diffoscope
+[2023-07-05 17:11:22] INFO root fetch - processPackages [google-cloud-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dlp-3.9.1.tar.gz tmp/google-cloud-dlp-3.9.2.tar.gz --markdown 20230705/g/google-cloud-dlp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-05 17:11:23] INFO root fetch - processPackages [sanic-beskar]: executing diffoscope
+[2023-07-05 17:11:23] INFO root fetch - processPackages [sanic-beskar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic_beskar-2.2.8.tar.gz tmp/sanic_beskar-2.2.9.tar.gz --markdown 20230705/s/sanic-beskar/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-05 17:11:23] INFO root fetch - processPackages [starvote]: Downloading https://files.pythonhosted.org/packages/08/7c/314d56c580670109ad7fc63e062a5fd6ad0de5145f87d3d04253f01b4351/starvote-2.0.5.tar.gz
+[2023-07-05 17:11:23] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.7.tar.gz]
+[2023-07-05 17:11:23] INFO root fetch - processPackages [idoctorai]: Remove: archive file [/home/abi/fetcher/tmp/idoctorai-0.6.8.tar.gz]
+[2023-07-05 17:11:23] INFO root fetch - processPackages [idoctorai]: Start processing: google-cloud-build
+[2023-07-05 17:11:23] INFO root fetch - main [MainThread]: End processing [idoctorai]: success
+[2023-07-05 17:11:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-05 17:11:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-05 17:11:23] INFO root fetch - processPackages [few-shot-priming]: Start processing: mlflow-registry-mongostore
+[2023-07-05 17:11:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-05 17:11:23] INFO root fetch - processPackages [google-cloud-build]: New version: [3.9.3] Old Version: [3.9.2]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.8.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [macrometa-target-mssql]: Start processing: tjajsd
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-07-05 17:11:24] WARNING root fetch - processPackages [mlflow-registry-mongostore]: Skipping, unable to determine old version
+[2023-07-05 17:11:24] INFO root fetch - processPackages [mlflow-registry-mongostore]: Start processing: marionette-predeployed
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [mlflow-registry-mongostore] error
+[2023-07-05 17:11:24] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-07-05 17:11:24] WARNING root fetch - processPackages [tjajsd]: Skipping, unable to determine old version
+[2023-07-05 17:11:24] INFO root fetch - processPackages [tjajsd]: Start processing: google-cloud-dialogflow-cx
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [tjajsd] error
+[2023-07-05 17:11:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.0.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [coiled]: Start processing: gapic-generator
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-05 17:11:24] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [starvote]: executing diffoscope
+[2023-07-05 17:11:24] INFO root fetch - processPackages [starvote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starvote-2.0.4.tar.gz tmp/starvote-2.0.5.tar.gz --markdown 20230705/s/starvote/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-build]: Downloading https://files.pythonhosted.org/packages/a7/a3/d24db77d483ff3030d14c86e974b1cb6fb32619e9e48f886f505d59b9343/google-cloud-build-3.9.2.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [gapic-generator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gsuiteaddons-0.3.1.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gsuiteaddons-0.3.2.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-gsuiteaddons]: Start processing: dissect.util
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [google-cloud-gsuiteaddons]: success
+[2023-07-05 17:11:24] INFO root fetch - processPackages [dissect.util]: New version: [3.9.dev4] Old Version: [3.9.dev3]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-containeranalysis]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-containeranalysis-2.9.2.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-containeranalysis]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-containeranalysis-2.9.3.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-containeranalysis]: Start processing: directory-forms-api-client
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [google-cloud-containeranalysis]: success
+[2023-07-05 17:11:24] INFO root fetch - processPackages [sanic-beskar]: Remove: archive file [/home/abi/fetcher/tmp/sanic_beskar-2.2.8.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [sanic-beskar]: Remove: archive file [/home/abi/fetcher/tmp/sanic_beskar-2.2.9.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [sanic-beskar]: Start processing: dissect.thumbcache
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [sanic-beskar]: success
+[2023-07-05 17:11:24] INFO root fetch - processPackages [gapic-generator]: Downloading https://files.pythonhosted.org/packages/d1/8e/fc63e6060aacb533da9c1a39aed87a2b26b06b1e2b2373f2c3474a23e84a/gapic-generator-1.9.0.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/d2/4e/f9983065e8ad5db325fe418f049df121d2a4c9a3f2c2fde338a11907b09c/dissect.util-3.9.dev3.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [directory-forms-api-client]: New version: [7.2.1] Old Version: [7.2.0]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-dlp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dlp-3.9.1.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Downloading https://files.pythonhosted.org/packages/4b/56/1b68ce25ed638d22c6ba1e8ef62c176a9dce78654aa24c8d886bc56e874b/google-cloud-dialogflow-cx-1.9.0.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-dlp]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dlp-3.9.2.tar.gz]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-dlp]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-05 17:11:24] INFO root fetch - main [MainThread]: End processing [google-cloud-dlp]: success
+[2023-07-05 17:11:24] INFO root fetch - processPackages [google-cloud-build]: Downloading https://files.pythonhosted.org/packages/3c/17/46c12ddd8e2929d83b09384ed72971f49645b94e0d23459f9863941ce66a/google-cloud-build-3.9.3.tar.gz
+[2023-07-05 17:11:24] INFO root fetch - processPackages [dissect.thumbcache]: New version: [1.5.dev2] Old Version: [1.5.dev1]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-07-05 17:11:24] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230705/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-07-05 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-05 17:11:24] INFO root fetch - processPackages [directory-forms-api-client]: Downloading https://files.pythonhosted.org/packages/5a/1b/0c2250ec907ea611694ee978737c8613e425c888a349027df5286f9d7cd1/directory_forms_api_client-7.2.0-py3-none-any.whl
+[2023-07-05 17:11:24] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/d1/aa/66e37692a2efd0451b4ac2f2efc6b4331faf62ba430a35a5c892442ffd1d/alibabacloud_rds20140815_py2-1.1.4.tar.gz
+[2023-07-05 17:11:25] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/45/f4/2951657672559b5014e7705318e4d4f0b822b949a4dbe1e5296c8d20eb1e/dissect.util-3.9.dev4.tar.gz
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-build]: executing diffoscope
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-build-3.9.2.tar.gz tmp/google-cloud-build-3.9.3.tar.gz --markdown 20230705/g/google-cloud-build/3.9.2-3.9.3/diff.md --exclude *.pyd
+[2023-07-05 17:11:25] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/2c/fe/25d2893f409c323073ec72c1d49ee957bdd10cfb234928e7393b22e7ee42/dissect.thumbcache-1.5.dev1.tar.gz
+[2023-07-05 17:11:25] INFO root fetch - processPackages [gapic-generator]: Downloading https://files.pythonhosted.org/packages/18/b8/edff8de1cdf35688513694fcb96714591da0c31428d9193add5cb31c6cdf/gapic-generator-1.9.1.tar.gz
+[2023-07-05 17:11:25] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-07-05 17:11:25] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.9.dev3.tar.gz tmp/dissect.util-3.9.dev4.tar.gz --markdown 20230705/d/dissect.util/3.9.dev3-3.9.dev4/diff.md --exclude *.pyd
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Downloading https://files.pythonhosted.org/packages/26/2a/2564520aaa17242073d6512f99d52960f9759b54ab9315d43a5cdb3cf723/google-cloud-dialogflow-cx-1.9.1.tar.gz
+[2023-07-05 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/bc/1e/8cc6fbb254347691ae568590fa5c3b00c0cd4878886edf7e17e9f7b39f3d/alibabacloud_rds20140815_py2-1.1.5.tar.gz
+[2023-07-05 17:11:25] INFO root fetch - processPackages [directory-forms-api-client]: Downloading https://files.pythonhosted.org/packages/fb/4d/14e1ea877212016ee675385d40c922510e25627c0911b161b16dec1a3ae9/directory_forms_api_client-7.2.1-py3-none-any.whl
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: executing diffoscope
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dialogflow-cx-1.9.0.tar.gz tmp/google-cloud-dialogflow-cx-1.9.1.tar.gz --markdown 20230705/g/google-cloud-dialogflow-cx/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dataproc]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dataproc-5.4.1.tar.gz]
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dataproc]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dataproc-5.4.2.tar.gz]
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dataproc]: Start processing: google-cloud-dialogflow
+[2023-07-05 17:11:25] INFO root fetch - main [MainThread]: End processing [google-cloud-dataproc]: success
+[2023-07-05 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-05 17:11:25] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.1.4.tar.gz tmp/alibabacloud_rds20140815_py2-1.1.5.tar.gz --markdown 20230705/a/alibabacloud-rds20140815-py2/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-05 17:11:25] INFO root fetch - processPackages [gapic-generator]: executing diffoscope
+[2023-07-05 17:11:25] INFO root fetch - processPackages [gapic-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gapic-generator-1.9.0.tar.gz tmp/gapic-generator-1.9.1.tar.gz --markdown 20230705/g/gapic-generator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:11:25] INFO root fetch - processPackages [directory-forms-api-client]: executing diffoscope
+[2023-07-05 17:11:25] INFO root fetch - processPackages [directory-forms-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_forms_api_client-7.2.0-py3-none-any.whl.zip tmp/directory_forms_api_client-7.2.1-py3-none-any.whl.zip --markdown 20230705/d/directory-forms-api-client/7.2.0-7.2.1/diff.md --exclude *.pyd
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dialogflow]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-05 17:11:25] INFO root fetch - processPackages [google-cloud-dialogflow]: Downloading https://files.pythonhosted.org/packages/c5/62/31df8cc11aa654c6b6359c28f342eaa7f82ddd5bdff86757eef100fe7972/google-cloud-dialogflow-2.9.0.tar.gz
+[2023-07-05 17:11:26] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [marionette-predeployed]: Start processing: dissect.target
+[2023-07-05 17:11:26] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-dialogflow]: Downloading https://files.pythonhosted.org/packages/97/bc/0f17109de412cce4068daa19d46d81560808b13d36f8a3e45beaa90eec26/google-cloud-dialogflow-2.9.1.tar.gz
+[2023-07-05 17:11:26] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.target]: Start processing: google-cloud-asset
+[2023-07-05 17:11:26] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.thumbcache]: Downloading https://files.pythonhosted.org/packages/4d/d1/dbb80fcb97429da9f7939cec8c8008f05f0f9de0547f06ec8f2426f95e47/dissect.thumbcache-1.5.dev2.tar.gz
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-build]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-build-3.9.2.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-build]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-build-3.9.3.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-build]: Start processing: google-cloud-bigquery-datatransfer
+[2023-07-05 17:11:26] INFO root fetch - main [MainThread]: End processing [google-cloud-build]: success
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-asset]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-dialogflow]: executing diffoscope
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-dialogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dialogflow-2.9.0.tar.gz tmp/google-cloud-dialogflow-2.9.1.tar.gz --markdown 20230705/g/google-cloud-dialogflow/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:11:26] INFO root fetch - processPackages [starvote]: Remove: archive file [/home/abi/fetcher/tmp/starvote-2.0.4.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [starvote]: Remove: archive file [/home/abi/fetcher/tmp/starvote-2.0.5.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [starvote]: Start processing: onnx2kerastl
+[2023-07-05 17:11:26] INFO root fetch - main [MainThread]: End processing [starvote]: success
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev3.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev4.tar.gz]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [dissect.util]: Start processing: alibabacloud-rds20140815
+[2023-07-05 17:11:26] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-07-05 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [directory-forms-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_forms_api_client-7.2.0-py3-none-any.whl.zip]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [directory-forms-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_forms_api_client-7.2.1-py3-none-any.whl.zip]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [directory-forms-api-client]: Start processing: dissect.squashfs
+[2023-07-05 17:11:26] INFO root fetch - main [MainThread]: End processing [directory-forms-api-client]: success
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-asset]: Downloading https://files.pythonhosted.org/packages/1f/44/90a942249abc3e42a947f9774d2e7938a940a3bd9d6c98d53ccf8b37dd16/google-cloud-asset-3.9.0.tar.gz
+[2023-07-05 17:11:26] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 17:11:26] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/21/2d/a0f03de487260dd625d414c12caf9244c5abc83b33cdecdd7bea081bb5bc/alibabacloud_rds20140815-2.2.3.tar.gz
+[2023-07-05 17:11:26] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Downloading https://files.pythonhosted.org/packages/e3/bb/a08f7bbafdb50407784ad14b88507adea50c729ab56fd946b08b61750c78/google-cloud-bigquery-datatransfer-3.8.0.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.4.tar.gz]
+[2023-07-05 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.5.tar.gz]
+[2023-07-05 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Start processing: google-cloud-automl
+[2023-07-05 17:11:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-05 17:11:27] INFO root fetch - processPackages [dissect.squashfs]: New version: [1.3.dev3] Old Version: [1.3.dev2]
+[2023-07-05 17:11:27] INFO root fetch - processPackages [dissect.thumbcache]: executing diffoscope
+[2023-07-05 17:11:27] INFO root fetch - processPackages [dissect.thumbcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.thumbcache-1.5.dev1.tar.gz tmp/dissect.thumbcache-1.5.dev2.tar.gz --markdown 20230705/d/dissect.thumbcache/1.5.dev1-1.5.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-automl]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-07-05 17:11:27] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/aa/e9/d4f7b0c355fe4d7f89b83bd91c0753252d0a0ddccaa7ef42ac6f9faa5426/alibabacloud_rds20140815-2.2.4.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/83/c6/e2636b11f14d063b271cc99d0334ed2f5587d7cb71a796d2ac06295730a6/dissect.squashfs-1.3.dev2.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-05 17:11:27] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.3.tar.gz tmp/alibabacloud_rds20140815-2.2.4.tar.gz --markdown 20230705/a/alibabacloud-rds20140815/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-automl]: Downloading https://files.pythonhosted.org/packages/c5/24/e74f110ccd9deb1c4413bd3485f646987fbf6e3c8e531ea095cee4ce45e8/google-cloud-automl-2.8.3.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-asset]: Downloading https://files.pythonhosted.org/packages/71/ca/6cdb778553dcd3e11fff4b4c19b0a2ef194898a5c7c052d7778975de168e/google-cloud-asset-3.9.1.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Downloading https://files.pythonhosted.org/packages/6a/e1/00b33527eb89d9812f47b2c44bbd59968f6d4e956798306e994dabb2954c/google-cloud-bigquery-datatransfer-3.9.0.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-asset]: executing diffoscope
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-asset-3.9.0.tar.gz tmp/google-cloud-asset-3.9.1.tar.gz --markdown 20230705/g/google-cloud-asset/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:11:27] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-05 17:11:27] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230705/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: executing diffoscope
+[2023-07-05 17:11:27] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-datatransfer-3.8.0.tar.gz tmp/google-cloud-bigquery-datatransfer-3.9.0.tar.gz --markdown 20230705/g/google-cloud-bigquery-datatransfer/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:11:27] INFO root fetch - processPackages [dissect.squashfs]: Downloading https://files.pythonhosted.org/packages/c9/e0/336eb5dde93a2c976f02a875968352e98ac1c8c9556c6a979f87e3baae62/dissect.squashfs-1.3.dev3.tar.gz
+[2023-07-05 17:11:28] INFO root fetch - processPackages [google-cloud-automl]: Downloading https://files.pythonhosted.org/packages/08/7b/9203c709444dea6060a10686c3e448f52e6b9a1913a003e4f159e4614092/google-cloud-automl-2.9.0.tar.gz
+[2023-07-05 17:11:28] INFO root fetch - processPackages [dissect.squashfs]: executing diffoscope
+[2023-07-05 17:11:28] INFO root fetch - processPackages [dissect.squashfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.squashfs-1.3.dev2.tar.gz tmp/dissect.squashfs-1.3.dev3.tar.gz --markdown 20230705/d/dissect.squashfs/1.3.dev2-1.3.dev3/diff.md --exclude *.pyd
+[2023-07-05 17:11:28] INFO root fetch - processPackages [google-cloud-automl]: executing diffoscope
+[2023-07-05 17:11:28] INFO root fetch - processPackages [google-cloud-automl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-automl-2.8.3.tar.gz tmp/google-cloud-automl-2.9.0.tar.gz --markdown 20230705/g/google-cloud-automl/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:11:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.3.tar.gz]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.4.tar.gz]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: Start processing: dissect.sql
+[2023-07-05 17:11:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-05 17:11:29] INFO root fetch - processPackages [dissect.sql]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [onnx2kerastl]: Start processing: fwdviewpy
+[2023-07-05 17:11:29] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-05 17:11:29] INFO root fetch - processPackages [dissect.sql]: Downloading https://files.pythonhosted.org/packages/14/52/9d278c65be0b3f919053de6cbefdc1e30888775b13484b2a7ca8d43f809c/dissect.sql-3.6.dev1.tar.gz
+[2023-07-05 17:11:29] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-05 17:11:29] INFO root fetch - processPackages [dissect.squashfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.squashfs-1.3.dev2.tar.gz]
+[2023-07-05 17:11:29] INFO root fetch - processPackages [dissect.squashfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.squashfs-1.3.dev3.tar.gz]
+[2023-07-05 17:11:29] INFO root fetch - main [MainThread]: End processing [dissect.squashfs]: success
+[2023-07-05 17:11:30] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-datatransfer-3.8.0.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-datatransfer-3.9.0.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery-datatransfer]: success
+[2023-07-05 17:11:30] INFO root fetch - processPackages [dissect.thumbcache]: Remove: archive file [/home/abi/fetcher/tmp/dissect.thumbcache-1.5.dev1.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - processPackages [dissect.thumbcache]: Remove: archive file [/home/abi/fetcher/tmp/dissect.thumbcache-1.5.dev2.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - main [MainThread]: End processing [dissect.thumbcache]: success
+[2023-07-05 17:11:30] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-05 17:11:30] INFO root fetch - processPackages [dissect.sql]: Downloading https://files.pythonhosted.org/packages/2e/11/cdd8b7661daef4591be535d495bb06645476b49197e8bf5a558e6a21fe19/dissect.sql-3.6.dev2.tar.gz
+[2023-07-05 17:11:30] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-05 17:11:30] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230705/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:11:30] INFO root fetch - processPackages [dissect.sql]: executing diffoscope
+[2023-07-05 17:11:30] INFO root fetch - processPackages [dissect.sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.sql-3.6.dev1.tar.gz tmp/dissect.sql-3.6.dev2.tar.gz --markdown 20230705/d/dissect.sql/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:11:30] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-cx-1.9.0.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - processPackages [google-cloud-dialogflow-cx]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-cx-1.9.1.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - main [MainThread]: End processing [google-cloud-dialogflow-cx]: success
+[2023-07-05 17:11:30] INFO root fetch - processPackages [google-cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-asset-3.9.0.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - processPackages [google-cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-asset-3.9.1.tar.gz]
+[2023-07-05 17:11:30] INFO root fetch - main [MainThread]: End processing [google-cloud-asset]: success
+[2023-07-05 17:11:31] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-05 17:11:31] INFO root fetch - processPackages [dissect.sql]: Remove: archive file [/home/abi/fetcher/tmp/dissect.sql-3.6.dev1.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - processPackages [dissect.sql]: Remove: archive file [/home/abi/fetcher/tmp/dissect.sql-3.6.dev2.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - main [MainThread]: End processing [dissect.sql]: success
+[2023-07-05 17:11:31] INFO root fetch - processPackages [google-cloud-automl]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-automl-2.8.3.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - processPackages [google-cloud-automl]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-automl-2.9.0.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - main [MainThread]: End processing [google-cloud-automl]: success
+[2023-07-05 17:11:31] INFO root fetch - processPackages [google-cloud-dialogflow]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-2.9.0.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - processPackages [google-cloud-dialogflow]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dialogflow-2.9.1.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - main [MainThread]: End processing [google-cloud-dialogflow]: success
+[2023-07-05 17:11:31] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.0.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.1.tar.gz]
+[2023-07-05 17:11:31] INFO root fetch - main [MainThread]: End processing [gapic-generator]: success
+[2023-07-05 17:11:31] INFO root fetch - main [MainThread]: Store serial: [18769137]
