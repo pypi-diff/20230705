@@ -5899,3 +5899,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:05:24] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
 [2023-07-05 04:05:24] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
 [2023-07-05 04:05:24] INFO root fetch - main [MainThread]: Store serial: [18762087]
+[2023-07-05 04:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762087]
+[2023-07-05 04:10:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 04:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antcal
+[2023-07-05 04:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antcal
+[2023-07-05 04:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Finance-JindowinDate
+[2023-07-05 04:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikGapps
+[2023-07-05 04:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sj-tool
+[2023-07-05 04:10:32] INFO root fetch - processPackages [antcal]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-05 04:10:32] INFO root fetch - processPackages [Finance-JindowinDate]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 04:10:32] INFO root fetch - processPackages [antcal]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-05 04:10:32] INFO root fetch - processPackages [NikGapps]: New version: [1.58] Old Version: [1.57]
+[2023-07-05 04:10:32] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 04:10:32] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 04:10:32] INFO root fetch - processPackages [Finance-JindowinDate]: Downloading https://files.pythonhosted.org/packages/0c/ba/4a027e2923d8dd7efb4adcd991dbda7393937295ab6b574bccbc248d6f32/Finance-JindowinDate-0.0.2.tar.gz
+[2023-07-05 04:10:32] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/94/15/1ccf1622928379eeee02df34fdb1bcf0380b62ba253aad9403966e8d3e4e/NikGapps-1.57.tar.gz
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: Downloading https://files.pythonhosted.org/packages/7d/7a/2478abd4816ada6d9370b65fbf1e4a71698adae76ee75699a9f8e6564bb2/antcal-0.0.6.tar.gz
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: Downloading https://files.pythonhosted.org/packages/7d/7a/2478abd4816ada6d9370b65fbf1e4a71698adae76ee75699a9f8e6564bb2/antcal-0.0.6.tar.gz
+[2023-07-05 04:10:33] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564669>=10485760
+[2023-07-05 04:10:33] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-05 04:10:33] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 04:10:33] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 04:10:33] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: Downloading https://files.pythonhosted.org/packages/57/39/5b52492c832a7dea3e3929091c5894e5cd13323bbd146987c22a3305eb66/antcal-0.0.8.tar.gz
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: Downloading https://files.pythonhosted.org/packages/57/39/5b52492c832a7dea3e3929091c5894e5cd13323bbd146987c22a3305eb66/antcal-0.0.8.tar.gz
+[2023-07-05 04:10:33] INFO root fetch - processPackages [Finance-JindowinDate]: Downloading https://files.pythonhosted.org/packages/a7/fd/6424e56756c45509d56b884e88448bd45c452a26be4c9763ef54eaa58e11/Finance-JindowinDate-0.0.3.tar.gz
+[2023-07-05 04:10:33] INFO root fetch - processPackages [Finance-JindowinDate]: executing diffoscope
+[2023-07-05 04:10:33] INFO root fetch - processPackages [Finance-JindowinDate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-JindowinDate-0.0.2.tar.gz tmp/Finance-JindowinDate-0.0.3.tar.gz --markdown 20230705/F/Finance-JindowinDate/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: executing diffoscope
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antcal-0.0.6.tar.gz tmp/antcal-0.0.8.tar.gz --markdown 20230705/a/antcal/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: executing diffoscope
+[2023-07-05 04:10:33] INFO root fetch - processPackages [antcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antcal-0.0.6.tar.gz tmp/antcal-0.0.8.tar.gz --markdown 20230705/a/antcal/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 04:10:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 04:10:34] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 04:10:34] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 04:10:34] INFO root fetch - processPackages [antcal]: Remove: archive file [/home/abi/fetcher/tmp/antcal-0.0.6.tar.gz]
+[2023-07-05 04:10:34] INFO root fetch - processPackages [antcal]: Remove: archive file [/home/abi/fetcher/tmp/antcal-0.0.8.tar.gz]
+[2023-07-05 04:10:34] INFO root fetch - main [MainThread]: End processing [antcal]: success
+[2023-07-05 04:10:34] INFO root fetch - main [MainThread]: End processing [antcal]: success
+[2023-07-05 04:10:34] INFO root fetch - processPackages [Finance-JindowinDate]: Remove: archive file [/home/abi/fetcher/tmp/Finance-JindowinDate-0.0.2.tar.gz]
+[2023-07-05 04:10:34] INFO root fetch - processPackages [Finance-JindowinDate]: Remove: archive file [/home/abi/fetcher/tmp/Finance-JindowinDate-0.0.3.tar.gz]
+[2023-07-05 04:10:34] INFO root fetch - main [MainThread]: End processing [Finance-JindowinDate]: success
+[2023-07-05 04:10:34] INFO root fetch - main [MainThread]: Store serial: [18762102]
