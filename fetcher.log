@@ -17191,3 +17191,134 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:18:56] INFO root fetch - processPackages [fh-fablib]: Remove: archive file [/home/abi/fetcher/tmp/fh_fablib-1.0.20230705.tar.gz]
 [2023-07-05 14:18:56] INFO root fetch - main [MainThread]: End processing [fh-fablib]: success
 [2023-07-05 14:18:56] INFO root fetch - main [MainThread]: Store serial: [18766930]
+[2023-07-05 14:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766930]
+[2023-07-05 14:24:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abbyInPython
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: translate-shell
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyMidjourney
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agenta
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-power-ops
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devchat
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pgn2data
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-settings
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tud-sumo
+[2023-07-05 14:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: overhave
+[2023-07-05 14:24:05] WARNING root fetch - processPackages [PyMidjourney]: Skipping, unable to determine old version
+[2023-07-05 14:24:05] INFO root fetch - processPackages [PyMidjourney]: Start processing: sail
+[2023-07-05 14:24:05] INFO root fetch - main [MainThread]: End processing [PyMidjourney] error
+[2023-07-05 14:24:05] INFO root fetch - processPackages [agenta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:24:05] WARNING root fetch - processPackages [abbyInPython]: Skipping, unable to determine old version
+[2023-07-05 14:24:05] INFO root fetch - processPackages [abbyInPython]: Start processing: pytezos
+[2023-07-05 14:24:05] INFO root fetch - main [MainThread]: End processing [abbyInPython] error
+[2023-07-05 14:24:05] INFO root fetch - processPackages [devchat]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [pydantic-settings]: New version: [2.0b2] Old Version: [2.0b1]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [pgn2data]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [tud-sumo]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [sail]: New version: [0.5.1] Old Version: [0.3.1]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [overhave]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [pytezos]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 14:24:05] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a1/3b/53962d2540ae69229bd38185a0220af1a6e92b246d8c7d05ad9885e8322d/agenta-0.1.8.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [pytezos]: Downloading https://files.pythonhosted.org/packages/b3/d8/46498bf08dfaa48853f50af542887e4a76423266c2106819d7d31dffba61/pytezos-3.8.0.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/4d/cf/5fba1186a17a2838ab243586c284bebcee8f13a6eb5028c41c2f70f7e938/pydantic_settings-2.0b1.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/8c/9e/997b3370719629437f943615771632cf84284882e471f53ed38cf2cb9cb4/devchat-0.1.8.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/aa/ed/e25a7c89f8e66c89b4f998bd2f4280d8a427b319670e155b018f04adf8d8/translate-shell-0.0.8.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/ce/92/60a7deaa2b56be8f83022a6926ba3769513f8631106851a2e1740641de72/overhave-4.0.3.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [pgn2data]: Downloading https://files.pythonhosted.org/packages/ff/82/0a277dfd74177ee443daae89618c63ff2cf5be52e036fb698fab9e789fb1/pgn2data-0.0.8.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [tud-sumo]: Downloading https://files.pythonhosted.org/packages/82/b1/57f23ee36aef0bee396cfca4aec79b65dfab56c835f203a2a2752bf7d589/tud_sumo-1.1.1.tar.gz
+[2023-07-05 14:24:05] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/9b/d2/c32e3c5acea729d8ee7e0cc26db02c0bae9a82cdb0e6e160696ca6e0bd37/sail-0.3.1.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a1/f5c1eb9f8187ae9a764509b4089ac6ed188c31a48d597c870666d26d0c6f/agenta-0.1.9.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pytezos]: Downloading https://files.pythonhosted.org/packages/01/67/e4234a357149bdeeadde770f3c0a645c2a503fc68253c7d21cb307d602be/pytezos-3.9.0.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pydantic-settings]: Downloading https://files.pythonhosted.org/packages/28/a8/876b31f0d37f6691a6f0cc192fb4328dfb89d63d2fcdc52101e5b8646a01/pydantic_settings-2.0b2.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.8.tar.gz tmp/agenta-0.1.9.tar.gz --markdown 20230705/a/agenta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/fd/a6/bf53b2758688a1db3fb29e4551180b4bc2d00f9367a156ec126f75a842e1/overhave-4.0.4.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pytezos]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pytezos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytezos-3.8.0.tar.gz tmp/pytezos-3.9.0.tar.gz --markdown 20230705/p/pytezos/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [tud-sumo]: Downloading https://files.pythonhosted.org/packages/a0/f1/94be8127ec86e7fb48b67e6305ac2f7b4d59a1dcfb252133ddcfd401797c/tud_sumo-1.2.0.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pydantic-settings]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pydantic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings-2.0b1.tar.gz tmp/pydantic_settings-2.0b2.tar.gz --markdown 20230705/p/pydantic-settings/2.0b1-2.0b2/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [sail]: Downloading https://files.pythonhosted.org/packages/c2/ed/b983b3daa56acb2c035026b77349aefeea7a4c74df451bee97c7d439eae0/sail-0.5.1-py3-none-any.whl
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pgn2data]: Downloading https://files.pythonhosted.org/packages/58/27/12b789f240b60f0ffcbe2e038f8c8cd8c2956219a3247a80f1abf902d4d9/pgn2data-0.0.9.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/f3/61/920e416e3b6f168907abd78a183913dcd38186b961b9bb0a944ec3008ea5/devchat-0.1.9.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/10/53/d1b2622fd5860f8b6f36dbdd934c30d2e357cd577f74de20d18e020079f4/translate-shell-0.0.9.tar.gz
+[2023-07-05 14:24:06] INFO root fetch - processPackages [tud-sumo]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [tud-sumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tud_sumo-1.1.1.tar.gz tmp/tud_sumo-1.2.0.tar.gz --markdown 20230705/t/tud-sumo/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-4.0.3.tar.gz tmp/overhave-4.0.4.tar.gz --markdown 20230705/o/overhave/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pgn2data]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [pgn2data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgn2data-0.0.8.tar.gz tmp/pgn2data-0.0.9.tar.gz --markdown 20230705/p/pgn2data/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [sail]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [sail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sail-0.3.1.tar.gz tmp/sail-0.5.1-py3-none-any.whl.zip --markdown 20230705/s/sail/0.3.1-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.1.8.tar.gz tmp/devchat-0.1.9.tar.gz --markdown 20230705/d/devchat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230705/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 14:24:06] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-05 14:24:06] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230705/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 14:24:07] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.8.tar.gz]
+[2023-07-05 14:24:07] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.9.tar.gz]
+[2023-07-05 14:24:07] INFO root fetch - processPackages [agenta]: Start processing: wagtail-external-link-richtext
+[2023-07-05 14:24:07] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-07-05 14:24:07] INFO root fetch - processPackages [wagtail-external-link-richtext]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [wagtail-external-link-richtext]: Downloading https://files.pythonhosted.org/packages/31/f9/1a886d82437e6b54de8b78526662f9be4a59bf504778933fc6ed048285b3/wagtail-external-link-richtext-1.1.1.tar.gz
+[2023-07-05 14:24:08] INFO root fetch - processPackages [pydantic-settings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings-2.0b1.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [pydantic-settings]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings-2.0b2.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [pydantic-settings]: Start processing: bigdl-dllib-spark3
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [pydantic-settings]: success
+[2023-07-05 14:24:08] INFO root fetch - processPackages [tud-sumo]: Remove: archive file [/home/abi/fetcher/tmp/tud_sumo-1.1.1.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [tud-sumo]: Remove: archive file [/home/abi/fetcher/tmp/tud_sumo-1.2.0.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [tud-sumo]: Start processing: netbox-plugin-dns
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [tud-sumo]: success
+[2023-07-05 14:24:08] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [0.18.5] Old Version: [0.18.4]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [wagtail-external-link-richtext]: Downloading https://files.pythonhosted.org/packages/ca/81/6118bbca702ff7c6bc3588b0757eb1589da76067b1abda6e67c94e0c5979/wagtail-external-link-richtext-1.1.2.tar.gz
+[2023-07-05 14:24:08] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.3.1.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [sail]: Remove: archive file [/home/abi/fetcher/tmp/sail-0.5.1-py3-none-any.whl.zip]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [sail]: Start processing: swarms
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [sail]: success
+[2023-07-05 14:24:08] INFO root fetch - processPackages [pgn2data]: Remove: archive file [/home/abi/fetcher/tmp/pgn2data-0.0.8.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [pgn2data]: Remove: archive file [/home/abi/fetcher/tmp/pgn2data-0.0.9.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [pgn2data]: success
+[2023-07-05 14:24:08] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/7b/09/7bc496c664f23d4cd645abe4d13fdabffaef23bdafd21fc4d316151df13d/netbox_plugin_dns-0.18.4.tar.gz
+[2023-07-05 14:24:08] INFO root fetch - processPackages [swarms]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [wagtail-external-link-richtext]: executing diffoscope
+[2023-07-05 14:24:08] INFO root fetch - processPackages [wagtail-external-link-richtext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-external-link-richtext-1.1.1.tar.gz tmp/wagtail-external-link-richtext-1.1.2.tar.gz --markdown 20230705/w/wagtail-external-link-richtext/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-05 14:24:08] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.1.8.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.1.9.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-07-05 14:24:08] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/3b/ca/7882d486ecbd965c507df141e33199e122f1964bdfd2070a21da13410eaa/bigdl-dllib-spark3-2.4.0b20230704.tar.gz
+[2023-07-05 14:24:08] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329204>=10485760
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-05 14:24:08] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-05 14:24:08] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-05 14:24:08] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d3/ed/1096436778ce65ea11d3c123c31b98905159785a5babd914a2c63acda4f0/swarms-0.5.6.tar.gz
+[2023-07-05 14:24:08] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/59/d1/55896736a108d3dbc96643c764168a204529145334c69894fb2d28aac3d8/netbox_plugin_dns-0.18.5.tar.gz
+[2023-07-05 14:24:09] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2023-07-05 14:24:09] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-0.18.4.tar.gz tmp/netbox_plugin_dns-0.18.5.tar.gz --markdown 20230705/n/netbox-plugin-dns/0.18.4-0.18.5/diff.md --exclude *.pyd
+[2023-07-05 14:24:09] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/dd/e4/eea037a612f4e005ff2982d205c6b182d01ab54fae4ce17a0a4e3673e119/swarms-0.5.7.tar.gz
+[2023-07-05 14:24:09] INFO root fetch - processPackages [pytezos]: Remove: archive file [/home/abi/fetcher/tmp/pytezos-3.8.0.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - processPackages [pytezos]: Remove: archive file [/home/abi/fetcher/tmp/pytezos-3.9.0.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - main [MainThread]: End processing [pytezos]: success
+[2023-07-05 14:24:09] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.8.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-07-05 14:24:09] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 14:24:09] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.6.tar.gz tmp/swarms-0.5.7.tar.gz --markdown 20230705/s/swarms/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-05 14:24:09] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.3.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.0.4.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-07-05 14:24:09] INFO root fetch - processPackages [wagtail-external-link-richtext]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-external-link-richtext-1.1.1.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - processPackages [wagtail-external-link-richtext]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-external-link-richtext-1.1.2.tar.gz]
+[2023-07-05 14:24:09] INFO root fetch - main [MainThread]: End processing [wagtail-external-link-richtext]: success
+[2023-07-05 14:24:10] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.6.tar.gz]
+[2023-07-05 14:24:10] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.7.tar.gz]
+[2023-07-05 14:24:10] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 14:24:10] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.18.4.tar.gz]
+[2023-07-05 14:24:10] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.18.5.tar.gz]
+[2023-07-05 14:24:10] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2023-07-05 14:24:10] INFO root fetch - main [MainThread]: Store serial: [18766979]
