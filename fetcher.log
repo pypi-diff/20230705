@@ -14328,3 +14328,95 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:16:47] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-05 12:16:47] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-05 12:16:47] INFO root fetch - main [MainThread]: Store serial: [18765677]
+[2023-07-05 12:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765677]
+[2023-07-05 12:21:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GeoAlchemy2
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bplib-fork
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-commission-product-criteria
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naas-drivers
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qdrant-haystack
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libTSCANAPI
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agenta
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RandomUsernames
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tritonv2
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ocf-datapipes
+[2023-07-05 12:21:57] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-05 12:21:57] WARNING root fetch - processPackages [RandomUsernames]: Skipping, unable to determine old version
+[2023-07-05 12:21:57] INFO root fetch - processPackages [RandomUsernames]: Start processing: kcli
+[2023-07-05 12:21:57] INFO root fetch - main [MainThread]: End processing [RandomUsernames] error
+[2023-07-05 12:21:57] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: New version: [14.0.1.0.3.dev1] Old Version: [14.0.1.0.3]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [agenta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [tritonv2]: New version: [0.9.9.1] Old Version: [0.9.9]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [bplib-fork]: New version: [0.0.63] Old Version: [0.0.62]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [qdrant-haystack]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [GeoAlchemy2]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [naas-drivers]: New version: [0.99.0] Old Version: [0.98.2]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [kcli]: New version: [99.0.202307051021] Old Version: [99.0.202307051011]
+[2023-07-05 12:21:57] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/58/77/ed0567490f8356970b3da6ae5a099e78f116eaa9a22096dd2053c70f4b1a/libTSCANAPI-1.1.7.tar.gz
+[2023-07-05 12:21:57] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/a5/4f/6a285e7b9d9685d86c1ec5c435500687d7f2ce1fd46690ed8b614428180e/ocf_datapipes-1.2.8.tar.gz
+[2023-07-05 12:21:57] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Downloading https://files.pythonhosted.org/packages/32/a0/5112d0e775f65d457b89d9ef6119d89a1e93bcfb86f539233c5c0b8b2bd0/odoo14_addon_sale_commission_product_criteria-14.0.1.0.3-py3-none-any.whl
+[2023-07-05 12:21:57] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/11/a8/50bc2697c40a20f4c5d0401a3fa2551bdb5be75e6625aa584f306f8273e5/kcli-99.0.202307051011-py3-none-any.whl
+[2023-07-05 12:21:57] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16392454>=10485760
+[2023-07-05 12:21:57] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-07-05 12:21:58] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/fe/2d/6f3bf55c7f028bbf8a0e54f576b0064144673c8d224539b995e25480ebc0/tritonv2-0.9.9.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/80/c8/8a97ce3ed7dee9ae4e813d99f1cad0ab15db944d449c2bab150d765837c4/qdrant_haystack-1.0.4.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/a1/3b/53962d2540ae69229bd38185a0220af1a6e92b246d8c7d05ad9885e8322d/agenta-0.1.8.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [bplib-fork]: Downloading https://files.pythonhosted.org/packages/41/0b/e9f594c3c953d037af73df07525e2c83d707eed8bc64b670a32dbedee8c7/bplib_fork-0.0.62.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/79/7c/69ef8bc33894baa1eaddd6eecf182318aa20eb8d1974b8a9413a818a8a13/GeoAlchemy2-0.9.3.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [naas-drivers]: Downloading https://files.pythonhosted.org/packages/17/61/408245bf42617a93f4daaa54ad5cc2e6ad7debca4c63a2615b51aec65040/naas-drivers-0.98.2.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/5d/e0/2adf28d0e27bcb08200c48623b22c837073925a5635322cdfeb6d4a57358/ocf_datapipes-1.2.9.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/de/601484aa66b691ef32fa269199c589e4293feb1aef5a3c50a0e76087d0e2/kcli-99.0.202307051021-py3-none-any.whl
+[2023-07-05 12:21:58] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230705/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Downloading https://files.pythonhosted.org/packages/46/69/66f6968b17a99eb12eda295158f81d65c4598a256496e10cc5e3f2488735/odoo14_addon_sale_commission_product_criteria-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-07-05 12:21:58] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/0b/e0/884d62f22cb4af785a1b303e6be51cfda55cdb7020826c7ff4eb517746a5/tritonv2-0.9.9.1.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [bplib-fork]: Downloading https://files.pythonhosted.org/packages/8f/ff/c869b390393a36d49ee37bbf99a885c7ac44de97a4d2bba6a4a873527e45/bplib_fork-0.0.63.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/98/a1/f5c1eb9f8187ae9a764509b4089ac6ed188c31a48d597c870666d26d0c6f/agenta-0.1.9.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [GeoAlchemy2]: Downloading https://files.pythonhosted.org/packages/f6/48/80e48251e1e0cf94a6e809252a545c32d7644b737a10e3ce06ba87bc7f6d/GeoAlchemy2-0.9.4.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [qdrant-haystack]: Downloading https://files.pythonhosted.org/packages/0d/03/446fec92ff3a42dafc6d8c1bb70a022e67718659e96f7dafea42cf9ef2ce/qdrant_haystack-1.0.5.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [naas-drivers]: Downloading https://files.pythonhosted.org/packages/64/e1/75046d5bf6b69032800e0aee225a22c02fadc7f989631bf94cdcd90fc2a9/naas-drivers-0.99.0.tar.gz
+[2023-07-05 12:21:58] INFO root fetch - processPackages [tritonv2]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [tritonv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonv2-0.9.9.tar.gz tmp/tritonv2-0.9.9.1.tar.gz --markdown 20230705/t/tritonv2/0.9.9-0.9.9.1/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [bplib-fork]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [bplib-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bplib_fork-0.0.62.tar.gz tmp/bplib_fork-0.0.63.tar.gz --markdown 20230705/b/bplib-fork/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.1.8.tar.gz tmp/agenta-0.1.9.tar.gz --markdown 20230705/a/agenta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.3.dev1-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-sale-commission-product-criteria/14.0.1.0.3-14.0.1.0.3.dev1/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [qdrant-haystack]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [qdrant-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrant_haystack-1.0.4.tar.gz tmp/qdrant_haystack-1.0.5.tar.gz --markdown 20230705/q/qdrant-haystack/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [GeoAlchemy2]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [GeoAlchemy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoAlchemy2-0.9.3.tar.gz tmp/GeoAlchemy2-0.9.4.tar.gz --markdown 20230705/G/GeoAlchemy2/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307051011-py3-none-any.whl.zip tmp/kcli-99.0.202307051021-py3-none-any.whl.zip --markdown 20230705/k/kcli/99.0.202307051011-99.0.202307051021/diff.md --exclude *.pyd
+[2023-07-05 12:21:58] INFO root fetch - processPackages [naas-drivers]: executing diffoscope
+[2023-07-05 12:21:58] INFO root fetch - processPackages [naas-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas-drivers-0.98.2.tar.gz tmp/naas-drivers-0.99.0.tar.gz --markdown 20230705/n/naas-drivers/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2023-07-05 12:22:00] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-1.0.4.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [qdrant-haystack]: Remove: archive file [/home/abi/fetcher/tmp/qdrant_haystack-1.0.5.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [qdrant-haystack]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.1.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [tritonv2]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [bplib-fork]: Remove: archive file [/home/abi/fetcher/tmp/bplib_fork-0.0.62.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [bplib-fork]: Remove: archive file [/home/abi/fetcher/tmp/bplib_fork-0.0.63.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [bplib-fork]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.8.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.1.9.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [odoo14-addon-sale-commission-product-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_product_criteria-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-product-criteria]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.8.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-1.2.9.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [GeoAlchemy2]: Remove: archive file [/home/abi/fetcher/tmp/GeoAlchemy2-0.9.3.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [GeoAlchemy2]: Remove: archive file [/home/abi/fetcher/tmp/GeoAlchemy2-0.9.4.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [GeoAlchemy2]: success
+[2023-07-05 12:22:00] INFO root fetch - processPackages [naas-drivers]: Remove: archive file [/home/abi/fetcher/tmp/naas-drivers-0.98.2.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - processPackages [naas-drivers]: Remove: archive file [/home/abi/fetcher/tmp/naas-drivers-0.99.0.tar.gz]
+[2023-07-05 12:22:00] INFO root fetch - main [MainThread]: End processing [naas-drivers]: success
+[2023-07-05 12:22:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307051011-py3-none-any.whl.zip]
+[2023-07-05 12:22:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307051021-py3-none-any.whl.zip]
+[2023-07-05 12:22:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-05 12:22:02] INFO root fetch - main [MainThread]: Store serial: [18765708]
