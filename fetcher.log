@@ -9308,3 +9308,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 08:28:16] INFO root fetch - processPackages [mtls]: Remove: archive file [/home/abi/fetcher/tmp/mtls-0.17.0.tar.gz]
 [2023-07-05 08:28:16] INFO root fetch - main [MainThread]: End processing [mtls]: success
 [2023-07-05 08:28:16] INFO root fetch - main [MainThread]: Store serial: [18763308]
+[2023-07-05 08:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763308]
+[2023-07-05 08:33:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweep
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-contact-form
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymini
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shaku-database
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clearml-agent
+[2023-07-05 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdfdf
+[2023-07-05 08:33:25] INFO root fetch - processPackages [sweep]: New version: [2.0.1.1] Old Version: [2.0.1.0]
+[2023-07-05 08:33:25] INFO root fetch - processPackages [django-contact-form]: New version: [2.1] Old Version: [2.0.1]
+[2023-07-05 08:33:25] INFO root fetch - processPackages [clearml-agent]: New version: [1.6.0rc0] Old Version: [1.5.3rc4]
+[2023-07-05 08:33:25] INFO root fetch - processPackages [shaku-database]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 08:33:25] WARNING root fetch - processPackages [pymini]: Skipping, unable to determine old version
+[2023-07-05 08:33:25] INFO root fetch - main [MainThread]: End processing [pymini] error
+[2023-07-05 08:33:25] INFO root fetch - processPackages [rdfdf]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 08:33:25] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230705] Old Version: [20230704]
+[2023-07-05 08:33:25] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/20/ed/e525cb4de3c1565e4b41e9f19237dd8aba35c431b7c6ff23553aa38c2f60/shaku-database-1.1.0.tar.gz
+[2023-07-05 08:33:25] INFO root fetch - processPackages [rdfdf]: Downloading https://files.pythonhosted.org/packages/21/6c/dc7c425bf25daefbd0d3a6f277e8ca1cd07b5e427a47b16bf4feda067404/rdfdf-0.1.5.tar.gz
+[2023-07-05 08:33:25] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0c/c8/04640e2e37307ab38ba3ad5d0410ecc2e2ba412d95f23693ec7bd43fd73c/fake-bpy-module-latest-20230704.tar.gz
+[2023-07-05 08:33:25] INFO root fetch - processPackages [django-contact-form]: Downloading https://files.pythonhosted.org/packages/72/9c/c49e9a47b2d49ebacc1c33a1129073f34abfdaf064fc581ad746d9d3d8ef/django-contact-form-2.0.1.tar.gz
+[2023-07-05 08:33:25] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/bd/a9/927c6a9dca62e53b8d643ff2628bed338cc0a6e1c05df47b037b77dc7ad3/clearml_agent-1.5.3rc4-py3-none-any.whl
+[2023-07-05 08:33:25] INFO root fetch - processPackages [sweep]: Downloading https://files.pythonhosted.org/packages/d7/28/7efe0cfe970d4d44bc51fc8b6221a8b6bb67d14b0801f5a15e6f8534a61c/sweep-2.0.1.0-py3.10.egg
+[2023-07-05 08:33:26] INFO root fetch - processPackages [rdfdf]: Downloading https://files.pythonhosted.org/packages/6f/22/70e563c72b8b84eebb63eef5bac2597ff3b9a08668c03dec63d3dd2f786c/rdfdf-0.1.6.tar.gz
+[2023-07-05 08:33:26] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/29/04/531ef42cb579e8e67a1ab4a2d8dfca55d0185d56e6505216d7706e155580/shaku-database-1.1.1.tar.gz
+[2023-07-05 08:33:26] INFO root fetch - processPackages [django-contact-form]: Downloading https://files.pythonhosted.org/packages/88/5f/127b499184466c47ed4cd7559284ebcd8638d6dc6d4ba122477632f89f28/django-contact-form-2.1.tar.gz
+[2023-07-05 08:33:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/de/30/ef0127e2615f5e6453fee069eb9184259a7e75a91de437d90c815ac640b0/fake-bpy-module-latest-20230705.tar.gz
+[2023-07-05 08:33:26] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-07-05 08:33:26] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.1.0.tar.gz tmp/shaku-database-1.1.1.tar.gz --markdown 20230705/s/shaku-database/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 08:33:26] INFO root fetch - processPackages [sweep]: Downloading https://files.pythonhosted.org/packages/a2/bb/316a96f8bc95a0516bdc6364dc1c9e15c94faba23faa70f11c2613a051f6/sweep-2.0.1.1-py3.10.egg
+[2023-07-05 08:33:26] INFO root fetch - processPackages [clearml-agent]: Downloading https://files.pythonhosted.org/packages/0e/6e/cf7c835da0ec1247f8225869175b3355dee67e64066bdf56bc7cfac2b814/clearml_agent-1.6.0rc0-py3-none-any.whl
+[2023-07-05 08:33:26] INFO root fetch - processPackages [rdfdf]: executing diffoscope
+[2023-07-05 08:33:26] INFO root fetch - processPackages [rdfdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfdf-0.1.5.tar.gz tmp/rdfdf-0.1.6.tar.gz --markdown 20230705/r/rdfdf/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 08:33:26] INFO root fetch - processPackages [django-contact-form]: executing diffoscope
+[2023-07-05 08:33:26] INFO root fetch - processPackages [django-contact-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-contact-form-2.0.1.tar.gz tmp/django-contact-form-2.1.tar.gz --markdown 20230705/d/django-contact-form/2.0.1-2.1/diff.md --exclude *.pyd
+[2023-07-05 08:33:26] INFO root fetch - processPackages [sweep]: executing diffoscope
+[2023-07-05 08:33:26] INFO root fetch - processPackages [sweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweep-2.0.1.0-py3.10.egg tmp/sweep-2.0.1.1-py3.10.egg --markdown 20230705/s/sweep/2.0.1.0-2.0.1.1/diff.md --exclude *.pyd
+[2023-07-05 08:33:26] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-05 08:33:26] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230704.tar.gz tmp/fake-bpy-module-latest-20230705.tar.gz --markdown 20230705/f/fake-bpy-module-latest/20230704-20230705/diff.md --exclude *.pyd
+[2023-07-05 08:33:26] INFO root fetch - processPackages [clearml-agent]: executing diffoscope
+[2023-07-05 08:33:26] INFO root fetch - processPackages [clearml-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_agent-1.5.3rc4-py3-none-any.whl.zip tmp/clearml_agent-1.6.0rc0-py3-none-any.whl.zip --markdown 20230705/c/clearml-agent/1.5.3rc4-1.6.0rc0/diff.md --exclude *.pyd
+[2023-07-05 08:33:27] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.5.tar.gz]
+[2023-07-05 08:33:27] INFO root fetch - processPackages [rdfdf]: Remove: archive file [/home/abi/fetcher/tmp/rdfdf-0.1.6.tar.gz]
+[2023-07-05 08:33:27] INFO root fetch - main [MainThread]: End processing [rdfdf]: success
+[2023-07-05 08:33:27] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.0.tar.gz]
+[2023-07-05 08:33:27] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.1.tar.gz]
+[2023-07-05 08:33:27] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-07-05 08:33:27] INFO root fetch - processPackages [django-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/django-contact-form-2.0.1.tar.gz]
+[2023-07-05 08:33:27] INFO root fetch - processPackages [django-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/django-contact-form-2.1.tar.gz]
+[2023-07-05 08:33:27] INFO root fetch - main [MainThread]: End processing [django-contact-form]: success
+[2023-07-05 08:33:27] INFO root fetch - processPackages [sweep]: Remove: archive file [/home/abi/fetcher/tmp/sweep-2.0.1.0-py3.10.egg]
+[2023-07-05 08:33:27] INFO root fetch - processPackages [sweep]: Remove: archive file [/home/abi/fetcher/tmp/sweep-2.0.1.1-py3.10.egg]
+[2023-07-05 08:33:27] INFO root fetch - main [MainThread]: End processing [sweep]: success
+[2023-07-05 08:33:28] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.5.3rc4-py3-none-any.whl.zip]
+[2023-07-05 08:33:28] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.6.0rc0-py3-none-any.whl.zip]
+[2023-07-05 08:33:28] INFO root fetch - main [MainThread]: End processing [clearml-agent]: success
+[2023-07-05 08:33:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230704.tar.gz]
+[2023-07-05 08:33:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230705.tar.gz]
+[2023-07-05 08:33:30] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-05 08:33:30] INFO root fetch - main [MainThread]: Store serial: [18763338]
