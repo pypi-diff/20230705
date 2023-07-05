@@ -6642,3 +6642,128 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:18:46] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.474.0.tar.gz]
 [2023-07-05 05:18:46] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2023-07-05 05:18:46] INFO root fetch - main [MainThread]: Store serial: [18762437]
+[2023-07-05 05:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762437]
+[2023-07-05 05:23:55] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnssanalysis
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-event-registration-multi-qty
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-event
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-avatar20220130-py2
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fieldservice-skill
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourcery-nightly
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-fieldservice
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-avatar20220130
+[2023-07-05 05:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djangounittest
+[2023-07-05 05:23:55] WARNING root fetch - processPackages [odoo-addon-event-registration-multi-qty]: Skipping, unable to determine old version
+[2023-07-05 05:23:55] INFO root fetch - processPackages [odoo-addon-event-registration-multi-qty]: Start processing: odoo-addons-oca-field-service
+[2023-07-05 05:23:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-registration-multi-qty] error
+[2023-07-05 05:23:55] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.9]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230704] Old Version: [0.0.17.dev20230703]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [1.0.3] Old Version: [1.0.26]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [alibabacloud-avatar20220130]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [16.0.20230704.0] Old Version: [16.0.20230626.0]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.5.1b7] Old Version: [1.5.1b2]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/af/38/11400eb3ab3a6e5765609365441685338e0170ab5ea67d837b39c01ecb7d/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl
+[2023-07-05 05:23:55] INFO root fetch - processPackages [djangounittest]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230704.0] Old Version: [16.0.20230620.0]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-07-05 05:23:55] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/98/2b/fbb1a240b2edb3108c62b6bb0fb161de7977da1ba912453bcfaf2e029573/GANDLF-0.0.17.dev20230703.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/eb/a4/5bd7e617d990cae38c3751fe6c919339b32755b674a68dc4770b25d186da/alibabacloud_avatar20220130_py2-1.0.26.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/f2/e7/7bca26406b5c28ec401d6fe33d1d1eca68ed1f16d847c88af5e37dde493a/sourcery_nightly-1.5.1b2-py2.py3-none-win_amd64.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/07/7d/00137cb72e5019d2fb60bb203d5b3b66784c669f3646fbcd3603fefb913a/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/4b/a0/6a2a2e8ff44efdba82be0a18fd74ded8f0ce81b1d6dd876f82c0c84b6521/alibabacloud_avatar20220130-1.0.8.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Downloading https://files.pythonhosted.org/packages/9b/7e/f3029214accde96a14c17777dfe4265060c738f0bf81c44f0052125038c5/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/f8/ba/63d93351ef8cb5e39c30aa54ee1e3621e6c1572ac287dadb76aa7d310929/odoo_addons_oca_field_service-16.0.20230620.0-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/a6/42/27f7cc7c1b70b2bc9059d372a5b35b15f8de42c0a5ecae8c66eb15328112/djangounittest-0.2.4.tar.gz
+[2023-07-05 05:23:56] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58632516>=10485760
+[2023-07-05 05:23:56] INFO root fetch - processPackages [sourcery-nightly]: Start processing: yyxx-game-pkg
+[2023-07-05 05:23:56] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.5.3] Old Version: [2023.7.5.2]
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-fieldservice-skill/15.0.1.0.0.9-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/80/78/ec2e12b541bb5b1dc84b078ac4d43c12e483ff3a1d1d20de170a99b3b9e0/yyxx_game_pkg-2023.7.5.2.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/3f/f7/88637f1f03920a9560f0c36036902ebfb5c821993e42a4b28cc9dc370360/GANDLF-0.0.17.dev20230704.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/d3/f4/ca69f8ddd52a6141f8f86358f346339b2d07aa1e16f92fb4e73ed90b7a42/djangounittest-0.2.5.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/69/af/3a7846471c915f8a79811deb675c8d6003d83beab119ea3e284a913cee0f/odoo_addons_oca_event-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/0d/ff/78e3a140cc6aecf12f1ed4bc9979c01fac644241d116ac8c3f1a54e8edf8/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.26.tar.gz tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz --markdown 20230705/a/alibabacloud-avatar20220130-py2/1.0.26-1.0.3/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/1d/b4/4bb6f09cc7b58637e751863262974a4cb14ab1d86ab3e80fe0ef8fa9db9a/alibabacloud_avatar20220130-1.0.9.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/bc/3d/11a8f7e067c2d86acfde953d26ca1bb6972c5badbcb23298205f5d451181/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [alibabacloud-avatar20220130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130-1.0.8.tar.gz tmp/alibabacloud_avatar20220130-1.0.9.tar.gz --markdown 20230705/a/alibabacloud-avatar20220130/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.2.4.tar.gz tmp/djangounittest-0.2.5.tar.gz --markdown 20230705/d/djangounittest/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230703.tar.gz tmp/GANDLF-0.0.17.dev20230704.tar.gz --markdown 20230705/G/GANDLF/0.0.17.dev20230703-0.0.17.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20230705/g/gnssanalysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230620.0-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-field-service/16.0.20230620.0-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-07-05 05:23:56] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/ff/71/1dadd19d56c004dea3a85b5012102230d7497ce069c504ea9bb1ea724a14/yyxx_game_pkg-2023.7.5.3.tar.gz
+[2023-07-05 05:23:56] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-event/16.0.20230626.0-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 05:23:57] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-05 05:23:57] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.5.2.tar.gz tmp/yyxx_game_pkg-2023.7.5.3.tar.gz --markdown 20230705/y/yyxx-game-pkg/2023.7.5.2-2023.7.5.3/diff.md --exclude *.pyd
+[2023-07-05 05:23:57] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-07-05 05:23:57] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-07-05 05:23:57] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-07-05 05:23:57] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_skill-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 05:23:57] INFO root fetch - processPackages [odoo-addon-fieldservice-skill]: Start processing: swarms
+[2023-07-05 05:23:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-skill]: success
+[2023-07-05 05:23:57] INFO root fetch - processPackages [swarms]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a4/cf/6685c130c968cec84df8f1cd2e439443139f779d676cbb898f1e1a1356f3/swarms-0.5.3.tar.gz
+[2023-07-05 05:23:58] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.26.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Start processing: nextpcg
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-07-05 05:23:58] INFO root fetch - processPackages [nextpcg]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/21/e3/8961a1cf36f2a32bba3be0f2801702c4fb37c36164a44be1749419c9b3e7/nextpcg-0.5.8.tar.gz
+[2023-07-05 05:23:58] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230620.0-py3-none-any.whl.zip]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Start processing: asmek-authcogs
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-07-05 05:23:58] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.4.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.5.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [djangounittest]: Start processing: pdf-blank-detection
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-07-05 05:23:58] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/55/23/049b6f0d75ff7cf968144e14305a018571db6b5976417b35cf8f1e1eb7be/swarms-0.5.4.tar.gz
+[2023-07-05 05:23:58] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20230626.0-py3-none-any.whl.zip]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2023-07-05 05:23:58] WARNING root fetch - processPackages [pdf-blank-detection]: Skipping, unable to determine old version
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [pdf-blank-detection] error
+[2023-07-05 05:23:58] WARNING root fetch - processPackages [asmek-authcogs]: Skipping, unable to determine old version
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [asmek-authcogs] error
+[2023-07-05 05:23:58] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.8.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.9.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130]: success
+[2023-07-05 05:23:58] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2023-07-05 05:23:58] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2023-07-05 05:23:58] INFO root fetch - processPackages [nextpcg]: Downloading https://files.pythonhosted.org/packages/cf/08/4cf741b08ba79aab0af730a364994d72c10b23055730e8331317a461fdee/nextpcg-0.5.9.tar.gz
+[2023-07-05 05:23:58] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 05:23:58] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.3.tar.gz tmp/swarms-0.5.4.tar.gz --markdown 20230705/s/swarms/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-05 05:23:58] INFO root fetch - processPackages [nextpcg]: executing diffoscope
+[2023-07-05 05:23:58] INFO root fetch - processPackages [nextpcg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextpcg-0.5.8.tar.gz tmp/nextpcg-0.5.9.tar.gz --markdown 20230705/n/nextpcg/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 05:23:59] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230703.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230704.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-05 05:23:59] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-07-05 05:23:59] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-07-05 05:23:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-07-05 05:23:59] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.8.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - processPackages [nextpcg]: Remove: archive file [/home/abi/fetcher/tmp/nextpcg-0.5.9.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - main [MainThread]: End processing [nextpcg]: success
+[2023-07-05 05:23:59] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.2.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.3.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-05 05:23:59] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.3.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.4.tar.gz]
+[2023-07-05 05:23:59] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 05:23:59] INFO root fetch - main [MainThread]: Store serial: [18762479]
