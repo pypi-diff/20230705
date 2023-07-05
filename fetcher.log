@@ -13004,3 +13004,98 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:18:21] INFO root fetch - processPackages [ansys-api-pyensight]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-pyensight-0.2.dev0.tar.gz]
 [2023-07-05 11:18:21] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight]: success
 [2023-07-05 11:18:21] INFO root fetch - main [MainThread]: Store serial: [18765078]
+[2023-07-05 11:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765078]
+[2023-07-05 11:23:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frogbase
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grassmanntn
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elfebot
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-energy-communities
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysyn-data
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pangolier
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: celescope
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DataPipelineExecutor
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-dltool
+[2023-07-05 11:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-email-certify
+[2023-07-05 11:23:30] WARNING root fetch - processPackages [frogbase]: Skipping, unable to determine old version
+[2023-07-05 11:23:30] INFO root fetch - processPackages [frogbase]: Start processing: pysyn-data
+[2023-07-05 11:23:30] INFO root fetch - main [MainThread]: End processing [frogbase] error
+[2023-07-05 11:23:30] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [django-email-certify]: New version: [1.1] Old Version: [1.0]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [elfebot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [celescope]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [pangolier]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [pysyn-data]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.1.1.9] Old Version: [14.0.1.1.8]
+[2023-07-05 11:23:30] WARNING root fetch - processPackages [DataPipelineExecutor]: Skipping, unable to determine old version
+[2023-07-05 11:23:30] INFO root fetch - processPackages [DataPipelineExecutor]: Start processing: jijmodeling
+[2023-07-05 11:23:30] INFO root fetch - main [MainThread]: End processing [DataPipelineExecutor] error
+[2023-07-05 11:23:30] INFO root fetch - processPackages [oc-dltool]: New version: [3.11.1] Old Version: [3.11.0]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [pysyn-data]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/c0/d0/50af3435125d00e5530cc0015765d53e370620d758d7a9fee5f23e4d7902/elfebot-0.0.7-py3-none-any.whl
+[2023-07-05 11:23:30] INFO root fetch - processPackages [jijmodeling]: New version: [1.0.0rc1] Old Version: [0.9.9]
+[2023-07-05 11:23:30] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/1e/0c/0b712c5de165a26ba137b83e30d735eab651b0bb76db5ac90decaf2050b5/grassmanntn-1.1.4.tar.gz
+[2023-07-05 11:23:30] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/43/14/2b5dde76ebd67914059e08648ebe9d9c3c6d464b4c17c5b6728c5d2c4799/pangolier-0.1.1-py3-none-any.whl
+[2023-07-05 11:23:30] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/d6/b8/68d22184d311c608eb854c998e8d6fd869fa3ff44ba43dcf187e3c068548/pysyn-data-0.3.4.tar.gz
+[2023-07-05 11:23:30] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/d6/b8/68d22184d311c608eb854c998e8d6fd869fa3ff44ba43dcf187e3c068548/pysyn-data-0.3.4.tar.gz
+[2023-07-05 11:23:30] INFO root fetch - processPackages [django-email-certify]: Downloading https://files.pythonhosted.org/packages/01/e8/9e66c0bce9322d56443353522541d8b8a109523c0df580a7eef31bfd0f01/django-email-certify-1.0.tar.gz
+[2023-07-05 11:23:30] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/58/23/fb8d797eaa4250dc67f12dbdbe366109d282786654a11af1de765e69aef6/odoo14-addon-energy_communities-14.0.1.1.8.tar.gz
+[2023-07-05 11:23:30] INFO root fetch - processPackages [oc-dltool]: Downloading https://files.pythonhosted.org/packages/2a/d1/ae16343f04144272af88fe3c77bb8018f65781bb685bd16e824d9b000dc3/oc_dltool-3.11.0-py3-none-any.whl
+[2023-07-05 11:23:30] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-07-05 11:23:31] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/07/21/a823911aedb838f9552cf1ca4c8218dca415f9c5852ae6df07c55760aa88/elfebot-0.0.8-py3-none-any.whl
+[2023-07-05 11:23:31] INFO root fetch - processPackages [celescope]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [celescope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celescope-1.8.1.tar.gz tmp/celescope-1.9.0.tar.gz --markdown 20230705/c/celescope/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pangolier]: Downloading https://files.pythonhosted.org/packages/e3/c5/93f2cae71bf0fc2738f91d20aea4f5f17321d33ebe39f10eba580f5d2175/pangolier-0.1.2-py3-none-any.whl
+[2023-07-05 11:23:31] INFO root fetch - processPackages [django-email-certify]: Downloading https://files.pythonhosted.org/packages/99/e6/04230c97644ee601b3e0e46c0d3982c637ac9cec48529260f4c23228086c/django-email-certify-1.1.tar.gz
+[2023-07-05 11:23:31] INFO root fetch - processPackages [elfebot]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [elfebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elfebot-0.0.7-py3-none-any.whl.zip tmp/elfebot-0.0.8-py3-none-any.whl.zip --markdown 20230705/e/elfebot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pangolier]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pangolier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangolier-0.1.1-py3-none-any.whl.zip tmp/pangolier-0.1.2-py3-none-any.whl.zip --markdown 20230705/p/pangolier/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/fe/27/22a907c1ffed19691805f5b436233a8ae205b15f52e911f7c098c796fc34/grassmanntn-1.1.5.tar.gz
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/4a/6d/525ff5b76ac7f2e2a9ca2fee5c94f3629185a64a0713516af66f6441c10f/pysyn-data-0.3.5.tar.gz
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/4a/6d/525ff5b76ac7f2e2a9ca2fee5c94f3629185a64a0713516af66f6441c10f/pysyn-data-0.3.5.tar.gz
+[2023-07-05 11:23:31] INFO root fetch - processPackages [oc-dltool]: Downloading https://files.pythonhosted.org/packages/78/38/669e161dea040dd8ce476cc9f64d2fcd7f0e1d924d86d9ea699271786cdf/oc_dltool-3.11.1-py3-none-any.whl
+[2023-07-05 11:23:31] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/58/99/a5c55ec45cfc380d6dd54d6119b7df05af683754b56a87488832870c6de5/odoo14-addon-energy_communities-14.0.1.1.9.tar.gz
+[2023-07-05 11:23:31] INFO root fetch - processPackages [django-email-certify]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [django-email-certify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-email-certify-1.0.tar.gz tmp/django-email-certify-1.1.tar.gz --markdown 20230705/d/django-email-certify/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pysyn-data]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pysyn-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyn-data-0.3.4.tar.gz tmp/pysyn-data-0.3.5.tar.gz --markdown 20230705/p/pysyn-data/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pysyn-data]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [pysyn-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyn-data-0.3.4.tar.gz tmp/pysyn-data-0.3.5.tar.gz --markdown 20230705/p/pysyn-data/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.4.tar.gz tmp/grassmanntn-1.1.5.tar.gz --markdown 20230705/g/grassmanntn/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [oc-dltool]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [oc-dltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_dltool-3.11.0-py3-none-any.whl.zip tmp/oc_dltool-3.11.1-py3-none-any.whl.zip --markdown 20230705/o/oc-dltool/3.11.0-3.11.1/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/34/a3/cabab028d4965673f02eaac578243d309f82d90bbb25aa1831f3ca56a78b/jijmodeling-1.0.0rc1-cp39-none-win_amd64.whl
+[2023-07-05 11:23:31] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_communities-14.0.1.1.8.tar.gz tmp/odoo14-addon-energy_communities-14.0.1.1.9.tar.gz --markdown 20230705/o/odoo14-addon-energy-communities/14.0.1.1.8-14.0.1.1.9/diff.md --exclude *.pyd
+[2023-07-05 11:23:31] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-07-05 11:23:31] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-1.0.0rc1-cp39-none-win_amd64.whl.zip --markdown 20230705/j/jijmodeling/0.9.9-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-05 11:23:32] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.1.1-py3-none-any.whl.zip]
+[2023-07-05 11:23:32] INFO root fetch - processPackages [pangolier]: Remove: archive file [/home/abi/fetcher/tmp/pangolier-0.1.2-py3-none-any.whl.zip]
+[2023-07-05 11:23:32] INFO root fetch - main [MainThread]: End processing [pangolier]: success
+[2023-07-05 11:23:32] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.7-py3-none-any.whl.zip]
+[2023-07-05 11:23:32] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.8-py3-none-any.whl.zip]
+[2023-07-05 11:23:32] INFO root fetch - main [MainThread]: End processing [elfebot]: success
+[2023-07-05 11:23:33] INFO root fetch - processPackages [django-email-certify]: Remove: archive file [/home/abi/fetcher/tmp/django-email-certify-1.0.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - processPackages [django-email-certify]: Remove: archive file [/home/abi/fetcher/tmp/django-email-certify-1.1.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [django-email-certify]: success
+[2023-07-05 11:23:33] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.4.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.5.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [pysyn-data]: success
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [pysyn-data]: success
+[2023-07-05 11:23:33] INFO root fetch - processPackages [oc-dltool]: Remove: archive file [/home/abi/fetcher/tmp/oc_dltool-3.11.0-py3-none-any.whl.zip]
+[2023-07-05 11:23:33] INFO root fetch - processPackages [oc-dltool]: Remove: archive file [/home/abi/fetcher/tmp/oc_dltool-3.11.1-py3-none-any.whl.zip]
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [oc-dltool]: success
+[2023-07-05 11:23:33] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.4.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.5.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-05 11:23:33] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 11:23:33] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-1.0.0rc1-cp39-none-win_amd64.whl.zip]
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-07-05 11:23:33] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.1.1.8.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.1.1.9.tar.gz]
+[2023-07-05 11:23:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2023-07-05 11:23:34] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.8.1.tar.gz]
+[2023-07-05 11:23:34] INFO root fetch - processPackages [celescope]: Remove: archive file [/home/abi/fetcher/tmp/celescope-1.9.0.tar.gz]
+[2023-07-05 11:23:34] INFO root fetch - main [MainThread]: End processing [celescope]: success
+[2023-07-05 11:23:34] INFO root fetch - main [MainThread]: Store serial: [18765121]
