@@ -17575,3 +17575,150 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:34:40] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
 [2023-07-05 14:34:40] INFO root fetch - main [MainThread]: End processing [dstack]: success
 [2023-07-05 14:34:40] INFO root fetch - main [MainThread]: Store serial: [18767096]
+[2023-07-05 14:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767096]
+[2023-07-05 14:39:48] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opentok
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfem
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Midjourney-py
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roger-cli
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: melctl-client
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abbyPython
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gunit
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invenio-rdm-records
+[2023-07-05 14:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hplot
+[2023-07-05 14:39:49] INFO root fetch - processPackages [gunit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:39:49] WARNING root fetch - processPackages [Midjourney-py]: Skipping, unable to determine old version
+[2023-07-05 14:39:49] INFO root fetch - processPackages [Midjourney-py]: Start processing: zibanu-django-logging
+[2023-07-05 14:39:49] INFO root fetch - main [MainThread]: End processing [Midjourney-py] error
+[2023-07-05 14:39:49] INFO root fetch - processPackages [invenio-rdm-records]: New version: [4.7.0] Old Version: [4.6.0]
+[2023-07-05 14:39:49] WARNING root fetch - processPackages [abbyPython]: Skipping, unable to determine old version
+[2023-07-05 14:39:49] INFO root fetch - processPackages [abbyPython]: Start processing: projen
+[2023-07-05 14:39:49] INFO root fetch - main [MainThread]: End processing [abbyPython] error
+[2023-07-05 14:39:49] INFO root fetch - processPackages [hplot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [roger-cli]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [xfem]: New version: [2.1.2301.post9.dev0] Old Version: [2.1.2301.post7.dev0]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [melctl-client]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [opentok]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.64.4] Old Version: [1.64.3]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [zibanu-django-logging]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-05 14:39:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/c7/aa/b821b9fcdcabf991e7d3a909d6f20c15e49dbb8fe04269bddfd3d8a129be/Simba-UW-tf-dev-1.64.3.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [melctl-client]: Downloading https://files.pythonhosted.org/packages/26/cb/ff06cd41092dbc5dbe0ea945dff02eae1cc16c12a479e661ebc0b20ae007/melctl_client-5.5.1.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [gunit]: Downloading https://files.pythonhosted.org/packages/f6/95/087d71c114a92003c03661706da279ed8bacfa36cab3c7444ce1fb68c6eb/gunit-0.1.8.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [roger-cli]: Downloading https://files.pythonhosted.org/packages/b9/fd/1f88f6fb1eca0aeac965e4b10b9a052b921c3ea61a5e1bb9646d1c7d6c3d/roger-cli-0.0.1.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [hplot]: Downloading https://files.pythonhosted.org/packages/54/35/7fd9d212623c6ad44cddef4e533eee40e51219101e2416a3654632076053/hplot-0.0.1.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [zibanu-django-logging]: Downloading https://files.pythonhosted.org/packages/69/5c/81dfd9295a25d5b2687ea3a1f7bc1634bba642952606b17a1cd55118cba4/zibanu-django-logging-1.0.0.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/f4/60/bc2c8626ffbc1f31c12b44c13b9a82176f07af4295b55233f7a35bf7b3d4/invenio-rdm-records-4.6.0.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/6c/ac/b2e821c11e85f5a9ee51d81a8b5dbd03891fbc3a2d12e1f67586d6b0e3fd/xfem-2.1.2301.post7.dev0.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [opentok]: Downloading https://files.pythonhosted.org/packages/53/18/94b190c95614fe6ab65edd083b97840de6a45b40ec62ddc9da7502d94c3a/opentok-3.6.0.tar.gz
+[2023-07-05 14:39:49] INFO root fetch - processPackages [melctl-client]: Downloading https://files.pythonhosted.org/packages/6e/2c/c4430f77f57944602d30c5a34d32587123861bb8e3d13052f4cabb61f303/melctl_client-5.5.2.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [gunit]: Downloading https://files.pythonhosted.org/packages/99/a2/2c32bd1042eead2b1c79a65c1e9dedf8e758651c0e5985ecd8d2484be709/gunit-0.1.9.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [roger-cli]: Downloading https://files.pythonhosted.org/packages/2c/3c/7a1dd1d1d20a5829ea2884e5d5632d8e829662b4ddfd090a7eeddc424c25/roger-cli-0.1.0.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [hplot]: Downloading https://files.pythonhosted.org/packages/e3/8d/be48fc0b01a2f72161cb3c596f96d5b8191025ac531c696e9f7dc85abf91/hplot-0.0.2-py3-none-any.whl
+[2023-07-05 14:39:50] INFO root fetch - processPackages [opentok]: Downloading https://files.pythonhosted.org/packages/e2/3d/901f758436fa4e9e16b5298a93d509fae565d28b3d4f425bef2b04229ac4/opentok-3.6.1.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [melctl-client]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [melctl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melctl_client-5.5.1.tar.gz tmp/melctl_client-5.5.2.tar.gz --markdown 20230705/m/melctl-client/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/16/ca/40ef0e00b9b55c236c945c72128f559a093f02c8f6891286bfcf71c9c2fe/Simba-UW-tf-dev-1.64.4.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [roger-cli]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [roger-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roger-cli-0.0.1.tar.gz tmp/roger-cli-0.1.0.tar.gz --markdown 20230705/r/roger-cli/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [hplot]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [hplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hplot-0.0.1.tar.gz tmp/hplot-0.0.2-py3-none-any.whl.zip --markdown 20230705/h/hplot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/41/1b/0e5a5617abb1f47c109eb969790cb98a988ac58980d39d4426283662f654/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 14:39:50] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/7c/6c/133c978d9bbc7cb1b274db380384b0926702d543ab4b7849d1dd2a77ec99/invenio-rdm-records-4.7.0.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [opentok]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [opentok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentok-3.6.0.tar.gz tmp/opentok-3.6.1.tar.gz --markdown 20230705/o/opentok/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [zibanu-django-logging]: Downloading https://files.pythonhosted.org/packages/87/af/8e2352a50808ef031c5daff1bc5b519258df55d6273204f307263b091e55/zibanu-django-logging-1.0.1.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [zibanu-django-logging]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [zibanu-django-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-logging-1.0.0.tar.gz tmp/zibanu-django-logging-1.0.1.tar.gz --markdown 20230705/z/zibanu-django-logging/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-4.6.0.tar.gz tmp/invenio-rdm-records-4.7.0.tar.gz --markdown 20230705/i/invenio-rdm-records/4.6.0-4.7.0/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-05 14:39:50] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2301.post7.dev0.tar.gz tmp/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/x/xfem/2.1.2301.post7.dev0-2.1.2301.post9.dev0/diff.md --exclude *.pyd
+[2023-07-05 14:39:50] INFO root fetch - processPackages [gunit]: executing diffoscope
+[2023-07-05 14:39:50] INFO root fetch - processPackages [gunit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gunit-0.1.8.tar.gz tmp/gunit-0.1.9.tar.gz --markdown 20230705/g/gunit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:39:51] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-05 14:39:51] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230705/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-05 14:39:51] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-05 14:39:51] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.64.3.tar.gz tmp/Simba-UW-tf-dev-1.64.4.tar.gz --markdown 20230705/S/Simba-UW-tf-dev/1.64.3-1.64.4/diff.md --exclude *.pyd
+[2023-07-05 14:39:51] INFO root fetch - processPackages [hplot]: Remove: archive file [/home/abi/fetcher/tmp/hplot-0.0.1.tar.gz]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [hplot]: Remove: archive file [/home/abi/fetcher/tmp/hplot-0.0.2-py3-none-any.whl.zip]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [hplot]: Start processing: python-engineio
+[2023-07-05 14:39:51] INFO root fetch - main [MainThread]: End processing [hplot]: success
+[2023-07-05 14:39:51] INFO root fetch - processPackages [python-engineio]: New version: [4.5.0] Old Version: [4.4.1]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [melctl-client]: Remove: archive file [/home/abi/fetcher/tmp/melctl_client-5.5.1.tar.gz]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [melctl-client]: Remove: archive file [/home/abi/fetcher/tmp/melctl_client-5.5.2.tar.gz]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [melctl-client]: Start processing: twitter-api-client
+[2023-07-05 14:39:51] INFO root fetch - main [MainThread]: End processing [melctl-client]: success
+[2023-07-05 14:39:51] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [python-engineio]: Downloading https://files.pythonhosted.org/packages/51/75/8cf328625b42ce537503fa6a22036e05d3513245c96059360750a4349f32/python-engineio-4.4.1.tar.gz
+[2023-07-05 14:39:51] INFO root fetch - processPackages [roger-cli]: Remove: archive file [/home/abi/fetcher/tmp/roger-cli-0.0.1.tar.gz]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [roger-cli]: Remove: archive file [/home/abi/fetcher/tmp/roger-cli-0.1.0.tar.gz]
+[2023-07-05 14:39:51] INFO root fetch - processPackages [roger-cli]: Start processing: fast-align-audio
+[2023-07-05 14:39:51] INFO root fetch - main [MainThread]: End processing [roger-cli]: success
+[2023-07-05 14:39:51] INFO root fetch - processPackages [fast-align-audio]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/6d/c9/1d547e8da64fdc6c40cf41bfcd04bab1dc66b8b77d10c444ff66c5a904dc/twitter-api-client-0.9.8.tar.gz
+[2023-07-05 14:39:52] INFO root fetch - processPackages [opentok]: Remove: archive file [/home/abi/fetcher/tmp/opentok-3.6.0.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [opentok]: Remove: archive file [/home/abi/fetcher/tmp/opentok-3.6.1.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [opentok]: Start processing: zmeiapi
+[2023-07-05 14:39:52] INFO root fetch - main [MainThread]: End processing [opentok]: success
+[2023-07-05 14:39:52] INFO root fetch - processPackages [zmeiapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [fast-align-audio]: Downloading https://files.pythonhosted.org/packages/35/d3/731ad52eed782927522720a2f71510bb40cbb7fbd2859a9a9978e770ab24/fast_align_audio-0.1.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-05 14:39:52] INFO root fetch - processPackages [zibanu-django-logging]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-logging-1.0.0.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [zibanu-django-logging]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-logging-1.0.1.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [zibanu-django-logging]: Start processing: goxlr
+[2023-07-05 14:39:52] INFO root fetch - main [MainThread]: End processing [zibanu-django-logging]: success
+[2023-07-05 14:39:52] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/72/7a27249d90e3f2e1c268ed5863305cd0c3a1970bb7a1b645b17053605afe/twitter-api-client-0.9.9.tar.gz
+[2023-07-05 14:39:52] INFO root fetch - processPackages [goxlr]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [python-engineio]: Downloading https://files.pythonhosted.org/packages/1c/f6/469f565ccd6b8dd0f1662f6a04cc5fe61bbe93dbc082daf4ccd05ecfdc9e/python-engineio-4.5.0.tar.gz
+[2023-07-05 14:39:52] INFO root fetch - processPackages [gunit]: Remove: archive file [/home/abi/fetcher/tmp/gunit-0.1.8.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [gunit]: Remove: archive file [/home/abi/fetcher/tmp/gunit-0.1.9.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [gunit]: Start processing: modelLab
+[2023-07-05 14:39:52] INFO root fetch - main [MainThread]: End processing [gunit]: success
+[2023-07-05 14:39:52] WARNING root fetch - processPackages [modelLab]: Skipping, unable to determine old version
+[2023-07-05 14:39:52] INFO root fetch - main [MainThread]: End processing [modelLab] error
+[2023-07-05 14:39:52] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2301.post7.dev0.tar.gz]
+[2023-07-05 14:39:52] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2301.post9.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 14:39:52] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2023-07-05 14:39:52] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-07-05 14:39:52] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.8.tar.gz tmp/twitter-api-client-0.9.9.tar.gz --markdown 20230705/t/twitter-api-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 14:39:52] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/49/c1/c938e7458baa417421ae8d0206e70a836d64570b45f24fa0988fde7724d7/goxlr-1.0.5.tar.gz
+[2023-07-05 14:39:52] INFO root fetch - processPackages [zmeiapi]: Downloading https://files.pythonhosted.org/packages/e6/0e/25eaaf969ad3890270c9e280a79d87a7891a2f4025c32742af97465b1870/zmeiapi-0.1.8.tar.gz
+[2023-07-05 14:39:52] INFO root fetch - processPackages [python-engineio]: executing diffoscope
+[2023-07-05 14:39:52] INFO root fetch - processPackages [python-engineio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-engineio-4.4.1.tar.gz tmp/python-engineio-4.5.0.tar.gz --markdown 20230705/p/python-engineio/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2023-07-05 14:39:52] INFO root fetch - processPackages [fast-align-audio]: Downloading https://files.pythonhosted.org/packages/55/5d/c01cde1cde730e35d5c11823a862a1b423490a9fea89d3cae41c2ae5e5a4/fast_align_audio-0.2.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-05 14:39:52] INFO root fetch - processPackages [fast-align-audio]: executing diffoscope
+[2023-07-05 14:39:52] INFO root fetch - processPackages [fast-align-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_align_audio-0.1.2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/fast_align_audio-0.2.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230705/f/fast-align-audio/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 14:39:52] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/9a/fe/25278644828e74f75881dc5b45d4851ade2ab9af706cab8d205d90ed238d/goxlr-1.1.0.tar.gz
+[2023-07-05 14:39:53] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-05 14:39:53] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.0.5.tar.gz tmp/goxlr-1.1.0.tar.gz --markdown 20230705/g/goxlr/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 14:39:53] INFO root fetch - processPackages [zmeiapi]: Downloading https://files.pythonhosted.org/packages/34/1c/f9dda0de1f5495b334aebca29af6d3ba6638193bf12d963c9e106f4764cc/zmeiapi-0.1.9.tar.gz
+[2023-07-05 14:39:53] INFO root fetch - processPackages [zmeiapi]: executing diffoscope
+[2023-07-05 14:39:53] INFO root fetch - processPackages [zmeiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmeiapi-0.1.8.tar.gz tmp/zmeiapi-0.1.9.tar.gz --markdown 20230705/z/zmeiapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:39:53] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-05 14:39:53] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-05 14:39:53] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-05 14:39:53] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.8.tar.gz]
+[2023-07-05 14:39:53] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.9.tar.gz]
+[2023-07-05 14:39:53] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-07-05 14:39:54] INFO root fetch - processPackages [fast-align-audio]: Remove: archive file [/home/abi/fetcher/tmp/fast_align_audio-0.1.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-05 14:39:54] INFO root fetch - processPackages [fast-align-audio]: Remove: archive file [/home/abi/fetcher/tmp/fast_align_audio-0.2.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-05 14:39:54] INFO root fetch - main [MainThread]: End processing [fast-align-audio]: success
+[2023-07-05 14:39:54] INFO root fetch - processPackages [python-engineio]: Remove: archive file [/home/abi/fetcher/tmp/python-engineio-4.4.1.tar.gz]
+[2023-07-05 14:39:54] INFO root fetch - processPackages [python-engineio]: Remove: archive file [/home/abi/fetcher/tmp/python-engineio-4.5.0.tar.gz]
+[2023-07-05 14:39:54] INFO root fetch - main [MainThread]: End processing [python-engineio]: success
+[2023-07-05 14:39:54] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.0.5.tar.gz]
+[2023-07-05 14:39:54] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.1.0.tar.gz]
+[2023-07-05 14:39:54] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-05 14:39:54] INFO root fetch - processPackages [zmeiapi]: Remove: archive file [/home/abi/fetcher/tmp/zmeiapi-0.1.8.tar.gz]
+[2023-07-05 14:39:54] INFO root fetch - processPackages [zmeiapi]: Remove: archive file [/home/abi/fetcher/tmp/zmeiapi-0.1.9.tar.gz]
+[2023-07-05 14:39:54] INFO root fetch - main [MainThread]: End processing [zmeiapi]: success
+[2023-07-05 14:39:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.3.tar.gz]
+[2023-07-05 14:39:55] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.4.tar.gz]
+[2023-07-05 14:39:55] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-05 14:39:56] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.6.0.tar.gz]
+[2023-07-05 14:39:56] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.7.0.tar.gz]
+[2023-07-05 14:39:56] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2023-07-05 14:39:56] INFO root fetch - main [MainThread]: Store serial: [18767171]
