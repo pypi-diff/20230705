@@ -8331,3 +8331,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:09:17] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz]
 [2023-07-05 07:09:17] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-07-05 07:09:17] INFO root fetch - main [MainThread]: Store serial: [18763011]
+[2023-07-05 07:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763011]
+[2023-07-05 07:14:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qxxkey
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-runtime-nightly
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-base-tier-validation
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-document-quick-access
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybuildtools
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-tier-validation
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-substate
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-announcement
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-date-range
+[2023-07-05 07:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-server-ux
+[2023-07-05 07:14:26] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.5.2] Old Version: [16.0.1.0.5.1]
+[2023-07-05 07:14:26] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: New version: [14.0.2.9.3.dev2] Old Version: [14.0.2.9.3.dev1]
+[2023-07-05 07:14:26] INFO root fetch - processPackages [qxxkey]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 07:14:26] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [15.0.1.1.0.3] Old Version: [15.0.1.1.0.1]
+[2023-07-05 07:14:26] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/a4/41/f6e395b9f5937455356910186875b19fa954e93ff9234913ca6fbf9a4826/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-07-05 07:14:26] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230703] Old Version: [2.14.0.dev20230702]
+[2023-07-05 07:14:26] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230628.1] Old Version: [16.0.20230622.1]
+[2023-07-05 07:14:26] INFO root fetch - processPackages [odoo-addon-base-substate]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-07-05 07:14:27] INFO root fetch - processPackages [pybuildtools]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-date-range]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-document-quick-access]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.2]
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/52/86/009bfef76fb3859f7d77eb9bc1898046a30eb15dab586ae5f0d123b7b765/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/79/51/ce3e36c912744c415fc674dbce03e51ca52652581e65baed71957395bb45/qxxkey-0.0.3.tar.gz
+[2023-07-05 07:14:27] INFO root fetch - processPackages [pybuildtools]: Downloading https://files.pythonhosted.org/packages/5b/2f/08ef6856c665ba406af6a39b580169c7fb659cd51107b4fa0e5901c11310/pybuildtools-0.5.8.tar.gz
+[2023-07-05 07:14:27] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/f2/72/9e2e3ec2bd0ce9535e10b7f773fb815d70ebbba7f47e2883beb1eacb250f/tflite_runtime_nightly-2.14.0.dev20230702-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-base-substate]: Downloading https://files.pythonhosted.org/packages/5e/57/fe16daaab9247687254354fcdc8065fe7fca3747346a471d96ae9fa3a155/odoo_addon_base_substate-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/4e/2c/00404cecae528d3cd16233db7b55d5716b373c16a4781dad840afebe2a39/odoo_addon_date_range-16.0.1.0.1-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/8d/0e/07ad5bd2475fec3d57f677a50303517914333fa968b4ee3b2a1b3949677f/odoo_addon_announcement-15.0.1.1.0.1-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/23/79/0048585ef235747484f35c1669dda630304f15c523344281127b543d190f/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-document-quick-access]: Downloading https://files.pythonhosted.org/packages/09/ca/74f34cca03ca59a03bce412c28c0eefbac3de8717e5f0404a91921a22421/odoo_addon_document_quick_access-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/9e/d4/8a611d427431bc1a1de2cb01b1ee23228d457902014dc13fd4aa1164c2f6/qxxkey-0.0.4.tar.gz
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/ac/64/4f3adf91e84a168535063126182ab9725f2d01737794fca1654e6c0ef9c4/odoo_addon_base_tier_validation-16.0.1.0.5.2-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/73/89/7073b56a745671f832b25a39cb81b5ea7fb5f16de94186cd6e016b7723d0/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [qxxkey]: executing diffoscope
+[2023-07-05 07:14:27] INFO root fetch - processPackages [qxxkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qxxkey-0.0.3.tar.gz tmp/qxxkey-0.0.4.tar.gz --markdown 20230705/q/qxxkey/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 07:14:27] INFO root fetch - processPackages [pybuildtools]: Downloading https://files.pythonhosted.org/packages/4c/9f/3de3793386e9c8be4eb4ff4eb82360bd4c4b2fd6a0d5bb50106b1c125893/pybuildtools-0.5.9.tar.gz
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.5.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-base-tier-validation/16.0.1.0.5.1-16.0.1.0.5.2/diff.md --exclude *.pyd
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: executing diffoscope
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-base-tier-validation/14.0.2.9.3.dev1-14.0.2.9.3.dev2/diff.md --exclude *.pyd
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-base-substate]: Downloading https://files.pythonhosted.org/packages/3e/b1/68267bc44c6952aad1d3118cf027e97cac9b42481ddec4e2b5675e3b6707/odoo_addon_base_substate-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/e0/81/81adac7d41439ee16bb54437eb84b094e6f4fe2ae6472c3ac0641e9e2275/odoo_addon_announcement-15.0.1.1.0.3-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addon-document-quick-access]: Downloading https://files.pythonhosted.org/packages/55/5e/183f3644a3d778ab09b01a775eb5249a6e0613d78869b806e4e109f04218/odoo_addon_document_quick_access-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-05 07:14:27] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/e7/d9/ff02694d7fc99abf880ce7481016cde96f134be44f669b03cc1206738020/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/57/84/be689d4c4a9acaf35b965119484a15dd806084b3d190dfd51a6dde6cbc7e/odoo_addon_date_range-16.0.1.0.2-py3-none-any.whl
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-base-substate]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-base-substate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_substate-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_substate-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-base-substate/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_announcement-15.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-announcement/15.0.1.1.0.1-15.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-document-quick-access]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-document-quick-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_quick_access-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_document_quick_access-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-document-quick-access/15.0.1.0.0.2-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [pybuildtools]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [pybuildtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuildtools-0.5.8.tar.gz tmp/pybuildtools-0.5.9.tar.gz --markdown 20230705/p/pybuildtools/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/88/1a/66928ddfb179e9426eea9e09819f274e044b99fa25df7999bfc416a1924f/tflite_runtime_nightly-2.14.0.dev20230703-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-server-ux/16.0.20230622.1-16.0.20230628.1/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-date-range]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [odoo-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_date_range-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_date_range-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-date-range/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-05 07:14:28] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230702-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230703-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230705/t/tflite-runtime-nightly/2.14.0.dev20230702-2.14.0.dev20230703/diff.md --exclude *.pyd
+[2023-07-05 07:14:28] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.3.tar.gz]
+[2023-07-05 07:14:28] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.4.tar.gz]
+[2023-07-05 07:14:28] INFO root fetch - processPackages [qxxkey]: Start processing: tflite-support-nightly
+[2023-07-05 07:14:28] INFO root fetch - main [MainThread]: End processing [qxxkey]: success
+[2023-07-05 07:14:28] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230703] Old Version: [0.4.4.dev20230702]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/30/f1/452daada4003ee3c11b92cd3c01542dd9988552477955c0e7f3cf7822102/tflite_support_nightly-0.4.4.dev20230702-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 07:14:29] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815120>=10485760
+[2023-07-05 07:14:29] INFO root fetch - processPackages [tflite-support-nightly]: Start processing: bbrl-gymnasium
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-05 07:14:29] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation]: success
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230622.1-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-07-05 07:14:29] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-document-quick-access]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_quick_access-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-document-quick-access]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_quick_access-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-quick-access]: success
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-base-substate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_substate-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-base-substate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_substate-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-substate]: success
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5.1-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-16.0.1.0.5.2-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2023-07-05 07:14:29] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-05 07:14:29] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230705/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:14:29] INFO root fetch - processPackages [pybuildtools]: Remove: archive file [/home/abi/fetcher/tmp/pybuildtools-0.5.8.tar.gz]
+[2023-07-05 07:14:29] INFO root fetch - processPackages [pybuildtools]: Remove: archive file [/home/abi/fetcher/tmp/pybuildtools-0.5.9.tar.gz]
+[2023-07-05 07:14:29] INFO root fetch - main [MainThread]: End processing [pybuildtools]: success
+[2023-07-05 07:14:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230702-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 07:14:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230703-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 07:14:30] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-05 07:14:30] INFO root fetch - processPackages [odoo-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_date_range-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-05 07:14:30] INFO root fetch - processPackages [odoo-addon-date-range]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_date_range-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-05 07:14:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range]: success
+[2023-07-05 07:14:30] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-05 07:14:30] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-05 07:14:30] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-05 07:14:30] INFO root fetch - main [MainThread]: Store serial: [18763049]
