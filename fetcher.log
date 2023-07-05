@@ -21402,3 +21402,222 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:49:45] INFO root fetch - processPackages [pycrosaccade]: Remove: archive file [/home/abi/fetcher/tmp/pycrosaccade-0.5.0.tar.gz]
 [2023-07-05 16:49:45] INFO root fetch - main [MainThread]: End processing [pycrosaccade]: success
 [2023-07-05 16:49:45] INFO root fetch - main [MainThread]: Store serial: [18768815]
+[2023-07-05 16:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768815]
+[2023-07-05 16:54:54] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-django-plus
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autofit
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogalaxy
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autoconf
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-login
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoarray
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-parakeet
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autolens
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dissect.cim
+[2023-07-05 16:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autocti
+[2023-07-05 16:54:54] INFO root fetch - processPackages [amazon-login]: New version: [0.2] Old Version: [0.1]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autoconf]: New version: [2023.7.5.2] Old Version: [2023.6.18.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autofit]: New version: [2023.7.5.2] Old Version: [2023.6.18.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [python-parakeet]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autocti]: New version: [2023.7.5.2] Old Version: [2023.6.18.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [dissect.cim]: New version: [3.7.dev2] Old Version: [3.7.dev1]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autoarray]: New version: [2023.7.5.2] Old Version: [2023.6.18.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autogalaxy]: New version: [2023.7.5.2] Old Version: [2023.6.18.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autolens]: New version: [2023.7.5.2] Old Version: [2023.6.18.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [strawberry-django-plus]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-07-05 16:54:55] INFO root fetch - processPackages [amazon-login]: Downloading https://files.pythonhosted.org/packages/8b/f8/ec55d587ae9c1849c2314e6730b644f666e5a9e735249380dc2cef11acad/amazon_login-0.1.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/5d/87/b9ec4d7dbe844e4b969d9e735284e38c220a7d9be890c9252c52a1777392/autofit-2023.6.18.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [python-parakeet]: Downloading https://files.pythonhosted.org/packages/09/3e/4d91c1ecf0715bdd9fb2caf3195d5c0c01cd1c7aa69864d602051633361d/python-parakeet-0.4.4.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/76/53/d80a6568f50d5bb05edbebcadb4b261beb65482e294f7c3cc54cacc13c41/autoarray-2023.6.18.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/b6/7d/eb12d80d52436763e01680b2d1346ca6b97e92109e7f8b0456fafe2ebbd4/autocti-2023.6.18.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/44/a7/9f03091fc6576e50a71036cb614476a8d3bf6b1d4fd3fab3cc6f6f887715/autogalaxy-2023.6.18.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [dissect.cim]: Downloading https://files.pythonhosted.org/packages/1d/9b/749839bf7cdb2c43e9872190ca2f9703715b7725b1bf8996be1153ddda87/dissect.cim-3.7.dev1.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/21/a6/4ab8a2036ad00079853164caad8adf03de0c65e3faefcc061bb365effe25/autolens-2023.6.18.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/8b/ed/f7fb4047c6b8c428bfcfc34dfdb2708efdaec2c6c1791d9ded4d2e30a1df/strawberry_django_plus-3.0.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/c4/19/a5e75c2cbe598457c152e345b76f784e5d531e5cb530bde9f872885a7502/autoconf-2023.6.18.3.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [amazon-login]: Downloading https://files.pythonhosted.org/packages/ad/0f/c56eaa8f54a72b3518de2f359a2215783a74d98933ac75173e1a10bde223/amazon_login-0.2.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [amazon-login]: executing diffoscope
+[2023-07-05 16:54:55] INFO root fetch - processPackages [amazon-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_login-0.1.tar.gz tmp/amazon_login-0.2.tar.gz --markdown 20230705/a/amazon-login/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autocti]: Downloading https://files.pythonhosted.org/packages/0c/4f/5ca28488137ea4858eb460432cab0030241551a66db42250969382e92d65/autocti-2023.7.5.2.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autoarray]: Downloading https://files.pythonhosted.org/packages/f3/df/db3d5ba75bcaf0ba7ac21460677e7734b86b7e4cc69f385861c2bd34e1d2/autoarray-2023.7.5.2.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autolens]: Downloading https://files.pythonhosted.org/packages/cd/ff/d95acfb9e5ec356fcb954fcda326e0280446e4dd5ea70fa158054a9c2d5d/autolens-2023.7.5.2.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/30/a8/902bf493cb3a1bdf836c853702d906cc7a34194fb4ba4ae1737079875a67/strawberry_django_plus-3.1.0.tar.gz
+[2023-07-05 16:54:55] INFO root fetch - processPackages [autofit]: Downloading https://files.pythonhosted.org/packages/d0/e8/df7da95fd8a2708c1b669931c0194474a7dbfb2e9be997ce09f2f8389199/autofit-2023.7.5.2.tar.gz
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autogalaxy]: Downloading https://files.pythonhosted.org/packages/0c/2f/085ce012b7f246d38b40b7357aa2ffd11505f453ad117be3874fd4e2c4e4/autogalaxy-2023.7.5.2.tar.gz
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autocti]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autocti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocti-2023.6.18.3.tar.gz tmp/autocti-2023.7.5.2.tar.gz --markdown 20230705/a/autocti/2023.6.18.3-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autoarray]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autoarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoarray-2023.6.18.3.tar.gz tmp/autoarray-2023.7.5.2.tar.gz --markdown 20230705/a/autoarray/2023.6.18.3-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autoconf]: Downloading https://files.pythonhosted.org/packages/75/ea/de35b82e34620c41462e38e688d12b7a8d3f12f3946f01d68fdbc5897652/autoconf-2023.7.5.2.tar.gz
+[2023-07-05 16:54:56] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-3.0.3.tar.gz tmp/strawberry_django_plus-3.1.0.tar.gz --markdown 20230705/s/strawberry-django-plus/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autolens]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autolens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autolens-2023.6.18.3.tar.gz tmp/autolens-2023.7.5.2.tar.gz --markdown 20230705/a/autolens/2023.6.18.3-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autofit]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autofit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autofit-2023.6.18.3.tar.gz tmp/autofit-2023.7.5.2.tar.gz --markdown 20230705/a/autofit/2023.6.18.3-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autogalaxy]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autogalaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogalaxy-2023.6.18.3.tar.gz tmp/autogalaxy-2023.7.5.2.tar.gz --markdown 20230705/a/autogalaxy/2023.6.18.3-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autoconf]: executing diffoscope
+[2023-07-05 16:54:56] INFO root fetch - processPackages [autoconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoconf-2023.6.18.3.tar.gz tmp/autoconf-2023.7.5.2.tar.gz --markdown 20230705/a/autoconf/2023.6.18.3-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:56] INFO root fetch - processPackages [dissect.cim]: Downloading https://files.pythonhosted.org/packages/81/b1/12beeb4c9d7794bff945ec93985f1a46c53ae67c2dce2bc6a5715bc7e3a6/dissect.cim-3.7.dev2.tar.gz
+[2023-07-05 16:54:57] INFO root fetch - processPackages [python-parakeet]: Downloading https://files.pythonhosted.org/packages/de/0a/a54bbfad162e22ce159ee2b712dd93d9dc53a65c7ab6eace7066939debde/python-parakeet-0.4.5.tar.gz
+[2023-07-05 16:54:57] INFO root fetch - processPackages [dissect.cim]: executing diffoscope
+[2023-07-05 16:54:57] INFO root fetch - processPackages [dissect.cim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cim-3.7.dev1.tar.gz tmp/dissect.cim-3.7.dev2.tar.gz --markdown 20230705/d/dissect.cim/3.7.dev1-3.7.dev2/diff.md --exclude *.pyd
+[2023-07-05 16:54:57] INFO root fetch - processPackages [amazon-login]: Remove: archive file [/home/abi/fetcher/tmp/amazon_login-0.1.tar.gz]
+[2023-07-05 16:54:57] INFO root fetch - processPackages [amazon-login]: Remove: archive file [/home/abi/fetcher/tmp/amazon_login-0.2.tar.gz]
+[2023-07-05 16:54:57] INFO root fetch - processPackages [amazon-login]: Start processing: whyylog
+[2023-07-05 16:54:57] INFO root fetch - main [MainThread]: End processing [amazon-login]: success
+[2023-07-05 16:54:57] INFO root fetch - processPackages [whyylog]: New version: [0.2] Old Version: [0.1]
+[2023-07-05 16:54:57] INFO root fetch - processPackages [whyylog]: Downloading https://files.pythonhosted.org/packages/5b/73/7ca71a0642a778d7d41f6d4e303982441299be9040ae70c37d001e58285c/whyylog-0.1.tar.gz
+[2023-07-05 16:54:57] INFO root fetch - processPackages [python-parakeet]: executing diffoscope
+[2023-07-05 16:54:57] INFO root fetch - processPackages [python-parakeet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-parakeet-0.4.4.tar.gz tmp/python-parakeet-0.4.5.tar.gz --markdown 20230705/p/python-parakeet/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-05 16:54:58] INFO root fetch - processPackages [whyylog]: Downloading https://files.pythonhosted.org/packages/ba/42/6dfb9faf5d50c6dc135e1c1f2f15e8dac4cffbcd38d407b138adca15de85/whyylog-0.2.tar.gz
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.6.18.3.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autoconf]: Remove: archive file [/home/abi/fetcher/tmp/autoconf-2023.7.5.2.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autoconf]: Start processing: dvclive
+[2023-07-05 16:54:58] INFO root fetch - main [MainThread]: End processing [autoconf]: success
+[2023-07-05 16:54:58] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.0.3.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [strawberry-django-plus]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_django_plus-3.1.0.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [strawberry-django-plus]: Start processing: ssfMiscUtilities
+[2023-07-05 16:54:58] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-07-05 16:54:58] INFO root fetch - processPackages [dvclive]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [whyylog]: executing diffoscope
+[2023-07-05 16:54:58] INFO root fetch - processPackages [whyylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyylog-0.1.tar.gz tmp/whyylog-0.2.tar.gz --markdown 20230705/w/whyylog/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-05 16:54:58] INFO root fetch - processPackages [ssfMiscUtilities]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/66/d5/2fbdc2bc7f6f5dc0b8605db9b9fb47f2a5bb5a7656b106d88d7f3c3e9ca4/dvclive-2.8.1.tar.gz
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.6.18.3.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autolens]: Remove: archive file [/home/abi/fetcher/tmp/autolens-2023.7.5.2.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autolens]: Start processing: swarms
+[2023-07-05 16:54:58] INFO root fetch - main [MainThread]: End processing [autolens]: success
+[2023-07-05 16:54:58] INFO root fetch - processPackages [ssfMiscUtilities]: Downloading https://files.pythonhosted.org/packages/8f/5a/5e4ad33ff60f58681e6a4b495c13dce80745e29943ba3cabf6c88026e2cb/ssfMiscUtilities-0.0.2.tar.gz
+[2023-07-05 16:54:58] INFO root fetch - processPackages [swarms]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.6.18.3.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autocti]: Remove: archive file [/home/abi/fetcher/tmp/autocti-2023.7.5.2.tar.gz]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [autocti]: Start processing: dissect.clfs
+[2023-07-05 16:54:58] INFO root fetch - main [MainThread]: End processing [autocti]: success
+[2023-07-05 16:54:58] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/dd/e4/eea037a612f4e005ff2982d205c6b182d01ab54fae4ce17a0a4e3673e119/swarms-0.5.7.tar.gz
+[2023-07-05 16:54:58] INFO root fetch - processPackages [dissect.clfs]: New version: [1.6.dev2] Old Version: [1.6.dev1]
+[2023-07-05 16:54:58] INFO root fetch - processPackages [ssfMiscUtilities]: Downloading https://files.pythonhosted.org/packages/99/31/f6f2663f8d0d759b6ee264ad15c341623aed95a615b65981fc7d3a738022/ssfMiscUtilities-0.0.3.tar.gz
+[2023-07-05 16:54:59] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/91/a0/e4a49b79c789b71b9a3170dc333ac567101230997d8c7fae59374ac9b9d0/swarms-0.5.8.tar.gz
+[2023-07-05 16:54:59] INFO root fetch - processPackages [ssfMiscUtilities]: executing diffoscope
+[2023-07-05 16:54:59] INFO root fetch - processPackages [ssfMiscUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssfMiscUtilities-0.0.2.tar.gz tmp/ssfMiscUtilities-0.0.3.tar.gz --markdown 20230705/s/ssfMiscUtilities/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.clfs]: Downloading https://files.pythonhosted.org/packages/69/ee/52dde1a1eff9e6482ffa48356d2be213e12dae2e40c30a7dc837d683d22a/dissect.clfs-1.6.dev1.tar.gz
+[2023-07-05 16:54:59] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 16:54:59] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.7.tar.gz tmp/swarms-0.5.8.tar.gz --markdown 20230705/s/swarms/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dvclive]: Downloading https://files.pythonhosted.org/packages/16/af/7547206a4f0151a9591ece3673b7ed5dafb16a50bdbe5fc338a4ca58374e/dvclive-2.9.0.tar.gz
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.cim]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cim-3.7.dev1.tar.gz]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.cim]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cim-3.7.dev2.tar.gz]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.cim]: Start processing: descope
+[2023-07-05 16:54:59] INFO root fetch - main [MainThread]: End processing [dissect.cim]: success
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.clfs]: Downloading https://files.pythonhosted.org/packages/91/ab/e4b963d2f6e69f08cfa054981f92eae442a7e5ae2c7e20e4638f013072a4/dissect.clfs-1.6.dev2.tar.gz
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.clfs]: executing diffoscope
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dissect.clfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.clfs-1.6.dev1.tar.gz tmp/dissect.clfs-1.6.dev2.tar.gz --markdown 20230705/d/dissect.clfs/1.6.dev1-1.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 16:54:59] INFO root fetch - processPackages [descope]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dvclive]: executing diffoscope
+[2023-07-05 16:54:59] INFO root fetch - processPackages [dvclive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvclive-2.8.1.tar.gz tmp/dvclive-2.9.0.tar.gz --markdown 20230705/d/dvclive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:54:59] INFO root fetch - processPackages [whyylog]: Remove: archive file [/home/abi/fetcher/tmp/whyylog-0.1.tar.gz]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [whyylog]: Remove: archive file [/home/abi/fetcher/tmp/whyylog-0.2.tar.gz]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [whyylog]: Start processing: checkov
+[2023-07-05 16:54:59] INFO root fetch - main [MainThread]: End processing [whyylog]: success
+[2023-07-05 16:54:59] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.6.18.3.tar.gz]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [autofit]: Remove: archive file [/home/abi/fetcher/tmp/autofit-2023.7.5.2.tar.gz]
+[2023-07-05 16:54:59] INFO root fetch - processPackages [autofit]: Start processing: finbourne-identity-sdk
+[2023-07-05 16:54:59] INFO root fetch - main [MainThread]: End processing [autofit]: success
+[2023-07-05 16:55:00] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2477]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [descope]: Downloading https://files.pythonhosted.org/packages/ed/3c/e1692815e707ba6c16429c1234b562120b439485d7ec2921538967716dd4/descope-1.5.3.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/2c/97/4e5cc9011951b5ba1e06f9f0e0949e7d4cd4ca140e4067ef8fd26810aeed/finbourne-identity-sdk-0.0.2477.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.6.18.3.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [autoarray]: Remove: archive file [/home/abi/fetcher/tmp/autoarray-2023.7.5.2.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [autoarray]: Start processing: konfuzio-sdk
+[2023-07-05 16:55:00] INFO root fetch - main [MainThread]: End processing [autoarray]: success
+[2023-07-05 16:55:00] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.6.18.3.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [autogalaxy]: Remove: archive file [/home/abi/fetcher/tmp/autogalaxy-2023.7.5.2.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [autogalaxy]: Start processing: py-linq-sql
+[2023-07-05 16:55:00] INFO root fetch - main [MainThread]: End processing [autogalaxy]: success
+[2023-07-05 16:55:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [py-linq-sql]: New version: [1.9.1.1] Old Version: [1.9.0.1]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [descope]: Downloading https://files.pythonhosted.org/packages/b9/d6/8e75e135acccce1c3656dc01cce2f521cf987230a6d6ce62e870f8fcd177/descope-1.5.4.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [py-linq-sql]: Downloading https://files.pythonhosted.org/packages/f4/06/24b80cf08ee96456df2b627bdae5684d8abd12037aece34b1dff5e3c0841/py_linq_sql-1.9.0.1.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [descope]: executing diffoscope
+[2023-07-05 16:55:00] INFO root fetch - processPackages [descope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descope-1.5.3.tar.gz tmp/descope-1.5.4.tar.gz --markdown 20230705/d/descope/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-05 16:55:00] INFO root fetch - processPackages [ssfMiscUtilities]: Remove: archive file [/home/abi/fetcher/tmp/ssfMiscUtilities-0.0.2.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [ssfMiscUtilities]: Remove: archive file [/home/abi/fetcher/tmp/ssfMiscUtilities-0.0.3.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [ssfMiscUtilities]: Start processing: dissect.contrib
+[2023-07-05 16:55:00] INFO root fetch - main [MainThread]: End processing [ssfMiscUtilities]: success
+[2023-07-05 16:55:00] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-07-05 16:55:00] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2477.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230705/f/finbourne-identity-sdk/0.0.2477-0.0.840/diff.md --exclude *.pyd
+[2023-07-05 16:55:00] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-07-05 16:55:00] INFO root fetch - processPackages [dissect.contrib]: New version: [1.4.dev3] Old Version: [1.4.dev2]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.7.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.8.tar.gz]
+[2023-07-05 16:55:00] INFO root fetch - processPackages [swarms]: Start processing: tweeterpy
+[2023-07-05 16:55:00] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 16:55:01] INFO root fetch - processPackages [tweeterpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 16:55:01] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [py-linq-sql]: Downloading https://files.pythonhosted.org/packages/54/63/d0977905d8ed2b26c3dc81b8551aaef93ea3fc596aa9ef80981b676a5f34/py_linq_sql-1.9.1.1.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/5f/f9/6d339ca11500f152b4363581a126df5e8f3c8a1e05ca1ffcd05009d4077a/tweeterpy-0.0.6.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.contrib]: Downloading https://files.pythonhosted.org/packages/e0/fb/137c3ebca1b9920f46800bcf0fea6b3e1e2f724ebb0dfd4db2e965770651/dissect.contrib-1.4.dev2.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [py-linq-sql]: executing diffoscope
+[2023-07-05 16:55:01] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [py-linq-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_linq_sql-1.9.0.1.tar.gz tmp/py_linq_sql-1.9.1.1.tar.gz --markdown 20230705/p/py-linq-sql/1.9.0.1-1.9.1.1/diff.md --exclude *.pyd
+[2023-07-05 16:55:01] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-05 16:55:01] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230705/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.clfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.clfs-1.6.dev1.tar.gz]
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.clfs]: Remove: archive file [/home/abi/fetcher/tmp/dissect.clfs-1.6.dev2.tar.gz]
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.clfs]: Start processing: dissect.cstruct
+[2023-07-05 16:55:01] INFO root fetch - main [MainThread]: End processing [dissect.clfs]: success
+[2023-07-05 16:55:01] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-07-05 16:55:01] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230705/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.cstruct]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2023-07-05 16:55:01] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/13/5e/ad1fa2dd3d52fd5693cd6ae5f76d123d2cb6939df3a6bbe76c976e1e9aaf/tweeterpy-0.0.7.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [tweeterpy]: executing diffoscope
+[2023-07-05 16:55:01] INFO root fetch - processPackages [tweeterpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweeterpy-0.0.6.tar.gz tmp/tweeterpy-0.0.7.tar.gz --markdown 20230705/t/tweeterpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.contrib]: Downloading https://files.pythonhosted.org/packages/25/74/c0cf3f0150362bc00ba3109f80835b50c34c3897ffa635f24c754d913e3a/dissect.contrib-1.4.dev3.tar.gz
+[2023-07-05 16:55:01] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/f9/c1/8c4c10d3b7647ce0bd6a5aabe2fe1b8c180f77aa7cca312f89ec30c55921/dissect.cstruct-3.8.dev1.tar.gz
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.contrib]: executing diffoscope
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.contrib-1.4.dev2.tar.gz tmp/dissect.contrib-1.4.dev3.tar.gz --markdown 20230705/d/dissect.contrib/1.4.dev2-1.4.dev3/diff.md --exclude *.pyd
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dvclive]: Remove: archive file [/home/abi/fetcher/tmp/dvclive-2.8.1.tar.gz]
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dvclive]: Remove: archive file [/home/abi/fetcher/tmp/dvclive-2.9.0.tar.gz]
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dvclive]: Start processing: dissect.esedb
+[2023-07-05 16:55:02] INFO root fetch - main [MainThread]: End processing [dvclive]: success
+[2023-07-05 16:55:02] INFO root fetch - processPackages [descope]: Remove: archive file [/home/abi/fetcher/tmp/descope-1.5.3.tar.gz]
+[2023-07-05 16:55:02] INFO root fetch - processPackages [descope]: Remove: archive file [/home/abi/fetcher/tmp/descope-1.5.4.tar.gz]
+[2023-07-05 16:55:02] INFO root fetch - main [MainThread]: End processing [descope]: success
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.esedb]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/61/73/e6db079c8bf267449473fe16add369af49839bc9ed7aac2356873b046341/dissect.cstruct-3.8.dev2.tar.gz
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.cstruct-3.8.dev1.tar.gz tmp/dissect.cstruct-3.8.dev2.tar.gz --markdown 20230705/d/dissect.cstruct/3.8.dev1-3.8.dev2/diff.md --exclude *.pyd
+[2023-07-05 16:55:02] INFO root fetch - processPackages [dissect.esedb]: Downloading https://files.pythonhosted.org/packages/5c/b6/7d88db69fa67ea46f3082919414768ed6077ecce7cb7b0afb4ed6f99823d/dissect.esedb-3.8.dev1.tar.gz
+[2023-07-05 16:55:03] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2477.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-07-05 16:55:03] INFO root fetch - processPackages [dissect.esedb]: Downloading https://files.pythonhosted.org/packages/08/bc/a14d191c394d380c1e1f3969d290b5dd9eb660d8d1406248187a9c4b2251/dissect.esedb-3.8.dev2.tar.gz
+[2023-07-05 16:55:03] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-07-05 16:55:03] INFO root fetch - processPackages [py-linq-sql]: Remove: archive file [/home/abi/fetcher/tmp/py_linq_sql-1.9.0.1.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - processPackages [py-linq-sql]: Remove: archive file [/home/abi/fetcher/tmp/py_linq_sql-1.9.1.1.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - main [MainThread]: End processing [py-linq-sql]: success
+[2023-07-05 16:55:03] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.6.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.7.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - main [MainThread]: End processing [tweeterpy]: success
+[2023-07-05 16:55:03] INFO root fetch - processPackages [dissect.esedb]: executing diffoscope
+[2023-07-05 16:55:03] INFO root fetch - processPackages [dissect.esedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.esedb-3.8.dev1.tar.gz tmp/dissect.esedb-3.8.dev2.tar.gz --markdown 20230705/d/dissect.esedb/3.8.dev1-3.8.dev2/diff.md --exclude *.pyd
+[2023-07-05 16:55:03] INFO root fetch - processPackages [dissect.contrib]: Remove: archive file [/home/abi/fetcher/tmp/dissect.contrib-1.4.dev2.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - processPackages [dissect.contrib]: Remove: archive file [/home/abi/fetcher/tmp/dissect.contrib-1.4.dev3.tar.gz]
+[2023-07-05 16:55:03] INFO root fetch - main [MainThread]: End processing [dissect.contrib]: success
+[2023-07-05 16:55:04] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.8.dev1.tar.gz]
+[2023-07-05 16:55:04] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect.cstruct-3.8.dev2.tar.gz]
+[2023-07-05 16:55:04] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2023-07-05 16:55:04] INFO root fetch - processPackages [dissect.esedb]: Remove: archive file [/home/abi/fetcher/tmp/dissect.esedb-3.8.dev1.tar.gz]
+[2023-07-05 16:55:04] INFO root fetch - processPackages [dissect.esedb]: Remove: archive file [/home/abi/fetcher/tmp/dissect.esedb-3.8.dev2.tar.gz]
+[2023-07-05 16:55:04] INFO root fetch - main [MainThread]: End processing [dissect.esedb]: success
+[2023-07-05 16:55:04] INFO root fetch - processPackages [python-parakeet]: Remove: archive file [/home/abi/fetcher/tmp/python-parakeet-0.4.4.tar.gz]
+[2023-07-05 16:55:05] INFO root fetch - processPackages [python-parakeet]: Remove: archive file [/home/abi/fetcher/tmp/python-parakeet-0.4.5.tar.gz]
+[2023-07-05 16:55:05] INFO root fetch - main [MainThread]: End processing [python-parakeet]: success
+[2023-07-05 16:55:17] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-05 16:55:17] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-05 16:55:17] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-05 16:55:17] INFO root fetch - main [MainThread]: Store serial: [18768889]
