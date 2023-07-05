@@ -9200,3 +9200,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 08:17:40] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.99.tar.gz]
 [2023-07-05 08:17:40] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-07-05 08:17:40] INFO root fetch - main [MainThread]: Store serial: [18763270]
+[2023-07-05 08:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763270]
+[2023-07-05 08:22:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipe21
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlopskit
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-cradmin
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reytool
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangounittest
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit-iqm
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: berrydb
+[2023-07-05 08:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taxonomy-connector
+[2023-07-05 08:22:51] WARNING root fetch - processPackages [mlopskit]: Skipping, unable to determine old version
+[2023-07-05 08:22:51] INFO root fetch - main [MainThread]: End processing [mlopskit] error
+[2023-07-05 08:22:51] INFO root fetch - processPackages [django-cradmin]: New version: [9.2.0] Old Version: [9.1.0]
+[2023-07-05 08:22:51] INFO root fetch - processPackages [berrydb]: New version: [1.0.0] Old Version: [0.0.32]
+[2023-07-05 08:22:51] INFO root fetch - processPackages [pipe21]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-05 08:22:51] INFO root fetch - processPackages [djangounittest]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 08:22:51] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-05 08:22:51] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2023-07-05 08:22:51] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-05 08:22:52] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/96/50/052526ab62f57083d4dd75575b1c54b757b4f69a1947e6a2670d133fca68/django-cradmin-9.1.0.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-05 08:22:52] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/75/11/29f4fe05bdfd88f44291dde6838ea17756f1ac3322695d976d8958ec3236/berrydb-0.0.32-py3-none-any.whl
+[2023-07-05 08:22:52] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/f3/b4/7ff212d7e12054af472b1fe1d8c6ffb5425a74d6249bfb2198a1112d2b8c/djangounittest-0.2.8.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/51/39/24c442c6db5e924109871bfd746531a14c6069a8f9b3e456e72c8efa05cd/pipe21-1.8.0.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [django-cradmin]: Downloading https://files.pythonhosted.org/packages/23/85/f38ba4732c972a67d52a04b76e82d47209993d7df27ad891360ebf61c88b/django-cradmin-9.2.0.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-05 08:22:52] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/2a/a0/ad8ae2cfd819a235eea7f9e5e44eed03043287423cc413acb458c35d4257/berrydb-1.0.0.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-05 08:22:52] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230705/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-05 08:22:52] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/7e/aa/4d9cc1ff5a448bc05cbfc338a4538e1f66d57ced4d3131cbcf83003704a4/djangounittest-0.2.9.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [berrydb]: executing diffoscope
+[2023-07-05 08:22:52] INFO root fetch - processPackages [berrydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb-0.0.32-py3-none-any.whl.zip tmp/berrydb-1.0.0.tar.gz --markdown 20230705/b/berrydb/0.0.32-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 08:22:52] INFO root fetch - processPackages [django-cradmin]: executing diffoscope
+[2023-07-05 08:22:52] INFO root fetch - processPackages [django-cradmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cradmin-9.1.0.tar.gz tmp/django-cradmin-9.2.0.tar.gz --markdown 20230705/d/django-cradmin/9.1.0-9.2.0/diff.md --exclude *.pyd
+[2023-07-05 08:22:52] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-07-05 08:22:52] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.2.8.tar.gz tmp/djangounittest-0.2.9.tar.gz --markdown 20230705/d/djangounittest/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 08:22:52] INFO root fetch - processPackages [pipe21]: Downloading https://files.pythonhosted.org/packages/06/d2/ce18067a3e0d49128faaaa14a4a4c575a2c94bb1d4faf3fdbfec1625ee96/pipe21-1.9.0.tar.gz
+[2023-07-05 08:22:52] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2023-07-05 08:22:53] INFO root fetch - processPackages [pipe21]: executing diffoscope
+[2023-07-05 08:22:53] INFO root fetch - processPackages [pipe21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipe21-1.8.0.tar.gz tmp/pipe21-1.9.0.tar.gz --markdown 20230705/p/pipe21/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 08:22:53] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-07-05 08:22:53] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20230705/q/qiskit-iqm/8.3-9.0/diff.md --exclude *.pyd
+[2023-07-05 08:22:53] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-07-05 08:22:53] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-07-05 08:22:53] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230705/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 08:22:53] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-0.0.32-py3-none-any.whl.zip]
+[2023-07-05 08:22:53] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.0.tar.gz]
+[2023-07-05 08:22:53] INFO root fetch - main [MainThread]: End processing [berrydb]: success
+[2023-07-05 08:22:53] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-05 08:22:53] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-05 08:22:53] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-05 08:22:54] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.8.tar.gz]
+[2023-07-05 08:22:54] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.9.tar.gz]
+[2023-07-05 08:22:54] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-07-05 08:22:54] INFO root fetch - processPackages [pipe21]: Remove: archive file [/home/abi/fetcher/tmp/pipe21-1.8.0.tar.gz]
+[2023-07-05 08:22:54] INFO root fetch - processPackages [pipe21]: Remove: archive file [/home/abi/fetcher/tmp/pipe21-1.9.0.tar.gz]
+[2023-07-05 08:22:54] INFO root fetch - main [MainThread]: End processing [pipe21]: success
+[2023-07-05 08:22:54] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2023-07-05 08:22:54] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2023-07-05 08:22:54] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-07-05 08:22:55] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.8.0.tar.gz]
+[2023-07-05 08:22:55] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.9.0.tar.gz]
+[2023-07-05 08:22:55] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-07-05 08:23:03] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.1.0.tar.gz]
+[2023-07-05 08:23:03] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
+[2023-07-05 08:23:03] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
+[2023-07-05 08:23:03] INFO root fetch - main [MainThread]: Store serial: [18763295]
