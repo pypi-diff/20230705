@@ -20311,3 +20311,130 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:11:29] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-05 16:11:29] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-05 16:11:29] INFO root fetch - main [MainThread]: Store serial: [18768344]
+[2023-07-05 16:16:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768344]
+[2023-07-05 16:16:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-debugger
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nazca
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helium
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerdcore
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretix-checkinlist-net
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pvlib
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-parallelcluster-node
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sintef-pyshop
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SELDOMpy
+[2023-07-05 16:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-parallelcluster
+[2023-07-05 16:16:39] INFO root fetch - processPackages [helium]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [qiskit-debugger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [sintef-pyshop]: New version: [1.4.2] Old Version: [1.4.1a0]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nazca]: New version: [3.0.0] Old Version: [2.0.2]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [aws-parallelcluster-node]: New version: [3.6.1] Old Version: [3.6.0b1]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [pretix-checkinlist-net]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [aws-parallelcluster]: New version: [3.6.1] Old Version: [3.6.0b1]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [pvlib]: New version: [0.9.5] Old Version: [0.9.4a1]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.3.9] Old Version: [0.8.3.8]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/32/d5/dc26f6fc11ad66bbce9301b960cec7ff9dcf121a06b7eb82293b9c9cccf0/SELDOMpy-0.8.3.8.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [aws-parallelcluster]: Downloading https://files.pythonhosted.org/packages/62/fc/e29444e215c0644615a2baff32b19cc30d627adafa38a75ae1bf7ef19891/aws-parallelcluster-3.6.0b1.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [helium]: Downloading https://files.pythonhosted.org/packages/28/b9/d69ae1e5a3ab40ce1096014d1178e8e64bccd041acdad2093afa1003f76a/helium-3.1.0.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [qiskit-debugger]: Downloading https://files.pythonhosted.org/packages/ae/2d/49716349730dc21e4672b0f0441887b167b6e8877b173a8d897361bf191d/qiskit_debugger-0.1.0.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [pretix-checkinlist-net]: Downloading https://files.pythonhosted.org/packages/8f/c1/2b4c107fe311c9407fc4a43837f38ab5c1e7908c0d9abc8a6a986caf3c4c/pretix-checkinlist-net-2.0.5.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [aws-parallelcluster-node]: Downloading https://files.pythonhosted.org/packages/82/72/cb28da34b53dd201b404c4ac0862e486fba1543863e14d5a0c1ad84ce029/aws-parallelcluster-node-3.6.0b1.tar.gz
+[2023-07-05 16:16:39] WARNING root fetch - processPackages [helium]: Skipping package: exceeds size limit 26053939>=10485760
+[2023-07-05 16:16:39] INFO root fetch - processPackages [helium]: Start processing: vegafusion-python-embed
+[2023-07-05 16:16:39] INFO root fetch - main [MainThread]: End processing [helium] error
+[2023-07-05 16:16:39] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/eb/3b/75e71dc3a11b2869f8cc035b84589599b64d40cd8f6e659fcb630c654f8c/sintef-pyshop-1.4.1a0.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [pvlib]: Downloading https://files.pythonhosted.org/packages/ca/f1/a9a8effc9791e70e7fe7cf7738de30d4a2c6de5d5db549d32150362453cb/pvlib-0.9.4a1.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-07-05 16:16:39] WARNING root fetch - processPackages [pvlib]: Skipping package: exceeds size limit 34720228>=10485760
+[2023-07-05 16:16:39] INFO root fetch - processPackages [pvlib]: Start processing: heyoo
+[2023-07-05 16:16:39] INFO root fetch - main [MainThread]: End processing [pvlib] error
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nazca]: Downloading https://files.pythonhosted.org/packages/33/f9/9de1e06b942d0dc7326438be5147c959d1d22369a4f87301a7d30d54c5f6/nazca-2.0.2.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/1c/46/e521bde7e43501ba03a33b8cc30f42fababf154f35e7cc9aaa809c6eff3a/SELDOMpy-0.8.3.9.tar.gz
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-05 16:16:39] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230705/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 16:16:39] INFO root fetch - processPackages [heyoo]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-05 16:16:39] INFO root fetch - processPackages [aws-parallelcluster]: Downloading https://files.pythonhosted.org/packages/3e/9c/ed1d59835e1832d379b768d81ae4be0d6639d2e7967be4029451e3c31c49/aws-parallelcluster-3.6.1.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.8.tar.gz tmp/SELDOMpy-0.8.3.9.tar.gz --markdown 20230705/S/SELDOMpy/0.8.3.8-0.8.3.9/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [qiskit-debugger]: Downloading https://files.pythonhosted.org/packages/48/5d/9c018b07dcc9927f1ae75b86375dd579f59ecaeb69ec91199c03dff8ec94/qiskit_debugger-0.1.1.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/39/29/367307db91fd8807af63a9b588d2095b51e7b5c8b33533dce92e35c7a64b/vegafusion_python_embed-1.4.0_rc1.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [aws-parallelcluster-node]: Downloading https://files.pythonhosted.org/packages/0d/25/00819d9e5da873c97488ebb774ada2f65583997d5330d807a894a29a8210/aws-parallelcluster-node-3.6.1.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/40/ae/830ca5388d813207a2c80dcbdc33c45c2cac40f79bcc1642861425a66586/sintef-pyshop-1.4.2.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [pretix-checkinlist-net]: Downloading https://files.pythonhosted.org/packages/b3/f8/80ab225fba71741efec47bd1e699bb74d2897f82142c434241add29d3aa1/pretix-checkinlist-net-2.0.6.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [aws-parallelcluster]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [aws-parallelcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-parallelcluster-3.6.0b1.tar.gz tmp/aws-parallelcluster-3.6.1.tar.gz --markdown 20230705/a/aws-parallelcluster/3.6.0b1-3.6.1/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [aws-parallelcluster-node]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [aws-parallelcluster-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-parallelcluster-node-3.6.0b1.tar.gz tmp/aws-parallelcluster-node-3.6.1.tar.gz --markdown 20230705/a/aws-parallelcluster-node/3.6.0b1-3.6.1/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [heyoo]: Downloading https://files.pythonhosted.org/packages/e4/05/c0ee7188cdf205b6c93b80f3717fd272a563c3edf58880451bb8475292f8/heyoo-0.0.9-py3-none-any.whl
+[2023-07-05 16:16:40] INFO root fetch - processPackages [nazca]: Downloading https://files.pythonhosted.org/packages/9b/32/1cc3fbb6a95a8921984428528d6aa75dc67b8ef66908d6674b10dd71e900/nazca-3.0.0.tar.gz
+[2023-07-05 16:16:40] INFO root fetch - processPackages [sintef-pyshop]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [sintef-pyshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sintef-pyshop-1.4.1a0.tar.gz tmp/sintef-pyshop-1.4.2.tar.gz --markdown 20230705/s/sintef-pyshop/1.4.1a0-1.4.2/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [qiskit-debugger]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [qiskit-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_debugger-0.1.0.tar.gz tmp/qiskit_debugger-0.1.1.tar.gz --markdown 20230705/q/qiskit-debugger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [pretix-checkinlist-net]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [pretix-checkinlist-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-checkinlist-net-2.0.5.tar.gz tmp/pretix-checkinlist-net-2.0.6.tar.gz --markdown 20230705/p/pretix-checkinlist-net/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [nazca]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [nazca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nazca-2.0.2.tar.gz tmp/nazca-3.0.0.tar.gz --markdown 20230705/n/nazca/2.0.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-05 16:16:40] INFO root fetch - processPackages [heyoo]: Downloading https://files.pythonhosted.org/packages/2f/8a/20457f4b4ef558169d0c8ce34facbe914aa08de79c755cfb63869d371e67/heyoo-0.1.0-py3-none-any.whl
+[2023-07-05 16:16:40] INFO root fetch - processPackages [heyoo]: executing diffoscope
+[2023-07-05 16:16:40] INFO root fetch - processPackages [heyoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heyoo-0.0.9-py3-none-any.whl.zip tmp/heyoo-0.1.0-py3-none-any.whl.zip --markdown 20230705/h/heyoo/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-05 16:16:41] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-05 16:16:41] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-05 16:16:41] INFO root fetch - processPackages [nerdcore]: Start processing: vegafusion
+[2023-07-05 16:16:41] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-05 16:16:41] INFO root fetch - processPackages [vegafusion]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [qiskit-debugger]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_debugger-0.1.0.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [qiskit-debugger]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_debugger-0.1.1.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [qiskit-debugger]: Start processing: onapsdk
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [qiskit-debugger]: success
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/2b/75/b1ec62b47e4a644d6186c5db0b848fe9a977df591419ed54dab935161b90/vegafusion-1.4.0rc1.tar.gz
+[2023-07-05 16:16:42] INFO root fetch - processPackages [pretix-checkinlist-net]: Remove: archive file [/home/abi/fetcher/tmp/pretix-checkinlist-net-2.0.5.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [pretix-checkinlist-net]: Remove: archive file [/home/abi/fetcher/tmp/pretix-checkinlist-net-2.0.6.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [pretix-checkinlist-net]: Start processing: vegafusion-jupyter
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [pretix-checkinlist-net]: success
+[2023-07-05 16:16:42] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.1a0.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.2.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [sintef-pyshop]: success
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/0d/85/7085b8c1e8f503954d1206f17575ae2503054a290db3cdde91a1a68abb63/vegafusion_python_embed-1.4.0rc2-cp38-abi3-win_amd64.whl
+[2023-07-05 16:16:42] INFO root fetch - processPackages [onapsdk]: New version: [9.6.0] Old Version: [9.5.1]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [aws-parallelcluster-node]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-node-3.6.0b1.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [aws-parallelcluster-node]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-node-3.6.1.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [aws-parallelcluster-node]: success
+[2023-07-05 16:16:42] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.8.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.9.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-05 16:16:42] WARNING root fetch - processPackages [vegafusion-python-embed]: Skipping package: exceeds size limit 17335825>=10485760
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed] error
+[2023-07-05 16:16:42] INFO root fetch - processPackages [heyoo]: Remove: archive file [/home/abi/fetcher/tmp/heyoo-0.0.9-py3-none-any.whl.zip]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [heyoo]: Remove: archive file [/home/abi/fetcher/tmp/heyoo-0.1.0-py3-none-any.whl.zip]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/de/5f/b1066851eb1bb57d96875b829b5cd04d14d94b820ae4f9ed9d507f570ff3/vegafusion-1.4.0rc2.tar.gz
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [heyoo]: success
+[2023-07-05 16:16:42] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/34/8d/de179917b707edfd9bb4c028c49d7efff1d14da5c21b6030c9f58ff65c7e/onapsdk-9.5.1.tar.gz
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/84/c8/7498406f0e3824abc375dffc79040e9bfae7fb2e315aaed6df69246c94f3/vegafusion-jupyter-1.4.0rc1.tar.gz
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2023-07-05 16:16:42] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.4.0rc1.tar.gz tmp/vegafusion-1.4.0rc2.tar.gz --markdown 20230705/v/vegafusion/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-07-05 16:16:42] INFO root fetch - processPackages [nazca]: Remove: archive file [/home/abi/fetcher/tmp/nazca-2.0.2.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - processPackages [nazca]: Remove: archive file [/home/abi/fetcher/tmp/nazca-3.0.0.tar.gz]
+[2023-07-05 16:16:42] INFO root fetch - main [MainThread]: End processing [nazca]: success
+[2023-07-05 16:16:43] INFO root fetch - processPackages [onapsdk]: Downloading https://files.pythonhosted.org/packages/54/d9/b0ae90c2fb352493a8e31989ab994f4540b0ae9dec8292b1372a1d01c994/onapsdk-9.6.0.tar.gz
+[2023-07-05 16:16:43] INFO root fetch - processPackages [onapsdk]: executing diffoscope
+[2023-07-05 16:16:43] INFO root fetch - processPackages [onapsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onapsdk-9.5.1.tar.gz tmp/onapsdk-9.6.0.tar.gz --markdown 20230705/o/onapsdk/9.5.1-9.6.0/diff.md --exclude *.pyd
+[2023-07-05 16:16:43] INFO root fetch - processPackages [aws-parallelcluster]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-3.6.0b1.tar.gz]
+[2023-07-05 16:16:43] INFO root fetch - processPackages [aws-parallelcluster]: Remove: archive file [/home/abi/fetcher/tmp/aws-parallelcluster-3.6.1.tar.gz]
+[2023-07-05 16:16:43] INFO root fetch - main [MainThread]: End processing [aws-parallelcluster]: success
+[2023-07-05 16:16:43] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/80/c8/d0b505d04c634965de8d44361ec2cfc243f7e2c5abff4ac5a3fee812e923/vegafusion-jupyter-1.4.0rc2.tar.gz
+[2023-07-05 16:16:43] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.4.0rc1.tar.gz]
+[2023-07-05 16:16:43] INFO root fetch - processPackages [vegafusion]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-1.4.0rc2.tar.gz]
+[2023-07-05 16:16:43] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2023-07-05 16:16:44] INFO root fetch - processPackages [onapsdk]: Remove: archive file [/home/abi/fetcher/tmp/onapsdk-9.5.1.tar.gz]
+[2023-07-05 16:16:44] INFO root fetch - processPackages [onapsdk]: Remove: archive file [/home/abi/fetcher/tmp/onapsdk-9.6.0.tar.gz]
+[2023-07-05 16:16:44] INFO root fetch - main [MainThread]: End processing [onapsdk]: success
+[2023-07-05 16:16:44] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-07-05 16:16:44] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.4.0rc1.tar.gz tmp/vegafusion-jupyter-1.4.0rc2.tar.gz --markdown 20230705/v/vegafusion-jupyter/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-07-05 16:17:36] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc1.tar.gz]
+[2023-07-05 16:17:36] INFO root fetch - processPackages [vegafusion-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/vegafusion-jupyter-1.4.0rc2.tar.gz]
+[2023-07-05 16:17:36] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-07-05 16:17:36] INFO root fetch - main [MainThread]: Store serial: [18768388]
