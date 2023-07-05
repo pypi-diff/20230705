@@ -19474,3 +19474,172 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 15:38:50] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
 [2023-07-05 15:38:50] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-07-05 15:38:50] INFO root fetch - main [MainThread]: Store serial: [18767977]
+[2023-07-05 15:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767977]
+[2023-07-05 15:43:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cephes4py
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.target
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zibanu-django-auth
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Implicit
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openllm
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qalx-orcaflex
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sage-flatsurf
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sf-heu
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text-fabric
+[2023-07-05 15:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: irene-pro
+[2023-07-05 15:43:59] INFO root fetch - processPackages [sage-flatsurf]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [irene-pro]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [cephes4py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [qalx-orcaflex]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.1.1rc1] Old Version: [2.1.0rc1]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [sage-flatsurf]: Downloading https://files.pythonhosted.org/packages/0b/9c/ed3cdeb5ba1b52a8ef924c2ed148b04b3a2c917835c1b9f3a622db769238/sage_flatsurf-0.5.0.tar.gz
+[2023-07-05 15:43:59] WARNING root fetch - processPackages [zibanu-django-auth]: Skipping, unable to determine old version
+[2023-07-05 15:43:59] INFO root fetch - processPackages [zibanu-django-auth]: Start processing: velikafkaclient
+[2023-07-05 15:43:59] INFO root fetch - main [MainThread]: End processing [zibanu-django-auth] error
+[2023-07-05 15:43:59] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [sf-heu]: New version: [0.4.4b0] Old Version: [0.4.3b3]
+[2023-07-05 15:43:59] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/05/d9/661fb759266b4723109404513bbe49d57cf920f64ae0c30295c018ff3b30/irene_pro-0.0.81.tar.gz
+[2023-07-05 15:43:59] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-05 15:44:00] INFO root fetch - processPackages [cephes4py]: Downloading https://files.pythonhosted.org/packages/58/c3/9786324978d26fbfb6252c9506d01985bc8b9c628f3b0f4251b3e3a5a13c/cephes4py-0.0.2.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [qalx-orcaflex]: Downloading https://files.pythonhosted.org/packages/32/65/dcd1cd008f5d2382c32748a23af4bdd31e65811277e4e80e06b1f5ebc50b/qalx_orcaflex-0.2.6.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [velikafkaclient]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 15:44:00] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-07-05 15:44:00] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/f7/9e/450b7b1c6903d960a96ab994fd360185f60c2a2a514ea7b4b8f4a7f8f6b6/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-05 15:44:00] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/b0/25/07e0ec1e8c07e8caba58d053f4308a25a2bd3f8b19fdfc7f010344fafa47/irene_pro-0.0.82.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [sf-heu]: Downloading https://files.pythonhosted.org/packages/b6/f5/87abe6a02acb0f7c38772397dbe59898c5dfc54205d91a2403d64eb7244a/sf_heu-0.4.3b3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 15:44:00] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-07-05 15:44:00] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-05 15:44:00] INFO root fetch - processPackages [dissect.target]: Start processing: arraylib-solve
+[2023-07-05 15:44:00] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-05 15:44:00] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/c4/8e/bcb8c4ee6b925e716e6b14ef5540c6e813371c08203bd30a3c0dfa3c0877/velikafkaclient-1.0.0.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [sage-flatsurf]: Downloading https://files.pythonhosted.org/packages/2a/8b/3cc30f1b00bd7c88a7697790f67cd1b0dd65bdb293b0069a7049e884e443/sage_flatsurf-0.5.1.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-05 15:44:00] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.81.tar.gz tmp/irene_pro-0.0.82.tar.gz --markdown 20230705/i/irene-pro/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-07-05 15:44:00] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 15:44:00] INFO root fetch - processPackages [cephes4py]: Downloading https://files.pythonhosted.org/packages/76/18/d2bc2f94531dec883fa6503042a9dce29d4718b7bf26be3dd6f5f31479fa/cephes4py-0.0.3.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [qalx-orcaflex]: Downloading https://files.pythonhosted.org/packages/2f/f7/6c7a240e8a837637d13a8b01b3d0305cbcf6d7059e48d941b8ca430a32b4/qalx_orcaflex-0.2.7.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/54/a8/3ce0db62e41731b9c9bc19b0b253b6db4486b7a766443276c20c5d0f00d5/arraylib_solve-0.8.0.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [sage-flatsurf]: executing diffoscope
+[2023-07-05 15:44:00] INFO root fetch - processPackages [sage-flatsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_flatsurf-0.5.0.tar.gz tmp/sage_flatsurf-0.5.1.tar.gz --markdown 20230705/s/sage-flatsurf/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 15:44:00] INFO root fetch - processPackages [cephes4py]: executing diffoscope
+[2023-07-05 15:44:00] INFO root fetch - processPackages [cephes4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cephes4py-0.0.2.tar.gz tmp/cephes4py-0.0.3.tar.gz --markdown 20230705/c/cephes4py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 15:44:00] INFO root fetch - processPackages [qalx-orcaflex]: executing diffoscope
+[2023-07-05 15:44:00] INFO root fetch - processPackages [qalx-orcaflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalx_orcaflex-0.2.6.tar.gz tmp/qalx_orcaflex-0.2.7.tar.gz --markdown 20230705/q/qalx-orcaflex/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-05 15:44:00] INFO root fetch - processPackages [velikafkaclient]: Downloading https://files.pythonhosted.org/packages/3f/4d/4e161c7070b2f8bf94ca07c79596a7d5ddef6643bd9aa9fc13b64e18bb9e/velikafkaclient-1.0.1.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-07-05 15:44:00] INFO root fetch - processPackages [velikafkaclient]: executing diffoscope
+[2023-07-05 15:44:00] INFO root fetch - processPackages [velikafkaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velikafkaclient-1.0.0.tar.gz tmp/velikafkaclient-1.0.1.tar.gz --markdown 20230705/v/velikafkaclient/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 15:44:01] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-07-05 15:44:01] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230705/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 15:44:01] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/e9/83/d399f652db09524920cfc070dc77f1d3794d44b02cf946feb95574cd3279/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-05 15:44:01] INFO root fetch - processPackages [sf-heu]: Downloading https://files.pythonhosted.org/packages/d3/d4/20919c6f372913696154de6e434bd4febb5d793a75aabde35735e40011e8/sf_heu-0.4.4b0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-05 15:44:01] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-07-05 15:44:01] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.81.tar.gz]
+[2023-07-05 15:44:01] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.82.tar.gz]
+[2023-07-05 15:44:01] INFO root fetch - processPackages [irene-pro]: Start processing: caqui
+[2023-07-05 15:44:01] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-05 15:44:01] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.13.0]
+[2023-07-05 15:44:01] INFO root fetch - processPackages [cephes4py]: Remove: archive file [/home/abi/fetcher/tmp/cephes4py-0.0.2.tar.gz]
+[2023-07-05 15:44:01] INFO root fetch - processPackages [cephes4py]: Remove: archive file [/home/abi/fetcher/tmp/cephes4py-0.0.3.tar.gz]
+[2023-07-05 15:44:01] INFO root fetch - processPackages [cephes4py]: Start processing: sasapay-payments
+[2023-07-05 15:44:01] INFO root fetch - main [MainThread]: End processing [cephes4py]: success
+[2023-07-05 15:44:02] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/92/41/8e8fb2068cefc69a565f388e25b6a326bff692e436cc886521274ecf890a/caqui-1.13.0.tar.gz
+[2023-07-05 15:44:02] WARNING root fetch - processPackages [sasapay-payments]: Skipping, unable to determine old version
+[2023-07-05 15:44:02] INFO root fetch - processPackages [sasapay-payments]: Start processing: pyunifiprotect
+[2023-07-05 15:44:02] INFO root fetch - main [MainThread]: End processing [sasapay-payments] error
+[2023-07-05 15:44:02] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-07-05 15:44:02] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.0.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [velikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/velikafkaclient-1.0.1.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [velikafkaclient]: Start processing: bindata
+[2023-07-05 15:44:02] INFO root fetch - main [MainThread]: End processing [velikafkaclient]: success
+[2023-07-05 15:44:02] INFO root fetch - processPackages [pyunifiprotect]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [bindata]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.8.0.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.9.0.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [arraylib-solve]: Start processing: py-linq-sql
+[2023-07-05 15:44:02] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-07-05 15:44:02] INFO root fetch - processPackages [sf-heu]: executing diffoscope
+[2023-07-05 15:44:02] INFO root fetch - processPackages [sf-heu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_heu-0.4.3b3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/sf_heu-0.4.4b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230705/s/sf-heu/0.4.3b3-0.4.4b0/diff.md --exclude *.pyd
+[2023-07-05 15:44:02] INFO root fetch - processPackages [py-linq-sql]: New version: [1.9.0.1] Old Version: [1.8.3.1]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/6c/bd/ff2abaca655a6921d8379969bbdb3671618f8af381bbd317ef23cc8f50c3/bindata-0.9.5.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [qalx-orcaflex]: Remove: archive file [/home/abi/fetcher/tmp/qalx_orcaflex-0.2.6.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [qalx-orcaflex]: Remove: archive file [/home/abi/fetcher/tmp/qalx_orcaflex-0.2.7.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [qalx-orcaflex]: Start processing: meow-base
+[2023-07-05 15:44:02] INFO root fetch - main [MainThread]: End processing [qalx-orcaflex]: success
+[2023-07-05 15:44:02] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2023-07-05 15:44:02] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230705/G/Geode-Implicit/2.1.0rc1-2.1.1rc1/diff.md --exclude *.pyd
+[2023-07-05 15:44:02] INFO root fetch - processPackages [meow-base]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [py-linq-sql]: Downloading https://files.pythonhosted.org/packages/0c/83/2112a4f4193298865cd9aeff99779db7fbf03c461beb0a3d4c1156a9aee8/py_linq_sql-1.8.3.1.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [sage-flatsurf]: Remove: archive file [/home/abi/fetcher/tmp/sage_flatsurf-0.5.0.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [sage-flatsurf]: Remove: archive file [/home/abi/fetcher/tmp/sage_flatsurf-0.5.1.tar.gz]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [sage-flatsurf]: Start processing: text-fabric
+[2023-07-05 15:44:02] INFO root fetch - main [MainThread]: End processing [sage-flatsurf]: success
+[2023-07-05 15:44:02] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-07-05 15:44:02] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/9d/3d/b9d7a849d059f43232f5756c5a2090ab4540549731286ada3e0c304eaa22/pyunifiprotect-4.9.0.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [bindata]: Downloading https://files.pythonhosted.org/packages/fd/1c/c2fa8ae3b6c3385c0c0d9b24475509788ed3af22bd4e840635bdfd4ad736/bindata-0.9.6.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [meow-base]: Downloading https://files.pythonhosted.org/packages/41/d4/0e05ca4d18814b43939b4f0249479c78fbb964f07abef3247ca0319476bd/meow_base-1.0.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-07-05 15:44:02] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230705/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 15:44:02] INFO root fetch - processPackages [py-linq-sql]: Downloading https://files.pythonhosted.org/packages/f4/06/24b80cf08ee96456df2b627bdae5684d8abd12037aece34b1dff5e3c0841/py_linq_sql-1.9.0.1.tar.gz
+[2023-07-05 15:44:02] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-07-05 15:44:02] INFO root fetch - processPackages [bindata]: executing diffoscope
+[2023-07-05 15:44:02] INFO root fetch - processPackages [bindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bindata-0.9.5.tar.gz tmp/bindata-0.9.6.tar.gz --markdown 20230705/b/bindata/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-05 15:44:02] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-07-05 15:44:02] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.13.0.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230705/c/caqui/1.13.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 15:44:03] INFO root fetch - processPackages [py-linq-sql]: executing diffoscope
+[2023-07-05 15:44:03] INFO root fetch - processPackages [py-linq-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_linq_sql-1.8.3.1.tar.gz tmp/py_linq_sql-1.9.0.1.tar.gz --markdown 20230705/p/py-linq-sql/1.8.3.1-1.9.0.1/diff.md --exclude *.pyd
+[2023-07-05 15:44:03] INFO root fetch - processPackages [meow-base]: Downloading https://files.pythonhosted.org/packages/cd/42/2ad9e5a0860268ed8a21d1b2612b855afdcde95589e5221d19aa52c6050f/meow_base-1.0.1.tar.gz
+[2023-07-05 15:44:03] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/63/45/42f4149b592dde71e519b3521383b63738b99b7ca4220d9001ee51803c9c/pyunifiprotect-4.9.1.tar.gz
+[2023-07-05 15:44:03] INFO root fetch - processPackages [meow-base]: executing diffoscope
+[2023-07-05 15:44:03] INFO root fetch - processPackages [meow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow_base-1.0.tar.gz tmp/meow_base-1.0.1.tar.gz --markdown 20230705/m/meow-base/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 15:44:03] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-07-05 15:44:03] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230705/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-07-05 15:44:03] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-07-05 15:44:03] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230705/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-07-05 15:44:03] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2023-07-05 15:44:03] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-4.9.0.tar.gz tmp/pyunifiprotect-4.9.1.tar.gz --markdown 20230705/p/pyunifiprotect/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-05 15:44:04] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.5.tar.gz]
+[2023-07-05 15:44:04] INFO root fetch - processPackages [bindata]: Remove: archive file [/home/abi/fetcher/tmp/bindata-0.9.6.tar.gz]
+[2023-07-05 15:44:04] INFO root fetch - processPackages [bindata]: Start processing: wakaranai
+[2023-07-05 15:44:04] INFO root fetch - main [MainThread]: End processing [bindata]: success
+[2023-07-05 15:44:04] INFO root fetch - processPackages [wakaranai]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-07-05 15:44:04] INFO root fetch - processPackages [py-linq-sql]: Remove: archive file [/home/abi/fetcher/tmp/py_linq_sql-1.8.3.1.tar.gz]
+[2023-07-05 15:44:04] INFO root fetch - processPackages [py-linq-sql]: Remove: archive file [/home/abi/fetcher/tmp/py_linq_sql-1.9.0.1.tar.gz]
+[2023-07-05 15:44:04] INFO root fetch - processPackages [py-linq-sql]: Start processing: panel
+[2023-07-05 15:44:04] INFO root fetch - main [MainThread]: End processing [py-linq-sql]: success
+[2023-07-05 15:44:05] INFO root fetch - processPackages [panel]: New version: [1.2.0a2] Old Version: [1.2.0a1]
+[2023-07-05 15:44:05] INFO root fetch - processPackages [wakaranai]: Downloading https://files.pythonhosted.org/packages/75/dd/d765d18f673f3b4c7a1944800177ff67d6df1047cb7f5ece7b05110aa5c1/wakaranai-0.0.1rc1.tar.gz
+[2023-07-05 15:44:05] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.13.0.tar.gz]
+[2023-07-05 15:44:05] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-07-05 15:44:05] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-07-05 15:44:05] INFO root fetch - processPackages [meow-base]: Remove: archive file [/home/abi/fetcher/tmp/meow_base-1.0.tar.gz]
+[2023-07-05 15:44:05] INFO root fetch - processPackages [meow-base]: Remove: archive file [/home/abi/fetcher/tmp/meow_base-1.0.1.tar.gz]
+[2023-07-05 15:44:05] INFO root fetch - main [MainThread]: End processing [meow-base]: success
+[2023-07-05 15:44:05] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/b2/42/d9ff1281f7c01b4ddce85dba55aa32b97ab6d53a4d7bc231ecb394251f60/panel-1.2.0a1.tar.gz
+[2023-07-05 15:44:05] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 25413457>=10485760
+[2023-07-05 15:44:05] INFO root fetch - main [MainThread]: End processing [panel] error
+[2023-07-05 15:44:05] INFO root fetch - processPackages [wakaranai]: Downloading https://files.pythonhosted.org/packages/a5/b3/49df4d60829cdb437716d465919be9dfe73eda9d75844c3a2051c25f604f/wakaranai-0.0.1rc2.tar.gz
+[2023-07-05 15:44:05] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.0.tar.gz]
+[2023-07-05 15:44:05] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-4.9.1.tar.gz]
+[2023-07-05 15:44:05] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2023-07-05 15:44:05] INFO root fetch - processPackages [wakaranai]: executing diffoscope
+[2023-07-05 15:44:05] INFO root fetch - processPackages [wakaranai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakaranai-0.0.1rc1.tar.gz tmp/wakaranai-0.0.1rc2.tar.gz --markdown 20230705/w/wakaranai/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-07-05 15:44:06] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-07-05 15:44:06] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-07-05 15:44:06] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-07-05 15:44:06] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2023-07-05 15:44:06] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2023-07-05 15:44:06] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-07-05 15:44:06] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-07-05 15:44:07] INFO root fetch - processPackages [wakaranai]: Remove: archive file [/home/abi/fetcher/tmp/wakaranai-0.0.1rc1.tar.gz]
+[2023-07-05 15:44:07] INFO root fetch - processPackages [wakaranai]: Remove: archive file [/home/abi/fetcher/tmp/wakaranai-0.0.1rc2.tar.gz]
+[2023-07-05 15:44:07] INFO root fetch - main [MainThread]: End processing [wakaranai]: success
+[2023-07-05 15:44:17] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 15:44:17] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 15:44:17] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2023-07-05 15:44:47] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.4.3b3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:44:47] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.4.4b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-05 15:44:47] INFO root fetch - main [MainThread]: End processing [sf-heu]: success
+[2023-07-05 15:44:47] INFO root fetch - main [MainThread]: Store serial: [18768054]
