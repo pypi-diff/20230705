@@ -22456,3 +22456,362 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 17:17:08] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2023-07-05 17:17:08] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-07-05 17:17:08] INFO root fetch - main [MainThread]: Store serial: [18769263]
+[2023-07-05 17:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18769263]
+[2023-07-05 17:22:21] INFO root fetch - main [MainThread]: Found 42 changed packages
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulp-ansible
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-bigquery-migration
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-dataflow-client
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulp-ansible-client
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: armonik
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-cloud-iam
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text-fabric
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 1923tsl1
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reqmgr2ms-rulecleaner
+[2023-07-05 17:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reqmgr2ms-output
+[2023-07-05 17:22:21] INFO root fetch - processPackages [pulp-ansible]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [google-cloud-bigquery-migration]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 17:22:21] WARNING root fetch - processPackages [1923tsl1]: Skipping, unable to determine old version
+[2023-07-05 17:22:21] INFO root fetch - processPackages [1923tsl1]: Start processing: reqmgr2ms-transferor
+[2023-07-05 17:22:21] INFO root fetch - main [MainThread]: End processing [1923tsl1] error
+[2023-07-05 17:22:21] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [google-cloud-dataflow-client]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [google-cloud-iam]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [pulp-ansible-client]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:21] INFO root fetch - processPackages [google-cloud-bigquery-migration]: Downloading https://files.pythonhosted.org/packages/89/76/992cac91faec7da373b6de6efbc7e30650fbaaf7fd68ffdd08b222d58fa3/google-cloud-bigquery-migration-0.9.0.tar.gz
+[2023-07-05 17:22:21] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-07-05 17:22:21] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/62/2c/e1b7d3b2bf694e5b527aece5c0ff297ce5b7a35e0a1288e77cdf9e9288b6/pulp-ansible-0.9.1.tar.gz
+[2023-07-05 17:22:21] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/31/dd/f46ce918461d9a8d66491db898a2ddac0a7e97572cde9aa965e0cb209160/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz
+[2023-07-05 17:22:21] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/95/0a/281597b841df4a4ef4fd7f70a4c8c6c9f41efdf23ae8452deceb220919a8/reqmgr2ms-transferor-2.2.2rc3.tar.gz
+[2023-07-05 17:22:21] INFO root fetch - processPackages [google-cloud-dataflow-client]: Downloading https://files.pythonhosted.org/packages/86/ab/5b16cffc451c04c294f353b342609429e620488eafdd14e57679515c153b/google-cloud-dataflow-client-0.8.3.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [google-cloud-iam]: Downloading https://files.pythonhosted.org/packages/86/a4/83b8c737f40474098c5ce482ca101fb93f0c4483e148d99dd6df9106aae0/google-cloud-iam-2.8.2.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/eb/ee/86a3ff65fe2424cb60d609d30b7fcd1c8b9049c92f3b0721854de58c1163/reqmgr2ms-output-2.2.2rc3.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/f9/b1/73071a21ca569d00218daa10feb86f7c77a90bcf326d67ec0d3bce2f26a2/pulp_ansible-client-0.9.1.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/33/9c/b1f0c6bd29bfec0b54dd85e35727a05d04e31f5d7bc26fde55b49025f6d1/reqmgr2ms-rulecleaner-2.2.2rc4.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/3b/90/11d59cb5e0802b05b233f0e6564b5d5d7a8f8b109599aeb0a41d89e44790/reqmgr2ms-transferor-2.2.2rc4.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [pulp-ansible]: Downloading https://files.pythonhosted.org/packages/b8/7c/698a44eb6120b3c5dbf2a80023bfeda1f9bf6400d2a563351bd9093e44f3/pulp-ansible-0.9.2.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/60/dd/1828ddbf69fa1a4b6d59dd8c4c783a2ad676672ef1e81deeb86b6e1f0371/reqmgr2ms-output-2.2.2rc4.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [google-cloud-dataflow-client]: Downloading https://files.pythonhosted.org/packages/71/54/e90b41d5a6f93f606bb01c76acd552e971df0d87e5d88940ab4492ccf22b/google-cloud-dataflow-client-0.8.4.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [google-cloud-iam]: Downloading https://files.pythonhosted.org/packages/2e/3d/0256e12d566737b7a06c1931f1e455247d1458f4eedaebb3159fac42dadf/google-cloud-iam-2.9.0.tar.gz
+[2023-07-05 17:22:22] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-05 17:22:23] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-rulecleaner/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [pulp-ansible-client]: Downloading https://files.pythonhosted.org/packages/0f/9f/cbcaea9dbbc573d1e5619eeedcc30accc9083b017ae0f26afd6e9a170cca/pulp_ansible-client-0.9.2.tar.gz
+[2023-07-05 17:22:23] INFO root fetch - processPackages [pulp-ansible]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [pulp-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-ansible-0.9.1.tar.gz tmp/pulp-ansible-0.9.2.tar.gz --markdown 20230705/p/pulp-ansible/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.2rc3.tar.gz tmp/reqmgr2ms-output-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-output/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [google-cloud-dataflow-client]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [google-cloud-dataflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-dataflow-client-0.8.3.tar.gz tmp/google-cloud-dataflow-client-0.8.4.tar.gz --markdown 20230705/g/google-cloud-dataflow-client/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [google-cloud-iam]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [google-cloud-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-iam-2.8.2.tar.gz tmp/google-cloud-iam-2.9.0.tar.gz --markdown 20230705/g/google-cloud-iam/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.2rc3.tar.gz tmp/reqmgr2ms-transferor-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-transferor/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-05 17:22:23] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230705/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-05 17:22:23] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-07-05 17:22:23] INFO root fetch - processPackages [google-cloud-bigquery-migration]: Downloading https://files.pythonhosted.org/packages/d4/1e/84807a4500b1728cd8942c9a1b44c5997aa691d679ba47a0dcbf368d32c4/google-cloud-bigquery-migration-0.9.1.tar.gz
+[2023-07-05 17:22:24] INFO root fetch - processPackages [pulp-ansible-client]: executing diffoscope
+[2023-07-05 17:22:24] INFO root fetch - processPackages [pulp-ansible-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_ansible-client-0.9.1.tar.gz tmp/pulp_ansible-client-0.9.2.tar.gz --markdown 20230705/p/pulp-ansible-client/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 17:22:24] INFO root fetch - processPackages [google-cloud-bigquery-migration]: executing diffoscope
+[2023-07-05 17:22:24] INFO root fetch - processPackages [google-cloud-bigquery-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-migration-0.9.0.tar.gz tmp/google-cloud-bigquery-migration-0.9.1.tar.gz --markdown 20230705/g/google-cloud-bigquery-migration/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:22:25] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-07-05 17:22:25] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230705/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-07-05 17:22:25] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [armonik]: Start processing: reqmgr2ms-unmerged
+[2023-07-05 17:22:25] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-05 17:22:25] INFO root fetch - processPackages [google-cloud-iam]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-iam-2.8.2.tar.gz]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [google-cloud-iam]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-iam-2.9.0.tar.gz]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [google-cloud-iam]: Start processing: reqmgr2
+[2023-07-05 17:22:25] INFO root fetch - main [MainThread]: End processing [google-cloud-iam]: success
+[2023-07-05 17:22:25] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.1.tar.gz]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [pulp-ansible]: Remove: archive file [/home/abi/fetcher/tmp/pulp-ansible-0.9.2.tar.gz]
+[2023-07-05 17:22:25] INFO root fetch - processPackages [pulp-ansible]: Start processing: global-workqueue
+[2023-07-05 17:22:25] INFO root fetch - main [MainThread]: End processing [pulp-ansible]: success
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/cd/b3/1063c779f56a7ba8c1ca308b8af4d1d7ca1f35df463856efbbde1e1bc394/reqmgr2ms-unmerged-2.2.2rc3.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [google-cloud-dataflow-client]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dataflow-client-0.8.3.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [google-cloud-dataflow-client]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-dataflow-client-0.8.4.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [google-cloud-dataflow-client]: Start processing: reqmgr2ms-monitor
+[2023-07-05 17:22:26] INFO root fetch - main [MainThread]: End processing [google-cloud-dataflow-client]: success
+[2023-07-05 17:22:26] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/ff/6e/f047dd815744f71649cf34150a224a1ebe403988bf0c88a66f8dc4c56610/reqmgr2-2.2.2rc3.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [google-cloud-bigquery-migration]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-migration-0.9.0.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [google-cloud-bigquery-migration]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-migration-0.9.1.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [google-cloud-bigquery-migration]: Start processing: reqmon
+[2023-07-05 17:22:26] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery-migration]: success
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmon]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/72/aa/046767980a1039eec57a603cc884ee348d1eab9d013dccde19b1a4d0acad/global-workqueue-2.2.2rc3.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/df/84/da7d2292bd47df8f7eb465c5b72f475b2f3cc9d0c0f9371d5a0205d65a45/reqmgr2ms-monitor-2.2.2rc3.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/18/17/4a1c51eafa0aee14b5e9152114ef8241f683a45d78a68b92f920e202afed/reqmon-2.2.2rc3.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-output]: Start processing: acdcserver
+[2023-07-05 17:22:26] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/85/44/7618cb74bb661eb8af30d45b5c2f682c5ec1de2187603e622d1d5f6a6ad0/reqmgr2ms-unmerged-2.2.2rc4.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.1.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [pulp-ansible-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_ansible-client-0.9.2.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [pulp-ansible-client]: Start processing: wmagent
+[2023-07-05 17:22:26] INFO root fetch - main [MainThread]: End processing [pulp-ansible-client]: success
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-transferor]: Start processing: dbt-glue
+[2023-07-05 17:22:26] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-07-05 17:22:26] INFO root fetch - processPackages [acdcserver]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [wmagent]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/2f/19/4ac41c36f42b3f2cf4270f0084296af5be696e8299dfff0a1ad8596354aa/reqmgr2-2.2.2rc4.tar.gz
+[2023-07-05 17:22:26] INFO root fetch - processPackages [dbt-glue]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:26] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Start processing: reqmgr2ms-pileup
+[2023-07-05 17:22:26] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-07-05 17:22:27] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/6a/99/c4e9ebdbfbe51096da7614089b59cfa606b7b0f36f593083f1cab14c1f56/global-workqueue-2.2.2rc4.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/7b/e3/4e15aa11c7628190a047ae5cc5b7b32801f89eff131dec795addd15b5468/acdcserver-2.2.2rc3.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.2rc3.tar.gz tmp/reqmgr2ms-unmerged-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-unmerged/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:27] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/ce/ee/986d157becd13f36acda2a398ba0e15b5f471bb9f7721c45de1116f64914/wmagent-2.2.2rc3.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/fe/94/3a9bebe4d9f59a28ea5c6fb717d730d28be81ae7643bab2e830691984c92/reqmgr2ms-monitor-2.2.2rc4.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/74/a3/71586fad3574df09a96c565658968942dcd9c27a7fb89a10617af71e15c4/dbt-glue-1.5.1.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/30/db/92519a15b1c22a43d5c2ad1423225547f511b4e8f47029018b9a44184d46/reqmon-2.2.2rc4.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/ca/ab/b968f82f4aa7e812bbffe3ad042e8ea602c75f7129c752c27c314621206a/reqmgr2ms-pileup-2.2.2rc3.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-07-05 17:22:27] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.2rc3.tar.gz tmp/global-workqueue-2.2.2rc4.tar.gz --markdown 20230705/g/global-workqueue/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.2rc3.tar.gz tmp/reqmgr2-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.2rc3.tar.gz tmp/reqmgr2ms-monitor-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-monitor/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:27] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/10/cd/ce9002e0de7c88f93457292a3551c876b6c628ebea077df1a4f2b49ac1e9/acdcserver-2.2.2rc4.tar.gz
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-07-05 17:22:27] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.2rc3.tar.gz tmp/reqmon-2.2.2rc4.tar.gz --markdown 20230705/r/reqmon/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:27] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2023-07-05 17:22:27] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2023-07-05 17:22:27] INFO root fetch - processPackages [text-fabric]: Start processing: wmagent-devtools
+[2023-07-05 17:22:27] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-07-05 17:22:27] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/74/a3/15ffcd593384e603b35171d6729a3bd42e9f634961051f0309976671c03a/wmagent-2.2.2rc4.tar.gz
+[2023-07-05 17:22:28] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:28] INFO root fetch - processPackages [dbt-glue]: Downloading https://files.pythonhosted.org/packages/0c/cb/138a353cf61e9529c5cc03ba196674da2769ef0c4820bfe0b45b9f319639/dbt-glue-1.5.2.tar.gz
+[2023-07-05 17:22:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/07/e5/869e3fcc21c7be8da797efa0e98365e8abb8c7a452db3aa51aa4daac604e/reqmgr2ms-pileup-2.2.2rc4.tar.gz
+[2023-07-05 17:22:28] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-07-05 17:22:28] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.2rc3.tar.gz tmp/acdcserver-2.2.2rc4.tar.gz --markdown 20230705/a/acdcserver/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:28] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/dd/db/e249a0e57ea0887dbbfbdd0fd6bd1dcf0758c6a6f30e2617195037feeff7/wmagent-devtools-2.2.2rc3.tar.gz
+[2023-07-05 17:22:28] INFO root fetch - processPackages [dbt-glue]: executing diffoscope
+[2023-07-05 17:22:28] INFO root fetch - processPackages [dbt-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-glue-1.5.1.tar.gz tmp/dbt-glue-1.5.2.tar.gz --markdown 20230705/d/dbt-glue/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-05 17:22:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-07-05 17:22:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.2rc3.tar.gz tmp/reqmgr2ms-pileup-2.2.2rc4.tar.gz --markdown 20230705/r/reqmgr2ms-pileup/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:28] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-07-05 17:22:28] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.2rc3.tar.gz tmp/wmagent-2.2.2rc4.tar.gz --markdown 20230705/w/wmagent/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:28] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11429989>=10485760
+[2023-07-05 17:22:28] INFO root fetch - processPackages [wmagent-devtools]: Start processing: wmcore
+[2023-07-05 17:22:28] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-07-05 17:22:28] INFO root fetch - processPackages [wmcore]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2023-07-05 17:22:29] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/ab/c1/253374af5e5bbeb814bf27ec0e47ca51c8d98eebbfe907561ac79e470a95/wmcore-2.2.2rc3.tar.gz
+[2023-07-05 17:22:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: angmom-suite
+[2023-07-05 17:22:29] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-07-05 17:22:29] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/0e/9d/0f86d6981d9c9b59578f73e19bfaf0ccc6b6440e2327ef58083504d7a6f0/wmcore-2.2.2rc4.tar.gz
+[2023-07-05 17:22:29] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-05 17:22:30] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.5.1.tar.gz]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [dbt-glue]: Remove: archive file [/home/abi/fetcher/tmp/dbt-glue-1.5.2.tar.gz]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [dbt-glue]: Start processing: google-cloud-run
+[2023-07-05 17:22:30] INFO root fetch - main [MainThread]: End processing [dbt-glue]: success
+[2023-07-05 17:22:30] INFO root fetch - processPackages [google-cloud-run]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-07-05 17:22:30] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.2rc3.tar.gz tmp/wmcore-2.2.2rc4.tar.gz --markdown 20230705/w/wmcore/2.2.2rc3-2.2.2rc4/diff.md --exclude *.pyd
+[2023-07-05 17:22:30] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [acdcserver]: Start processing: pydiode
+[2023-07-05 17:22:30] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-07-05 17:22:30] INFO root fetch - processPackages [google-cloud-run]: Downloading https://files.pythonhosted.org/packages/90/11/b7e74ea5a8a1bfed7c2e1345032e3eea23a78fa8c95ead1b65b411ae76f4/google-cloud-run-0.8.0.tar.gz
+[2023-07-05 17:22:30] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: nuclia
+[2023-07-05 17:22:30] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-07-05 17:22:30] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-05 17:22:30] INFO root fetch - processPackages [nuclia]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-07-05 17:22:30] WARNING root fetch - processPackages [pydiode]: Skipping, unable to determine old version
+[2023-07-05 17:22:30] INFO root fetch - processPackages [pydiode]: Start processing: fwdviewpy
+[2023-07-05 17:22:30] INFO root fetch - main [MainThread]: End processing [pydiode] error
+[2023-07-05 17:22:30] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:22:30] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-05 17:22:30] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230705/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:22:31] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-05 17:22:31] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/40/c4/95806890aefd1395fa5c458be643f43976d3beb487a125461d3b3d76fbf8/nuclia-1.0.4.tar.gz
+[2023-07-05 17:22:31] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:31] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:31] INFO root fetch - processPackages [global-workqueue]: Start processing: google-cloud-tasks
+[2023-07-05 17:22:31] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-07-05 17:22:31] INFO root fetch - processPackages [google-cloud-run]: Downloading https://files.pythonhosted.org/packages/2c/16/d301592bc149b276db18dd2bf06cfbd83d048a20cc8aab2a24e1629452af/google-cloud-run-0.8.1.tar.gz
+[2023-07-05 17:22:31] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-05 17:22:31] INFO root fetch - processPackages [google-cloud-tasks]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-05 17:22:31] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/16/98/0825ef84d946885d95a31b78fdf8165fc7f54e6f4cdd779cd3118f60f36f/nuclia-1.1.0.tar.gz
+[2023-07-05 17:22:31] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:31] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:31] INFO root fetch - processPackages [reqmgr2ms-pileup]: Start processing: google-cloud-speech
+[2023-07-05 17:22:31] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-07-05 17:22:31] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-05 17:22:31] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230705/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:22:31] INFO root fetch - processPackages [google-cloud-run]: executing diffoscope
+[2023-07-05 17:22:31] INFO root fetch - processPackages [google-cloud-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-run-0.8.0.tar.gz tmp/google-cloud-run-0.8.1.tar.gz --markdown 20230705/g/google-cloud-run/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-05 17:22:31] INFO root fetch - processPackages [google-cloud-speech]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-05 17:22:31] INFO root fetch - processPackages [google-cloud-tasks]: Downloading https://files.pythonhosted.org/packages/5e/f7/2f50fa0516a44a1c395584c6eaf2b8a2163b6a708693911399d43ef9dad0/google-cloud-tasks-2.9.0.tar.gz
+[2023-07-05 17:22:32] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2023-07-05 17:22:32] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-1.0.4.tar.gz tmp/nuclia-1.1.0.tar.gz --markdown 20230705/n/nuclia/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 17:22:32] INFO root fetch - processPackages [google-cloud-speech]: Downloading https://files.pythonhosted.org/packages/8c/e0/acf355fc1e6c4240e40192f64e458000081e9e30f2a606ce8f9ce3248717/google-cloud-speech-2.9.2.tar.gz
+[2023-07-05 17:22:32] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:32] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:32] INFO root fetch - processPackages [reqmon]: Start processing: django-dnoticias-auth
+[2023-07-05 17:22:32] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-07-05 17:22:32] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-07-05 17:22:32] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-05 17:22:32] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-05 17:22:32] INFO root fetch - processPackages [angmom-suite]: Start processing: google-cloud-network-services
+[2023-07-05 17:22:32] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-network-services]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-speech]: Downloading https://files.pythonhosted.org/packages/bf/6f/eee73b60477afd6a5e2537d34fd341a2f4aaeb51eec3653d699b019e0f4c/google-cloud-speech-2.9.3.tar.gz
+[2023-07-05 17:22:33] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-05 17:22:33] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-05 17:22:33] INFO root fetch - processPackages [fwdviewpy]: Start processing: dff
+[2023-07-05 17:22:33] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-tasks]: Downloading https://files.pythonhosted.org/packages/5f/78/bb665767d092caaf3a865133c5793fffaa87b5464728febad8f9f70ffe7f/google-cloud-tasks-2.9.1.tar.gz
+[2023-07-05 17:22:33] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/69/a6/6c1b254c96bdd6b927b9a4d855c6cc969fb9538e372cd82eba36b8511f30/django_dnoticias_auth-1.3rc8.tar.gz
+[2023-07-05 17:22:33] INFO root fetch - processPackages [dff]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-speech]: executing diffoscope
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-speech-2.9.2.tar.gz tmp/google-cloud-speech-2.9.3.tar.gz --markdown 20230705/g/google-cloud-speech/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-05 17:22:33] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.0.4.tar.gz]
+[2023-07-05 17:22:33] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-1.1.0.tar.gz]
+[2023-07-05 17:22:33] INFO root fetch - processPackages [nuclia]: Start processing: odoo13-addon-stock-picking-product-assortment-availability-inline
+[2023-07-05 17:22:33] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-network-services]: Downloading https://files.pythonhosted.org/packages/9e/d2/dbb44b783893683436f184a42ad036d6e31d816a6bd50f424c30af775a27/google-cloud-network-services-0.5.1.tar.gz
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-tasks]: executing diffoscope
+[2023-07-05 17:22:33] INFO root fetch - processPackages [google-cloud-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-tasks-2.9.0.tar.gz tmp/google-cloud-tasks-2.9.1.tar.gz --markdown 20230705/g/google-cloud-tasks/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:22:33] WARNING root fetch - processPackages [odoo13-addon-stock-picking-product-assortment-availability-inline]: Skipping, unable to determine old version
+[2023-07-05 17:22:33] INFO root fetch - processPackages [odoo13-addon-stock-picking-product-assortment-availability-inline]: Start processing: kolibri-ml
+[2023-07-05 17:22:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-picking-product-assortment-availability-inline] error
+[2023-07-05 17:22:33] INFO root fetch - processPackages [dff]: Downloading https://files.pythonhosted.org/packages/67/fa/cea1867b0eee11054d44eaa2dd733061f92af82699c1934e04d8eaa3d731/dff-0.4.1.tar.gz
+[2023-07-05 17:22:34] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.75]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/8c/e3/fda76c4416e1891b6a260f8640bacae541e65171c5a2f3901e8c268882d3/django_dnoticias_auth-1.3rc9.tar.gz
+[2023-07-05 17:22:34] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [reqmgr2]: Start processing: google-cloud-translate
+[2023-07-05 17:22:34] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-run]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-run-0.8.0.tar.gz]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-run]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-run-0.8.1.tar.gz]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-run]: Start processing: prismacloud-api
+[2023-07-05 17:22:34] INFO root fetch - main [MainThread]: End processing [google-cloud-run]: success
+[2023-07-05 17:22:34] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-07-05 17:22:34] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230705/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-network-services]: Downloading https://files.pythonhosted.org/packages/37/36/f6b53b7af2a0c66b9132ad0ef05112996ec0521a2e5f38f2c55740cc1795/google-cloud-network-services-0.5.2.tar.gz
+[2023-07-05 17:22:34] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/8d/b1/c490d22fb90535bb9fba46a9b2a6913358aadd481dc61c31d1a9fc889da8/kolibri_ml-1.1.75-py3-none-any.whl
+[2023-07-05 17:22:34] INFO root fetch - processPackages [dff]: Downloading https://files.pythonhosted.org/packages/39/47/24e63794538cc1374dad887fd9c2fb509c6f731a39edb5e7870b6df2ff07/dff-0.4.2.tar.gz
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-translate]: New version: [3.9.0] Old Version: [3.8.4]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [prismacloud-api]: New version: [5.2.5] Old Version: [5.2.4]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-network-services]: executing diffoscope
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-network-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-network-services-0.5.1.tar.gz tmp/google-cloud-network-services-0.5.2.tar.gz --markdown 20230705/g/google-cloud-network-services/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 17:22:34] INFO root fetch - processPackages [prismacloud-api]: Downloading https://files.pythonhosted.org/packages/9b/9d/ecfda140c54842bbbd3e904bb661d6aaebebcd0489aa5de35a13ff831205/prismacloud-api-5.2.4.tar.gz
+[2023-07-05 17:22:34] INFO root fetch - processPackages [dff]: executing diffoscope
+[2023-07-05 17:22:34] INFO root fetch - processPackages [dff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dff-0.4.1.tar.gz tmp/dff-0.4.2.tar.gz --markdown 20230705/d/dff/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-speech]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-speech-2.9.2.tar.gz]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-speech]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-speech-2.9.3.tar.gz]
+[2023-07-05 17:22:34] INFO root fetch - processPackages [google-cloud-speech]: Start processing: google-cloud-os-config
+[2023-07-05 17:22:34] INFO root fetch - main [MainThread]: End processing [google-cloud-speech]: success
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-translate]: Downloading https://files.pythonhosted.org/packages/25/f1/b55c7ef9e64c07b6295158e25f983e08903855b5fb1bd62e44872dfdb6b2/google-cloud-translate-3.8.4.tar.gz
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-os-config]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-05 17:22:35] INFO root fetch - processPackages [prismacloud-api]: Downloading https://files.pythonhosted.org/packages/78/7b/64c359fe2be9b37b5ff6cd3d4f3706d75457fbedb0c868f49d833764a90a/prismacloud-api-5.2.5.tar.gz
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-os-config]: Downloading https://files.pythonhosted.org/packages/ef/fc/8d855e9f29eb3c79e115c693fcbe46d4ed245d0a0b2760d342189b206642/google-cloud-os-config-1.8.0.tar.gz
+[2023-07-05 17:22:35] INFO root fetch - processPackages [prismacloud-api]: executing diffoscope
+[2023-07-05 17:22:35] INFO root fetch - processPackages [prismacloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismacloud-api-5.2.4.tar.gz tmp/prismacloud-api-5.2.5.tar.gz --markdown 20230705/p/prismacloud-api/5.2.4-5.2.5/diff.md --exclude *.pyd
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-tasks]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-tasks-2.9.0.tar.gz]
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-tasks]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-tasks-2.9.1.tar.gz]
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-tasks]: Start processing: google-cloud-batch
+[2023-07-05 17:22:35] INFO root fetch - main [MainThread]: End processing [google-cloud-tasks]: success
+[2023-07-05 17:22:35] INFO root fetch - processPackages [django-dnoticias-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_dnoticias_auth-1.3rc8.tar.gz]
+[2023-07-05 17:22:35] INFO root fetch - processPackages [django-dnoticias-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_dnoticias_auth-1.3rc9.tar.gz]
+[2023-07-05 17:22:35] INFO root fetch - processPackages [django-dnoticias-auth]: Start processing: google-cloud-gke-backup
+[2023-07-05 17:22:35] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-07-05 17:22:35] INFO root fetch - processPackages [google-cloud-batch]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [dff]: Remove: archive file [/home/abi/fetcher/tmp/dff-0.4.1.tar.gz]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [dff]: Remove: archive file [/home/abi/fetcher/tmp/dff-0.4.2.tar.gz]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [dff]: Start processing: google-cloud-org-policy
+[2023-07-05 17:22:36] INFO root fetch - main [MainThread]: End processing [dff]: success
+[2023-07-05 17:22:36] INFO root fetch - processPackages [google-cloud-org-policy]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [google-cloud-network-services]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-network-services-0.5.1.tar.gz]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [google-cloud-network-services]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-network-services-0.5.2.tar.gz]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [google-cloud-network-services]: Start processing: google-cloud-trace
+[2023-07-05 17:22:36] INFO root fetch - main [MainThread]: End processing [google-cloud-network-services]: success
+[2023-07-05 17:22:36] INFO root fetch - processPackages [prismacloud-api]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud-api-5.2.4.tar.gz]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [prismacloud-api]: Remove: archive file [/home/abi/fetcher/tmp/prismacloud-api-5.2.5.tar.gz]
+[2023-07-05 17:22:36] INFO root fetch - processPackages [prismacloud-api]: Start processing: google-cloud-scheduler
+[2023-07-05 17:22:36] INFO root fetch - main [MainThread]: End processing [prismacloud-api]: success
+[2023-07-05 17:22:40] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:40] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:40] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-07-05 17:22:40] INFO root fetch - processPackages [google-cloud-translate]: Downloading https://files.pythonhosted.org/packages/fc/ce/148e1926148614e41f7f3e07927692fb60abbbc710fdd8508ebddf0c893b/google-cloud-translate-3.9.0.tar.gz
+[2023-07-05 17:22:40] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-07-05 17:22:41] INFO root fetch - processPackages [google-cloud-translate]: executing diffoscope
+[2023-07-05 17:22:41] INFO root fetch - processPackages [google-cloud-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-translate-3.8.4.tar.gz tmp/google-cloud-translate-3.9.0.tar.gz --markdown 20230705/g/google-cloud-translate/3.8.4-3.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:22:41] INFO root fetch - processPackages [google-cloud-trace]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 17:22:41] INFO root fetch - processPackages [google-cloud-scheduler]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-05 17:22:42] INFO root fetch - processPackages [google-cloud-translate]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-translate-3.8.4.tar.gz]
+[2023-07-05 17:22:42] INFO root fetch - processPackages [google-cloud-translate]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-translate-3.9.0.tar.gz]
+[2023-07-05 17:22:42] INFO root fetch - main [MainThread]: End processing [google-cloud-translate]: success
+[2023-07-05 17:22:45] INFO root fetch - processPackages [google-cloud-gke-backup]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-05 17:22:46] INFO root fetch - processPackages [google-cloud-batch]: Downloading https://files.pythonhosted.org/packages/92/17/3d76d0539868125a5c02c46b73c5c60eb5ee73bea8419b597b79b418f35c/google-cloud-batch-0.8.1.tar.gz
+[2023-07-05 17:22:46] INFO root fetch - processPackages [google-cloud-os-config]: Downloading https://files.pythonhosted.org/packages/27/5f/36dd28633577eb25c5b32b3cdabb46b843810cb096445ea4dd1d4d2afab8/google-cloud-os-config-1.9.0.tar.gz
+[2023-07-05 17:22:46] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc3.tar.gz]
+[2023-07-05 17:22:46] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc4.tar.gz]
+[2023-07-05 17:22:46] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-07-05 17:22:47] INFO root fetch - processPackages [google-cloud-org-policy]: Downloading https://files.pythonhosted.org/packages/84/22/d9a074ff6bdd1105ed6f6272658336fe98dcbd36cecec6555cb4322ca7a9/google-cloud-org-policy-1.8.1.tar.gz
+[2023-07-05 17:22:51] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-07-05 17:22:51] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.75-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230705/k/kolibri-ml/1.1.75-1.1.8/diff.md --exclude *.pyd
+[2023-07-05 17:22:52] INFO root fetch - processPackages [google-cloud-scheduler]: Downloading https://files.pythonhosted.org/packages/2a/bc/f65bc19f80fea1c649e91fd809cb8bb6e66ac8c4043364d12b2617819fa7/google-cloud-scheduler-2.9.0.tar.gz
+[2023-07-05 17:22:52] INFO root fetch - processPackages [google-cloud-trace]: Downloading https://files.pythonhosted.org/packages/47/7f/2df3fe4704fe01a89fa538289d2512eaf0b2fda0b88af31dac798d73ec00/google-cloud-trace-1.9.0.tar.gz
+[2023-07-05 17:22:54] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.75-py3-none-any.whl.zip]
+[2023-07-05 17:22:54] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-07-05 17:22:54] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-07-05 17:22:56] INFO root fetch - processPackages [google-cloud-gke-backup]: Downloading https://files.pythonhosted.org/packages/6c/da/33ab2f325e3a34189950b2220e777c3219b9510af8adcc81b31cc93e43af/google-cloud-gke-backup-0.4.4.tar.gz
+[2023-07-05 17:22:56] INFO root fetch - processPackages [google-cloud-os-config]: executing diffoscope
+[2023-07-05 17:22:56] INFO root fetch - processPackages [google-cloud-os-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-os-config-1.8.0.tar.gz tmp/google-cloud-os-config-1.9.0.tar.gz --markdown 20230705/g/google-cloud-os-config/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:22:58] INFO root fetch - processPackages [google-cloud-os-config]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-os-config-1.8.0.tar.gz]
+[2023-07-05 17:22:58] INFO root fetch - processPackages [google-cloud-os-config]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-os-config-1.9.0.tar.gz]
+[2023-07-05 17:22:58] INFO root fetch - main [MainThread]: End processing [google-cloud-os-config]: success
+[2023-07-05 17:23:06] INFO root fetch - processPackages [google-cloud-batch]: Downloading https://files.pythonhosted.org/packages/78/08/5ad5ee07b16179631a400ac2ce05373e52510132b1a5af3e4a5fc91c6cf6/google-cloud-batch-0.9.0.tar.gz
+[2023-07-05 17:23:07] INFO root fetch - processPackages [google-cloud-org-policy]: Downloading https://files.pythonhosted.org/packages/2f/62/fbf50741143a0c191272f055ac741cd1bb5edad48d273d4e4b398837173e/google-cloud-org-policy-1.8.2.tar.gz
+[2023-07-05 17:23:12] INFO root fetch - processPackages [google-cloud-trace]: Downloading https://files.pythonhosted.org/packages/74/ae/b1cc9f979bc23b3d5740ad6b3a7cd989c12536b9f0d52851d2b7cc890d56/google-cloud-trace-1.9.1.tar.gz
+[2023-07-05 17:23:12] INFO root fetch - processPackages [google-cloud-scheduler]: Downloading https://files.pythonhosted.org/packages/76/c7/c8e7ce3c0d3516673c70794cd6c5d111d76daef0e88484fa043e61fdaaa8/google-cloud-scheduler-2.9.1.tar.gz
+[2023-07-05 17:23:16] INFO root fetch - processPackages [google-cloud-gke-backup]: Downloading https://files.pythonhosted.org/packages/86/50/080ec7c15f4b4d7a8f6e832d34069c82104a8376e4386f1dce67d433c04d/google-cloud-gke-backup-0.5.0.tar.gz
+[2023-07-05 17:23:17] INFO root fetch - processPackages [google-cloud-batch]: executing diffoscope
+[2023-07-05 17:23:17] INFO root fetch - processPackages [google-cloud-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-batch-0.8.1.tar.gz tmp/google-cloud-batch-0.9.0.tar.gz --markdown 20230705/g/google-cloud-batch/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:23:17] INFO root fetch - processPackages [google-cloud-org-policy]: executing diffoscope
+[2023-07-05 17:23:17] INFO root fetch - processPackages [google-cloud-org-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-org-policy-1.8.1.tar.gz tmp/google-cloud-org-policy-1.8.2.tar.gz --markdown 20230705/g/google-cloud-org-policy/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-05 17:23:18] INFO root fetch - processPackages [google-cloud-batch]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-batch-0.8.1.tar.gz]
+[2023-07-05 17:23:18] INFO root fetch - processPackages [google-cloud-batch]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-batch-0.9.0.tar.gz]
+[2023-07-05 17:23:18] INFO root fetch - main [MainThread]: End processing [google-cloud-batch]: success
+[2023-07-05 17:23:18] INFO root fetch - processPackages [google-cloud-org-policy]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-org-policy-1.8.1.tar.gz]
+[2023-07-05 17:23:18] INFO root fetch - processPackages [google-cloud-org-policy]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-org-policy-1.8.2.tar.gz]
+[2023-07-05 17:23:18] INFO root fetch - main [MainThread]: End processing [google-cloud-org-policy]: success
+[2023-07-05 17:23:22] INFO root fetch - processPackages [google-cloud-trace]: executing diffoscope
+[2023-07-05 17:23:22] INFO root fetch - processPackages [google-cloud-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-trace-1.9.0.tar.gz tmp/google-cloud-trace-1.9.1.tar.gz --markdown 20230705/g/google-cloud-trace/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:23:23] INFO root fetch - processPackages [google-cloud-scheduler]: executing diffoscope
+[2023-07-05 17:23:23] INFO root fetch - processPackages [google-cloud-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-scheduler-2.9.0.tar.gz tmp/google-cloud-scheduler-2.9.1.tar.gz --markdown 20230705/g/google-cloud-scheduler/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:23:23] INFO root fetch - processPackages [google-cloud-trace]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-trace-1.9.0.tar.gz]
+[2023-07-05 17:23:23] INFO root fetch - processPackages [google-cloud-trace]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-trace-1.9.1.tar.gz]
+[2023-07-05 17:23:23] INFO root fetch - main [MainThread]: End processing [google-cloud-trace]: success
+[2023-07-05 17:23:24] INFO root fetch - processPackages [google-cloud-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-scheduler-2.9.0.tar.gz]
+[2023-07-05 17:23:24] INFO root fetch - processPackages [google-cloud-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-scheduler-2.9.1.tar.gz]
+[2023-07-05 17:23:24] INFO root fetch - main [MainThread]: End processing [google-cloud-scheduler]: success
+[2023-07-05 17:23:27] INFO root fetch - processPackages [google-cloud-gke-backup]: executing diffoscope
+[2023-07-05 17:23:27] INFO root fetch - processPackages [google-cloud-gke-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-gke-backup-0.4.4.tar.gz tmp/google-cloud-gke-backup-0.5.0.tar.gz --markdown 20230705/g/google-cloud-gke-backup/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 17:23:28] INFO root fetch - processPackages [google-cloud-gke-backup]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gke-backup-0.4.4.tar.gz]
+[2023-07-05 17:23:28] INFO root fetch - processPackages [google-cloud-gke-backup]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-gke-backup-0.5.0.tar.gz]
+[2023-07-05 17:23:28] INFO root fetch - main [MainThread]: End processing [google-cloud-gke-backup]: success
+[2023-07-05 17:23:28] INFO root fetch - main [MainThread]: Store serial: [18769396]
