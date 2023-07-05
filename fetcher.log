@@ -12141,3 +12141,98 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 10:40:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.5.tar.gz]
 [2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
 [2023-07-05 10:40:40] INFO root fetch - main [MainThread]: Store serial: [18764659]
+[2023-07-05 10:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764659]
+[2023-07-05 10:45:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-payroll-account-operating-unit
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipp
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forecastmanager
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opendatablend
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wxm-example
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sanic-api
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automation_rest_server
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tff-nightly
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foscat
+[2023-07-05 10:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chapyter
+[2023-07-05 10:45:49] WARNING root fetch - processPackages [odoo-addon-hr-payroll-account-operating-unit]: Skipping, unable to determine old version
+[2023-07-05 10:45:49] INFO root fetch - processPackages [odoo-addon-hr-payroll-account-operating-unit]: Start processing: openai-copilot
+[2023-07-05 10:45:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-payroll-account-operating-unit] error
+[2023-07-05 10:45:49] INFO root fetch - processPackages [sanic-api]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [opendatablend]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [wxm-example]: New version: [0.0.7] Old Version: [0.0.3]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [forecastmanager]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [scipp]: New version: [23.7.0] Old Version: [23.5.0]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [automation_rest_server]: New version: [3.8.5] Old Version: [3.8.3]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230704] Old Version: [0.0.1.dev20230703]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [foscat]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-05 10:45:49] WARNING root fetch - processPackages [chapyter]: Skipping, unable to determine old version
+[2023-07-05 10:45:49] INFO root fetch - processPackages [chapyter]: Start processing: PyMulti
+[2023-07-05 10:45:49] INFO root fetch - main [MainThread]: End processing [chapyter] error
+[2023-07-05 10:45:49] INFO root fetch - processPackages [openai-copilot]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [PyMulti]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 10:45:49] INFO root fetch - processPackages [sanic-api]: Downloading https://files.pythonhosted.org/packages/ca/52/63f665e048caa257feeb3ecb8fc26982dfe43d07f76978907d449829f60a/sanic-api-0.2.6.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/b4/c4/5a76c00439b350439cd635aa55d9bf5dc0f30bb169a502aeaa001047d3aa/tff_nightly-0.0.1.dev20230703-py2.py3-none-any.whl
+[2023-07-05 10:45:49] INFO root fetch - processPackages [opendatablend]: Downloading https://files.pythonhosted.org/packages/85/da/0b47aae86a828a1b3fe5d27c0b505322cf46624bd94e1d4a04f42d526fa2/opendatablend-1.2.1.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/59/96/fb7659a7583b39f89bb45952ae7d465e3c8cd6da4bb9a6797b3c9e5f298f/forecastmanager-0.0.3.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [wxm-example]: Downloading https://files.pythonhosted.org/packages/9f/f8/ccbdbeae01fcff97b148b4bb6d58ea732b8c6574f5aea22989ba67052a44/wxm_example-0.0.3.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [scipp]: Downloading https://files.pythonhosted.org/packages/34/96/6caeb6145805f9967fe31625561f3dd67f88256ce609a121a49066c02f55/scipp-23.5.0.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/1e/be/6a9ee2518b9d581d8e8d8e02d91c0fc5342fa53e06f15480728d125eaaa8/automation_rest_server-3.8.3.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [openai-copilot]: Downloading https://files.pythonhosted.org/packages/67/b1/8629bb07dd93bc5328737e3b01e4de8dbc153849f5fe0386cc46c17d844a/openai_copilot-0.2.2.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/d8/9d/66b0ed8b058f9e78e415f090e1974c4f6a508212537e604bcf934ea48046/foscat-2.0.3.tar.gz
+[2023-07-05 10:45:49] INFO root fetch - processPackages [PyMulti]: Downloading https://files.pythonhosted.org/packages/d8/3d/f2eb8ce1d5b5719804d96a283e0f7fd836f7e48ff3e5693919a8dcacfd7b/PyMulti-1.0.1.tar.gz
+[2023-07-05 10:45:49] WARNING root fetch - processPackages [PyMulti]: Skipping package: exceeds size limit 38816236>=10485760
+[2023-07-05 10:45:49] INFO root fetch - main [MainThread]: End processing [PyMulti] error
+[2023-07-05 10:45:49] INFO root fetch - processPackages [sanic-api]: Downloading https://files.pythonhosted.org/packages/08/3a/1fba1e11e8749fafc6bafdd50e51caca316eaf65a95afb28a0cca9da0fa2/sanic-api-0.2.7.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/60/7a/4099312cb345739af3be2d0bef12d530586d97728a8e0856e29245b5a9f0/forecastmanager-0.0.4.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [opendatablend]: Downloading https://files.pythonhosted.org/packages/40/d9/06ec967330503dd6003e63e8790eddca5ad5b7c88208a70999013e76a303/opendatablend-1.2.2.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [wxm-example]: Downloading https://files.pythonhosted.org/packages/ea/3f/085cb59f5520dde7584f8e4ca6706f8cbf7ae84c8f2bba5a353fd4adec01/wxm_example-0.0.31.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [scipp]: Downloading https://files.pythonhosted.org/packages/1e/82/67e10b461147c221eaa19e13be9a4e84117f38df1c4b400331c6176cda6b/scipp-23.7.0.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1d/52/278b9ad9518439b15371151d12eb24e0c28e95ca25813365fa163017477e/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl
+[2023-07-05 10:45:50] INFO root fetch - processPackages [openai-copilot]: Downloading https://files.pythonhosted.org/packages/c3/b7/c20a55aa540cd5e8ed19e4c8f3a3b944913e51e5265af2ab67afb0ed447e/openai_copilot-0.2.3.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/d5/b4/d5a2b5ea43f4ccd415143015278d16986e61e8521ab18b56f09f2a920432/foscat-2.0.4.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [sanic-api]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [sanic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-api-0.2.6.tar.gz tmp/sanic-api-0.2.7.tar.gz --markdown 20230705/s/sanic-api/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [opendatablend]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [opendatablend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatablend-1.2.1.tar.gz tmp/opendatablend-1.2.2.tar.gz --markdown 20230705/o/opendatablend/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.0.3.tar.gz tmp/forecastmanager-0.0.4.tar.gz --markdown 20230705/f/forecastmanager/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/0b/7f/3886d7963b300a8a59a43c5c95b126a8f19d4ea9ef22afb13ec2665059bf/automation_rest_server-3.8.5.tar.gz
+[2023-07-05 10:45:50] INFO root fetch - processPackages [openai-copilot]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [openai-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_copilot-0.2.2.tar.gz tmp/openai_copilot-0.2.3.tar.gz --markdown 20230705/o/openai-copilot/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230703-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl.zip --markdown 20230705/t/tff-nightly/0.0.1.dev20230703-0.0.1.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [wxm-example]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [wxm-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxm_example-0.0.3.tar.gz tmp/wxm_example-0.0.31.tar.gz --markdown 20230705/w/wxm-example/0.0.3-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [scipp]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [scipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipp-23.5.0.tar.gz tmp/scipp-23.7.0.tar.gz --markdown 20230705/s/scipp/23.5.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-2.0.3.tar.gz tmp/foscat-2.0.4.tar.gz --markdown 20230705/f/foscat/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-05 10:45:50] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-07-05 10:45:50] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.8.3.tar.gz tmp/automation_rest_server-3.8.5.tar.gz --markdown 20230705/a/automation_rest_server/3.8.3-3.8.5/diff.md --exclude *.pyd
+[2023-07-05 10:45:51] INFO root fetch - processPackages [opendatablend]: Remove: archive file [/home/abi/fetcher/tmp/opendatablend-1.2.1.tar.gz]
+[2023-07-05 10:45:51] INFO root fetch - processPackages [opendatablend]: Remove: archive file [/home/abi/fetcher/tmp/opendatablend-1.2.2.tar.gz]
+[2023-07-05 10:45:51] INFO root fetch - main [MainThread]: End processing [opendatablend]: success
+[2023-07-05 10:45:51] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.3.tar.gz]
+[2023-07-05 10:45:51] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.4.tar.gz]
+[2023-07-05 10:45:51] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [openai-copilot]: Remove: archive file [/home/abi/fetcher/tmp/openai_copilot-0.2.2.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [openai-copilot]: Remove: archive file [/home/abi/fetcher/tmp/openai_copilot-0.2.3.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [openai-copilot]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [sanic-api]: Remove: archive file [/home/abi/fetcher/tmp/sanic-api-0.2.6.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [sanic-api]: Remove: archive file [/home/abi/fetcher/tmp/sanic-api-0.2.7.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [sanic-api]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [wxm-example]: Remove: archive file [/home/abi/fetcher/tmp/wxm_example-0.0.3.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [wxm-example]: Remove: archive file [/home/abi/fetcher/tmp/wxm_example-0.0.31.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [wxm-example]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-2.0.3.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-2.0.4.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [scipp]: Remove: archive file [/home/abi/fetcher/tmp/scipp-23.5.0.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [scipp]: Remove: archive file [/home/abi/fetcher/tmp/scipp-23.7.0.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [scipp]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.3.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [automation_rest_server]: Remove: archive file [/home/abi/fetcher/tmp/automation_rest_server-3.8.5.tar.gz]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-07-05 10:45:52] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230703-py2.py3-none-any.whl.zip]
+[2023-07-05 10:45:52] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl.zip]
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-05 10:45:52] INFO root fetch - main [MainThread]: Store serial: [18764711]
