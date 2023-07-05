@@ -15478,3 +15478,181 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:09:52] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc3.tar.gz]
 [2023-07-05 13:09:52] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-07-05 13:09:52] INFO root fetch - main [MainThread]: Store serial: [18766152]
+[2023-07-05 13:14:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766152]
+[2023-07-05 13:15:01] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: android-sdk-platform-tools-supporter
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-memberaudit
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cephes4py
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iman
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: useDAVE
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: embedchain
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-mass-migration
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htag
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-testing-platform
+[2023-07-05 13:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-ddmrp
+[2023-07-05 13:15:01] INFO root fetch - processPackages [aa-memberaudit]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [django-mass-migration]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 13:15:01] WARNING root fetch - processPackages [cephes4py]: Skipping, unable to determine old version
+[2023-07-05 13:15:01] INFO root fetch - processPackages [cephes4py]: Start processing: tomwer
+[2023-07-05 13:15:01] INFO root fetch - processPackages [useDAVE]: New version: [2.0.0b1] Old Version: [2.0.0a1]
+[2023-07-05 13:15:01] INFO root fetch - main [MainThread]: End processing [cephes4py] error
+[2023-07-05 13:15:01] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [htag]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 13:15:01] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/3d/5c/cfcccce8faaa52d9c993bca59ba7ed5d108ca2b05215337e9c2f2d6505f0/android-sdk-platform-tools-supporter-0.0.2.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [tomwer]: New version: [1.2.0a1] Old Version: [1.2.0a0]
+[2023-07-05 13:15:02] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/ec/72/25a2e36190c7142250af10a7279b25cbd483c684d98003b67c9820beff63/django-mass-migration-0.1.6.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [aa-memberaudit]: Downloading https://files.pythonhosted.org/packages/31/d1/94de5b35eefed4685ee72586858cf5f740a7ac4257e89c7a76c850fd2ea6/aa_memberaudit-2.9.2.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-07-05 13:15:02] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/1f/49/7ef7457fe0739f49ce1e45659e55602cad7f94e43d3e24f73938ef4de585/htag-0.9.8.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/2e/74/4255eb9a9e881829bea1519f4e0ada09fd111ded8c8be54d6d42f1f4f671/iman-0.0.80.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [useDAVE]: Downloading https://files.pythonhosted.org/packages/4e/ec/13a64fa04f2b9f03967afc75faa517e000639c501565abbe3df2baa1ba31/useDAVE-2.0.0a1.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/55/e2/51deca77c72c63d2cf45e1e2662ae01f72e3bf6634c8491cb56d4ff29361/tomwer-1.2.0a0.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/74/69/e423c92bbbcf124d0914c125a71e0eff0fde0c4a4dbe7cbb32d571f1d48e/android-sdk-platform-tools-supporter-0.0.3.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/21/3c/de20e386527d121a5e4747a11c22a28b13018f44312114026067cf438f55/django-mass-migration-0.1.7.tar.gz
+[2023-07-05 13:15:02] WARNING root fetch - processPackages [useDAVE]: Skipping package: exceeds size limit 26689322>=10485760
+[2023-07-05 13:15:02] INFO root fetch - processPackages [useDAVE]: Start processing: integreat-cms
+[2023-07-05 13:15:02] INFO root fetch - main [MainThread]: End processing [useDAVE] error
+[2023-07-05 13:15:02] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-05 13:15:02] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230705/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:15:02] INFO root fetch - processPackages [integreat-cms]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-05 13:15:02] INFO root fetch - processPackages [django-mass-migration]: executing diffoscope
+[2023-07-05 13:15:02] INFO root fetch - processPackages [django-mass-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mass-migration-0.1.6.tar.gz tmp/django-mass-migration-0.1.7.tar.gz --markdown 20230705/d/django-mass-migration/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-05 13:15:02] INFO root fetch - processPackages [aa-memberaudit]: Downloading https://files.pythonhosted.org/packages/79/87/c8202b84d083e23190a49886c94a61c9aa79d9766a731b111ddfb740399c/aa_memberaudit-2.9.3.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-05 13:15:02] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: executing diffoscope
+[2023-07-05 13:15:02] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-platform-tools-supporter-0.0.2.tar.gz tmp/android-sdk-platform-tools-supporter-0.0.3.tar.gz --markdown 20230705/a/android-sdk-platform-tools-supporter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 13:15:02] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-05 13:15:02] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230705/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:15:02] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-05 13:15:02] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-05 13:15:02] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.80.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230705/i/iman/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:15:02] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-07-05 13:15:02] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-05 13:15:03] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/3c/57/e3ec31c7a4370e0398973fdc16d97c10b517a8a8c8ab59f3221b4e86189e/htag-0.9.9.tar.gz
+[2023-07-05 13:15:03] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/4d/d7/70590b989e3e5dcce4db922452fbab9344bb0511477ac020648aa5d33b02/integreat-cms-2023.7.0.tar.gz
+[2023-07-05 13:15:03] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16265538>=10485760
+[2023-07-05 13:15:03] INFO root fetch - processPackages [integreat-cms]: Start processing: mlserver-huggingface
+[2023-07-05 13:15:03] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2023-07-05 13:15:03] INFO root fetch - processPackages [aa-memberaudit]: executing diffoscope
+[2023-07-05 13:15:03] INFO root fetch - processPackages [aa-memberaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_memberaudit-2.9.2.tar.gz tmp/aa_memberaudit-2.9.3.tar.gz --markdown 20230705/a/aa-memberaudit/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-05 13:15:03] INFO root fetch - processPackages [mlserver-huggingface]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:03] INFO root fetch - processPackages [htag]: executing diffoscope
+[2023-07-05 13:15:03] INFO root fetch - processPackages [htag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htag-0.9.8.tar.gz tmp/htag-0.9.9.tar.gz --markdown 20230705/h/htag/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 13:15:03] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/f0/83/2735b6f081605f7c92fa3d85a4716cadd7b0eb1a50a71cdf6ec89daf1698/mlserver-huggingface-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:03] INFO root fetch - processPackages [mlserver-huggingface]: Downloading https://files.pythonhosted.org/packages/7c/34/967667ccf1b22d9f0143a6abde3d03affb2039337dd90b163bb1b67d9ee9/mlserver_huggingface-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-huggingface]: executing diffoscope
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-huggingface-1.4.0.dev2.tar.gz tmp/mlserver_huggingface-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-huggingface/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:04] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.2.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.3.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Start processing: mlserver-mlflow
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [android-sdk-platform-tools-supporter]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-mlflow]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [embedchain]: Start processing: mlserver-alibi-explain
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [raga-testing-platform]: Start processing: mlserver-alibi-detect
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-alibi-explain]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.6.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.7.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [django-mass-migration]: Start processing: mlserver-lightgbm
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [django-mass-migration]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.80.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [iman]: Start processing: mlserver-xgboost
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/9c/a6/94383f8fefff438a708de6a15de54cdf27095e019093eba700e8d3150b0f/tomwer-1.2.0a1.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-alibi-detect]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-xgboost]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-lightgbm]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/30/19/1aaf2cad4df35702cdb9d097b2df2c2b58d1cbfb9df3c6f3e39b559a2264/mlserver-mlflow-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/4c/ff/8fee52bea3e7c1e8ae468fcbc17d72675b3e31f4c766303a884ef0a13022/mlserver-alibi-explain-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/1e/9b/d8de9dd6f90d71c11ff42051fb1c8ea4f84b45d6f1568c2847cbef247ac6/mlserver-alibi-detect-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.9.8.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.9.9.tar.gz]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [htag]: Start processing: mlserver-mllib
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [htag]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/a9/4e/d37fe531858b5a0b361eadf69589e29ca81641b6d2581ebfb3010d756d63/mlserver-xgboost-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/45/33/3f2748f79aa1b4bef981eec337edc621a424474f69062004e620da744793/mlserver-lightgbm-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-mllib]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-05 13:15:04] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Start processing: mlserver-sklearn
+[2023-07-05 13:15:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-07-05 13:15:04] INFO root fetch - processPackages [mlserver-mlflow]: Downloading https://files.pythonhosted.org/packages/25/b5/4076220156f85444e7b7377a157cc7631a9a19ffc7614b4ec0df32112dad/mlserver_mlflow-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-alibi-explain]: Downloading https://files.pythonhosted.org/packages/e0/12/335f98efbdf5a8678b3cd3eca889377fb08606cdd00cec4afdc41e6979dd/mlserver_alibi_explain-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-xgboost]: Downloading https://files.pythonhosted.org/packages/93/5b/a662059db44ac1ed313834fbcb2975924a14ceecbdbcf6df94e707dc8bca/mlserver_xgboost-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-sklearn]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-alibi-detect]: Downloading https://files.pythonhosted.org/packages/24/89/7b1c58258d5d5631a337e75b60e0935d706f424d9d4d6fe26928df6fc4b2/mlserver_alibi_detect-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/58/bb/f4a9f4208e47476294a4fe6e1e997c99d4884bae6544ba565f968ebcd0b4/mlserver-mllib-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-mlflow]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mlflow-1.4.0.dev2.tar.gz tmp/mlserver_mlflow-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-mlflow/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-lightgbm]: Downloading https://files.pythonhosted.org/packages/e7/61/87ff2b79a8d691a6dadd7cf815e83a432ef6b84ea96198e13f2223c6b877/mlserver_lightgbm-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-alibi-explain]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-alibi-explain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-explain-1.4.0.dev2.tar.gz tmp/mlserver_alibi_explain-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-alibi-explain/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-xgboost]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-xgboost-1.4.0.dev2.tar.gz tmp/mlserver_xgboost-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-xgboost/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.2.0a0.tar.gz tmp/tomwer-1.2.0a1.tar.gz --markdown 20230705/t/tomwer/1.2.0a0-1.2.0a1/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-huggingface-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_huggingface-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-huggingface]: Start processing: fschat
+[2023-07-05 13:15:05] INFO root fetch - main [MainThread]: End processing [mlserver-huggingface]: success
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-alibi-detect]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-alibi-detect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-alibi-detect-1.4.0.dev2.tar.gz tmp/mlserver_alibi_detect-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-alibi-detect/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/a9/1f/259c6b8407fa04124af450e06afbcdf10587f4feada8aba9f8fd1415f8f7/mlserver-sklearn-1.4.0.dev2.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-lightgbm]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-lightgbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-lightgbm-1.4.0.dev2.tar.gz tmp/mlserver_lightgbm-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-lightgbm/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-mllib]: Downloading https://files.pythonhosted.org/packages/33/ba/6e083ec243b4665e60f4eeca4595eb7d4064cfd7a4cb8711e932500173bc/mlserver_mllib-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-sklearn]: Downloading https://files.pythonhosted.org/packages/32/83/cd5259c555fdd6488f79d61fe77bd3185b7d48a7e40b44690d24e11bff66/mlserver_sklearn-1.4.0.dev3.tar.gz
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-mllib]: executing diffoscope
+[2023-07-05 13:15:05] INFO root fetch - processPackages [mlserver-mllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-mllib-1.4.0.dev2.tar.gz tmp/mlserver_mllib-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-mllib/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:05] INFO root fetch - processPackages [aa-memberaudit]: Remove: archive file [/home/abi/fetcher/tmp/aa_memberaudit-2.9.2.tar.gz]
+[2023-07-05 13:15:05] INFO root fetch - processPackages [aa-memberaudit]: Remove: archive file [/home/abi/fetcher/tmp/aa_memberaudit-2.9.3.tar.gz]
+[2023-07-05 13:15:05] INFO root fetch - main [MainThread]: End processing [aa-memberaudit]: success
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-sklearn]: executing diffoscope
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-sklearn-1.4.0.dev2.tar.gz tmp/mlserver_sklearn-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver-sklearn/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:15:06] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-07-05 13:15:06] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-07-05 13:15:06] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230705/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-xgboost-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-xgboost]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_xgboost-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - main [MainThread]: End processing [mlserver-xgboost]: success
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-alibi-explain]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-explain-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-alibi-explain]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_alibi_explain-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-explain]: success
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mlflow-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_mlflow-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - main [MainThread]: End processing [mlserver-mlflow]: success
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-lightgbm]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-lightgbm-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-lightgbm]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_lightgbm-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - main [MainThread]: End processing [mlserver-lightgbm]: success
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-alibi-detect-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - processPackages [mlserver-alibi-detect]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_alibi_detect-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:06] INFO root fetch - main [MainThread]: End processing [mlserver-alibi-detect]: success
+[2023-07-05 13:15:07] INFO root fetch - processPackages [mlserver-mllib]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-mllib-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:07] INFO root fetch - processPackages [mlserver-mllib]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_mllib-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:07] INFO root fetch - main [MainThread]: End processing [mlserver-mllib]: success
+[2023-07-05 13:15:07] INFO root fetch - processPackages [mlserver-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-sklearn-1.4.0.dev2.tar.gz]
+[2023-07-05 13:15:07] INFO root fetch - processPackages [mlserver-sklearn]: Remove: archive file [/home/abi/fetcher/tmp/mlserver_sklearn-1.4.0.dev3.tar.gz]
+[2023-07-05 13:15:07] INFO root fetch - main [MainThread]: End processing [mlserver-sklearn]: success
+[2023-07-05 13:15:07] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-07-05 13:15:07] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-07-05 13:15:07] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-07-05 13:15:10] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a0.tar.gz]
+[2023-07-05 13:15:10] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
+[2023-07-05 13:15:10] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2023-07-05 13:15:10] INFO root fetch - main [MainThread]: Store serial: [18766216]
