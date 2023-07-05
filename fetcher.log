@@ -12236,3 +12236,174 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 10:45:52] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230704-py2.py3-none-any.whl.zip]
 [2023-07-05 10:45:52] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-07-05 10:45:52] INFO root fetch - main [MainThread]: Store serial: [18764711]
+[2023-07-05 10:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764711]
+[2023-07-05 10:51:02] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kast-flow-api-python
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elfebot
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hawkflow
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotemanager
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aicli
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embiggen
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RotEx
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudpy-org
+[2023-07-05 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syscolouringsaddon
+[2023-07-05 10:51:02] INFO root fetch - processPackages [elfebot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [remotemanager]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [aicli]: New version: [99.0.202307040953] Old Version: [99.0.202307031453]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [hawkflow]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [kast-flow-api-python]: New version: [1.0.6rc1] Old Version: [1.0.5]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [syscolouringsaddon]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [cloudpy-org]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-05 10:51:03] WARNING root fetch - processPackages [RotEx]: Skipping, unable to determine old version
+[2023-07-05 10:51:03] INFO root fetch - processPackages [RotEx]: Start processing: smdb-web-interface
+[2023-07-05 10:51:03] INFO root fetch - main [MainThread]: End processing [RotEx] error
+[2023-07-05 10:51:03] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/11/d1/f591808b247a80dafd09eb50502c8113428c2821eae93326f503ed289d67/elfebot-0.0.3-py3-none-any.whl
+[2023-07-05 10:51:03] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230705] Old Version: [2.14.0.dev20230704]
+[2023-07-05 10:51:03] WARNING root fetch - processPackages [smdb-web-interface]: Skipping, unable to determine old version
+[2023-07-05 10:51:03] INFO root fetch - processPackages [smdb-web-interface]: Start processing: ccdt
+[2023-07-05 10:51:03] INFO root fetch - main [MainThread]: End processing [smdb-web-interface] error
+[2023-07-05 10:51:03] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/f5/0e/0a8eb742ac929329f8faa7389df44dca4a2ce26a041a727da9472308609f/remotemanager-0.8.1.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/bd/f7/d2b11df718072e57370a52f5415c4665d36b1be458fb03f3fa82aa45dcd3/aicli-99.0.202307031453-py3-none-any.whl
+[2023-07-05 10:51:03] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/0e/12/1a020e59f00d72180fe8af4e85b210faa96b03e06d95bf78338587589618/hawkflow-0.0.91.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/a3/0c/de972b8ede0c39f3944e43a41a5253a99c14f5bb5e6f1a7ff5c17a1a1457/kast_flow_api_python-1.0.5.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [syscolouringsaddon]: Downloading https://files.pythonhosted.org/packages/86/22/61556305ec602b5d95e91f4aa04c4512a895e9264467985317d4c7521876/syscolouringsaddon-1.0.0.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-05 10:51:03] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/a2/ab/186b3a326ba52b91f6dd5d4866537079e65d35ba4ec1c21073619d0e38f0/cloudpy_org-1.4.2.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/2c/c9/3fb6a936174f1f8e55d6f4facf6416f284678f94be478421d613d9919e4d/tf_nightly-2.14.0.dev20230704-cp39-cp39-win_amd64.whl
+[2023-07-05 10:51:03] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/54/8d/34e11fe57a695c046d0a54adb86733c6b7ce6056076b7bb358e2d2a6daf3/elfebot-0.0.4-py3-none-any.whl
+[2023-07-05 10:51:03] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/e7/02/92a14e29a69517dfcb3a7e1a3fc0710eb38856f7596be22f5fe09eec9e19/aicli-99.0.202307040953-py3-none-any.whl
+[2023-07-05 10:51:03] INFO root fetch - processPackages [elfebot]: executing diffoscope
+[2023-07-05 10:51:03] INFO root fetch - processPackages [elfebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elfebot-0.0.3-py3-none-any.whl.zip tmp/elfebot-0.0.4-py3-none-any.whl.zip --markdown 20230705/e/elfebot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 10:51:03] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/87/f4/07a54b3425c3223e9709a75c95c1112f4032217b9dc0661c4a9746b252e5/remotemanager-0.8.2.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [hawkflow]: Downloading https://files.pythonhosted.org/packages/13/8a/e56623576f36d8359301eb8613b8b7ac59e9e9b0d25e3e8598bf1060536b/hawkflow-0.0.92.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [kast-flow-api-python]: Downloading https://files.pythonhosted.org/packages/07/72/30a1cea36fbcbf3039bf23fc4806612d1d7f3c987d503992a93f309a24d8/kast_flow_api_python-1.0.6rc1.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [syscolouringsaddon]: Downloading https://files.pythonhosted.org/packages/a2/f5/fafaeb392aa664edef08379eea799d3cf0dcfebf1af03f3674eec846739c/syscolouringsaddon-1.1.0.tar.gz
+[2023-07-05 10:51:03] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-07-05 10:51:03] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202307031453-py3-none-any.whl.zip tmp/aicli-99.0.202307040953-py3-none-any.whl.zip --markdown 20230705/a/aicli/99.0.202307031453-99.0.202307040953/diff.md --exclude *.pyd
+[2023-07-05 10:51:03] INFO root fetch - processPackages [cloudpy-org]: Downloading https://files.pythonhosted.org/packages/44/51/894220d2bdf62430f67c6a52cb06df42e276df374622ed0007b2c556d6fe/cloudpy_org-1.4.3.tar.gz
+[2023-07-05 10:51:04] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/6f/c5/abad8413507b669919561484a1f7339600eab6907fb5a0ecc9ac1bcc58b8/tf_nightly-2.14.0.dev20230705-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 10:51:04] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230705/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] INFO root fetch - processPackages [hawkflow]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [hawkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hawkflow-0.0.91.tar.gz tmp/hawkflow-0.0.92.tar.gz --markdown 20230705/h/hawkflow/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.8.1.tar.gz tmp/remotemanager-0.8.2.tar.gz --markdown 20230705/r/remotemanager/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] INFO root fetch - processPackages [kast-flow-api-python]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [kast-flow-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kast_flow_api_python-1.0.5.tar.gz tmp/kast_flow_api_python-1.0.6rc1.tar.gz --markdown 20230705/k/kast-flow-api-python/1.0.5-1.0.6rc1/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] INFO root fetch - processPackages [cloudpy-org]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [cloudpy-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpy_org-1.4.2.tar.gz tmp/cloudpy_org-1.4.3.tar.gz --markdown 20230705/c/cloudpy-org/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-07-05 10:51:04] INFO root fetch - processPackages [syscolouringsaddon]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [syscolouringsaddon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringsaddon-1.0.0.tar.gz tmp/syscolouringsaddon-1.1.0.tar.gz --markdown 20230705/s/syscolouringsaddon/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491042301>=10485760
+[2023-07-05 10:51:04] INFO root fetch - processPackages [tf-nightly]: Start processing: pythoncolouringspackageV1
+[2023-07-05 10:51:04] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-05 10:51:04] INFO root fetch - processPackages [pythoncolouringspackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 10:51:04] INFO root fetch - processPackages [pythoncolouringspackageV1]: Downloading https://files.pythonhosted.org/packages/58/44/8a3e07d1ec5ddfba5a551361066fd4d0b9fec49183a72e02478418f1405e/pythoncolouringspackageV1-1.0.0.tar.gz
+[2023-07-05 10:51:04] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-07-05 10:51:04] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-07-05 10:51:04] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230705/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-05 10:51:04] INFO root fetch - processPackages [pythoncolouringspackageV1]: Downloading https://files.pythonhosted.org/packages/b3/5e/f65e044a6d21eaaec5a86f849caf287c0d3d9d66df1e8adcd73ade53eb7f/pythoncolouringspackageV1-1.1.0.tar.gz
+[2023-07-05 10:51:05] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.3-py3-none-any.whl.zip]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.4-py3-none-any.whl.zip]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [elfebot]: Start processing: telekinesis
+[2023-07-05 10:51:05] INFO root fetch - main [MainThread]: End processing [elfebot]: success
+[2023-07-05 10:51:05] INFO root fetch - processPackages [pythoncolouringspackageV1]: executing diffoscope
+[2023-07-05 10:51:05] INFO root fetch - processPackages [pythoncolouringspackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringspackageV1-1.0.0.tar.gz tmp/pythoncolouringspackageV1-1.1.0.tar.gz --markdown 20230705/p/pythoncolouringspackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 10:51:05] INFO root fetch - processPackages [telekinesis]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/7c/4a/eb996d44cab25371923b0cd139dda1b59fa8f819b7c74ac859685a01e8fe/telekinesis-0.1.82.tar.gz
+[2023-07-05 10:51:05] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.5.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [kast-flow-api-python]: Remove: archive file [/home/abi/fetcher/tmp/kast_flow_api_python-1.0.6rc1.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [kast-flow-api-python]: Start processing: grassmanntn
+[2023-07-05 10:51:05] INFO root fetch - main [MainThread]: End processing [kast-flow-api-python]: success
+[2023-07-05 10:51:05] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307031453-py3-none-any.whl.zip]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202307040953-py3-none-any.whl.zip]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [aicli]: Start processing: syscolouringsaddon
+[2023-07-05 10:51:05] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-07-05 10:51:05] INFO root fetch - processPackages [syscolouringsaddon]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringsaddon-1.0.0.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [syscolouringsaddon]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringsaddon-1.1.0.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [syscolouringsaddon]: Start processing: tfp-nightly
+[2023-07-05 10:51:05] INFO root fetch - main [MainThread]: End processing [syscolouringsaddon]: success
+[2023-07-05 10:51:05] INFO root fetch - processPackages [syscolouringsaddon]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/e3/47/f99f4ce6148171a98395acc0890390d52caf2b05cb0548e90b3e7743d276/grassmanntn-1.1.2.tar.gz
+[2023-07-05 10:51:05] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.4.2.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [cloudpy-org]: Remove: archive file [/home/abi/fetcher/tmp/cloudpy_org-1.4.3.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [cloudpy-org]: Start processing: pysui
+[2023-07-05 10:51:05] INFO root fetch - main [MainThread]: End processing [cloudpy-org]: success
+[2023-07-05 10:51:05] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.91.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [hawkflow]: Remove: archive file [/home/abi/fetcher/tmp/hawkflow-0.0.92.tar.gz]
+[2023-07-05 10:51:05] INFO root fetch - processPackages [hawkflow]: Start processing: kcli
+[2023-07-05 10:51:05] INFO root fetch - main [MainThread]: End processing [hawkflow]: success
+[2023-07-05 10:51:05] INFO root fetch - processPackages [syscolouringsaddon]: Downloading https://files.pythonhosted.org/packages/86/22/61556305ec602b5d95e91f4aa04c4512a895e9264467985317d4c7521876/syscolouringsaddon-1.0.0.tar.gz
+[2023-07-05 10:51:06] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/f6/9c/89ce5106a8ef79bcf2ca3ac0083d2e3ef7e12a58b957c054cb8962d6ca34/telekinesis-0.1.9.tar.gz
+[2023-07-05 10:51:06] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-05 10:51:06] INFO root fetch - processPackages [kcli]: New version: [99.0.202307041734] Old Version: [99.0.202307041540]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pysui]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.1.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.8.2.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [remotemanager]: Start processing: tiny-vk
+[2023-07-05 10:51:06] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-07-05 10:51:06] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [embiggen]: Start processing: pythoncolouringspackageV1
+[2023-07-05 10:51:06] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-07-05 10:51:06] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/26/5d/3f10d7f3beac5b24c1157fccf6cfdd5c5942776451ce0a82b1502dc59758/grassmanntn-1.1.3.tar.gz
+[2023-07-05 10:51:06] WARNING root fetch - processPackages [tiny-vk]: Skipping, unable to determine old version
+[2023-07-05 10:51:06] INFO root fetch - main [MainThread]: End processing [tiny-vk] error
+[2023-07-05 10:51:06] INFO root fetch - processPackages [telekinesis]: executing diffoscope
+[2023-07-05 10:51:06] INFO root fetch - processPackages [telekinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telekinesis-0.1.82.tar.gz tmp/telekinesis-0.1.9.tar.gz --markdown 20230705/t/telekinesis/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pythoncolouringspackageV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/db/2c/e605e26bbbaa77ad8adca235774f4799901e67dc2c26f8018f3ab21de963/kcli-99.0.202307041540-py3-none-any.whl
+[2023-07-05 10:51:06] INFO root fetch - processPackages [syscolouringsaddon]: Downloading https://files.pythonhosted.org/packages/a2/f5/fafaeb392aa664edef08379eea799d3cf0dcfebf1af03f3674eec846739c/syscolouringsaddon-1.1.0.tar.gz
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/df/fd/8060c20cdf32607400911d43fc627a8bf48fe7571dc1992ab190b3274d7b/pysui-0.8.0-py3-none-any.whl
+[2023-07-05 10:51:06] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-05 10:51:06] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.2.tar.gz tmp/grassmanntn-1.1.3.tar.gz --markdown 20230705/g/grassmanntn/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pythoncolouringspackageV1]: Remove: archive file [/home/abi/fetcher/tmp/pythoncolouringspackageV1-1.0.0.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pythoncolouringspackageV1]: Remove: archive file [/home/abi/fetcher/tmp/pythoncolouringspackageV1-1.1.0.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - main [MainThread]: End processing [pythoncolouringspackageV1]: success
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pythoncolouringspackageV1]: Downloading https://files.pythonhosted.org/packages/b3/5e/f65e044a6d21eaaec5a86f849caf287c0d3d9d66df1e8adcd73ade53eb7f/pythoncolouringspackageV1-1.1.0.tar.gz
+[2023-07-05 10:51:06] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-07-05 10:51:06] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-07-05 10:51:06] INFO root fetch - processPackages [syscolouringsaddon]: executing diffoscope
+[2023-07-05 10:51:06] INFO root fetch - processPackages [syscolouringsaddon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolouringsaddon-1.0.0.tar.gz tmp/syscolouringsaddon-1.1.0.tar.gz --markdown 20230705/s/syscolouringsaddon/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 10:51:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/02/e4/2c279112399f087b88ce81ffb21f3689ac1542d4d54fa75e470a6f450df8/kcli-99.0.202307041734-py3-none-any.whl
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pythoncolouringspackageV1]: executing diffoscope
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pythoncolouringspackageV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncolouringspackageV1-1.0.0.tar.gz tmp/pythoncolouringspackageV1-1.1.0.tar.gz --markdown 20230705/p/pythoncolouringspackageV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 10:51:06] INFO root fetch - processPackages [pysui]: Downloading https://files.pythonhosted.org/packages/d0/d5/e2108ab88d1f544ccab9554dcf4127133263950ae9c3e3912ab5bb6db12a/pysui-0.9.0-py3-none-any.whl
+[2023-07-05 10:51:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-05 10:51:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307041540-py3-none-any.whl.zip tmp/kcli-99.0.202307041734-py3-none-any.whl.zip --markdown 20230705/k/kcli/99.0.202307041540-99.0.202307041734/diff.md --exclude *.pyd
+[2023-07-05 10:51:07] INFO root fetch - processPackages [pysui]: executing diffoscope
+[2023-07-05 10:51:07] INFO root fetch - processPackages [pysui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysui-0.8.0-py3-none-any.whl.zip tmp/pysui-0.9.0-py3-none-any.whl.zip --markdown 20230705/p/pysui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 10:51:07] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-05 10:51:07] ERROR root fetch - processPackages [pythoncolouringspackageV1]: Diffoscope failed: time="2023-07-05T10:51:06+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pythoncolouringspackageV1-1.0.0.tar.gz: No such file or directory
+
+[2023-07-05 10:51:07] INFO root fetch - main [MainThread]: End processing [pythoncolouringspackageV1] error
+[2023-07-05 10:51:07] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.82.tar.gz]
+[2023-07-05 10:51:07] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.9.tar.gz]
+[2023-07-05 10:51:07] INFO root fetch - main [MainThread]: End processing [telekinesis]: success
+[2023-07-05 10:51:07] INFO root fetch - processPackages [syscolouringsaddon]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringsaddon-1.0.0.tar.gz]
+[2023-07-05 10:51:07] INFO root fetch - processPackages [syscolouringsaddon]: Remove: archive file [/home/abi/fetcher/tmp/syscolouringsaddon-1.1.0.tar.gz]
+[2023-07-05 10:51:07] INFO root fetch - main [MainThread]: End processing [syscolouringsaddon]: success
+[2023-07-05 10:51:07] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.2.tar.gz]
+[2023-07-05 10:51:07] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.3.tar.gz]
+[2023-07-05 10:51:07] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-05 10:51:08] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-05 10:51:08] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230705/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-05 10:51:08] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.8.0-py3-none-any.whl.zip]
+[2023-07-05 10:51:08] INFO root fetch - processPackages [pysui]: Remove: archive file [/home/abi/fetcher/tmp/pysui-0.9.0-py3-none-any.whl.zip]
+[2023-07-05 10:51:08] INFO root fetch - main [MainThread]: End processing [pysui]: success
+[2023-07-05 10:51:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307041540-py3-none-any.whl.zip]
+[2023-07-05 10:51:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307041734-py3-none-any.whl.zip]
+[2023-07-05 10:51:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-05 10:51:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-05 10:51:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-05 10:51:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-05 10:51:12] INFO root fetch - main [MainThread]: Store serial: [18764773]
