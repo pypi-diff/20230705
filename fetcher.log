@@ -14132,3 +14132,75 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:05:37] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-0.0.8.tar.gz]
 [2023-07-05 12:05:37] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
 [2023-07-05 12:05:37] INFO root fetch - main [MainThread]: Store serial: [18765603]
+[2023-07-05 12:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765603]
+[2023-07-05 12:10:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flybirds
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlfoundry
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopee-aip-datasets
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nowcasting-forecast
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swibots
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psanalyzer
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundry-dev-tools
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blendersynth
+[2023-07-05 12:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gajula
+[2023-07-05 12:10:46] WARNING root fetch - processPackages [psanalyzer]: Skipping, unable to determine old version
+[2023-07-05 12:10:46] INFO root fetch - main [MainThread]: End processing [psanalyzer] error
+[2023-07-05 12:10:46] WARNING root fetch - processPackages [shopee-aip-datasets]: Skipping, unable to determine old version
+[2023-07-05 12:10:46] INFO root fetch - main [MainThread]: End processing [shopee-aip-datasets] error
+[2023-07-05 12:10:46] INFO root fetch - processPackages [mlfoundry]: New version: [0.9.1rc2] Old Version: [0.9.1rc1]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [blendersynth]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [gajula]: New version: [0.0.7] Old Version: [0.0.3]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [swibots]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [foundry-dev-tools]: New version: [1.2] Old Version: [1.1]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [flybirds]: New version: [0.6.6] Old Version: [0.6.3]
+[2023-07-05 12:10:46] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/44/c4/2f44ea91c732ea8f0984315c4517d30803c3cbc21cf77d2a6a7f76f7ae0f/mlfoundry-0.9.1rc1.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/e4/8c/787bfe1a8dc9e99d6bc59e95ddd50943ab03d1f47ea0f9c8276776315913/swibots-1.3.0.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/bd/a3/f897437dc816e8a1e26925baf6afe00c418eeb261a0eb32eef747d9c4bbd/foundry-dev-tools-1.1.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [blendersynth]: Downloading https://files.pythonhosted.org/packages/78/74/de6522901c7a6b30115b993a269df5c7a7fa2248efb040b1b1b5a206cca9/blendersynth-0.0.2.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/1a/9b/94e5686d4db8e17ec07f89821d9eec001024ac34e78d6ca9b3580d9b5adf/nowcasting_forecast-1.3.8.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/d0/51/efd205e7b494892273db35bfa4882f11dd4751bc291402078e9173f81354/flybirds-0.6.3.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [gajula]: Downloading https://files.pythonhosted.org/packages/bf/0d/3e9b0c86a368703697b510f82f36702ec9222fe218f039242fc30f2372bf/gajula-0.0.3.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/59/9f/b5726f1a0db2e63c1ccc4c59200dfeeeefc0211f56a85977b5e1961d63ae/mlfoundry-0.9.1rc2.tar.gz
+[2023-07-05 12:10:46] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/78/37/6b2f02c67fbe87a9aa309ffbda01268bba8fb02a207fd3d04688e13c959e/swibots-1.3.1.tar.gz
+[2023-07-05 12:10:47] INFO root fetch - processPackages [foundry-dev-tools]: Downloading https://files.pythonhosted.org/packages/3e/e9/a0138f87f458850f371fade383eb57e6d887c23d93cd9f0ee5cdcd488e85/foundry-dev-tools-1.2.tar.gz
+[2023-07-05 12:10:47] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-07-05 12:10:47] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.9.1rc1.tar.gz tmp/mlfoundry-0.9.1rc2.tar.gz --markdown 20230705/m/mlfoundry/0.9.1rc1-0.9.1rc2/diff.md --exclude *.pyd
+[2023-07-05 12:10:47] INFO root fetch - processPackages [blendersynth]: Downloading https://files.pythonhosted.org/packages/a6/2a/1e695f675e26dfdc71712bd94e9a0fb5caba743eb8e0bfef66d50267b2b0/blendersynth-0.0.3.tar.gz
+[2023-07-05 12:10:47] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-05 12:10:47] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.0.tar.gz tmp/swibots-1.3.1.tar.gz --markdown 20230705/s/swibots/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-05 12:10:47] INFO root fetch - processPackages [gajula]: Downloading https://files.pythonhosted.org/packages/76/6f/96cc0c096d0a8acabc3ef916c4a189b8a7bf9b4075bcd9b6a78d71de04fe/gajula-0.0.7.tar.gz
+[2023-07-05 12:10:47] INFO root fetch - processPackages [foundry-dev-tools]: executing diffoscope
+[2023-07-05 12:10:47] INFO root fetch - processPackages [foundry-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry-dev-tools-1.1.tar.gz tmp/foundry-dev-tools-1.2.tar.gz --markdown 20230705/f/foundry-dev-tools/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-05 12:10:47] INFO root fetch - processPackages [gajula]: executing diffoscope
+[2023-07-05 12:10:47] INFO root fetch - processPackages [gajula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gajula-0.0.3.tar.gz tmp/gajula-0.0.7.tar.gz --markdown 20230705/g/gajula/0.0.3-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 12:10:47] INFO root fetch - processPackages [blendersynth]: executing diffoscope
+[2023-07-05 12:10:47] INFO root fetch - processPackages [blendersynth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendersynth-0.0.2.tar.gz tmp/blendersynth-0.0.3.tar.gz --markdown 20230705/b/blendersynth/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 12:10:47] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/8f/11/ab32ef2651477ded64769bdd200b9ba410324ec70abf7c8205c2e0e87851/flybirds-0.6.6.tar.gz
+[2023-07-05 12:10:47] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/12/25/f079c128d585d077cb30e3dec159686cebd779faff6596b427c59287f911/nowcasting_forecast-1.3.9.tar.gz
+[2023-07-05 12:10:47] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-07-05 12:10:47] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.8.tar.gz tmp/nowcasting_forecast-1.3.9.tar.gz --markdown 20230705/n/nowcasting-forecast/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-05 12:10:48] INFO root fetch - processPackages [gajula]: Remove: archive file [/home/abi/fetcher/tmp/gajula-0.0.3.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - processPackages [gajula]: Remove: archive file [/home/abi/fetcher/tmp/gajula-0.0.7.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - main [MainThread]: End processing [gajula]: success
+[2023-07-05 12:10:48] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.1rc1.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.1rc2.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-07-05 12:10:48] INFO root fetch - processPackages [blendersynth]: Remove: archive file [/home/abi/fetcher/tmp/blendersynth-0.0.2.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - processPackages [blendersynth]: Remove: archive file [/home/abi/fetcher/tmp/blendersynth-0.0.3.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - main [MainThread]: End processing [blendersynth]: success
+[2023-07-05 12:10:48] INFO root fetch - processPackages [foundry-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/foundry-dev-tools-1.1.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - processPackages [foundry-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/foundry-dev-tools-1.2.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - main [MainThread]: End processing [foundry-dev-tools]: success
+[2023-07-05 12:10:48] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-07-05 12:10:48] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.6.3.tar.gz tmp/flybirds-0.6.6.tar.gz --markdown 20230705/f/flybirds/0.6.3-0.6.6/diff.md --exclude *.pyd
+[2023-07-05 12:10:48] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.0.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.1.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-05 12:10:48] INFO root fetch - processPackages [nowcasting-forecast]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_forecast-1.3.8.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - processPackages [nowcasting-forecast]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_forecast-1.3.9.tar.gz]
+[2023-07-05 12:10:48] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-07-05 12:11:00] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.3.tar.gz]
+[2023-07-05 12:11:00] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.6.tar.gz]
+[2023-07-05 12:11:00] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-07-05 12:11:00] INFO root fetch - main [MainThread]: Store serial: [18765633]
