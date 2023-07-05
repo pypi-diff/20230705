@@ -8564,3 +8564,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:25:00] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.2.1-cp38-cp38-macosx_10_15_x86_64.whl.zip]
 [2023-07-05 07:25:00] INFO root fetch - main [MainThread]: End processing [pyqlib]: success
 [2023-07-05 07:25:00] INFO root fetch - main [MainThread]: Store serial: [18763087]
+[2023-07-05 07:30:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763087]
+[2023-07-05 07:30:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: berrydb-sdk
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: std.algorithm
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xgorn-api
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ez0th
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastervit
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nerdcore
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs2
+[2023-07-05 07:30:10] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [std.algorithm]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20230704.0] Old Version: [16.0.20230623.0]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20230704.0] Old Version: [16.0.20230623.0]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ez0th]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [xgorn-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [berrydb-sdk]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [fastervit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 07:30:10] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-05 07:30:10] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/35/66/db5217b7dcebd6302c4c77f781816460c0ebafdfd4db33e68108577233b0/std.algorithm-1.1.7.tar.gz
+[2023-07-05 07:30:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/ed/1a/cc7f1b2d96a5505c2c69d007700f406a8b1e87ad3e841f7c7ceace6e7bd6/odoo_addons_oca_stock_logistics_workflow-16.0.20230623.0-py3-none-any.whl
+[2023-07-05 07:30:10] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/ed/1a/cc7f1b2d96a5505c2c69d007700f406a8b1e87ad3e841f7c7ceace6e7bd6/odoo_addons_oca_stock_logistics_workflow-16.0.20230623.0-py3-none-any.whl
+[2023-07-05 07:30:10] INFO root fetch - processPackages [berrydb-sdk]: Downloading https://files.pythonhosted.org/packages/21/20/3ae421a0272c63b4d81a36b7dcc5a005aa853758dbd371e097562d6ef466/berrydb_sdk-0.0.1-py3-none-any.whl
+[2023-07-05 07:30:10] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-07-05 07:30:10] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/b7/78/61c5b82d8a27513fc0521456869504690a9c3696b454aecde769d5c70fbd/ez0th-0.1.0.tar.gz
+[2023-07-05 07:30:10] INFO root fetch - processPackages [xgorn-api]: Downloading https://files.pythonhosted.org/packages/b1/37/7938902eecc63cf106137b5b5559cceb234438e161e5ed84e4401e996d54/xgorn-api-1.0.1.tar.gz
+[2023-07-05 07:30:10] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/8f/50/bdd16d579791e890cdae82e22c060845c0aa7db159ec347adad341bf7f86/fastervit-0.9.0.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/ae/20/ae33604768ec90e70876a078b503bcda6a19737041f9d0785b12e4e86708/std.algorithm-1.1.9.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230705/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/92/04/5e9c671bd3b17a9b890aa3cc8823f4922cd9e37281cca497ccbdde9ff289/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 07:30:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/92/04/5e9c671bd3b17a9b890aa3cc8823f4922cd9e37281cca497ccbdde9ff289/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 07:30:11] INFO root fetch - processPackages [xgorn-api]: Downloading https://files.pythonhosted.org/packages/35/8e/88195921527c72dcd5646a0d246f339869732e8674b9ed3f3b0e114e5230/xgorn-api-1.0.2.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [berrydb-sdk]: Downloading https://files.pythonhosted.org/packages/fb/1c/e41d833bfb0ff6aa825a136af8c9c532f711712451c838ea1e5e87ec804c/berrydb_sdk-1.0.0.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/06/c2/991f26cf9850e955b660f0aa6c7692c09aad6e5eb5fd0a0d84072185a128/fastervit-0.9.1.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [ez0th]: Downloading https://files.pythonhosted.org/packages/69/8e/e458818838c1bdcdcf159749ec915b2fdd0c41de4631fcb629cda4fc2332/ez0th-0.1.1.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-07-05 07:30:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230623.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-stock-logistics-workflow/16.0.20230623.0-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [berrydb-sdk]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [berrydb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb_sdk-0.0.1-py3-none-any.whl.zip tmp/berrydb_sdk-1.0.0.tar.gz --markdown 20230705/b/berrydb-sdk/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230623.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-stock-logistics-workflow/16.0.20230623.0-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [xgorn-api]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [xgorn-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgorn-api-1.0.1.tar.gz tmp/xgorn-api-1.0.2.tar.gz --markdown 20230705/x/xgorn-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.9.0.tar.gz tmp/fastervit-0.9.1.tar.gz --markdown 20230705/f/fastervit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [ez0th]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [ez0th]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez0th-0.1.0.tar.gz tmp/ez0th-0.1.1.tar.gz --markdown 20230705/e/ez0th/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 07:30:11] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-07-05 07:30:11] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230705/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:30:12] INFO root fetch - processPackages [std.algorithm]: executing diffoscope
+[2023-07-05 07:30:12] INFO root fetch - processPackages [std.algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std.algorithm-1.1.7.tar.gz tmp/std.algorithm-1.1.9.tar.gz --markdown 20230705/s/std.algorithm/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:30:12] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-05 07:30:12] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-05 07:30:12] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-05 07:30:12] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-07-05 07:30:12] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-05 07:30:12] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2023-07-05 07:30:12] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2023-07-05 07:30:12] INFO root fetch - processPackages [berrydb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/berrydb_sdk-0.0.1-py3-none-any.whl.zip]
+[2023-07-05 07:30:12] INFO root fetch - processPackages [berrydb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/berrydb_sdk-1.0.0.tar.gz]
+[2023-07-05 07:30:12] INFO root fetch - main [MainThread]: End processing [berrydb-sdk]: success
+[2023-07-05 07:30:12] INFO root fetch - processPackages [xgorn-api]: Remove: archive file [/home/abi/fetcher/tmp/xgorn-api-1.0.1.tar.gz]
+[2023-07-05 07:30:12] INFO root fetch - processPackages [xgorn-api]: Remove: archive file [/home/abi/fetcher/tmp/xgorn-api-1.0.2.tar.gz]
+[2023-07-05 07:30:12] INFO root fetch - main [MainThread]: End processing [xgorn-api]: success
+[2023-07-05 07:30:13] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.0.tar.gz]
+[2023-07-05 07:30:13] INFO root fetch - processPackages [ez0th]: Remove: archive file [/home/abi/fetcher/tmp/ez0th-0.1.1.tar.gz]
+[2023-07-05 07:30:13] INFO root fetch - main [MainThread]: End processing [ez0th]: success
+[2023-07-05 07:30:13] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.0.tar.gz]
+[2023-07-05 07:30:13] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.1.tar.gz]
+[2023-07-05 07:30:13] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-07-05 07:30:13] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.7.tar.gz]
+[2023-07-05 07:30:13] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.9.tar.gz]
+[2023-07-05 07:30:13] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
+[2023-07-05 07:30:14] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-07-05 07:30:14] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-07-05 07:30:14] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-07-05 07:30:14] INFO root fetch - main [MainThread]: Store serial: [18763108]
