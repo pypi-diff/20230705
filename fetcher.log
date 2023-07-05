@@ -8077,3 +8077,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:43:17] INFO root fetch - processPackages [nemseer]: Remove: archive file [/home/abi/fetcher/tmp/nemseer-1.0.5.tar.gz]
 [2023-07-05 06:43:17] INFO root fetch - main [MainThread]: End processing [nemseer]: success
 [2023-07-05 06:43:17] INFO root fetch - main [MainThread]: Store serial: [18762911]
+[2023-07-05 06:48:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762911]
+[2023-07-05 06:48:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 06:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shaku-database
+[2023-07-05 06:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangounittest
+[2023-07-05 06:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanoCEM
+[2023-07-05 06:48:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protomodel
+[2023-07-05 06:48:27] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-07-05 06:48:27] INFO root fetch - processPackages [djangounittest]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-05 06:48:27] INFO root fetch - processPackages [protomodel]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 06:48:27] INFO root fetch - processPackages [shaku-database]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-05 06:48:28] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/08/51/6b6cdbfa65082b0fb5d5136176d2ed25f2c23bd578f4899a8b7921ead322/shaku-database-1.0.9.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/d3/f4/ca69f8ddd52a6141f8f86358f346339b2d07aa1e16f92fb4e73ed90b7a42/djangounittest-0.2.5.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/24/8f/5ade5b6596c07cb62ab711462cf7672bd4eb966907b4a6ea1de595e5dccb/protomodel-0.0.1.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/25/e7/96b8b3ee589ea6466c2e67471ed56982d978a7963d5461145d6d0868f4b3/nanoCEM-0.0.1.3.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/ce/9a/da328f239a1170b751e4f2875116ae55ed2ab80d935dae4c4f841e7385b1/djangounittest-0.2.6.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/20/ed/e525cb4de3c1565e4b41e9f19237dd8aba35c431b7c6ff23553aa38c2f60/shaku-database-1.1.0.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [protomodel]: Downloading https://files.pythonhosted.org/packages/bf/d9/27848bdffe38926122612f84081c3c3341b9d90278b2a7b39271ef745a80/protomodel-0.0.2.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-07-05 06:48:28] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.2.5.tar.gz tmp/djangounittest-0.2.6.tar.gz --markdown 20230705/d/djangounittest/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-05 06:48:28] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-07-05 06:48:28] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.0.9.tar.gz tmp/shaku-database-1.1.0.tar.gz --markdown 20230705/s/shaku-database/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 06:48:28] INFO root fetch - processPackages [protomodel]: executing diffoscope
+[2023-07-05 06:48:28] INFO root fetch - processPackages [protomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protomodel-0.0.1.tar.gz tmp/protomodel-0.0.2.tar.gz --markdown 20230705/p/protomodel/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 06:48:28] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/2c/16/5fccc443ee96ea4ee63044e8c57dd3014ab50641b63b05e74c3e8e7b55e3/nanoCEM-0.0.1.4.tar.gz
+[2023-07-05 06:48:28] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-05 06:48:28] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.3.tar.gz tmp/nanoCEM-0.0.1.4.tar.gz --markdown 20230705/n/nanoCEM/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-07-05 06:48:29] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.9.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.0.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-07-05 06:48:29] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.5.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.6.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-07-05 06:48:29] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.1.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - processPackages [protomodel]: Remove: archive file [/home/abi/fetcher/tmp/protomodel-0.0.2.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - main [MainThread]: End processing [protomodel]: success
+[2023-07-05 06:48:29] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.3.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.4.tar.gz]
+[2023-07-05 06:48:29] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-05 06:48:29] INFO root fetch - main [MainThread]: Store serial: [18762922]
