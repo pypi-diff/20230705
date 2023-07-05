@@ -13315,3 +13315,110 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:28:54] INFO root fetch - processPackages [alchemite-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/alchemite_apiclient-0.57.0.tar.gz]
 [2023-07-05 11:28:54] INFO root fetch - main [MainThread]: End processing [alchemite-apiclient]: success
 [2023-07-05 11:28:54] INFO root fetch - main [MainThread]: Store serial: [18765228]
+[2023-07-05 11:33:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765228]
+[2023-07-05 11:34:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopee-aip-dataloader
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipegraph2
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corecon
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synthdog
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-twc
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xepor
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oauthenticator
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: batchflow
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elias
+[2023-07-05 11:34:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: merlin-sdk
+[2023-07-05 11:34:03] INFO root fetch - processPackages [xepor]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [synthdog]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [elias]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [oauthenticator]: New version: [16.0.0] Old Version: [15.1.0]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 11:34:03] WARNING root fetch - processPackages [shopee-aip-dataloader]: Skipping, unable to determine old version
+[2023-07-05 11:34:03] INFO root fetch - processPackages [shopee-aip-dataloader]: Start processing: lamin_logger
+[2023-07-05 11:34:03] INFO root fetch - main [MainThread]: End processing [shopee-aip-dataloader] error
+[2023-07-05 11:34:03] INFO root fetch - processPackages [pypipegraph2]: New version: [3.0.2] Old Version: [3.0.0]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [corecon]: New version: [1.1] Old Version: [0.6.1]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [batchflow]: New version: [0.8.5] Old Version: [0.8.1a0]
+[2023-07-05 11:34:03] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-07-05 11:34:04] INFO root fetch - processPackages [elias]: Downloading https://files.pythonhosted.org/packages/3c/5b/5799e95d0fd2efc831607841542800679ec88b910da3b5d30a1b8e40dedc/elias-0.2.6.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [xepor]: Downloading https://files.pythonhosted.org/packages/8e/1d/6e4cbc533b1b27a34da2c990c20e3a23ffa821ee1419e6980914891e98ea/xepor-0.5.0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [synthdog]: Downloading https://files.pythonhosted.org/packages/ac/b5/672847a2ee6ebfc3ad57636b494901d02b49140160ffea750be97fca2eb9/synthdog-0.6.2.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [lamin_logger]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-05 11:34:04] WARNING root fetch - processPackages [synthdog]: Skipping package: exceeds size limit 21933301>=10485760
+[2023-07-05 11:34:04] INFO root fetch - processPackages [synthdog]: Start processing: data-science-common-core
+[2023-07-05 11:34:04] INFO root fetch - main [MainThread]: End processing [synthdog] error
+[2023-07-05 11:34:04] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [oauthenticator]: Downloading https://files.pythonhosted.org/packages/1f/a0/0fc870a69dacb2187d6508bdfc78bc4cf53bbc78527cf3f8ede890354aff/oauthenticator-15.1.0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [corecon]: Downloading https://files.pythonhosted.org/packages/a9/ae/15c1ebb3b8381a949a8eeeaa1ea8efa68ef20d80a84592ab3ff57c3849f7/corecon-0.6.1.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [batchflow]: Downloading https://files.pythonhosted.org/packages/9d/f3/fdc8771a511e08cd4823c155f352cdbe195ffd89a841dd330d1df0fd92e5/batchflow-0.8.1a0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [pypipegraph2]: Downloading https://files.pythonhosted.org/packages/a8/ce/72c22b8fca7e0a463e9697bfc73c03232e62514a07dc8e30ca75002b238d/pypipegraph2-3.0.0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [data-science-common-core]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-07-05 11:34:04] INFO root fetch - processPackages [elias]: Downloading https://files.pythonhosted.org/packages/c7/97/4e82277d3b08a2532ab8b415fcfb9dbef29d96c18e465107b362755ed868/elias-0.2.7.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/cb/b1/9811d56d9a4f1a87893f238330b336257599610c07b037b0c378ed8a4e02/lamin_logger-0.7.4.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [xepor]: Downloading https://files.pythonhosted.org/packages/8b/9c/496c9341a37b752b8d23f021ff62d8b8b1895a8d91558318cb632266ee73/xepor-0.5.1.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [elias]: executing diffoscope
+[2023-07-05 11:34:04] INFO root fetch - processPackages [elias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elias-0.2.6.tar.gz tmp/elias-0.2.7.tar.gz --markdown 20230705/e/elias/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-05 11:34:04] INFO root fetch - processPackages [data-science-common-core]: Downloading https://files.pythonhosted.org/packages/a4/5e/86c300dd05ab6c22bcc36b5aeca328c28f0bbb015a7243300ad7dff17f1a/data-science-common-core-1.7.7.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [corecon]: Downloading https://files.pythonhosted.org/packages/29/3a/58e746096b9f56e726230adb956c3e5fb8da16a61fd64db6d819f0b85928/corecon-1.1.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [oauthenticator]: Downloading https://files.pythonhosted.org/packages/a6/34/d2d881e56a736e28790bede8e49fa6ba73eebe8f4ea17564b71d43df986e/oauthenticator-16.0.0.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [batchflow]: Downloading https://files.pythonhosted.org/packages/c9/44/a0a0b3ff098d4d61cb7780e8322c7928758463951094525087f52bba46c5/batchflow-0.8.5.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [xepor]: executing diffoscope
+[2023-07-05 11:34:04] INFO root fetch - processPackages [xepor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xepor-0.5.0.tar.gz tmp/xepor-0.5.1.tar.gz --markdown 20230705/x/xepor/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 11:34:04] INFO root fetch - processPackages [pypipegraph2]: Downloading https://files.pythonhosted.org/packages/3a/2d/a927d9da0040093ea1810e68a51a7936219d14ad718355e2e8a08dc0063f/pypipegraph2-3.0.2.tar.gz
+[2023-07-05 11:34:04] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/41/81/d2de16f347bf554aa367159714ee21c68ee29d26532d7c7621e03e70870b/lamin_logger-0.7.5.tar.gz
+[2023-07-05 11:34:04] WARNING root fetch - processPackages [batchflow]: Skipping package: exceeds size limit 95120074>=10485760
+[2023-07-05 11:34:04] INFO root fetch - processPackages [batchflow]: Start processing: tarn
+[2023-07-05 11:34:04] INFO root fetch - main [MainThread]: End processing [batchflow] error
+[2023-07-05 11:34:04] INFO root fetch - processPackages [oauthenticator]: executing diffoscope
+[2023-07-05 11:34:04] INFO root fetch - processPackages [oauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oauthenticator-15.1.0.tar.gz tmp/oauthenticator-16.0.0.tar.gz --markdown 20230705/o/oauthenticator/15.1.0-16.0.0/diff.md --exclude *.pyd
+[2023-07-05 11:34:04] INFO root fetch - processPackages [corecon]: executing diffoscope
+[2023-07-05 11:34:04] INFO root fetch - processPackages [corecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corecon-0.6.1.tar.gz tmp/corecon-1.1.tar.gz --markdown 20230705/c/corecon/0.6.1-1.1/diff.md --exclude *.pyd
+[2023-07-05 11:34:05] INFO root fetch - processPackages [tarn]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 11:34:05] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-07-05 11:34:05] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230705/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 11:34:05] INFO root fetch - processPackages [pypipegraph2]: executing diffoscope
+[2023-07-05 11:34:05] INFO root fetch - processPackages [pypipegraph2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipegraph2-3.0.0.tar.gz tmp/pypipegraph2-3.0.2.tar.gz --markdown 20230705/p/pypipegraph2/3.0.0-3.0.2/diff.md --exclude *.pyd
+[2023-07-05 11:34:05] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-07-05 11:34:05] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/c4/73/05b2503b183299d8814453b2beee1f4eb1864e4103efe232a666070820d9/tarn-0.8.0.tar.gz
+[2023-07-05 11:34:05] INFO root fetch - processPackages [data-science-common-core]: Downloading https://files.pythonhosted.org/packages/b9/09/a71d740b4df990d2ed1568218561232ff78e7cfeb8e017cbbdcfcd70405b/data-science-common-core-1.7.8.tar.gz
+[2023-07-05 11:34:05] INFO root fetch - processPackages [lamin_logger]: executing diffoscope
+[2023-07-05 11:34:05] INFO root fetch - processPackages [lamin_logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_logger-0.7.4.tar.gz tmp/lamin_logger-0.7.5.tar.gz --markdown 20230705/l/lamin_logger/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-05 11:34:05] INFO root fetch - processPackages [data-science-common-core]: executing diffoscope
+[2023-07-05 11:34:05] INFO root fetch - processPackages [data-science-common-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-science-common-core-1.7.7.tar.gz tmp/data-science-common-core-1.7.8.tar.gz --markdown 20230705/d/data-science-common-core/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-07-05 11:34:05] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/84/a7/e88cd3b16c5079a0dc9de31eb009e711edcff1da2f7b1e9c5c20700b5f45/tarn-0.9.0.tar.gz
+[2023-07-05 11:34:05] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-07-05 11:34:05] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230705/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 11:34:05] INFO root fetch - processPackages [tarn]: executing diffoscope
+[2023-07-05 11:34:05] INFO root fetch - processPackages [tarn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarn-0.8.0.tar.gz tmp/tarn-0.9.0.tar.gz --markdown 20230705/t/tarn/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 11:34:06] INFO root fetch - processPackages [elias]: Remove: archive file [/home/abi/fetcher/tmp/elias-0.2.6.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - processPackages [elias]: Remove: archive file [/home/abi/fetcher/tmp/elias-0.2.7.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - main [MainThread]: End processing [elias]: success
+[2023-07-05 11:34:06] INFO root fetch - processPackages [xepor]: Remove: archive file [/home/abi/fetcher/tmp/xepor-0.5.0.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - processPackages [xepor]: Remove: archive file [/home/abi/fetcher/tmp/xepor-0.5.1.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - main [MainThread]: End processing [xepor]: success
+[2023-07-05 11:34:06] INFO root fetch - processPackages [oauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/oauthenticator-15.1.0.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - processPackages [oauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/oauthenticator-16.0.0.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - main [MainThread]: End processing [oauthenticator]: success
+[2023-07-05 11:34:06] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.7.4.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.7.5.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - main [MainThread]: End processing [lamin_logger]: success
+[2023-07-05 11:34:06] INFO root fetch - processPackages [data-science-common-core]: Remove: archive file [/home/abi/fetcher/tmp/data-science-common-core-1.7.7.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - processPackages [data-science-common-core]: Remove: archive file [/home/abi/fetcher/tmp/data-science-common-core-1.7.8.tar.gz]
+[2023-07-05 11:34:06] INFO root fetch - main [MainThread]: End processing [data-science-common-core]: success
+[2023-07-05 11:34:07] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-07-05 11:34:07] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.8.0.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.9.0.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - main [MainThread]: End processing [tarn]: success
+[2023-07-05 11:34:07] INFO root fetch - processPackages [corecon]: Remove: archive file [/home/abi/fetcher/tmp/corecon-0.6.1.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - processPackages [corecon]: Remove: archive file [/home/abi/fetcher/tmp/corecon-1.1.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - main [MainThread]: End processing [corecon]: success
+[2023-07-05 11:34:07] INFO root fetch - processPackages [pypipegraph2]: Remove: archive file [/home/abi/fetcher/tmp/pypipegraph2-3.0.0.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - processPackages [pypipegraph2]: Remove: archive file [/home/abi/fetcher/tmp/pypipegraph2-3.0.2.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - main [MainThread]: End processing [pypipegraph2]: success
+[2023-07-05 11:34:07] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-07-05 11:34:07] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-07-05 11:34:07] INFO root fetch - main [MainThread]: Store serial: [18765279]
