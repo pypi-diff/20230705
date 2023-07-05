@@ -16933,3 +16933,98 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:08:27] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc2-py3-none-any.whl.zip]
 [2023-07-05 14:08:27] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-07-05 14:08:27] INFO root fetch - main [MainThread]: Store serial: [18766819]
+[2023-07-05 14:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766819]
+[2023-07-05 14:13:36] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oras
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubrdvmairie
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smpl-io
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libTSCANAPI
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatgpt-gaming-framework
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: httpcore
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: facteur
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ayon-python-api
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idun-guardian-client
+[2023-07-05 14:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micrOSDevToolKit
+[2023-07-05 14:13:37] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.3] Old Version: [1.17.2]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [httpcore]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [ayon-python-api]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [oras]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [chatgpt-gaming-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [smpl-io]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [idun-guardian-client]: New version: [1.2.0] Old Version: [1.1b17]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [hubrdvmairie]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/32/30/306a007a134673131d2549bcce1e0613a98ff1f0439fc7d4f375af35df72/micrOSDevToolKit-1.17.2.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/58/77/ed0567490f8356970b3da6ae5a099e78f116eaa9a22096dd2053c70f4b1a/libTSCANAPI-1.1.7.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [httpcore]: Downloading https://files.pythonhosted.org/packages/2e/6a/82f663a45b0bcf6f70acec6a912f28c8a3b9db128b05e4ca0769ea211caf/httpcore-0.9.0.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/b2/1d/b6ab08fbf4579d94c0fcac6cd29de336a68be97c241aacc789ba53fd2710/oras-0.1.17.tar.gz
+[2023-07-05 14:13:37] WARNING root fetch - processPackages [facteur]: Skipping, unable to determine old version
+[2023-07-05 14:13:37] INFO root fetch - processPackages [facteur]: Start processing: qontract-reconcile
+[2023-07-05 14:13:37] INFO root fetch - main [MainThread]: End processing [facteur] error
+[2023-07-05 14:13:37] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 16392454>=10485760
+[2023-07-05 14:13:37] INFO root fetch - processPackages [libTSCANAPI]: Start processing: stats-probalytics
+[2023-07-05 14:13:37] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2023-07-05 14:13:37] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/03/d3/56f5a768be5e93e349ed80068ca4ab11915a18dcf815085f21ee5f508eb1/ayon-python-api-0.3.1.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-05 14:13:37] INFO root fetch - processPackages [idun-guardian-client]: Downloading https://files.pythonhosted.org/packages/89/c1/236363f0300fcf7704ae9c88f0e837d2987ce77b85145b2ac2afe42fd62c/idun_guardian_client-1.1b17.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [smpl-io]: Downloading https://files.pythonhosted.org/packages/ba/ea/f87c884d9a02bdd8c45c09718610a696c02780b291aff572fafe42ace896/smpl_io-1.1.2.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/03/57/b2c1285fbc1b9e624ca7879aa3c8c00be5e5eaab369b48015104ce78dd7d/hubrdvmairie-2.8.0.tar.gz
+[2023-07-05 14:13:37] WARNING root fetch - processPackages [stats-probalytics]: Skipping, unable to determine old version
+[2023-07-05 14:13:37] INFO root fetch - main [MainThread]: End processing [stats-probalytics] error
+[2023-07-05 14:13:37] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/d5/5f/e2aaf0ca8f3eeb8a522e84bd7e6bca02d49e0061b9e4905ec4ba910e6ab6/micrOSDevToolKit-1.17.3.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-05 14:13:37] INFO root fetch - processPackages [chatgpt-gaming-framework]: Downloading https://files.pythonhosted.org/packages/73/7a/ef65444e50d00e0b751289788805ee50b174fd17da83475169a6460dd361/chatgpt_gaming_framework-0.1.0.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [httpcore]: Downloading https://files.pythonhosted.org/packages/a5/62/fec975b06a6c5fdfcfde8231f3464b9a23dd528cd53b859daf225c6845a6/httpcore-0.9.1.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [oras]: Downloading https://files.pythonhosted.org/packages/d6/4b/8719fc9a7d12b25ff76aa1a1d5f62d7b7e2fc2e00b2d2d852bf9e8a4daa5/oras-0.1.18.tar.gz
+[2023-07-05 14:13:37] INFO root fetch - processPackages [ayon-python-api]: Downloading https://files.pythonhosted.org/packages/91/02/83c200e8d8c63ddee2aba5ef8d5acb337e3e9418a763019fc80a1918f201/ayon-python-api-0.3.2.tar.gz
+[2023-07-05 14:13:38] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.17.2.tar.gz tmp/micrOSDevToolKit-1.17.3.tar.gz --markdown 20230705/m/micrOSDevToolKit/1.17.2-1.17.3/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [smpl-io]: Downloading https://files.pythonhosted.org/packages/7e/ff/e4546d871840590eca3dc46e907be955ebec871e529682bf4f5333f211a3/smpl_io-1.1.4.tar.gz
+[2023-07-05 14:13:38] INFO root fetch - processPackages [httpcore]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [httpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpcore-0.9.0.tar.gz tmp/httpcore-0.9.1.tar.gz --markdown 20230705/h/httpcore/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [oras]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [oras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oras-0.1.17.tar.gz tmp/oras-0.1.18.tar.gz --markdown 20230705/o/oras/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [idun-guardian-client]: Downloading https://files.pythonhosted.org/packages/13/dc/240465c6d2fed634c99f744728c8480df8cf0cb562a7f018e2a40b29c741/idun_guardian_client-1.2.0.tar.gz
+[2023-07-05 14:13:38] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/43/eb/2cc6c18bad489a469f034efea0c0f86994234ab048618b080650519efcc8/hubrdvmairie-2.8.1.tar.gz
+[2023-07-05 14:13:38] INFO root fetch - processPackages [ayon-python-api]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [ayon-python-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayon-python-api-0.3.1.tar.gz tmp/ayon-python-api-0.3.2.tar.gz --markdown 20230705/a/ayon-python-api/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [chatgpt-gaming-framework]: Downloading https://files.pythonhosted.org/packages/b1/30/812643c53e52f535c8842bf59eca5b57278456ff84391c570350ff7deafd/chatgpt_gaming_framework-0.1.1.tar.gz
+[2023-07-05 14:13:38] INFO root fetch - processPackages [smpl-io]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [smpl-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpl_io-1.1.2.tar.gz tmp/smpl_io-1.1.4.tar.gz --markdown 20230705/s/smpl-io/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-05 14:13:38] INFO root fetch - processPackages [idun-guardian-client]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [idun-guardian-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_guardian_client-1.1b17.tar.gz tmp/idun_guardian_client-1.2.0.tar.gz --markdown 20230705/i/idun-guardian-client/1.1b17-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [hubrdvmairie]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [hubrdvmairie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubrdvmairie-2.8.0.tar.gz tmp/hubrdvmairie-2.8.1.tar.gz --markdown 20230705/h/hubrdvmairie/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [chatgpt-gaming-framework]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [chatgpt-gaming-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_gaming_framework-0.1.0.tar.gz tmp/chatgpt_gaming_framework-0.1.1.tar.gz --markdown 20230705/c/chatgpt-gaming-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 14:13:38] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-05 14:13:38] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230705/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-05 14:13:40] INFO root fetch - processPackages [idun-guardian-client]: Remove: archive file [/home/abi/fetcher/tmp/idun_guardian_client-1.1b17.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [idun-guardian-client]: Remove: archive file [/home/abi/fetcher/tmp/idun_guardian_client-1.2.0.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [idun-guardian-client]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.17.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [oras]: Remove: archive file [/home/abi/fetcher/tmp/oras-0.1.18.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [oras]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.2.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.3.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [httpcore]: Remove: archive file [/home/abi/fetcher/tmp/httpcore-0.9.0.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [httpcore]: Remove: archive file [/home/abi/fetcher/tmp/httpcore-0.9.1.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [httpcore]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.0.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [hubrdvmairie]: Remove: archive file [/home/abi/fetcher/tmp/hubrdvmairie-2.8.1.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [hubrdvmairie]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [chatgpt-gaming-framework]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_gaming_framework-0.1.0.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [chatgpt-gaming-framework]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_gaming_framework-0.1.1.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [chatgpt-gaming-framework]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [smpl-io]: Remove: archive file [/home/abi/fetcher/tmp/smpl_io-1.1.2.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [smpl-io]: Remove: archive file [/home/abi/fetcher/tmp/smpl_io-1.1.4.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [smpl-io]: success
+[2023-07-05 14:13:40] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.3.1.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - processPackages [ayon-python-api]: Remove: archive file [/home/abi/fetcher/tmp/ayon-python-api-0.3.2.tar.gz]
+[2023-07-05 14:13:40] INFO root fetch - main [MainThread]: End processing [ayon-python-api]: success
+[2023-07-05 14:13:42] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-05 14:13:42] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-05 14:13:42] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-05 14:13:42] INFO root fetch - main [MainThread]: Store serial: [18766862]
