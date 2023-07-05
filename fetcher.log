@@ -13422,3 +13422,137 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:34:07] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2023-07-05 11:34:07] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2023-07-05 11:34:07] INFO root fetch - main [MainThread]: Store serial: [18765279]
+[2023-07-05 11:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765279]
+[2023-07-05 11:39:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: covdrugsim
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vulnerablecode
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-plugin-dns
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlfoundry
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysyn-data
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-base
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-cli
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-dso
+[2023-07-05 11:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-libs
+[2023-07-05 11:39:16] INFO root fetch - processPackages [covdrugsim]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [specklia]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [pysyn-data]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [mlfoundry]: New version: [0.9.1rc2] Old Version: [0.9.1rc1]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [0.18.4] Old Version: [0.18.3]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [vulnerablecode]: New version: [33.0.0] Old Version: [32.0.1]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2107.0] Old Version: [1.2106.0]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2107.0] Old Version: [1.2106.0]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2107.0] Old Version: [1.2106.0]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2107.0] Old Version: [1.2106.0]
+[2023-07-05 11:39:16] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/f6/34/b96863ddaf91d803e4387a39e43fc8a5d8b2f232dec3bea0ac37f0cca388/pysyn-data-0.3.8.tar.gz
+[2023-07-05 11:39:16] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/ce/9d/c1648e44109bc319c1395100814fd7d96ceed9e7752ffb1b41539b0af99b/netbox_plugin_dns-0.18.3.tar.gz
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/ed/80/fd1f3409c35d11e317458ccff32c933aa94e34956c405977c9d71559167a/gardener-cicd-dso-1.2106.0.tar.gz
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/ef/af/0e6504e44f16453821ce17c08a8878a0734916c316b63671d8df276aaa05/gardener-cicd-cli-1.2106.0.tar.gz
+[2023-07-05 11:39:16] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/a4/84/02bf52425d0e574f11e0003fbcbf8f1e6d52cdddb4d714a1f4e2e139ba63/gardener-cicd-libs-1.2106.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/44/c4/2f44ea91c732ea8f0984315c4517d30803c3cbc21cf77d2a6a7f76f7ae0f/mlfoundry-0.9.1rc1.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/dc/a1/9efeaefe4e04eb6e9f5a2b0bfb4cb03ebe106dd47f967b865bc131fb673f/covdrugsim-0.1.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/bc/c6/ba9359a0ff88c1ec10f4576cad7fc23f4c8099d372b7c0b394f44bb9e097/gardener-cicd-base-1.2106.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/73/38/5214ef7c6f0e4519709f698555fe6702a30c45f9c59c0d2f76e9b82c0fa8/specklia-1.2.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [vulnerablecode]: Downloading https://files.pythonhosted.org/packages/d2/c1/50dda90fa18f7940c88b28423dee17c7ffa956e08e7568e8b8be58127511/vulnerablecode-32.0.1.tar.gz
+[2023-07-05 11:39:17] WARNING root fetch - processPackages [vulnerablecode]: Skipping package: exceeds size limit 16446748>=10485760
+[2023-07-05 11:39:17] INFO root fetch - processPackages [vulnerablecode]: Start processing: gardener-cicd-whd
+[2023-07-05 11:39:17] INFO root fetch - main [MainThread]: End processing [vulnerablecode] error
+[2023-07-05 11:39:17] INFO root fetch - processPackages [pysyn-data]: Downloading https://files.pythonhosted.org/packages/bb/9e/a0fe89aaacecf56b6a2b3debd945271a911d05846d849554e786b40dbd22/pysyn-data-0.3.9.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/5f/43/737d8ff7c1d2a23222f8a8f4880d60dd2b392d9194275f0c283b9297da79/gardener-cicd-dso-1.2107.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2107.0] Old Version: [1.2106.0]
+[2023-07-05 11:39:17] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/7b/09/7bc496c664f23d4cd645abe4d13fdabffaef23bdafd21fc4d316151df13d/netbox_plugin_dns-0.18.4.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/79/c0/8f21b5f7b1a6dc6f228c8e0bc127108e7d97c6458db90d5ec4d3ce0405f0/gardener-cicd-cli-1.2107.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/fe/e5/9d13a07ab572841baffab5f0a67832b81f0360b7fc23f8c0dd8740fd75a4/gardener-cicd-libs-1.2107.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2106.0.tar.gz tmp/gardener-cicd-dso-1.2107.0.tar.gz --markdown 20230705/g/gardener-cicd-dso/1.2106.0-1.2107.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/3a/6f/53addb961f39b8d379e3053562e652205831759b473160c804eb58f777fa/gardener-cicd-base-1.2107.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/fa/e3/0dec4ec5a74e4645d9c41c9f9fac44a40ddc679fdaaf0b72020e4c55ff49/gardener-cicd-whd-1.2106.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [pysyn-data]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [pysyn-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysyn-data-0.3.8.tar.gz tmp/pysyn-data-0.3.9.tar.gz --markdown 20230705/p/pysyn-data/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [covdrugsim]: Downloading https://files.pythonhosted.org/packages/eb/df/815cf3f765ba33a11b030a3da48f8624f4d0d185d6a85d8bd07563590c67/covdrugsim-0.2.0.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/d2/6f/fcdfd9212cb12d3eaae8f6adc44ab729e4b411c36c5b5d97627fc803f6db/specklia-1.2.1.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2106.0.tar.gz tmp/gardener-cicd-cli-1.2107.0.tar.gz --markdown 20230705/g/gardener-cicd-cli/1.2106.0-1.2107.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/59/9f/b5726f1a0db2e63c1ccc4c59200dfeeeefc0211f56a85977b5e1961d63ae/mlfoundry-0.9.1rc2.tar.gz
+[2023-07-05 11:39:17] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-0.18.3.tar.gz tmp/netbox_plugin_dns-0.18.4.tar.gz --markdown 20230705/n/netbox-plugin-dns/0.18.3-0.18.4/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2106.0.tar.gz tmp/gardener-cicd-libs-1.2107.0.tar.gz --markdown 20230705/g/gardener-cicd-libs/1.2106.0-1.2107.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2106.0.tar.gz tmp/gardener-cicd-base-1.2107.0.tar.gz --markdown 20230705/g/gardener-cicd-base/1.2106.0-1.2107.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [covdrugsim]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [covdrugsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covdrugsim-0.1.0.tar.gz tmp/covdrugsim-0.2.0.tar.gz --markdown 20230705/c/covdrugsim/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:17] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-07-05 11:39:17] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.9.1rc1.tar.gz tmp/mlfoundry-0.9.1rc2.tar.gz --markdown 20230705/m/mlfoundry/0.9.1rc1-0.9.1rc2/diff.md --exclude *.pyd
+[2023-07-05 11:39:18] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-05 11:39:18] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.0.tar.gz tmp/specklia-1.2.1.tar.gz --markdown 20230705/s/specklia/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-05 11:39:18] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/c9/6f/6ded82f29d50f1cd33799f70629569a8e22bef4308018d1a72797f9f928c/gardener-cicd-whd-1.2107.0.tar.gz
+[2023-07-05 11:39:18] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-07-05 11:39:18] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2106.0.tar.gz tmp/gardener-cicd-whd-1.2107.0.tar.gz --markdown 20230705/g/gardener-cicd-whd/1.2106.0-1.2107.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:19] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.8.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [pysyn-data]: Remove: archive file [/home/abi/fetcher/tmp/pysyn-data-0.3.9.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [pysyn-data]: Start processing: gardener-oci
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [pysyn-data]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2106.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2107.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: sphinxcontrib-matlabdomain
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2106.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2107.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: SELDOMpy
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.3.5] Old Version: [0.8.3.4]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/27/9f/400da890f1d17b5a3eadcb477d83d44b79ab59e95ac28b04e1f8019c30f2/sphinxcontrib-matlabdomain-0.7.1.tar.gz
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-07-05 11:39:19] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/21/20/f21609d6a3e25f1d910b44493b76151adbaa77e93a3530d4f0a6ab5abd28/SELDOMpy-0.8.3.4.tar.gz
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2106.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2107.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: reytool
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.18.3.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.18.4.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.1.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [covdrugsim]: Remove: archive file [/home/abi/fetcher/tmp/covdrugsim-0.2.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [covdrugsim]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2106.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2107.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/4f/1b/e770901635bbcf6ae990c95c00af9f8552d53aae5d4b9beb1dcdcc887470/SELDOMpy-0.8.3.5.tar.gz
+[2023-07-05 11:39:19] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Downloading https://files.pythonhosted.org/packages/02/17/576fe56ac8622a964e69f7f314c46c1235b2a8447151a3df20102e5b45bc/sphinxcontrib-matlabdomain-0.8.0.tar.gz
+[2023-07-05 11:39:19] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.1rc1.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.1rc2.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-07-05 11:39:19] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230705/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:19] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.0.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.1.tar.gz]
+[2023-07-05 11:39:19] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-05 11:39:20] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-05 11:39:20] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.4.tar.gz tmp/SELDOMpy-0.8.3.5.tar.gz --markdown 20230705/S/SELDOMpy/0.8.3.4-0.8.3.5/diff.md --exclude *.pyd
+[2023-07-05 11:39:20] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-05 11:39:20] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: executing diffoscope
+[2023-07-05 11:39:20] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz --markdown 20230705/s/sphinxcontrib-matlabdomain/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-05 11:39:20] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-05 11:39:20] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-05 11:39:20] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230705/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-05 11:39:20] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2106.0.tar.gz]
+[2023-07-05 11:39:20] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2107.0.tar.gz]
+[2023-07-05 11:39:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-07-05 11:39:20] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-07-05 11:39:20] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-07-05 11:39:20] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-07-05 11:39:21] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.7.1.tar.gz]
+[2023-07-05 11:39:21] INFO root fetch - processPackages [sphinxcontrib-matlabdomain]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-matlabdomain-0.8.0.tar.gz]
+[2023-07-05 11:39:21] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-matlabdomain]: success
+[2023-07-05 11:39:21] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.4.tar.gz]
+[2023-07-05 11:39:21] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.5.tar.gz]
+[2023-07-05 11:39:21] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-05 11:39:21] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-05 11:39:21] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-05 11:39:21] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-05 11:39:21] INFO root fetch - main [MainThread]: Store serial: [18765327]
