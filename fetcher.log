@@ -10804,3 +10804,135 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 09:42:31] INFO root fetch - processPackages [mlfoundry]: Remove: archive file [/home/abi/fetcher/tmp/mlfoundry-0.9.1rc1.tar.gz]
 [2023-07-05 09:42:31] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
 [2023-07-05 09:42:31] INFO root fetch - main [MainThread]: Store serial: [18763977]
+[2023-07-05 09:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763977]
+[2023-07-05 09:47:41] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: callllm
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: greedyFAS
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: home-assistant-frontend
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sebastian-test
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tkintertools
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfq-nightly
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfv
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrogibs
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icinga-pusher
+[2023-07-05 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-fc20230330-py2
+[2023-07-05 09:47:41] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [hydrogibs]: New version: [0.5.2] Old Version: [0.0.25]
+[2023-07-05 09:47:41] WARNING root fetch - processPackages [callllm]: Skipping, unable to determine old version
+[2023-07-05 09:47:41] INFO root fetch - processPackages [callllm]: Start processing: mykit
+[2023-07-05 09:47:41] INFO root fetch - main [MainThread]: End processing [callllm] error
+[2023-07-05 09:47:41] INFO root fetch - processPackages [tfv]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 09:47:41] WARNING root fetch - processPackages [sebastian-test]: Skipping, unable to determine old version
+[2023-07-05 09:47:41] INFO root fetch - processPackages [sebastian-test]: Start processing: scikit-gstat
+[2023-07-05 09:47:41] INFO root fetch - main [MainThread]: End processing [sebastian-test] error
+[2023-07-05 09:47:41] INFO root fetch - processPackages [icinga-pusher]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230705.0] Old Version: [20230703.0]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230704] Old Version: [0.7.3.dev20230703]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [tkintertools]: New version: [2.6.7.dev1] Old Version: [2.6.7.dev0]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [greedyFAS]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [mykit]: New version: [6.0.0] Old Version: [5.3.0]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [scikit-gstat]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 09:47:41] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/9e/2d/b2f82b90a2e6afc9b5e10ec31949d85ac1b275e5819641c18a664dde449a/icinga_pusher-0.1.5.tar.gz
+[2023-07-05 09:47:41] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/f0/00/f174882d0446b257bddf633f011075d17c7e3a8047891a331d97b9f17b28/hydrogibs-0.0.25.tar.gz
+[2023-07-05 09:47:41] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/52/61/02bb3a72ffed711e668ea657c0f136841f10daaf07c2d8d19f7708c18932/tfv-1.0.3.tar.gz
+[2023-07-05 09:47:41] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Downloading https://files.pythonhosted.org/packages/6f/d8/1ee0e6a0e7eaf5bf198edaa0357219d05debb0782844c0aad448befafae7/alibabacloud_fc20230330_py2-1.0.0.tar.gz
+[2023-07-05 09:47:41] INFO root fetch - processPackages [scikit-gstat]: Downloading https://files.pythonhosted.org/packages/c9/b3/6f189922f2c5de37e778cf6f72b8f846446b395501e66ba029190abdfed1/scikit-gstat-1.0.8.tar.gz
+[2023-07-05 09:47:41] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/17/a1/5db526d0aff1735e04ea3cb4cafd2fb9dfac4d36e8e148dba07b29811754/greedyFAS-1.9.0.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/cc/1a/d0d6f38fd3c346be6608fb22f053b1175717d331db7faf50e77c7109f5a7/tfq_nightly-0.7.3.dev20230703-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 09:47:42] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/e2/70/fd540f3362df724a1bada262f78de4ab21c4a0353f60155e2afd2c4af99a/home_assistant_frontend-20230703.0-py3-none-any.whl
+[2023-07-05 09:47:42] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/95/07/1f927efc6c5cee21e31189ff0fa7e98c84e39471fb92f7597d7c96abf36a/mykit-5.3.0.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/33/f5/b5e43983bbca30e80b7aff0fb86e423a21591fe750b92488866e84ed0642/tkintertools-2.6.7.dev0.tar.gz
+[2023-07-05 09:47:42] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 46049631>=10485760
+[2023-07-05 09:47:42] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: alibabacloud-fc20230330
+[2023-07-05 09:47:42] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-07-05 09:47:42] WARNING root fetch - processPackages [tfv]: Skipping package: exceeds size limit 20346733>=10485760
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tfv]: Start processing: fortdepend
+[2023-07-05 09:47:42] INFO root fetch - main [MainThread]: End processing [tfv] error
+[2023-07-05 09:47:42] INFO root fetch - processPackages [alibabacloud-fc20230330]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-05 09:47:42] INFO root fetch - processPackages [fortdepend]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-05 09:47:42] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/68/0f/a0c1c4093506218578ee45dd5d8f6b74b6d32341df49692c2379ce9d7954/hydrogibs-0.5.2.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/fe/90/865311e93750b8a9073c33dd74dea4ad2b69031e877d8cbf73ab96763c3d/mykit-6.0.0.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [icinga-pusher]: Downloading https://files.pythonhosted.org/packages/c4/b9/4da2e7b274e020a3a9db7b9a0480ad2b2e95d01875c1ae4f074e6ebdce63/icinga_pusher-0.1.6.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Downloading https://files.pythonhosted.org/packages/53/ea/09026ac412c479c4396b0610763cc88a87dff08eb2c0b613eb44b7b68f4a/alibabacloud_fc20230330_py2-2.0.0.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [alibabacloud-fc20230330]: Downloading https://files.pythonhosted.org/packages/c7/2c/82b009308af6d191d32aa1521220f13c8251d7a6c97ca640a123bf2b2349/alibabacloud_fc20230330-1.0.0.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.0.25.tar.gz tmp/hydrogibs-0.5.2.tar.gz --markdown 20230705/h/hydrogibs/0.0.25-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [greedyFAS]: Downloading https://files.pythonhosted.org/packages/5e/ef/a255efe3fba413830c37f81917a8f31daf07ba429901b9c69b8ab1d8061c/greedyFAS-1.9.1.tar.gz
+[2023-07-05 09:47:42] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822714>=10485760
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tfq-nightly]: Start processing: hik_camera
+[2023-07-05 09:47:42] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-05 09:47:42] INFO root fetch - processPackages [fortdepend]: Downloading https://files.pythonhosted.org/packages/5e/d6/d2971f79d9424e630cad78b7dbaac9d00c264ddb4e744c778430e4abb55a/fortdepend-2.1.0.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/6f/4a/812fd7dc3c013c75a30b61cd0a367f7d180b77fe8418e6f293b0850e05f1/tkintertools-2.6.7.dev1.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [scikit-gstat]: Downloading https://files.pythonhosted.org/packages/f3/8e/1f7c9b25f5e9aa34f7a2e485cfcfa36ce4aa8284e5cd1a0d99064792ff57/scikit-gstat-1.0.9.tar.gz
+[2023-07-05 09:47:42] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-5.3.0.tar.gz tmp/mykit-6.0.0.tar.gz --markdown 20230705/m/mykit/5.3.0-6.0.0/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [icinga-pusher]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [icinga-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icinga_pusher-0.1.5.tar.gz tmp/icinga_pusher-0.1.6.tar.gz --markdown 20230705/i/icinga-pusher/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_fc20230330_py2-1.0.0.tar.gz tmp/alibabacloud_fc20230330_py2-2.0.0.tar.gz --markdown 20230705/a/alibabacloud-fc20230330-py2/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [hik_camera]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 09:47:42] INFO root fetch - processPackages [greedyFAS]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [greedyFAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greedyFAS-1.9.0.tar.gz tmp/greedyFAS-1.9.1.tar.gz --markdown 20230705/g/greedyFAS/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.7.dev0.tar.gz tmp/tkintertools-2.6.7.dev1.tar.gz --markdown 20230705/t/tkintertools/2.6.7.dev0-2.6.7.dev1/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [scikit-gstat]: executing diffoscope
+[2023-07-05 09:47:42] INFO root fetch - processPackages [scikit-gstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-gstat-1.0.8.tar.gz tmp/scikit-gstat-1.0.9.tar.gz --markdown 20230705/s/scikit-gstat/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:47:42] INFO root fetch - processPackages [alibabacloud-fc20230330]: Downloading https://files.pythonhosted.org/packages/58/61/f8b4c0d44dd46b2a43a8e2ef08b9ff129ba088badd0ab80e1bb4ef8c0bfa/alibabacloud_fc20230330-2.0.0.tar.gz
+[2023-07-05 09:47:43] INFO root fetch - processPackages [fortdepend]: Downloading https://files.pythonhosted.org/packages/4d/84/0396e6642d8921f42cf89b5d0c789d5bf0e5091ab06c983ed7214c297bbd/fortdepend-2.2.0.tar.gz
+[2023-07-05 09:47:43] INFO root fetch - processPackages [alibabacloud-fc20230330]: executing diffoscope
+[2023-07-05 09:47:43] INFO root fetch - processPackages [alibabacloud-fc20230330]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_fc20230330-1.0.0.tar.gz tmp/alibabacloud_fc20230330-2.0.0.tar.gz --markdown 20230705/a/alibabacloud-fc20230330/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hik_camera]: Downloading https://files.pythonhosted.org/packages/fe/a2/4d4dc31c1534d7c07fcfeff6003bc157f72120820597707e980ba2a300bb/hik_camera-0.2.8.tar.gz
+[2023-07-05 09:47:43] INFO root fetch - processPackages [fortdepend]: executing diffoscope
+[2023-07-05 09:47:43] INFO root fetch - processPackages [fortdepend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortdepend-2.1.0.tar.gz tmp/fortdepend-2.2.0.tar.gz --markdown 20230705/f/fortdepend/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hik_camera]: Downloading https://files.pythonhosted.org/packages/df/7b/1ebe755854394959c7c8bbcc5e1bc18d1002a4798501e61239a07013317a/hik_camera-0.2.9.tar.gz
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hik_camera]: executing diffoscope
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hik_camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hik_camera-0.2.8.tar.gz tmp/hik_camera-0.2.9.tar.gz --markdown 20230705/h/hik_camera/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.0.25.tar.gz]
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.5.2.tar.gz]
+[2023-07-05 09:47:43] INFO root fetch - processPackages [hydrogibs]: Start processing: phubble
+[2023-07-05 09:47:43] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [phubble]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.5.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [icinga-pusher]: Remove: archive file [/home/abi/fetcher/tmp/icinga_pusher-0.1.6.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [icinga-pusher]: Start processing: dsna-complete
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [icinga-pusher]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-5.3.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-6.0.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [dsna-complete]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330_py2-1.0.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [alibabacloud-fc20230330-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330_py2-2.0.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330-py2]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.7.dev0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.7.dev1.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [phubble]: Downloading https://files.pythonhosted.org/packages/94/57/a536b50701e51ffe0756a7d1002bb3cba54d12c5289ffb485a3317d3f6c1/phubble-0.1.0.tar.gz
+[2023-07-05 09:47:44] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [greedyFAS]: Remove: archive file [/home/abi/fetcher/tmp/greedyFAS-1.9.1.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [greedyFAS]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/38/50/d9758a2aea29886887ca3f8810163af4a12b44af46d2a12f76cb3aec8440/dsna_complete-0.0.2.tar.gz
+[2023-07-05 09:47:44] INFO root fetch - processPackages [scikit-gstat]: Remove: archive file [/home/abi/fetcher/tmp/scikit-gstat-1.0.8.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [scikit-gstat]: Remove: archive file [/home/abi/fetcher/tmp/scikit-gstat-1.0.9.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [scikit-gstat]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [fortdepend]: Remove: archive file [/home/abi/fetcher/tmp/fortdepend-2.1.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [fortdepend]: Remove: archive file [/home/abi/fetcher/tmp/fortdepend-2.2.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [fortdepend]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [alibabacloud-fc20230330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330-1.0.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [alibabacloud-fc20230330]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_fc20230330-2.0.0.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-fc20230330]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [phubble]: Downloading https://files.pythonhosted.org/packages/8e/c2/a8e863641f0663af88748e8afb56c503f57557873035e96f80f5fa8c3396/phubble-0.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 09:47:44] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/4d/2d/cec3fbd8e2f089fcc7edf2c02a84bbfa7c1c08e2e75cdd3d228ee00b7591/dsna_complete-0.0.3.tar.gz
+[2023-07-05 09:47:44] INFO root fetch - processPackages [hik_camera]: Remove: archive file [/home/abi/fetcher/tmp/hik_camera-0.2.8.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - processPackages [hik_camera]: Remove: archive file [/home/abi/fetcher/tmp/hik_camera-0.2.9.tar.gz]
+[2023-07-05 09:47:44] INFO root fetch - main [MainThread]: End processing [hik_camera]: success
+[2023-07-05 09:47:44] INFO root fetch - processPackages [dsna-complete]: executing diffoscope
+[2023-07-05 09:47:44] INFO root fetch - processPackages [dsna-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsna_complete-0.0.2.tar.gz tmp/dsna_complete-0.0.3.tar.gz --markdown 20230705/d/dsna-complete/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 09:47:45] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.2.tar.gz]
+[2023-07-05 09:47:45] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.3.tar.gz]
+[2023-07-05 09:47:45] INFO root fetch - main [MainThread]: End processing [dsna-complete]: success
+[2023-07-05 09:47:45] INFO root fetch - processPackages [phubble]: executing diffoscope
+[2023-07-05 09:47:45] INFO root fetch - processPackages [phubble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phubble-0.1.0.tar.gz tmp/phubble-0.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230705/p/phubble/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 09:47:46] INFO root fetch - processPackages [phubble]: Remove: archive file [/home/abi/fetcher/tmp/phubble-0.1.0.tar.gz]
+[2023-07-05 09:47:46] INFO root fetch - processPackages [phubble]: Remove: archive file [/home/abi/fetcher/tmp/phubble-0.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-05 09:47:46] INFO root fetch - main [MainThread]: End processing [phubble]: success
+[2023-07-05 09:47:46] INFO root fetch - main [MainThread]: Store serial: [18764039]
