@@ -6089,3 +6089,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:26:20] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-05 04:26:20] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-05 04:26:20] INFO root fetch - main [MainThread]: Store serial: [18762178]
+[2023-07-05 04:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762178]
+[2023-07-05 04:31:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-05 04:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dimjournal
+[2023-07-05 04:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sj-tool
+[2023-07-05 04:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yyxx-game-pkg
+[2023-07-05 04:31:29] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 04:31:29] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.5.1] Old Version: [2023.6.9.1]
+[2023-07-05 04:31:29] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 04:31:29] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/e5/82/79da6672e322e316d7b077a31d056141061d0271696087e26fd350612628/yyxx_game_pkg-2023.6.9.1.tar.gz
+[2023-07-05 04:31:29] INFO root fetch - processPackages [dimjournal]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-05 04:31:29] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 04:31:29] INFO root fetch - processPackages [dimjournal]: Downloading https://files.pythonhosted.org/packages/28/3a/37236515d1a0f73cc19c91b34c00892b095a1007c92afc156bbe61df64fc/dimjournal-1.0.6.tar.gz
+[2023-07-05 04:31:29] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 04:31:29] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 04:31:29] INFO root fetch - processPackages [dimjournal]: Downloading https://files.pythonhosted.org/packages/1e/29/9898f490754ff9a4aecca1ea7c2cddf6d241d177e9c2b7274c28aaa7526d/dimjournal-1.0.7.tar.gz
+[2023-07-05 04:31:30] INFO root fetch - processPackages [dimjournal]: executing diffoscope
+[2023-07-05 04:31:30] INFO root fetch - processPackages [dimjournal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimjournal-1.0.6.tar.gz tmp/dimjournal-1.0.7.tar.gz --markdown 20230705/d/dimjournal/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-05 04:31:30] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 04:31:30] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 04:31:30] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 04:31:30] INFO root fetch - processPackages [dimjournal]: Remove: archive file [/home/abi/fetcher/tmp/dimjournal-1.0.6.tar.gz]
+[2023-07-05 04:31:30] INFO root fetch - processPackages [dimjournal]: Remove: archive file [/home/abi/fetcher/tmp/dimjournal-1.0.7.tar.gz]
+[2023-07-05 04:31:30] INFO root fetch - main [MainThread]: End processing [dimjournal]: success
+[2023-07-05 04:31:31] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/6a/ba/2db200102e6513f599bdb0c7a62f53c06405750e3f7c3e63cb0816a50722/yyxx_game_pkg-2023.7.5.1.tar.gz
+[2023-07-05 04:31:32] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-05 04:31:32] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.6.9.1.tar.gz tmp/yyxx_game_pkg-2023.7.5.1.tar.gz --markdown 20230705/y/yyxx-game-pkg/2023.6.9.1-2023.7.5.1/diff.md --exclude *.pyd
+[2023-07-05 04:31:34] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.9.1.tar.gz]
+[2023-07-05 04:31:34] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.1.tar.gz]
+[2023-07-05 04:31:34] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-05 04:31:34] INFO root fetch - main [MainThread]: Store serial: [18762186]
