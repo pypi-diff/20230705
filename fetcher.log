@@ -7382,3 +7382,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:39:47] INFO root fetch - processPackages [nip-config]: Remove: archive file [/home/abi/fetcher/tmp/nip-config-0.9.2.tar.gz]
 [2023-07-05 05:39:47] INFO root fetch - main [MainThread]: End processing [nip-config]: success
 [2023-07-05 05:39:47] INFO root fetch - main [MainThread]: Store serial: [18762670]
+[2023-07-05 05:44:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762670]
+[2023-07-05 05:44:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 05:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablepic
+[2023-07-05 05:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-hub
+[2023-07-05 05:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrolite
+[2023-07-05 05:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyHana
+[2023-07-05 05:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyatlan
+[2023-07-05 05:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sj-tool
+[2023-07-05 05:44:57] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 05:44:57] INFO root fetch - processPackages [pyrolite]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-05 05:44:57] INFO root fetch - processPackages [pyHana]: New version: [0.0.2a5] Old Version: [0.0.2a4]
+[2023-07-05 05:44:57] INFO root fetch - processPackages [tablepic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 05:44:57] INFO root fetch - processPackages [llama-hub]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 05:44:57] INFO root fetch - processPackages [pyatlan]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-05 05:44:57] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 05:44:57] INFO root fetch - processPackages [pyrolite]: Downloading https://files.pythonhosted.org/packages/c5/e9/58dcd0755534d8d42d3476c5a342e93206558ca589dfca9c39ba896d809f/pyrolite-0.3.2.tar.gz
+[2023-07-05 05:44:57] WARNING root fetch - processPackages [pyrolite]: Skipping package: exceeds size limit 10501550>=10485760
+[2023-07-05 05:44:57] INFO root fetch - main [MainThread]: End processing [pyrolite] error
+[2023-07-05 05:44:57] INFO root fetch - processPackages [pyHana]: Downloading https://files.pythonhosted.org/packages/36/1f/195b79d7d8ff369d75f63547c000b35722716aef49017f50123794d404c3/pyHana-0.0.2a4-py3-none-any.whl
+[2023-07-05 05:44:57] INFO root fetch - processPackages [tablepic]: Downloading https://files.pythonhosted.org/packages/5f/16/66d77409ccb1a7aef3b28681af71376805eb26c523b4b5fa442dabbac919/tablepic-0.0.4.tar.gz
+[2023-07-05 05:44:57] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 05:44:58] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/09/af/a8fe2f3f07e7512ef75598aacfcae1eb8168b0fc0b7abce91ae89eafa7ee/llama_hub-0.0.7.tar.gz
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/8b/33/8cbe1b04c6dfa005a60487d3e8f17d647f82659e0fe513ff1b0529648d0f/pyatlan-0.3.0.tar.gz
+[2023-07-05 05:44:58] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 05:44:58] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:44:58] INFO root fetch - processPackages [tablepic]: Downloading https://files.pythonhosted.org/packages/4c/f3/ca2f427aefb0bcb210341852efcbeeb58980866209a18541dcdb7b984640/tablepic-0.0.5.tar.gz
+[2023-07-05 05:44:58] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/f1/8b/b9694e693e40532b5b2701f63af194df1337a5a7c1cf375a2dee8a79d0be/llama_hub-0.0.8.tar.gz
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyHana]: Downloading https://files.pythonhosted.org/packages/73/81/1cc9107e9bc4318222fe4557e0c51b15debe38569bdd42f9578ededc3ae6/pyHana-0.0.2a5-py3-none-any.whl
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyatlan]: Downloading https://files.pythonhosted.org/packages/68/38/6b42338d52bb0f9dde9720ad0c5893cabe17d482e165a32ab3ae8cfc4d8d/pyatlan-0.4.0.tar.gz
+[2023-07-05 05:44:58] INFO root fetch - processPackages [tablepic]: executing diffoscope
+[2023-07-05 05:44:58] INFO root fetch - processPackages [tablepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablepic-0.0.4.tar.gz tmp/tablepic-0.0.5.tar.gz --markdown 20230705/t/tablepic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 05:44:58] INFO root fetch - processPackages [llama-hub]: executing diffoscope
+[2023-07-05 05:44:58] INFO root fetch - processPackages [llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_hub-0.0.7.tar.gz tmp/llama_hub-0.0.8.tar.gz --markdown 20230705/l/llama-hub/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyHana]: executing diffoscope
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyHana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHana-0.0.2a4-py3-none-any.whl.zip tmp/pyHana-0.0.2a5-py3-none-any.whl.zip --markdown 20230705/p/pyHana/0.0.2a4-0.0.2a5/diff.md --exclude *.pyd
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyatlan]: executing diffoscope
+[2023-07-05 05:44:58] INFO root fetch - processPackages [pyatlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatlan-0.3.0.tar.gz tmp/pyatlan-0.4.0.tar.gz --markdown 20230705/p/pyatlan/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-05 05:44:59] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 05:44:59] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 05:44:59] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 05:44:59] INFO root fetch - processPackages [tablepic]: Remove: archive file [/home/abi/fetcher/tmp/tablepic-0.0.4.tar.gz]
+[2023-07-05 05:44:59] INFO root fetch - processPackages [tablepic]: Remove: archive file [/home/abi/fetcher/tmp/tablepic-0.0.5.tar.gz]
+[2023-07-05 05:44:59] INFO root fetch - main [MainThread]: End processing [tablepic]: success
+[2023-07-05 05:44:59] INFO root fetch - processPackages [pyHana]: Remove: archive file [/home/abi/fetcher/tmp/pyHana-0.0.2a4-py3-none-any.whl.zip]
+[2023-07-05 05:44:59] INFO root fetch - processPackages [pyHana]: Remove: archive file [/home/abi/fetcher/tmp/pyHana-0.0.2a5-py3-none-any.whl.zip]
+[2023-07-05 05:44:59] INFO root fetch - main [MainThread]: End processing [pyHana]: success
+[2023-07-05 05:44:59] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.3.0.tar.gz]
+[2023-07-05 05:44:59] INFO root fetch - processPackages [pyatlan]: Remove: archive file [/home/abi/fetcher/tmp/pyatlan-0.4.0.tar.gz]
+[2023-07-05 05:44:59] INFO root fetch - main [MainThread]: End processing [pyatlan]: success
+[2023-07-05 05:45:00] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.7.tar.gz]
+[2023-07-05 05:45:00] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.8.tar.gz]
+[2023-07-05 05:45:00] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
+[2023-07-05 05:45:00] INFO root fetch - main [MainThread]: Store serial: [18762686]
