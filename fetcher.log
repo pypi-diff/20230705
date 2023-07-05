@@ -18220,3 +18220,80 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:55:44] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.4-py3-none-any.whl.zip]
 [2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [kaiju-tasks]: success
 [2023-07-05 14:55:44] INFO root fetch - main [MainThread]: Store serial: [18767369]
+[2023-07-05 15:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767369]
+[2023-07-05 15:00:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: delab-trees
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cachetory
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-update
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micrOSDevToolKit
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PETGoldstandardBaselinesVisualizers
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lemonai
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qwak-sdk
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: KwoksTool
+[2023-07-05 15:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bycon
+[2023-07-05 15:00:53] INFO root fetch - processPackages [lemonai]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-05 15:00:53] INFO root fetch - processPackages [cachetory]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-05 15:00:53] WARNING root fetch - processPackages [PETGoldstandardBaselinesVisualizers]: Skipping, unable to determine old version
+[2023-07-05 15:00:53] INFO root fetch - main [MainThread]: End processing [PETGoldstandardBaselinesVisualizers] error
+[2023-07-05 15:00:53] WARNING root fetch - processPackages [nonebot-plugin-update]: Skipping, unable to determine old version
+[2023-07-05 15:00:53] INFO root fetch - processPackages [delab-trees]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 15:00:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-update] error
+[2023-07-05 15:00:53] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.6] Old Version: [1.17.5]
+[2023-07-05 15:00:53] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 15:00:53] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 15:00:53] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.0b6] Old Version: [2023.7.0b5]
+[2023-07-05 15:00:53] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 15:00:53] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/64/98/7f86e21f9bfcc5e8072cdce68751b934628ef929ec7949b3e89da13b2bc1/micrOSDevToolKit-1.17.5.tar.gz
+[2023-07-05 15:00:53] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/a1/64/590520f67f57f1363473de8802d9efa672c0f00377f5fe5ddf3f132bf56c/KwoksTool-0.0.3.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/dd/df/fbce7f6ad4f125a0dd09165f7166b452cdb07b07cfaaf5980e79fbdb24ab/cachetory-2.4.0.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/c9/6b/9f091a308534a0d27a32fc1cbe0db1fa57a0c8939341c45ebb8949d6f16c/lemonai-0.0.5.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [delab-trees]: Downloading https://files.pythonhosted.org/packages/5e/34/7ff2fa445e2d16ec58cb04467a37fdd252524f59421e3620bbe222911736/delab-trees-0.3.1.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/1c/35/e086d5ccd3640a7a967f3195ca945303e1b21bc0292d63c586ba0f2907bb/homeassistant_stubs-2023.7.0b5.tar.gz
+[2023-07-05 15:00:54] WARNING root fetch - processPackages [delab-trees]: Skipping package: exceeds size limit 23971350>=10485760
+[2023-07-05 15:00:54] INFO root fetch - main [MainThread]: End processing [delab-trees] error
+[2023-07-05 15:00:54] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/de/da/ed50b298835b738afba17e73a7a74399dcec62989d7f4ef6aa10bd39ba17/micrOSDevToolKit-1.17.6.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/5f/a8/9c08c8d29d9c36e3ac201e4ca92577bdf6f4a141807362d19bd6b2e4aaf8/cachetory-2.5.0.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/c4/7c/7c6641de3f8d32e914211a3a41561b1d5e50f551060088d882899c2f9d2d/KwoksTool-0.0.4.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/a3/8c/e498d1eaa63aa0b9cc20d78e33ad81ee486f4355d0145e877ee8edab14f1/lemonai-0.0.6.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [cachetory]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [cachetory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetory-2.4.0.tar.gz tmp/cachetory-2.5.0.tar.gz --markdown 20230705/c/cachetory/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-05 15:00:54] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/0d/42/83fc9ef8aab42e8d32ec2a319701fece0a7b1ec413f6cc59c81ff723b383/homeassistant_stubs-2023.7.0b6.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-05 15:00:54] INFO root fetch - processPackages [lemonai]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [lemonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonai-0.0.5.tar.gz tmp/lemonai-0.0.6.tar.gz --markdown 20230705/l/lemonai/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-05 15:00:54] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.3.tar.gz tmp/KwoksTool-0.0.4.tar.gz --markdown 20230705/K/KwoksTool/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 15:00:54] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20230705/q/qwak-sdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 15:00:54] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.17.5.tar.gz tmp/micrOSDevToolKit-1.17.6.tar.gz --markdown 20230705/m/micrOSDevToolKit/1.17.5-1.17.6/diff.md --exclude *.pyd
+[2023-07-05 15:00:54] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230705/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 15:00:54] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-05 15:00:54] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b5.tar.gz tmp/homeassistant_stubs-2023.7.0b6.tar.gz --markdown 20230705/h/homeassistant-stubs/2023.7.0b5-2023.7.0b6/diff.md --exclude *.pyd
+[2023-07-05 15:00:56] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.3.tar.gz]
+[2023-07-05 15:00:56] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.4.tar.gz]
+[2023-07-05 15:00:56] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-05 15:00:56] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.0.5.tar.gz]
+[2023-07-05 15:00:56] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.0.6.tar.gz]
+[2023-07-05 15:00:56] INFO root fetch - main [MainThread]: End processing [lemonai]: success
+[2023-07-05 15:00:56] INFO root fetch - processPackages [cachetory]: Remove: archive file [/home/abi/fetcher/tmp/cachetory-2.4.0.tar.gz]
+[2023-07-05 15:00:56] INFO root fetch - processPackages [cachetory]: Remove: archive file [/home/abi/fetcher/tmp/cachetory-2.5.0.tar.gz]
+[2023-07-05 15:00:56] INFO root fetch - main [MainThread]: End processing [cachetory]: success
+[2023-07-05 15:00:57] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.5.tar.gz]
+[2023-07-05 15:00:57] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.6.tar.gz]
+[2023-07-05 15:00:57] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-05 15:00:57] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2023-07-05 15:00:57] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2023-07-05 15:00:57] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-07-05 15:00:59] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-05 15:00:59] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-05 15:00:59] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-05 15:01:13] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b5.tar.gz]
+[2023-07-05 15:01:13] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b6.tar.gz]
+[2023-07-05 15:01:13] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-05 15:01:13] INFO root fetch - main [MainThread]: Store serial: [18767402]
