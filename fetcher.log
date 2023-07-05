@@ -8248,3 +8248,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:04:04] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc3.tar.gz]
 [2023-07-05 07:04:04] INFO root fetch - main [MainThread]: End processing [napari]: success
 [2023-07-05 07:04:04] INFO root fetch - main [MainThread]: Store serial: [18762964]
+[2023-07-05 07:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762964]
+[2023-07-05 07:09:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: realcugan-ncnn-py
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qxxkey
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inno-finance-core
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powertools-oas-validator
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerdcore
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cuda
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-cpp-python
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tkadw
+[2023-07-05 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tflite-model-maker-nightly
+[2023-07-05 07:09:13] INFO root fetch - processPackages [realcugan-ncnn-py]: New version: [1.3.0] Old Version: [1.2.0.0]
+[2023-07-05 07:09:13] INFO root fetch - processPackages [powertools-oas-validator]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-05 07:09:13] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 07:09:13] INFO root fetch - processPackages [qxxkey]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 07:09:13] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307040507] Old Version: [0.4.3.dev202307030508]
+[2023-07-05 07:09:13] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230705] Old Version: [0.1.1.dev20230704]
+[2023-07-05 07:09:13] INFO root fetch - processPackages [tkadw]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-05 07:09:13] ERROR root fetch - processPackages [inno-finance-core]: Unable to get metadata: No such project 'inno-finance-core'
+[2023-07-05 07:09:13] INFO root fetch - main [MainThread]: End processing [inno-finance-core] error
+[2023-07-05 07:09:13] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/2c/53/856580e4abd0d358b4335d61648637a3fe6640abbcb0c7a13ff79a261d3e/powertools_oas_validator-0.5.3.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230704] Old Version: [23.8.0a230703]
+[2023-07-05 07:09:14] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 07:09:14] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [realcugan-ncnn-py]: Downloading https://files.pythonhosted.org/packages/60/80/bfdd4acb0893a24df70e48d0e867fe05c5a64f83906c95265294c2be8285/realcugan_ncnn_py-1.2.0.0-cp39-cp39-win_amd64.whl
+[2023-07-05 07:09:14] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/31/7f/fb5a9a9f4834e4cb2b7e27172f3ff04783d68be51b4f75dd3a8809ca75a0/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/79/51/ce3e36c912744c415fc674dbce03e51ca52652581e65baed71957395bb45/qxxkey-0.0.3.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/f7/c9/64116e3958898fb6f1cf2afb4c0bf28c54892d4ae43e5c67a19df64f6acc/rapid_pe-0.1.1.dev20230704.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/ac/1c/7249ac9f0c64355910976f5ca7c9a90261fa15a2801476976259ee9dcdb3/tkadw-0.2.4.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/55/79/1135abcbfe8bc903af8e2ca1917561a343fe7e05b01a8bb3586fe610b2ec/dask-cuda-23.8.0a230703.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/7e/3b/b5f7e1ec5f43a4e980733c63bd4f05e1b7e14fd3b7aa72d9ca91f2415323/llama_cpp_python-0.1.8.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [qxxkey]: Downloading https://files.pythonhosted.org/packages/9e/d4/8a611d427431bc1a1de2cb01b1ee23228d457902014dc13fd4aa1164c2f6/qxxkey-0.0.4.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [powertools-oas-validator]: Downloading https://files.pythonhosted.org/packages/76/72/a72ee6291e6c5ec95a06b52df09c0ece425539f4fe21ebb4642a5e85b963/powertools_oas_validator-0.5.4.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-05 07:09:14] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230705/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:09:14] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/33/ff/fecb549dad41162bf67a5012007dad42ff2713c4d30c2df2b6a7436f8e28/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [qxxkey]: executing diffoscope
+[2023-07-05 07:09:14] INFO root fetch - processPackages [qxxkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qxxkey-0.0.3.tar.gz tmp/qxxkey-0.0.4.tar.gz --markdown 20230705/q/qxxkey/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 07:09:14] INFO root fetch - processPackages [powertools-oas-validator]: executing diffoscope
+[2023-07-05 07:09:14] INFO root fetch - processPackages [powertools-oas-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powertools_oas_validator-0.5.3.tar.gz tmp/powertools_oas_validator-0.5.4.tar.gz --markdown 20230705/p/powertools-oas-validator/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-05 07:09:14] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/cf/81/c26a0a6e964f54f092eb059649a4cc84ebc7ad8c0e67c68e1c19436be31c/rapid_pe-0.1.1.dev20230705.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/e3/56/67d37cd68c023e3589502d32747eb0bf6df42a8e47b6054cef1e2cb30ae8/tkadw-0.3.0.tar.gz
+[2023-07-05 07:09:14] WARNING root fetch - processPackages [realcugan-ncnn-py]: Skipping package: exceeds size limit 44942361>=10485760
+[2023-07-05 07:09:14] INFO root fetch - main [MainThread]: End processing [realcugan-ncnn-py] error
+[2023-07-05 07:09:14] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/a0/90/aef39745f5f33aef5fb94954d9a6c85bcc7d2175edd6a467ac908b927e2a/dask-cuda-23.8.0a230704.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/9f/24/45a5a3beee1354f668d916eb1a2146835a0eda4dbad0da45252170e105a6/llama_cpp_python-0.1.9.tar.gz
+[2023-07-05 07:09:14] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-05 07:09:14] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230704.tar.gz tmp/rapid_pe-0.1.1.dev20230705.tar.gz --markdown 20230705/r/rapid-pe/0.1.1.dev20230704-0.1.1.dev20230705/diff.md --exclude *.pyd
+[2023-07-05 07:09:14] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-07-05 07:09:14] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.2.4.tar.gz tmp/tkadw-0.3.0.tar.gz --markdown 20230705/t/tkadw/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-05 07:09:15] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-05 07:09:15] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz --markdown 20230705/t/tflite-model-maker-nightly/0.4.3.dev202307030508-0.4.3.dev202307040507/diff.md --exclude *.pyd
+[2023-07-05 07:09:15] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-07-05 07:09:15] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230705/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:09:15] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-05 07:09:15] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230703.tar.gz tmp/dask-cuda-23.8.0a230704.tar.gz --markdown 20230705/d/dask-cuda/23.8.0a230703-23.8.0a230704/diff.md --exclude *.pyd
+[2023-07-05 07:09:15] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.3.tar.gz]
+[2023-07-05 07:09:15] INFO root fetch - processPackages [qxxkey]: Remove: archive file [/home/abi/fetcher/tmp/qxxkey-0.0.4.tar.gz]
+[2023-07-05 07:09:15] INFO root fetch - main [MainThread]: End processing [qxxkey]: success
+[2023-07-05 07:09:15] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.3.tar.gz]
+[2023-07-05 07:09:15] INFO root fetch - processPackages [powertools-oas-validator]: Remove: archive file [/home/abi/fetcher/tmp/powertools_oas_validator-0.5.4.tar.gz]
+[2023-07-05 07:09:15] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator]: success
+[2023-07-05 07:09:15] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-05 07:09:16] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230704.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230705.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-05 07:09:16] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230703.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230704.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-05 07:09:16] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.8.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.1.9.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-07-05 07:09:16] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.4.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.3.0.tar.gz]
+[2023-07-05 07:09:16] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-07-05 07:09:17] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307030508.tar.gz]
+[2023-07-05 07:09:17] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307040507.tar.gz]
+[2023-07-05 07:09:17] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-05 07:09:17] INFO root fetch - main [MainThread]: Store serial: [18763011]
