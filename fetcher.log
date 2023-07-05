@@ -7841,3 +7841,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:22:24] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.99.tar.gz]
 [2023-07-05 06:22:24] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
 [2023-07-05 06:22:24] INFO root fetch - main [MainThread]: Store serial: [18762824]
+[2023-07-05 06:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762824]
+[2023-07-05 06:27:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 06:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capella-console-client
+[2023-07-05 06:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-Fluent-Widgets
+[2023-07-05 06:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-customer-rank
+[2023-07-05 06:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-partner-contact
+[2023-07-05 06:27:34] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-07-05 06:27:34] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 06:27:34] INFO root fetch - processPackages [capella-console-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20230704.0] Old Version: [16.0.20230629.1]
+[2023-07-05 06:27:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0f/fc/8242ac195b4108fac845b9175677de34014fc06fa572b641a437f9f3e748/PySide6-Fluent-Widgets-1.0.0.tar.gz
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: Downloading https://files.pythonhosted.org/packages/6a/c7/e339bcc0d6890a4b7b9c0a219b960121de0601b362cb0fafff4f80177d7d/odoo_addon_sale_customer_rank-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 06:27:35] INFO root fetch - processPackages [capella-console-client]: Downloading https://files.pythonhosted.org/packages/b3/ac/f06def63e3e84474eeb4fd6e5947101718549356203f4f3625a5c120bbc0/capella-console-client-0.9.0.tar.gz
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/88/50/b4f50d0c497203b36a170f9efca728bc643abb1c7da7c679b80f18abf6f4/odoo_addons_oca_partner_contact-16.0.20230629.1-py3-none-any.whl
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: Downloading https://files.pythonhosted.org/packages/57/ef/83b20cec4c28c5c8e3499b0b35eaadeed3ea527bd7006f5dd53271b95f4d/odoo_addon_sale_customer_rank-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: executing diffoscope
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_customer_rank-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_customer_rank-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-sale-customer-rank/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-05 06:27:35] INFO root fetch - processPackages [capella-console-client]: Downloading https://files.pythonhosted.org/packages/fd/2d/8e59efc7e7d8b533957401d8a7cdf1934c4d1b81a9130e6da4867881320e/capella_console_client-0.9.1.tar.gz
+[2023-07-05 06:27:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/a6/9e/128c7fb73a0fa3bdb6eae1f847817a7e7458f6d7116951a0d5c8a2e0204f/PySide6-Fluent-Widgets-1.0.1.tar.gz
+[2023-07-05 06:27:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-07-05 06:27:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-1.0.0.tar.gz tmp/PySide6-Fluent-Widgets-1.0.1.tar.gz --markdown 20230705/P/PySide6-Fluent-Widgets/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 06:27:35] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/ce/6a/b430804da4552adae11638dba7dbcd56fb984bccc6509f44ce6e6011f8bd/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 06:27:35] INFO root fetch - processPackages [capella-console-client]: executing diffoscope
+[2023-07-05 06:27:35] INFO root fetch - processPackages [capella-console-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capella-console-client-0.9.0.tar.gz tmp/capella_console_client-0.9.1.tar.gz --markdown 20230705/c/capella-console-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 06:27:36] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2023-07-05 06:27:36] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20230629.1-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-partner-contact/16.0.20230629.1-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 06:27:36] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_customer_rank-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 06:27:36] INFO root fetch - processPackages [odoo-addon-sale-customer-rank]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_customer_rank-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-05 06:27:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-customer-rank]: success
+[2023-07-05 06:27:36] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230629.1-py3-none-any.whl.zip]
+[2023-07-05 06:27:36] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-05 06:27:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2023-07-05 06:27:36] INFO root fetch - processPackages [capella-console-client]: Remove: archive file [/home/abi/fetcher/tmp/capella-console-client-0.9.0.tar.gz]
+[2023-07-05 06:27:36] INFO root fetch - processPackages [capella-console-client]: Remove: archive file [/home/abi/fetcher/tmp/capella_console_client-0.9.1.tar.gz]
+[2023-07-05 06:27:36] INFO root fetch - main [MainThread]: End processing [capella-console-client]: success
+[2023-07-05 06:27:37] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.0.tar.gz]
+[2023-07-05 06:27:37] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.1.tar.gz]
+[2023-07-05 06:27:37] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-07-05 06:27:37] INFO root fetch - main [MainThread]: Store serial: [18762832]
