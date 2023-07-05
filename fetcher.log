@@ -8667,3 +8667,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:35:25] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.2.0.tar.gz]
 [2023-07-05 07:35:25] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
 [2023-07-05 07:35:25] INFO root fetch - main [MainThread]: Store serial: [18763113]
+[2023-07-05 07:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763113]
+[2023-07-05 07:40:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2023-07-05 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appver
+[2023-07-05 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recast-atlas
+[2023-07-05 07:40:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycrawlers
+[2023-07-05 07:40:34] WARNING root fetch - processPackages [appver]: Skipping, unable to determine old version
+[2023-07-05 07:40:34] INFO root fetch - main [MainThread]: End processing [appver] error
+[2023-07-05 07:40:34] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-05 07:40:34] INFO root fetch - processPackages [pycrawlers]: New version: [1.0.0] Old Version: [0.1.4]
+[2023-07-05 07:40:34] INFO root fetch - processPackages [recast-atlas]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-05 07:40:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-05 07:40:34] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/af/fa/54c4a00928fb4fe1dcfb3d521743cd8a722518c5de1523af4046eb0479ef/pycrawlers-0.1.4.tar.gz
+[2023-07-05 07:40:34] INFO root fetch - processPackages [recast-atlas]: Downloading https://files.pythonhosted.org/packages/63/2a/309d5b4947e0100e8c1ff9e0679c484b91c68f91e626393e3e344e7475bf/recast_atlas-0.2.0.tar.gz
+[2023-07-05 07:40:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-05 07:40:34] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-05 07:40:34] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230705/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-05 07:40:35] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/2b/03/98ac448829a9f1e6a9b33dcbe8307813f1f4aea70faf7a77867d254472ea/pycrawlers-1.0.0.tar.gz
+[2023-07-05 07:40:35] INFO root fetch - processPackages [recast-atlas]: Downloading https://files.pythonhosted.org/packages/83/80/9313eeb66c6d50cf104f43d01c47b5b6c1931ded97e1a52e311e9881f03f/recast_atlas-0.3.0.tar.gz
+[2023-07-05 07:40:35] INFO root fetch - processPackages [recast-atlas]: executing diffoscope
+[2023-07-05 07:40:35] INFO root fetch - processPackages [recast-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recast_atlas-0.2.0.tar.gz tmp/recast_atlas-0.3.0.tar.gz --markdown 20230705/r/recast-atlas/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-05 07:40:35] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-07-05 07:40:35] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-0.1.4.tar.gz tmp/pycrawlers-1.0.0.tar.gz --markdown 20230705/p/pycrawlers/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 07:40:35] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-05 07:40:35] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-05 07:40:35] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-05 07:40:36] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-0.1.4.tar.gz]
+[2023-07-05 07:40:36] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.0.tar.gz]
+[2023-07-05 07:40:36] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-07-05 07:40:36] INFO root fetch - processPackages [recast-atlas]: Remove: archive file [/home/abi/fetcher/tmp/recast_atlas-0.2.0.tar.gz]
+[2023-07-05 07:40:36] INFO root fetch - processPackages [recast-atlas]: Remove: archive file [/home/abi/fetcher/tmp/recast_atlas-0.3.0.tar.gz]
+[2023-07-05 07:40:36] INFO root fetch - main [MainThread]: End processing [recast-atlas]: success
+[2023-07-05 07:40:36] INFO root fetch - main [MainThread]: Store serial: [18763124]
