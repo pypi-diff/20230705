@@ -4872,3 +4872,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 02:50:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202307040046-py3-none-any.whl.zip]
 [2023-07-05 02:50:21] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-05 02:50:21] INFO root fetch - main [MainThread]: Store serial: [18761661]
+[2023-07-05 02:55:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761661]
+[2023-07-05 02:55:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: t265
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adeso
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision6D
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycde
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-fluent-core
+[2023-07-05 02:55:29] WARNING root fetch - processPackages [t265]: Skipping, unable to determine old version
+[2023-07-05 02:55:29] INFO root fetch - main [MainThread]: End processing [t265] error
+[2023-07-05 02:55:29] INFO root fetch - processPackages [adeso]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-05 02:55:29] INFO root fetch - processPackages [NikGapps]: New version: [1.54] Old Version: [1.53]
+[2023-07-05 02:55:29] INFO root fetch - processPackages [vision6D]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 02:55:29] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev881]
+[2023-07-05 02:55:29] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 02:55:29] INFO root fetch - processPackages [adeso]: Downloading https://files.pythonhosted.org/packages/9d/9a/7395d831fcd74835726a45a220b404c71e0cead7287a40a846ede01c9b2d/adeso-0.0.2.tar.gz
+[2023-07-05 02:55:29] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.16.dev2] Old Version: [0.16.dev1]
+[2023-07-05 02:55:29] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/8b/a9/3197aac3462488811da7fee6e18ffa933560b78a86a1fd1fedaccf044c51/NikGapps-1.53.tar.gz
+[2023-07-05 02:55:29] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-05 02:55:29] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/58/3f/cf579ee606d9f57ef56b67fd07a314cefa38c7b177ea09e2d6d38f6fa2fa/pycde-0.2.1.dev881-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 02:55:29] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/fd/3d/4bb8fa15d04a854f6e285754d73012911604f1d681be166883058d96ef94/vision6D-0.2.8.tar.gz
+[2023-07-05 02:55:30] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564349>=10485760
+[2023-07-05 02:55:30] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-05 02:55:30] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/5e/bb/fc357fc845def626f4fd35dddae9c4efe751f38e4d0aa5543334148f99a6/ansys-fluent-core-0.16.dev1.tar.gz
+[2023-07-05 02:55:30] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13470733>=10485760
+[2023-07-05 02:55:30] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-07-05 02:55:30] INFO root fetch - processPackages [adeso]: Downloading https://files.pythonhosted.org/packages/61/5b/2ef468d73da17df9ed77dfd2514e44de49ccae103ce32877466a85288431/adeso-0.0.4.tar.gz
+[2023-07-05 02:55:30] INFO root fetch - processPackages [vision6D]: Downloading https://files.pythonhosted.org/packages/36/74/5213784ea3bc109c900b44101e5eba791ef9d29e12f4d37cbc345b0f7bdd/vision6D-0.2.9.tar.gz
+[2023-07-05 02:55:30] INFO root fetch - processPackages [adeso]: executing diffoscope
+[2023-07-05 02:55:30] INFO root fetch - processPackages [adeso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adeso-0.0.2.tar.gz tmp/adeso-0.0.4.tar.gz --markdown 20230705/a/adeso/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 02:55:30] INFO root fetch - processPackages [vision6D]: executing diffoscope
+[2023-07-05 02:55:30] INFO root fetch - processPackages [vision6D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision6D-0.2.8.tar.gz tmp/vision6D-0.2.9.tar.gz --markdown 20230705/v/vision6D/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 02:55:30] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-05 02:55:30] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-05 02:55:30] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/e2/48/ad77f92bafe4a265338bcb7032f349a2517c2784725db17d30991058e74e/ansys-fluent-core-0.16.dev2.tar.gz
+[2023-07-05 02:55:31] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-07-05 02:55:31] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.16.dev1.tar.gz tmp/ansys-fluent-core-0.16.dev2.tar.gz --markdown 20230705/a/ansys-fluent-core/0.16.dev1-0.16.dev2/diff.md --exclude *.pyd
+[2023-07-05 02:55:31] INFO root fetch - processPackages [adeso]: Remove: archive file [/home/abi/fetcher/tmp/adeso-0.0.2.tar.gz]
+[2023-07-05 02:55:31] INFO root fetch - processPackages [adeso]: Remove: archive file [/home/abi/fetcher/tmp/adeso-0.0.4.tar.gz]
+[2023-07-05 02:55:31] INFO root fetch - main [MainThread]: End processing [adeso]: success
+[2023-07-05 02:55:31] INFO root fetch - processPackages [vision6D]: Remove: archive file [/home/abi/fetcher/tmp/vision6D-0.2.8.tar.gz]
+[2023-07-05 02:55:31] INFO root fetch - processPackages [vision6D]: Remove: archive file [/home/abi/fetcher/tmp/vision6D-0.2.9.tar.gz]
+[2023-07-05 02:55:31] INFO root fetch - main [MainThread]: End processing [vision6D]: success
+[2023-07-05 02:58:03] INFO root fetch - processPackages [ansys-fluent-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys-fluent-core-0.16.dev1.tar.gz]
+[2023-07-05 02:58:03] INFO root fetch - processPackages [ansys-fluent-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys-fluent-core-0.16.dev2.tar.gz]
+[2023-07-05 02:58:03] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core]: success
+[2023-07-05 02:58:03] INFO root fetch - main [MainThread]: Store serial: [18761684]
