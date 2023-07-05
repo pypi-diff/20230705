@@ -11896,3 +11896,165 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 10:30:04] INFO root fetch - processPackages [pokers]: Remove: archive file [/home/abi/fetcher/tmp/pokers-0.1.1.tar.gz]
 [2023-07-05 10:30:04] INFO root fetch - main [MainThread]: End processing [pokers]: success
 [2023-07-05 10:30:04] INFO root fetch - main [MainThread]: Store serial: [18764549]
+[2023-07-05 10:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764549]
+[2023-07-05 10:35:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: common-pyutil
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wowipy
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hr-attendance-report-theoretical-time
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherlockpipe
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rishabh12-1
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickverifyimg
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandit
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sj-tool
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bx-django-utils
+[2023-07-05 10:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-financial-risk
+[2023-07-05 10:35:15] INFO root fetch - processPackages [common-pyutil]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1.2]
+[2023-07-05 10:35:15] WARNING root fetch - processPackages [rishabh12-1]: Skipping, unable to determine old version
+[2023-07-05 10:35:15] INFO root fetch - processPackages [rishabh12-1]: Start processing: dreams
+[2023-07-05 10:35:15] INFO root fetch - main [MainThread]: End processing [rishabh12-1] error
+[2023-07-05 10:35:15] INFO root fetch - processPackages [wowipy]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [quickverifyimg]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.5.1]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [pandit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [bx-django-utils]: New version: [9] Old Version: [8]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [dreams]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-05 10:35:15] INFO root fetch - processPackages [quickverifyimg]: Downloading https://files.pythonhosted.org/packages/d6/29/64a4df0b646aa50061f0fcb127d63995a3d2320b0266576e960b2ebb7467/quickverifyimg-1.0.7.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: Downloading https://files.pythonhosted.org/packages/ac/d1/ce542e45d2982740cfded942a4f2c1c883b630398e83bc67067070f45d6f/odoo_addon_hr_attendance_report_theoretical_time-15.0.1.1.1.2-py3-none-any.whl
+[2023-07-05 10:35:15] INFO root fetch - processPackages [pandit]: Downloading https://files.pythonhosted.org/packages/a3/97/e4af6869987b458713d0e728dc42e883a059a76d6c8f37293c9b3b20f547/pandit-0.0.8.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 10:35:15] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/42/ce/b627778b6e117451ecff2386567ca4847bcefa1cc459307e87fd4fef8880/wowipy-1.1.5.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [common-pyutil]: Downloading https://files.pythonhosted.org/packages/04/f3/af1fcde7e15f2074703689a7f6343764d99a113c579e7cb925c3fb9a51ab/common-pyutil-0.8.6.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/1e/0c/ff3d5a5c26c498b48bf149a2a08540a5812c585c9bfb59f4e303198aa123/bx_django_utils-8.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [dreams]: Downloading https://files.pythonhosted.org/packages/d5/77/02a7f8e6960a58875411b3c4d2115d446e10e0fd133e74bb8dfb89be40b4/dreams-0.3.7-py3.10.egg
+[2023-07-05 10:35:15] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/29/92/ebfb96db4191c68e4a5fded096dd0861c73f5285eca829694280423d3bc2/odoo_addon_account_financial_risk-15.0.1.5.1-py3-none-any.whl
+[2023-07-05 10:35:15] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 10:35:15] INFO root fetch - processPackages [quickverifyimg]: Downloading https://files.pythonhosted.org/packages/20/bc/63f85b0482ae490c7feae13404c2a85d741f844e6d0bcd1c3489ad0aec15/quickverifyimg-1.0.8.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [pandit]: Downloading https://files.pythonhosted.org/packages/86/cc/3449e4b017ccc9c6d942aabc9f38d585e3cb0852db64ac261f2ffd600fa9/pandit-0.0.9.tar.gz
+[2023-07-05 10:35:15] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: Downloading https://files.pythonhosted.org/packages/86/62/af2eb669d05fbb9037bc21ff2a9777152a70f088b1a95cafac48f9d77cff/odoo_addon_hr_attendance_report_theoretical_time-15.0.1.1.2-py3-none-any.whl
+[2023-07-05 10:35:16] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/07/06/7e13f21980ace4ff011c14df393b40e540414458dcc404767bc8a3779a84/wowipy-1.1.6.tar.gz
+[2023-07-05 10:35:16] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [quickverifyimg]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [quickverifyimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickverifyimg-1.0.7.tar.gz tmp/quickverifyimg-1.0.8.tar.gz --markdown 20230705/q/quickverifyimg/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [pandit]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [pandit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandit-0.0.8.tar.gz tmp/pandit-0.0.9.tar.gz --markdown 20230705/p/pandit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/2b/63/3e7d67b2f7c3cbfbf0e086e97103b8d3e82088f05b5c20e488922c2fe0f7/bx_django_utils-9.tar.gz
+[2023-07-05 10:35:16] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_attendance_report_theoretical_time-15.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_hr_attendance_report_theoretical_time-15.0.1.1.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-hr-attendance-report-theoretical-time/15.0.1.1.1.2-15.0.1.1.2/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [common-pyutil]: Downloading https://files.pythonhosted.org/packages/71/c5/4e91c57981e4433a6314705de8964a024ce6826707d88ae5683390d19298/common-pyutil-0.8.7.tar.gz
+[2023-07-05 10:35:16] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-1.1.5.tar.gz tmp/wowipy-1.1.6.tar.gz --markdown 20230705/w/wowipy/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [dreams]: Downloading https://files.pythonhosted.org/packages/68/99/f8f1edd4be36822bcc9eb9fba73eaa4e37a2ccfc2effe8bbb2d8b26f2af2/dreams-0.3.9-py3-none-any.whl
+[2023-07-05 10:35:16] INFO root fetch - processPackages [bx-django-utils]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [bx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_django_utils-8.tar.gz tmp/bx_django_utils-9.tar.gz --markdown 20230705/b/bx-django-utils/8-9/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [common-pyutil]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [common-pyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-pyutil-0.8.6.tar.gz tmp/common-pyutil-0.8.7.tar.gz --markdown 20230705/c/common-pyutil/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/21/4d/ff82bbad0e3b1a02832f52aa7f59bde6d5c5dc187273e6de02ec54aebe3b/odoo_addon_account_financial_risk-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 10:35:16] INFO root fetch - processPackages [dreams]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [dreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreams-0.3.7-py3.10.egg tmp/dreams-0.3.9-py3-none-any.whl.zip --markdown 20230705/d/dreams/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2023-07-05 10:35:16] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_risk-15.0.1.5.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_risk-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-account-financial-risk/15.0.1.5.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-05 10:35:16] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-07-05 10:35:16] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230705/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-05 10:35:18] INFO root fetch - processPackages [pandit]: Remove: archive file [/home/abi/fetcher/tmp/pandit-0.0.8.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [pandit]: Remove: archive file [/home/abi/fetcher/tmp/pandit-0.0.9.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [pandit]: Start processing: dreams
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [pandit]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [quickverifyimg]: Remove: archive file [/home/abi/fetcher/tmp/quickverifyimg-1.0.7.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [quickverifyimg]: Remove: archive file [/home/abi/fetcher/tmp/quickverifyimg-1.0.8.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [quickverifyimg]: Start processing: equinox
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [quickverifyimg]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [dreams]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sj-tool]: Start processing: prefect-earthdata
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [equinox]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.5.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.6.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [wowipy]: Start processing: mmpretrain
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [mmpretrain]: New version: [1.0.0rc8] Old Version: [1.0.0rc7]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_attendance_report_theoretical_time-15.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_attendance_report_theoretical_time-15.0.1.1.2-py3-none-any.whl.zip]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [odoo-addon-hr-attendance-report-theoretical-time]: Start processing: castor-extractor
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-attendance-report-theoretical-time]: success
+[2023-07-05 10:35:18] WARNING root fetch - processPackages [prefect-earthdata]: Skipping, unable to determine old version
+[2023-07-05 10:35:18] INFO root fetch - processPackages [prefect-earthdata]: Start processing: sinol-make
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [prefect-earthdata] error
+[2023-07-05 10:35:18] INFO root fetch - processPackages [dreams]: executing diffoscope
+[2023-07-05 10:35:18] INFO root fetch - processPackages [dreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreams-0.3.7-py3.10.egg tmp/dreams-0.3.9-py3-none-any.whl.zip --markdown 20230705/d/dreams/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 10:35:18] INFO root fetch - processPackages [equinox]: Downloading https://files.pythonhosted.org/packages/0e/84/68bfc44830cc6e8dd5dc0e623c20f53553beaebd225130e0bf4b11cba22d/equinox-0.9.1.tar.gz
+[2023-07-05 10:35:18] INFO root fetch - processPackages [common-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/common-pyutil-0.8.6.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [common-pyutil]: Remove: archive file [/home/abi/fetcher/tmp/common-pyutil-0.8.7.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [common-pyutil]: Start processing: pqinput
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [common-pyutil]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [castor-extractor]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-8.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-9.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [bx-django-utils]: Start processing: hcs-cli
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [bx-django-utils]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sinol-make]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/7a/e4/5108fdb40c7658cce3d84ca25961f597914ead8bde14f889b954beef6877/castor_extractor-0.4.1.tar.gz
+[2023-07-05 10:35:18] INFO root fetch - processPackages [pqinput]: New version: [0.0.5] Old Version: [0.0.406]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [mmpretrain]: Downloading https://files.pythonhosted.org/packages/48/ea/1bfab849f64d27783f0cbcc75646df54d08c70d59de6e4aa5cf6da5141a4/mmpretrain-1.0.0rc7.tar.gz
+[2023-07-05 10:35:18] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.37] Old Version: [0.1.36]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [dreams]: Remove: archive file [/home/abi/fetcher/tmp/dreams-0.3.7-py3.10.egg]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [dreams]: Remove: archive file [/home/abi/fetcher/tmp/dreams-0.3.9-py3-none-any.whl.zip]
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [dreams]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/ac/33/5a68d6724b64f761b94740b0524d4d6f9e0d76747ba536c69f10906161e7/pqinput-0.0.406.tar.gz
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.6.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
+[2023-07-05 10:35:18] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-07-05 10:35:18] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/ac/55/a3d9bded094cf1ad96b8ce08ecd0ba2629e3bfa06d320f3be54b8ec29ceb/sinol-make-1.1.2.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/d9/54/305beff8f9813083125a89c4d44df6a17cf900ff957725659cccdd444d18/castor_extractor-0.5.0.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [equinox]: Downloading https://files.pythonhosted.org/packages/4d/1d/6a9ce6e7aa3e1286459ae80e5c81dfad0a455351ecc566b02cd493686370/equinox-0.9.2.tar.gz
+[2023-07-05 10:35:19] ERROR root fetch - processPackages [dreams]: Diffoscope failed: time="2023-07-05T10:35:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/dreams-0.3.7-py3.10.egg: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/dreams-0.3.9-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-05 10:35:19] INFO root fetch - main [MainThread]: End processing [dreams] error
+[2023-07-05 10:35:19] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2023-07-05 10:35:19] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.4.1.tar.gz tmp/castor_extractor-0.5.0.tar.gz --markdown 20230705/c/castor-extractor/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 10:35:19] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/22/b9/bb42e1f5df356ad72fe6b2dfe97735d2910b18fe70b357ebb27fc6fde764/hcs-cli-0.1.36.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_risk-15.0.1.5.1-py3-none-any.whl.zip]
+[2023-07-05 10:35:19] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_risk-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 10:35:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-risk]: success
+[2023-07-05 10:35:19] INFO root fetch - processPackages [sinol-make]: Downloading https://files.pythonhosted.org/packages/5c/66/03432d0279c59e41d674e4afc8ad75c0de19f686a292d15d523cb1149594/sinol-make-1.2.0.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [mmpretrain]: Downloading https://files.pythonhosted.org/packages/ef/45/38d846dd6d25d1d6465e4368a07390909cc08a1001979cf78b29130f5064/mmpretrain-1.0.0rc8.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/74/28/0a47eb8953e25de93f5e72aa16c016701c4cd62127e0e20171232afa4371/pqinput-0.0.5.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [sinol-make]: executing diffoscope
+[2023-07-05 10:35:19] INFO root fetch - processPackages [sinol-make]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinol-make-1.1.2.tar.gz tmp/sinol-make-1.2.0.tar.gz --markdown 20230705/s/sinol-make/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 10:35:19] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-07-05 10:35:19] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.406.tar.gz tmp/pqinput-0.0.5.tar.gz --markdown 20230705/p/pqinput/0.0.406-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 10:35:19] INFO root fetch - processPackages [mmpretrain]: executing diffoscope
+[2023-07-05 10:35:19] INFO root fetch - processPackages [mmpretrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmpretrain-1.0.0rc7.tar.gz tmp/mmpretrain-1.0.0rc8.tar.gz --markdown 20230705/m/mmpretrain/1.0.0rc7-1.0.0rc8/diff.md --exclude *.pyd
+[2023-07-05 10:35:19] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/7f/8b/db03966301204ba46c141ab64f6e3dceac73a1d54f84c7e6468b6490197d/hcs-cli-0.1.37.tar.gz
+[2023-07-05 10:35:19] INFO root fetch - processPackages [equinox]: executing diffoscope
+[2023-07-05 10:35:19] INFO root fetch - processPackages [equinox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equinox-0.9.1.tar.gz tmp/equinox-0.9.2.tar.gz --markdown 20230705/e/equinox/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 10:35:19] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-07-05 10:35:19] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.36.tar.gz tmp/hcs-cli-0.1.37.tar.gz --markdown 20230705/h/hcs-cli/0.1.36-0.1.37/diff.md --exclude *.pyd
+[2023-07-05 10:35:20] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.406.tar.gz]
+[2023-07-05 10:35:20] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.5.tar.gz]
+[2023-07-05 10:35:20] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-07-05 10:35:20] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.1.2.tar.gz]
+[2023-07-05 10:35:20] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.2.0.tar.gz]
+[2023-07-05 10:35:20] INFO root fetch - main [MainThread]: End processing [sinol-make]: success
+[2023-07-05 10:35:21] INFO root fetch - processPackages [equinox]: Remove: archive file [/home/abi/fetcher/tmp/equinox-0.9.1.tar.gz]
+[2023-07-05 10:35:21] INFO root fetch - processPackages [equinox]: Remove: archive file [/home/abi/fetcher/tmp/equinox-0.9.2.tar.gz]
+[2023-07-05 10:35:21] INFO root fetch - main [MainThread]: End processing [equinox]: success
+[2023-07-05 10:35:21] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.4.1.tar.gz]
+[2023-07-05 10:35:21] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.5.0.tar.gz]
+[2023-07-05 10:35:21] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2023-07-05 10:35:21] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.36.tar.gz]
+[2023-07-05 10:35:21] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.37.tar.gz]
+[2023-07-05 10:35:21] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-07-05 10:35:27] INFO root fetch - processPackages [mmpretrain]: Remove: archive file [/home/abi/fetcher/tmp/mmpretrain-1.0.0rc7.tar.gz]
+[2023-07-05 10:35:27] INFO root fetch - processPackages [mmpretrain]: Remove: archive file [/home/abi/fetcher/tmp/mmpretrain-1.0.0rc8.tar.gz]
+[2023-07-05 10:35:27] INFO root fetch - main [MainThread]: End processing [mmpretrain]: success
+[2023-07-05 10:35:27] INFO root fetch - main [MainThread]: Store serial: [18764620]
