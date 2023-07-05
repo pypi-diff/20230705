@@ -8019,3 +8019,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:38:04] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.0.tar.gz]
 [2023-07-05 06:38:04] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-07-05 06:38:04] INFO root fetch - main [MainThread]: Store serial: [18762889]
+[2023-07-05 06:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762889]
+[2023-07-05 06:43:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-macos
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laconiq
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alanapy
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: breidablik
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nemseer
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kivalu
+[2023-07-05 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-purchase-all-shipments
+[2023-07-05 06:43:15] INFO root fetch - processPackages [laconiq]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-05 06:43:15] INFO root fetch - processPackages [alanapy]: New version: [0.9] Old Version: [0.10]
+[2023-07-05 06:43:15] INFO root fetch - processPackages [kivalu]: New version: [0.23.0] Old Version: [0.22.0]
+[2023-07-05 06:43:15] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: New version: [13.0.1.0.1.dev4] Old Version: [13.0.1.0.1.dev3]
+[2023-07-05 06:43:15] INFO root fetch - processPackages [breidablik]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 06:43:15] INFO root fetch - processPackages [nemseer]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-05 06:43:15] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230704] Old Version: [2.14.0.dev20230703]
+[2023-07-05 06:43:16] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/a8/6e/d40e1579901e4eab847a1c6197eabe1ab903efec85657af3fd00a4f14ff9/alanapy-0.10.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [laconiq]: Downloading https://files.pythonhosted.org/packages/b0/0d/4bb7079d303024c8f9792bded3d1299712866efeb6c03f9966f2135d2715/laconiq-0.1.0.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [kivalu]: Downloading https://files.pythonhosted.org/packages/a2/35/f5d89d7e7b342696eb5433268a7ed675e345ca0401c68e4e624e2efe602a/kivalu-0.22.0.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: Downloading https://files.pythonhosted.org/packages/9c/55/e107e897f73fa15e43bcb378bef5b0d8d3875c1f3529ddafb9c4a7c5e1be/odoo13_addon_purchase_all_shipments-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-05 06:43:16] INFO root fetch - processPackages [breidablik]: Downloading https://files.pythonhosted.org/packages/38/fe/ebf1e39ed31f03fbe66222908fe56084b4481e7b8dda515c3ac724692142/breidablik-1.0.0.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [nemseer]: Downloading https://files.pythonhosted.org/packages/91/d9/ba96155df2f17c542593f80985f91dd2354b739f02324b652aec2250a2d6/nemseer-1.0.4.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/a1/1c/6aaa7ef1ebe0b4116dbf6d0ebdfbe9ab5bafbd63be8b01a1a7faab2cfa46/tf_nightly_macos-2.14.0.dev20230703-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-05 06:43:16] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199620550>=10485760
+[2023-07-05 06:43:16] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-05 06:43:16] INFO root fetch - processPackages [laconiq]: Downloading https://files.pythonhosted.org/packages/fa/97/d9e1f4bc442f6c2bc26204c670ec98163b3504ca93f709895ee054433742/laconiq-0.2.0.tar.gz
+[2023-07-05 06:43:16] WARNING root fetch - processPackages [breidablik]: Skipping package: exceeds size limit 58869978>=10485760
+[2023-07-05 06:43:16] INFO root fetch - main [MainThread]: End processing [breidablik] error
+[2023-07-05 06:43:16] INFO root fetch - processPackages [laconiq]: executing diffoscope
+[2023-07-05 06:43:16] INFO root fetch - processPackages [laconiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laconiq-0.1.0.tar.gz tmp/laconiq-0.2.0.tar.gz --markdown 20230705/l/laconiq/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 06:43:16] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/2c/33/fa7118279782bd920d77fd7b293dbfdab5a7c1650c71e2360020b096068a/alanapy-0.9.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [kivalu]: Downloading https://files.pythonhosted.org/packages/e2/8f/8cb276fb50611b35a90fd9240ca38e3f84d078d5e391a929369947f4bcc5/kivalu-0.23.0.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: Downloading https://files.pythonhosted.org/packages/a1/b4/cfcce6c2b733479c6c78dda17d9724f0a3fba5974078a0d4e6a05754cafa/odoo13_addon_purchase_all_shipments-13.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-05 06:43:16] INFO root fetch - processPackages [nemseer]: Downloading https://files.pythonhosted.org/packages/19/c5/11698b4629e20a0f69624ee19f49bb4c5a7c223a97983c83dfec042c10ea/nemseer-1.0.5.tar.gz
+[2023-07-05 06:43:16] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-07-05 06:43:16] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.10.tar.gz tmp/alanapy-0.9.tar.gz --markdown 20230705/a/alanapy/0.10-0.9/diff.md --exclude *.pyd
+[2023-07-05 06:43:16] INFO root fetch - processPackages [kivalu]: executing diffoscope
+[2023-07-05 06:43:16] INFO root fetch - processPackages [kivalu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivalu-0.22.0.tar.gz tmp/kivalu-0.23.0.tar.gz --markdown 20230705/k/kivalu/0.22.0-0.23.0/diff.md --exclude *.pyd
+[2023-07-05 06:43:16] INFO root fetch - processPackages [nemseer]: executing diffoscope
+[2023-07-05 06:43:16] INFO root fetch - processPackages [nemseer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemseer-1.0.4.tar.gz tmp/nemseer-1.0.5.tar.gz --markdown 20230705/n/nemseer/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-05 06:43:16] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: executing diffoscope
+[2023-07-05 06:43:16] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_all_shipments-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_purchase_all_shipments-13.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230705/o/odoo13-addon-purchase-all-shipments/13.0.1.0.1.dev3-13.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-07-05 06:43:17] INFO root fetch - processPackages [laconiq]: Remove: archive file [/home/abi/fetcher/tmp/laconiq-0.1.0.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - processPackages [laconiq]: Remove: archive file [/home/abi/fetcher/tmp/laconiq-0.2.0.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - main [MainThread]: End processing [laconiq]: success
+[2023-07-05 06:43:17] INFO root fetch - processPackages [kivalu]: Remove: archive file [/home/abi/fetcher/tmp/kivalu-0.22.0.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - processPackages [kivalu]: Remove: archive file [/home/abi/fetcher/tmp/kivalu-0.23.0.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - main [MainThread]: End processing [kivalu]: success
+[2023-07-05 06:43:17] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.10.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.9.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-07-05 06:43:17] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_all_shipments-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-05 06:43:17] INFO root fetch - processPackages [odoo13-addon-purchase-all-shipments]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_all_shipments-13.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-05 06:43:17] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-all-shipments]: success
+[2023-07-05 06:43:17] INFO root fetch - processPackages [nemseer]: Remove: archive file [/home/abi/fetcher/tmp/nemseer-1.0.4.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - processPackages [nemseer]: Remove: archive file [/home/abi/fetcher/tmp/nemseer-1.0.5.tar.gz]
+[2023-07-05 06:43:17] INFO root fetch - main [MainThread]: End processing [nemseer]: success
+[2023-07-05 06:43:17] INFO root fetch - main [MainThread]: Store serial: [18762911]
