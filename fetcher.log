@@ -9368,3 +9368,150 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 08:33:30] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230705.tar.gz]
 [2023-07-05 08:33:30] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-05 08:33:30] INFO root fetch - main [MainThread]: Store serial: [18763338]
+[2023-07-05 08:38:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763338]
+[2023-07-05 08:38:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fc-client
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jetson-adapter-pkg
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fc-client-docker
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-serve
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fc-guarder
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fc-server
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyroll-core
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazyearth
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neutone-sdk
+[2023-07-05 08:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cannlytics
+[2023-07-05 08:38:42] WARNING root fetch - processPackages [fc-client-docker]: Skipping, unable to determine old version
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-client-docker]: Start processing: base-django-rest-framework
+[2023-07-05 08:38:42] INFO root fetch - main [MainThread]: End processing [fc-client-docker] error
+[2023-07-05 08:38:42] INFO root fetch - processPackages [pyroll-core]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-client]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [cannlytics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-guarder]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [jetson-adapter-pkg]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [neutone-sdk]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-server]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-05 08:38:42] WARNING root fetch - processPackages [base-django-rest-framework]: Skipping, unable to determine old version
+[2023-07-05 08:38:42] INFO root fetch - processPackages [base-django-rest-framework]: Start processing: alpyvantage
+[2023-07-05 08:38:42] INFO root fetch - main [MainThread]: End processing [base-django-rest-framework] error
+[2023-07-05 08:38:42] WARNING root fetch - processPackages [alpyvantage]: Skipping, unable to determine old version
+[2023-07-05 08:38:42] INFO root fetch - processPackages [alpyvantage]: Start processing: openml
+[2023-07-05 08:38:42] INFO root fetch - main [MainThread]: End processing [alpyvantage] error
+[2023-07-05 08:38:42] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [openml]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 08:38:42] INFO root fetch - processPackages [pyroll-core]: Downloading https://files.pythonhosted.org/packages/90/ea/e46b4c2904f2527a5409395b2bd931448673864865e068f037c8c3f95124/pyroll_core-2.0.2.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/0b/de/9f31ecf1088ee6f9badc4f7bd235a27881313c9c26def26c235788ec8b4a/fc-client-0.5.1.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/2f/52/7ebee6d08d2f29e12a6e4e5b4ca88ec72d13ba0d42d6593cdf05f96636bb/fc-server-0.5.1.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/e9/f5/23b9455cf66a24ea8eb4c373fdb58d70540ea556b963e0da32ec1864e040/fc-guarder-0.5.1.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [neutone-sdk]: Downloading https://files.pythonhosted.org/packages/a0/4f/c667ca9b7d1abb3122b2fe485e1b9581867bf4f8394c3b043176013338d1/neutone_sdk-1.2.1.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [cannlytics]: Downloading https://files.pythonhosted.org/packages/ce/d3/542e29184055b79615995fd860007852a431a15c2f855a8f4f0ea220e020/cannlytics-0.0.8.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [jetson-adapter-pkg]: Downloading https://files.pythonhosted.org/packages/f2/9b/d806dec5845da08db4eb40f4c415a99029448d932ac57dbf9e4f44df6991/jetson-adapter-pkg-0.9.4.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [openml]: Downloading https://files.pythonhosted.org/packages/ba/21/935418159e4862d1f7a5e34eb6308b675d60060c957248f8a308fe39e15b/openml-0.8.0.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-07-05 08:38:42] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-05 08:38:42] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230705/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [pyroll-core]: Downloading https://files.pythonhosted.org/packages/80/5c/7e911f1a620e8b05b8167d272b479d8cc0858291322c584580c40a1e755e/pyroll_core-2.0.3.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-client]: Downloading https://files.pythonhosted.org/packages/b7/7c/14cdfe06ddf49a746a6614cb328511267ef302b9caf881ed8f443ba7d5f1/fc-client-0.6.0.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230705/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-guarder]: Downloading https://files.pythonhosted.org/packages/d5/ac/4547a6a7a4e7bea8bf0d21b069da5b09607af718110cd6004856aacaf4e3/fc-guarder-0.6.0.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [neutone-sdk]: Downloading https://files.pythonhosted.org/packages/f4/47/fd022b98a476df4611e6b588f6101ce0beffe9871f9eaaa2d2df895ae88b/neutone_sdk-1.3.0.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [cannlytics]: Downloading https://files.pythonhosted.org/packages/84/c6/11180ccbc40c0fbc3138c573e420a962174a30d5fe93aa43639246ae7acd/cannlytics-0.0.9.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [jetson-adapter-pkg]: Downloading https://files.pythonhosted.org/packages/72/00/a891658f9a46b96ef65fd6ff67fcff3ef56950599664ca5d47df029b4f81/jetson_adapter_pkg-0.9.5-py3-none-any.whl
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-server]: Downloading https://files.pythonhosted.org/packages/54/5e/24d42adf1d09f11a22f8155ce34ee9e9c01f98592af0d993855ae427bd54/fc-server-0.6.0.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-client]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-client-0.5.1.tar.gz tmp/fc-client-0.6.0.tar.gz --markdown 20230705/f/fc-client/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [pyroll-core]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [pyroll-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroll_core-2.0.2.tar.gz tmp/pyroll_core-2.0.3.tar.gz --markdown 20230705/p/pyroll-core/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-guarder]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-guarder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-guarder-0.5.1.tar.gz tmp/fc-guarder-0.6.0.tar.gz --markdown 20230705/f/fc-guarder/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [openml]: Downloading https://files.pythonhosted.org/packages/d6/36/4b733c0b76b5e2716d2b281b62bc6e4c8986032e5d00ab14595afd71383f/openml-0.9.0.tar.gz
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-server]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [fc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fc-server-0.5.1.tar.gz tmp/fc-server-0.6.0.tar.gz --markdown 20230705/f/fc-server/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [cannlytics]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [cannlytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cannlytics-0.0.8.tar.gz tmp/cannlytics-0.0.9.tar.gz --markdown 20230705/c/cannlytics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [jetson-adapter-pkg]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [jetson-adapter-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson-adapter-pkg-0.9.4.tar.gz tmp/jetson_adapter_pkg-0.9.5-py3-none-any.whl.zip --markdown 20230705/j/jetson-adapter-pkg/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [neutone-sdk]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [neutone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutone_sdk-1.2.1.tar.gz tmp/neutone_sdk-1.3.0.tar.gz --markdown 20230705/n/neutone-sdk/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:43] INFO root fetch - processPackages [openml]: executing diffoscope
+[2023-07-05 08:38:43] INFO root fetch - processPackages [openml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openml-0.8.0.tar.gz tmp/openml-0.9.0.tar.gz --markdown 20230705/o/openml/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:44] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [lazyearth]: Start processing: mxcubeweb
+[2023-07-05 08:38:44] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-07-05 08:38:44] INFO root fetch - processPackages [mxcubeweb]: New version: [1.55.0] Old Version: [1.54.0]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.5.1.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [fc-client]: Remove: archive file [/home/abi/fetcher/tmp/fc-client-0.6.0.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [fc-client]: Start processing: rele
+[2023-07-05 08:38:44] INFO root fetch - main [MainThread]: End processing [fc-client]: success
+[2023-07-05 08:38:44] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/2f/6f/f86330b9572ac57d2575b4118abf12a481dca0df6e5596acca0b11d9b173/mxcubeweb-1.54.0.tar.gz
+[2023-07-05 08:38:44] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.5.1.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [fc-guarder]: Remove: archive file [/home/abi/fetcher/tmp/fc-guarder-0.6.0.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [fc-guarder]: Start processing: thirdai
+[2023-07-05 08:38:44] INFO root fetch - main [MainThread]: End processing [fc-guarder]: success
+[2023-07-05 08:38:44] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [langchain-serve]: Start processing: pymini
+[2023-07-05 08:38:44] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-05 08:38:44] INFO root fetch - processPackages [pymini]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [jetson-adapter-pkg]: Remove: archive file [/home/abi/fetcher/tmp/jetson-adapter-pkg-0.9.4.tar.gz]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [jetson-adapter-pkg]: Remove: archive file [/home/abi/fetcher/tmp/jetson_adapter_pkg-0.9.5-py3-none-any.whl.zip]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [jetson-adapter-pkg]: Start processing: code-var
+[2023-07-05 08:38:44] INFO root fetch - main [MainThread]: End processing [jetson-adapter-pkg]: success
+[2023-07-05 08:38:44] INFO root fetch - processPackages [rele]: New version: [1.9.0] Old Version: [1.8.1b0]
+[2023-07-05 08:38:44] INFO root fetch - processPackages [code-var]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 08:38:45] INFO root fetch - processPackages [pymini]: Downloading https://files.pythonhosted.org/packages/64/f6/5977e51101180cc13f4d0a762245a0b66eba57a0ab8c760cea454ff6a915/pymini-0.1.0.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.5.1.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - processPackages [fc-server]: Remove: archive file [/home/abi/fetcher/tmp/fc-server-0.6.0.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - main [MainThread]: End processing [fc-server]: success
+[2023-07-05 08:38:45] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/af/c5/1d2fe4cdfa79835b03d5d636ed4ab2d805ca22386efa668c24824049209b/rele-1.8.1b0.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2023-07-05 08:38:45] INFO root fetch - processPackages [code-var]: Downloading https://files.pythonhosted.org/packages/cb/ca/25d13a985073ab911ec22897512c4b726b97706112f5307e1ba364e1ac8e/code_var-0.1.1.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [neutone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/neutone_sdk-1.2.1.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - processPackages [neutone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/neutone_sdk-1.3.0.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - main [MainThread]: End processing [neutone-sdk]: success
+[2023-07-05 08:38:45] INFO root fetch - processPackages [cannlytics]: Remove: archive file [/home/abi/fetcher/tmp/cannlytics-0.0.8.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - processPackages [cannlytics]: Remove: archive file [/home/abi/fetcher/tmp/cannlytics-0.0.9.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - main [MainThread]: End processing [cannlytics]: success
+[2023-07-05 08:38:45] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/df/08/c61576c3f8a14953f964758208b006b218bae9132766922351c1fd83ad81/mxcubeweb-1.55.0.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [pyroll-core]: Remove: archive file [/home/abi/fetcher/tmp/pyroll_core-2.0.2.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - processPackages [pyroll-core]: Remove: archive file [/home/abi/fetcher/tmp/pyroll_core-2.0.3.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - main [MainThread]: End processing [pyroll-core]: success
+[2023-07-05 08:38:45] INFO root fetch - processPackages [pymini]: Downloading https://files.pythonhosted.org/packages/d3/bc/877d784117ffd54fbd1b5fa12025303b60b3845ab649786e2dca5d0843c8/pymini-0.1.1.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2023-07-05 08:38:45] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-1.54.0.tar.gz tmp/mxcubeweb-1.55.0.tar.gz --markdown 20230705/m/mxcubeweb/1.54.0-1.55.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:45] INFO root fetch - processPackages [openml]: Remove: archive file [/home/abi/fetcher/tmp/openml-0.8.0.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - processPackages [openml]: Remove: archive file [/home/abi/fetcher/tmp/openml-0.9.0.tar.gz]
+[2023-07-05 08:38:45] INFO root fetch - main [MainThread]: End processing [openml]: success
+[2023-07-05 08:38:45] INFO root fetch - processPackages [pymini]: executing diffoscope
+[2023-07-05 08:38:45] INFO root fetch - processPackages [pymini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymini-0.1.0.tar.gz tmp/pymini-0.1.1.tar.gz --markdown 20230705/p/pymini/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 08:38:45] INFO root fetch - processPackages [code-var]: Downloading https://files.pythonhosted.org/packages/25/37/eefcf5975328d16772f015f1ef7f1c5f59d9eb2b79bc96dabe21c2e08992/code_var-0.1.2.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [rele]: Downloading https://files.pythonhosted.org/packages/7f/14/927dd6d17266f198e10e105853ef8d590e720dca15feac751fccf7746159/rele-1.9.0.tar.gz
+[2023-07-05 08:38:45] INFO root fetch - processPackages [code-var]: executing diffoscope
+[2023-07-05 08:38:45] INFO root fetch - processPackages [code-var]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_var-0.1.1.tar.gz tmp/code_var-0.1.2.tar.gz --markdown 20230705/c/code-var/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 08:38:45] INFO root fetch - processPackages [rele]: executing diffoscope
+[2023-07-05 08:38:45] INFO root fetch - processPackages [rele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rele-1.8.1b0.tar.gz tmp/rele-1.9.0.tar.gz --markdown 20230705/r/rele/1.8.1b0-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 08:38:46] INFO root fetch - processPackages [pymini]: Remove: archive file [/home/abi/fetcher/tmp/pymini-0.1.0.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - processPackages [pymini]: Remove: archive file [/home/abi/fetcher/tmp/pymini-0.1.1.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - main [MainThread]: End processing [pymini]: success
+[2023-07-05 08:38:46] INFO root fetch - processPackages [code-var]: Remove: archive file [/home/abi/fetcher/tmp/code_var-0.1.1.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - processPackages [code-var]: Remove: archive file [/home/abi/fetcher/tmp/code_var-0.1.2.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - main [MainThread]: End processing [code-var]: success
+[2023-07-05 08:38:46] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.54.0.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-1.55.0.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2023-07-05 08:38:46] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2023-07-05 08:38:46] INFO root fetch - processPackages [rele]: Remove: archive file [/home/abi/fetcher/tmp/rele-1.8.1b0.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - processPackages [rele]: Remove: archive file [/home/abi/fetcher/tmp/rele-1.9.0.tar.gz]
+[2023-07-05 08:38:46] INFO root fetch - main [MainThread]: End processing [rele]: success
+[2023-07-05 08:38:48] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-07-05 08:38:48] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230705/t/thirdai/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-05 08:38:48] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 08:38:48] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 08:38:48] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-07-05 08:38:48] INFO root fetch - main [MainThread]: Store serial: [18763404]
