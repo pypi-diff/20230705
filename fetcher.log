@@ -17722,3 +17722,172 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:39:56] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-4.7.0.tar.gz]
 [2023-07-05 14:39:56] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2023-07-05 14:39:56] INFO root fetch - main [MainThread]: Store serial: [18767171]
+[2023-07-05 14:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767171]
+[2023-07-05 14:45:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: corecon
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudcix
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micrOSDevToolKit
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: VMedNLP
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bondzai.bootstrap-framework
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.target
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-graph-builder
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iterlite
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homeassistant
+[2023-07-05 14:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fajrGPT
+[2023-07-05 14:45:06] INFO root fetch - processPackages [dbt-graph-builder]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-05 14:45:06] INFO root fetch - processPackages [corecon]: New version: [1.1.1] Old Version: [1.1]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [VMedNLP]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [iterlite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [bondzai.bootstrap-framework]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.5] Old Version: [1.17.4]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [homeassistant]: New version: [2023.7.0b6] Old Version: [2023.7.0b5]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [bondzai.bootstrap-framework]: Downloading https://files.pythonhosted.org/packages/c6/91/3503cc3d542dd5b3d83aade3fabdb980ecdd45fdf53d90f86c0a82ca99e8/bondzai.bootstrap-framework-0.0.7.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [fajrGPT]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/c0/b5/777961772785e2e89d188210b2e1cb9bf7c44cf5f664f2cff3f859796574/dbt-graph-builder-0.4.0.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-05 14:45:07] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dissect.target]: Start processing: vectordb
+[2023-07-05 14:45:07] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-05 14:45:07] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/a9/ee/e9e0f59037eaccc76a71a1992784c6537e81087963dc41b156f756c81d14/VMedNLP-1.2.0-py38-none-any.whl
+[2023-07-05 14:45:07] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [corecon]: Downloading https://files.pythonhosted.org/packages/29/3a/58e746096b9f56e726230adb956c3e5fb8da16a61fd64db6d819f0b85928/corecon-1.1.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/8f/3a/097dd0d21e34416aa90c52b399d360c862b0a13a700b4a6827f663c56e78/micrOSDevToolKit-1.17.4.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/d0/d4/3d92b567e3904c75c7498fe3e511e5a173784f3f5d1c2313637d776afe6d/fajrGPT-1.3.1.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [vectordb]: New version: [0.0.3.dev5] Old Version: [0.0.3.dev4]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/a4/70/6e932d338172265d8645c8c8b43e80400a5a9bcb5b190c94bbb36fcb594f/homeassistant-2023.7.0b5.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [iterlite]: executing diffoscope
+[2023-07-05 14:45:07] INFO root fetch - processPackages [iterlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterlite-0.1.8.tar.gz tmp/iterlite-0.1.9.tar.gz --markdown 20230705/i/iterlite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:45:07] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14566136>=10485760
+[2023-07-05 14:45:07] INFO root fetch - processPackages [homeassistant]: Start processing: overfast-py
+[2023-07-05 14:45:07] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/5a/a6/5e6fecee45502395e9f3d68f7d6de8019e6a1d0ee084623bfe4e8fe8912a/dbt-graph-builder-0.4.1.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [bondzai.bootstrap-framework]: Downloading https://files.pythonhosted.org/packages/cb/78/7d2c5d6f1acd0a353bd78f535661628c7fbc10b60b6e728ff8bc716d92e1/bondzai.bootstrap-framework-0.0.8.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/ef/f9/a101b96e46aaccab7a30ae7555e7709d8929d28b2f912a97c0942679d08c/vectordb-0.0.3.dev4.tar.gz
+[2023-07-05 14:45:07] WARNING root fetch - processPackages [overfast-py]: Skipping, unable to determine old version
+[2023-07-05 14:45:07] INFO root fetch - processPackages [overfast-py]: Start processing: vectordb
+[2023-07-05 14:45:07] INFO root fetch - main [MainThread]: End processing [overfast-py] error
+[2023-07-05 14:45:07] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [corecon]: Downloading https://files.pythonhosted.org/packages/61/81/4400d57ac13ebc28198678ffd106b9f0bfd9f23e42bc850c2b32726cb936/corecon-1.1.1.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/64/98/7f86e21f9bfcc5e8072cdce68751b934628ef929ec7949b3e89da13b2bc1/micrOSDevToolKit-1.17.5.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [vectordb]: New version: [0.0.3.dev5] Old Version: [0.0.3.dev4]
+[2023-07-05 14:45:07] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/e6/3b/a911c833b00073149b8d4e95d1a282b1795d59d9e57de527d61ca532900d/fajrGPT-1.3.2.tar.gz
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dbt-graph-builder]: executing diffoscope
+[2023-07-05 14:45:07] INFO root fetch - processPackages [VMedNLP]: Downloading https://files.pythonhosted.org/packages/db/d7/2a579f7f145fb793d62df742eece85fbed914c743517db2072ff56f31685/VMedNLP-1.2.1-py38-none-any.whl
+[2023-07-05 14:45:07] INFO root fetch - processPackages [dbt-graph-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-graph-builder-0.4.0.tar.gz tmp/dbt-graph-builder-0.4.1.tar.gz --markdown 20230705/d/dbt-graph-builder/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-05 14:45:07] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2023-07-05 14:45:07] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20230705/c/cloudcix/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-05 14:45:07] INFO root fetch - processPackages [bondzai.bootstrap-framework]: executing diffoscope
+[2023-07-05 14:45:07] INFO root fetch - processPackages [bondzai.bootstrap-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bondzai.bootstrap-framework-0.0.7.tar.gz tmp/bondzai.bootstrap-framework-0.0.8.tar.gz --markdown 20230705/b/bondzai.bootstrap-framework/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [corecon]: executing diffoscope
+[2023-07-05 14:45:08] INFO root fetch - processPackages [corecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corecon-1.1.tar.gz tmp/corecon-1.1.1.tar.gz --markdown 20230705/c/corecon/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-05 14:45:08] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.17.4.tar.gz tmp/micrOSDevToolKit-1.17.5.tar.gz --markdown 20230705/m/micrOSDevToolKit/1.17.4-1.17.5/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-07-05 14:45:08] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.3.1.tar.gz tmp/fajrGPT-1.3.2.tar.gz --markdown 20230705/f/fajrGPT/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [VMedNLP]: executing diffoscope
+[2023-07-05 14:45:08] INFO root fetch - processPackages [VMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VMedNLP-1.2.0-py38-none-any.whl.zip tmp/VMedNLP-1.2.1-py38-none-any.whl.zip --markdown 20230705/V/VMedNLP/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/3b/84/04aeeecb1aa21b2833bdffd22130b873ace399559980db9e6bb7e3182bee/vectordb-0.0.3.dev5.tar.gz
+[2023-07-05 14:45:08] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/3b/84/04aeeecb1aa21b2833bdffd22130b873ace399559980db9e6bb7e3182bee/vectordb-0.0.3.dev5.tar.gz
+[2023-07-05 14:45:08] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-05 14:45:08] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.3.dev4.tar.gz tmp/vectordb-0.0.3.dev5.tar.gz --markdown 20230705/v/vectordb/0.0.3.dev4-0.0.3.dev5/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-05 14:45:08] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.3.dev4.tar.gz tmp/vectordb-0.0.3.dev5.tar.gz --markdown 20230705/v/vectordb/0.0.3.dev4-0.0.3.dev5/diff.md --exclude *.pyd
+[2023-07-05 14:45:08] INFO root fetch - processPackages [iterlite]: Remove: archive file [/home/abi/fetcher/tmp/iterlite-0.1.8.tar.gz]
+[2023-07-05 14:45:08] INFO root fetch - processPackages [iterlite]: Remove: archive file [/home/abi/fetcher/tmp/iterlite-0.1.9.tar.gz]
+[2023-07-05 14:45:08] INFO root fetch - processPackages [iterlite]: Start processing: datachain
+[2023-07-05 14:45:08] INFO root fetch - main [MainThread]: End processing [iterlite]: success
+[2023-07-05 14:45:08] INFO root fetch - processPackages [datachain]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-05 14:45:08] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/3f/0f/0e0969a491022db1bd985573ff4d466289f92a64fc3469e213f18c23f526/datachain-1.2.0.tar.gz
+[2023-07-05 14:45:09] INFO root fetch - processPackages [datachain]: Downloading https://files.pythonhosted.org/packages/49/21/8e53b07af7f06ee1d537ee4fabf03e1cb3c361ccf876714c87664fcb7e6a/datachain-1.2.1.tar.gz
+[2023-07-05 14:45:09] INFO root fetch - processPackages [datachain]: executing diffoscope
+[2023-07-05 14:45:09] INFO root fetch - processPackages [datachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datachain-1.2.0.tar.gz tmp/datachain-1.2.1.tar.gz --markdown 20230705/d/datachain/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-05 14:45:09] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.4.0.tar.gz]
+[2023-07-05 14:45:09] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.4.1.tar.gz]
+[2023-07-05 14:45:09] INFO root fetch - processPackages [dbt-graph-builder]: Start processing: basking-sdk
+[2023-07-05 14:45:09] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [bondzai.bootstrap-framework]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.bootstrap-framework-0.0.7.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [bondzai.bootstrap-framework]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.bootstrap-framework-0.0.8.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [bondzai.bootstrap-framework]: Start processing: asimov
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [bondzai.bootstrap-framework]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [asimov]: New version: [0.6.0b1] Old Version: [0.6.0a3]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [basking-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/c5/b9/5ed11d50773c8edea30493d6b28e0727d3b2730a9801e5192ea1fc1ab5e1/asimov-0.6.0a3-py2.py3-none-any.whl
+[2023-07-05 14:45:10] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.2.0-py38-none-any.whl.zip]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [VMedNLP]: Remove: archive file [/home/abi/fetcher/tmp/VMedNLP-1.2.1-py38-none-any.whl.zip]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [VMedNLP]: Start processing: django-listing
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [VMedNLP]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.3.1.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.3.2.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [fajrGPT]: Start processing: dissect.util
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [cloudcix]: Start processing: bigdl-dllib
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [basking-sdk]: Downloading https://files.pythonhosted.org/packages/bd/7f/788f623d72868024475b42401a9a1e31ef786f7aa06bafdfa6950704d113/basking-sdk-0.9.8.tar.gz
+[2023-07-05 14:45:10] INFO root fetch - processPackages [django-listing]: New version: [0.5.0] Old Version: [0.0.9]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [dissect.util]: New version: [3.9.dev4] Old Version: [3.9.dev3]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230704] Old Version: [2.4.0b20230703]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.3.dev4.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.3.dev5.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [vectordb]: Start processing: tensorcircuit-nightly
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.4.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.17.5.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [micrOSDevToolKit]: Start processing: manticore
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-05 14:45:10] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/98/95/6194570aceb799c702604b49d3327fe07f33cf20485affb63f840be8a89d/asimov-0.6.0b1-py2.py3-none-any.whl
+[2023-07-05 14:45:10] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230704] Old Version: [0.3.8.dev230703]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-05 14:45:10] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/36/b5/8586923d028b409a49b3a4b40b855f09eeba833cb2bacab0ecae6f8f4200/django-listing-0.0.9.tar.gz
+[2023-07-05 14:45:10] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/d2/4e/f9983065e8ad5db325fe418f049df121d2a4c9a3f2c2fde338a11907b09c/dissect.util-3.9.dev3.tar.gz
+[2023-07-05 14:45:10] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-07-05 14:45:10] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip --markdown 20230705/a/asimov/0.6.0a3-0.6.0b1/diff.md --exclude *.pyd
+[2023-07-05 14:45:10] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/c8/b9/9a8a3e52579b2e9b4448dfa190cd88d339227428b936f1f9f3ab5dc334ca/bigdl_dllib-2.4.0b20230703-py3-none-manylinux1_x86_64.whl
+[2023-07-05 14:45:10] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/63/15/1322c381a46f1f0ff7a5e8aea17e765dd60fc3a46058a98b50824371540d/manticore-0.3.8.dev230703.tar.gz
+[2023-07-05 14:45:10] INFO root fetch - processPackages [basking-sdk]: Downloading https://files.pythonhosted.org/packages/fe/4a/dcb7d8e63397c8a76449619a49b4e6d7bab38e18321fa4b9c5c190f7ec5d/basking-sdk-0.9.9.tar.gz
+[2023-07-05 14:45:10] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53760168>=10485760
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-05 14:45:10] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.0.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - processPackages [datachain]: Remove: archive file [/home/abi/fetcher/tmp/datachain-1.2.1.tar.gz]
+[2023-07-05 14:45:10] INFO root fetch - main [MainThread]: End processing [datachain]: success
+[2023-07-05 14:45:11] INFO root fetch - processPackages [basking-sdk]: executing diffoscope
+[2023-07-05 14:45:11] INFO root fetch - processPackages [basking-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basking-sdk-0.9.8.tar.gz tmp/basking-sdk-0.9.9.tar.gz --markdown 20230705/b/basking-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 14:45:11] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-05 14:45:11] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/d7/1f/c15ae6ebd5ae69456beec0ceda20c5b1b6ad7cd840fca8d1207b32660bde/manticore-0.3.8.dev230704.tar.gz
+[2023-07-05 14:45:11] INFO root fetch - processPackages [dissect.util]: Downloading https://files.pythonhosted.org/packages/45/f4/2951657672559b5014e7705318e4d4f0b822b949a4dbe1e5296c8d20eb1e/dissect.util-3.9.dev4.tar.gz
+[2023-07-05 14:45:11] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/35/f0/8a97875712af7ff5b9b56437a7ac9098c6f39c5553ad4d9ce9f5284f61f5/django-listing-0.5.0.tar.gz
+[2023-07-05 14:45:11] INFO root fetch - processPackages [corecon]: Remove: archive file [/home/abi/fetcher/tmp/corecon-1.1.tar.gz]
+[2023-07-05 14:45:11] INFO root fetch - processPackages [corecon]: Remove: archive file [/home/abi/fetcher/tmp/corecon-1.1.1.tar.gz]
+[2023-07-05 14:45:11] INFO root fetch - main [MainThread]: End processing [corecon]: success
+[2023-07-05 14:45:11] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-05 14:45:11] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230705/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-05 14:45:11] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-05 14:45:11] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230703.tar.gz tmp/manticore-0.3.8.dev230704.tar.gz --markdown 20230705/m/manticore/0.3.8.dev230703-0.3.8.dev230704/diff.md --exclude *.pyd
+[2023-07-05 14:45:11] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2023-07-05 14:45:11] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.0.9.tar.gz tmp/django-listing-0.5.0.tar.gz --markdown 20230705/d/django-listing/0.0.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 14:45:11] INFO root fetch - processPackages [dissect.util]: executing diffoscope
+[2023-07-05 14:45:11] INFO root fetch - processPackages [dissect.util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.util-3.9.dev3.tar.gz tmp/dissect.util-3.9.dev4.tar.gz --markdown 20230705/d/dissect.util/3.9.dev3-3.9.dev4/diff.md --exclude *.pyd
+[2023-07-05 14:45:12] INFO root fetch - processPackages [basking-sdk]: Remove: archive file [/home/abi/fetcher/tmp/basking-sdk-0.9.8.tar.gz]
+[2023-07-05 14:45:12] INFO root fetch - processPackages [basking-sdk]: Remove: archive file [/home/abi/fetcher/tmp/basking-sdk-0.9.9.tar.gz]
+[2023-07-05 14:45:12] INFO root fetch - main [MainThread]: End processing [basking-sdk]: success
+[2023-07-05 14:45:12] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0a3-py2.py3-none-any.whl.zip]
+[2023-07-05 14:45:12] INFO root fetch - processPackages [asimov]: Remove: archive file [/home/abi/fetcher/tmp/asimov-0.6.0b1-py2.py3-none-any.whl.zip]
+[2023-07-05 14:45:12] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-07-05 14:45:12] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev3.tar.gz]
+[2023-07-05 14:45:12] INFO root fetch - processPackages [dissect.util]: Remove: archive file [/home/abi/fetcher/tmp/dissect.util-3.9.dev4.tar.gz]
+[2023-07-05 14:45:12] INFO root fetch - main [MainThread]: End processing [dissect.util]: success
+[2023-07-05 14:45:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-05 14:45:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-05 14:45:13] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-05 14:45:13] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230703.tar.gz]
+[2023-07-05 14:45:13] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230704.tar.gz]
+[2023-07-05 14:45:13] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-05 14:45:13] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.0.9.tar.gz]
+[2023-07-05 14:45:13] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.5.0.tar.gz]
+[2023-07-05 14:45:13] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2023-07-05 14:45:13] INFO root fetch - main [MainThread]: Store serial: [18767231]
