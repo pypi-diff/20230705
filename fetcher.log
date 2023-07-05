@@ -6143,3 +6143,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:36:47] INFO root fetch - processPackages [rithm]: Remove: archive file [/home/abi/fetcher/tmp/rithm-9.4.0.tar.gz]
 [2023-07-05 04:36:47] INFO root fetch - main [MainThread]: End processing [rithm]: success
 [2023-07-05 04:36:47] INFO root fetch - main [MainThread]: Store serial: [18762214]
+[2023-07-05 04:41:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762214]
+[2023-07-05 04:41:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 04:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aunly-captcha-solver
+[2023-07-05 04:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RotEx
+[2023-07-05 04:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrSpiders
+[2023-07-05 04:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-account-financial-tools
+[2023-07-05 04:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-24
+[2023-07-05 04:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-ipghrms-employee
+[2023-07-05 04:41:57] INFO root fetch - processPackages [aunly-captcha-solver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 04:41:57] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-05 04:41:57] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: New version: [14.0.20230704.1] Old Version: [14.0.20230703.0]
+[2023-07-05 04:41:57] INFO root fetch - processPackages [django-ipghrms-employee]: New version: [1.9] Old Version: [1.8]
+[2023-07-05 04:41:57] WARNING root fetch - processPackages [RotEx]: Skipping, unable to determine old version
+[2023-07-05 04:41:57] INFO root fetch - main [MainThread]: End processing [RotEx] error
+[2023-07-05 04:41:57] INFO root fetch - processPackages [PrSpiders]: New version: [0.5.2.6] Old Version: [0.5.2.5]
+[2023-07-05 04:41:57] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-05 04:41:57] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/3d/33/8883a4a162ba0ab2b0a3963f5a7c9ccab2864bc7beffc3abca4fd3b575f7/odoo14_addons_oca_account_financial_tools-14.0.20230703.0-py3-none-any.whl
+[2023-07-05 04:41:57] INFO root fetch - processPackages [aunly-captcha-solver]: Downloading https://files.pythonhosted.org/packages/d9/4e/7399bf4aba90d2806083aeca6508f8d3ef50444b2129dad46b2de17d310a/aunly_captcha_solver-0.1.1.tar.gz
+[2023-07-05 04:41:57] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/1c/e5/9a6fb04055451e40b69d37d8787f853843a3cf2e7d6794f99f8ca7880c98/django-ipghrms-employee-1.8.tar.gz
+[2023-07-05 04:41:57] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/c9/1a/1aed44379e3ada974ee86c310c2c545682078eb1ca42c224d1bd1618acfc/PrSpiders-0.5.2.5.tar.gz
+[2023-07-05 04:41:57] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-05 04:41:57] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-05 04:41:57] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230705/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-05 04:41:58] INFO root fetch - processPackages [aunly-captcha-solver]: Downloading https://files.pythonhosted.org/packages/9a/a5/455a59dbb5a5dc09e872a5f14870b18bda517b0fa1890294911d10f837f1/aunly_captcha_solver-0.1.2.tar.gz
+[2023-07-05 04:41:58] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Downloading https://files.pythonhosted.org/packages/15/e6/ef35473099e0276cdf17027eabae84727e3311f155de39978975a003a268/odoo14_addons_oca_account_financial_tools-14.0.20230704.1-py3-none-any.whl
+[2023-07-05 04:41:58] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/4e/46/c6d5646fb615f45ef3f94b39901a02765bc3a92e68982355b9f0b871897f/PrSpiders-0.5.2.6-py3.8.egg
+[2023-07-05 04:41:58] INFO root fetch - processPackages [aunly-captcha-solver]: executing diffoscope
+[2023-07-05 04:41:58] INFO root fetch - processPackages [aunly-captcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aunly_captcha_solver-0.1.1.tar.gz tmp/aunly_captcha_solver-0.1.2.tar.gz --markdown 20230705/a/aunly-captcha-solver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 04:41:58] INFO root fetch - processPackages [django-ipghrms-employee]: Downloading https://files.pythonhosted.org/packages/d6/b8/46e1013d04ed020b8340e6530e41ecaf8531f796a68610ca25730ab57b9f/django-ipghrms-employee-1.9.tar.gz
+[2023-07-05 04:41:58] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: executing diffoscope
+[2023-07-05 04:41:58] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_account_financial_tools-14.0.20230703.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_account_financial_tools-14.0.20230704.1-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addons-oca-account-financial-tools/14.0.20230703.0-14.0.20230704.1/diff.md --exclude *.pyd
+[2023-07-05 04:41:58] INFO root fetch - processPackages [django-ipghrms-employee]: executing diffoscope
+[2023-07-05 04:41:58] INFO root fetch - processPackages [django-ipghrms-employee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-employee-1.8.tar.gz tmp/django-ipghrms-employee-1.9.tar.gz --markdown 20230705/d/django-ipghrms-employee/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-05 04:41:58] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-07-05 04:41:58] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.5.2.5.tar.gz tmp/PrSpiders-0.5.2.6-py3.8.egg --markdown 20230705/P/PrSpiders/0.5.2.5-0.5.2.6/diff.md --exclude *.pyd
+[2023-07-05 04:41:59] INFO root fetch - processPackages [aunly-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/aunly_captcha_solver-0.1.1.tar.gz]
+[2023-07-05 04:41:59] INFO root fetch - processPackages [aunly-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/aunly_captcha_solver-0.1.2.tar.gz]
+[2023-07-05 04:41:59] INFO root fetch - main [MainThread]: End processing [aunly-captcha-solver]: success
+[2023-07-05 04:41:59] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20230703.0-py3-none-any.whl.zip]
+[2023-07-05 04:41:59] INFO root fetch - processPackages [odoo14-addons-oca-account-financial-tools]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_account_financial_tools-14.0.20230704.1-py3-none-any.whl.zip]
+[2023-07-05 04:41:59] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-account-financial-tools]: success
+[2023-07-05 04:41:59] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-05 04:41:59] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-05 04:41:59] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-05 04:41:59] INFO root fetch - processPackages [PrSpiders]: Remove: archive file [/home/abi/fetcher/tmp/PrSpiders-0.5.2.5.tar.gz]
+[2023-07-05 04:41:59] INFO root fetch - processPackages [PrSpiders]: Remove: archive file [/home/abi/fetcher/tmp/PrSpiders-0.5.2.6-py3.8.egg]
+[2023-07-05 04:41:59] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-07-05 04:42:00] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.8.tar.gz]
+[2023-07-05 04:42:00] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.9.tar.gz]
+[2023-07-05 04:42:00] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
+[2023-07-05 04:42:00] INFO root fetch - main [MainThread]: Store serial: [18762261]
