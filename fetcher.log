@@ -8646,3 +8646,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:30:14] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
 [2023-07-05 07:30:14] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2023-07-05 07:30:14] INFO root fetch - main [MainThread]: Store serial: [18763108]
+[2023-07-05 07:35:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763108]
+[2023-07-05 07:35:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-05 07:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: std.algorithm
+[2023-07-05 07:35:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2023-07-05 07:35:23] INFO root fetch - processPackages [std.algorithm]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-05 07:35:23] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.5.0] Old Version: [2023.7.4.1]
+[2023-07-05 07:35:23] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/ae/20/ae33604768ec90e70876a078b503bcda6a19737041f9d0785b12e4e86708/std.algorithm-1.1.9.tar.gz
+[2023-07-05 07:35:23] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/c5/f8/2f7c50e77424b097c294f28c4bf3f71e22f5ee27aa13307453c29a475d08/crazy-thursday-2023.7.4.1.tar.gz
+[2023-07-05 07:35:23] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/c8/a4/db357460b3bfd77eba2c0f16537e47366557189060736e5811e1a28d8165/crazy-thursday-2023.7.5.0.tar.gz
+[2023-07-05 07:35:23] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/4a/16/373ddd75435cce4638b4138eac577b45e053c1cf8dc9bc83e4c09e409258/std.algorithm-1.2.0.tar.gz
+[2023-07-05 07:35:23] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-05 07:35:23] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.4.1.tar.gz tmp/crazy-thursday-2023.7.5.0.tar.gz --markdown 20230705/c/crazy-thursday/2023.7.4.1-2023.7.5.0/diff.md --exclude *.pyd
+[2023-07-05 07:35:24] INFO root fetch - processPackages [std.algorithm]: executing diffoscope
+[2023-07-05 07:35:24] INFO root fetch - processPackages [std.algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std.algorithm-1.1.9.tar.gz tmp/std.algorithm-1.2.0.tar.gz --markdown 20230705/s/std.algorithm/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 07:35:24] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.4.1.tar.gz]
+[2023-07-05 07:35:24] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.5.0.tar.gz]
+[2023-07-05 07:35:24] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-05 07:35:25] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.9.tar.gz]
+[2023-07-05 07:35:25] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.2.0.tar.gz]
+[2023-07-05 07:35:25] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
+[2023-07-05 07:35:25] INFO root fetch - main [MainThread]: Store serial: [18763113]
