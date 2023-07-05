@@ -14549,3 +14549,156 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:27:16] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
 [2023-07-05 12:27:16] INFO root fetch - main [MainThread]: End processing [satip]: success
 [2023-07-05 12:27:16] INFO root fetch - main [MainThread]: Store serial: [18765790]
+[2023-07-05 12:32:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765790]
+[2023-07-05 12:32:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raga-testing-platform
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stc-geck
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metoffice-weather-datahub
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srai
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: innerverz
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DefyDatabase
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-poke
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycolorpackage
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ag-llama-api
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: credsweeper
+[2023-07-05 12:32:25] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [innerverz]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [srai]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [metoffice-weather-datahub]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [DefyDatabase]: New version: [10.0.0a4.dev202307051830] Old Version: [10.0.0a4.dev202306171455]
+[2023-07-05 12:32:25] WARNING root fetch - processPackages [pycolorpackage]: Skipping, unable to determine old version
+[2023-07-05 12:32:25] INFO root fetch - processPackages [pycolorpackage]: Start processing: openscap-report
+[2023-07-05 12:32:25] INFO root fetch - main [MainThread]: End processing [pycolorpackage] error
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [nonebot-plugin-poke]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [credsweeper]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [stc-geck]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [openscap-report]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-05 12:32:25] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/6d/5c/abfdbfa113d2298322f9c60a30b1d405a90b4414f99159e4fdde200c63b7/innerverz-0.0.33.tar.gz
+[2023-07-05 12:32:25] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-05 12:32:25] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/32/2d/05d2820f43b60df4b0daf18c17ddd8367d084ec9a3a7524e3e9d49b56e53/nonebot_plugin_poke-0.0.6.tar.gz
+[2023-07-05 12:32:25] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-05 12:32:25] INFO root fetch - processPackages [srai]: Downloading https://files.pythonhosted.org/packages/04/52/97e7c65b17c960e707a56ef30c91fe446289fcd4a4a6759b54b1052a78e2/srai-0.1.4.tar.gz
+[2023-07-05 12:32:25] INFO root fetch - processPackages [metoffice-weather-datahub]: Downloading https://files.pythonhosted.org/packages/22/a3/8293ae7da6d82f61728b13d2a9d8e962e9006cf69486ba06d1fd49da39be/metoffice-weather-datahub-1.2.2.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/06/0a/86471a18869228971f35252955e78a88965e79605d4b6df9d4afba27d260/DefyDatabase-10.0.0a4.dev202306171455.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/80/57/77d2f1e3da60a9cf2006ccd8d652b94e5cb7256cb582c6326f825a394368/stc-geck-1.2.2.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/76/11/5bd2cf13417bbf4bf1705c50dd5a0da28cd5c3c858843ee2a12d58c532c4/credsweeper-1.5.1.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [openscap-report]: Downloading https://files.pythonhosted.org/packages/f5/ef/fca1d695245bb17d825ef0c962163026cec009732e8de6f7b553725e4fa4/openscap-report-0.2.3.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a4/48/4eb66b997a5efc2f8258ad4579b324d5defb2abee5480896eb83236dd3e4/innerverz-0.0.34.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230705/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 12:32:26] INFO root fetch - processPackages [nonebot-plugin-poke]: Downloading https://files.pythonhosted.org/packages/3e/c4/78a24277ace4f7f13306426c4c193c1b7a7e14927060d4d47a396643b1dc/nonebot_plugin_poke-0.1.0.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.33.tar.gz tmp/innerverz-0.0.34.tar.gz --markdown 20230705/i/innerverz/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-07-05 12:32:26] INFO root fetch - processPackages [stc-geck]: Downloading https://files.pythonhosted.org/packages/12/4c/3aec3a57bd90dacff4c803a762a9309b3fc8b4c5a7273316a98afec53a56/stc-geck-1.2.3.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [srai]: Downloading https://files.pythonhosted.org/packages/5d/91/72d0b5ad7ce0e9ea33f8115819b2d970cdda4b421f2b7be50c498b61bd8c/srai-0.2.0.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [DefyDatabase]: Downloading https://files.pythonhosted.org/packages/56/c0/e3273e73877b0ac500726105c3fe7b1393c985e10f6ce0201d3a6e0cb25e/DefyDatabase-10.0.0a4.dev202307051830.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [nonebot-plugin-poke]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [nonebot-plugin-poke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_poke-0.0.6.tar.gz tmp/nonebot_plugin_poke-0.1.0.tar.gz --markdown 20230705/n/nonebot-plugin-poke/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-07-05 12:32:26] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/e7/a6/1190c8342a9d6580df52aa1ac5eedd7535afcb272acd0607abb3df33f2e8/credsweeper-1.5.2.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [stc-geck]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [stc-geck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stc-geck-1.2.2.tar.gz tmp/stc-geck-1.2.3.tar.gz --markdown 20230705/s/stc-geck/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-05 12:32:26] INFO root fetch - processPackages [DefyDatabase]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [DefyDatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DefyDatabase-10.0.0a4.dev202306171455.tar.gz tmp/DefyDatabase-10.0.0a4.dev202307051830.tar.gz --markdown 20230705/D/DefyDatabase/10.0.0a4.dev202306171455-10.0.0a4.dev202307051830/diff.md --exclude *.pyd
+[2023-07-05 12:32:26] INFO root fetch - processPackages [metoffice-weather-datahub]: Downloading https://files.pythonhosted.org/packages/5f/73/475488eb49979032dc52084d53a9734ef4b7f557b767edfd63909bfd970e/metoffice-weather-datahub-1.2.3.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.5.1.tar.gz tmp/credsweeper-1.5.2.tar.gz --markdown 20230705/c/credsweeper/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-07-05 12:32:26] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-05 12:32:26] INFO root fetch - processPackages [srai]: executing diffoscope
+[2023-07-05 12:32:26] INFO root fetch - processPackages [srai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srai-0.1.4.tar.gz tmp/srai-0.2.0.tar.gz --markdown 20230705/s/srai/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 12:32:27] INFO root fetch - processPackages [metoffice-weather-datahub]: executing diffoscope
+[2023-07-05 12:32:27] INFO root fetch - processPackages [metoffice-weather-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metoffice-weather-datahub-1.2.2.tar.gz tmp/metoffice-weather-datahub-1.2.3.tar.gz --markdown 20230705/m/metoffice-weather-datahub/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-05 12:32:27] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-05 12:32:27] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230705/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 12:32:27] INFO root fetch - processPackages [openscap-report]: Downloading https://files.pythonhosted.org/packages/78/c1/1b2308d1263173e22281b99e2fbab0b72c2e1ba646b3d4f5dddcb5bd4fdc/openscap-report-0.2.4.tar.gz
+[2023-07-05 12:32:27] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-05 12:32:27] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-05 12:32:27] INFO root fetch - processPackages [ag-llama-api]: Start processing: koeln
+[2023-07-05 12:32:27] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-05 12:32:27] INFO root fetch - processPackages [koeln]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-05 12:32:27] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.0.6.tar.gz]
+[2023-07-05 12:32:27] INFO root fetch - processPackages [nonebot-plugin-poke]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_poke-0.1.0.tar.gz]
+[2023-07-05 12:32:27] INFO root fetch - processPackages [nonebot-plugin-poke]: Start processing: syssqlite2libaryV2
+[2023-07-05 12:32:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-poke]: success
+[2023-07-05 12:32:27] INFO root fetch - processPackages [koeln]: Downloading https://files.pythonhosted.org/packages/c6/fb/4055ee34c4d91abf3cd1110f47d414277f3b3a8517d5e7d86f75fdd8a398/koeln-0.3.0.tar.gz
+[2023-07-05 12:32:27] WARNING root fetch - processPackages [syssqlite2libaryV2]: Skipping, unable to determine old version
+[2023-07-05 12:32:27] INFO root fetch - processPackages [syssqlite2libaryV2]: Start processing: tritonv2
+[2023-07-05 12:32:27] INFO root fetch - main [MainThread]: End processing [syssqlite2libaryV2] error
+[2023-07-05 12:32:28] INFO root fetch - processPackages [tritonv2]: New version: [0.9.9.1] Old Version: [0.9.9]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202306171455.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [DefyDatabase]: Remove: archive file [/home/abi/fetcher/tmp/DefyDatabase-10.0.0a4.dev202307051830.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [DefyDatabase]: Start processing: sage-flatsurf
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [DefyDatabase]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/fe/2d/6f3bf55c7f028bbf8a0e54f576b0064144673c8d224539b995e25480ebc0/tritonv2-0.9.9.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [metoffice-weather-datahub]: Remove: archive file [/home/abi/fetcher/tmp/metoffice-weather-datahub-1.2.2.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [metoffice-weather-datahub]: Remove: archive file [/home/abi/fetcher/tmp/metoffice-weather-datahub-1.2.3.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [metoffice-weather-datahub]: Start processing: pycolorpackage
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [metoffice-weather-datahub]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [sage-flatsurf]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [koeln]: Downloading https://files.pythonhosted.org/packages/df/86/4b017868f7febd26caf715613b3f8f7a6c949d784306b27609f43766df78/koeln-0.3.1.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.33.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.34.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [innerverz]: Start processing: xju
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [pycolorpackage]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [openscap-report]: executing diffoscope
+[2023-07-05 12:32:28] INFO root fetch - processPackages [openscap-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openscap-report-0.2.3.tar.gz tmp/openscap-report-0.2.4.tar.gz --markdown 20230705/o/openscap-report/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-05 12:32:28] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.2.2.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [stc-geck]: Remove: archive file [/home/abi/fetcher/tmp/stc-geck-1.2.3.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [stc-geck]: Start processing: rosetta-ce
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [stc-geck]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [tritonv2]: Downloading https://files.pythonhosted.org/packages/0b/e0/884d62f22cb4af785a1b303e6be51cfda55cdb7020826c7ff4eb517746a5/tritonv2-0.9.9.1.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [xju]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [koeln]: executing diffoscope
+[2023-07-05 12:32:28] INFO root fetch - processPackages [koeln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koeln-0.3.0.tar.gz tmp/koeln-0.3.1.tar.gz --markdown 20230705/k/koeln/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-05 12:32:28] INFO root fetch - processPackages [pycolorpackage]: Downloading https://files.pythonhosted.org/packages/47/19/25c5507268b30735a451defcbceed59dce2e415b358ccb26602de0937636/pycolorpackage-1.0.0.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [sage-flatsurf]: Downloading https://files.pythonhosted.org/packages/0b/9c/ed3cdeb5ba1b52a8ef924c2ed148b04b3a2c917835c1b9f3a622db769238/sage_flatsurf-0.5.0.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [rosetta-ce]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [tritonv2]: executing diffoscope
+[2023-07-05 12:32:28] INFO root fetch - processPackages [tritonv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tritonv2-0.9.9.tar.gz tmp/tritonv2-0.9.9.1.tar.gz --markdown 20230705/t/tritonv2/0.9.9-0.9.9.1/diff.md --exclude *.pyd
+[2023-07-05 12:32:28] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/e3/56/bc5d26c9a665cded9efd45dec6b2a187bacac7c8353ebef55a852bd51c37/rosetta-ce-1.5.5.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [xju]: Downloading https://files.pythonhosted.org/packages/73/58/92305fdbf3926919b8c5ccdfa4db24c0636e4e3e87147d2bccf94bb82d86/xju-1.3.0.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.1.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.2.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [srai]: Remove: archive file [/home/abi/fetcher/tmp/srai-0.1.4.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - processPackages [srai]: Remove: archive file [/home/abi/fetcher/tmp/srai-0.2.0.tar.gz]
+[2023-07-05 12:32:28] INFO root fetch - main [MainThread]: End processing [srai]: success
+[2023-07-05 12:32:28] INFO root fetch - processPackages [sage-flatsurf]: Downloading https://files.pythonhosted.org/packages/2a/8b/3cc30f1b00bd7c88a7697790f67cd1b0dd65bdb293b0069a7049e884e443/sage_flatsurf-0.5.1.tar.gz
+[2023-07-05 12:32:28] INFO root fetch - processPackages [pycolorpackage]: Downloading https://files.pythonhosted.org/packages/25/fd/85cb694fabaeaf9381dfb2fd6ff169369a43c7fdc1fec7ef5bc61da0d9ac/pycolorpackage-1.1.0.tar.gz
+[2023-07-05 12:32:29] INFO root fetch - processPackages [rosetta-ce]: Downloading https://files.pythonhosted.org/packages/9a/f6/71b57505ca4e76646971a69564df867ec21065fa90185b51a2cd3c58efe0/rosetta-ce-1.5.6.tar.gz
+[2023-07-05 12:32:29] INFO root fetch - processPackages [pycolorpackage]: executing diffoscope
+[2023-07-05 12:32:29] INFO root fetch - processPackages [pycolorpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycolorpackage-1.0.0.tar.gz tmp/pycolorpackage-1.1.0.tar.gz --markdown 20230705/p/pycolorpackage/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 12:32:29] INFO root fetch - processPackages [sage-flatsurf]: executing diffoscope
+[2023-07-05 12:32:29] INFO root fetch - processPackages [sage-flatsurf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_flatsurf-0.5.0.tar.gz tmp/sage_flatsurf-0.5.1.tar.gz --markdown 20230705/s/sage-flatsurf/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-05 12:32:29] INFO root fetch - processPackages [rosetta-ce]: executing diffoscope
+[2023-07-05 12:32:29] INFO root fetch - processPackages [rosetta-ce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosetta-ce-1.5.5.tar.gz tmp/rosetta-ce-1.5.6.tar.gz --markdown 20230705/r/rosetta-ce/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-07-05 12:32:29] INFO root fetch - processPackages [xju]: Downloading https://files.pythonhosted.org/packages/9b/01/25789beac32de8eacda9dc35b65089a8f2579833c84dcf9b44efef82c4b2/xju-1.4.0.tar.gz
+[2023-07-05 12:32:29] INFO root fetch - processPackages [koeln]: Remove: archive file [/home/abi/fetcher/tmp/koeln-0.3.0.tar.gz]
+[2023-07-05 12:32:29] INFO root fetch - processPackages [koeln]: Remove: archive file [/home/abi/fetcher/tmp/koeln-0.3.1.tar.gz]
+[2023-07-05 12:32:29] INFO root fetch - main [MainThread]: End processing [koeln]: success
+[2023-07-05 12:32:29] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.tar.gz]
+[2023-07-05 12:32:29] INFO root fetch - processPackages [tritonv2]: Remove: archive file [/home/abi/fetcher/tmp/tritonv2-0.9.9.1.tar.gz]
+[2023-07-05 12:32:29] INFO root fetch - main [MainThread]: End processing [tritonv2]: success
+[2023-07-05 12:32:29] INFO root fetch - processPackages [xju]: executing diffoscope
+[2023-07-05 12:32:29] INFO root fetch - processPackages [xju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xju-1.3.0.tar.gz tmp/xju-1.4.0.tar.gz --markdown 20230705/x/xju/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-05 12:32:30] INFO root fetch - processPackages [pycolorpackage]: Remove: archive file [/home/abi/fetcher/tmp/pycolorpackage-1.0.0.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - processPackages [pycolorpackage]: Remove: archive file [/home/abi/fetcher/tmp/pycolorpackage-1.1.0.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - main [MainThread]: End processing [pycolorpackage]: success
+[2023-07-05 12:32:30] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.5.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - processPackages [rosetta-ce]: Remove: archive file [/home/abi/fetcher/tmp/rosetta-ce-1.5.6.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - main [MainThread]: End processing [rosetta-ce]: success
+[2023-07-05 12:32:30] INFO root fetch - processPackages [xju]: Remove: archive file [/home/abi/fetcher/tmp/xju-1.3.0.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - processPackages [xju]: Remove: archive file [/home/abi/fetcher/tmp/xju-1.4.0.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - main [MainThread]: End processing [xju]: success
+[2023-07-05 12:32:30] INFO root fetch - processPackages [sage-flatsurf]: Remove: archive file [/home/abi/fetcher/tmp/sage_flatsurf-0.5.0.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - processPackages [sage-flatsurf]: Remove: archive file [/home/abi/fetcher/tmp/sage_flatsurf-0.5.1.tar.gz]
+[2023-07-05 12:32:30] INFO root fetch - main [MainThread]: End processing [sage-flatsurf]: success
+[2023-07-05 12:32:56] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap-report-0.2.3.tar.gz]
+[2023-07-05 12:32:56] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap-report-0.2.4.tar.gz]
+[2023-07-05 12:32:56] INFO root fetch - main [MainThread]: End processing [openscap-report]: success
+[2023-07-05 12:32:56] INFO root fetch - main [MainThread]: Store serial: [18765850]
