@@ -7672,3 +7672,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:01:31] INFO root fetch - main [MainThread]: End processing [jupyterlab-tensorboard-pro]: success
 [2023-07-05 06:01:31] INFO root fetch - main [MainThread]: End processing [jupyterlab-tensorboard-pro]: success
 [2023-07-05 06:01:31] INFO root fetch - main [MainThread]: Store serial: [18762745]
+[2023-07-05 06:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762745]
+[2023-07-05 06:06:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 06:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yyxx-game-pkg
+[2023-07-05 06:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noiseflow
+[2023-07-05 06:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluecast
+[2023-07-05 06:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: siat
+[2023-07-05 06:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: casbin-rabbitmq-watcher
+[2023-07-05 06:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-maintenance-timesheet
+[2023-07-05 06:06:40] INFO root fetch - processPackages [noiseflow]: New version: [0.0.6b0] Old Version: [0.0.6]
+[2023-07-05 06:06:40] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-07-05 06:06:40] INFO root fetch - processPackages [bluecast]: New version: [0.8] Old Version: [0.7]
+[2023-07-05 06:06:40] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 06:06:40] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.5.5] Old Version: [2023.7.5.4]
+[2023-07-05 06:06:40] INFO root fetch - processPackages [siat]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-05 06:06:40] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/da/b8/1c37133bf3804e9ec8d9a7672d546a40096e2f631dec11960a20f062d26b/noiseflow-0.0.6-cp311-cp311-win_amd64.whl
+[2023-07-05 06:06:40] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/26/1a/76fd4cbdba7b6e414fc74b5030950c25fdbb9d5c65f0d1ec047ce4ba2949/siat-2.2.3-py3-none-any.whl
+[2023-07-05 06:06:40] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: Downloading https://files.pythonhosted.org/packages/ec/b1/fb2acb76b7c8c4d7d9c9112b686e5557342a27a4810e4073f75c1fdefa7a/casbin-rabbitmq-watcher-1.0.0.tar.gz
+[2023-07-05 06:06:40] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/bc/14/08b0b5451d18bb0531fb6a1f9186427c02e470909eecf9e9783c45347d94/yyxx_game_pkg-2023.7.5.4.tar.gz
+[2023-07-05 06:06:40] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: Downloading https://files.pythonhosted.org/packages/6f/1d/78447a6ce8490af55f9befb54f390b9ae0dc68ec8b9d8f0acc87ceb27985/odoo_addon_maintenance_timesheet-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 06:06:40] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/af/c8/b55e580449ff6007719e1ea70f7464fef7ee51046365067f31ddd36f6281/bluecast-0.7.tar.gz
+[2023-07-05 06:06:40] INFO root fetch - processPackages [noiseflow]: Downloading https://files.pythonhosted.org/packages/fd/e8/a1d8d4f54b7bb12e29c99f340690ae8ee6a2fe828103f640852074231574/noiseflow-0.0.6b0-cp39-cp39-manylinux_2_35_x86_64.whl
+[2023-07-05 06:06:40] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: Downloading https://files.pythonhosted.org/packages/e3/92/04303c164a8c0ab6c0f4ea8e2a5114277739e9a6e0266e1f887586c37e70/casbin-rabbitmq-watcher-1.1.0.tar.gz
+[2023-07-05 06:06:41] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/b6/09/f334c5428bb792114c21fa2625e90ee1407ce509204ec184bcfb7ab1b48e/siat-2.2.4-py3-none-any.whl
+[2023-07-05 06:06:41] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/9a/da/f3cd5c2e74394acbfd63ff7a731e53f1a8489fafecb7eda865f162cf61f5/yyxx_game_pkg-2023.7.5.5.tar.gz
+[2023-07-05 06:06:41] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: Downloading https://files.pythonhosted.org/packages/d5/13/ef5d34b76251f019381ac80e509f4f920472a9775b1ff4a465d66aad6294/odoo_addon_maintenance_timesheet-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-05 06:06:41] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: executing diffoscope
+[2023-07-05 06:06:41] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin-rabbitmq-watcher-1.0.0.tar.gz tmp/casbin-rabbitmq-watcher-1.1.0.tar.gz --markdown 20230705/c/casbin-rabbitmq-watcher/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 06:06:41] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/ec/3d/50055360ed61d23dcf174f7fce737def086bcd8b7ce250ec97745eb8d831/bluecast-0.8.tar.gz
+[2023-07-05 06:06:41] INFO root fetch - processPackages [noiseflow]: executing diffoscope
+[2023-07-05 06:06:41] INFO root fetch - processPackages [noiseflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noiseflow-0.0.6-cp311-cp311-win_amd64.whl.zip tmp/noiseflow-0.0.6b0-cp39-cp39-manylinux_2_35_x86_64.whl.zip --markdown 20230705/n/noiseflow/0.0.6-0.0.6b0/diff.md --exclude *.pyd
+[2023-07-05 06:06:41] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-05 06:06:41] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.2.3-py3-none-any.whl.zip tmp/siat-2.2.4-py3-none-any.whl.zip --markdown 20230705/s/siat/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-05 06:06:41] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-07-05 06:06:41] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.7.tar.gz tmp/bluecast-0.8.tar.gz --markdown 20230705/b/bluecast/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-05 06:06:41] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: executing diffoscope
+[2023-07-05 06:06:41] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_timesheet-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_maintenance_timesheet-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-maintenance-timesheet/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-07-05 06:06:41] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-05 06:06:41] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.7.5.4.tar.gz tmp/yyxx_game_pkg-2023.7.5.5.tar.gz --markdown 20230705/y/yyxx-game-pkg/2023.7.5.4-2023.7.5.5/diff.md --exclude *.pyd
+[2023-07-05 06:06:42] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: Remove: archive file [/home/abi/fetcher/tmp/casbin-rabbitmq-watcher-1.0.0.tar.gz]
+[2023-07-05 06:06:42] INFO root fetch - processPackages [casbin-rabbitmq-watcher]: Remove: archive file [/home/abi/fetcher/tmp/casbin-rabbitmq-watcher-1.1.0.tar.gz]
+[2023-07-05 06:06:42] INFO root fetch - main [MainThread]: End processing [casbin-rabbitmq-watcher]: success
+[2023-07-05 06:06:42] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_timesheet-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 06:06:42] INFO root fetch - processPackages [odoo-addon-maintenance-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_timesheet-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-05 06:06:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-timesheet]: success
+[2023-07-05 06:06:42] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.6-cp311-cp311-win_amd64.whl.zip]
+[2023-07-05 06:06:42] INFO root fetch - processPackages [noiseflow]: Remove: archive file [/home/abi/fetcher/tmp/noiseflow-0.0.6b0-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
+[2023-07-05 06:06:42] INFO root fetch - main [MainThread]: End processing [noiseflow]: success
+[2023-07-05 06:06:42] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.7.tar.gz]
+[2023-07-05 06:06:42] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.8.tar.gz]
+[2023-07-05 06:06:42] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-07-05 06:06:43] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.2.3-py3-none-any.whl.zip]
+[2023-07-05 06:06:43] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.2.4-py3-none-any.whl.zip]
+[2023-07-05 06:06:43] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-05 06:06:43] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.4.tar.gz]
+[2023-07-05 06:06:43] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.5.tar.gz]
+[2023-07-05 06:06:43] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-05 06:06:43] INFO root fetch - main [MainThread]: Store serial: [18762768]
