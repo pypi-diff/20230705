@@ -9584,3 +9584,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 08:44:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-05 08:44:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-05 08:44:03] INFO root fetch - main [MainThread]: Store serial: [18763452]
+[2023-07-05 08:49:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763452]
+[2023-07-05 08:49:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fgo-api-types
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dolphie
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyearth
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecmcode
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-cost-allocation
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySupercell
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micomputing
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: batorch
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyoverload
+[2023-07-05 08:49:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycamia
+[2023-07-05 08:49:13] INFO root fetch - processPackages [batorch]: New version: [1.0.33] Old Version: [1.0.32]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [pyoverload]: New version: [1.1.26] Old Version: [1.1.24]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 08:49:13] WARNING root fetch - processPackages [ecmcode]: Skipping, unable to determine old version
+[2023-07-05 08:49:13] INFO root fetch - processPackages [ecmcode]: Start processing: MetaGram
+[2023-07-05 08:49:13] INFO root fetch - main [MainThread]: End processing [ecmcode] error
+[2023-07-05 08:49:13] INFO root fetch - processPackages [micomputing]: New version: [1.1.33] Old Version: [1.1.31]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [pycamia]: New version: [1.0.32] Old Version: [1.0.31]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [dolphie]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [cloud-cost-allocation]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.7.5.6.44.7] Old Version: [2023.6.8.15.39.7]
+[2023-07-05 08:49:13] WARNING root fetch - processPackages [MetaGram]: Skipping, unable to determine old version
+[2023-07-05 08:49:13] INFO root fetch - processPackages [MetaGram]: Start processing: trustedtwin
+[2023-07-05 08:49:13] INFO root fetch - main [MainThread]: End processing [MetaGram] error
+[2023-07-05 08:49:13] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [trustedtwin]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-05 08:49:13] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/0a/b8/766e0cb9f6097ce11646955732d1ff5a20020fceb902b95f82ef35e0690e/dolphie-2.0.7.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/e4/d8/a3ee99e2de79f4ca8ee05e5e417fa28d6a12a5ab1c4f60888599ca7422c0/batorch-1.0.32.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/ce/99/1e0f226b5fbfd8b0d3781a3479a5b7eec2567e2592256a032752c2368ae5/pycamia-1.0.31.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/e2/d7/10f30a9d53d5fa0cda2aa3712ea9b585040047f56bdec26f8712bc4ec82a/pyoverload-1.1.24.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/59/0a/f44c8cd793438991d8a77e97a5ceea5550009685bbef14127686fcafe879/trustedtwin-0.4.8.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/72/e8/77e504cac6bac9185f23a5d280a92605f78d6ea05640361d1113a9c50052/micomputing-1.1.31.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [cloud-cost-allocation]: Downloading https://files.pythonhosted.org/packages/0c/1c/1eba1635200242a24f67e4a6306c87c515d8301f490cf368c52d619ad529/cloud-cost-allocation-1.0.4.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/d2/ee/93d61572a7f4647514cd5763194fee7ca0eb73e1c09c2693be94313a41e4/fgo_api_types-2023.6.8.15.39.7.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/3d/7f/ce8e5ad70dfd9a87edd0c8d9955d965fe75c1dcf2ebd02e407870b43e9e2/dolphie-2.0.8.tar.gz
+[2023-07-05 08:49:13] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-07-05 08:49:13] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230705/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/ce/28/f3af45ad2474127d80fb70b3ac1e28ff4b45dff893aaf73cf85359e039eb/trustedtwin-0.4.9.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/cb/56/a4b6503d20247a811e024df7fe7387e36c6798795cc7d7b863c65d3b7ef0/pycamia-1.0.32.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/e6/24/f73ff6adc7e8710b8828cbdbdc7a8261e3c223e874aab20168d7d3df53cb/batorch-1.0.33.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-2.0.7.tar.gz tmp/dolphie-2.0.8.tar.gz --markdown 20230705/d/dolphie/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/ed/7e/6ac24abef9be736095e5676b9e9b84cad4cddde0e5f018444914a33dc1b9/pyoverload-1.1.26.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/30/a9/6b3c03adb36a2989ffa94e9e886e570bbc16086ffafdffb222089c8caf09/micomputing-1.1.33.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/51/1c/316852116654e0cc93c8b370328a0c3f93c8c1fff7d2896a652829a3ee19/fgo_api_types-2023.7.5.6.44.7.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [cloud-cost-allocation]: Downloading https://files.pythonhosted.org/packages/b0/af/321416d6d75a4443cae135080f7f042e171ede4c500908bae65c752b017e/cloud-cost-allocation-1.0.5.tar.gz
+[2023-07-05 08:49:14] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-0.4.8.tar.gz tmp/trustedtwin-0.4.9.tar.gz --markdown 20230705/t/trustedtwin/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [pycamia]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [pycamia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycamia-1.0.31.tar.gz tmp/pycamia-1.0.32.tar.gz --markdown 20230705/p/pycamia/1.0.31-1.0.32/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [pyoverload]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [pyoverload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverload-1.1.24.tar.gz tmp/pyoverload-1.1.26.tar.gz --markdown 20230705/p/pyoverload/1.1.24-1.1.26/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [micomputing]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [micomputing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micomputing-1.1.31.tar.gz tmp/micomputing-1.1.33.tar.gz --markdown 20230705/m/micomputing/1.1.31-1.1.33/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [batorch]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [batorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batorch-1.0.32.tar.gz tmp/batorch-1.0.33.tar.gz --markdown 20230705/b/batorch/1.0.32-1.0.33/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz tmp/fgo_api_types-2023.7.5.6.44.7.tar.gz --markdown 20230705/f/fgo-api-types/2023.6.8.15.39.7-2023.7.5.6.44.7/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [cloud-cost-allocation]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [cloud-cost-allocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-cost-allocation-1.0.4.tar.gz tmp/cloud-cost-allocation-1.0.5.tar.gz --markdown 20230705/c/cloud-cost-allocation/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-05 08:49:14] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-07-05 08:49:14] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230705/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 08:49:15] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-07-05 08:49:15] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-07-05 08:49:15] INFO root fetch - processPackages [lazyearth]: Start processing: driftpy
+[2023-07-05 08:49:15] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-07-05 08:49:15] INFO root fetch - processPackages [driftpy]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-05 08:49:15] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.7.tar.gz]
+[2023-07-05 08:49:15] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-2.0.8.tar.gz]
+[2023-07-05 08:49:15] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2023-07-05 08:49:15] INFO root fetch - processPackages [driftpy]: Downloading https://files.pythonhosted.org/packages/91/fd/e7ddcd1f85c34c30da3999f72d972c5ed49090f1eb71ce726b2049c36fbb/driftpy-0.6.7.tar.gz
+[2023-07-05 08:49:15] INFO root fetch - processPackages [driftpy]: Downloading https://files.pythonhosted.org/packages/5d/a0/f2dac9ef0af06f2c18253ef08cace46b6505503dd6a41c48de1f42b0ad99/driftpy-0.6.8.tar.gz
+[2023-07-05 08:49:15] INFO root fetch - processPackages [driftpy]: executing diffoscope
+[2023-07-05 08:49:15] INFO root fetch - processPackages [driftpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/driftpy-0.6.7.tar.gz tmp/driftpy-0.6.8.tar.gz --markdown 20230705/d/driftpy/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-05 08:49:15] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.31.tar.gz]
+[2023-07-05 08:49:15] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.33.tar.gz]
+[2023-07-05 08:49:15] INFO root fetch - main [MainThread]: End processing [micomputing]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.8.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-0.4.9.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [cloud-cost-allocation]: Remove: archive file [/home/abi/fetcher/tmp/cloud-cost-allocation-1.0.4.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [cloud-cost-allocation]: Remove: archive file [/home/abi/fetcher/tmp/cloud-cost-allocation-1.0.5.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [cloud-cost-allocation]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.31.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.32.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [pycamia]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-1.1.24.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-1.1.26.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [pyoverload]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.6.8.15.39.7.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.5.6.44.7.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-07-05 08:49:16] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.32.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.33.tar.gz]
+[2023-07-05 08:49:16] INFO root fetch - main [MainThread]: End processing [batorch]: success
+[2023-07-05 08:49:18] INFO root fetch - processPackages [driftpy]: Remove: archive file [/home/abi/fetcher/tmp/driftpy-0.6.7.tar.gz]
+[2023-07-05 08:49:18] INFO root fetch - processPackages [driftpy]: Remove: archive file [/home/abi/fetcher/tmp/driftpy-0.6.8.tar.gz]
+[2023-07-05 08:49:18] INFO root fetch - main [MainThread]: End processing [driftpy]: success
+[2023-07-05 08:49:18] INFO root fetch - main [MainThread]: Store serial: [18763491]
