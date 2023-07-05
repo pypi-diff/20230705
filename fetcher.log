@@ -13556,3 +13556,93 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:39:21] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
 [2023-07-05 11:39:21] INFO root fetch - main [MainThread]: End processing [reytool]: success
 [2023-07-05 11:39:21] INFO root fetch - main [MainThread]: Store serial: [18765327]
+[2023-07-05 11:44:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765327]
+[2023-07-05 11:44:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fortdepend
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-datamodel
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interval-search
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-financial-report
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensesame-core
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nowcasting-datamodel
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meta-example
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-scheduler-sdk-preview
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-linq-sql
+[2023-07-05 11:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sparse-framework
+[2023-07-05 11:44:31] INFO root fetch - processPackages [fortdepend]: New version: [2.3.2] Old Version: [2.2.0]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a50] Old Version: [4.0.0a5]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [meta-example]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [interval-search]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: New version: [14.0.3.8.1.dev1] Old Version: [14.0.3.8.1]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: New version: [0.0.798] Old Version: [0.0.796]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [sparse-framework]: New version: [1.1.0] Old Version: [1.0.0.post2]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [py-linq-sql]: New version: [1.9.0.1] Old Version: [1.8.3.1]
+[2023-07-05 11:44:31] INFO root fetch - processPackages [fortdepend]: Downloading https://files.pythonhosted.org/packages/4d/84/0396e6642d8921f42cf89b5d0c789d5bf0e5091ab06c983ed7214c297bbd/fortdepend-2.2.0.tar.gz
+[2023-07-05 11:44:31] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/fb/7d/6673b85985c696ecdee0c21e1ed9859e3e24d3ebf18ab5500f18a165cf00/odoo14_addon_account_financial_report-14.0.3.8.1-py3-none-any.whl
+[2023-07-05 11:44:31] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-05 11:44:31] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/14/b8/4c1a780120b5e94b7d94a4a5b625773b808d325cf66ad325bbc17e297263/opensesame_core-4.0.0a5.tar.gz
+[2023-07-05 11:44:31] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/01/ff/fb83ea8f39027c88f49407fb7ff4b1ac29409e608e02c6385c1de05f1bb9/nowcasting_datamodel-1.4.8.tar.gz
+[2023-07-05 11:44:31] INFO root fetch - processPackages [interval-search]: Downloading https://files.pythonhosted.org/packages/2c/ab/55f505ff981951a64319ecdbafd2045c91209cffab0452d18aed0a030626/interval-search-0.5.1.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/06/91/79f25c46239c733f8ad8b5afe3d1f943ec4e8741948f26ded408f03a07d9/lusid-scheduler-sdk-preview-0.0.796.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [py-linq-sql]: Downloading https://files.pythonhosted.org/packages/0c/83/2112a4f4193298865cd9aeff99779db7fbf03c461beb0a3d4c1156a9aee8/py_linq_sql-1.8.3.1.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [sparse-framework]: Downloading https://files.pythonhosted.org/packages/f2/e8/8b67c2256dbfbfcd69eb75e7ebf85f10c883f131a057adf7d28353231f5a/sparse_framework-1.0.0.post2-py3-none-any.whl
+[2023-07-05 11:44:32] INFO root fetch - processPackages [meta-example]: Downloading https://files.pythonhosted.org/packages/84/0a/4838a5a55742fe1e55d525a18bef431a2aa33f33d314d5f6da3320397c11/meta_example-0.0.1.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [fortdepend]: Downloading https://files.pythonhosted.org/packages/b6/56/a87a4418a0c298e1a200e650986ea9743974128cf1a66ce97a429226775e/fortdepend-2.3.2.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [fortdepend]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [fortdepend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortdepend-2.2.0.tar.gz tmp/fortdepend-2.3.2.tar.gz --markdown 20230705/f/fortdepend/2.2.0-2.3.2/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [interval-search]: Downloading https://files.pythonhosted.org/packages/6b/dc/bf0f34fea6fdb607096701ed4522473e6ff90ef9cf73b248913ee3a560d4/interval-search-0.5.2.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Downloading https://files.pythonhosted.org/packages/a6/23/6166d5036e84129203ee77484a8906ef588eb77bd7afd5eece7f96441716/lusid-scheduler-sdk-preview-0.0.798.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/54/88/f05a4b9ec0d6199779a67651f044b38cbfca8f5dd46185ffff5321580aa2/nowcasting_datamodel-1.4.9.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [sparse-framework]: Downloading https://files.pythonhosted.org/packages/ba/e3/222b0f059b0bc517ff702ccedc09485c7929f15b1fa422ddfbbed2008b96/sparse-framework-1.1.0.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/1e/d3/9672f60ec87bb39388aad15258ed3a4d2619e28b70d347418831a744ad49/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl
+[2023-07-05 11:44:32] INFO root fetch - processPackages [meta-example]: Downloading https://files.pythonhosted.org/packages/ed/e0/64a287ae4772712bdf11eb5b8f7785043aa0e1bb9b680ecf732230d49421/meta-example-0.0.4.tar.gz
+[2023-07-05 11:44:32] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18335933>=10485760
+[2023-07-05 11:44:32] INFO root fetch - processPackages [py-linq-sql]: Downloading https://files.pythonhosted.org/packages/f4/06/24b80cf08ee96456df2b627bdae5684d8abd12037aece34b1dff5e3c0841/py_linq_sql-1.9.0.1.tar.gz
+[2023-07-05 11:44:32] INFO root fetch - processPackages [opensesame-core]: Start processing: stocks-cli
+[2023-07-05 11:44:32] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-05 11:44:32] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230705/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.4.8.tar.gz tmp/nowcasting_datamodel-1.4.9.tar.gz --markdown 20230705/n/nowcasting-datamodel/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [interval-search]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [interval-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interval-search-0.5.1.tar.gz tmp/interval-search-0.5.2.tar.gz --markdown 20230705/i/interval-search/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-scheduler-sdk-preview-0.0.796.tar.gz tmp/lusid-scheduler-sdk-preview-0.0.798.tar.gz --markdown 20230705/l/lusid-scheduler-sdk-preview/0.0.796-0.0.798/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] WARNING root fetch - processPackages [stocks-cli]: Skipping, unable to determine old version
+[2023-07-05 11:44:32] INFO root fetch - main [MainThread]: End processing [stocks-cli] error
+[2023-07-05 11:44:32] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_report-14.0.3.8.1-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-account-financial-report/14.0.3.8.1-14.0.3.8.1.dev1/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [sparse-framework]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [meta-example]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [sparse-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse_framework-1.0.0.post2-py3-none-any.whl.zip tmp/sparse-framework-1.1.0.tar.gz --markdown 20230705/s/sparse-framework/1.0.0.post2-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [meta-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_example-0.0.1.tar.gz tmp/meta-example-0.0.4.tar.gz --markdown 20230705/m/meta-example/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 11:44:32] INFO root fetch - processPackages [py-linq-sql]: executing diffoscope
+[2023-07-05 11:44:32] INFO root fetch - processPackages [py-linq-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_linq_sql-1.8.3.1.tar.gz tmp/py_linq_sql-1.9.0.1.tar.gz --markdown 20230705/p/py-linq-sql/1.8.3.1-1.9.0.1/diff.md --exclude *.pyd
+[2023-07-05 11:44:33] INFO root fetch - processPackages [fortdepend]: Remove: archive file [/home/abi/fetcher/tmp/fortdepend-2.2.0.tar.gz]
+[2023-07-05 11:44:33] INFO root fetch - processPackages [fortdepend]: Remove: archive file [/home/abi/fetcher/tmp/fortdepend-2.3.2.tar.gz]
+[2023-07-05 11:44:33] INFO root fetch - main [MainThread]: End processing [fortdepend]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [sparse-framework]: Remove: archive file [/home/abi/fetcher/tmp/sparse_framework-1.0.0.post2-py3-none-any.whl.zip]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [sparse-framework]: Remove: archive file [/home/abi/fetcher/tmp/sparse-framework-1.1.0.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [sparse-framework]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [interval-search]: Remove: archive file [/home/abi/fetcher/tmp/interval-search-0.5.1.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [interval-search]: Remove: archive file [/home/abi/fetcher/tmp/interval-search-0.5.2.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [interval-search]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [meta-example]: Remove: archive file [/home/abi/fetcher/tmp/meta_example-0.0.1.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [meta-example]: Remove: archive file [/home/abi/fetcher/tmp/meta-example-0.0.4.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [meta-example]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.8.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.4.9.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [py-linq-sql]: Remove: archive file [/home/abi/fetcher/tmp/py_linq_sql-1.8.3.1.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [py-linq-sql]: Remove: archive file [/home/abi/fetcher/tmp/py_linq_sql-1.9.0.1.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [py-linq-sql]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.796.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [lusid-scheduler-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-scheduler-sdk-preview-0.0.798.tar.gz]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk-preview]: success
+[2023-07-05 11:44:34] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.8.1-py3-none-any.whl.zip]
+[2023-07-05 11:44:34] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl.zip]
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
+[2023-07-05 11:44:34] INFO root fetch - main [MainThread]: Store serial: [18765359]
