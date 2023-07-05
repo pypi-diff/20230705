@@ -8438,3 +8438,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:14:30] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
 [2023-07-05 07:14:30] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
 [2023-07-05 07:14:30] INFO root fetch - main [MainThread]: Store serial: [18763049]
+[2023-07-05 07:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763049]
+[2023-07-05 07:19:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbrl-gymnasium
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-role
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-stock-barcodes
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-barcodes
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-stock-barcodes
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpaw
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tkadw
+[2023-07-05 07:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lol-esp-api
+[2023-07-05 07:19:39] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [tkadw]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [lol-esp-api]: New version: [0.3] Old Version: [0.24.5]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [gpaw]: New version: [23.6.1] Old Version: [23.6.0]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-05 07:19:39] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev8] Old Version: [14.0.2.2.2.dev7]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.9] Old Version: [15.0.1.2.2.8]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: New version: [12.0.2.3.0.99.dev9] Old Version: [12.0.2.3.0.99.dev8]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 07:19:39] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/ac/1c/7249ac9f0c64355910976f5ca7c9a90261fa15a2801476976259ee9dcdb3/tkadw-0.2.4.tar.gz
+[2023-07-05 07:19:39] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-05 07:19:39] INFO root fetch - processPackages [gpaw]: Downloading https://files.pythonhosted.org/packages/70/60/d1c25fc9e4e171559ad4ff5bbf257e4b5102ab81c669d34a833423f609b9/gpaw-23.6.0.tar.gz
+[2023-07-05 07:19:39] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-05 07:19:39] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/e3/56/67d37cd68c023e3589502d32747eb0bf6df42a8e47b6054cef1e2cb30ae8/tkadw-0.3.0.tar.gz
+[2023-07-05 07:19:39] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/ea/60/dd787ab5fb856b209354a29fa7a8ca8e690de5def43a9727f349a53e2ce4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl
+[2023-07-05 07:19:39] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/85/a2/ab9ca91270191921f58214b5fc69b02995c6f58564ed5723e9d0590261d8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev7-py3-none-any.whl
+[2023-07-05 07:19:39] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/7b/ae/0b18f8699b19301fc395d48fd04e04259e4f0ee1c649ae8bc243912b6480/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl
+[2023-07-05 07:19:39] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/6f/5e/8b8aed20d16ac482e38ccabd137ac50dd71c29cfab24bc48623323bbac82/lol-esp-api-0.24.5.tar.gz
+[2023-07-05 07:19:40] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230705/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.2.4.tar.gz tmp/tkadw-0.3.0.tar.gz --markdown 20230705/t/tkadw/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/25/f1/0d0c566099018fbee65b4b6cf54a26afb69f2048b5e40ec2cfda0b9e1aa6/bbrl_gymnasium-0.1.9.tar.gz
+[2023-07-05 07:19:40] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.8.tar.gz tmp/bbrl_gymnasium-0.1.9.tar.gz --markdown 20230705/b/bbrl-gymnasium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [gpaw]: Downloading https://files.pythonhosted.org/packages/30/59/f01172c6ab5d4ed6bc8a9fb1b8547eba823a929c9e2c26da81237816ed2b/gpaw-23.6.1.tar.gz
+[2023-07-05 07:19:40] INFO root fetch - processPackages [lol-esp-api]: Downloading https://files.pythonhosted.org/packages/b8/7f/91b8b20b201eb4c262f67f6887e24fa7f48e1c5e37ede48e40c5f55919f6/lol-esp-api-0.3.tar.gz
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/5d/29/2114485f917b8818641d0bb3c43d05af3d40e3d8185e97844b621f02b2b4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/1a/e3/04c2fd819928bf41869e3a25fd6f8420d24f8b3c4193d518b04580d83d10/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/f1/a9/843e0ed992ce2f46616f9ee781677bb32d4ab1d118bdbe0179a74b8ce4e8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl
+[2023-07-05 07:19:40] INFO root fetch - processPackages [lol-esp-api]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [lol-esp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-esp-api-0.24.5.tar.gz tmp/lol-esp-api-0.3.tar.gz --markdown 20230705/l/lol-esp-api/0.24.5-0.3/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [gpaw]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [gpaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpaw-23.6.0.tar.gz tmp/gpaw-23.6.1.tar.gz --markdown 20230705/g/gpaw/23.6.0-23.6.1/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip --markdown 20230705/o/odoo12-addon-stock-barcodes/12.0.2.3.0.99.dev8-12.0.2.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-stock-barcodes/15.0.1.2.2.8-15.0.1.2.2.9/diff.md --exclude *.pyd
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-07-05 07:19:40] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev7-14.0.2.2.2.dev8/diff.md --exclude *.pyd
+[2023-07-05 07:19:41] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-05 07:19:41] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.9.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-05 07:19:41] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.4.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.3.0.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-07-05 07:19:41] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.24.5.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - processPackages [lol-esp-api]: Remove: archive file [/home/abi/fetcher/tmp/lol-esp-api-0.3.tar.gz]
+[2023-07-05 07:19:41] INFO root fetch - main [MainThread]: End processing [lol-esp-api]: success
+[2023-07-05 07:19:42] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-05 07:19:42] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip]
+[2023-07-05 07:19:42] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-barcodes]: success
+[2023-07-05 07:19:42] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip]
+[2023-07-05 07:19:42] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip]
+[2023-07-05 07:19:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-07-05 07:19:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev7-py3-none-any.whl.zip]
+[2023-07-05 07:19:42] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2023-07-05 07:19:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-07-05 07:19:47] INFO root fetch - processPackages [gpaw]: Remove: archive file [/home/abi/fetcher/tmp/gpaw-23.6.0.tar.gz]
+[2023-07-05 07:19:47] INFO root fetch - processPackages [gpaw]: Remove: archive file [/home/abi/fetcher/tmp/gpaw-23.6.1.tar.gz]
+[2023-07-05 07:19:47] INFO root fetch - main [MainThread]: End processing [gpaw]: success
+[2023-07-05 07:19:47] INFO root fetch - main [MainThread]: Store serial: [18763072]
