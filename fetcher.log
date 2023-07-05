@@ -12058,3 +12058,86 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 10:35:27] INFO root fetch - processPackages [mmpretrain]: Remove: archive file [/home/abi/fetcher/tmp/mmpretrain-1.0.0rc8.tar.gz]
 [2023-07-05 10:35:27] INFO root fetch - main [MainThread]: End processing [mmpretrain]: success
 [2023-07-05 10:35:27] INFO root fetch - main [MainThread]: Store serial: [18764620]
+[2023-07-05 10:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764620]
+[2023-07-05 10:40:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiny-vk
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytbai
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SELDOMpy
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RandomUsernames
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aspose-barcode-for-python-via-java
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchility
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stocks-cli
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-estimator-nightly
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oc-portal-commons
+[2023-07-05 10:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vbelt
+[2023-07-05 10:40:37] WARNING root fetch - processPackages [pytbai]: Skipping, unable to determine old version
+[2023-07-05 10:40:37] INFO root fetch - processPackages [pytbai]: Start processing: grai-source-dbt
+[2023-07-05 10:40:37] INFO root fetch - main [MainThread]: End processing [pytbai] error
+[2023-07-05 10:40:37] WARNING root fetch - processPackages [tiny-vk]: Skipping, unable to determine old version
+[2023-07-05 10:40:37] INFO root fetch - processPackages [tiny-vk]: Start processing: grai-source-dbt-cloud
+[2023-07-05 10:40:37] INFO root fetch - main [MainThread]: End processing [tiny-vk] error
+[2023-07-05 10:40:37] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.3.5] Old Version: [0.8.3.4]
+[2023-07-05 10:40:37] INFO root fetch - processPackages [vbelt]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-07-05 10:40:37] WARNING root fetch - processPackages [stocks-cli]: Skipping, unable to determine old version
+[2023-07-05 10:40:37] INFO root fetch - main [MainThread]: End processing [stocks-cli] error
+[2023-07-05 10:40:37] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: New version: [23.6.1] Old Version: [23.6.0]
+[2023-07-05 10:40:37] INFO root fetch - processPackages [oc-portal-commons]: New version: [11.0.3] Old Version: [11.0.2]
+[2023-07-05 10:40:37] INFO root fetch - processPackages [torchility]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-05 10:40:37] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-05 10:40:37] ERROR root fetch - processPackages [RandomUsernames]: Unable to get metadata: No such project 'RandomUsernames'
+[2023-07-05 10:40:37] INFO root fetch - main [MainThread]: End processing [RandomUsernames] error
+[2023-07-05 10:40:37] INFO root fetch - processPackages [grai-source-dbt]: New version: [0.3.0a8] Old Version: [0.3.0a3]
+[2023-07-05 10:40:37] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-05 10:40:37] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/33/2d/eb53717231f3a6efefac9cb4911b05a6658f9a6cfe07cb205d3c870e9b36/torchility-0.7.8.tar.gz
+[2023-07-05 10:40:37] INFO root fetch - processPackages [grai-source-dbt-cloud]: New version: [0.1.0a6] Old Version: [0.1.0a2]
+[2023-07-05 10:40:37] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/21/20/f21609d6a3e25f1d910b44493b76151adbaa77e93a3530d4f0a6ab5abd28/SELDOMpy-0.8.3.4.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/40/aa/de358362e62c458f4bfc2b58b9f81f0c3e66b24b1d8553c396bf2ab7b176/aspose-barcode-for-python-via-java-23.6.0.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [vbelt]: Downloading https://files.pythonhosted.org/packages/68/c6/c6eeb13664b5d3791c97a378245803ff1714a63450bcfee3d95d489241fd/vbelt-0.1.8.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [oc-portal-commons]: Downloading https://files.pythonhosted.org/packages/15/79/cded335854278878fc0d83c92a2d84e4dce21cccb6e2468bcaa820ddf173/oc_portal_commons-11.0.2-py3-none-any.whl
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/29/d6/20a7ef5581507a970a89188fe5cb1236ff204c2b631df2f138841c2ad680/grai_source_dbt-0.3.0a3.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/32/13/a06ca2a6fdd7b935e90fcf3705a2f0a1ab8eb1ddfb552a921038d00df2ff/grai_source_dbt_cloud-0.1.0a2.tar.gz
+[2023-07-05 10:40:38] WARNING root fetch - processPackages [aspose-barcode-for-python-via-java]: Skipping package: exceeds size limit 14203512>=10485760
+[2023-07-05 10:40:38] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-java] error
+[2023-07-05 10:40:38] INFO root fetch - processPackages [torchility]: Downloading https://files.pythonhosted.org/packages/e3/fb/c2e87bb36927c52ab6af0d5325bc99a2642aa8929655d46a9e8e3d64d1c4/torchility-0.7.9.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-05 10:40:38] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/4f/1b/e770901635bbcf6ae990c95c00af9f8552d53aae5d4b9beb1dcdcc887470/SELDOMpy-0.8.3.5.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [torchility]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [torchility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchility-0.7.8.tar.gz tmp/torchility-0.7.9.tar.gz --markdown 20230705/t/torchility/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-05 10:40:38] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230705/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-05 10:40:38] INFO root fetch - processPackages [vbelt]: Downloading https://files.pythonhosted.org/packages/06/06/704d1166ec55f81aba23da6c7e4ea6475a5d1408879d8ec6617a350b33ed/vbelt-0.2.0.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [oc-portal-commons]: Downloading https://files.pythonhosted.org/packages/6e/38/23ef2d2a97af6c484c63453015e49f2c52f0105d122b76ae75b70b840bab/oc_portal_commons-11.0.3-py3-none-any.whl
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/62/0f/4206eaf2c4e96b5b69dd8a46f1da301b15742eff42f5f7233149a3448f1e/grai_source_dbt_cloud-0.1.0a6.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt]: Downloading https://files.pythonhosted.org/packages/a4/9a/84886360dac6b41875269973f241127476f6f05f81fc3ac9cf0f112285e4/grai_source_dbt-0.3.0a8.tar.gz
+[2023-07-05 10:40:38] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.4.tar.gz tmp/SELDOMpy-0.8.3.5.tar.gz --markdown 20230705/S/SELDOMpy/0.8.3.4-0.8.3.5/diff.md --exclude *.pyd
+[2023-07-05 10:40:38] INFO root fetch - processPackages [vbelt]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [vbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbelt-0.1.8.tar.gz tmp/vbelt-0.2.0.tar.gz --markdown 20230705/v/vbelt/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt-cloud]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt_cloud-0.1.0a2.tar.gz tmp/grai_source_dbt_cloud-0.1.0a6.tar.gz --markdown 20230705/g/grai-source-dbt-cloud/0.1.0a2-0.1.0a6/diff.md --exclude *.pyd
+[2023-07-05 10:40:38] INFO root fetch - processPackages [oc-portal-commons]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [oc-portal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_portal_commons-11.0.2-py3-none-any.whl.zip tmp/oc_portal_commons-11.0.3-py3-none-any.whl.zip --markdown 20230705/o/oc-portal-commons/11.0.2-11.0.3/diff.md --exclude *.pyd
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt]: executing diffoscope
+[2023-07-05 10:40:38] INFO root fetch - processPackages [grai-source-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt-0.3.0a3.tar.gz tmp/grai_source_dbt-0.3.0a8.tar.gz --markdown 20230705/g/grai-source-dbt/0.3.0a3-0.3.0a8/diff.md --exclude *.pyd
+[2023-07-05 10:40:39] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.8.tar.gz]
+[2023-07-05 10:40:39] INFO root fetch - processPackages [torchility]: Remove: archive file [/home/abi/fetcher/tmp/torchility-0.7.9.tar.gz]
+[2023-07-05 10:40:39] INFO root fetch - main [MainThread]: End processing [torchility]: success
+[2023-07-05 10:40:40] INFO root fetch - processPackages [grai-source-dbt]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt-0.3.0a3.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - processPackages [grai-source-dbt]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt-0.3.0a8.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [grai-source-dbt]: success
+[2023-07-05 10:40:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt_cloud-0.1.0a2.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_dbt_cloud-0.1.0a6.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [grai-source-dbt-cloud]: success
+[2023-07-05 10:40:40] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-05 10:40:40] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-05 10:40:40] INFO root fetch - processPackages [vbelt]: Remove: archive file [/home/abi/fetcher/tmp/vbelt-0.1.8.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - processPackages [vbelt]: Remove: archive file [/home/abi/fetcher/tmp/vbelt-0.2.0.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [vbelt]: success
+[2023-07-05 10:40:40] INFO root fetch - processPackages [oc-portal-commons]: Remove: archive file [/home/abi/fetcher/tmp/oc_portal_commons-11.0.2-py3-none-any.whl.zip]
+[2023-07-05 10:40:40] INFO root fetch - processPackages [oc-portal-commons]: Remove: archive file [/home/abi/fetcher/tmp/oc_portal_commons-11.0.3-py3-none-any.whl.zip]
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [oc-portal-commons]: success
+[2023-07-05 10:40:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.4.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.5.tar.gz]
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-05 10:40:40] INFO root fetch - main [MainThread]: Store serial: [18764659]
