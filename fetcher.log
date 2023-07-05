@@ -20775,3 +20775,212 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:28:20] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-05 16:28:20] INFO root fetch - main [MainThread]: End processing [flowtask]: success
 [2023-07-05 16:28:20] INFO root fetch - main [MainThread]: Store serial: [18768519]
+[2023-07-05 16:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768519]
+[2023-07-05 16:33:29] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flypp
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strawberry-graphql-django
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: directory-cms-client
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SELDOMpy
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-lts-cpu
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-users-resources
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-client
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: f5mkupy
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-service-server
+[2023-07-05 16:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-ui
+[2023-07-05 16:33:29] INFO root fetch - processPackages [SELDOMpy]: New version: [0.8.3.9] Old Version: [0.8.3.8]
+[2023-07-05 16:33:29] WARNING root fetch - processPackages [f5mkupy]: Skipping, unable to determine old version
+[2023-07-05 16:33:29] INFO root fetch - processPackages [f5mkupy]: Start processing: assemblyline-v4-service
+[2023-07-05 16:33:29] INFO root fetch - main [MainThread]: End processing [f5mkupy] error
+[2023-07-05 16:33:29] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [invenio-users-resources]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [directory-cms-client]: New version: [9.0.0] Old Version: [8.3.0]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/32/d5/dc26f6fc11ad66bbce9301b960cec7ff9dcf121a06b7eb82293b9c9cccf0/SELDOMpy-0.8.3.8.tar.gz
+[2023-07-05 16:33:29] INFO root fetch - processPackages [flypp]: New version: [5.2.1.2.1] Old Version: [5.2.1]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [strawberry-graphql-django]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.18.5] Old Version: [0.18.4]
+[2023-07-05 16:33:29] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-05 16:33:29] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/fb/ea/a05b5012ed42ae581dcdd7d5795b09abd21cc4599ee7a462410c2797d0c5/invenio-users-resources-2.0.0.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [flypp]: Downloading https://files.pythonhosted.org/packages/b4/12/edd82beae7ed1bbb317af364744a80a2cd6570265344ad7c2e88c51ac0af/flypp-5.2.1.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [strawberry-graphql-django]: Downloading https://files.pythonhosted.org/packages/84/8d/02584438b57b9d8c0141a779dd091b2f10126fe1f369ea1852d45afa3eec/strawberry_graphql_django-0.9.4.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/51/a1/b6b1ef69635ffcf123402e1ec6446f6b99b744b88be769ce3f723a2f6221/directory_cms_client-8.3.0-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/ad/da/dc310c15c2a56c18ca8054175f8d49d7010eb17f79cb204a21897e873eb6/polars_lts_cpu-0.18.4.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [SELDOMpy]: Downloading https://files.pythonhosted.org/packages/1c/46/e521bde7e43501ba03a33b8cc30f42fababf154f35e7cc9aaa809c6eff3a/SELDOMpy-0.8.3.9.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/9f/45/71bf1f1cfb78800200e4e93d76cf024e3bf52dc777408bdbb325815cbaf1/invenio-users-resources-2.0.1.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [SELDOMpy]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [SELDOMpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SELDOMpy-0.8.3.8.tar.gz tmp/SELDOMpy-0.8.3.9.tar.gz --markdown 20230705/S/SELDOMpy/0.8.3.8-0.8.3.9/diff.md --exclude *.pyd
+[2023-07-05 16:33:30] INFO root fetch - processPackages [flypp]: Downloading https://files.pythonhosted.org/packages/c3/8d/7d610dfbf13ad9be35d9cdd88234e4ab324879c6d6c56969e54ccd60aa56/flypp-5.2.1.2.1.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230705/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230705/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230705/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230705/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-05 16:33:30] INFO root fetch - processPackages [strawberry-graphql-django]: Downloading https://files.pythonhosted.org/packages/34/c7/6761d3816f5a7cf02928b5d035b4ed20b4e6d2a12ec6a4cf9400ce4d7cbb/strawberry_graphql_django-0.9.5.tar.gz
+[2023-07-05 16:33:30] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-2.0.0.tar.gz tmp/invenio-users-resources-2.0.1.tar.gz --markdown 20230705/i/invenio-users-resources/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-05 16:33:30] INFO root fetch - processPackages [directory-cms-client]: Downloading https://files.pythonhosted.org/packages/14/5f/3669664f07e98869762da026ce7ccaca9ca6a4d54425930c48e5252b3f79/directory_cms_client-9.0.0-py3-none-any.whl
+[2023-07-05 16:33:30] INFO root fetch - processPackages [flypp]: executing diffoscope
+[2023-07-05 16:33:30] INFO root fetch - processPackages [flypp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flypp-5.2.1.tar.gz tmp/flypp-5.2.1.2.1.tar.gz --markdown 20230705/f/flypp/5.2.1-5.2.1.2.1/diff.md --exclude *.pyd
+[2023-07-05 16:33:31] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/8c/f8/b395887097fbd40b91d7ab607063ae6e713de86243cad14b59947e37ad1f/polars_lts_cpu-0.18.5.tar.gz
+[2023-07-05 16:33:31] INFO root fetch - processPackages [strawberry-graphql-django]: executing diffoscope
+[2023-07-05 16:33:31] INFO root fetch - processPackages [strawberry-graphql-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_graphql_django-0.9.4.tar.gz tmp/strawberry_graphql_django-0.9.5.tar.gz --markdown 20230705/s/strawberry-graphql-django/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-05 16:33:31] INFO root fetch - processPackages [directory-cms-client]: executing diffoscope
+[2023-07-05 16:33:31] INFO root fetch - processPackages [directory-cms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip --markdown 20230705/d/directory-cms-client/8.3.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-05 16:33:31] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-07-05 16:33:31] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.18.4.tar.gz tmp/polars_lts_cpu-0.18.5.tar.gz --markdown 20230705/p/polars-lts-cpu/0.18.4-0.18.5/diff.md --exclude *.pyd
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline
+[2023-07-05 16:33:32] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-07-05 16:33:32] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [flypp]: Remove: archive file [/home/abi/fetcher/tmp/flypp-5.2.1.tar.gz]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [flypp]: Remove: archive file [/home/abi/fetcher/tmp/flypp-5.2.1.2.1.tar.gz]
+[2023-07-05 16:33:32] INFO root fetch - processPackages [flypp]: Start processing: madml
+[2023-07-05 16:33:32] INFO root fetch - main [MainThread]: End processing [flypp]: success
+[2023-07-05 16:33:32] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [madml]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-ui]: Start processing: luminesce-sdk-preview
+[2023-07-05 16:33:33] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [madml]: Downloading https://files.pythonhosted.org/packages/7d/e1/62d48b85456a466d0855f0dd3fe22f85b3b7b78ef31f7b743611d7b19157/madml-0.1.7.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.4.tar.gz]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [strawberry-graphql-django]: Remove: archive file [/home/abi/fetcher/tmp/strawberry_graphql_django-0.9.5.tar.gz]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [strawberry-graphql-django]: Start processing: acquire
+[2023-07-05 16:33:33] INFO root fetch - main [MainThread]: End processing [strawberry-graphql-django]: success
+[2023-07-05 16:33:33] INFO root fetch - processPackages [directory-cms-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_cms_client-8.3.0-py3-none-any.whl.zip]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [directory-cms-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_cms_client-9.0.0-py3-none-any.whl.zip]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [directory-cms-client]: Start processing: iformat
+[2023-07-05 16:33:33] INFO root fetch - main [MainThread]: End processing [directory-cms-client]: success
+[2023-07-05 16:33:33] INFO root fetch - processPackages [acquire]: New version: [3.7.dev6] Old Version: [3.7.dev5]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.8.tar.gz]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [SELDOMpy]: Remove: archive file [/home/abi/fetcher/tmp/SELDOMpy-0.8.3.9.tar.gz]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [SELDOMpy]: Start processing: config-wrangler
+[2023-07-05 16:33:33] INFO root fetch - main [MainThread]: End processing [SELDOMpy]: success
+[2023-07-05 16:33:33] WARNING root fetch - processPackages [madml]: Skipping package: exceeds size limit 18111855>=10485760
+[2023-07-05 16:33:33] INFO root fetch - processPackages [madml]: Start processing: archimedes-python-client
+[2023-07-05 16:33:33] INFO root fetch - main [MainThread]: End processing [madml] error
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230705/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-05 16:33:33] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/8b/c9/d878ac4d24d2ba17fd4b3a4e90fa15ebdfed0c450ce2a3768d9937a7d0b5/acquire-3.7.dev5.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [iformat]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-05 16:33:33] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230705/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-05 16:33:33] INFO root fetch - processPackages [config-wrangler]: New version: [0.5.5] Old Version: [0.5.4a0]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [archimedes-python-client]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-07-05 16:33:33] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/50/7f/098ee4be99fe7f4be765da8715ab3bad32e409aa9edf6ae25391c9ae77dc/iformat-0.1.1.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/5d/74/277b289ee6480ac1cd90c6bf694d1112f85f3c4f017d5526178673bcb39d/acquire-3.7.dev6.tar.gz
+[2023-07-05 16:33:33] INFO root fetch - processPackages [config-wrangler]: Downloading https://files.pythonhosted.org/packages/4d/90/e9b416ba4ab59c1cc6c73d309a4f3ec25904139e17ee47b6ab9d4cf294e3/config_wrangler-0.5.4a0.tar.gz
+[2023-07-05 16:33:34] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/31/fb/2086e9e3fb37986436ca47dca9879d3d503780a91e0d2c045c319f825059/archimedes_python_client-4.8.3.tar.gz
+[2023-07-05 16:33:34] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-07-05 16:33:34] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.7.dev5.tar.gz tmp/acquire-3.7.dev6.tar.gz --markdown 20230705/a/acquire/3.7.dev5-3.7.dev6/diff.md --exclude *.pyd
+[2023-07-05 16:33:34] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-05 16:33:34] INFO root fetch - processPackages [iformat]: Downloading https://files.pythonhosted.org/packages/cb/b2/61566fdce971c4fb5cb50c71033b5b4ae9da0a737a106c15addf20ff8184/iformat-0.2.0.tar.gz
+[2023-07-05 16:33:34] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-05 16:33:34] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230705/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-05 16:33:34] INFO root fetch - processPackages [config-wrangler]: Downloading https://files.pythonhosted.org/packages/66/7e/04197d48f52eabf35b8dac86cd63690bddd1feaacb12ac03eb64750db737/config_wrangler-0.5.5.tar.gz
+[2023-07-05 16:33:34] INFO root fetch - processPackages [iformat]: executing diffoscope
+[2023-07-05 16:33:34] INFO root fetch - processPackages [iformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iformat-0.1.1.tar.gz tmp/iformat-0.2.0.tar.gz --markdown 20230705/i/iformat/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 16:33:34] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/d2/f1/7c35edeab7f2c8c504b9e00e68f6b64247857ede6f4f85b9f4953a55c15e/archimedes_python_client-4.9.0.tar.gz
+[2023-07-05 16:33:34] INFO root fetch - processPackages [config-wrangler]: executing diffoscope
+[2023-07-05 16:33:34] INFO root fetch - processPackages [config-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_wrangler-0.5.4a0.tar.gz tmp/config_wrangler-0.5.5.tar.gz --markdown 20230705/c/config-wrangler/0.5.4a0-0.5.5/diff.md --exclude *.pyd
+[2023-07-05 16:33:34] INFO root fetch - processPackages [invenio-users-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-users-resources-2.0.0.tar.gz]
+[2023-07-05 16:33:34] INFO root fetch - processPackages [invenio-users-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-users-resources-2.0.1.tar.gz]
+[2023-07-05 16:33:34] INFO root fetch - processPackages [invenio-users-resources]: Start processing: text-fabric
+[2023-07-05 16:33:34] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2023-07-05 16:33:34] INFO root fetch - processPackages [archimedes-python-client]: executing diffoscope
+[2023-07-05 16:33:34] INFO root fetch - processPackages [archimedes-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_python_client-4.8.3.tar.gz tmp/archimedes_python_client-4.9.0.tar.gz --markdown 20230705/a/archimedes-python-client/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:33:34] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-07-05 16:33:35] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-07-05 16:33:35] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-05 16:33:35] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-05 16:33:35] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: RegScale-CLI
+[2023-07-05 16:33:35] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-05 16:33:35] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-07-05 16:33:35] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2023-07-05 16:33:35] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-07-05 16:33:35] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-05 16:33:35] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-05 16:33:35] INFO root fetch - processPackages [assemblyline-core]: Start processing: mipdb
+[2023-07-05 16:33:35] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-05 16:33:35] INFO root fetch - processPackages [mipdb]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [mipdb]: Downloading https://files.pythonhosted.org/packages/6b/5d/63f9d5b5759ab2d490f2a28f09b8ede9f6f93d95d3062a3d32947ae1d06d/mipdb-2.1.0.tar.gz
+[2023-07-05 16:33:36] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev5.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev6.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [acquire]: Start processing: serpyco-rs
+[2023-07-05 16:33:36] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-07-05 16:33:36] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.1.1.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [iformat]: Remove: archive file [/home/abi/fetcher/tmp/iformat-0.2.0.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [iformat]: Start processing: pyxcp
+[2023-07-05 16:33:36] INFO root fetch - main [MainThread]: End processing [iformat]: success
+[2023-07-05 16:33:36] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2023-07-05 16:33:36] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-07-05 16:33:36] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230705/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-07-05 16:33:36] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [archimedes-python-client]: Remove: archive file [/home/abi/fetcher/tmp/archimedes_python_client-4.8.3.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [archimedes-python-client]: Remove: archive file [/home/abi/fetcher/tmp/archimedes_python_client-4.9.0.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - main [MainThread]: End processing [archimedes-python-client]: success
+[2023-07-05 16:33:36] INFO root fetch - processPackages [mipdb]: Downloading https://files.pythonhosted.org/packages/59/75/d5bf19fa185a85f54b0d8f832037d19d64a0b82fa3919d0d6f0381d703a2/mipdb-2.2.0.tar.gz
+[2023-07-05 16:33:36] INFO root fetch - processPackages [pyxcp]: New version: [0.20.4] Old Version: [0.20.3]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/d9/45/94ce3f85179db4fac16aa2fe9d20adf17e5539bb7cd9289d14b3e1ffb8ec/serpyco_rs-0.9.2.tar.gz
+[2023-07-05 16:33:36] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2023-07-05 16:33:36] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20230705/R/RegScale-CLI/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:33:36] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-05 16:33:36] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-05 16:33:36] INFO root fetch - processPackages [config-wrangler]: Remove: archive file [/home/abi/fetcher/tmp/config_wrangler-0.5.4a0.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - processPackages [config-wrangler]: Remove: archive file [/home/abi/fetcher/tmp/config_wrangler-0.5.5.tar.gz]
+[2023-07-05 16:33:36] INFO root fetch - main [MainThread]: End processing [config-wrangler]: success
+[2023-07-05 16:33:36] INFO root fetch - processPackages [pyxcp]: Downloading https://files.pythonhosted.org/packages/1f/58/be6686c46489b87a6f79b101b95ef1fcb76e1943c63bf0855a2379711da1/pyxcp-0.20.3.tar.gz
+[2023-07-05 16:33:36] INFO root fetch - processPackages [mipdb]: executing diffoscope
+[2023-07-05 16:33:36] INFO root fetch - processPackages [mipdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mipdb-2.1.0.tar.gz tmp/mipdb-2.2.0.tar.gz --markdown 20230705/m/mipdb/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-05 16:33:37] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/0d/b3/c3f982b04acf7516afd38fbdc171988d718835fdd1e426e434d91d55611a/serpyco_rs-0.9.3.tar.gz
+[2023-07-05 16:33:37] INFO root fetch - processPackages [pyxcp]: Downloading https://files.pythonhosted.org/packages/68/9f/5885cd5b1e37d249d9fe4a261c8e0a6a6d2b71ddd685ba96882385e5be63/pyxcp-0.20.4-cp39-cp39-win32.whl
+[2023-07-05 16:33:37] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-07-05 16:33:37] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230705/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-05 16:33:37] INFO root fetch - processPackages [mipdb]: Remove: archive file [/home/abi/fetcher/tmp/mipdb-2.1.0.tar.gz]
+[2023-07-05 16:33:37] INFO root fetch - processPackages [mipdb]: Remove: archive file [/home/abi/fetcher/tmp/mipdb-2.2.0.tar.gz]
+[2023-07-05 16:33:37] INFO root fetch - main [MainThread]: End processing [mipdb]: success
+[2023-07-05 16:33:38] INFO root fetch - processPackages [pyxcp]: executing diffoscope
+[2023-07-05 16:33:38] INFO root fetch - processPackages [pyxcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxcp-0.20.3.tar.gz tmp/pyxcp-0.20.4-cp39-cp39-win32.whl.zip --markdown 20230705/p/pyxcp/0.20.3-0.20.4/diff.md --exclude *.pyd
+[2023-07-05 16:33:38] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2023-07-05 16:33:38] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2023-07-05 16:33:38] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2023-07-05 16:33:38] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.2.tar.gz]
+[2023-07-05 16:33:38] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.3.tar.gz]
+[2023-07-05 16:33:38] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-07-05 16:33:38] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2023-07-05 16:33:38] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2023-07-05 16:33:38] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-07-05 16:33:39] INFO root fetch - processPackages [pyxcp]: Remove: archive file [/home/abi/fetcher/tmp/pyxcp-0.20.3.tar.gz]
+[2023-07-05 16:33:39] INFO root fetch - processPackages [pyxcp]: Remove: archive file [/home/abi/fetcher/tmp/pyxcp-0.20.4-cp39-cp39-win32.whl.zip]
+[2023-07-05 16:33:39] INFO root fetch - main [MainThread]: End processing [pyxcp]: success
+[2023-07-05 16:33:47] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.4.tar.gz]
+[2023-07-05 16:33:47] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.5.tar.gz]
+[2023-07-05 16:33:47] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-07-05 16:33:47] INFO root fetch - main [MainThread]: Store serial: [18768603]
