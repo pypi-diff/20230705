@@ -8513,3 +8513,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:19:47] INFO root fetch - processPackages [gpaw]: Remove: archive file [/home/abi/fetcher/tmp/gpaw-23.6.1.tar.gz]
 [2023-07-05 07:19:47] INFO root fetch - main [MainThread]: End processing [gpaw]: success
 [2023-07-05 07:19:47] INFO root fetch - main [MainThread]: Store serial: [18763072]
+[2023-07-05 07:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763072]
+[2023-07-05 07:24:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 07:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: std.algorithm
+[2023-07-05 07:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapy-proxycrawl-middleware
+[2023-07-05 07:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapy-crawlbase-middleware
+[2023-07-05 07:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spike2py
+[2023-07-05 07:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqlib
+[2023-07-05 07:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-stock-logistics-warehouse
+[2023-07-05 07:24:56] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-05 07:24:56] INFO root fetch - processPackages [spike2py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 07:24:56] WARNING root fetch - processPackages [scrapy-crawlbase-middleware]: Skipping, unable to determine old version
+[2023-07-05 07:24:56] INFO root fetch - main [MainThread]: End processing [scrapy-crawlbase-middleware] error
+[2023-07-05 07:24:56] INFO root fetch - processPackages [std.algorithm]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-07-05 07:24:56] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: New version: [16.0.20230704.0] Old Version: [16.0.20230519.0]
+[2023-07-05 07:24:56] INFO root fetch - processPackages [pyqlib]: New version: [0.9.2.1] Old Version: [0.9.2]
+[2023-07-05 07:24:56] INFO root fetch - processPackages [spike2py]: Downloading https://files.pythonhosted.org/packages/ad/d3/c10e0882501b94b5ff6d9940f2e56aa5983c7769857579416e20baed37a8/spike2py-0.2.0.tar.gz
+[2023-07-05 07:24:56] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: Downloading https://files.pythonhosted.org/packages/8c/74/0b70ab4209a263a966035b5fab571d2f732bf85d32d5bf9c064370797917/scrapy-proxycrawl-middleware-1.1.0.tar.gz
+[2023-07-05 07:24:57] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/d2/42/e6d278a42eac2401d15ee044831875047f5ea49b6f66fc0ff725f8ba5b91/odoo_addons_oca_stock_logistics_warehouse-16.0.20230519.0-py3-none-any.whl
+[2023-07-05 07:24:57] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/35/66/db5217b7dcebd6302c4c77f781816460c0ebafdfd4db33e68108577233b0/std.algorithm-1.1.7.tar.gz
+[2023-07-05 07:24:57] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/66/59/cb67c53735dd020876cd0aaa137e801adc49373637ba65321a8bb6a60818/pyqlib-0.9.2-cp38-cp38-win_amd64.whl
+[2023-07-05 07:24:57] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: Downloading https://files.pythonhosted.org/packages/60/90/39114f4c72a63e7d7513474967c45cca8857a478bb1cbe169c8a9abe020f/scrapy-proxycrawl-middleware-1.2.0.tar.gz
+[2023-07-05 07:24:57] INFO root fetch - processPackages [spike2py]: Downloading https://files.pythonhosted.org/packages/10/a4/52bdce240576ec503ddaff1d93ada02b9ba59e63956a412382d2719ff432/spike2py-0.2.1.tar.gz
+[2023-07-05 07:24:57] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: executing diffoscope
+[2023-07-05 07:24:57] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-proxycrawl-middleware-1.1.0.tar.gz tmp/scrapy-proxycrawl-middleware-1.2.0.tar.gz --markdown 20230705/s/scrapy-proxycrawl-middleware/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 07:24:57] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Downloading https://files.pythonhosted.org/packages/a8/57/622402efbec8510183d2609028f8210708b4bb56e0b06c5996cf0f828ca0/odoo_addons_oca_stock_logistics_warehouse-16.0.20230704.0-py3-none-any.whl
+[2023-07-05 07:24:57] INFO root fetch - processPackages [spike2py]: executing diffoscope
+[2023-07-05 07:24:57] INFO root fetch - processPackages [spike2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spike2py-0.2.0.tar.gz tmp/spike2py-0.2.1.tar.gz --markdown 20230705/s/spike2py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 07:24:57] INFO root fetch - processPackages [pyqlib]: Downloading https://files.pythonhosted.org/packages/1f/46/55b19d494e2d98dfa7d4bb204335298bec22de9e5c7f44f5d6515be8bd10/pyqlib-0.9.2.1-cp38-cp38-macosx_10_15_x86_64.whl
+[2023-07-05 07:24:57] INFO root fetch - processPackages [std.algorithm]: Downloading https://files.pythonhosted.org/packages/ae/20/ae33604768ec90e70876a078b503bcda6a19737041f9d0785b12e4e86708/std.algorithm-1.1.9.tar.gz
+[2023-07-05 07:24:57] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: executing diffoscope
+[2023-07-05 07:24:57] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230519.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230704.0-py3-none-any.whl.zip --markdown 20230705/o/odoo-addons-oca-stock-logistics-warehouse/16.0.20230519.0-16.0.20230704.0/diff.md --exclude *.pyd
+[2023-07-05 07:24:57] INFO root fetch - processPackages [pyqlib]: executing diffoscope
+[2023-07-05 07:24:57] INFO root fetch - processPackages [pyqlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqlib-0.9.2-cp38-cp38-win_amd64.whl.zip tmp/pyqlib-0.9.2.1-cp38-cp38-macosx_10_15_x86_64.whl.zip --markdown 20230705/p/pyqlib/0.9.2-0.9.2.1/diff.md --exclude *.pyd
+[2023-07-05 07:24:57] INFO root fetch - processPackages [std.algorithm]: executing diffoscope
+[2023-07-05 07:24:57] INFO root fetch - processPackages [std.algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std.algorithm-1.1.7.tar.gz tmp/std.algorithm-1.1.9.tar.gz --markdown 20230705/s/std.algorithm/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 07:24:58] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-proxycrawl-middleware-1.1.0.tar.gz]
+[2023-07-05 07:24:58] INFO root fetch - processPackages [scrapy-proxycrawl-middleware]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-proxycrawl-middleware-1.2.0.tar.gz]
+[2023-07-05 07:24:58] INFO root fetch - main [MainThread]: End processing [scrapy-proxycrawl-middleware]: success
+[2023-07-05 07:24:58] INFO root fetch - processPackages [spike2py]: Remove: archive file [/home/abi/fetcher/tmp/spike2py-0.2.0.tar.gz]
+[2023-07-05 07:24:58] INFO root fetch - processPackages [spike2py]: Remove: archive file [/home/abi/fetcher/tmp/spike2py-0.2.1.tar.gz]
+[2023-07-05 07:24:58] INFO root fetch - main [MainThread]: End processing [spike2py]: success
+[2023-07-05 07:24:58] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230519.0-py3-none-any.whl.zip]
+[2023-07-05 07:24:58] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-warehouse]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_warehouse-16.0.20230704.0-py3-none-any.whl.zip]
+[2023-07-05 07:24:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-warehouse]: success
+[2023-07-05 07:24:59] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.7.tar.gz]
+[2023-07-05 07:24:59] INFO root fetch - processPackages [std.algorithm]: Remove: archive file [/home/abi/fetcher/tmp/std.algorithm-1.1.9.tar.gz]
+[2023-07-05 07:24:59] INFO root fetch - main [MainThread]: End processing [std.algorithm]: success
+[2023-07-05 07:25:00] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.2-cp38-cp38-win_amd64.whl.zip]
+[2023-07-05 07:25:00] INFO root fetch - processPackages [pyqlib]: Remove: archive file [/home/abi/fetcher/tmp/pyqlib-0.9.2.1-cp38-cp38-macosx_10_15_x86_64.whl.zip]
+[2023-07-05 07:25:00] INFO root fetch - main [MainThread]: End processing [pyqlib]: success
+[2023-07-05 07:25:00] INFO root fetch - main [MainThread]: Store serial: [18763087]
