@@ -14888,3 +14888,78 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:43:20] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.3.tar.gz]
 [2023-07-05 12:43:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
 [2023-07-05 12:43:20] INFO root fetch - main [MainThread]: Store serial: [18765931]
+[2023-07-05 12:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765931]
+[2023-07-05 12:48:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: innerverz
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: directory-api-client
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psqlpandas
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeUtils
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-images-to-webp
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lumigo-opentelemetry
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickBayes
+[2023-07-05 12:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: privlib
+[2023-07-05 12:48:29] INFO root fetch - processPackages [psqlpandas]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [innerverz]: New version: [0.0.35.1] Old Version: [0.0.35]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [directory-api-client]: New version: [9.17.0] Old Version: [9.16.0]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [mkdocs-images-to-webp]: New version: [0.8] Old Version: [0.7]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [quickBayes]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [MeUtils]: New version: [2023.7.5.18.44.14] Old Version: [2023.7.3.8.8.54]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [privlib]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 12:48:29] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/bc/f6/6a44f4dfacf0fb033c0ac510b95841ebb6fa6bdb7a3cfc6e9e4ec524e77f/psqlpandas-1.2.1.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.84]
+[2023-07-05 12:48:30] INFO root fetch - processPackages [mkdocs-images-to-webp]: Downloading https://files.pythonhosted.org/packages/0f/22/4397dcd25b6162fb61e88cc7792758e5859ecc24c7eaecc284a339ba2766/mkdocs-images-to-webp-0.7.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/11/7f/40424a4e95dc6419ed9e4dabb1c4cec7c1e9d9e3e961af4056c30266a0ed/innerverz-0.0.35.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/16/d7/a63a08360fda597f9f33f0a386108e0800ba5122bd54aa6ccbf0905837c0/lumigo_opentelemetry-1.0.84-py3-none-any.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/1e/69/96cd730b1d1e10de95cab24a8c2ad0d7026debfc72f1afcd974bc301ca09/directory_api_client-9.16.0-py3-none-any.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/e6/24/10df222d883366f113c52584a2aae369cdeadfc8b66c95297de93f439028/MeUtils-2023.7.3.8.8.54.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/8b/eb/c50405c59fb78eb821b0d3f2b6b32b33666e3008d84329a5475e7ce714ea/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [privlib]: Downloading https://files.pythonhosted.org/packages/02/e0/a111597d81752f6424a7628ae69a8b3ca37156603d6dfd188bc09c7eaa0d/privlib-0.0.3.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/75/2e/b27fa2172c9cb25947a0895a08f099b2ec04c84252e0463f4a402e894357/psqlpandas-1.2.2.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [mkdocs-images-to-webp]: Downloading https://files.pythonhosted.org/packages/95/d6/63f0a88a7e7b1964ab8b01513b4cacff9cf33c5cfeada32a968407a3c0bf/mkdocs-images-to-webp-0.8.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [psqlpandas]: executing diffoscope
+[2023-07-05 12:48:30] INFO root fetch - processPackages [psqlpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psqlpandas-1.2.1.tar.gz tmp/psqlpandas-1.2.2.tar.gz --markdown 20230705/p/psqlpandas/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-05 12:48:30] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/40/94/aa9e58f69a8cc88b7fe23de6860abb106aa895a13fb3f6b93fa582d5a878/innerverz-0.0.35.1.tar.gz
+[2023-07-05 12:48:30] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/52/85/2f3191f81cb23b1eedb870fab1c978f87574116c71a64471af24e75db35d/directory_api_client-9.17.0-py3-none-any.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 12:48:30] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.35.tar.gz tmp/innerverz-0.0.35.1.tar.gz --markdown 20230705/i/innerverz/0.0.35-0.0.35.1/diff.md --exclude *.pyd
+[2023-07-05 12:48:30] INFO root fetch - processPackages [privlib]: Downloading https://files.pythonhosted.org/packages/29/ed/2ab1c48d7da344a6969e4dcce2e6aa4250f46b385597755b32f33279bac2/privlib-0.0.4-py3-none-any.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [mkdocs-images-to-webp]: executing diffoscope
+[2023-07-05 12:48:30] INFO root fetch - processPackages [mkdocs-images-to-webp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-images-to-webp-0.7.tar.gz tmp/mkdocs-images-to-webp-0.8.tar.gz --markdown 20230705/m/mkdocs-images-to-webp/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-05 12:48:30] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-05 12:48:30] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.84-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230705/l/lumigo-opentelemetry/1.0.84-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 12:48:30] INFO root fetch - processPackages [directory-api-client]: executing diffoscope
+[2023-07-05 12:48:30] INFO root fetch - processPackages [directory-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_api_client-9.16.0-py3-none-any.whl.zip tmp/directory_api_client-9.17.0-py3-none-any.whl.zip --markdown 20230705/d/directory-api-client/9.16.0-9.17.0/diff.md --exclude *.pyd
+[2023-07-05 12:48:30] INFO root fetch - processPackages [privlib]: executing diffoscope
+[2023-07-05 12:48:30] INFO root fetch - processPackages [privlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privlib-0.0.3.tar.gz tmp/privlib-0.0.4-py3-none-any.whl.zip --markdown 20230705/p/privlib/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 12:48:30] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/0e/cb/6958d128ef4180874b602109b91198c111874b6bdc765e473e2aedf094fe/quickBayes-1.0.0b9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-07-05 12:48:30] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/1a/13/0843b40c6f0aed3f6625edbb74f517906805cd946cb9698f5ad68950b13b/MeUtils-2023.7.5.18.44.14.tar.gz
+[2023-07-05 12:48:31] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-07-05 12:48:31] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.7.3.8.8.54.tar.gz tmp/MeUtils-2023.7.5.18.44.14.tar.gz --markdown 20230705/M/MeUtils/2023.7.3.8.8.54-2023.7.5.18.44.14/diff.md --exclude *.pyd
+[2023-07-05 12:48:31] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.1.tar.gz]
+[2023-07-05 12:48:31] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.2.tar.gz]
+[2023-07-05 12:48:31] INFO root fetch - main [MainThread]: End processing [psqlpandas]: success
+[2023-07-05 12:48:31] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.16.0-py3-none-any.whl.zip]
+[2023-07-05 12:48:31] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.17.0-py3-none-any.whl.zip]
+[2023-07-05 12:48:31] INFO root fetch - main [MainThread]: End processing [directory-api-client]: success
+[2023-07-05 12:48:31] INFO root fetch - processPackages [privlib]: Remove: archive file [/home/abi/fetcher/tmp/privlib-0.0.3.tar.gz]
+[2023-07-05 12:48:31] INFO root fetch - processPackages [privlib]: Remove: archive file [/home/abi/fetcher/tmp/privlib-0.0.4-py3-none-any.whl.zip]
+[2023-07-05 12:48:31] INFO root fetch - main [MainThread]: End processing [privlib]: success
+[2023-07-05 12:48:32] INFO root fetch - processPackages [mkdocs-images-to-webp]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-images-to-webp-0.7.tar.gz]
+[2023-07-05 12:48:32] INFO root fetch - processPackages [mkdocs-images-to-webp]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-images-to-webp-0.8.tar.gz]
+[2023-07-05 12:48:32] INFO root fetch - main [MainThread]: End processing [mkdocs-images-to-webp]: success
+[2023-07-05 12:48:32] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.35.tar.gz]
+[2023-07-05 12:48:32] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.35.1.tar.gz]
+[2023-07-05 12:48:32] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 12:48:32] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.84-py3-none-any.whl.zip]
+[2023-07-05 12:48:32] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 12:48:32] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-05 12:48:32] INFO root fetch - processPackages [quickBayes]: executing diffoscope
+[2023-07-05 12:48:32] INFO root fetch - processPackages [quickBayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl.zip tmp/quickBayes-1.0.0b9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230705/q/quickBayes/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-07-05 12:48:33] INFO root fetch - processPackages [quickBayes]: Remove: archive file [/home/abi/fetcher/tmp/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-05 12:48:33] INFO root fetch - processPackages [quickBayes]: Remove: archive file [/home/abi/fetcher/tmp/quickBayes-1.0.0b9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-07-05 12:48:33] INFO root fetch - main [MainThread]: End processing [quickBayes]: success
+[2023-07-05 12:48:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.3.8.8.54.tar.gz]
+[2023-07-05 12:48:34] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.7.5.18.44.14.tar.gz]
+[2023-07-05 12:48:34] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-07-05 12:48:34] INFO root fetch - main [MainThread]: Store serial: [18765962]
