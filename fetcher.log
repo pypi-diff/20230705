@@ -14420,3 +14420,132 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:22:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307051021-py3-none-any.whl.zip]
 [2023-07-05 12:22:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-05 12:22:02] INFO root fetch - main [MainThread]: Store serial: [18765708]
+[2023-07-05 12:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765708]
+[2023-07-05 12:27:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightxdb
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-forecast
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bombaysoftwares-pysupp
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ackl
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonschema-rs
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SupervisedDiscretization
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: convert-videos
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cla
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightxdb
+[2023-07-05 12:27:11] INFO root fetch - processPackages [ackl]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-07-05 12:27:11] WARNING root fetch - processPackages [lightxdb]: Skipping, unable to determine old version
+[2023-07-05 12:27:11] INFO root fetch - processPackages [lightxdb]: Start processing: optimum-neuron
+[2023-07-05 12:27:11] INFO root fetch - main [MainThread]: End processing [lightxdb] error
+[2023-07-05 12:27:11] WARNING root fetch - processPackages [bombaysoftwares-pysupp]: Skipping, unable to determine old version
+[2023-07-05 12:27:11] INFO root fetch - processPackages [bombaysoftwares-pysupp]: Start processing: nc-py-api
+[2023-07-05 12:27:11] INFO root fetch - main [MainThread]: End processing [bombaysoftwares-pysupp] error
+[2023-07-05 12:27:11] WARNING root fetch - processPackages [lightxdb]: Skipping, unable to determine old version
+[2023-07-05 12:27:11] INFO root fetch - processPackages [lightxdb]: Start processing: antchain-twc
+[2023-07-05 12:27:11] INFO root fetch - main [MainThread]: End processing [lightxdb] error
+[2023-07-05 12:27:11] INFO root fetch - processPackages [nowcasting-forecast]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-05 12:27:11] INFO root fetch - processPackages [convert-videos]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-05 12:27:11] INFO root fetch - processPackages [SupervisedDiscretization]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202307051023] Old Version: [99.0.202307051013]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [jsonschema-rs]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [cla]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [optimum-neuron]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e3/e5/f4611c84dcd6acfe3584ec19ed48c10268a7994115599f614df0cc291870/kfish-99.0.202307051013-py3-none-any.whl
+[2023-07-05 12:27:12] INFO root fetch - processPackages [nc-py-api]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-07-05 12:27:12] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [ackl]: Downloading https://files.pythonhosted.org/packages/c2/f2/5ea2ea68cb4737fb3d419e817df5a5b7fa4da36392e34ba31466520425a5/ackl-1.1.0.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/1a/9b/94e5686d4db8e17ec07f89821d9eec001024ac34e78d6ca9b3580d9b5adf/nowcasting_forecast-1.3.8.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [SupervisedDiscretization]: Downloading https://files.pythonhosted.org/packages/c0/9c/09934002d364bc991d19f2a77b5a98d9222a9e3069255abab45732d0c27c/SupervisedDiscretization-0.0.2.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [convert-videos]: Downloading https://files.pythonhosted.org/packages/e4/ff/faecafb222ed4f99c3b6be7b0b0538f41dbdd1e2760b6d650a6cd34fbb10/convert_videos-2.8.8.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [jsonschema-rs]: Downloading https://files.pythonhosted.org/packages/fc/cb/eb0f28f55eeb402b9f1426ad8565ada4247de8d14c3e87d3f9cd9b0b3939/jsonschema_rs-0.9.0.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/d9/21/10a326badd17d5fcd7ef9422c69a09ef7275deb39c693e404a0f16c42f53/cla-1.3.0.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/9a/ed/420661c960fa71d63cc8a292c9892dd23e67dc4e881636a312d12da6f799/optimum-neuron-0.0.6.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/bd/52/ce67d32fcca5505b12b55340ed37e13d5e21adacbb6832673ea4468ac9d4/nc_py_api-0.0.21.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/22/bd/3e4fe8e1ea83b568123b94d5715f4c9f33126aece4dbb63e79c33cb3be2a/kfish-99.0.202307051023-py3-none-any.whl
+[2023-07-05 12:27:12] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [ackl]: Downloading https://files.pythonhosted.org/packages/69/90/670b48836b91ae9fcd6edbbe715d1c5ca74abb147a1614434a8006fd6cac/ackl-2.0.0.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [nowcasting-forecast]: Downloading https://files.pythonhosted.org/packages/12/25/f079c128d585d077cb30e3dec159686cebd779faff6596b427c59287f911/nowcasting_forecast-1.3.9.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-05 12:27:12] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307051013-py3-none-any.whl.zip tmp/kfish-99.0.202307051023-py3-none-any.whl.zip --markdown 20230705/k/kfish/99.0.202307051013-99.0.202307051023/diff.md --exclude *.pyd
+[2023-07-05 12:27:12] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-07-05 12:27:12] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230705/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 12:27:12] INFO root fetch - processPackages [SupervisedDiscretization]: Downloading https://files.pythonhosted.org/packages/cb/38/ade52e75ec4c1b15744b5f65ff4e1917974c6401ded66a2bd8847c942ddc/SupervisedDiscretization-0.0.3.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [convert-videos]: Downloading https://files.pythonhosted.org/packages/43/af/debaa49bd83308550f4d43aa647ad0605b74af02504bcd0251350c098090/convert_videos-2.8.9.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/17/64/acd4956441725bf51e574ae07ece4d148abf75d7430475d11a31df3843d5/optimum-neuron-0.0.7.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [nc-py-api]: Downloading https://files.pythonhosted.org/packages/43/be/31aa893c1c46f12f032a1579332b76a0ab0ac135d1a30b22002e5ba2d3ba/nc_py_api-0.0.22.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/9e/11/47da0a207c819775b341b927a890aaed49d38119a4611eb62f80e92cce1a/cla-2.0.0.tar.gz
+[2023-07-05 12:27:12] INFO root fetch - processPackages [ackl]: executing diffoscope
+[2023-07-05 12:27:12] INFO root fetch - processPackages [ackl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ackl-1.1.0.tar.gz tmp/ackl-2.0.0.tar.gz --markdown 20230705/a/ackl/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [nowcasting-forecast]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [nowcasting-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_forecast-1.3.8.tar.gz tmp/nowcasting_forecast-1.3.9.tar.gz --markdown 20230705/n/nowcasting-forecast/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [jsonschema-rs]: Downloading https://files.pythonhosted.org/packages/a7/2c/ac7b3dca57a57b98c0aec9a4ca751366e34dd7c0d591663a7309d213401c/jsonschema_rs-0.9.1.tar.gz
+[2023-07-05 12:27:13] INFO root fetch - processPackages [SupervisedDiscretization]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [SupervisedDiscretization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupervisedDiscretization-0.0.2.tar.gz tmp/SupervisedDiscretization-0.0.3.tar.gz --markdown 20230705/S/SupervisedDiscretization/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [convert-videos]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [convert-videos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convert_videos-2.8.8.tar.gz tmp/convert_videos-2.8.9.tar.gz --markdown 20230705/c/convert-videos/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [optimum-neuron]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [optimum-neuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-neuron-0.0.6.tar.gz tmp/optimum-neuron-0.0.7.tar.gz --markdown 20230705/o/optimum-neuron/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [nc-py-api]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [nc-py-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nc_py_api-0.0.21.tar.gz tmp/nc_py_api-0.0.22.tar.gz --markdown 20230705/n/nc-py-api/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [cla]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [cla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cla-1.3.0.tar.gz tmp/cla-2.0.0.tar.gz --markdown 20230705/c/cla/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-05 12:27:13] INFO root fetch - processPackages [jsonschema-rs]: executing diffoscope
+[2023-07-05 12:27:13] INFO root fetch - processPackages [jsonschema-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema_rs-0.9.0.tar.gz tmp/jsonschema_rs-0.9.1.tar.gz --markdown 20230705/j/jsonschema-rs/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 12:27:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307051013-py3-none-any.whl.zip]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307051023-py3-none-any.whl.zip]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [kfish]: Start processing: TEST-TC
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/6f/e0/017b19a86d3424b8a81bdfca2c2c80fb5e172a0922225ccccec2b5f887c1/TEST_TC-0.1.8.tar.gz
+[2023-07-05 12:27:14] INFO root fetch - processPackages [SupervisedDiscretization]: Remove: archive file [/home/abi/fetcher/tmp/SupervisedDiscretization-0.0.2.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [SupervisedDiscretization]: Remove: archive file [/home/abi/fetcher/tmp/SupervisedDiscretization-0.0.3.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [SupervisedDiscretization]: Start processing: python-supporter
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [SupervisedDiscretization]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [convert-videos]: Remove: archive file [/home/abi/fetcher/tmp/convert_videos-2.8.8.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [convert-videos]: Remove: archive file [/home/abi/fetcher/tmp/convert_videos-2.8.9.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [convert-videos]: Start processing: satip
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [convert-videos]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [python-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/7b/6f/98c23a37675c8704d9b0b2bb757ff68a237bf1233e54456d2f47b8f60fc5/python-supporter-0.0.8.tar.gz
+[2023-07-05 12:27:14] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/22/5c/36515670aef534d1fa215574fa87bf9cf9968666fce06689c80a084fb36b/TEST_TC-0.1.9.tar.gz
+[2023-07-05 12:27:14] INFO root fetch - processPackages [nowcasting-forecast]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_forecast-1.3.8.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [nowcasting-forecast]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_forecast-1.3.9.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [ackl]: Remove: archive file [/home/abi/fetcher/tmp/ackl-1.1.0.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [nowcasting-forecast]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [ackl]: Remove: archive file [/home/abi/fetcher/tmp/ackl-2.0.0.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [ackl]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.21.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [nc-py-api]: Remove: archive file [/home/abi/fetcher/tmp/nc_py_api-0.0.22.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [nc-py-api]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.3.0.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-2.0.0.tar.gz]
+[2023-07-05 12:27:14] INFO root fetch - main [MainThread]: End processing [cla]: success
+[2023-07-05 12:27:14] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-05 12:27:14] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.8.tar.gz tmp/TEST_TC-0.1.9.tar.gz --markdown 20230705/T/TEST-TC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 12:27:15] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/46/5a/b86299eadff25b47d4094f9437467e39ed8b1b422fdc8c0b0bfcd6f5770e/python-supporter-0.0.9.tar.gz
+[2023-07-05 12:27:15] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-07-05 12:27:15] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2023-07-05 12:27:15] INFO root fetch - processPackages [python-supporter]: executing diffoscope
+[2023-07-05 12:27:15] INFO root fetch - processPackages [python-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-supporter-0.0.8.tar.gz tmp/python-supporter-0.0.9.tar.gz --markdown 20230705/p/python-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 12:27:15] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.6.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.7.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - main [MainThread]: End processing [optimum-neuron]: success
+[2023-07-05 12:27:15] INFO root fetch - processPackages [jsonschema-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_rs-0.9.0.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - processPackages [jsonschema-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_rs-0.9.1.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - main [MainThread]: End processing [jsonschema-rs]: success
+[2023-07-05 12:27:15] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2023-07-05 12:27:15] INFO root fetch - processPackages [satip]: executing diffoscope
+[2023-07-05 12:27:15] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20230705/s/satip/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-05 12:27:15] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.8.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.9.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-05 12:27:15] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.8.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.9.tar.gz]
+[2023-07-05 12:27:15] INFO root fetch - main [MainThread]: End processing [python-supporter]: success
+[2023-07-05 12:27:16] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2023-07-05 12:27:16] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2023-07-05 12:27:16] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2023-07-05 12:27:16] INFO root fetch - main [MainThread]: Store serial: [18765790]
