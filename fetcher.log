@@ -15759,3 +15759,126 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:20:24] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_fiscal-12.0.9.0.0-py3-none-any.whl.zip]
 [2023-07-05 13:20:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-fiscal]: success
 [2023-07-05 13:20:24] INFO root fetch - main [MainThread]: Store serial: [18766254]
+[2023-07-05 13:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766254]
+[2023-07-05 13:25:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newenvreader
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip-inside
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnata-plugin-runtime
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tweety-ns
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataplicity
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-for-utils-bs
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: android-sdk-platform-tools-supporter
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lcax
+[2023-07-05 13:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-07-05 13:25:33] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [lcax]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/3d/5c/cfcccce8faaa52d9c993bca59ba7ed5d108ca2b05215337e9c2f2d6505f0/android-sdk-platform-tools-supporter-0.0.2.tar.gz
+[2023-07-05 13:25:33] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/12/68/49ee9a8e3f99bea25b2419459d15eb0c433f16643d1aef2f641906fe5d99/lcax-0.1.2.tar.gz
+[2023-07-05 13:25:33] INFO root fetch - processPackages [newenvreader]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 13:25:33] WARNING root fetch - processPackages [test-for-utils-bs]: Skipping, unable to determine old version
+[2023-07-05 13:25:33] INFO root fetch - processPackages [tweety-ns]: New version: [0.8] Old Version: [0.7.1]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [test-for-utils-bs]: Start processing: torchtnt-nightly
+[2023-07-05 13:25:33] INFO root fetch - processPackages [pip-inside]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 13:25:33] INFO root fetch - main [MainThread]: End processing [test-for-utils-bs] error
+[2023-07-05 13:25:33] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230704] Old Version: [1.28.0.dev20230703]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 13:25:33] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-05 13:25:33] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/c6/b2/acacb82af6171e68ca19bd1f92a27b2f7480387e1817cad1a4286e97fdf3/torchtnt-nightly-2023.7.3.tar.gz
+[2023-07-05 13:25:33] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/74/69/e423c92bbbcf124d0914c125a71e0eff0fde0c4a4dbe7cbb32d571f1d48e/android-sdk-platform-tools-supporter-0.0.3.tar.gz
+[2023-07-05 13:25:33] INFO root fetch - processPackages [newenvreader]: Downloading https://files.pythonhosted.org/packages/fc/2e/3e4247c322805802036cbe405c854d2fc41d38861e3025f1685913615159/newenvreader-0.1.3.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/d3/cc/9bb6c9f2e1c4e2f7965ffe44c641d8e763c9edbf489228ff87fc220fd19e/pip-inside-0.1.8.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/50/f9/2a804e6aa631834de07423ef8775f543a220d52afbeb9b284ba6065dcbbb/tweety-ns-0.7.1.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/ba/8e/cd7939593acba987a80b794de2ebb9f08e91c7670ed1dd0584df58651576/lcax-0.1.3.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/28/cf/a0465506ac473da2099332161a97559651c37471a3cc77beed2fef772457/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230703.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-05 13:25:34] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-platform-tools-supporter-0.0.2.tar.gz tmp/android-sdk-platform-tools-supporter-0.0.3.tar.gz --markdown 20230705/a/android-sdk-platform-tools-supporter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/58/c6/0a7d5e1350623848e6dd70e822517738236bf16fc1bbf19176b3a2bff3ac/torchtnt-nightly-2023.7.4.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-0.1.2.tar.gz tmp/lcax-0.1.3.tar.gz --markdown 20230705/l/lcax/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230705/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.3.tar.gz tmp/torchtnt-nightly-2023.7.4.tar.gz --markdown 20230705/t/torchtnt-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-05 13:25:34] INFO root fetch - processPackages [newenvreader]: Downloading https://files.pythonhosted.org/packages/6c/97/175d1818b549b4103ee612f5fa2a6ed92c4875945de4dc03c2772d55c2b6/newenvreader-0.2.0.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/03/29/8da5b4e43dd72f20de380f015a3da26ad5d6903ca91d52f6707e3fff7ee9/pip-inside-0.1.9.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/7d/92/7c42fa4477213cee471c5fb73f1e76129cd4810d35416c5fc76f5da5a69c/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230704.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/69/c8/1356579587e3a7968972fffeb0ac0803d75a7ff874118e2905e354a46c06/tweety-ns-0.8.tar.gz
+[2023-07-05 13:25:34] INFO root fetch - processPackages [newenvreader]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [newenvreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newenvreader-0.1.3.tar.gz tmp/newenvreader-0.2.0.tar.gz --markdown 20230705/n/newenvreader/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230703.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230704.tar.gz --markdown 20230705/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230703-1.28.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230705/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [tweety-ns]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [tweety-ns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweety-ns-0.7.1.tar.gz tmp/tweety-ns-0.8.tar.gz --markdown 20230705/t/tweety-ns/0.7.1-0.8/diff.md --exclude *.pyd
+[2023-07-05 13:25:34] INFO root fetch - processPackages [pip-inside]: executing diffoscope
+[2023-07-05 13:25:34] INFO root fetch - processPackages [pip-inside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-inside-0.1.8.tar.gz tmp/pip-inside-0.1.9.tar.gz --markdown 20230705/p/pip-inside/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 13:25:35] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.2.tar.gz]
+[2023-07-05 13:25:35] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.3.tar.gz]
+[2023-07-05 13:25:35] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Start processing: dsna-complete
+[2023-07-05 13:25:35] INFO root fetch - main [MainThread]: End processing [android-sdk-platform-tools-supporter]: success
+[2023-07-05 13:25:35] INFO root fetch - processPackages [dsna-complete]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 13:25:35] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/2b/97/e3aef077759cafa431fe352e6588c8baf9814c83c2077a206f511bd1352e/dsna_complete-0.0.4.tar.gz
+[2023-07-05 13:25:36] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-0.1.2.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-0.1.3.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [lcax]: Start processing: nvidia-dali-nightly-cuda120
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/3c/4d/d8f2e9c439037c4f00052e552de68a2de28f134a6f0b4470c946f7fddad9/dsna_complete-0.0.5.tar.gz
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230704] Old Version: [1.28.0.dev20230703]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [dsna-complete]: executing diffoscope
+[2023-07-05 13:25:36] INFO root fetch - processPackages [dsna-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsna_complete-0.0.4.tar.gz tmp/dsna_complete-0.0.5.tar.gz --markdown 20230705/d/dsna-complete/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 13:25:36] INFO root fetch - processPackages [newenvreader]: Remove: archive file [/home/abi/fetcher/tmp/newenvreader-0.1.3.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [newenvreader]: Remove: archive file [/home/abi/fetcher/tmp/newenvreader-0.2.0.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [newenvreader]: Start processing: feynml
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [newenvreader]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [feynml]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/08/76/c1397ba5b4c5098320896eb77aceb84e8a08f6631c159bebe5aa25bf1ef5/nvidia-dali-nightly-cuda120-1.28.0.dev20230703.tar.gz
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230703.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230704.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.3.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.4.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/81/f2/318bad8e588d3a80275f5559e9336ec6a13283639eed79137dfa19a0d570/feynml-0.2.1.tar.gz
+[2023-07-05 13:25:36] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-0.7.1.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [tweety-ns]: Remove: archive file [/home/abi/fetcher/tmp/tweety-ns-0.8.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [tweety-ns]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.8.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.9.tar.gz]
+[2023-07-05 13:25:36] INFO root fetch - main [MainThread]: End processing [pip-inside]: success
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/9c/a9/d02b9a4684087a74ff991672eb0c4fff64c7ef92389e0ab777dc6ee984ec/nvidia-dali-nightly-cuda120-1.28.0.dev20230704.tar.gz
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-07-05 13:25:36] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230703.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230704.tar.gz --markdown 20230705/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230703-1.28.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 13:25:37] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/eb/90/1b8c2fad825f46cc9bea812debaefc3f1a931cc6a5a6daedfc5c876bf5a1/feynml-0.2.2.tar.gz
+[2023-07-05 13:25:37] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-05 13:25:37] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-07-05 13:25:37] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.1.tar.gz tmp/feynml-0.2.2.tar.gz --markdown 20230705/f/feynml/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-05 13:25:37] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.4.tar.gz]
+[2023-07-05 13:25:37] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.5.tar.gz]
+[2023-07-05 13:25:37] INFO root fetch - main [MainThread]: End processing [dsna-complete]: success
+[2023-07-05 13:25:37] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230703.tar.gz]
+[2023-07-05 13:25:37] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230704.tar.gz]
+[2023-07-05 13:25:37] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-07-05 13:25:38] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-05 13:25:38] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230705/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-05 13:25:38] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.1.tar.gz]
+[2023-07-05 13:25:38] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.2.tar.gz]
+[2023-07-05 13:25:38] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-07-05 13:25:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-05 13:25:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-05 13:25:40] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-05 13:25:40] INFO root fetch - main [MainThread]: Store serial: [18766294]
