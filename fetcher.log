@@ -7795,3 +7795,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:17:10] INFO root fetch - processPackages [fusion-blossom]: Remove: archive file [/home/abi/fetcher/tmp/fusion_blossom-0.2.6.tar.gz]
 [2023-07-05 06:17:10] INFO root fetch - main [MainThread]: End processing [fusion-blossom]: success
 [2023-07-05 06:17:10] INFO root fetch - main [MainThread]: Store serial: [18762809]
+[2023-07-05 06:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762809]
+[2023-07-05 06:22:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-05 06:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowpark-extensions
+[2023-07-05 06:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magnum-cluster-api
+[2023-07-05 06:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-07-05 06:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-07-05 06:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkpipelineframework
+[2023-07-05 06:22:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1688530790] Old Version: [0.1.1688530782]
+[2023-07-05 06:22:21] INFO root fetch - processPackages [snowpark-extensions]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 06:22:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1688530790] Old Version: [0.1.1688530782]
+[2023-07-05 06:22:21] INFO root fetch - processPackages [magnum-cluster-api]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-07-05 06:22:21] INFO root fetch - processPackages [sparkpipelineframework]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-05 06:22:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/96/e3/bbecab15450bed71d60b68594ffaa25e04bf68f32b96eb0333eb97279dfc/eia-odin-pkg-rioatmadja2018-0.1.1688530782.tar.gz
+[2023-07-05 06:22:21] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/96/e3/bbecab15450bed71d60b68594ffaa25e04bf68f32b96eb0333eb97279dfc/eia-odin-pkg-rioatmadja2018-0.1.1688530782.tar.gz
+[2023-07-05 06:22:21] INFO root fetch - processPackages [snowpark-extensions]: Downloading https://files.pythonhosted.org/packages/d0/8e/e59bf3e511fc61c2a133346f75d8c58cd30019aa355d63bbc160411e28ba/snowpark_extensions-0.0.8.tar.gz
+[2023-07-05 06:22:22] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/25/02/69162025eab6403b58045091211dcf9bb77813af6b458b06b4a51148afc8/magnum_cluster_api-0.7.2.tar.gz
+[2023-07-05 06:22:22] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/3d/fa/3e08b2f10d000fdf155b4cd13d8eff184aebe669f7c3ae2d74a9de28c473/sparkpipelineframework-1.0.98.tar.gz
+[2023-07-05 06:22:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/2b/ae/23a5ac49f815c14d1a0c4b3a2fd8b47aa409add2c61b6c5a007ae0be3c05/eia_odin_pkg_rioatmadja2018-0.1.1688530790-py3-none-any.whl
+[2023-07-05 06:22:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/2b/ae/23a5ac49f815c14d1a0c4b3a2fd8b47aa409add2c61b6c5a007ae0be3c05/eia_odin_pkg_rioatmadja2018-0.1.1688530790-py3-none-any.whl
+[2023-07-05 06:22:22] INFO root fetch - processPackages [snowpark-extensions]: Downloading https://files.pythonhosted.org/packages/74/2e/37a6bebfa325a001df8c8e0d5909748d9efdbda9de91877f7101bd32c687/snowpark_extensions-0.0.9.tar.gz
+[2023-07-05 06:22:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-07-05 06:22:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1688530782.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1688530790-py3-none-any.whl.zip --markdown 20230705/e/eia-odin-pkg-rioatmadja2018/0.1.1688530782-0.1.1688530790/diff.md --exclude *.pyd
+[2023-07-05 06:22:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-07-05 06:22:22] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1688530782.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1688530790-py3-none-any.whl.zip --markdown 20230705/e/eia-odin-pkg-rioatmadja2018/0.1.1688530782-0.1.1688530790/diff.md --exclude *.pyd
+[2023-07-05 06:22:22] INFO root fetch - processPackages [magnum-cluster-api]: Downloading https://files.pythonhosted.org/packages/d8/e5/7d838642068b3bf0cef46ab9ab2c8323384952e8a0fdf7eb01d5f349633b/magnum_cluster_api-0.8.0.tar.gz
+[2023-07-05 06:22:22] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/ed/e9/5708be80e63dcc98716549cd991b88c536e6028a551e0fea36d6fbb67d3e/sparkpipelineframework-1.0.99.tar.gz
+[2023-07-05 06:22:22] INFO root fetch - processPackages [snowpark-extensions]: executing diffoscope
+[2023-07-05 06:22:22] INFO root fetch - processPackages [snowpark-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowpark_extensions-0.0.8.tar.gz tmp/snowpark_extensions-0.0.9.tar.gz --markdown 20230705/s/snowpark-extensions/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 06:22:22] INFO root fetch - processPackages [magnum-cluster-api]: executing diffoscope
+[2023-07-05 06:22:22] INFO root fetch - processPackages [magnum-cluster-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_cluster_api-0.7.2.tar.gz tmp/magnum_cluster_api-0.8.0.tar.gz --markdown 20230705/m/magnum-cluster-api/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-07-05 06:22:22] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2023-07-05 06:22:22] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-1.0.98.tar.gz tmp/sparkpipelineframework-1.0.99.tar.gz --markdown 20230705/s/sparkpipelineframework/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-05 06:22:23] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Remove: archive file [/home/abi/fetcher/tmp/eia-odin-pkg-rioatmadja2018-0.1.1688530782.tar.gz]
+[2023-07-05 06:22:23] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Remove: archive file [/home/abi/fetcher/tmp/eia_odin_pkg_rioatmadja2018-0.1.1688530790-py3-none-any.whl.zip]
+[2023-07-05 06:22:23] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-07-05 06:22:23] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-07-05 06:22:23] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.8.tar.gz]
+[2023-07-05 06:22:23] INFO root fetch - processPackages [snowpark-extensions]: Remove: archive file [/home/abi/fetcher/tmp/snowpark_extensions-0.0.9.tar.gz]
+[2023-07-05 06:22:23] INFO root fetch - main [MainThread]: End processing [snowpark-extensions]: success
+[2023-07-05 06:22:23] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.7.2.tar.gz]
+[2023-07-05 06:22:23] INFO root fetch - processPackages [magnum-cluster-api]: Remove: archive file [/home/abi/fetcher/tmp/magnum_cluster_api-0.8.0.tar.gz]
+[2023-07-05 06:22:23] INFO root fetch - main [MainThread]: End processing [magnum-cluster-api]: success
+[2023-07-05 06:22:24] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.98.tar.gz]
+[2023-07-05 06:22:24] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-1.0.99.tar.gz]
+[2023-07-05 06:22:24] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2023-07-05 06:22:24] INFO root fetch - main [MainThread]: Store serial: [18762824]
