@@ -5420,3 +5420,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:31:33] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-05 03:31:33] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-05 03:31:33] INFO root fetch - main [MainThread]: Store serial: [18761904]
+[2023-07-05 03:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761904]
+[2023-07-05 03:36:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-adapter-villa
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: milvus
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatglm-cli
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-subminute
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AgenciBr
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-stdlib
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: panos-upgrade-assurance
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: villa
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geoinsight
+[2023-07-05 03:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yplib
+[2023-07-05 03:36:42] INFO root fetch - processPackages [chatglm-cli]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [panos-upgrade-assurance]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [villa]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [milvus]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [AgenciBr]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [yplib]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-05 03:36:42] INFO root fetch - processPackages [geoinsight]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-05 03:36:43] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/e2/a9/b945e5856566e199f3a29c311987a022434c52ac8e883ebfb0cbdda3e859/villa-0.6.0.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/dd/46/073aca3ef67f18349bfe4a25b2e84340f9d45e113231be506d35caf36585/yplib-2.2.3.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [chatglm-cli]: Downloading https://files.pythonhosted.org/packages/12/bc/e1dda289a3ff5a63004ee24db3fc6646c4ba3e9a3a055db6f2708604f0ca/chatglm-cli-0.1.1.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/c3/db/f4561f6b628ddc402294ec2d6d84d929e505eed73574d61c1f778d1f85a0/nonebot_adapter_villa-0.5.2.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/e7/84/22051d1bb8fc9dd77c22237a591ca85e0657b4ed87b13bc744ded00f9eb1/panos_upgrade_assurance-0.1.0.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [AgenciBr]: Downloading https://files.pythonhosted.org/packages/d7/c5/144fc8fa9e955d69a57c8b185f01087eeb829df658e1f61994051dbdd151/AgenciBr-0.1.5.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [milvus]: Downloading https://files.pythonhosted.org/packages/74/79/82eb104d0874e919e431060222b01d189e9d2b0d656992b55ddc8646f873/milvus-2.2.8-py3-none-win_amd64.whl
+[2023-07-05 03:36:43] INFO root fetch - processPackages [geoinsight]: Downloading https://files.pythonhosted.org/packages/11/82/927c4de49187118ed601b6c7152e52e2969f1c9909013f106dfe84f2ed5a/geoinsight-0.5.3.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-05 03:36:43] WARNING root fetch - processPackages [milvus]: Skipping package: exceeds size limit 38436908>=10485760
+[2023-07-05 03:36:43] INFO root fetch - processPackages [milvus]: Start processing: nbdev-numpy
+[2023-07-05 03:36:43] INFO root fetch - main [MainThread]: End processing [milvus] error
+[2023-07-05 03:36:43] INFO root fetch - processPackages [villa]: Downloading https://files.pythonhosted.org/packages/e9/81/5c65d229b32bd7172d2b256c5a06adca37b26bc1a6462cb406ecac7a4330/villa-0.6.1.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 03:36:43] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/be/90/cecaa49593da865117169be58769243d00b2dc960aacc03eaacff5bccc09/yplib-2.2.4.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [chatglm-cli]: Downloading https://files.pythonhosted.org/packages/a2/31/978680005d6caf05d7afba2239176c130b24e3e3dcf2c56a12c8f16c4958/chatglm-cli-0.2.1.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/93/6b/49ca859b79553013c26cef0789d2307227c2c11cc57e63b1f9dadbe07b0a/nonebot_adapter_villa-0.5.3.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/12/f5/8a0ed91e05d53f452442e7aa1c0eea79cb01c6f39c0aca86dca662eb4bf1/panos_upgrade_assurance-0.1.1.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [villa]: executing diffoscope
+[2023-07-05 03:36:43] INFO root fetch - processPackages [villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villa-0.6.0.tar.gz tmp/villa-0.6.1.tar.gz --markdown 20230705/v/villa/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [AgenciBr]: Downloading https://files.pythonhosted.org/packages/6f/fa/8acf08b90ea1936e3fd8511d456ece29294a24e58d814f6a68b35ae353cc/AgenciBr-0.1.7.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-05 03:36:43] INFO root fetch - processPackages [geoinsight]: Downloading https://files.pythonhosted.org/packages/35/1c/39c0556bbace2267efd813141e082ac87835c7d79185b9cd3c0d692fad92/geoinsight-0.5.4.tar.gz
+[2023-07-05 03:36:43] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.2.3.tar.gz tmp/yplib-2.2.4.tar.gz --markdown 20230705/y/yplib/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-07-05 03:36:43] INFO root fetch - processPackages [chatglm-cli]: executing diffoscope
+[2023-07-05 03:36:43] INFO root fetch - processPackages [chatglm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatglm-cli-0.1.1.tar.gz tmp/chatglm-cli-0.2.1.tar.gz --markdown 20230705/c/chatglm-cli/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230705/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-05 03:36:43] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.5.2.tar.gz tmp/nonebot_adapter_villa-0.5.3.tar.gz --markdown 20230705/n/nonebot-adapter-villa/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-05 03:36:43] INFO root fetch - processPackages [panos-upgrade-assurance]: executing diffoscope
+[2023-07-05 03:36:43] INFO root fetch - processPackages [panos-upgrade-assurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panos_upgrade_assurance-0.1.0.tar.gz tmp/panos_upgrade_assurance-0.1.1.tar.gz --markdown 20230705/p/panos-upgrade-assurance/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 03:36:44] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-05 03:36:44] INFO root fetch - processPackages [geoinsight]: executing diffoscope
+[2023-07-05 03:36:44] INFO root fetch - processPackages [geoinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoinsight-0.5.3.tar.gz tmp/geoinsight-0.5.4.tar.gz --markdown 20230705/g/geoinsight/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-05 03:36:44] INFO root fetch - processPackages [AgenciBr]: executing diffoscope
+[2023-07-05 03:36:44] INFO root fetch - processPackages [AgenciBr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AgenciBr-0.1.5.tar.gz tmp/AgenciBr-0.1.7.tar.gz --markdown 20230705/A/AgenciBr/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-05 03:36:44] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-05 03:36:44] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230705/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:36:44] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-05 03:36:44] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-05 03:36:44] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230705/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 03:36:45] INFO root fetch - processPackages [chatglm-cli]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cli-0.1.1.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [chatglm-cli]: Remove: archive file [/home/abi/fetcher/tmp/chatglm-cli-0.2.1.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [chatglm-cli]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.6.0.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [villa]: Remove: archive file [/home/abi/fetcher/tmp/villa-0.6.1.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [villa]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.1.0.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.1.1.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [panos-upgrade-assurance]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.5.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [AgenciBr]: Remove: archive file [/home/abi/fetcher/tmp/AgenciBr-0.1.7.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [AgenciBr]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.3.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.2.4.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.2.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.5.3.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-05 03:36:45] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.5.3.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.5.4.tar.gz]
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: End processing [geoinsight]: success
+[2023-07-05 03:36:45] INFO root fetch - main [MainThread]: Store serial: [18761937]
