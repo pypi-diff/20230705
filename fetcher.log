@@ -21112,3 +21112,189 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:39:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307051021-py3-none-any.whl.zip]
 [2023-07-05 16:39:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-05 16:39:03] INFO root fetch - main [MainThread]: Store serial: [18768666]
+[2023-07-05 16:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768666]
+[2023-07-05 16:44:13] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkatlas
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: treams
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flypp
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtgql
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars-u64-idx
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: balena-sdk
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-preview
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coiled
+[2023-07-05 16:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xugrid
+[2023-07-05 16:44:13] INFO root fetch - processPackages [kfish]: New version: [99.0.202307051023] Old Version: [99.0.202307051013]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [flypp]: New version: [5.2.1.2.1] Old Version: [5.2.1]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [xugrid]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [checkatlas]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e3/e5/f4611c84dcd6acfe3584ec19ed48c10268a7994115599f614df0cc291870/kfish-99.0.202307051013-py3-none-any.whl
+[2023-07-05 16:44:13] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [qtgql]: New version: [0.125.0] Old Version: [0.124.0]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [treams]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.18.5] Old Version: [0.18.4]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-05 16:44:13] INFO root fetch - processPackages [flypp]: Downloading https://files.pythonhosted.org/packages/b4/12/edd82beae7ed1bbb317af364744a80a2cd6570265344ad7c2e88c51ac0af/flypp-5.2.1.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/b8/4c/66baf241ff0105cb1ec28bc88d023b9e61aed878547e6af877e321721648/checkatlas-0.2.2.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [xugrid]: Downloading https://files.pythonhosted.org/packages/01/d5/7fcf09d92f16160ae24c5e932eb7af2b87c92acb7f90795a6b5676b8b82c/xugrid-0.5.0.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/90/92/dd44472dbb3ad63fd2f7046d522e31d3b43d21e0bd6b2cbef608846b1124/polars_u64_idx-0.18.4.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/12/b1/e787e110a2a3e28e6997f0ff2f24d0a0bad292712c1414208c02f940a09a/qtgql-0.124.0.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [treams]: Downloading https://files.pythonhosted.org/packages/2e/a4/6c1c00cebbffb47c9e8531d7a65c052aee95c13bd461b7d098c902e68e22/treams-0.3.0.tar.gz
+[2023-07-05 16:44:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/22/bd/3e4fe8e1ea83b568123b94d5715f4c9f33126aece4dbb63e79c33cb3be2a/kfish-99.0.202307051023-py3-none-any.whl
+[2023-07-05 16:44:13] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-07-05 16:44:14] INFO root fetch - processPackages [flypp]: Downloading https://files.pythonhosted.org/packages/c3/8d/7d610dfbf13ad9be35d9cdd88234e4ab324879c6d6c56969e54ccd60aa56/flypp-5.2.1.2.1.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307051013-py3-none-any.whl.zip tmp/kfish-99.0.202307051023-py3-none-any.whl.zip --markdown 20230705/k/kfish/99.0.202307051013-99.0.202307051023/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230705/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [checkatlas]: Downloading https://files.pythonhosted.org/packages/28/c3/c22e4216e4691ad396c3b3e6adbedb99cc4c9c7311a29bd8c2e258ff8ca5/checkatlas-0.2.3.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230705/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [flypp]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [flypp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flypp-5.2.1.tar.gz tmp/flypp-5.2.1.2.1.tar.gz --markdown 20230705/f/flypp/5.2.1-5.2.1.2.1/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [xugrid]: Downloading https://files.pythonhosted.org/packages/5e/4c/9a78dc0c55e96528497ad677e12e5d60df570319523db57b15aee02f0914/xugrid-0.6.0.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/60/00/4bc59735f923a75f29cdf1b795084735a66d376c9a3856fe47d07f72d2c6/qtgql-0.125.0.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [checkatlas]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [checkatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkatlas-0.2.2.tar.gz tmp/checkatlas-0.2.3.tar.gz --markdown 20230705/c/checkatlas/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-07-05 16:44:14] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.124.0.tar.gz tmp/qtgql-0.125.0.tar.gz --markdown 20230705/q/qtgql/0.124.0-0.125.0/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/e6/58/047c13920cbfbb953745382eabbd701540310012400f3a997173575310cd/polars_u64_idx-0.18.5.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [treams]: Downloading https://files.pythonhosted.org/packages/2e/de/91e774a45f2a38b69c0a2e191532095d183f045b76e1145ed2ee2ed394e2/treams-0.3.1.tar.gz
+[2023-07-05 16:44:14] INFO root fetch - processPackages [xugrid]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [xugrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xugrid-0.5.0.tar.gz tmp/xugrid-0.6.0.tar.gz --markdown 20230705/x/xugrid/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230705/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-05 16:44:14] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-07-05 16:44:14] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.18.4.tar.gz tmp/polars_u64_idx-0.18.5.tar.gz --markdown 20230705/p/polars-u64-idx/0.18.4-0.18.5/diff.md --exclude *.pyd
+[2023-07-05 16:44:15] INFO root fetch - processPackages [treams]: executing diffoscope
+[2023-07-05 16:44:15] INFO root fetch - processPackages [treams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treams-0.3.0.tar.gz tmp/treams-0.3.1.tar.gz --markdown 20230705/t/treams/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-05 16:44:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307051013-py3-none-any.whl.zip]
+[2023-07-05 16:44:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307051023-py3-none-any.whl.zip]
+[2023-07-05 16:44:15] INFO root fetch - processPackages [kfish]: Start processing: dlg-paletteGen
+[2023-07-05 16:44:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-05 16:44:15] INFO root fetch - processPackages [dlg-paletteGen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 16:44:15] INFO root fetch - processPackages [flypp]: Remove: archive file [/home/abi/fetcher/tmp/flypp-5.2.1.tar.gz]
+[2023-07-05 16:44:15] INFO root fetch - processPackages [flypp]: Remove: archive file [/home/abi/fetcher/tmp/flypp-5.2.1.2.1.tar.gz]
+[2023-07-05 16:44:15] INFO root fetch - processPackages [flypp]: Start processing: highrise-bot-sdk
+[2023-07-05 16:44:15] INFO root fetch - main [MainThread]: End processing [flypp]: success
+[2023-07-05 16:44:16] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.4.1.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.5.0.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [balena-sdk]: Start processing: django-pfx
+[2023-07-05 16:44:16] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-07-05 16:44:16] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/25/12/bee66af4a7e61a8579993c7eab5691e8ec404147777e1341ee557cb24f20/dlg_paletteGen-0.1.8.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.2.0] Old Version: [23.1.0b9]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev92] Old Version: [1.2.dev90]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [coiled]: Start processing: pyseistr-win
+[2023-07-05 16:44:16] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-05 16:44:16] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.2.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [checkatlas]: Remove: archive file [/home/abi/fetcher/tmp/checkatlas-0.2.3.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [checkatlas]: Start processing: edx-enterprise-data
+[2023-07-05 16:44:16] INFO root fetch - main [MainThread]: End processing [checkatlas]: success
+[2023-07-05 16:44:16] INFO root fetch - processPackages [pyseistr-win]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.124.0.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.125.0.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [qtgql]: Start processing: pyiges
+[2023-07-05 16:44:16] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-05 16:44:16] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/d8/2e/d478c8615ab808c6782ccfc14040e1326b207fe0187fe64a760f8532ed5e/highrise_bot_sdk-23.1.0b9.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [dlg-paletteGen]: Downloading https://files.pythonhosted.org/packages/f4/af/1168c22bc592bf352e8c0c01adc8339076e21c405cfcedcb07291b53688f/dlg_paletteGen-0.1.9.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/ac/81/134250b81641eb4f1723b177ddf0b8001c282ad0851dae6da2b3036231a5/django-pfx-1.2.dev90.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [edx-enterprise-data]: New version: [4.8.0] Old Version: [4.7.0]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [pyseistr-win]: Downloading https://files.pythonhosted.org/packages/4f/36/72fcb50f34d704197e109787acd7ecdf8913249342e055f4e0119f606cee/pyseistr-win-0.0.1.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [pyiges]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [dlg-paletteGen]: executing diffoscope
+[2023-07-05 16:44:16] INFO root fetch - processPackages [dlg-paletteGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlg_paletteGen-0.1.8.tar.gz tmp/dlg_paletteGen-0.1.9.tar.gz --markdown 20230705/d/dlg-paletteGen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 16:44:16] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/74/ef/2e615c1a4a7fb00f356fe3249d4beeb104d86a9b833a21c7961f6743d05e/edx-enterprise-data-4.7.0.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/bd/30/91375d8d260969241f5c540b08dc12e81483f6bc1bd2a90634c8261e5467/highrise_bot_sdk-23.2.0.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [xugrid]: Remove: archive file [/home/abi/fetcher/tmp/xugrid-0.5.0.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [xugrid]: Remove: archive file [/home/abi/fetcher/tmp/xugrid-0.6.0.tar.gz]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [xugrid]: Start processing: langchain
+[2023-07-05 16:44:16] INFO root fetch - main [MainThread]: End processing [xugrid]: success
+[2023-07-05 16:44:16] INFO root fetch - processPackages [pyiges]: Downloading https://files.pythonhosted.org/packages/30/39/edf141767c69deea046de2af03a26a874994fb63b365af6d1d6aff9dfee8/pyiges-0.3.0.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-05 16:44:16] INFO root fetch - processPackages [pyseistr-win]: Downloading https://files.pythonhosted.org/packages/94/b8/6d8fe68e5fc9afd1e3f8d9f0b7cafbbac7a6ff3f28ec1a32e148b70ed62a/pyseistr-win-0.0.1.1.tar.gz
+[2023-07-05 16:44:16] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/84/df/78404636e35e296febece3a649060f3b56a314ab10ec217b03f28e153962/django-pfx-1.2.dev92.tar.gz
+[2023-07-05 16:44:17] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-07-05 16:44:17] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.1.0b9.tar.gz tmp/highrise_bot_sdk-23.2.0.tar.gz --markdown 20230705/h/highrise-bot-sdk/23.1.0b9-23.2.0/diff.md --exclude *.pyd
+[2023-07-05 16:44:17] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-07-05 16:44:17] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-07-05 16:44:17] INFO root fetch - processPackages [dve-lumipy-preview]: Start processing: dlkoopman
+[2023-07-05 16:44:17] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-07-05 16:44:17] INFO root fetch - processPackages [pyseistr-win]: executing diffoscope
+[2023-07-05 16:44:17] INFO root fetch - processPackages [pyseistr-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseistr-win-0.0.1.tar.gz tmp/pyseistr-win-0.0.1.1.tar.gz --markdown 20230705/p/pyseistr-win/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-05 16:44:17] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-07-05 16:44:17] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev90.tar.gz tmp/django-pfx-1.2.dev92.tar.gz --markdown 20230705/d/django-pfx/1.2.dev90-1.2.dev92/diff.md --exclude *.pyd
+[2023-07-05 16:44:17] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-07-05 16:44:17] INFO root fetch - processPackages [dlkoopman]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-05 16:44:17] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/05/9b/bb7523838dcf089fca2dd9f0899f23809a321c0bb74d359c230b0bce9146/edx-enterprise-data-4.8.0.tar.gz
+[2023-07-05 16:44:17] INFO root fetch - processPackages [edx-enterprise-data]: executing diffoscope
+[2023-07-05 16:44:17] INFO root fetch - processPackages [edx-enterprise-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-data-4.7.0.tar.gz tmp/edx-enterprise-data-4.8.0.tar.gz --markdown 20230705/e/edx-enterprise-data/4.7.0-4.8.0/diff.md --exclude *.pyd
+[2023-07-05 16:44:17] INFO root fetch - processPackages [pyiges]: Downloading https://files.pythonhosted.org/packages/21/40/e63222163fbb722d487c5c96a5e0de9c74509012198011af809aa23992ea/pyiges-0.3.1.tar.gz
+[2023-07-05 16:44:17] INFO root fetch - processPackages [dlkoopman]: Downloading https://files.pythonhosted.org/packages/35/e8/d5321585cf94c2273dc4cc2ea944748f570b65306f1af29806610a2bfe6f/dlkoopman-1.1.2.tar.gz
+[2023-07-05 16:44:17] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-07-05 16:44:17] INFO root fetch - processPackages [pyiges]: executing diffoscope
+[2023-07-05 16:44:17] INFO root fetch - processPackages [pyiges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiges-0.3.0.tar.gz tmp/pyiges-0.3.1.tar.gz --markdown 20230705/p/pyiges/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-05 16:44:17] INFO root fetch - processPackages [dlkoopman]: Downloading https://files.pythonhosted.org/packages/54/79/07ee9e78e8a47f0e23e4a6828bcca3799eb66cdb2e6967015fb36fccc782/dlkoopman-1.1.3.tar.gz
+[2023-07-05 16:44:18] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-05 16:44:18] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230705/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-05 16:44:18] INFO root fetch - processPackages [dlkoopman]: executing diffoscope
+[2023-07-05 16:44:18] INFO root fetch - processPackages [dlkoopman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlkoopman-1.1.2.tar.gz tmp/dlkoopman-1.1.3.tar.gz --markdown 20230705/d/dlkoopman/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-05 16:44:18] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.8.tar.gz]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [dlg-paletteGen]: Remove: archive file [/home/abi/fetcher/tmp/dlg_paletteGen-0.1.9.tar.gz]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [dlg-paletteGen]: Start processing: django-sso-bridge
+[2023-07-05 16:44:18] INFO root fetch - main [MainThread]: End processing [dlg-paletteGen]: success
+[2023-07-05 16:44:18] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.1.0b9.tar.gz]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.2.0.tar.gz]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [highrise-bot-sdk]: Start processing: brownian-stock
+[2023-07-05 16:44:18] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-07-05 16:44:18] WARNING root fetch - processPackages [django-sso-bridge]: Skipping, unable to determine old version
+[2023-07-05 16:44:18] INFO root fetch - processPackages [django-sso-bridge]: Start processing: moneymoney
+[2023-07-05 16:44:18] INFO root fetch - main [MainThread]: End processing [django-sso-bridge] error
+[2023-07-05 16:44:18] INFO root fetch - processPackages [brownian-stock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/d8/67/4049f8084f938122e742c3e1f2f5fb7e8efd3c1b47e49af735f97299c1ac/brownian-stock-0.0.8.tar.gz
+[2023-07-05 16:44:18] INFO root fetch - processPackages [moneymoney]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [pyseistr-win]: Remove: archive file [/home/abi/fetcher/tmp/pyseistr-win-0.0.1.tar.gz]
+[2023-07-05 16:44:18] INFO root fetch - processPackages [pyseistr-win]: Remove: archive file [/home/abi/fetcher/tmp/pyseistr-win-0.0.1.1.tar.gz]
+[2023-07-05 16:44:18] INFO root fetch - main [MainThread]: End processing [pyseistr-win]: success
+[2023-07-05 16:44:18] INFO root fetch - processPackages [brownian-stock]: Downloading https://files.pythonhosted.org/packages/a4/be/28c35d6cf73fe659cfedf1b64e95cb463d8dc9f28ef922ff0f59cc3718e2/brownian-stock-0.0.9.tar.gz
+[2023-07-05 16:44:19] INFO root fetch - processPackages [moneymoney]: Downloading https://files.pythonhosted.org/packages/5e/ed/b5f1be4f9748088c62e4bfbf1957cf9953a756a1ab39e5007d0181cc2212/moneymoney-1.1.0.tar.gz
+[2023-07-05 16:44:19] INFO root fetch - processPackages [brownian-stock]: executing diffoscope
+[2023-07-05 16:44:19] INFO root fetch - processPackages [brownian-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brownian-stock-0.0.8.tar.gz tmp/brownian-stock-0.0.9.tar.gz --markdown 20230705/b/brownian-stock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 16:44:19] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev90.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.2.dev92.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-07-05 16:44:19] INFO root fetch - processPackages [moneymoney]: Downloading https://files.pythonhosted.org/packages/11/24/f9597bb0eeba20272cd2f92eb60466f6b8f9d5828e1e5b1e4e7e30a20207/moneymoney-1.1.1.tar.gz
+[2023-07-05 16:44:19] INFO root fetch - processPackages [moneymoney]: executing diffoscope
+[2023-07-05 16:44:19] INFO root fetch - processPackages [moneymoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneymoney-1.1.0.tar.gz tmp/moneymoney-1.1.1.tar.gz --markdown 20230705/m/moneymoney/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 16:44:19] INFO root fetch - processPackages [dlkoopman]: Remove: archive file [/home/abi/fetcher/tmp/dlkoopman-1.1.2.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - processPackages [dlkoopman]: Remove: archive file [/home/abi/fetcher/tmp/dlkoopman-1.1.3.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - main [MainThread]: End processing [dlkoopman]: success
+[2023-07-05 16:44:19] INFO root fetch - processPackages [pyiges]: Remove: archive file [/home/abi/fetcher/tmp/pyiges-0.3.0.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - processPackages [pyiges]: Remove: archive file [/home/abi/fetcher/tmp/pyiges-0.3.1.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - main [MainThread]: End processing [pyiges]: success
+[2023-07-05 16:44:19] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.7.0.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.8.0.tar.gz]
+[2023-07-05 16:44:19] INFO root fetch - main [MainThread]: End processing [edx-enterprise-data]: success
+[2023-07-05 16:44:20] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.8.tar.gz]
+[2023-07-05 16:44:20] INFO root fetch - processPackages [brownian-stock]: Remove: archive file [/home/abi/fetcher/tmp/brownian-stock-0.0.9.tar.gz]
+[2023-07-05 16:44:20] INFO root fetch - main [MainThread]: End processing [brownian-stock]: success
+[2023-07-05 16:44:20] INFO root fetch - processPackages [moneymoney]: Remove: archive file [/home/abi/fetcher/tmp/moneymoney-1.1.0.tar.gz]
+[2023-07-05 16:44:20] INFO root fetch - processPackages [moneymoney]: Remove: archive file [/home/abi/fetcher/tmp/moneymoney-1.1.1.tar.gz]
+[2023-07-05 16:44:20] INFO root fetch - main [MainThread]: End processing [moneymoney]: success
+[2023-07-05 16:44:20] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-05 16:44:20] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-05 16:44:20] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-05 16:44:21] INFO root fetch - processPackages [treams]: Remove: archive file [/home/abi/fetcher/tmp/treams-0.3.0.tar.gz]
+[2023-07-05 16:44:21] INFO root fetch - processPackages [treams]: Remove: archive file [/home/abi/fetcher/tmp/treams-0.3.1.tar.gz]
+[2023-07-05 16:44:21] INFO root fetch - main [MainThread]: End processing [treams]: success
+[2023-07-05 16:44:29] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.4.tar.gz]
+[2023-07-05 16:44:29] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.5.tar.gz]
+[2023-07-05 16:44:29] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-07-05 16:44:29] INFO root fetch - main [MainThread]: Store serial: [18768771]
