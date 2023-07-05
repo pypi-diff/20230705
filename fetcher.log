@@ -9269,3 +9269,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 08:23:03] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
 [2023-07-05 08:23:03] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-07-05 08:23:03] INFO root fetch - main [MainThread]: Store serial: [18763295]
+[2023-07-05 08:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763295]
+[2023-07-05 08:28:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 08:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.ExternalEditor
+[2023-07-05 08:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-05 08:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mtls
+[2023-07-05 08:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlpcloud
+[2023-07-05 08:28:14] INFO root fetch - processPackages [mtls]: New version: [0.17.0] Old Version: [0.16.0]
+[2023-07-05 08:28:14] INFO root fetch - processPackages [nlpcloud]: New version: [1.1.43] Old Version: [1.0.9]
+[2023-07-05 08:28:14] INFO root fetch - processPackages [Products.ExternalEditor]: New version: [4.0] Old Version: [3.1.0]
+[2023-07-05 08:28:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-05 08:28:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [mtls]: Downloading https://files.pythonhosted.org/packages/c8/ce/62532e6a91da2fbccb5d1c55c3a545d676959ef1b906a869b506cafed9a5/mtls-0.16.0.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [nlpcloud]: Downloading https://files.pythonhosted.org/packages/3c/4d/85333181aba726d8c28ead2b2ca0c86fe3116d72b153045137ecd971e6d3/nlpcloud-1.0.9.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [Products.ExternalEditor]: Downloading https://files.pythonhosted.org/packages/61/4b/0c5dd6dfbe157b46cde207849076b82bfae8911fe617ee520d8cf58129ba/Products.ExternalEditor-3.1.0.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-05 08:28:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230705/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-05 08:28:14] INFO root fetch - processPackages [Products.ExternalEditor]: Downloading https://files.pythonhosted.org/packages/dd/05/54ac6ca15b333d54712d459d7513c1e15d5a3ffcb7c3693b97958e544df1/Products.ExternalEditor-4.0.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [mtls]: Downloading https://files.pythonhosted.org/packages/8a/57/508b6d353e371e664c9a56fe96899feb9ed17330e627075f31f40f01f509/mtls-0.17.0.tar.gz
+[2023-07-05 08:28:14] INFO root fetch - processPackages [Products.ExternalEditor]: executing diffoscope
+[2023-07-05 08:28:14] INFO root fetch - processPackages [Products.ExternalEditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.ExternalEditor-3.1.0.tar.gz tmp/Products.ExternalEditor-4.0.tar.gz --markdown 20230705/P/Products.ExternalEditor/3.1.0-4.0/diff.md --exclude *.pyd
+[2023-07-05 08:28:14] INFO root fetch - processPackages [mtls]: executing diffoscope
+[2023-07-05 08:28:14] INFO root fetch - processPackages [mtls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtls-0.16.0.tar.gz tmp/mtls-0.17.0.tar.gz --markdown 20230705/m/mtls/0.16.0-0.17.0/diff.md --exclude *.pyd
+[2023-07-05 08:28:15] INFO root fetch - processPackages [nlpcloud]: Downloading https://files.pythonhosted.org/packages/22/2b/a6dbb297f112434b51a2cf1c62f412fd17f83ec99fa6d39ccefc576419d9/nlpcloud-1.1.43.tar.gz
+[2023-07-05 08:28:15] INFO root fetch - processPackages [nlpcloud]: executing diffoscope
+[2023-07-05 08:28:15] INFO root fetch - processPackages [nlpcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpcloud-1.0.9.tar.gz tmp/nlpcloud-1.1.43.tar.gz --markdown 20230705/n/nlpcloud/1.0.9-1.1.43/diff.md --exclude *.pyd
+[2023-07-05 08:28:16] INFO root fetch - processPackages [Products.ExternalEditor]: Remove: archive file [/home/abi/fetcher/tmp/Products.ExternalEditor-3.1.0.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - processPackages [Products.ExternalEditor]: Remove: archive file [/home/abi/fetcher/tmp/Products.ExternalEditor-4.0.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - main [MainThread]: End processing [Products.ExternalEditor]: success
+[2023-07-05 08:28:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-05 08:28:16] INFO root fetch - processPackages [nlpcloud]: Remove: archive file [/home/abi/fetcher/tmp/nlpcloud-1.0.9.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - processPackages [nlpcloud]: Remove: archive file [/home/abi/fetcher/tmp/nlpcloud-1.1.43.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - main [MainThread]: End processing [nlpcloud]: success
+[2023-07-05 08:28:16] INFO root fetch - processPackages [mtls]: Remove: archive file [/home/abi/fetcher/tmp/mtls-0.16.0.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - processPackages [mtls]: Remove: archive file [/home/abi/fetcher/tmp/mtls-0.17.0.tar.gz]
+[2023-07-05 08:28:16] INFO root fetch - main [MainThread]: End processing [mtls]: success
+[2023-07-05 08:28:16] INFO root fetch - main [MainThread]: Store serial: [18763308]
