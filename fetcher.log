@@ -11567,3 +11567,194 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 10:19:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post882-py3-none-any.whl.zip]
 [2023-07-05 10:19:21] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-05 10:19:21] INFO root fetch - main [MainThread]: Store serial: [18764355]
+[2023-07-05 10:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764355]
+[2023-07-05 10:24:30] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataiku-scoring
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twscrape
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiomisc-entrypoint
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micomputing
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batorch
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoverload
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycamia
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qiskit-alice-bob-provider
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resqpy
+[2023-07-05 10:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rohmu
+[2023-07-05 10:24:30] INFO root fetch - processPackages [micomputing]: New version: [1.1.34] Old Version: [1.1.33]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [batorch]: New version: [1.0.34] Old Version: [1.0.33]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [rohmu]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [pyoverload]: New version: [1.1.27] Old Version: [1.1.26]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [pycamia]: New version: [1.0.33] Old Version: [1.0.32]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [resqpy]: New version: [4.9.0] Old Version: [4.8.9]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [dataiku-scoring]: New version: [12.0.1] Old Version: [11.4.4]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [aiomisc-entrypoint]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [qiskit-alice-bob-provider]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [twscrape]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-05 10:24:30] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/30/a9/6b3c03adb36a2989ffa94e9e886e570bbc16086ffafdffb222089c8caf09/micomputing-1.1.33.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [rohmu]: Downloading https://files.pythonhosted.org/packages/7a/14/7139a644ea9479a49f0431b8dfef18dd6205a88c7d3dfc00fa9492803ec5/rohmu-1.1.0.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/cb/56/a4b6503d20247a811e024df7fe7387e36c6798795cc7d7b863c65d3b7ef0/pycamia-1.0.32.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/e6/24/f73ff6adc7e8710b8828cbdbdc7a8261e3c223e874aab20168d7d3df53cb/batorch-1.0.33.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/ed/7e/6ac24abef9be736095e5676b9e9b84cad4cddde0e5f018444914a33dc1b9/pyoverload-1.1.26.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/51/44/15eba2c3d8db1d363c3f3f798ad17e3816f01c8b81a44f4ed5577d39f9db/resqpy-4.8.9.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [dataiku-scoring]: Downloading https://files.pythonhosted.org/packages/72/c8/e588e857134541c67aea5d354f1559d77c68d7b251afd5bbb39c8d8c136d/dataiku-scoring-11.4.4.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [aiomisc-entrypoint]: Downloading https://files.pythonhosted.org/packages/47/ee/06721c6c593c8ba24ac469544a9660e0ada59681cf1337f708005b4a8174/aiomisc_entrypoint-1.1.0.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/4d/01/c2f8348bdd539233371911cb8a992809412bb932f1377a4a98e6b2d23e8b/qiskit_alice_bob_provider-0.1.2.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/ec/99/d4744ce42ec790956e7db7b49ecf58ffe02e882373a8fd7e89d5255e997b/twscrape-0.3.0.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [rohmu]: Downloading https://files.pythonhosted.org/packages/a0/18/50f2cba1c317ce0081db2b15d396c8aab4339df88967f38ac3928e7462ab/rohmu-1.1.1.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/72/b2/204271b65cb74dbaea8abae2b152bec4747b18e585f139229cf59e430d29/micomputing-1.1.34.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/40/6e/3557b1ac0c9ad0ec1f97e7d0adcf986df219e1b46beff2c7f19e79366028/pycamia-1.0.33.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [rohmu]: executing diffoscope
+[2023-07-05 10:24:31] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/fc/a2/4c963dfe47b4af86a8da435c04ffc606d2bc68af54c0951ca4f38b732b69/batorch-1.0.34.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [rohmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rohmu-1.1.0.tar.gz tmp/rohmu-1.1.1.tar.gz --markdown 20230705/r/rohmu/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 10:24:31] INFO root fetch - processPackages [dataiku-scoring]: Downloading https://files.pythonhosted.org/packages/fe/f1/f9c1aff44a1b001864c3b804a492e7b9b1ae89b984dc07d2a705a76fc8b7/dataiku-scoring-12.0.1.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [aiomisc-entrypoint]: Downloading https://files.pythonhosted.org/packages/c7/6e/ca92f96d2875d55e52a356993c42e9afa8446409503d7d1d1dd4a3e1109d/aiomisc_entrypoint-1.2.0.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/a4/42/5caeadd379cc3608c8757de435bbfe2819e5731b3019789e324de0fde84b/pyoverload-1.1.27.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [micomputing]: executing diffoscope
+[2023-07-05 10:24:31] INFO root fetch - processPackages [micomputing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micomputing-1.1.33.tar.gz tmp/micomputing-1.1.34.tar.gz --markdown 20230705/m/micomputing/1.1.33-1.1.34/diff.md --exclude *.pyd
+[2023-07-05 10:24:31] INFO root fetch - processPackages [pycamia]: executing diffoscope
+[2023-07-05 10:24:31] INFO root fetch - processPackages [pycamia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycamia-1.0.32.tar.gz tmp/pycamia-1.0.33.tar.gz --markdown 20230705/p/pycamia/1.0.32-1.0.33/diff.md --exclude *.pyd
+[2023-07-05 10:24:31] INFO root fetch - processPackages [resqpy]: Downloading https://files.pythonhosted.org/packages/3d/1b/592d1dfdc2e974d292b828d77ac2fd1b344bbd658e89e9c292235b7a27c3/resqpy-4.9.0.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/f6/ef/93e4e9820933dac828b777eaac8d43e92bd5784c780db6c8be7975485645/qiskit_alice_bob_provider-0.1.3.tar.gz
+[2023-07-05 10:24:31] INFO root fetch - processPackages [aiomisc-entrypoint]: executing diffoscope
+[2023-07-05 10:24:31] INFO root fetch - processPackages [aiomisc-entrypoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc_entrypoint-1.1.0.tar.gz tmp/aiomisc_entrypoint-1.2.0.tar.gz --markdown 20230705/a/aiomisc-entrypoint/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-05 10:24:31] INFO root fetch - processPackages [batorch]: executing diffoscope
+[2023-07-05 10:24:31] INFO root fetch - processPackages [batorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batorch-1.0.33.tar.gz tmp/batorch-1.0.34.tar.gz --markdown 20230705/b/batorch/1.0.33-1.0.34/diff.md --exclude *.pyd
+[2023-07-05 10:24:32] INFO root fetch - processPackages [twscrape]: Downloading https://files.pythonhosted.org/packages/b9/e4/2daaea253a96740a1b32f459be2b6cb8f72440f7a3cfb1100a54e3274fdb/twscrape-0.4.0.tar.gz
+[2023-07-05 10:24:32] INFO root fetch - processPackages [pyoverload]: executing diffoscope
+[2023-07-05 10:24:32] INFO root fetch - processPackages [pyoverload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverload-1.1.26.tar.gz tmp/pyoverload-1.1.27.tar.gz --markdown 20230705/p/pyoverload/1.1.26-1.1.27/diff.md --exclude *.pyd
+[2023-07-05 10:24:32] INFO root fetch - processPackages [qiskit-alice-bob-provider]: executing diffoscope
+[2023-07-05 10:24:32] INFO root fetch - processPackages [qiskit-alice-bob-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_alice_bob_provider-0.1.2.tar.gz tmp/qiskit_alice_bob_provider-0.1.3.tar.gz --markdown 20230705/q/qiskit-alice-bob-provider/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-05 10:24:32] INFO root fetch - processPackages [dataiku-scoring]: executing diffoscope
+[2023-07-05 10:24:32] INFO root fetch - processPackages [dataiku-scoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-scoring-11.4.4.tar.gz tmp/dataiku-scoring-12.0.1.tar.gz --markdown 20230705/d/dataiku-scoring/11.4.4-12.0.1/diff.md --exclude *.pyd
+[2023-07-05 10:24:32] INFO root fetch - processPackages [resqpy]: executing diffoscope
+[2023-07-05 10:24:32] INFO root fetch - processPackages [resqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resqpy-4.8.9.tar.gz tmp/resqpy-4.9.0.tar.gz --markdown 20230705/r/resqpy/4.8.9-4.9.0/diff.md --exclude *.pyd
+[2023-07-05 10:24:32] INFO root fetch - processPackages [twscrape]: executing diffoscope
+[2023-07-05 10:24:32] INFO root fetch - processPackages [twscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twscrape-0.3.0.tar.gz tmp/twscrape-0.4.0.tar.gz --markdown 20230705/t/twscrape/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-05 10:24:33] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.33.tar.gz]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.34.tar.gz]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [micomputing]: Start processing: lusid-notifications-sdk-preview
+[2023-07-05 10:24:33] INFO root fetch - main [MainThread]: End processing [micomputing]: success
+[2023-07-05 10:24:33] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.771] Old Version: [0.1.770]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [rohmu]: Remove: archive file [/home/abi/fetcher/tmp/rohmu-1.1.0.tar.gz]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [rohmu]: Remove: archive file [/home/abi/fetcher/tmp/rohmu-1.1.1.tar.gz]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [rohmu]: Start processing: dbt-clickzetta
+[2023-07-05 10:24:33] INFO root fetch - main [MainThread]: End processing [rohmu]: success
+[2023-07-05 10:24:33] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f5/8d/f955254a09998ffc094898b119d7db4e5592fbaeabf75562b8f16d3d095c/lusid-notifications-sdk-preview-0.1.770.tar.gz
+[2023-07-05 10:24:33] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-05 10:24:33] INFO root fetch - processPackages [aiomisc-entrypoint]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc_entrypoint-1.1.0.tar.gz]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [aiomisc-entrypoint]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc_entrypoint-1.2.0.tar.gz]
+[2023-07-05 10:24:33] INFO root fetch - processPackages [aiomisc-entrypoint]: Start processing: bemserver-ui
+[2023-07-05 10:24:33] INFO root fetch - main [MainThread]: End processing [aiomisc-entrypoint]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [bemserver-ui]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/76/1f/295ab0e0cbc3ec8bd5dd8509d66208c322ea611d5e490ffc25bfca1aac41/lusid-notifications-sdk-preview-0.1.771.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.1.2.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.1.3.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Start processing: ml-starter
+[2023-07-05 10:24:34] INFO root fetch - main [MainThread]: End processing [qiskit-alice-bob-provider]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230705/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 10:24:34] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-07-05 10:24:34] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.770.tar.gz tmp/lusid-notifications-sdk-preview-0.1.771.tar.gz --markdown 20230705/l/lusid-notifications-sdk-preview/0.1.770-0.1.771/diff.md --exclude *.pyd
+[2023-07-05 10:24:34] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/42/fa/82e1449a0b029836bd089604f20729ba1268d0adf0b7f8d6ed85d025d7a9/bemserver-ui-0.5.3.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dataiku-scoring]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-scoring-11.4.4.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dataiku-scoring]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-scoring-12.0.1.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dataiku-scoring]: Start processing: berrydb
+[2023-07-05 10:24:34] INFO root fetch - main [MainThread]: End processing [dataiku-scoring]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [berrydb]: New version: [1.0.0] Old Version: [0.0.33]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.32.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.33.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [pycamia]: Start processing: cdktf-local-exec
+[2023-07-05 10:24:34] INFO root fetch - main [MainThread]: End processing [pycamia]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.33.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.34.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [batorch]: Start processing: tf-model-optimization-nightly
+[2023-07-05 10:24:34] INFO root fetch - main [MainThread]: End processing [batorch]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-1.1.26.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-1.1.27.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [pyoverload]: Start processing: dbt-clickzetta
+[2023-07-05 10:24:34] INFO root fetch - main [MainThread]: End processing [pyoverload]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.3.0.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [twscrape]: Remove: archive file [/home/abi/fetcher/tmp/twscrape-0.4.0.tar.gz]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [twscrape]: Start processing: lusid-notification-sdk-preview
+[2023-07-05 10:24:34] INFO root fetch - main [MainThread]: End processing [twscrape]: success
+[2023-07-05 10:24:34] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230704] Old Version: [0.7.5.dev20230702]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.769.3] Old Version: [0.1.762.2]
+[2023-07-05 10:24:34] INFO root fetch - processPackages [bemserver-ui]: Downloading https://files.pythonhosted.org/packages/77/02/0623338c06dffd6d43e217cb7310265275d113d35b1d82d6cf0b39c471f2/bemserver-ui-0.6.0.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/2b/ed/f2815201ae27bb19ebbc6b78f3a6c1638bc5cab45eeb2b3d759a2dbf65cf/berrydb-0.0.33.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-05 10:24:34] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230705/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 10:24:34] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/8e/4d/086249dc2535145dd8cd274a916ec71bec84462dca659e43ff9e9bd1153f/tf_model_optimization_nightly-0.7.5.dev20230702-py2.py3-none-any.whl
+[2023-07-05 10:24:34] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/6d/c1/9ee195d466ebcca414c94acdff672ed870b36fe18ecdb5c4b41c8f2f2443/lusid-notification-sdk-preview-0.1.762.2.tar.gz
+[2023-07-05 10:24:34] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/b6/d5/9db67e5018cbb315231f1cbe55a86e64898b9ce0809ed5cc5d4632fc5c5c/cdktf-local-exec-0.2.8.tar.gz
+[2023-07-05 10:24:35] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-05 10:24:35] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230705/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 10:24:35] INFO root fetch - processPackages [bemserver-ui]: executing diffoscope
+[2023-07-05 10:24:35] INFO root fetch - processPackages [bemserver-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-ui-0.5.3.tar.gz tmp/bemserver-ui-0.6.0.tar.gz --markdown 20230705/b/bemserver-ui/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 10:24:35] INFO root fetch - processPackages [berrydb]: Downloading https://files.pythonhosted.org/packages/2a/a0/ad8ae2cfd819a235eea7f9e5e44eed03043287423cc413acb458c35d4257/berrydb-1.0.0.tar.gz
+[2023-07-05 10:24:35] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/84/07/0a935d0986899e2dc3aef231e0f43cbafc4f881b6e2b4ef7043ad0baa14a/tf_model_optimization_nightly-0.7.5.dev20230704-py2.py3-none-any.whl
+[2023-07-05 10:24:35] INFO root fetch - processPackages [berrydb]: executing diffoscope
+[2023-07-05 10:24:35] INFO root fetch - processPackages [berrydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berrydb-0.0.33.tar.gz tmp/berrydb-1.0.0.tar.gz --markdown 20230705/b/berrydb/0.0.33-1.0.0/diff.md --exclude *.pyd
+[2023-07-05 10:24:35] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-05 10:24:35] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230702-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230704-py2.py3-none-any.whl.zip --markdown 20230705/t/tf-model-optimization-nightly/0.7.5.dev20230702-0.7.5.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 10:24:35] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d1/e6/0e8a4422dbab65c0f73420bdab40fa69cd9551ec02fb9fa8ee0377d0981b/lusid-notification-sdk-preview-0.1.769.3.tar.gz
+[2023-07-05 10:24:35] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/19/02/83e6ceb8de9cca722ee3e14572dc8001d4f7c34c4de404e7ca645de74bc4/cdktf-local-exec-0.2.9.tar.gz
+[2023-07-05 10:24:35] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-07-05 10:24:35] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.762.2.tar.gz tmp/lusid-notification-sdk-preview-0.1.769.3.tar.gz --markdown 20230705/l/lusid-notification-sdk-preview/0.1.762.2-0.1.769.3/diff.md --exclude *.pyd
+[2023-07-05 10:24:35] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2023-07-05 10:24:35] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.2.8.tar.gz tmp/cdktf-local-exec-0.2.9.tar.gz --markdown 20230705/c/cdktf-local-exec/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 10:24:36] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-05 10:24:36] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-05 10:24:36] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-05 10:24:36] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.8.9.tar.gz]
+[2023-07-05 10:24:36] INFO root fetch - processPackages [resqpy]: Remove: archive file [/home/abi/fetcher/tmp/resqpy-4.9.0.tar.gz]
+[2023-07-05 10:24:36] INFO root fetch - main [MainThread]: End processing [resqpy]: success
+[2023-07-05 10:24:36] ERROR root fetch - processPackages [dbt-clickzetta]: Diffoscope failed: time="2023-07-05T10:24:35+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
+
+[2023-07-05 10:24:36] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta] error
+[2023-07-05 10:24:37] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.770.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.771.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-07-05 10:24:37] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-0.0.33.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - processPackages [berrydb]: Remove: archive file [/home/abi/fetcher/tmp/berrydb-1.0.0.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - main [MainThread]: End processing [berrydb]: success
+[2023-07-05 10:24:37] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.8.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.2.9.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2023-07-05 10:24:37] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-05 10:24:37] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-05 10:24:37] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230702-py2.py3-none-any.whl.zip]
+[2023-07-05 10:24:37] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230704-py2.py3-none-any.whl.zip]
+[2023-07-05 10:24:37] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-05 10:24:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.762.2.tar.gz]
+[2023-07-05 10:24:38] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.769.3.tar.gz]
+[2023-07-05 10:24:38] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-07-05 10:24:44] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.5.3.tar.gz]
+[2023-07-05 10:24:44] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.6.0.tar.gz]
+[2023-07-05 10:24:44] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
+[2023-07-05 10:24:44] INFO root fetch - main [MainThread]: Store serial: [18764416]
