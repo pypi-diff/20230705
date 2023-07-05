@@ -11758,3 +11758,141 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 10:24:44] INFO root fetch - processPackages [bemserver-ui]: Remove: archive file [/home/abi/fetcher/tmp/bemserver-ui-0.6.0.tar.gz]
 [2023-07-05 10:24:44] INFO root fetch - main [MainThread]: End processing [bemserver-ui]: success
 [2023-07-05 10:24:44] INFO root fetch - main [MainThread]: Store serial: [18764416]
+[2023-07-05 10:29:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764416]
+[2023-07-05 10:29:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TEST-TC
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: horbach-cli
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pokers
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-employee-calendar-planning
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-clickzetta
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: locker-secrets
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiosumma
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-workflow-sdk-preview
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-role
+[2023-07-05 10:29:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BabitMF
+[2023-07-05 10:29:54] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.330] Old Version: [0.1.209]
+[2023-07-05 10:29:54] INFO root fetch - processPackages [TEST-TC]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 10:29:54] WARNING root fetch - processPackages [locker-secrets]: Skipping, unable to determine old version
+[2023-07-05 10:29:54] INFO root fetch - processPackages [locker-secrets]: Start processing: micomputing
+[2023-07-05 10:29:54] INFO root fetch - main [MainThread]: End processing [locker-secrets] error
+[2023-07-05 10:29:54] INFO root fetch - processPackages [horbach-cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 10:29:54] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 10:29:54] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: New version: [15.0.1.1.8] Old Version: [15.0.1.1.7.2]
+[2023-07-05 10:29:54] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-05 10:29:54] INFO root fetch - processPackages [pokers]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 10:29:54] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-05 10:29:55] INFO root fetch - processPackages [micomputing]: New version: [1.1.35] Old Version: [1.1.34]
+[2023-07-05 10:29:55] WARNING root fetch - processPackages [BabitMF]: Skipping, unable to determine old version
+[2023-07-05 10:29:55] INFO root fetch - processPackages [BabitMF]: Start processing: batorch
+[2023-07-05 10:29:55] INFO root fetch - main [MainThread]: End processing [BabitMF] error
+[2023-07-05 10:29:55] INFO root fetch - processPackages [horbach-cli]: Downloading https://files.pythonhosted.org/packages/5f/f3/0c4735c554cba80b2ab4df53e03d55d2369e8f7f3d0e8a27e12e98cab874/horbach_cli-0.2.0.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [batorch]: New version: [1.0.35] Old Version: [1.0.34]
+[2023-07-05 10:29:55] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/f9/cf/202b7adffb187ead34e38fee27e0220048d89f5a17efb94d6452a347f346/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7.2-py3-none-any.whl
+[2023-07-05 10:29:55] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/6f/e0/017b19a86d3424b8a81bdfca2c2c80fb5e172a0922225ccccec2b5f887c1/TEST_TC-0.1.8.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/72/b2/204271b65cb74dbaea8abae2b152bec4747b18e585f139229cf59e430d29/micomputing-1.1.34.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ee/44/514a348a73ce7661653ca1d2755ec8b01fc20b1a3abfc2f9478a254d24c5/lusid-workflow-sdk-preview-0.1.209.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-07-05 10:29:55] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/fc/a2/4c963dfe47b4af86a8da435c04ffc606d2bc68af54c0951ca4f38b732b69/batorch-1.0.34.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [pokers]: Downloading https://files.pythonhosted.org/packages/2c/e7/0fdd400d2fa6778c34d675a7e0fcf2864a366991e17cb776588c7fe43bd5/pokers-0.1.0.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [horbach-cli]: Downloading https://files.pythonhosted.org/packages/63/3e/91641a7fc7a681e3ed062f1a820b85928a2074bcf9c65300c78718c8d4f8/horbach_cli-0.2.1.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-05 10:29:55] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230705/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:29:55] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/22/5c/36515670aef534d1fa215574fa87bf9cf9968666fce06689c80a084fb36b/TEST_TC-0.1.9.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-07-05 10:29:55] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230705/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-05 10:29:55] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Downloading https://files.pythonhosted.org/packages/2e/2e/1eb4347b67d7341593cb3218776baaf750e4173e11e65e779a967489b31a/odoo_addon_hr_employee_calendar_planning-15.0.1.1.8-py3-none-any.whl
+[2023-07-05 10:29:55] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/6f/0a/93691e8ec245e5a0d01fe1f930c2356a103334a3e4750c76e8e292cf279d/micomputing-1.1.35.tar.gz
+[2023-07-05 10:29:55] INFO root fetch - processPackages [horbach-cli]: executing diffoscope
+[2023-07-05 10:29:55] INFO root fetch - processPackages [horbach-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horbach_cli-0.2.0.tar.gz tmp/horbach_cli-0.2.1.tar.gz --markdown 20230705/h/horbach-cli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 10:29:55] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/90/bd/9abc60f6b62fc5afa95b43d84cae2c99864ee8c661be12563cb83dacc9f0/lusid-workflow-sdk-preview-0.1.330.tar.gz
+[2023-07-05 10:29:56] INFO root fetch - processPackages [pokers]: Downloading https://files.pythonhosted.org/packages/2a/9f/1bd06704a1d27ef838eba4d3e721fad00e913dbad75a6e36b9400cf978b8/pokers-0.1.1.tar.gz
+[2023-07-05 10:29:56] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-07-05 10:29:56] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/2f/e4/c47f5d9253081f7070a75c117120992bd36a395bc3b336fab0853b8af04c/batorch-1.0.35.tar.gz
+[2023-07-05 10:29:56] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7.2-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.8-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-hr-employee-calendar-planning/15.0.1.1.7.2-15.0.1.1.8/diff.md --exclude *.pyd
+[2023-07-05 10:29:56] INFO root fetch - processPackages [micomputing]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [micomputing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micomputing-1.1.34.tar.gz tmp/micomputing-1.1.35.tar.gz --markdown 20230705/m/micomputing/1.1.34-1.1.35/diff.md --exclude *.pyd
+[2023-07-05 10:29:56] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.209.tar.gz tmp/lusid-workflow-sdk-preview-0.1.330.tar.gz --markdown 20230705/l/lusid-workflow-sdk-preview/0.1.209-0.1.330/diff.md --exclude *.pyd
+[2023-07-05 10:29:56] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-0.1.8.tar.gz tmp/TEST_TC-0.1.9.tar.gz --markdown 20230705/T/TEST-TC/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 10:29:56] INFO root fetch - processPackages [batorch]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [batorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batorch-1.0.34.tar.gz tmp/batorch-1.0.35.tar.gz --markdown 20230705/b/batorch/1.0.34-1.0.35/diff.md --exclude *.pyd
+[2023-07-05 10:29:56] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230705/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-05 10:29:56] INFO root fetch - processPackages [pokers]: executing diffoscope
+[2023-07-05 10:29:56] INFO root fetch - processPackages [pokers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokers-0.1.0.tar.gz tmp/pokers-0.1.1.tar.gz --markdown 20230705/p/pokers/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 10:29:57] INFO root fetch - processPackages [horbach-cli]: Remove: archive file [/home/abi/fetcher/tmp/horbach_cli-0.2.0.tar.gz]
+[2023-07-05 10:29:57] INFO root fetch - processPackages [horbach-cli]: Remove: archive file [/home/abi/fetcher/tmp/horbach_cli-0.2.1.tar.gz]
+[2023-07-05 10:29:57] INFO root fetch - processPackages [horbach-cli]: Start processing: pyoverload
+[2023-07-05 10:29:57] INFO root fetch - main [MainThread]: End processing [horbach-cli]: success
+[2023-07-05 10:29:57] INFO root fetch - processPackages [pyoverload]: New version: [1.1.28] Old Version: [1.1.27]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/a4/42/5caeadd379cc3608c8757de435bbfe2819e5731b3019789e324de0fde84b/pyoverload-1.1.27.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-clickzetta]: Start processing: pycamia
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pycamia]: New version: [1.0.34] Old Version: [1.0.33]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [xj-role]: Start processing: BabitMF-GPU
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/40/6e/3557b1ac0c9ad0ec1f97e7d0adcf986df219e1b46beff2c7f19e79366028/pycamia-1.0.33.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.34.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.35.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [micomputing]: Start processing: dbt-artifacts-parser
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [micomputing]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.7.2-py3-none-any.whl.zip]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_calendar_planning-15.0.1.1.8-py3-none-any.whl.zip]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [odoo-addon-hr-employee-calendar-planning]: Start processing: deairequest
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-calendar-planning]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 10:29:58] WARNING root fetch - processPackages [BabitMF-GPU]: Skipping, unable to determine old version
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [BabitMF-GPU] error
+[2023-07-05 10:29:58] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.8.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-0.1.9.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/1f/5e/a5d976c1ce6f4f61189e28ad80bda5d545a62df29f87cf16351c93022dec/pyoverload-1.1.28.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/f3/ab/b439ba5d4514245875e48b27ab7a2f4365205806556408fef9e4c429db21/dbt-artifacts-parser-0.3.1.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [deairequest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pyoverload]: executing diffoscope
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pyoverload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverload-1.1.27.tar.gz tmp/pyoverload-1.1.28.tar.gz --markdown 20230705/p/pyoverload/1.1.27-1.1.28/diff.md --exclude *.pyd
+[2023-07-05 10:29:58] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/60/56/5621452f1eaa0820be057bef2939b01c10121e74f65b528f066d1ba50536/pycamia-1.0.34.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.209.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.330.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/ba/1e/a7357f1ee6c0887a4a42e530b6861aeb02a0f6ca848a1e74f3ffbad7b0dc/deairequest-0.0.8.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.34.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.35.tar.gz]
+[2023-07-05 10:29:58] INFO root fetch - main [MainThread]: End processing [batorch]: success
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/fb/9b/62f085e5766218840a47c471acff7b435388faca459804cf3c6f9f01f15f/dbt_artifacts_parser-0.3.2.tar.gz
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pycamia]: executing diffoscope
+[2023-07-05 10:29:58] INFO root fetch - processPackages [pycamia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycamia-1.0.33.tar.gz tmp/pycamia-1.0.34.tar.gz --markdown 20230705/p/pycamia/1.0.33-1.0.34/diff.md --exclude *.pyd
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2023-07-05 10:29:58] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-artifacts-parser-0.3.1.tar.gz tmp/dbt_artifacts_parser-0.3.2.tar.gz --markdown 20230705/d/dbt-artifacts-parser/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-05 10:29:59] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/fe/6a/17a98fe8650785a2e2a0ed1fdd780e64cdee8f3a619be6b8d3456baeb877/deairequest-0.0.9.tar.gz
+[2023-07-05 10:29:59] INFO root fetch - processPackages [deairequest]: executing diffoscope
+[2023-07-05 10:29:59] INFO root fetch - processPackages [deairequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deairequest-0.0.8.tar.gz tmp/deairequest-0.0.9.tar.gz --markdown 20230705/d/deairequest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:30:00] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-1.1.27.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-1.1.28.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - main [MainThread]: End processing [pyoverload]: success
+[2023-07-05 10:30:00] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.8.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.9.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - main [MainThread]: End processing [deairequest]: success
+[2023-07-05 10:30:00] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.33.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.34.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - main [MainThread]: End processing [pycamia]: success
+[2023-07-05 10:30:00] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt-artifacts-parser-0.3.1.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.3.2.tar.gz]
+[2023-07-05 10:30:00] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2023-07-05 10:30:04] INFO root fetch - processPackages [pokers]: Remove: archive file [/home/abi/fetcher/tmp/pokers-0.1.0.tar.gz]
+[2023-07-05 10:30:04] INFO root fetch - processPackages [pokers]: Remove: archive file [/home/abi/fetcher/tmp/pokers-0.1.1.tar.gz]
+[2023-07-05 10:30:04] INFO root fetch - main [MainThread]: End processing [pokers]: success
+[2023-07-05 10:30:04] INFO root fetch - main [MainThread]: Store serial: [18764549]
