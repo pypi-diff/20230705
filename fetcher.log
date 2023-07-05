@@ -15656,3 +15656,106 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:15:10] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.2.0a1.tar.gz]
 [2023-07-05 13:15:10] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2023-07-05 13:15:10] INFO root fetch - main [MainThread]: Store serial: [18766216]
+[2023-07-05 13:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766216]
+[2023-07-05 13:20:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlserver
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-l10n-br-fiscal
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-l10n-br-account
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iman
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superagent-py
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nzpyida
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-mass-migration
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dqclibs
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dedoc
+[2023-07-05 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lcax
+[2023-07-05 13:20:20] INFO root fetch - processPackages [django-mass-migration]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [dedoc]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [dqclibs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [nzpyida]: New version: [0.9] Old Version: [0.3.6]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [mlserver]: New version: [1.4.0.dev3] Old Version: [1.4.0.dev2]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [lcax]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: New version: [12.0.9.0.1] Old Version: [12.0.9.0.0.99.dev3]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [superagent-py]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: New version: [12.0.9.0.0] Old Version: [12.0.8.0.0.99.dev3]
+[2023-07-05 13:20:20] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/21/3c/de20e386527d121a5e4747a11c22a28b13018f44312114026067cf438f55/django-mass-migration-0.1.7.tar.gz
+[2023-07-05 13:20:20] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/08/a3/f6425a364d6c7326499a78a8d4470153d9d31656db1d0b26423dfbad2e33/odoo12_addon_l10n_br_fiscal-12.0.8.0.0.99.dev3-py3-none-any.whl
+[2023-07-05 13:20:20] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/2f/df/9b42056ff217b8f43247a6aa490c6bc692715501b55a170a873c5e741187/iman-0.0.81.tar.gz
+[2023-07-05 13:20:20] INFO root fetch - processPackages [dqclibs]: Downloading https://files.pythonhosted.org/packages/91/9e/145072d25c0c91c8ff3adfd871a0df5b6f727e35d235550798822a76b312/dqclibs-0.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 13:20:20] INFO root fetch - processPackages [dedoc]: Downloading https://files.pythonhosted.org/packages/0c/fc/396a2d5f8afabee2afb30459ec13c24a4962619b381491f79b411e90583b/dedoc-0.9-py3-none-any.whl
+[2023-07-05 13:20:20] INFO root fetch - processPackages [nzpyida]: Downloading https://files.pythonhosted.org/packages/2d/63/53e4242a536cc5ba6d6fec10339e1c673712c3153af345d75b2f7cc9a2db/nzpyida-0.3.6.tar.gz
+[2023-07-05 13:20:20] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/17/9d/003977e4ad66dc3c5aca9d04c9ae3738c186fa1a645f451337ac9db6d610/odoo12_addon_l10n_br_account-12.0.9.0.0.99.dev3-py3-none-any.whl
+[2023-07-05 13:20:20] INFO root fetch - processPackages [mlserver]: Downloading https://files.pythonhosted.org/packages/5d/e9/3e344dce4950484ad82639f03f62c93f144f135e8d5e5f9af13e64b531a4/mlserver-1.4.0.dev2.tar.gz
+[2023-07-05 13:20:20] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/12/68/49ee9a8e3f99bea25b2419459d15eb0c433f16643d1aef2f641906fe5d99/lcax-0.1.2.tar.gz
+[2023-07-05 13:20:20] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/c6/8c/32fa623e32b5167fb8bfea31c7213f291f95a380a353343752e4008033e1/superagent_py-0.0.29.tar.gz
+[2023-07-05 13:20:20] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/c5/f9/b53bf0c3db3456a6e89d7b5b44a07026de1de4272ffa3ced344e1be9c634/odoo12_addon_l10n_br_fiscal-12.0.9.0.0-py3-none-any.whl
+[2023-07-05 13:20:20] WARNING root fetch - processPackages [dqclibs]: Skipping package: exceeds size limit 23626385>=10485760
+[2023-07-05 13:20:20] INFO root fetch - processPackages [dqclibs]: Start processing: vmngclient
+[2023-07-05 13:20:20] INFO root fetch - main [MainThread]: End processing [dqclibs] error
+[2023-07-05 13:20:21] INFO root fetch - processPackages [django-mass-migration]: Downloading https://files.pythonhosted.org/packages/01/61/489cfeec204020a1a693191ff7ce901f862b82f30a9e56d79702699bffc2/django-mass-migration-0.1.8.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [vmngclient]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-05 13:20:21] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-05 13:20:21] WARNING root fetch - processPackages [dedoc]: Skipping package: exceeds size limit 19116343>=10485760
+[2023-07-05 13:20:21] INFO root fetch - processPackages [dedoc]: Start processing: dsna-complete
+[2023-07-05 13:20:21] INFO root fetch - main [MainThread]: End processing [dedoc] error
+[2023-07-05 13:20:21] INFO root fetch - processPackages [mlserver]: Downloading https://files.pythonhosted.org/packages/bd/9b/6ab0e479f12ce544a54e4266c2469e57bb8f4264912eef16cc26190c7be3/mlserver-1.4.0.dev3.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_fiscal-12.0.8.0.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_fiscal-12.0.9.0.0-py3-none-any.whl.zip --markdown 20230705/o/odoo12-addon-l10n-br-fiscal/12.0.8.0.0.99.dev3-12.0.9.0.0/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/ba/8e/cd7939593acba987a80b794de2ebb9f08e91c7670ed1dd0584df58651576/lcax-0.1.3.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [django-mass-migration]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [django-mass-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mass-migration-0.1.7.tar.gz tmp/django-mass-migration-0.1.8.tar.gz --markdown 20230705/d/django-mass-migration/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/9b/72/0e1ce4023b3fd80607ff56e89cb9b26c08df5646786b0c7d35974e062892/superagent_py-0.0.30.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/ac/a5/83cae299b1b7d7836eaf8665d5ab89606d37c833138d3965303612624874/odoo12_addon_l10n_br_account-12.0.9.0.1-py3-none-any.whl
+[2023-07-05 13:20:21] INFO root fetch - processPackages [nzpyida]: Downloading https://files.pythonhosted.org/packages/38/b9/d3aee7106b196959b0949e9c05ad916d3354a88b4f1ca6e5fdc26727ccc6/nzpyida-0.9.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [dsna-complete]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 13:20:21] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/16/cf/796cdd5acea067c083c005dc1c73beadef4898b8cc0b719eee71099c66aa/vmngclient-0.9.3.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.81.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230705/i/iman/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [mlserver]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [mlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlserver-1.4.0.dev2.tar.gz tmp/mlserver-1.4.0.dev3.tar.gz --markdown 20230705/m/mlserver/1.4.0.dev2-1.4.0.dev3/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.29.tar.gz tmp/superagent_py-0.0.30.tar.gz --markdown 20230705/s/superagent-py/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/4d/2d/cec3fbd8e2f089fcc7edf2c02a84bbfa7c1c08e2e75cdd3d228ee00b7591/dsna_complete-0.0.3.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-0.1.2.tar.gz tmp/lcax-0.1.3.tar.gz --markdown 20230705/l/lcax/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [nzpyida]: executing diffoscope
+[2023-07-05 13:20:21] INFO root fetch - processPackages [nzpyida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzpyida-0.3.6.tar.gz tmp/nzpyida-0.9.tar.gz --markdown 20230705/n/nzpyida/0.3.6-0.9/diff.md --exclude *.pyd
+[2023-07-05 13:20:21] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/2b/97/e3aef077759cafa431fe352e6588c8baf9814c83c2077a206f511bd1352e/dsna_complete-0.0.4.tar.gz
+[2023-07-05 13:20:21] INFO root fetch - processPackages [vmngclient]: Downloading https://files.pythonhosted.org/packages/60/1e/8fa022286e95c6d7b916fc4fa00fcef64cbcdf053911a9e7189fff6403b8/vmngclient-0.9.4.tar.gz
+[2023-07-05 13:20:22] INFO root fetch - processPackages [dsna-complete]: executing diffoscope
+[2023-07-05 13:20:22] INFO root fetch - processPackages [dsna-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsna_complete-0.0.3.tar.gz tmp/dsna_complete-0.0.4.tar.gz --markdown 20230705/d/dsna-complete/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 13:20:22] INFO root fetch - processPackages [vmngclient]: executing diffoscope
+[2023-07-05 13:20:22] INFO root fetch - processPackages [vmngclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmngclient-0.9.3.tar.gz tmp/vmngclient-0.9.4.tar.gz --markdown 20230705/v/vmngclient/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-05 13:20:22] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: executing diffoscope
+[2023-07-05 13:20:22] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_br_account-12.0.9.0.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_br_account-12.0.9.0.1-py3-none-any.whl.zip --markdown 20230705/o/odoo12-addon-l10n-br-account/12.0.9.0.0.99.dev3-12.0.9.0.1/diff.md --exclude *.pyd
+[2023-07-05 13:20:22] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.7.tar.gz]
+[2023-07-05 13:20:22] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.1.8.tar.gz]
+[2023-07-05 13:20:22] INFO root fetch - main [MainThread]: End processing [django-mass-migration]: success
+[2023-07-05 13:20:22] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.81.tar.gz]
+[2023-07-05 13:20:22] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-05 13:20:22] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.29.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.30.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-0.1.2.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-0.1.3.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.3.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.4.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [dsna-complete]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [mlserver]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-1.4.0.dev2.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [mlserver]: Remove: archive file [/home/abi/fetcher/tmp/mlserver-1.4.0.dev3.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [mlserver]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [nzpyida]: Remove: archive file [/home/abi/fetcher/tmp/nzpyida-0.3.6.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [nzpyida]: Remove: archive file [/home/abi/fetcher/tmp/nzpyida-0.9.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [nzpyida]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_account-12.0.9.0.0.99.dev3-py3-none-any.whl.zip]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [odoo12-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_account-12.0.9.0.1-py3-none-any.whl.zip]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-account]: success
+[2023-07-05 13:20:23] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.3.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - processPackages [vmngclient]: Remove: archive file [/home/abi/fetcher/tmp/vmngclient-0.9.4.tar.gz]
+[2023-07-05 13:20:23] INFO root fetch - main [MainThread]: End processing [vmngclient]: success
+[2023-07-05 13:20:24] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_fiscal-12.0.8.0.0.99.dev3-py3-none-any.whl.zip]
+[2023-07-05 13:20:24] INFO root fetch - processPackages [odoo12-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_br_fiscal-12.0.9.0.0-py3-none-any.whl.zip]
+[2023-07-05 13:20:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-br-fiscal]: success
+[2023-07-05 13:20:24] INFO root fetch - main [MainThread]: Store serial: [18766254]
