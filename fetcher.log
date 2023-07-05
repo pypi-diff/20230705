@@ -8951,3 +8951,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 08:06:58] INFO root fetch - processPackages [django-cradmin]: Remove: archive file [/home/abi/fetcher/tmp/django-cradmin-9.2.0.tar.gz]
 [2023-07-05 08:06:58] INFO root fetch - main [MainThread]: End processing [django-cradmin]: success
 [2023-07-05 08:06:58] INFO root fetch - main [MainThread]: Store serial: [18763211]
+[2023-07-05 08:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763211]
+[2023-07-05 08:12:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: castor-extractor
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chytorch
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graficas
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whisper-mic
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projectal
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xj-role
+[2023-07-05 08:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-wechat-tools
+[2023-07-05 08:12:07] INFO root fetch - processPackages [castor-extractor]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-05 08:12:07] WARNING root fetch - processPackages [graficas]: Skipping, unable to determine old version
+[2023-07-05 08:12:07] INFO root fetch - processPackages [whisper-mic]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 08:12:07] INFO root fetch - main [MainThread]: End processing [graficas] error
+[2023-07-05 08:12:07] INFO root fetch - processPackages [chytorch]: New version: [1.7] Old Version: [1.5]
+[2023-07-05 08:12:07] INFO root fetch - processPackages [projectal]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-05 08:12:07] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 08:12:07] INFO root fetch - processPackages [py-wechat-tools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-05 08:12:07] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/4a/49/4443767706e18f6e83ccdd368e923774d1b6d993a67989355bf3201c9470/whisper_mic-1.1.0.tar.gz
+[2023-07-05 08:12:07] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-05 08:12:07] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/7a/e4/5108fdb40c7658cce3d84ca25961f597914ead8bde14f889b954beef6877/castor_extractor-0.4.1.tar.gz
+[2023-07-05 08:12:07] INFO root fetch - processPackages [chytorch]: Downloading https://files.pythonhosted.org/packages/53/8b/f49a4c420acf06c9661d3bf49cf06661866669520f508c61d3125ab9ca64/chytorch-1.5-py3-none-any.whl
+[2023-07-05 08:12:07] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/40/1f/33ce3b41bcf5ac955a6b96649ba21cbf3774d4714e4b62c44cedf8c8d09f/projectal-4.0.1.tar.gz
+[2023-07-05 08:12:07] INFO root fetch - processPackages [py-wechat-tools]: Downloading https://files.pythonhosted.org/packages/e8/7a/2699fdda5bbdc034d4902024e3bfa43a52fe2e7e629ea281a4b024a76e69/py_wechat_tools-0.0.5-py3-none-any.whl
+[2023-07-05 08:12:07] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-05 08:12:07] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/6e/04/9a745da5c07aa45fa258ca48963bd412fde81cdbac3ec95f8fd4944b9474/whisper_mic-1.1.1.tar.gz
+[2023-07-05 08:12:07] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-05 08:12:07] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230705/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 08:12:08] INFO root fetch - processPackages [castor-extractor]: Downloading https://files.pythonhosted.org/packages/d9/54/305beff8f9813083125a89c4d44df6a17cf900ff957725659cccdd444d18/castor_extractor-0.5.0.tar.gz
+[2023-07-05 08:12:08] INFO root fetch - processPackages [chytorch]: Downloading https://files.pythonhosted.org/packages/85/de/ef4e8ebd21f95ab0cafc4fb66832702b0d1735eaa2a8edca42cb538b1fe4/chytorch-1.7-py3-none-any.whl
+[2023-07-05 08:12:08] INFO root fetch - processPackages [whisper-mic]: executing diffoscope
+[2023-07-05 08:12:08] INFO root fetch - processPackages [whisper-mic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_mic-1.1.0.tar.gz tmp/whisper_mic-1.1.1.tar.gz --markdown 20230705/w/whisper-mic/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 08:12:08] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/e2/84/dbc99cc81f12b40e1220c07b49c5fc821d4057a26a6937440f95e0e307df/projectal-4.0.2.tar.gz
+[2023-07-05 08:12:08] INFO root fetch - processPackages [py-wechat-tools]: Downloading https://files.pythonhosted.org/packages/fc/e8/326d47cf7b9a512bd6921bd2443438d36270282cd726d67d709a4aa8cd40/py-wechat-tools-0.0.6.tar.gz
+[2023-07-05 08:12:08] INFO root fetch - processPackages [castor-extractor]: executing diffoscope
+[2023-07-05 08:12:08] INFO root fetch - processPackages [castor-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castor_extractor-0.4.1.tar.gz tmp/castor_extractor-0.5.0.tar.gz --markdown 20230705/c/castor-extractor/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 08:12:08] INFO root fetch - processPackages [chytorch]: executing diffoscope
+[2023-07-05 08:12:08] INFO root fetch - processPackages [chytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chytorch-1.5-py3-none-any.whl.zip tmp/chytorch-1.7-py3-none-any.whl.zip --markdown 20230705/c/chytorch/1.5-1.7/diff.md --exclude *.pyd
+[2023-07-05 08:12:08] INFO root fetch - processPackages [projectal]: executing diffoscope
+[2023-07-05 08:12:08] INFO root fetch - processPackages [projectal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectal-4.0.1.tar.gz tmp/projectal-4.0.2.tar.gz --markdown 20230705/p/projectal/4.0.1-4.0.2/diff.md --exclude *.pyd
+[2023-07-05 08:12:08] INFO root fetch - processPackages [py-wechat-tools]: executing diffoscope
+[2023-07-05 08:12:08] INFO root fetch - processPackages [py-wechat-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_wechat_tools-0.0.5-py3-none-any.whl.zip tmp/py-wechat-tools-0.0.6.tar.gz --markdown 20230705/p/py-wechat-tools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-05 08:12:09] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.1.0.tar.gz]
+[2023-07-05 08:12:09] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.1.1.tar.gz]
+[2023-07-05 08:12:09] INFO root fetch - main [MainThread]: End processing [whisper-mic]: success
+[2023-07-05 08:12:09] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-05 08:12:09] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-05 08:12:09] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-05 08:12:09] INFO root fetch - processPackages [py-wechat-tools]: Remove: archive file [/home/abi/fetcher/tmp/py_wechat_tools-0.0.5-py3-none-any.whl.zip]
+[2023-07-05 08:12:09] INFO root fetch - processPackages [py-wechat-tools]: Remove: archive file [/home/abi/fetcher/tmp/py-wechat-tools-0.0.6.tar.gz]
+[2023-07-05 08:12:09] INFO root fetch - main [MainThread]: End processing [py-wechat-tools]: success
+[2023-07-05 08:12:09] INFO root fetch - processPackages [chytorch]: Remove: archive file [/home/abi/fetcher/tmp/chytorch-1.5-py3-none-any.whl.zip]
+[2023-07-05 08:12:09] INFO root fetch - processPackages [chytorch]: Remove: archive file [/home/abi/fetcher/tmp/chytorch-1.7-py3-none-any.whl.zip]
+[2023-07-05 08:12:09] INFO root fetch - main [MainThread]: End processing [chytorch]: success
+[2023-07-05 08:12:10] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.4.1.tar.gz]
+[2023-07-05 08:12:10] INFO root fetch - processPackages [castor-extractor]: Remove: archive file [/home/abi/fetcher/tmp/castor_extractor-0.5.0.tar.gz]
+[2023-07-05 08:12:10] INFO root fetch - main [MainThread]: End processing [castor-extractor]: success
+[2023-07-05 08:12:10] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.0.1.tar.gz]
+[2023-07-05 08:12:10] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.0.2.tar.gz]
+[2023-07-05 08:12:10] INFO root fetch - main [MainThread]: End processing [projectal]: success
+[2023-07-05 08:12:10] INFO root fetch - main [MainThread]: Store serial: [18763232]
