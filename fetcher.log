@@ -20984,3 +20984,131 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:33:47] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.5.tar.gz]
 [2023-07-05 16:33:47] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-07-05 16:33:47] INFO root fetch - main [MainThread]: Store serial: [18768603]
+[2023-07-05 16:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768603]
+[2023-07-05 16:38:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radbelt
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyexifwrangle
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landingai
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fink-utils
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirqle
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: equinox
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbl-discoverx
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: synnamon
+[2023-07-05 16:38:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: movici-simulation-core
+[2023-07-05 16:38:56] INFO root fetch - processPackages [equinox]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [fink-utils]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [movici-simulation-core]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-05 16:38:56] WARNING root fetch - processPackages [pyexifwrangle]: Skipping, unable to determine old version
+[2023-07-05 16:38:56] INFO root fetch - processPackages [pyexifwrangle]: Start processing: unitpy
+[2023-07-05 16:38:56] INFO root fetch - main [MainThread]: End processing [pyexifwrangle] error
+[2023-07-05 16:38:56] INFO root fetch - processPackages [dbl-discoverx]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [sirqle]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [synnamon]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [unitpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [radbelt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-05 16:38:56] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/b1/4f/39434599634c5c8ebdbc1673e9f23d9af8dccfe107ccf922a907fd1af998/fink-utils-0.8.2.tar.gz
+[2023-07-05 16:38:56] INFO root fetch - processPackages [equinox]: Downloading https://files.pythonhosted.org/packages/0e/84/68bfc44830cc6e8dd5dc0e623c20f53553beaebd225130e0bf4b11cba22d/equinox-0.9.1.tar.gz
+[2023-07-05 16:38:56] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/d3/fc/3ea894ba5c195b3b873681c2155b26d5fac13aa7ac6b73310453d7bd8486/unitpy-0.0.6.tar.gz
+[2023-07-05 16:38:56] INFO root fetch - processPackages [movici-simulation-core]: Downloading https://files.pythonhosted.org/packages/c4/1e/d1700350963aaad8e010c991f728e18c0cc40b4618bc3dedfcd65aade98a/movici_simulation_core-2.8.1-py3-none-any.whl
+[2023-07-05 16:38:56] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/4f/b8/b583ce7b7c0fec5653cac060d87680ceddf3d7c15e05b43b48398dc3a309/sirqle-0.2.5.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [synnamon]: Downloading https://files.pythonhosted.org/packages/b1/55/422661518b0568e09d3ba48c39567e19b2c5fee3e3314b7149c6c6ae33c4/synnamon-0.1.7.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [equinox]: Downloading https://files.pythonhosted.org/packages/4d/1d/6a9ce6e7aa3e1286459ae80e5c81dfad0a455351ecc566b02cd493686370/equinox-0.9.2.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [radbelt]: Downloading https://files.pythonhosted.org/packages/ae/37/40d5f96e2ba6f878c06142cf8be646632bb6e45cc56c7919a7f6db7aa0c8/radbelt-0.1.4.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [dbl-discoverx]: Downloading https://files.pythonhosted.org/packages/34/a4/40c012beec33910726ee7fbc58d157e7fd206693aceeecb7666b26989c57/dbl_discoverx-0.0.2.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [fink-utils]: Downloading https://files.pythonhosted.org/packages/19/3d/6d51571734a20389d75327fd1fdf9382d5434496cdf8305167424eb6ea5f/fink-utils-0.9.0.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/fd/b3/e7265c4d17cd11806e675a9d63e47b31fd221880e3a87e3ee356eb223264/unitpy-0.0.7.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [equinox]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [equinox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equinox-0.9.1.tar.gz tmp/equinox-0.9.2.tar.gz --markdown 20230705/e/equinox/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [unitpy]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [unitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitpy-0.0.6.tar.gz tmp/unitpy-0.0.7.tar.gz --markdown 20230705/u/unitpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [fink-utils]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [fink-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fink-utils-0.8.2.tar.gz tmp/fink-utils-0.9.0.tar.gz --markdown 20230705/f/fink-utils/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [sirqle]: Downloading https://files.pythonhosted.org/packages/50/15/6500569c914507ff96330a29a7d39e6f3d9be82ae875a17518638c6337d6/sirqle-0.2.6.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [movici-simulation-core]: Downloading https://files.pythonhosted.org/packages/21/41/b1ccf2c969083dc078aa38ca63b1cf4de7f1b81a1b51df462d44b2b90632/movici_simulation_core-2.9.0-py3-none-any.whl
+[2023-07-05 16:38:57] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [dbl-discoverx]: Downloading https://files.pythonhosted.org/packages/ba/13/76db2704b80cc74529234762245012fa8c607200519494912cf1445c64eb/dbl_discoverx-0.0.3.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [radbelt]: Downloading https://files.pythonhosted.org/packages/96/f9/ebbcbca2ae0d1661f483022baa158a62c28b0ac8dc58baa7c63cfaabdf7a/radbelt-0.1.5.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [sirqle]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [sirqle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirqle-0.2.5.tar.gz tmp/sirqle-0.2.6.tar.gz --markdown 20230705/s/sirqle/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230705/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [synnamon]: Downloading https://files.pythonhosted.org/packages/69/21/949825aa028d4dfbd3b7c7d67de9a1f01b321a5b99a9759ba7140f7e0661/synnamon-0.1.8.tar.gz
+[2023-07-05 16:38:57] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230705/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [movici-simulation-core]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [movici-simulation-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movici_simulation_core-2.8.1-py3-none-any.whl.zip tmp/movici_simulation_core-2.9.0-py3-none-any.whl.zip --markdown 20230705/m/movici-simulation-core/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [dbl-discoverx]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [dbl-discoverx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbl_discoverx-0.0.2.tar.gz tmp/dbl_discoverx-0.0.3.tar.gz --markdown 20230705/d/dbl-discoverx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 16:38:57] INFO root fetch - processPackages [radbelt]: executing diffoscope
+[2023-07-05 16:38:57] INFO root fetch - processPackages [radbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radbelt-0.1.4.tar.gz tmp/radbelt-0.1.5.tar.gz --markdown 20230705/r/radbelt/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-05 16:38:58] INFO root fetch - processPackages [unitpy]: Remove: archive file [/home/abi/fetcher/tmp/unitpy-0.0.6.tar.gz]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [unitpy]: Remove: archive file [/home/abi/fetcher/tmp/unitpy-0.0.7.tar.gz]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [unitpy]: Start processing: EggLib
+[2023-07-05 16:38:58] INFO root fetch - main [MainThread]: End processing [unitpy]: success
+[2023-07-05 16:38:58] INFO root fetch - processPackages [synnamon]: executing diffoscope
+[2023-07-05 16:38:58] INFO root fetch - processPackages [synnamon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnamon-0.1.7.tar.gz tmp/synnamon-0.1.8.tar.gz --markdown 20230705/s/synnamon/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-05 16:38:58] INFO root fetch - processPackages [equinox]: Remove: archive file [/home/abi/fetcher/tmp/equinox-0.9.1.tar.gz]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [equinox]: Remove: archive file [/home/abi/fetcher/tmp/equinox-0.9.2.tar.gz]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [equinox]: Start processing: p4tools
+[2023-07-05 16:38:58] INFO root fetch - main [MainThread]: End processing [equinox]: success
+[2023-07-05 16:38:58] INFO root fetch - processPackages [EggLib]: New version: [3.3.0] Old Version: [3.2.1a1]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [fink-utils]: Remove: archive file [/home/abi/fetcher/tmp/fink-utils-0.8.2.tar.gz]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [fink-utils]: Remove: archive file [/home/abi/fetcher/tmp/fink-utils-0.9.0.tar.gz]
+[2023-07-05 16:38:58] INFO root fetch - processPackages [fink-utils]: Start processing: kcli
+[2023-07-05 16:38:58] INFO root fetch - main [MainThread]: End processing [fink-utils]: success
+[2023-07-05 16:38:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202307051021] Old Version: [99.0.202307051011]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [p4tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/11/a8/50bc2697c40a20f4c5d0401a3fa2551bdb5be75e6625aa584f306f8273e5/kcli-99.0.202307051011-py3-none-any.whl
+[2023-07-05 16:38:59] INFO root fetch - processPackages [EggLib]: Downloading https://files.pythonhosted.org/packages/27/06/352008935df3248259b164d15b26b9528967abb93ab43a67792b44a3ce51/EggLib-3.2.1a1.tar.gz
+[2023-07-05 16:38:59] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [landingai]: Start processing: cloud-governance
+[2023-07-05 16:38:59] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-05 16:38:59] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.5.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [sirqle]: Remove: archive file [/home/abi/fetcher/tmp/sirqle-0.2.6.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - main [MainThread]: End processing [sirqle]: success
+[2023-07-05 16:38:59] INFO root fetch - processPackages [p4tools]: Downloading https://files.pythonhosted.org/packages/e0/3c/cfb3787a148a08bba62bd76fd7a07e4bbaf76edab7ab15f550030f2e2bd9/p4tools-0.8.0.tar.gz
+[2023-07-05 16:38:59] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [dbl-discoverx]: Remove: archive file [/home/abi/fetcher/tmp/dbl_discoverx-0.0.2.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [dbl-discoverx]: Remove: archive file [/home/abi/fetcher/tmp/dbl_discoverx-0.0.3.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - main [MainThread]: End processing [dbl-discoverx]: success
+[2023-07-05 16:38:59] WARNING root fetch - processPackages [EggLib]: Skipping package: exceeds size limit 22508197>=10485760
+[2023-07-05 16:38:59] INFO root fetch - main [MainThread]: End processing [EggLib] error
+[2023-07-05 16:38:59] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-05 16:38:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/de/601484aa66b691ef32fa269199c589e4293feb1aef5a3c50a0e76087d0e2/kcli-99.0.202307051021-py3-none-any.whl
+[2023-07-05 16:38:59] INFO root fetch - processPackages [radbelt]: Remove: archive file [/home/abi/fetcher/tmp/radbelt-0.1.4.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - processPackages [radbelt]: Remove: archive file [/home/abi/fetcher/tmp/radbelt-0.1.5.tar.gz]
+[2023-07-05 16:38:59] INFO root fetch - main [MainThread]: End processing [radbelt]: success
+[2023-07-05 16:38:59] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-05 16:38:59] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307051011-py3-none-any.whl.zip tmp/kcli-99.0.202307051021-py3-none-any.whl.zip --markdown 20230705/k/kcli/99.0.202307051011-99.0.202307051021/diff.md --exclude *.pyd
+[2023-07-05 16:38:59] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-05 16:38:59] INFO root fetch - processPackages [p4tools]: Downloading https://files.pythonhosted.org/packages/8e/c7/9d8bdd90f7aa50551d8b020dac5cbde2175b5ac34f4b42f77018998caa80/p4tools-0.9.0.tar.gz
+[2023-07-05 16:38:59] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-05 16:38:59] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230705/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-05 16:39:00] INFO root fetch - processPackages [movici-simulation-core]: Remove: archive file [/home/abi/fetcher/tmp/movici_simulation_core-2.8.1-py3-none-any.whl.zip]
+[2023-07-05 16:39:00] INFO root fetch - processPackages [movici-simulation-core]: Remove: archive file [/home/abi/fetcher/tmp/movici_simulation_core-2.9.0-py3-none-any.whl.zip]
+[2023-07-05 16:39:00] INFO root fetch - main [MainThread]: End processing [movici-simulation-core]: success
+[2023-07-05 16:39:00] INFO root fetch - processPackages [p4tools]: executing diffoscope
+[2023-07-05 16:39:00] INFO root fetch - processPackages [p4tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p4tools-0.8.0.tar.gz tmp/p4tools-0.9.0.tar.gz --markdown 20230705/p/p4tools/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 16:39:00] INFO root fetch - processPackages [synnamon]: Remove: archive file [/home/abi/fetcher/tmp/synnamon-0.1.7.tar.gz]
+[2023-07-05 16:39:00] INFO root fetch - processPackages [synnamon]: Remove: archive file [/home/abi/fetcher/tmp/synnamon-0.1.8.tar.gz]
+[2023-07-05 16:39:00] INFO root fetch - main [MainThread]: End processing [synnamon]: success
+[2023-07-05 16:39:01] INFO root fetch - processPackages [p4tools]: Remove: archive file [/home/abi/fetcher/tmp/p4tools-0.8.0.tar.gz]
+[2023-07-05 16:39:01] INFO root fetch - processPackages [p4tools]: Remove: archive file [/home/abi/fetcher/tmp/p4tools-0.9.0.tar.gz]
+[2023-07-05 16:39:01] INFO root fetch - main [MainThread]: End processing [p4tools]: success
+[2023-07-05 16:39:01] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-05 16:39:01] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-05 16:39:01] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-05 16:39:01] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2023-07-05 16:39:01] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2023-07-05 16:39:01] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-07-05 16:39:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307051011-py3-none-any.whl.zip]
+[2023-07-05 16:39:03] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307051021-py3-none-any.whl.zip]
+[2023-07-05 16:39:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-05 16:39:03] INFO root fetch - main [MainThread]: Store serial: [18768666]
