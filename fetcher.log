@@ -5724,3 +5724,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:49:44] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-07-05 03:49:44] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-07-05 03:49:44] INFO root fetch - main [MainThread]: Store serial: [18762011]
+[2023-07-05 03:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762011]
+[2023-07-05 03:54:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-05 03:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: empyrial
+[2023-07-05 03:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fuzzyydictyy
+[2023-07-05 03:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-sim
+[2023-07-05 03:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fuzzyydictyy
+[2023-07-05 03:54:54] INFO root fetch - processPackages [fuzzyydictyy]: New version: [0.11] Old Version: [0.10]
+[2023-07-05 03:54:54] INFO root fetch - processPackages [fuzzyydictyy]: New version: [0.11] Old Version: [0.10]
+[2023-07-05 03:54:54] INFO root fetch - processPackages [git-sim]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-05 03:54:55] INFO root fetch - processPackages [empyrial]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: Downloading https://files.pythonhosted.org/packages/6f/dc/e284a5f7dd1c21e2b3e3bd160393b215536c942ed8b0a9fcb0d2cdb723b9/fuzzyydictyy-0.10.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: Downloading https://files.pythonhosted.org/packages/6f/dc/e284a5f7dd1c21e2b3e3bd160393b215536c942ed8b0a9fcb0d2cdb723b9/fuzzyydictyy-0.10.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/85/66/8b12fe65e7d5c83a9b72c0b10c33d55b00a12e297b8e78831c20793582a1/empyrial-2.0.3.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [git-sim]: Downloading https://files.pythonhosted.org/packages/cf/48/483a425f4633001d40349ed3d2d9bf45b562d18bb3e91d32f13ec788da43/git-sim-0.3.2.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: Downloading https://files.pythonhosted.org/packages/aa/bc/3f207424c2e876beeb86eac63456b5c67b46c17f4e7ffcf22ac51532039e/fuzzyydictyy-0.11.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: Downloading https://files.pythonhosted.org/packages/aa/bc/3f207424c2e876beeb86eac63456b5c67b46c17f4e7ffcf22ac51532039e/fuzzyydictyy-0.11.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [empyrial]: Downloading https://files.pythonhosted.org/packages/d1/95/aece05aae422716fbb0649c5c057e5dc69047a9c3bb4358101b60c667706/empyrial-2.0.4.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [git-sim]: Downloading https://files.pythonhosted.org/packages/38/d6/448dabe8483338496d2c23f12095a3a5a83a40c9cb611e2659835e49bb41/git-sim-0.3.3.tar.gz
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: executing diffoscope
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzyydictyy-0.10.tar.gz tmp/fuzzyydictyy-0.11.tar.gz --markdown 20230705/f/fuzzyydictyy/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: executing diffoscope
+[2023-07-05 03:54:55] INFO root fetch - processPackages [fuzzyydictyy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzyydictyy-0.10.tar.gz tmp/fuzzyydictyy-0.11.tar.gz --markdown 20230705/f/fuzzyydictyy/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-05 03:54:55] INFO root fetch - processPackages [empyrial]: executing diffoscope
+[2023-07-05 03:54:55] INFO root fetch - processPackages [empyrial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empyrial-2.0.3.tar.gz tmp/empyrial-2.0.4.tar.gz --markdown 20230705/e/empyrial/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-05 03:54:56] INFO root fetch - processPackages [git-sim]: executing diffoscope
+[2023-07-05 03:54:56] INFO root fetch - processPackages [git-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-sim-0.3.2.tar.gz tmp/git-sim-0.3.3.tar.gz --markdown 20230705/g/git-sim/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-05 03:54:56] INFO root fetch - processPackages [fuzzyydictyy]: Remove: archive file [/home/abi/fetcher/tmp/fuzzyydictyy-0.10.tar.gz]
+[2023-07-05 03:54:56] INFO root fetch - processPackages [fuzzyydictyy]: Remove: archive file [/home/abi/fetcher/tmp/fuzzyydictyy-0.11.tar.gz]
+[2023-07-05 03:54:56] INFO root fetch - main [MainThread]: End processing [fuzzyydictyy]: success
+[2023-07-05 03:54:56] INFO root fetch - main [MainThread]: End processing [fuzzyydictyy]: success
+[2023-07-05 03:54:56] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.3.tar.gz]
+[2023-07-05 03:54:56] INFO root fetch - processPackages [empyrial]: Remove: archive file [/home/abi/fetcher/tmp/empyrial-2.0.4.tar.gz]
+[2023-07-05 03:54:56] INFO root fetch - main [MainThread]: End processing [empyrial]: success
+[2023-07-05 03:54:57] INFO root fetch - processPackages [git-sim]: Remove: archive file [/home/abi/fetcher/tmp/git-sim-0.3.2.tar.gz]
+[2023-07-05 03:54:57] INFO root fetch - processPackages [git-sim]: Remove: archive file [/home/abi/fetcher/tmp/git-sim-0.3.3.tar.gz]
+[2023-07-05 03:54:57] INFO root fetch - main [MainThread]: End processing [git-sim]: success
+[2023-07-05 03:54:57] INFO root fetch - main [MainThread]: Store serial: [18762032]
