@@ -7435,3 +7435,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:45:00] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.8.tar.gz]
 [2023-07-05 05:45:00] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-07-05 05:45:00] INFO root fetch - main [MainThread]: Store serial: [18762686]
+[2023-07-05 05:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762686]
+[2023-07-05 05:50:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-05 05:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-starter
+[2023-07-05 05:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tr
+[2023-07-05 05:50:09] INFO root fetch - processPackages [tr]: New version: [2.5.1.1] Old Version: [0.0.1]
+[2023-07-05 05:50:09] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 05:50:09] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-05 05:50:09] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/c4/10/d66c73fa9c1b618758030a65469b43cbd91fcdbf7d79eaf74975e8bec361/tr-2.5.1.1.tar.gz
+[2023-07-05 05:50:09] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 52821064>=10485760
+[2023-07-05 05:50:09] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-07-05 05:50:10] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-05 05:50:10] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-05 05:50:10] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230705/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 05:50:11] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-05 05:50:11] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-05 05:50:11] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-05 05:50:11] INFO root fetch - main [MainThread]: Store serial: [18762692]
