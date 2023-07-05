@@ -13646,3 +13646,94 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:44:34] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_report-14.0.3.8.1.dev1-py3-none-any.whl.zip]
 [2023-07-05 11:44:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
 [2023-07-05 11:44:34] INFO root fetch - main [MainThread]: Store serial: [18765359]
+[2023-07-05 11:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765359]
+[2023-07-05 11:49:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocatari
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minet
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcarhilclient
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odd-collector-sdk
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xmipp-metadata
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irispreppy
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ome-zarr
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyperf2
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vbelt
+[2023-07-05 11:49:43] INFO root fetch - processPackages [vcarhilclient]: New version: [1.0.705] Old Version: [1.0.608]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [pyperf2]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [vbelt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [irispreppy]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ocatari]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [xmipp-metadata]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [ome-zarr]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [minet]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-05 11:49:43] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/db/1c/e7cb010c46a65032b039f7c54ac748e5404158a2c1a29bf7d800da2d89e2/pyperf2-0.4.5-py3-none-any.whl
+[2023-07-05 11:49:43] INFO root fetch - processPackages [vbelt]: Downloading https://files.pythonhosted.org/packages/06/06/704d1166ec55f81aba23da6c7e4ea6475a5d1408879d8ec6617a350b33ed/vbelt-0.2.0.tar.gz
+[2023-07-05 11:49:43] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-07-05 11:49:43] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-07-05 11:49:43] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/46/f1/c1f4e7173b679a3a6d152fcc7853aef0b4c4ea9e9f0a635decfa54a5b2c3/vcarhilclient-1.0.608.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [xmipp-metadata]: Downloading https://files.pythonhosted.org/packages/67/8b/5f87159c798fabcd240c234db4c01987cb50822d2de793586a81a65824d7/xmipp_metadata-1.0.7.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ome-zarr]: Downloading https://files.pythonhosted.org/packages/50/22/2cbd5cb5d00f484e19c2239625169c2e9772b90dfe0b1eb394cbda750492/ome-zarr-0.7.1.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/a3/85/85170037e4c3aafc82e7b4049af02210fd1f569e3a0ceded06b31b47eadc/ocatari-0.1.0.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/94/41/154a6ff426782236dbac9d1f34cf02f023cf30692810e4d15682f8b7c8c5/minet-1.0.0a8.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [pyperf2]: Downloading https://files.pythonhosted.org/packages/c9/1f/14e10ed329c059986de0517875f468c9cc44798bc6de96688ede2c398e56/pyperf2-0.4.6-py3-none-any.whl
+[2023-07-05 11:49:44] INFO root fetch - processPackages [vbelt]: Downloading https://files.pythonhosted.org/packages/53/f0/b74e144d9ca3db7d82510e964ccb9668ce2e9be552427da70511d140c452/vbelt-0.2.1.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [irispreppy]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [irispreppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispreppy-1.1.8.tar.gz tmp/irispreppy-1.1.9.tar.gz --markdown 20230705/i/irispreppy/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [pyperf2]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [pyperf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyperf2-0.4.5-py3-none-any.whl.zip tmp/pyperf2-0.4.6-py3-none-any.whl.zip --markdown 20230705/p/pyperf2/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [vbelt]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [vbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbelt-0.2.0.tar.gz tmp/vbelt-0.2.1.tar.gz --markdown 20230705/v/vbelt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [vcarhilclient]: Downloading https://files.pythonhosted.org/packages/84/50/49e20199b59c3c306f4a04eaa6f7a08783b8517976301774527d81f5f05a/vcarhilclient-1.0.705.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ocatari]: Downloading https://files.pythonhosted.org/packages/fc/f5/9d229d858a35457fac0df8f4f614d982d300f7454a0d16a55de3548abefb/ocatari-0.1.1.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [xmipp-metadata]: Downloading https://files.pythonhosted.org/packages/df/de/9dee6ef42dd6f429e808b3a07959a4108e7ea9c43aefb2711a2b0194a621/xmipp_metadata-1.0.8.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ome-zarr]: Downloading https://files.pythonhosted.org/packages/a8/71/1b0d015a620ebeeffb3232b3b261b49d8fb844ea965037b386b51746ecd2/ome-zarr-0.8.0.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230705/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [vcarhilclient]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [vcarhilclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcarhilclient-1.0.608.tar.gz tmp/vcarhilclient-1.0.705.tar.gz --markdown 20230705/v/vcarhilclient/1.0.608-1.0.705/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/4e/e5/909a67e95297d6394fab66a1746fc102658cf4b729a2c90a72872c3dd759/minet-1.0.0a9.tar.gz
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ocatari]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ocatari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocatari-0.1.0.tar.gz tmp/ocatari-0.1.1.tar.gz --markdown 20230705/o/ocatari/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [xmipp-metadata]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [xmipp-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmipp_metadata-1.0.7.tar.gz tmp/xmipp_metadata-1.0.8.tar.gz --markdown 20230705/x/xmipp-metadata/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ome-zarr]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [ome-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome-zarr-0.7.1.tar.gz tmp/ome-zarr-0.8.0.tar.gz --markdown 20230705/o/ome-zarr/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-05 11:49:44] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-07-05 11:49:44] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230705/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-05 11:49:45] INFO root fetch - processPackages [irispreppy]: Remove: archive file [/home/abi/fetcher/tmp/irispreppy-1.1.8.tar.gz]
+[2023-07-05 11:49:45] INFO root fetch - processPackages [irispreppy]: Remove: archive file [/home/abi/fetcher/tmp/irispreppy-1.1.9.tar.gz]
+[2023-07-05 11:49:45] INFO root fetch - main [MainThread]: End processing [irispreppy]: success
+[2023-07-05 11:49:45] INFO root fetch - processPackages [minet]: executing diffoscope
+[2023-07-05 11:49:45] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.0.0a8.tar.gz tmp/minet-1.0.0a9.tar.gz --markdown 20230705/m/minet/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-05 11:49:45] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.5-py3-none-any.whl.zip]
+[2023-07-05 11:49:45] INFO root fetch - processPackages [pyperf2]: Remove: archive file [/home/abi/fetcher/tmp/pyperf2-0.4.6-py3-none-any.whl.zip]
+[2023-07-05 11:49:45] INFO root fetch - main [MainThread]: End processing [pyperf2]: success
+[2023-07-05 11:49:46] INFO root fetch - processPackages [vbelt]: Remove: archive file [/home/abi/fetcher/tmp/vbelt-0.2.0.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - processPackages [vbelt]: Remove: archive file [/home/abi/fetcher/tmp/vbelt-0.2.1.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - main [MainThread]: End processing [vbelt]: success
+[2023-07-05 11:49:46] INFO root fetch - processPackages [vcarhilclient]: Remove: archive file [/home/abi/fetcher/tmp/vcarhilclient-1.0.608.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - processPackages [vcarhilclient]: Remove: archive file [/home/abi/fetcher/tmp/vcarhilclient-1.0.705.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - main [MainThread]: End processing [vcarhilclient]: success
+[2023-07-05 11:49:46] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd-collector-sdk-0.3.8.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - processPackages [odd-collector-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odd_collector_sdk-0.3.9.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-07-05 11:49:46] INFO root fetch - processPackages [xmipp-metadata]: Remove: archive file [/home/abi/fetcher/tmp/xmipp_metadata-1.0.7.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - processPackages [xmipp-metadata]: Remove: archive file [/home/abi/fetcher/tmp/xmipp_metadata-1.0.8.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - main [MainThread]: End processing [xmipp-metadata]: success
+[2023-07-05 11:49:46] INFO root fetch - processPackages [ome-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ome-zarr-0.7.1.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - processPackages [ome-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ome-zarr-0.8.0.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - main [MainThread]: End processing [ome-zarr]: success
+[2023-07-05 11:49:46] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-0.1.0.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - processPackages [ocatari]: Remove: archive file [/home/abi/fetcher/tmp/ocatari-0.1.1.tar.gz]
+[2023-07-05 11:49:46] INFO root fetch - main [MainThread]: End processing [ocatari]: success
+[2023-07-05 11:49:47] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a8.tar.gz]
+[2023-07-05 11:49:47] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.0.0a9.tar.gz]
+[2023-07-05 11:49:47] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2023-07-05 11:49:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-07-05 11:49:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-07-05 11:49:48] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-07-05 11:49:48] INFO root fetch - main [MainThread]: Store serial: [18765393]
