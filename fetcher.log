@@ -8116,3 +8116,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:48:29] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.4.tar.gz]
 [2023-07-05 06:48:29] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
 [2023-07-05 06:48:29] INFO root fetch - main [MainThread]: Store serial: [18762922]
+[2023-07-05 06:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762922]
+[2023-07-05 06:53:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reytool
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-rma-sale
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-rma-sale
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-rma
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-rma
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanoCEM
+[2023-07-05 06:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vllm
+[2023-07-05 06:53:38] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.1.5] Old Version: [0.0.1.4]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.9] Old Version: [15.0.1.1.3.7]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev9] Old Version: [14.0.3.2.7.dev7]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo14-addon-rma-sale]: New version: [14.0.2.3.1.dev9] Old Version: [14.0.2.3.1.dev8]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo-addon-rma-sale]: New version: [15.0.1.1.0.9] Old Version: [15.0.1.1.0.8]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [vllm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 06:53:38] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/2c/16/5fccc443ee96ea4ee63044e8c57dd3014ab50641b63b05e74c3e8e7b55e3/nanoCEM-0.0.1.4.tar.gz
+[2023-07-05 06:53:38] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/bf/93/43f39bc9947f7439732d180bbdb189acbb6f86440a4e0e399513aee499f3/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/7b/0f/db3dde6796ec5eb683af563a6c7a6fb37059e909799c741e6ba0edd61332/odoo_addon_rma_sale-15.0.1.1.0.8-py3-none-any.whl
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/9e/5c/75477a17f837c1ad37d1a1e2cd97f2e06972ef0572d8081e66bfcd4790e4/odoo14_addon_rma_sale-14.0.2.3.1.dev8-py3-none-any.whl
+[2023-07-05 06:53:38] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-07-05 06:53:38] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/30/fe/0194e8eac5de81ad6acd583e31fa95e95e7e7f608521cba67493b403a077/vllm-0.1.1.tar.gz
+[2023-07-05 06:53:38] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/6c/b5/14e63f1b8ce754fe88450f5223d79fd3baf3a8c50f57456f0dd1280f27f7/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl
+[2023-07-05 06:53:38] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/d7/90/2ab822216e7dd0523396b50f98a8a8dc5ad7be42221dddd8d904a2bb252b/nanoCEM-0.0.1.5.tar.gz
+[2023-07-05 06:53:38] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-07-05 06:53:38] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230705/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-05 06:53:39] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.4.tar.gz tmp/nanoCEM-0.0.1.5.tar.gz --markdown 20230705/n/nanoCEM/0.0.1.4-0.0.1.5/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/f9/ed/1e4625f290e24c1381aeeb66620b32755b17f2894a4227fb49fb20fa0ec9/vllm-0.1.2.tar.gz
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/af/5f/36506316832b64bd09f2db8a85208208e5d1d36b866a9b83b3bf26993e80/odoo14_addon_rma_sale-14.0.2.3.1.dev9-py3-none-any.whl
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/c2/07/339470c5901da506b8003ae1c4ce2977880011325e58d90a15ccd12f4f57/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/ca/fe/9cbae03fbe3e9fdac92daa5c23d580e57021e0e8c4befeccd14fcec5c665/odoo_addon_rma_sale-15.0.1.1.0.9-py3-none-any.whl
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/f9/9b/23ecb9fbb7a6da74409255c802ad2e3e9bab955954232cffbb4181794938/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl
+[2023-07-05 06:53:39] INFO root fetch - processPackages [vllm]: executing diffoscope
+[2023-07-05 06:53:39] INFO root fetch - processPackages [vllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm-0.1.1.tar.gz tmp/vllm-0.1.2.tar.gz --markdown 20230705/v/vllm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: executing diffoscope
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo14-addon-rma-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma_sale-14.0.2.3.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_rma_sale-14.0.2.3.1.dev9-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-rma-sale/14.0.2.3.1.dev8-14.0.2.3.1.dev9/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo-addon-rma-sale]: executing diffoscope
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo-addon-rma-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma_sale-15.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_rma_sale-15.0.1.1.0.9-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-rma-sale/15.0.1.1.0.8-15.0.1.1.0.9/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-rma/15.0.1.1.3.7-15.0.1.1.3.9/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-07-05 06:53:39] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip --markdown 20230705/o/odoo14-addon-rma/14.0.3.2.7.dev7-14.0.3.2.7.dev9/diff.md --exclude *.pyd
+[2023-07-05 06:53:39] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-07-05 06:53:39] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-07-05 06:53:39] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-07-05 06:53:40] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.4.tar.gz]
+[2023-07-05 06:53:40] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.5.tar.gz]
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_sale-14.0.2.3.1.dev8-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo14-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma_sale-14.0.2.3.1.dev9-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma-sale]: success
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale-15.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo-addon-rma-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma_sale-15.0.1.1.0.9-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma-sale]: success
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.7-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-15.0.1.1.3.9-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev7-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.7.dev9-py3-none-any.whl.zip]
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-07-05 06:53:40] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.1.tar.gz]
+[2023-07-05 06:53:40] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.2.tar.gz]
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [vllm]: success
+[2023-07-05 06:53:40] INFO root fetch - main [MainThread]: Store serial: [18762936]
