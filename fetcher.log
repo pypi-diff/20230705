@@ -13737,3 +13737,95 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:49:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-05 11:49:48] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-05 11:49:48] INFO root fetch - main [MainThread]: Store serial: [18765393]
+[2023-07-05 11:54:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765393]
+[2023-07-05 11:54:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-yunqing
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mode-behave
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: speech-collator
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EModelRunner
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udps
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dithering
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huggingface-hub
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-bvk
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbcat
+[2023-07-05 11:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DataPipelineExecutor
+[2023-07-05 11:54:57] INFO root fetch - processPackages [mode-behave]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [dithering]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [EModelRunner]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [udps]: New version: [0.1.20] Old Version: [0.1.19]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [speech-collator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 11:54:57] WARNING root fetch - processPackages [DataPipelineExecutor]: Skipping, unable to determine old version
+[2023-07-05 11:54:57] INFO root fetch - processPackages [DataPipelineExecutor]: Start processing: certora-cli-alpha-master
+[2023-07-05 11:54:57] INFO root fetch - main [MainThread]: End processing [DataPipelineExecutor] error
+[2023-07-05 11:54:57] INFO root fetch - processPackages [antchain-yunqing]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [huggingface-hub]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [python-bvk]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [dbcat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230705.9.16.987799] Old Version: [20230704.9.10.71691]
+[2023-07-05 11:54:57] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/7a/8e/42639bddbc88b6d6e68c9a3228f2d77a0c16698b29d5c77a04cd566311cb/dithering-0.1.12.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/f9/a4/349d7a91853a0ead03fafab1d6fee405085858bdb0911f8dce640ca538ce/speech_collator-0.1.8.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [antchain-yunqing]: Downloading https://files.pythonhosted.org/packages/7c/a8/d0dbd61c2254d5bfe12cb357a1d8680d87a61f95e06c44040d141ba4726f/antchain_yunqing-4.0.5.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/18/22/396f7b9147571df8656841321b502255d5c918c485460fb0f61bd9bc4c10/huggingface_hub-0.9.0rc3.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [mode-behave]: Downloading https://files.pythonhosted.org/packages/aa/41/a8b58feeaf973c412719a9909909687dc455b2a4db6e7537ea14abfb627d/mode_behave-1.0.8.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/76/78/8b2de5684ed11ccb0fa63fd7521676d5035c8ae616ff193d538070da3833/certora-cli-alpha-master-20230704.9.10.71691.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/9d/72/a73be0059677ac21267b7e278445669d1dbbf87faf6df1937edee503f97f/EModelRunner-1.1.8.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/e1/c1/d87dc4125d50460ebf35ac769ff20a61bdf2435287cdcb05c83fb9270f49/udps-0.1.19.tar.gz
+[2023-07-05 11:54:57] INFO root fetch - processPackages [python-bvk]: Downloading https://files.pythonhosted.org/packages/11/8d/b7e9e8a9fd5cd09dce183082793ce26d86aecbd2e78fb3bb4dee281be978/python-bvk-0.2.0.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dbcat]: Downloading https://files.pythonhosted.org/packages/f1/ae/fa192ff75a12987e6e5f65d41d67c8c0d5fc78d5fbaff9d6559bfc6a6a29/dbcat-0.8.3.tar.gz
+[2023-07-05 11:54:58] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 40642823>=10485760
+[2023-07-05 11:54:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/a6/d8/83d10117ce37df71be695bb49121aaf812173ff4776c627f5892589539a2/dithering-0.1.13.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [speech-collator]: Downloading https://files.pythonhosted.org/packages/18/27/fbb01f45afd2b0552d6465d8c14c2152df6bafce27c3646e68863232584a/speech_collator-0.1.9.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [antchain-yunqing]: Downloading https://files.pythonhosted.org/packages/d6/33/5bef18be0006f554ad8bd6d2a900b6cc57b8e9c35db17321430c810c99e8/antchain_yunqing-4.0.6.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/f2/ba/09da7dd3a60abdba0bdab4391adf26bf74ee3d13ee431cd6edd9c842da05/huggingface_hub-0.9.1.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.12.tar.gz tmp/dithering-0.1.13.tar.gz --markdown 20230705/d/dithering/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [antchain-yunqing]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [antchain-yunqing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_yunqing-4.0.5.tar.gz tmp/antchain_yunqing-4.0.6.tar.gz --markdown 20230705/a/antchain-yunqing/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [speech-collator]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [speech-collator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speech_collator-0.1.8.tar.gz tmp/speech_collator-0.1.9.tar.gz --markdown 20230705/s/speech-collator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/17/83/5086b5bed4256b66f75988497b4b4e3a11fc1e02a7178d3c939a1b9140b4/udps-0.1.20.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [python-bvk]: Downloading https://files.pythonhosted.org/packages/4e/77/f1a4dfe074fd2e2e34910e3d2f83e4cbf2f2c46c9f180c4151371a858564/python-bvk-0.2.1.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dbcat]: Downloading https://files.pythonhosted.org/packages/ca/9e/740406c6bf41ab2c5dc2c9c1d5c85eecbd1a09afdfe5f46f6ba93eb8916c/dbcat-0.9.0.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [mode-behave]: Downloading https://files.pythonhosted.org/packages/6a/7b/b16bc245040b067f2ae4a8bfa56a5a8ed83233efa0fd3db85facc4711ebe/mode_behave-1.0.9.tar.gz
+[2023-07-05 11:54:58] INFO root fetch - processPackages [python-bvk]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [python-bvk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bvk-0.2.0.tar.gz tmp/python-bvk-0.2.1.tar.gz --markdown 20230705/p/python-bvk/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [udps]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [udps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udps-0.1.19.tar.gz tmp/udps-0.1.20.tar.gz --markdown 20230705/u/udps/0.1.19-0.1.20/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dbcat]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [dbcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbcat-0.8.3.tar.gz tmp/dbcat-0.9.0.tar.gz --markdown 20230705/d/dbcat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [mode-behave]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [mode-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mode_behave-1.0.8.tar.gz tmp/mode_behave-1.0.9.tar.gz --markdown 20230705/m/mode-behave/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [huggingface-hub]: executing diffoscope
+[2023-07-05 11:54:58] INFO root fetch - processPackages [huggingface-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_hub-0.9.0rc3.tar.gz tmp/huggingface_hub-0.9.1.tar.gz --markdown 20230705/h/huggingface-hub/0.9.0rc3-0.9.1/diff.md --exclude *.pyd
+[2023-07-05 11:54:58] INFO root fetch - processPackages [EModelRunner]: Downloading https://files.pythonhosted.org/packages/51/8c/e29428db1a20fbe7eac5b359049ce5d16626028aa41be0f4b1f92ebfa124/EModelRunner-1.1.9.tar.gz
+[2023-07-05 11:54:59] INFO root fetch - processPackages [EModelRunner]: executing diffoscope
+[2023-07-05 11:54:59] INFO root fetch - processPackages [EModelRunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EModelRunner-1.1.8.tar.gz tmp/EModelRunner-1.1.9.tar.gz --markdown 20230705/E/EModelRunner/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-05 11:54:59] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.12.tar.gz]
+[2023-07-05 11:54:59] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.13.tar.gz]
+[2023-07-05 11:54:59] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-05 11:54:59] INFO root fetch - processPackages [antchain-yunqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yunqing-4.0.5.tar.gz]
+[2023-07-05 11:54:59] INFO root fetch - processPackages [antchain-yunqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yunqing-4.0.6.tar.gz]
+[2023-07-05 11:54:59] INFO root fetch - main [MainThread]: End processing [antchain-yunqing]: success
+[2023-07-05 11:55:00] INFO root fetch - processPackages [python-bvk]: Remove: archive file [/home/abi/fetcher/tmp/python-bvk-0.2.0.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - processPackages [python-bvk]: Remove: archive file [/home/abi/fetcher/tmp/python-bvk-0.2.1.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - main [MainThread]: End processing [python-bvk]: success
+[2023-07-05 11:55:00] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.8.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - processPackages [speech-collator]: Remove: archive file [/home/abi/fetcher/tmp/speech_collator-0.1.9.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - main [MainThread]: End processing [speech-collator]: success
+[2023-07-05 11:55:00] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.0rc3.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.1.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - main [MainThread]: End processing [huggingface-hub]: success
+[2023-07-05 11:55:00] INFO root fetch - processPackages [dbcat]: Remove: archive file [/home/abi/fetcher/tmp/dbcat-0.8.3.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - processPackages [dbcat]: Remove: archive file [/home/abi/fetcher/tmp/dbcat-0.9.0.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - main [MainThread]: End processing [dbcat]: success
+[2023-07-05 11:55:00] INFO root fetch - processPackages [mode-behave]: Remove: archive file [/home/abi/fetcher/tmp/mode_behave-1.0.8.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - processPackages [mode-behave]: Remove: archive file [/home/abi/fetcher/tmp/mode_behave-1.0.9.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - main [MainThread]: End processing [mode-behave]: success
+[2023-07-05 11:55:00] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.19.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.20.tar.gz]
+[2023-07-05 11:55:00] INFO root fetch - main [MainThread]: End processing [udps]: success
+[2023-07-05 11:55:01] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.8.tar.gz]
+[2023-07-05 11:55:01] INFO root fetch - processPackages [EModelRunner]: Remove: archive file [/home/abi/fetcher/tmp/EModelRunner-1.1.9.tar.gz]
+[2023-07-05 11:55:01] INFO root fetch - main [MainThread]: End processing [EModelRunner]: success
+[2023-07-05 11:55:01] INFO root fetch - main [MainThread]: Store serial: [18765499]
