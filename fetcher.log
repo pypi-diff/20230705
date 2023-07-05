@@ -10103,3 +10103,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 09:05:10] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.2.3.tar.gz]
 [2023-07-05 09:05:10] INFO root fetch - main [MainThread]: End processing [edsteva]: success
 [2023-07-05 09:05:10] INFO root fetch - main [MainThread]: Store serial: [18763639]
+[2023-07-05 09:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763639]
+[2023-07-05 09:10:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nebula-dgl
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LinuxRecycle
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandit
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: p-template-generator
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-hub-nightly
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberdrop-dl
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kero
+[2023-07-05 09:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-cloudauth-intl20220809
+[2023-07-05 09:10:19] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [pandit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [LinuxRecycle]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [nebula-dgl]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [kero]: New version: [0.0.0.post2] Old Version: [0.0.0.post1]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-05 09:10:19] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-05 09:10:19] INFO root fetch - processPackages [pandit]: Downloading https://files.pythonhosted.org/packages/a3/97/e4af6869987b458713d0e728dc42e883a059a76d6c8f37293c9b3b20f547/pandit-0.0.8.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [nebula-dgl]: Downloading https://files.pythonhosted.org/packages/73/0c/c746340f9adc313fdd77c8c714f4ab64a68c9b59a14cb0b1fbbd31ecb537/nebula-dgl-0.1.1.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [LinuxRecycle]: Downloading https://files.pythonhosted.org/packages/d5/69/1a89ff89b20b9099f7883d63e9bdeae6aac3586f65ed246918988da4092c/LinuxRecycle-1.9.3.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/37/35/259c3aa555207e4d91b23968971272c6ea56a80fc524d28cbb85ce6eb7f7/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/1c/df/a08a0d4221d9beca0d5fd6dda646c3a07951f26d77714cafa8a7c4b9c5cc/p-template-generator-0.1.8.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [kero]: Downloading https://files.pythonhosted.org/packages/c3/45/3a7574fe11b90720bda799029d503da068aad44f9f7bab4673f4084a7391/kero-0.0.0.post1.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-05 09:10:19] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-05 09:10:20] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230705/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-05 09:10:20] INFO root fetch - processPackages [pandit]: Downloading https://files.pythonhosted.org/packages/86/cc/3449e4b017ccc9c6d942aabc9f38d585e3cb0852db64ac261f2ffd600fa9/pandit-0.0.9.tar.gz
+[2023-07-05 09:10:20] INFO root fetch - processPackages [nebula-dgl]: Downloading https://files.pythonhosted.org/packages/3e/7e/fb4a92a238db03f2bedb15e14cfcc6a9931ea3e4b894be7428cee2118790/nebula-dgl-0.1.2.tar.gz
+[2023-07-05 09:10:20] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-05 09:10:20] INFO root fetch - processPackages [LinuxRecycle]: Downloading https://files.pythonhosted.org/packages/1d/1e/4958264c571f7889e4b714c20af19ff67dde08669a87f9094eba769ca93f/LinuxRecycle-1.9.4.tar.gz
+[2023-07-05 09:10:20] INFO root fetch - processPackages [pandit]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [pandit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandit-0.0.8.tar.gz tmp/pandit-0.0.9.tar.gz --markdown 20230705/p/pandit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:10:20] INFO root fetch - processPackages [kero]: Downloading https://files.pythonhosted.org/packages/e0/34/d95a8a37d07345021dd2d6bb8fe725f20dddd13878d72de319266515bf9c/kero-0.0.0.post2.tar.gz
+[2023-07-05 09:10:20] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Downloading https://files.pythonhosted.org/packages/ad/36/84c60dbc4bd71732b1f42a730f927c0bebb5c4901567505c35110c65639f/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz
+[2023-07-05 09:10:20] INFO root fetch - processPackages [nebula-dgl]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [nebula-dgl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebula-dgl-0.1.1.tar.gz tmp/nebula-dgl-0.1.2.tar.gz --markdown 20230705/n/nebula-dgl/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 09:10:20] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230705/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-05 09:10:20] INFO root fetch - processPackages [LinuxRecycle]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [LinuxRecycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinuxRecycle-1.9.3.tar.gz tmp/LinuxRecycle-1.9.4.tar.gz --markdown 20230705/L/LinuxRecycle/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-05 09:10:20] INFO root fetch - processPackages [kero]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [kero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kero-0.0.0.post1.tar.gz tmp/kero-0.0.0.post2.tar.gz --markdown 20230705/k/kero/0.0.0.post1-0.0.0.post2/diff.md --exclude *.pyd
+[2023-07-05 09:10:20] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: executing diffoscope
+[2023-07-05 09:10:20] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz --markdown 20230705/a/alibabacloud-cloudauth-intl20220809/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:10:21] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-05 09:10:21] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/4d/c6/b1ba9d57550b94b120e03283c8ce61d054c3f089aed5ef88f169c30f97d8/p-template-generator-0.1.9.tar.gz
+[2023-07-05 09:10:21] INFO root fetch - processPackages [nebula-dgl]: Remove: archive file [/home/abi/fetcher/tmp/nebula-dgl-0.1.1.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [nebula-dgl]: Remove: archive file [/home/abi/fetcher/tmp/nebula-dgl-0.1.2.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [nebula-dgl]: success
+[2023-07-05 09:10:21] INFO root fetch - processPackages [LinuxRecycle]: Remove: archive file [/home/abi/fetcher/tmp/LinuxRecycle-1.9.3.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [LinuxRecycle]: Remove: archive file [/home/abi/fetcher/tmp/LinuxRecycle-1.9.4.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [LinuxRecycle]: success
+[2023-07-05 09:10:21] INFO root fetch - processPackages [pandit]: Remove: archive file [/home/abi/fetcher/tmp/pandit-0.0.8.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [pandit]: Remove: archive file [/home/abi/fetcher/tmp/pandit-0.0.9.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [pandit]: success
+[2023-07-05 09:10:21] INFO root fetch - processPackages [kero]: Remove: archive file [/home/abi/fetcher/tmp/kero-0.0.0.post1.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [kero]: Remove: archive file [/home/abi/fetcher/tmp/kero-0.0.0.post2.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [kero]: success
+[2023-07-05 09:10:21] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.8.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [alibabacloud-cloudauth-intl20220809]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudauth-intl20220809-1.0.9.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudauth-intl20220809]: success
+[2023-07-05 09:10:21] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-05 09:10:21] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-05 09:10:22] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-07-05 09:10:22] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230705/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 09:10:23] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.8.tar.gz]
+[2023-07-05 09:10:23] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.9.tar.gz]
+[2023-07-05 09:10:23] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-07-05 09:10:23] INFO root fetch - main [MainThread]: Store serial: [18763662]
