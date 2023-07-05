@@ -15161,3 +15161,96 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:59:04] INFO root fetch - processPackages [parsec-cloud]: Remove: archive file [/home/abi/fetcher/tmp/parsec_cloud-2.9.2-py3-none-any.whl.zip]
 [2023-07-05 12:59:04] INFO root fetch - main [MainThread]: End processing [parsec-cloud]: success
 [2023-07-05 12:59:04] INFO root fetch - main [MainThread]: Store serial: [18766056]
+[2023-07-05 13:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766056]
+[2023-07-05 13:04:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-magnet-data
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p-template-generator
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steamship
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bytecodemanipulation
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talk-codebase
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roger-cli
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: web3py-ext
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyNNRW
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meta-example
+[2023-07-05 13:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-05 13:04:15] INFO root fetch - processPackages [django-magnet-data]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [meta-example]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [bytecodemanipulation]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [meta-example]: Downloading https://files.pythonhosted.org/packages/84/0a/4838a5a55742fe1e55d525a18bef431a2aa33f33d314d5f6da3320397c11/meta_example-0.0.1.tar.gz
+[2023-07-05 13:04:15] WARNING root fetch - processPackages [web3py-ext]: Skipping, unable to determine old version
+[2023-07-05 13:04:15] INFO root fetch - processPackages [web3py-ext]: Start processing: iman
+[2023-07-05 13:04:15] INFO root fetch - main [MainThread]: End processing [web3py-ext] error
+[2023-07-05 13:04:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.28.0.dev20230704] Old Version: [1.28.0.dev20230703]
+[2023-07-05 13:04:15] INFO root fetch - processPackages [pyNNRW]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-05 13:04:15] WARNING root fetch - processPackages [roger-cli]: Skipping, unable to determine old version
+[2023-07-05 13:04:15] INFO root fetch - processPackages [roger-cli]: Start processing: pyloidal
+[2023-07-05 13:04:15] INFO root fetch - main [MainThread]: End processing [roger-cli] error
+[2023-07-05 13:04:15] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/1c/df/a08a0d4221d9beca0d5fd6dda646c3a07951f26d77714cafa8a7c4b9c5cc/p-template-generator-0.1.8.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/d5/9d/2e877493befc03aade673fa8cbf159f77955b8658f16d4b0e16ad0ab106f/steamship-2.3.8.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [django-magnet-data]: Downloading https://files.pythonhosted.org/packages/94/78/58180cf0f36efad9f31933ebe7f1a8106f9847cb9f6eef4d614295efee3a/django-magnet-data-1.1.7.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/28/a4/aa98101a41429ef8a879415dc55406cf6f9a73bf2280e83151ba08cb2d58/bytecodemanipulation-0.3.3.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 13:04:15] WARNING root fetch - processPackages [pyloidal]: Skipping, unable to determine old version
+[2023-07-05 13:04:15] INFO root fetch - main [MainThread]: End processing [pyloidal] error
+[2023-07-05 13:04:15] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/6c/89/bd17f2772a50e719c4d807feb07e3cc402b983dccc64a5b44930889b2fea/talk_codebase-0.1.41.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [meta-example]: Downloading https://files.pythonhosted.org/packages/ed/e0/64a287ae4772712bdf11eb5b8f7785043aa0e1bb9b680ecf732230d49421/meta-example-0.0.4.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/52/9f/f6acaebbb19380b7f221261042814b4383d15850235c8e3f2b8903d24394/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230703.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [pyNNRW]: Downloading https://files.pythonhosted.org/packages/05/d0/b646ff808706d0faef23d9c0dcca9eb316d8f4388b73ff33d0c46c37a23b/pyNNRW-0.3.3.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/4d/c6/b1ba9d57550b94b120e03283c8ce61d054c3f089aed5ef88f169c30f97d8/p-template-generator-0.1.9.tar.gz
+[2023-07-05 13:04:15] INFO root fetch - processPackages [meta-example]: executing diffoscope
+[2023-07-05 13:04:15] INFO root fetch - processPackages [meta-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_example-0.0.1.tar.gz tmp/meta-example-0.0.4.tar.gz --markdown 20230705/m/meta-example/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 13:04:15] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/a8/79/5ec52b959a24b35cdb3cd5b4ac8f6b8636717bba6921a761a2e96991c7d5/iman-0.0.8.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.8.tar.gz tmp/p-template-generator-0.1.9.tar.gz --markdown 20230705/p/p-template-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/7a/28/682f06692e3987a0829be620821e3da01a11b9de002611fa482e9878da42/talk_codebase-0.1.42.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/73/fa/b0a023d7dec2c07980ba172d27e4566bdd6bca8635eb37fe217d9eef96d5/bytecodemanipulation-0.3.4.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [django-magnet-data]: Downloading https://files.pythonhosted.org/packages/35/ef/4531755281b9999a5d6fe4ba95a7a8f3379c106f0ec49f693de553c1cd43/django-magnet-data-1.1.8.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [pyNNRW]: Downloading https://files.pythonhosted.org/packages/d5/89/4f529f5ed6c512856618e32fe4db932dffc424c63880fa51258e760ee053/pyNNRW-0.3.4.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/f9/7b/f79bcb935815876720b0c6f2853fbeed684b473df7889d3fb3ec613c418d/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230704.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.41.tar.gz tmp/talk_codebase-0.1.42.tar.gz --markdown 20230705/t/talk-codebase/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [django-magnet-data]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [django-magnet-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-magnet-data-1.1.7.tar.gz tmp/django-magnet-data-1.1.8.tar.gz --markdown 20230705/d/django-magnet-data/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [bytecodemanipulation]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [bytecodemanipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytecodemanipulation-0.3.3.tar.gz tmp/bytecodemanipulation-0.3.4.tar.gz --markdown 20230705/b/bytecodemanipulation/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [pyNNRW]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [pyNNRW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNNRW-0.3.3.tar.gz tmp/pyNNRW-0.3.4.tar.gz --markdown 20230705/p/pyNNRW/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230703.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230704.tar.gz --markdown 20230705/n/nvidia-dali-tf-plugin-nightly-cuda110/1.28.0.dev20230703-1.28.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.8.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230705/i/iman/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:04:16] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-07-05 13:04:16] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-07-05 13:04:16] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230705/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-05 13:04:17] INFO root fetch - processPackages [meta-example]: Remove: archive file [/home/abi/fetcher/tmp/meta_example-0.0.1.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - processPackages [meta-example]: Remove: archive file [/home/abi/fetcher/tmp/meta-example-0.0.4.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - main [MainThread]: End processing [meta-example]: success
+[2023-07-05 13:04:17] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.8.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.9.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2023-07-05 13:04:17] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.41.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.42.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-07-05 13:04:17] INFO root fetch - processPackages [django-magnet-data]: Remove: archive file [/home/abi/fetcher/tmp/django-magnet-data-1.1.7.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - processPackages [django-magnet-data]: Remove: archive file [/home/abi/fetcher/tmp/django-magnet-data-1.1.8.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - main [MainThread]: End processing [django-magnet-data]: success
+[2023-07-05 13:04:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230703.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230704.tar.gz]
+[2023-07-05 13:04:17] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-05 13:04:18] INFO root fetch - processPackages [pyNNRW]: Remove: archive file [/home/abi/fetcher/tmp/pyNNRW-0.3.3.tar.gz]
+[2023-07-05 13:04:18] INFO root fetch - processPackages [pyNNRW]: Remove: archive file [/home/abi/fetcher/tmp/pyNNRW-0.3.4.tar.gz]
+[2023-07-05 13:04:18] INFO root fetch - main [MainThread]: End processing [pyNNRW]: success
+[2023-07-05 13:04:18] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.8.tar.gz]
+[2023-07-05 13:04:18] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-05 13:04:18] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-05 13:04:18] INFO root fetch - processPackages [bytecodemanipulation]: Remove: archive file [/home/abi/fetcher/tmp/bytecodemanipulation-0.3.3.tar.gz]
+[2023-07-05 13:04:18] INFO root fetch - processPackages [bytecodemanipulation]: Remove: archive file [/home/abi/fetcher/tmp/bytecodemanipulation-0.3.4.tar.gz]
+[2023-07-05 13:04:18] INFO root fetch - main [MainThread]: End processing [bytecodemanipulation]: success
+[2023-07-05 13:04:19] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.8.tar.gz]
+[2023-07-05 13:04:19] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-07-05 13:04:19] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-07-05 13:04:19] INFO root fetch - main [MainThread]: Store serial: [18766093]
