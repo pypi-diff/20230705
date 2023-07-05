@@ -16791,3 +16791,145 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:02:46] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.166.0.tar.gz]
 [2023-07-05 14:02:46] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
 [2023-07-05 14:02:46] INFO root fetch - main [MainThread]: Store serial: [18766769]
+[2023-07-05 14:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766769]
+[2023-07-05 14:07:55] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyDrive2
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wedeliver-core-plus
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FiberFusing
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c3s-sm
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bilby-pipe
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flgo
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiorun
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naneos-devices
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-serving
+[2023-07-05 14:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optim-esm-tools
+[2023-07-05 14:07:55] INFO root fetch - processPackages [FiberFusing]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [naneos-devices]: New version: [0.5] Old Version: [0.4]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [aiorun]: New version: [2023.7.1] Old Version: [2022.4.1]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [PyDrive2]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [flgo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [c3s-sm]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/fd/de/0a088e4b5fb7a89d327af2b078e6d01aa176cf380f675445fb0c7fec51e2/FiberFusing-0.4.4-py3-none-any.whl
+[2023-07-05 14:07:55] INFO root fetch - processPackages [wedeliver-core-plus]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [bilby-pipe]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [optim-esm-tools]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/e7/a0/eef5bb85210894c6f2c73ec6f4cd827e9963f11080ae89a38f5f08954cfa/naneos_devices-0.4-py3-none-any.whl
+[2023-07-05 14:07:55] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-05 14:07:55] INFO root fetch - processPackages [aiorun]: Downloading https://files.pythonhosted.org/packages/7d/8f/e436a9c367eeeb01f26d0e22b4cca46976c65dceeed9b8e09ad0584fc9ef/aiorun-2022.4.1.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [PyDrive2]: Downloading https://files.pythonhosted.org/packages/eb/b9/e07f54bba950ec44275c054933c110ea64c33c1381f1ef220c3d282e4ed9/PyDrive2-1.9.3.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/d6/a1/2b6e7d316887a6a23703adbf92614de421a5d66bb58c35ad86d731be0bc5/flgo-0.0.3.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [c3s-sm]: Downloading https://files.pythonhosted.org/packages/df/eb/3d93c9901360afbd5497456a01c3929807cf2dffab01e1c77cc2f07ddf79/c3s_sm-0.1.2.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/ab/4e/df050e937895c67bef2ef9336908c4978202958211b78508ac9d3175a441/wedeliver_core_plus-0.0.7.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/ce/e6/c6eb974308d010ce9f59c681f04200493f706b9380d1e89cabe84a10b7a3/optim_esm_tools-0.2.2.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [bilby-pipe]: Downloading https://files.pythonhosted.org/packages/8b/5e/2623ab14ef63d46128aa25b6af14e134dc443990ac126ea9525f74e7ed92/bilby_pipe-1.1.1.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/88/09/7333e7a3cde738270709016f662b8e40d4d37ac4f98fcdb37a2a7e641878/bigdl_serving-2.4.0b20230704-py2.py3-none-any.whl
+[2023-07-05 14:07:56] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/f3/50/bc57c7585482e52f59645afb8151a64c83dfa1c02c948f0014f05c9e1dd9/naneos-devices-0.5.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/b3/77/acb32eacf725f6552727e3e8ef323f316ac8cbe659824042575defac810e/FiberFusing-0.4.5-py3-none-any.whl
+[2023-07-05 14:07:56] ERROR root fetch - processPackages [aiorun]: Unable to fetch info: No such project/version 'aiorun' 2023.7.1
+[2023-07-05 14:07:56] INFO root fetch - processPackages [aiorun]: Start processing: pyppbox-ultralytics
+[2023-07-05 14:07:56] INFO root fetch - main [MainThread]: End processing [aiorun] error
+[2023-07-05 14:07:56] WARNING root fetch - processPackages [bilby-pipe]: Skipping package: exceeds size limit 56524958>=10485760
+[2023-07-05 14:07:56] INFO root fetch - processPackages [bilby-pipe]: Start processing: pydantic-db-backend
+[2023-07-05 14:07:56] INFO root fetch - main [MainThread]: End processing [bilby-pipe] error
+[2023-07-05 14:07:56] INFO root fetch - processPackages [PyDrive2]: Downloading https://files.pythonhosted.org/packages/e9/aa/fc5e3df79063f8dd75dafb8a5310fa076354e98906dfc4b78cd812b16521/PyDrive2-1.9.4.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [flgo]: Downloading https://files.pythonhosted.org/packages/e6/ee/3bf09e02d963e1fe9cbbec878c615000f37e0b0cd663682a067ce316f4bb/flgo-0.0.4.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [naneos-devices]: executing diffoscope
+[2023-07-05 14:07:56] INFO root fetch - processPackages [naneos-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naneos_devices-0.4-py3-none-any.whl.zip tmp/naneos-devices-0.5.tar.gz --markdown 20230705/n/naneos-devices/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-05 14:07:56] INFO root fetch - processPackages [pyppbox-ultralytics]: New version: [8.0.126] Old Version: [8.0.124.post1]
+[2023-07-05 14:07:56] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2023-07-05 14:07:56] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-0.4.4-py3-none-any.whl.zip tmp/FiberFusing-0.4.5-py3-none-any.whl.zip --markdown 20230705/F/FiberFusing/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-05 14:07:56] INFO root fetch - processPackages [pydantic-db-backend]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-05 14:07:56] INFO root fetch - processPackages [flgo]: executing diffoscope
+[2023-07-05 14:07:56] INFO root fetch - processPackages [flgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flgo-0.0.3.tar.gz tmp/flgo-0.0.4.tar.gz --markdown 20230705/f/flgo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 14:07:56] INFO root fetch - processPackages [c3s-sm]: Downloading https://files.pythonhosted.org/packages/9b/d1/18e8225e63a4be19853b6e743f913db18565197a1b817d1d6929f841cab5/c3s_sm-0.2.0.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/8e/d3/9c1ad5849ffff9baed62b8f1e128385225e58ccd53ca4e5d44c6293668a9/bigdl_serving-2.4.0b20230705-py2.py3-none-any.whl
+[2023-07-05 14:07:56] INFO root fetch - processPackages [wedeliver-core-plus]: Downloading https://files.pythonhosted.org/packages/aa/d4/97183506391cd85228714631c7d3f83a8ef5b7317e7b862b5373d4d3714c/wedeliver_core_plus-0.0.8.tar.gz
+[2023-07-05 14:07:56] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/d8/5e/abe8264c88331834c7bbc729216848e95dd737f648b2c59d90c7b3fae365/pyppbox_ultralytics-8.0.124.post1-py3-none-any.whl
+[2023-07-05 14:07:56] INFO root fetch - processPackages [PyDrive2]: executing diffoscope
+[2023-07-05 14:07:56] INFO root fetch - processPackages [PyDrive2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDrive2-1.9.3.tar.gz tmp/PyDrive2-1.9.4.tar.gz --markdown 20230705/P/PyDrive2/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-05 14:07:57] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230704-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230705-py2.py3-none-any.whl.zip --markdown 20230705/b/bigdl-serving/2.4.0b20230704-2.4.0b20230705/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/6b/5a/7dd5e7dae6994cae8faf84418d4fa5a385c8788a21493b109e1bda195eed/optim_esm_tools-0.3.0.tar.gz
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/43/3c/85d5cd6f590a38c84da3156ef0640c4b5a3f027e826c324ed507f7b7f503/pydantic_db_backend-0.4.3.tar.gz
+[2023-07-05 14:07:57] INFO root fetch - processPackages [wedeliver-core-plus]: executing diffoscope
+[2023-07-05 14:07:57] INFO root fetch - processPackages [wedeliver-core-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedeliver_core_plus-0.0.7.tar.gz tmp/wedeliver_core_plus-0.0.8.tar.gz --markdown 20230705/w/wedeliver-core-plus/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [c3s-sm]: executing diffoscope
+[2023-07-05 14:07:57] INFO root fetch - processPackages [c3s-sm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c3s_sm-0.1.2.tar.gz tmp/c3s_sm-0.2.0.tar.gz --markdown 20230705/c/c3s-sm/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [optim-esm-tools]: executing diffoscope
+[2023-07-05 14:07:57] INFO root fetch - processPackages [optim-esm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optim_esm_tools-0.2.2.tar.gz tmp/optim_esm_tools-0.3.0.tar.gz --markdown 20230705/o/optim-esm-tools/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/73/e6/af035611e3463e9e1d5ce59e2fd1f8582c460a9bfb736537a117a6691a3f/pyppbox_ultralytics-8.0.126-py3-none-any.whl
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pydantic-db-backend]: Downloading https://files.pythonhosted.org/packages/ff/26/398731c6ecda497b79e4998ed5d4ed78a4382ba9d5f3dcac16d3aa7970ce/pydantic_db_backend-0.4.4.tar.gz
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pyppbox-ultralytics]: executing diffoscope
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pyppbox-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox_ultralytics-8.0.124.post1-py3-none-any.whl.zip tmp/pyppbox_ultralytics-8.0.126-py3-none-any.whl.zip --markdown 20230705/p/pyppbox-ultralytics/8.0.124.post1-8.0.126/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pydantic-db-backend]: executing diffoscope
+[2023-07-05 14:07:57] INFO root fetch - processPackages [pydantic-db-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_db_backend-0.4.3.tar.gz tmp/pydantic_db_backend-0.4.4.tar.gz --markdown 20230705/p/pydantic-db-backend/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-05 14:07:57] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-0.4-py3-none-any.whl.zip]
+[2023-07-05 14:07:57] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos-devices-0.5.tar.gz]
+[2023-07-05 14:07:57] INFO root fetch - processPackages [naneos-devices]: Start processing: odoo-addon-account-asset-management
+[2023-07-05 14:07:57] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
+[2023-07-05 14:07:57] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.1]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/1c/32/d67990bd7c07adc83d3e4d96940bd3fd441cb45e6ff5d09640fd441b4cd7/odoo_addon_account_asset_management-16.0.1.0.1.1-py3-none-any.whl
+[2023-07-05 14:07:58] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/43/0b/3981b915b65eeeaa87f34672569944abbede7574ec3933e280777e1e0b9e/odoo_addon_account_asset_management-16.0.1.0.2-py3-none-any.whl
+[2023-07-05 14:07:58] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2023-07-05 14:07:58] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.0.2-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-account-asset-management/16.0.1.0.1.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2023-07-05 14:07:58] INFO root fetch - processPackages [PyDrive2]: Remove: archive file [/home/abi/fetcher/tmp/PyDrive2-1.9.3.tar.gz]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [PyDrive2]: Remove: archive file [/home/abi/fetcher/tmp/PyDrive2-1.9.4.tar.gz]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [PyDrive2]: Start processing: fasthep
+[2023-07-05 14:07:58] INFO root fetch - main [MainThread]: End processing [PyDrive2]: success
+[2023-07-05 14:07:58] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230704-py2.py3-none-any.whl.zip]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230705-py2.py3-none-any.whl.zip]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [bigdl-serving]: Start processing: irene-pro
+[2023-07-05 14:07:58] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-05 14:07:58] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.4-py3-none-any.whl.zip]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.5-py3-none-any.whl.zip]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [FiberFusing]: Start processing: renumics-spotlight
+[2023-07-05 14:07:58] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2023-07-05 14:07:58] WARNING root fetch - processPackages [fasthep]: Skipping, unable to determine old version
+[2023-07-05 14:07:58] INFO root fetch - processPackages [fasthep]: Start processing: tf-agents-nightly
+[2023-07-05 14:07:58] INFO root fetch - main [MainThread]: End processing [fasthep] error
+[2023-07-05 14:07:58] INFO root fetch - processPackages [irene-pro]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.3.tar.gz]
+[2023-07-05 14:07:58] INFO root fetch - processPackages [flgo]: Remove: archive file [/home/abi/fetcher/tmp/flgo-0.0.4.tar.gz]
+[2023-07-05 14:07:58] INFO root fetch - main [MainThread]: End processing [flgo]: success
+[2023-07-05 14:07:58] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-07-05 14:07:59] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.3.0rc2] Old Version: [1.3.0rc1]
+[2023-07-05 14:07:59] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-0.2.2.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-0.3.0.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - main [MainThread]: End processing [optim-esm-tools]: success
+[2023-07-05 14:07:59] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-07-05 14:07:59] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/93/d0/461efb704bada2e1f461e88eb938b958afe7e607c1cf2092221270d0775e/irene_pro-0.0.80.tar.gz
+[2023-07-05 14:07:59] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.7.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - processPackages [wedeliver-core-plus]: Remove: archive file [/home/abi/fetcher/tmp/wedeliver_core_plus-0.0.8.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - main [MainThread]: End processing [wedeliver-core-plus]: success
+[2023-07-05 14:07:59] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/45/e0/f6f54e70f54fbabdc02a8f3abacda8ba9184645a19a0ab87993dd14087d8/renumics_spotlight-1.3.0rc1-py3-none-any.whl
+[2023-07-05 14:07:59] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.4.3.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - processPackages [pydantic-db-backend]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_db_backend-0.4.4.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - main [MainThread]: End processing [pydantic-db-backend]: success
+[2023-07-05 14:07:59] INFO root fetch - processPackages [c3s-sm]: Remove: archive file [/home/abi/fetcher/tmp/c3s_sm-0.1.2.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - processPackages [c3s-sm]: Remove: archive file [/home/abi/fetcher/tmp/c3s_sm-0.2.0.tar.gz]
+[2023-07-05 14:07:59] INFO root fetch - main [MainThread]: End processing [c3s-sm]: success
+[2023-07-05 14:07:59] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-07-05 14:07:59] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/05/d9/661fb759266b4723109404513bbe49d57cf920f64ae0c30295c018ff3b30/irene_pro-0.0.81.tar.gz
+[2023-07-05 14:07:59] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-07-05 14:07:59] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230705/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-07-05 14:07:59] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-05 14:07:59] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.80.tar.gz tmp/irene_pro-0.0.81.tar.gz --markdown 20230705/i/irene-pro/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-07-05 14:07:59] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/73/e3/5e5b7f45189189e5bbafb1c40077f455ac085fdabf1cd94a5a5198f9e87c/renumics_spotlight-1.3.0rc2-py3-none-any.whl
+[2023-07-05 14:08:00] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox_ultralytics-8.0.124.post1-py3-none-any.whl.zip]
+[2023-07-05 14:08:00] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox_ultralytics-8.0.126-py3-none-any.whl.zip]
+[2023-07-05 14:08:00] INFO root fetch - main [MainThread]: End processing [pyppbox-ultralytics]: success
+[2023-07-05 14:08:00] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-07-05 14:08:00] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.3.0rc1-py3-none-any.whl.zip tmp/renumics_spotlight-1.3.0rc2-py3-none-any.whl.zip --markdown 20230705/r/renumics-spotlight/1.3.0rc1-1.3.0rc2/diff.md --exclude *.pyd
+[2023-07-05 14:08:00] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-07-05 14:08:00] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-05 14:08:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2023-07-05 14:08:00] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.80.tar.gz]
+[2023-07-05 14:08:00] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.81.tar.gz]
+[2023-07-05 14:08:00] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-05 14:08:02] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-07-05 14:08:02] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-07-05 14:08:02] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-07-05 14:08:27] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc1-py3-none-any.whl.zip]
+[2023-07-05 14:08:27] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc2-py3-none-any.whl.zip]
+[2023-07-05 14:08:27] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-07-05 14:08:27] INFO root fetch - main [MainThread]: Store serial: [18766819]
