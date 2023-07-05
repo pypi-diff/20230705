@@ -1618,3 +1618,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 01:56:52] INFO root fetch - processPackages [ApiLogicServer]: Remove: archive file [/home/abi/fetcher/tmp/ApiLogicServer-9.1.0-py3-none-any.whl.zip]
 [2023-07-05 01:56:52] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
 [2023-07-05 01:56:52] INFO root fetch - main [MainThread]: Store serial: [18760557]
+[2023-07-05 02:01:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760557]
+[2023-07-05 02:02:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ApiLogicServer
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prom
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-spellchecker
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lekko_client
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testless-textanalyzer
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testless-textanalyzer
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datatypes
+[2023-07-05 02:02:02] INFO root fetch - processPackages [jupyterlab-spellchecker]: New version: [0.8.2] Old Version: [0.8.0]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [prom]: New version: [4.7.0] Old Version: [4.5.1]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [testless-textanalyzer]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [testless-textanalyzer]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ApiLogicServer]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [datatypes]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [lekko_client]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-05 02:02:02] INFO root fetch - processPackages [jupyterlab-spellchecker]: Downloading https://files.pythonhosted.org/packages/2c/88/f2c92ff3c9bede5fd32a09194122e9ce039833e6970201bc5b7ac9ef5170/jupyterlab_spellchecker-0.8.0.tar.gz
+[2023-07-05 02:02:02] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/9d/cc/22c7e22b9a63d23d8556cc0161cbcb2af6aaedff91094f309739c2f466ac/testless_textanalyzer-0.1.6.tar.gz
+[2023-07-05 02:02:02] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/9d/cc/22c7e22b9a63d23d8556cc0161cbcb2af6aaedff91094f309739c2f466ac/testless_textanalyzer-0.1.6.tar.gz
+[2023-07-05 02:02:02] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/94/9f/be4a6aa947d880b33c98b513df7b2031dc021ab3cc3c8a410419a19633fc/prom-4.5.1.tar.gz
+[2023-07-05 02:02:02] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/1a/7e/33ae6b439b8db3d87d6bff22b7b0a426dc6416afd303e73016270728bab1/ApiLogicServer-9.0.0.tar.gz
+[2023-07-05 02:02:02] INFO root fetch - processPackages [lekko_client]: Downloading https://files.pythonhosted.org/packages/b1/18/82d52d42c1ee8e224c3cc6f70abd2b13c69b79c6f6c893f9a326d7e2a007/lekko_client-0.1.2.tar.gz
+[2023-07-05 02:02:02] INFO root fetch - processPackages [datatypes]: Downloading https://files.pythonhosted.org/packages/ce/64/8898870e12c2de1f1443c37064e8578b68ce77a599516d11f74f3e9743a3/datatypes-0.9.4.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/02/80/4325be4472092178328d3f9717cae3f3b258b0bfd2850bd375c48c5d92eb/prom-4.7.0.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/36/9a/4a6376e0949fdd3709240f5bb6219fb4b43ef122e02814b321bef1d9f9ad/testless_textanalyzer-0.1.7.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [testless-textanalyzer]: Downloading https://files.pythonhosted.org/packages/36/9a/4a6376e0949fdd3709240f5bb6219fb4b43ef122e02814b321bef1d9f9ad/testless_textanalyzer-0.1.7.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [ApiLogicServer]: Downloading https://files.pythonhosted.org/packages/34/da/faa6c164d775b657ba3147b17a9960f79d2bde80102f5916ed409dd07443/ApiLogicServer-9.1.0.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [lekko_client]: Downloading https://files.pythonhosted.org/packages/38/58/906221b71c120629c232a2105208ad9f937fe77279a22a58a7304969b778/lekko_client-0.1.4.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [datatypes]: Downloading https://files.pythonhosted.org/packages/40/f3/52b2030b97243065b449da715573dbf47cdbd553f8175483ca3cb19c3df5/datatypes-0.9.5.tar.gz
+[2023-07-05 02:02:03] INFO root fetch - processPackages [prom]: executing diffoscope
+[2023-07-05 02:02:03] INFO root fetch - processPackages [prom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prom-4.5.1.tar.gz tmp/prom-4.7.0.tar.gz --markdown 20230705/p/prom/4.5.1-4.7.0/diff.md --exclude *.pyd
+[2023-07-05 02:02:03] INFO root fetch - processPackages [testless-textanalyzer]: executing diffoscope
+[2023-07-05 02:02:03] INFO root fetch - processPackages [testless-textanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_textanalyzer-0.1.6.tar.gz tmp/testless_textanalyzer-0.1.7.tar.gz --markdown 20230705/t/testless-textanalyzer/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-05 02:02:03] INFO root fetch - processPackages [testless-textanalyzer]: executing diffoscope
+[2023-07-05 02:02:03] INFO root fetch - processPackages [testless-textanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testless_textanalyzer-0.1.6.tar.gz tmp/testless_textanalyzer-0.1.7.tar.gz --markdown 20230705/t/testless-textanalyzer/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-05 02:02:03] INFO root fetch - processPackages [lekko_client]: executing diffoscope
+[2023-07-05 02:02:03] INFO root fetch - processPackages [lekko_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lekko_client-0.1.2.tar.gz tmp/lekko_client-0.1.4.tar.gz --markdown 20230705/l/lekko_client/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-05 02:02:03] INFO root fetch - processPackages [datatypes]: executing diffoscope
+[2023-07-05 02:02:03] INFO root fetch - processPackages [datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatypes-0.9.4.tar.gz tmp/datatypes-0.9.5.tar.gz --markdown 20230705/d/datatypes/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-05 02:02:03] INFO root fetch - processPackages [jupyterlab-spellchecker]: Downloading https://files.pythonhosted.org/packages/a3/39/af5db9194efecd902af4d92a10e8f8fcbe9b9ffaad7d726b0e305ec322ab/jupyterlab_spellchecker-0.8.2.tar.gz
+[2023-07-05 02:02:04] INFO root fetch - processPackages [testless-textanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/testless_textanalyzer-0.1.6.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - processPackages [testless-textanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/testless_textanalyzer-0.1.7.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - main [MainThread]: End processing [testless-textanalyzer]: success
+[2023-07-05 02:02:04] INFO root fetch - main [MainThread]: End processing [testless-textanalyzer]: success
+[2023-07-05 02:02:04] INFO root fetch - processPackages [ApiLogicServer]: executing diffoscope
+[2023-07-05 02:02:04] INFO root fetch - processPackages [ApiLogicServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ApiLogicServer-9.0.0.tar.gz tmp/ApiLogicServer-9.1.0.tar.gz --markdown 20230705/A/ApiLogicServer/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-07-05 02:02:04] INFO root fetch - processPackages [lekko_client]: Remove: archive file [/home/abi/fetcher/tmp/lekko_client-0.1.2.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - processPackages [lekko_client]: Remove: archive file [/home/abi/fetcher/tmp/lekko_client-0.1.4.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - main [MainThread]: End processing [lekko_client]: success
+[2023-07-05 02:02:04] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.5.1.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.7.0.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - main [MainThread]: End processing [prom]: success
+[2023-07-05 02:02:04] INFO root fetch - processPackages [datatypes]: Remove: archive file [/home/abi/fetcher/tmp/datatypes-0.9.4.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - processPackages [datatypes]: Remove: archive file [/home/abi/fetcher/tmp/datatypes-0.9.5.tar.gz]
+[2023-07-05 02:02:04] INFO root fetch - main [MainThread]: End processing [datatypes]: success
+[2023-07-05 02:02:04] INFO root fetch - processPackages [jupyterlab-spellchecker]: executing diffoscope
+[2023-07-05 02:02:04] INFO root fetch - processPackages [jupyterlab-spellchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_spellchecker-0.8.0.tar.gz tmp/jupyterlab_spellchecker-0.8.2.tar.gz --markdown 20230705/j/jupyterlab-spellchecker/0.8.0-0.8.2/diff.md --exclude *.pyd
+[2023-07-05 02:02:07] INFO root fetch - processPackages [jupyterlab-spellchecker]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_spellchecker-0.8.0.tar.gz]
+[2023-07-05 02:02:07] INFO root fetch - processPackages [jupyterlab-spellchecker]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_spellchecker-0.8.2.tar.gz]
+[2023-07-05 02:02:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-spellchecker]: success
+[2023-07-05 02:02:09] INFO root fetch - processPackages [ApiLogicServer]: Remove: archive file [/home/abi/fetcher/tmp/ApiLogicServer-9.0.0.tar.gz]
+[2023-07-05 02:02:09] INFO root fetch - processPackages [ApiLogicServer]: Remove: archive file [/home/abi/fetcher/tmp/ApiLogicServer-9.1.0.tar.gz]
+[2023-07-05 02:02:09] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
+[2023-07-05 02:02:09] INFO root fetch - main [MainThread]: Store serial: [18760574]
