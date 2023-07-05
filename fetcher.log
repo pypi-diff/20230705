@@ -8182,3 +8182,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 06:53:40] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.2.tar.gz]
 [2023-07-05 06:53:40] INFO root fetch - main [MainThread]: End processing [vllm]: success
 [2023-07-05 06:53:40] INFO root fetch - main [MainThread]: Store serial: [18762936]
+[2023-07-05 06:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762936]
+[2023-07-05 06:58:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-05 06:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangounittest
+[2023-07-05 06:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libros
+[2023-07-05 06:58:49] INFO root fetch - processPackages [djangounittest]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-05 06:58:49] WARNING root fetch - processPackages [libros]: Skipping, unable to determine old version
+[2023-07-05 06:58:49] INFO root fetch - main [MainThread]: End processing [libros] error
+[2023-07-05 06:58:49] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/ce/9a/da328f239a1170b751e4f2875116ae55ed2ab80d935dae4c4f841e7385b1/djangounittest-0.2.6.tar.gz
+[2023-07-05 06:58:49] INFO root fetch - processPackages [djangounittest]: Downloading https://files.pythonhosted.org/packages/58/03/f1136f1adcee0f30601c122b7ab2b22b5e74fd5e752d6f09ce2f203586be/djangounittest-0.2.7.tar.gz
+[2023-07-05 06:58:50] INFO root fetch - processPackages [djangounittest]: executing diffoscope
+[2023-07-05 06:58:50] INFO root fetch - processPackages [djangounittest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangounittest-0.2.6.tar.gz tmp/djangounittest-0.2.7.tar.gz --markdown 20230705/d/djangounittest/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-05 06:58:50] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.6.tar.gz]
+[2023-07-05 06:58:50] INFO root fetch - processPackages [djangounittest]: Remove: archive file [/home/abi/fetcher/tmp/djangounittest-0.2.7.tar.gz]
+[2023-07-05 06:58:50] INFO root fetch - main [MainThread]: End processing [djangounittest]: success
+[2023-07-05 06:58:50] INFO root fetch - main [MainThread]: Store serial: [18762944]
