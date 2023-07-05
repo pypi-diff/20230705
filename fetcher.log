@@ -18059,3 +18059,164 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 14:50:29] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
 [2023-07-05 14:50:29] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
 [2023-07-05 14:50:29] INFO root fetch - main [MainThread]: Store serial: [18767301]
+[2023-07-05 14:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18767301]
+[2023-07-05 14:55:39] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdccli
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outlierapp
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sasapay-payments
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: angmom-suite
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-local-features
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crc8
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: supergraph
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelDrivenRpa
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rondsspark
+[2023-07-05 14:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyquet
+[2023-07-05 14:55:39] INFO root fetch - processPackages [sdccli]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-05 14:55:39] WARNING root fetch - processPackages [sasapay-payments]: Skipping, unable to determine old version
+[2023-07-05 14:55:39] INFO root fetch - processPackages [sasapay-payments]: Start processing: linien-common
+[2023-07-05 14:55:39] INFO root fetch - main [MainThread]: End processing [sasapay-payments] error
+[2023-07-05 14:55:39] INFO root fetch - processPackages [angmom-suite]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-05 14:55:39] WARNING root fetch - processPackages [outlierapp]: Skipping, unable to determine old version
+[2023-07-05 14:55:39] INFO root fetch - processPackages [outlierapp]: Start processing: linien-server
+[2023-07-05 14:55:39] INFO root fetch - main [MainThread]: End processing [outlierapp] error
+[2023-07-05 14:55:39] INFO root fetch - processPackages [supergraph]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [easy-local-features]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [modelDrivenRpa]: New version: [1.4] Old Version: [1.3]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [rondsspark]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [crc8]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [pyquet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [linien-common]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [linien-server]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-07-05 14:55:39] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/cf/91/6338d59fa4604f07a2bdbc94a4dd6753ed3e9cb47ac677e89f4b5f654ab5/easy_local_features-0.3.1.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/cf/82/f44d3ab3220c6f3e72cc758a6bb2ef23c3f7a47be9c5c42826106630ec96/sdccli-0.7.8.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/0c/61/698f9619ad7ae1dda4e582a74dae0e7910c95d6910e49af840cd217ca385/angmom_suite-1.8.2.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/f6/f4/0dc79d26d0db84f5c29ff5fe997e036e9e1a0bba81ec2f5a07c3138fccb2/linien-common-0.8.0rc8.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/b1/02/a21902d38dfb7d581736f361658bf73ed60e879ef8e8cc233c2270ac1915/linien-server-0.8.0rc8.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [crc8]: Downloading https://files.pythonhosted.org/packages/b2/65/358eb2d8df709b572814ac1d4cbd0e7145413103e0b1a7a5ef21de948ef3/crc8-0.1.0.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [supergraph]: Downloading https://files.pythonhosted.org/packages/ca/5d/177da017672dbc1b7f13c15598dc390252769eb8f37c8af648467707cac6/supergraph-0.0.2.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [pyquet]: Downloading https://files.pythonhosted.org/packages/ae/40/0d7651951741effec83c68509c9f12865583625fde7e14e1e2dd5347c4d3/pyquet-0.1.8.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/5b/5b/49f3eca46c67020d4c9cc6b8629f1daa505cd32bbc53544c3bdc849cdeb4/rondsspark-0.0.2.tar.gz
+[2023-07-05 14:55:39] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/7e/68/15951c55cb008f48c5a8606c773da7ac7fdc5a8054dfff9ca6e9c1526b0a/modelDrivenRpa-1.3.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/0f/57/b11e90c58beb9b5cfb791e32f0969888badef8e303d0272c289def69e531/easy_local_features-0.3.2.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/e0/3d/bea7c603621ab150e5e2c7b46573176bf9743daf7e4671fb311e10eb9835/linien-common-0.8.0rc9.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [sdccli]: Downloading https://files.pythonhosted.org/packages/04/b9/bc8d6dbf7a12c2a7f196ee429890bfec91bdce45029914e58caed546be65/sdccli-0.7.9.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [supergraph]: Downloading https://files.pythonhosted.org/packages/01/f7/be9ea1b0a385c9588f3618905595c9e668d08d7eb9fe41bd2f2791e2211e/supergraph-0.0.3.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [angmom-suite]: Downloading https://files.pythonhosted.org/packages/aa/f2/4b1999e91fe587a8c51098a142e94717915c29c1d2b7e5107e95bd5da4af/angmom_suite-1.9.0.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/74/06/7f22cebbc7d9e7fa1dffb6b1a59abf49c7ef87632280272ecfa24bc9a343/linien-server-0.8.0rc9.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/98/e2/eb63719d47196ef5ef1f69779e04a870001baace7a36ffecae1df09749b0/modelDrivenRpa-1.4.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [crc8]: Downloading https://files.pythonhosted.org/packages/24/aa/f0701287e80d48e4c058fc5376398a8300bb61738ea7b11610769a47e702/crc8-0.2.0.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [pyquet]: Downloading https://files.pythonhosted.org/packages/04/99/a6279217b4a5e9a7027e9312e8cf31bc3e0b9cc3d4ad432b37d125040f3a/pyquet-0.1.9.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.3.1.tar.gz tmp/easy_local_features-0.3.2.tar.gz --markdown 20230705/e/easy-local-features/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/6c/9f/1b7904657d30d6766028ec8e01a612be46050a08d47c144b76f8953ff037/rondsspark-0.0.3.tar.gz
+[2023-07-05 14:55:40] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-common-0.8.0rc8.tar.gz tmp/linien-common-0.8.0rc9.tar.gz --markdown 20230705/l/linien-common/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [sdccli]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [sdccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdccli-0.7.8.tar.gz tmp/sdccli-0.7.9.tar.gz --markdown 20230705/s/sdccli/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [modelDrivenRpa]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [modelDrivenRpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelDrivenRpa-1.3.tar.gz tmp/modelDrivenRpa-1.4.tar.gz --markdown 20230705/m/modelDrivenRpa/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [supergraph]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [supergraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergraph-0.0.2.tar.gz tmp/supergraph-0.0.3.tar.gz --markdown 20230705/s/supergraph/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [angmom-suite]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [angmom-suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angmom_suite-1.8.2.tar.gz tmp/angmom_suite-1.9.0.tar.gz --markdown 20230705/a/angmom-suite/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-server-0.8.0rc8.tar.gz tmp/linien-server-0.8.0rc9.tar.gz --markdown 20230705/l/linien-server/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [crc8]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [crc8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc8-0.1.0.tar.gz tmp/crc8-0.2.0.tar.gz --markdown 20230705/c/crc8/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [pyquet]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [pyquet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquet-0.1.8.tar.gz tmp/pyquet-0.1.9.tar.gz --markdown 20230705/p/pyquet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:55:40] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-05 14:55:40] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.2.tar.gz tmp/rondsspark-0.0.3.tar.gz --markdown 20230705/r/rondsspark/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc8.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien-common-0.8.0rc9.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-common]: Start processing: linien-client
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-client]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.3.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.4.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [modelDrivenRpa]: Start processing: linien-gui
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [modelDrivenRpa]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/9a/75/b7a00cafcb61e411e7c3bb4e4c96d86b3d3ba5d2c7f6f1e7fc590b6cd926/linien-client-0.8.0rc8.tar.gz
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-gui]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [supergraph]: Remove: archive file [/home/abi/fetcher/tmp/supergraph-0.0.2.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [supergraph]: Remove: archive file [/home/abi/fetcher/tmp/supergraph-0.0.3.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [supergraph]: Start processing: qcs-phy
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [supergraph]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [crc8]: Remove: archive file [/home/abi/fetcher/tmp/crc8-0.1.0.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [crc8]: Remove: archive file [/home/abi/fetcher/tmp/crc8-0.2.0.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [crc8]: Start processing: fwdviewpy
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [crc8]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [pyquet]: Remove: archive file [/home/abi/fetcher/tmp/pyquet-0.1.8.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/3b/77/f5da965ddcc396aadd55258e4c16a55a285d913fdbe0462bbe795913fc94/linien-gui-0.8.0rc8.tar.gz
+[2023-07-05 14:55:42] INFO root fetch - processPackages [pyquet]: Remove: archive file [/home/abi/fetcher/tmp/pyquet-0.1.9.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [pyquet]: Start processing: kaiju-tasks
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [pyquet]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [qcs-phy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [kaiju-tasks]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.1.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.2.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [easy-local-features]: Start processing: aiogram-carousel
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.8.2.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [angmom-suite]: Remove: archive file [/home/abi/fetcher/tmp/angmom_suite-1.9.0.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [angmom-suite]: Start processing: jupyter-jobstorm
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [angmom-suite]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/aa/ea/90de6ec73796b33dcdeac4dae358266d19dda879a443da7da61603451adf/linien-client-0.8.0rc9.tar.gz
+[2023-07-05 14:55:42] WARNING root fetch - processPackages [aiogram-carousel]: Skipping, unable to determine old version
+[2023-07-05 14:55:42] INFO root fetch - processPackages [aiogram-carousel]: Start processing: supergraph
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [aiogram-carousel] error
+[2023-07-05 14:55:42] WARNING root fetch - processPackages [jupyter-jobstorm]: Skipping, unable to determine old version
+[2023-07-05 14:55:42] INFO root fetch - processPackages [jupyter-jobstorm]: Start processing: idelium
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [jupyter-jobstorm] error
+[2023-07-05 14:55:42] INFO root fetch - processPackages [supergraph]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.2.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.3.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.7.8.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [sdccli]: Remove: archive file [/home/abi/fetcher/tmp/sdccli-0.7.9.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [sdccli]: success
+[2023-07-05 14:55:42] WARNING root fetch - processPackages [idelium]: Skipping, unable to determine old version
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [idelium] error
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc8.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien-server-0.8.0rc9.tar.gz]
+[2023-07-05 14:55:42] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/fd/4c/d14b032b1ab28b3123c2719a7f0d3ae6f47452adee07783d89b8739ec0ff/linien-gui-0.8.0rc9.tar.gz
+[2023-07-05 14:55:42] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/a3/fd/e66d6071f8b3c8a0f3dcc3839e782966dacefef914bc86ba7b49e9441267/kaiju_tasks-2.1.3-py3-none-any.whl
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2023-07-05 14:55:42] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-client-0.8.0rc8.tar.gz tmp/linien-client-0.8.0rc9.tar.gz --markdown 20230705/l/linien-client/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-07-05 14:55:42] INFO root fetch - processPackages [supergraph]: Downloading https://files.pythonhosted.org/packages/ca/5d/177da017672dbc1b7f13c15598dc390252769eb8f37c8af648467707cac6/supergraph-0.0.2.tar.gz
+[2023-07-05 14:55:42] INFO root fetch - processPackages [qcs-phy]: Downloading https://files.pythonhosted.org/packages/7f/fd/c52e6ca3ccec11e5933116b273efd18bd02f53d5f750b6af7e19fc3e0951/qcs_phy-1.0.6.tar.gz
+[2023-07-05 14:55:43] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-05 14:55:43] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2023-07-05 14:55:43] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien-gui-0.8.0rc8.tar.gz tmp/linien-gui-0.8.0rc9.tar.gz --markdown 20230705/l/linien-gui/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-07-05 14:55:43] INFO root fetch - processPackages [qcs-phy]: executing diffoscope
+[2023-07-05 14:55:43] INFO root fetch - processPackages [qcs-phy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_phy-1.0.5.tar.gz tmp/qcs_phy-1.0.6.tar.gz --markdown 20230705/q/qcs-phy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-05 14:55:43] INFO root fetch - processPackages [supergraph]: Downloading https://files.pythonhosted.org/packages/01/f7/be9ea1b0a385c9588f3618905595c9e668d08d7eb9fe41bd2f2791e2211e/supergraph-0.0.3.tar.gz
+[2023-07-05 14:55:43] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-05 14:55:43] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230705/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 14:55:43] INFO root fetch - processPackages [supergraph]: executing diffoscope
+[2023-07-05 14:55:43] INFO root fetch - processPackages [supergraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supergraph-0.0.2.tar.gz tmp/supergraph-0.0.3.tar.gz --markdown 20230705/s/supergraph/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 14:55:43] INFO root fetch - processPackages [kaiju-tasks]: Downloading https://files.pythonhosted.org/packages/f9/cf/f0cfcb60ca3033635065c0feb26c759d36519000480565c8c3152716458f/kaiju_tasks-2.1.4-py3-none-any.whl
+[2023-07-05 14:55:43] INFO root fetch - processPackages [kaiju-tasks]: executing diffoscope
+[2023-07-05 14:55:43] INFO root fetch - processPackages [kaiju-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tasks-2.1.3-py3-none-any.whl.zip tmp/kaiju_tasks-2.1.4-py3-none-any.whl.zip --markdown 20230705/k/kaiju-tasks/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-05 14:55:44] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc8.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien-client-0.8.0rc9.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2023-07-05 14:55:44] INFO root fetch - processPackages [qcs-phy]: Remove: archive file [/home/abi/fetcher/tmp/qcs_phy-1.0.5.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - processPackages [qcs-phy]: Remove: archive file [/home/abi/fetcher/tmp/qcs_phy-1.0.6.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [qcs-phy]: success
+[2023-07-05 14:55:44] INFO root fetch - processPackages [supergraph]: Remove: archive file [/home/abi/fetcher/tmp/supergraph-0.0.2.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - processPackages [supergraph]: Remove: archive file [/home/abi/fetcher/tmp/supergraph-0.0.3.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [supergraph]: success
+[2023-07-05 14:55:44] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc8.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien-gui-0.8.0rc9.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2023-07-05 14:55:44] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-05 14:55:44] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.3-py3-none-any.whl.zip]
+[2023-07-05 14:55:44] INFO root fetch - processPackages [kaiju-tasks]: Remove: archive file [/home/abi/fetcher/tmp/kaiju_tasks-2.1.4-py3-none-any.whl.zip]
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: End processing [kaiju-tasks]: success
+[2023-07-05 14:55:44] INFO root fetch - main [MainThread]: Store serial: [18767369]
