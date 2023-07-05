@@ -11030,3 +11030,108 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 09:53:01] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-05 09:53:01] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-05 09:53:01] INFO root fetch - main [MainThread]: Store serial: [18764127]
+[2023-07-05 09:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764127]
+[2023-07-05 09:58:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KwoksTool
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armonik
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horbach-cli
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: towhee
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: towhee.models
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sliceguard
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gajula
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: huggingface-tool
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sj-tool
+[2023-07-05 09:58:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-graph-builder
+[2023-07-05 09:58:10] WARNING root fetch - processPackages [gajula]: Skipping, unable to determine old version
+[2023-07-05 09:58:10] INFO root fetch - processPackages [gajula]: Start processing: odoo-addon-event-session
+[2023-07-05 09:58:10] INFO root fetch - main [MainThread]: End processing [gajula] error
+[2023-07-05 09:58:10] INFO root fetch - processPackages [KwoksTool]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [dbt-graph-builder]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [towhee.models]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [towhee]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-05 09:58:10] WARNING root fetch - processPackages [sliceguard]: Skipping, unable to determine old version
+[2023-07-05 09:58:10] INFO root fetch - processPackages [sliceguard]: Start processing: hplot
+[2023-07-05 09:58:10] INFO root fetch - main [MainThread]: End processing [sliceguard] error
+[2023-07-05 09:58:10] WARNING root fetch - processPackages [huggingface-tool]: Skipping, unable to determine old version
+[2023-07-05 09:58:10] INFO root fetch - processPackages [huggingface-tool]: Start processing: pymuco
+[2023-07-05 09:58:10] INFO root fetch - main [MainThread]: End processing [huggingface-tool] error
+[2023-07-05 09:58:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 09:58:10] INFO root fetch - processPackages [horbach-cli]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.7]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/28/42/fe99f8f1e801b27a8b582004b96aaff7e00df8efa9d40c75ddda85785191/KwoksTool-0.0.2.tar.gz
+[2023-07-05 09:58:10] INFO root fetch - processPackages [pymuco]: New version: [1.1b6] Old Version: [1.1b4]
+[2023-07-05 09:58:10] WARNING root fetch - processPackages [hplot]: Skipping, unable to determine old version
+[2023-07-05 09:58:10] INFO root fetch - processPackages [hplot]: Start processing: fusion-engine
+[2023-07-05 09:58:10] INFO root fetch - main [MainThread]: End processing [hplot] error
+[2023-07-05 09:58:10] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/7c/1c/8dda4fc71fe4c8179a2d376d93d7b944e67d5f584edca2671e05024f84d9/dbt-graph-builder-0.3.0.tar.gz
+[2023-07-05 09:58:10] INFO root fetch - processPackages [pymuco]: Downloading https://files.pythonhosted.org/packages/84/47/6a44f7adb3dacb7f99f450fb9825715cc5f9044d6d7bd9b29442bb6a8071/pymuco-1.1b4.tar.gz
+[2023-07-05 09:58:10] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/60/57/be1edeceddafa56cbe6a5347b73c9318296320ae20ef5191a0211b6061ce/towhee.models-1.1.0-py3-none-any.whl
+[2023-07-05 09:58:10] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-05 09:58:10] INFO root fetch - processPackages [towhee]: Downloading https://files.pythonhosted.org/packages/82/bc/cebbaa9b62eb3d32383f595925132cb7a17c6f448beeb5dd35237e9b4db6/towhee-1.1.0-py3-none-any.whl
+[2023-07-05 09:58:10] INFO root fetch - processPackages [horbach-cli]: Downloading https://files.pythonhosted.org/packages/90/6f/ae2e13a4c934ad2937711a5546068f2e8f55c99c01fe67f956a3a592e5a8/horbach_cli-0.1.6.tar.gz
+[2023-07-05 09:58:10] INFO root fetch - processPackages [fusion-engine]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-05 09:58:10] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/1e/46/a7927e19ada2e0fc3c7c007d4dfca7e7f08541a6a4d4a541bc60c8f58a35/odoo_addon_event_session-15.0.1.0.0.7-py3-none-any.whl
+[2023-07-05 09:58:10] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 09:58:10] INFO root fetch - processPackages [KwoksTool]: Downloading https://files.pythonhosted.org/packages/a1/64/590520f67f57f1363473de8802d9efa672c0f00377f5fe5ddf3f132bf56c/KwoksTool-0.0.3.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [pymuco]: Downloading https://files.pythonhosted.org/packages/9f/05/88826fbf5292540af37b4876ccd2427c190b44d195de09ac4ab6f606f381/pymuco-1.1b6.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [dbt-graph-builder]: Downloading https://files.pythonhosted.org/packages/c0/b5/777961772785e2e89d188210b2e1cb9bf7c44cf5f664f2cff3f859796574/dbt-graph-builder-0.4.0.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/25/ce/4d6ce1cee510c59cfee42140850379e01531479ee863c9b9b1b31cb39411/fusion-engine-0.1.1.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [KwoksTool]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [KwoksTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KwoksTool-0.0.2.tar.gz tmp/KwoksTool-0.0.3.tar.gz --markdown 20230705/K/KwoksTool/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [towhee]: Downloading https://files.pythonhosted.org/packages/e5/e0/cef37a825545bf7f6aa663d3615be350e800f0d9987d31d0cdcc75850f6a/towhee-1.1.1-py3-none-any.whl
+[2023-07-05 09:58:11] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/40/bf/c970e2c56d3f2f211e08a2b281b460ff326c14e27e9c85c96a57ebb9cbe4/odoo_addon_event_session-15.0.1.0.1-py3-none-any.whl
+[2023-07-05 09:58:11] INFO root fetch - processPackages [pymuco]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [pymuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymuco-1.1b4.tar.gz tmp/pymuco-1.1b6.tar.gz --markdown 20230705/p/pymuco/1.1b4-1.1b6/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [horbach-cli]: Downloading https://files.pythonhosted.org/packages/5f/f3/0c4735c554cba80b2ab4df53e03d55d2369e8f7f3d0e8a27e12e98cab874/horbach_cli-0.2.0.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [towhee.models]: Downloading https://files.pythonhosted.org/packages/07/01/719e9b49b451ae11b4b5bf8e8360448296bae09694478777f17e012f291d/towhee.models-1.1.1-py3-none-any.whl
+[2023-07-05 09:58:11] INFO root fetch - processPackages [dbt-graph-builder]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [dbt-graph-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-graph-builder-0.3.0.tar.gz tmp/dbt-graph-builder-0.4.0.tar.gz --markdown 20230705/d/dbt-graph-builder/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [towhee]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [towhee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee-1.1.0-py3-none-any.whl.zip tmp/towhee-1.1.1-py3-none-any.whl.zip --markdown 20230705/t/towhee/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [horbach-cli]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [horbach-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horbach_cli-0.1.6.tar.gz tmp/horbach_cli-0.2.0.tar.gz --markdown 20230705/h/horbach-cli/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230705/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_event_session-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-event-session/15.0.1.0.0.7-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/b9/ca/58d33bfadf85b18cb607b3e7375e10b7b3c5219c0624e25f5d573ec30944/fusion-engine-0.2.0.tar.gz
+[2023-07-05 09:58:11] INFO root fetch - processPackages [towhee.models]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [towhee.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towhee.models-1.1.0-py3-none-any.whl.zip tmp/towhee.models-1.1.1-py3-none-any.whl.zip --markdown 20230705/t/towhee.models/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-05 09:58:11] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-05 09:58:11] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.1.1.tar.gz tmp/fusion-engine-0.2.0.tar.gz --markdown 20230705/f/fusion-engine/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 09:58:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 09:58:12] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 09:58:12] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 09:58:12] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.2.tar.gz]
+[2023-07-05 09:58:12] INFO root fetch - processPackages [KwoksTool]: Remove: archive file [/home/abi/fetcher/tmp/KwoksTool-0.0.3.tar.gz]
+[2023-07-05 09:58:12] INFO root fetch - main [MainThread]: End processing [KwoksTool]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.3.0.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [dbt-graph-builder]: Remove: archive file [/home/abi/fetcher/tmp/dbt-graph-builder-0.4.0.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [pymuco]: Remove: archive file [/home/abi/fetcher/tmp/pymuco-1.1b4.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [pymuco]: Remove: archive file [/home/abi/fetcher/tmp/pymuco-1.1b6.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [pymuco]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [horbach-cli]: Remove: archive file [/home/abi/fetcher/tmp/horbach_cli-0.1.6.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [horbach-cli]: Remove: archive file [/home/abi/fetcher/tmp/horbach_cli-0.2.0.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [horbach-cli]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.1.1.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.0.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-05 09:58:13] INFO root fetch - processPackages [towhee]: Remove: archive file [/home/abi/fetcher/tmp/towhee-1.1.0-py3-none-any.whl.zip]
+[2023-07-05 09:58:13] INFO root fetch - processPackages [towhee]: Remove: archive file [/home/abi/fetcher/tmp/towhee-1.1.1-py3-none-any.whl.zip]
+[2023-07-05 09:58:13] INFO root fetch - main [MainThread]: End processing [towhee]: success
+[2023-07-05 09:58:14] INFO root fetch - processPackages [towhee.models]: Remove: archive file [/home/abi/fetcher/tmp/towhee.models-1.1.0-py3-none-any.whl.zip]
+[2023-07-05 09:58:14] INFO root fetch - processPackages [towhee.models]: Remove: archive file [/home/abi/fetcher/tmp/towhee.models-1.1.1-py3-none-any.whl.zip]
+[2023-07-05 09:58:14] INFO root fetch - main [MainThread]: End processing [towhee.models]: success
+[2023-07-05 09:58:14] INFO root fetch - main [MainThread]: Store serial: [18764174]
