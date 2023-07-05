@@ -23539,3 +23539,89 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 17:37:28] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc4.tar.gz]
 [2023-07-05 17:37:28] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-07-05 17:37:28] INFO root fetch - main [MainThread]: Store serial: [18769690]
+[2023-07-05 17:42:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18769690]
+[2023-07-05 17:42:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nerdcore
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcx
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcx-endpoint
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiskit-sphinx-theme
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelLab
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socketify
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renumics-spotlight
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-cloud-bigquery-storage
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bdew-datetimes
+[2023-07-05 17:42:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: palantir
+[2023-07-05 17:42:38] WARNING root fetch - processPackages [modelLab]: Skipping, unable to determine old version
+[2023-07-05 17:42:38] INFO root fetch - processPackages [modelLab]: Start processing: llmreflect
+[2023-07-05 17:42:38] INFO root fetch - main [MainThread]: End processing [modelLab] error
+[2023-07-05 17:42:38] INFO root fetch - processPackages [qiskit-sphinx-theme]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [google-cloud-bigquery-storage]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [funcx]: New version: [2.2.3a0] Old Version: [2.2.1]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [renumics-spotlight]: New version: [1.3.0rc3] Old Version: [1.3.0rc2]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [funcx-endpoint]: New version: [2.2.3a0] Old Version: [2.2.1]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [socketify]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [bdew-datetimes]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [nerdcore]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 17:42:38] INFO root fetch - processPackages [palantir]: New version: [1.3.0] Old Version: [1.2]
+[2023-07-05 17:42:38] ERROR root fetch - processPackages [llmreflect]: Unable to get metadata: No such project 'llmreflect'
+[2023-07-05 17:42:38] INFO root fetch - main [MainThread]: End processing [llmreflect] error
+[2023-07-05 17:42:39] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/73/e3/5e5b7f45189189e5bbafb1c40077f455ac085fdabf1cd94a5a5198f9e87c/renumics_spotlight-1.3.0rc2-py3-none-any.whl
+[2023-07-05 17:42:39] INFO root fetch - processPackages [qiskit-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/65/60/7f48b06d88ef75954453994dfc90f8e027ca0f90739639c3d33ed9fd3331/qiskit_sphinx_theme-1.8.7.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [google-cloud-bigquery-storage]: Downloading https://files.pythonhosted.org/packages/52/9c/97838aa152920f6fd9964b27e5e92bcbb33ec9e052996cffcb61e7ae80c4/google-cloud-bigquery-storage-2.9.0.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/bd/68/f22a2b1cb9b6554b0f60b769f1e93dfcd598ffcbd1eecbf0d082116455a7/funcx-endpoint-2.2.1.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/2a/aa/04b6bf496d2cb60e4978ad6d5119c0a09a8b81b3a361be221213dc84f34a/nerdcore-0.1.8.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [bdew-datetimes]: Downloading https://files.pythonhosted.org/packages/de/d0/ff746e40c208b4c87f42503f5308d00de054d4bbe6a28d71ccc2db15b453/bdew_datetimes-0.3.8.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [palantir]: Downloading https://files.pythonhosted.org/packages/a9/80/179f68ebd4a615f8a5f1ef8cdcd30434876a81ad8766368a3ad047aa85d1/palantir-1.2.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/71/65/2697c80e02f61817f1b4990980c76344f7770aa5eb8fd1b9f76fe232585d/funcx-2.2.1.tar.gz
+[2023-07-05 17:42:39] WARNING root fetch - processPackages [palantir]: Skipping package: exceeds size limit 35881716>=10485760
+[2023-07-05 17:42:39] INFO root fetch - main [MainThread]: End processing [palantir] error
+[2023-07-05 17:42:39] INFO root fetch - processPackages [socketify]: Downloading https://files.pythonhosted.org/packages/7e/80/0a4f3c6936697a8dd3a903ee31edac1e9a83def1eed7f90d29ec69803c74/socketify-0.0.8.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [qiskit-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/63/8d/046b1ebc46a281ef956ad4ebefd9ee291e43ab2c506e15713b2913f95ad4/qiskit_sphinx_theme-1.9.0.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/6a/74/97229c5776262b884a8dc71989f6d1b50f03e724fdd5836c920e6e4d40a9/funcx-endpoint-2.2.3a0.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/7d/5c/533e0d24d8d5bb61b79a2cb943b3fe811547b9f17a4c717a1be7c92f3e5f/funcx-2.2.3a0.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [google-cloud-bigquery-storage]: Downloading https://files.pythonhosted.org/packages/dc/48/a22261455bd1be090a1f10983ea984801a094b2f48520d0fd5bd4f872e09/google-cloud-bigquery-storage-2.9.1.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [nerdcore]: Downloading https://files.pythonhosted.org/packages/f0/b9/a7ca11d5ea057e7cfab9c8c440dc31d5d6761c0ba50c16545f42ea89145f/nerdcore-0.1.9.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [bdew-datetimes]: Downloading https://files.pythonhosted.org/packages/7c/e6/5443c7f538afa65a823e8ab76cb3aa40a7675c6154d388eef827d9b6628a/bdew_datetimes-0.3.9.tar.gz
+[2023-07-05 17:42:39] INFO root fetch - processPackages [renumics-spotlight]: Downloading https://files.pythonhosted.org/packages/fb/a3/7683fb5099f2677dd60486c19f1c67ad303543d83dc89287206b6b3d58f0/renumics_spotlight-1.3.0rc3-py3-none-any.whl
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx-endpoint]: executing diffoscope
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-endpoint-2.2.1.tar.gz tmp/funcx-endpoint-2.2.3a0.tar.gz --markdown 20230705/f/funcx-endpoint/2.2.1-2.2.3a0/diff.md --exclude *.pyd
+[2023-07-05 17:42:39] INFO root fetch - processPackages [qiskit-sphinx-theme]: executing diffoscope
+[2023-07-05 17:42:39] INFO root fetch - processPackages [qiskit-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_sphinx_theme-1.8.7.tar.gz tmp/qiskit_sphinx_theme-1.9.0.tar.gz --markdown 20230705/q/qiskit-sphinx-theme/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx]: executing diffoscope
+[2023-07-05 17:42:39] INFO root fetch - processPackages [funcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-2.2.1.tar.gz tmp/funcx-2.2.3a0.tar.gz --markdown 20230705/f/funcx/2.2.1-2.2.3a0/diff.md --exclude *.pyd
+[2023-07-05 17:42:39] INFO root fetch - processPackages [nerdcore]: executing diffoscope
+[2023-07-05 17:42:39] INFO root fetch - processPackages [nerdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdcore-0.1.8.tar.gz tmp/nerdcore-0.1.9.tar.gz --markdown 20230705/n/nerdcore/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:42:39] INFO root fetch - processPackages [bdew-datetimes]: executing diffoscope
+[2023-07-05 17:42:39] INFO root fetch - processPackages [google-cloud-bigquery-storage]: executing diffoscope
+[2023-07-05 17:42:39] INFO root fetch - processPackages [bdew-datetimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdew_datetimes-0.3.8.tar.gz tmp/bdew_datetimes-0.3.9.tar.gz --markdown 20230705/b/bdew-datetimes/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 17:42:39] INFO root fetch - processPackages [google-cloud-bigquery-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-storage-2.9.0.tar.gz tmp/google-cloud-bigquery-storage-2.9.1.tar.gz --markdown 20230705/g/google-cloud-bigquery-storage/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-05 17:42:40] INFO root fetch - processPackages [renumics-spotlight]: executing diffoscope
+[2023-07-05 17:42:40] INFO root fetch - processPackages [renumics-spotlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renumics_spotlight-1.3.0rc2-py3-none-any.whl.zip tmp/renumics_spotlight-1.3.0rc3-py3-none-any.whl.zip --markdown 20230705/r/renumics-spotlight/1.3.0rc2-1.3.0rc3/diff.md --exclude *.pyd
+[2023-07-05 17:42:41] INFO root fetch - processPackages [funcx-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/funcx-endpoint-2.2.1.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - processPackages [funcx-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/funcx-endpoint-2.2.3a0.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - main [MainThread]: End processing [funcx-endpoint]: success
+[2023-07-05 17:42:41] INFO root fetch - processPackages [funcx]: Remove: archive file [/home/abi/fetcher/tmp/funcx-2.2.1.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - processPackages [funcx]: Remove: archive file [/home/abi/fetcher/tmp/funcx-2.2.3a0.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - main [MainThread]: End processing [funcx]: success
+[2023-07-05 17:42:41] INFO root fetch - processPackages [bdew-datetimes]: Remove: archive file [/home/abi/fetcher/tmp/bdew_datetimes-0.3.8.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - processPackages [bdew-datetimes]: Remove: archive file [/home/abi/fetcher/tmp/bdew_datetimes-0.3.9.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - main [MainThread]: End processing [bdew-datetimes]: success
+[2023-07-05 17:42:41] INFO root fetch - processPackages [socketify]: Downloading https://files.pythonhosted.org/packages/66/93/0b39151470ff93b87e5fdf926d16faadcb6c559778dc86ae0d25b9646286/socketify-0.0.9.tar.gz
+[2023-07-05 17:42:41] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.8.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - processPackages [nerdcore]: Remove: archive file [/home/abi/fetcher/tmp/nerdcore-0.1.9.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - main [MainThread]: End processing [nerdcore]: success
+[2023-07-05 17:42:41] INFO root fetch - processPackages [qiskit-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_sphinx_theme-1.8.7.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - processPackages [qiskit-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_sphinx_theme-1.9.0.tar.gz]
+[2023-07-05 17:42:41] INFO root fetch - main [MainThread]: End processing [qiskit-sphinx-theme]: success
+[2023-07-05 17:42:42] INFO root fetch - processPackages [google-cloud-bigquery-storage]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-storage-2.9.0.tar.gz]
+[2023-07-05 17:42:42] INFO root fetch - processPackages [google-cloud-bigquery-storage]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-storage-2.9.1.tar.gz]
+[2023-07-05 17:42:42] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery-storage]: success
+[2023-07-05 17:42:43] INFO root fetch - processPackages [socketify]: executing diffoscope
+[2023-07-05 17:42:43] INFO root fetch - processPackages [socketify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketify-0.0.8.tar.gz tmp/socketify-0.0.9.tar.gz --markdown 20230705/s/socketify/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 17:42:45] INFO root fetch - processPackages [socketify]: Remove: archive file [/home/abi/fetcher/tmp/socketify-0.0.8.tar.gz]
+[2023-07-05 17:42:45] INFO root fetch - processPackages [socketify]: Remove: archive file [/home/abi/fetcher/tmp/socketify-0.0.9.tar.gz]
+[2023-07-05 17:42:45] INFO root fetch - main [MainThread]: End processing [socketify]: success
+[2023-07-05 17:43:09] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc2-py3-none-any.whl.zip]
+[2023-07-05 17:43:09] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc3-py3-none-any.whl.zip]
+[2023-07-05 17:43:09] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
+[2023-07-05 17:43:09] INFO root fetch - main [MainThread]: Store serial: [18769727]
