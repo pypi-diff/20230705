@@ -6012,3 +6012,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:21:00] INFO root fetch - processPackages [pipenv]: Remove: archive file [/home/abi/fetcher/tmp/pipenv-9.1.0.tar.gz]
 [2023-07-05 04:21:00] INFO root fetch - main [MainThread]: End processing [pipenv]: success
 [2023-07-05 04:21:00] INFO root fetch - main [MainThread]: Store serial: [18762142]
+[2023-07-05 04:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762142]
+[2023-07-05 04:26:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classesNumericas
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domain-admin
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NikGapps
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-package-kaoru
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pccm
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talk-codebase
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xj-user
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yyxx-game-pkg
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shaku-database
+[2023-07-05 04:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlforecast
+[2023-07-05 04:26:10] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [NikGapps]: New version: [1.60] Old Version: [1.59]
+[2023-07-05 04:26:10] WARNING root fetch - processPackages [example-package-kaoru]: Skipping, unable to determine old version
+[2023-07-05 04:26:10] INFO root fetch - main [MainThread]: End processing [example-package-kaoru] error
+[2023-07-05 04:26:10] WARNING root fetch - processPackages [classesNumericas]: Skipping, unable to determine old version
+[2023-07-05 04:26:10] INFO root fetch - main [MainThread]: End processing [classesNumericas] error
+[2023-07-05 04:26:10] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.7.5.1] Old Version: [2023.6.9.1]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [pccm]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [shaku-database]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [mlforecast]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-05 04:26:10] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/fe/60/f08c5c4db4c48a4bc08f6dfb8f8b7900e3a73915a80b5654333a3cf929c3/talk_codebase-0.1.39.tar.gz
+[2023-07-05 04:26:10] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-05 04:26:10] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/98/83/d7bd0dcb50ab981ea12041d88ec2dce0c67b984ec61865d1d5fcddee763f/NikGapps-1.59.tar.gz
+[2023-07-05 04:26:10] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564715>=10485760
+[2023-07-05 04:26:10] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-07-05 04:26:10] INFO root fetch - processPackages [pccm]: Downloading https://files.pythonhosted.org/packages/d6/01/a844db4228ee57b20c94d623ef594c3886ea20d1687e13f7e62b8cf3abc1/pccm-0.4.7.tar.gz
+[2023-07-05 04:26:10] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-05 04:26:10] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/e5/82/79da6672e322e316d7b077a31d056141061d0271696087e26fd350612628/yyxx_game_pkg-2023.6.9.1.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/20/82/3894316f7abc615f4ec0967f3d2d66fc03b4182bff6daeb53444b2b19248/shaku-database-1.0.8.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/78/1f/ec9a0dc0e4728158a04bb664a7110fac681fa3b0c440af4e8886004a6a18/mlforecast-0.7.3.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/8a/bb/2d9588a3b1629f7e6f642da61d26c9b37bddf7f6bd48fe06b20d53d1c8fb/talk_codebase-0.1.40.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [pccm]: Downloading https://files.pythonhosted.org/packages/0f/01/b43ff4e339f750ac26750355f2d0d753cf9e30b94ff9c96e6397e4b971a7/pccm-0.4.8.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/08/51/6b6cdbfa65082b0fb5d5136176d2ed25f2c23bd578f4899a8b7921ead322/shaku-database-1.0.9.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/66/d3/6362dc5968bc1e0ca75fc65911bafbc5c0b781aef5ac65a1561cd7155bc8/mlforecast-0.7.4.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-07-05 04:26:11] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.39.tar.gz tmp/talk_codebase-0.1.40.tar.gz --markdown 20230705/t/talk-codebase/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-07-05 04:26:11] INFO root fetch - processPackages [pccm]: executing diffoscope
+[2023-07-05 04:26:11] INFO root fetch - processPackages [pccm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pccm-0.4.7.tar.gz tmp/pccm-0.4.8.tar.gz --markdown 20230705/p/pccm/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-05 04:26:11] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-07-05 04:26:11] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.0.8.tar.gz tmp/shaku-database-1.0.9.tar.gz --markdown 20230705/s/shaku-database/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 04:26:11] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-05 04:26:11] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230705/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-05 04:26:11] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-07-05 04:26:11] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.7.3.tar.gz tmp/mlforecast-0.7.4.tar.gz --markdown 20230705/m/mlforecast/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-05 04:26:11] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-05 04:26:11] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-05 04:26:11] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230705/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-05 04:26:12] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/6a/ba/2db200102e6513f599bdb0c7a62f53c06405750e3f7c3e63cb0816a50722/yyxx_game_pkg-2023.7.5.1.tar.gz
+[2023-07-05 04:26:12] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.39.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.40.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-07-05 04:26:12] INFO root fetch - processPackages [pccm]: Remove: archive file [/home/abi/fetcher/tmp/pccm-0.4.7.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - processPackages [pccm]: Remove: archive file [/home/abi/fetcher/tmp/pccm-0.4.8.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - main [MainThread]: End processing [pccm]: success
+[2023-07-05 04:26:12] INFO root fetch - processPackages [mlforecast]: Remove: archive file [/home/abi/fetcher/tmp/mlforecast-0.7.3.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - processPackages [mlforecast]: Remove: archive file [/home/abi/fetcher/tmp/mlforecast-0.7.4.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-07-05 04:26:12] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.8.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.0.9.tar.gz]
+[2023-07-05 04:26:12] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-07-05 04:26:12] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-07-05 04:26:12] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.6.9.1.tar.gz tmp/yyxx_game_pkg-2023.7.5.1.tar.gz --markdown 20230705/y/yyxx-game-pkg/2023.6.9.1-2023.7.5.1/diff.md --exclude *.pyd
+[2023-07-05 04:26:13] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-05 04:26:13] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-05 04:26:13] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-05 04:26:14] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.9.1.tar.gz]
+[2023-07-05 04:26:14] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.7.5.1.tar.gz]
+[2023-07-05 04:26:14] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-07-05 04:26:20] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-05 04:26:20] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-05 04:26:20] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-05 04:26:20] INFO root fetch - main [MainThread]: Store serial: [18762178]
