@@ -5041,3 +5041,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 03:03:25] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-07-05 03:03:25] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-07-05 03:03:25] INFO root fetch - main [MainThread]: Store serial: [18761730]
+[2023-07-05 03:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18761730]
+[2023-07-05 03:08:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t265
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-organizations
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dimjournal
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bosch-alarm-mode2
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3d
+[2023-07-05 03:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bioversions
+[2023-07-05 03:08:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-05 03:08:34] INFO root fetch - processPackages [bosch-alarm-mode2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 03:08:34] INFO root fetch - processPackages [t265]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 03:08:34] INFO root fetch - processPackages [edc]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-05 03:08:34] WARNING root fetch - processPackages [dimjournal]: Skipping, unable to determine old version
+[2023-07-05 03:08:34] INFO root fetch - main [MainThread]: End processing [dimjournal] error
+[2023-07-05 03:08:34] INFO root fetch - processPackages [py3d]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-05 03:08:34] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-05 03:08:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/1a/5b/9f9d18de5bd4f575be44177fcba1f268ebbc102892e6ecb4aae96ece9af2/t265-0.1.0.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/59/5e/7cbf2ad6d8f9b4667e432b6ebd8b4de668f4e0c416e097376b59d53cc31e/bosch_alarm_mode2-0.3.8.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/ea/66/0544194bde52c29d1fede8b5e32ff627a09ff3201579a7b5857991f6086c/py3d-0.1.7.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/dd/9a/e985387683e0b5258d8f18b41a204195975d67b9d57a2fa815f7fecbbdf7/edc-0.5.1.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [t265]: Downloading https://files.pythonhosted.org/packages/ef/36/b6ea1d249f97a5a16b0b29d58464e5b489bfee46a277a82e2d75316dde32/t265-0.1.1.tar.gz
+[2023-07-05 03:08:34] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-05 03:08:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-05 03:08:35] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230705/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-05 03:08:35] INFO root fetch - processPackages [bosch-alarm-mode2]: Downloading https://files.pythonhosted.org/packages/84/e7/a45d441636d4387b2da27858b0346c247762861434e8cb8a86ddc2b0660f/bosch_alarm_mode2-0.3.9.tar.gz
+[2023-07-05 03:08:35] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/ed/a9/a05c44c1c9aa694e130c9d19cdc9859cfe777d1cd54002e7af34b37a840d/py3d-0.1.8.tar.gz
+[2023-07-05 03:08:35] INFO root fetch - processPackages [t265]: executing diffoscope
+[2023-07-05 03:08:35] INFO root fetch - processPackages [t265]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t265-0.1.0.tar.gz tmp/t265-0.1.1.tar.gz --markdown 20230705/t/t265/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 03:08:35] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/84/71/72c00675c20bfb4ab1a8ab758afe41efe2e9f65fc7a43c18807539c7fd75/edc-0.5.2.tar.gz
+[2023-07-05 03:08:35] INFO root fetch - processPackages [bosch-alarm-mode2]: executing diffoscope
+[2023-07-05 03:08:35] INFO root fetch - processPackages [bosch-alarm-mode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch_alarm_mode2-0.3.8.tar.gz tmp/bosch_alarm_mode2-0.3.9.tar.gz --markdown 20230705/b/bosch-alarm-mode2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 03:08:35] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-07-05 03:08:35] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.7.tar.gz tmp/py3d-0.1.8.tar.gz --markdown 20230705/p/py3d/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-05 03:08:35] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-07-05 03:08:35] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.1.tar.gz tmp/edc-0.5.2.tar.gz --markdown 20230705/e/edc/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-05 03:08:35] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-05 03:08:35] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230705/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-05 03:08:36] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.0.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - processPackages [t265]: Remove: archive file [/home/abi/fetcher/tmp/t265-0.1.1.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - main [MainThread]: End processing [t265]: success
+[2023-07-05 03:08:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-05 03:08:36] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.7.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.8.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-07-05 03:08:36] INFO root fetch - processPackages [bosch-alarm-mode2]: Remove: archive file [/home/abi/fetcher/tmp/bosch_alarm_mode2-0.3.8.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - processPackages [bosch-alarm-mode2]: Remove: archive file [/home/abi/fetcher/tmp/bosch_alarm_mode2-0.3.9.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - main [MainThread]: End processing [bosch-alarm-mode2]: success
+[2023-07-05 03:08:36] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.1.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.2.tar.gz]
+[2023-07-05 03:08:36] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-07-05 03:08:54] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-05 03:08:54] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-05 03:08:54] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-05 03:08:54] INFO root fetch - main [MainThread]: Store serial: [18761754]
