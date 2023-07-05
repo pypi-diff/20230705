@@ -20132,3 +20132,182 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:06:11] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.2-py3-none-win_amd64.whl.zip]
 [2023-07-05 16:06:11] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
 [2023-07-05 16:06:11] INFO root fetch - main [MainThread]: Store serial: [18768279]
+[2023-07-05 16:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768279]
+[2023-07-05 16:11:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trailml
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pasqal-cloud
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuNet
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osgpy
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pretix-invoice-net
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irene-pro
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remotivelabs-cli
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multimodal-autoencoders
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apysc
+[2023-07-05 16:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: policyengine-il
+[2023-07-05 16:11:20] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [multimodal-autoencoders]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [irene-pro]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [apysc]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [pretix-invoice-net]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [osgpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-05 16:11:20] WARNING root fetch - processPackages [policyengine-il]: Skipping, unable to determine old version
+[2023-07-05 16:11:20] INFO root fetch - processPackages [policyengine-il]: Start processing: azaka
+[2023-07-05 16:11:20] INFO root fetch - main [MainThread]: End processing [policyengine-il] error
+[2023-07-05 16:11:20] INFO root fetch - processPackages [trailml]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 16:11:20] INFO root fetch - processPackages [pasqal-cloud]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-05 16:11:21] INFO root fetch - processPackages [multimodal-autoencoders]: Downloading https://files.pythonhosted.org/packages/40/d8/56ed0024f5d5c7b2aa8a377e978073021d13413b87e9b5ede2699a8fb01b/multimodal_autoencoders-0.2.1.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/b0/25/07e0ec1e8c07e8caba58d053f4308a25a2bd3f8b19fdfc7f010344fafa47/irene_pro-0.0.82.tar.gz
+[2023-07-05 16:11:21] WARNING root fetch - processPackages [azaka]: Skipping, unable to determine old version
+[2023-07-05 16:11:21] INFO root fetch - processPackages [azaka]: Start processing: abin-sim
+[2023-07-05 16:11:21] INFO root fetch - main [MainThread]: End processing [azaka] error
+[2023-07-05 16:11:21] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/33/90/1ef4a94e7b98caf68e36cffc258ac43b494ac521789a79a0027b0d407750/apysc-3.1.8.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-05 16:11:21] INFO root fetch - processPackages [pretix-invoice-net]: Downloading https://files.pythonhosted.org/packages/f9/7b/d8c4ede04c992ba575ee2b3f5627506b49455df789ee1a74c57a7a12fa8a/pretix-invoice-net-1.0.3.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [abin-sim]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-05 16:11:21] INFO root fetch - processPackages [osgpy]: Downloading https://files.pythonhosted.org/packages/43/27/d92b76bf4dbbfe2f7aaff0d2d3a9fea9dcbd1ace221a8f08c789b012e064/osgpy-0.1.4-py3-none-any.whl
+[2023-07-05 16:11:21] INFO root fetch - processPackages [trailml]: Downloading https://files.pythonhosted.org/packages/fb/b7/ebd9e4c02ea4776763a71134583f19809845f6e2a0f006b2ab034c2a34cf/trailml-1.0.1.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/0c/ec/a94370df2f087db192b0f5e77406043595ee4f24fc1d7b7a928d64050b1d/pasqal-cloud-0.3.2.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [multimodal-autoencoders]: Downloading https://files.pythonhosted.org/packages/7e/2d/5461477adb247e9b6943050cbd43036bdf175a22072e97f56461f08d9563/multimodal_autoencoders-0.2.2.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/88/bf/40579474110ab86897c2b0db5930ef686ce4a95a1d25b0694f14aaea49aa/apysc-3.1.9.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/57/cf/3534b26cc5a0a36c2c1973d2f35e5e3db33e5ed5fb1d97eb229e63b3dba4/irene_pro-0.0.83.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [abin-sim]: Downloading https://files.pythonhosted.org/packages/55/1d/91c32fcc6d4826cf97eb44c13de45bc5842bf2e4b11b122867faa70513c0/abin_sim-1.1.1.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [multimodal-autoencoders]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [multimodal-autoencoders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimodal_autoencoders-0.2.1.tar.gz tmp/multimodal_autoencoders-0.2.2.tar.gz --markdown 20230705/m/multimodal-autoencoders/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-05 16:11:21] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-05 16:11:21] INFO root fetch - processPackages [pretix-invoice-net]: Downloading https://files.pythonhosted.org/packages/eb/53/3d5ba96f6b185c822aebe697baf63f482232bffa37e166429a6f23676846/pretix-invoice-net-1.0.4.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.82.tar.gz tmp/irene_pro-0.0.83.tar.gz --markdown 20230705/i/irene-pro/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-07-05 16:11:21] INFO root fetch - processPackages [osgpy]: Downloading https://files.pythonhosted.org/packages/b2/bd/ed4a43159f0f547ed25ef60951bd55e94532b20c629a4ff102fca26fad3c/osgpy-0.1.5-py3-none-any.whl
+[2023-07-05 16:11:21] INFO root fetch - processPackages [trailml]: Downloading https://files.pythonhosted.org/packages/23/41/117b91976950057a27b6731227c3972262efd52f2ead0a037c4057dae0b6/trailml-1.0.2.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [pasqal-cloud]: Downloading https://files.pythonhosted.org/packages/81/72/9a4ffda34b7a7a53bdad490f26e9b48461235adedf612504eb5aaf805d9f/pasqal-cloud-0.3.3.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.1.8.tar.gz tmp/apysc-3.1.9.tar.gz --markdown 20230705/a/apysc/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-05 16:11:21] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230705/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 16:11:21] INFO root fetch - processPackages [osgpy]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [osgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osgpy-0.1.4-py3-none-any.whl.zip tmp/osgpy-0.1.5-py3-none-any.whl.zip --markdown 20230705/o/osgpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-05 16:11:21] INFO root fetch - processPackages [trailml]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [trailml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailml-1.0.1.tar.gz tmp/trailml-1.0.2.tar.gz --markdown 20230705/t/trailml/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 16:11:21] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-05 16:11:21] INFO root fetch - processPackages [pretix-invoice-net]: executing diffoscope
+[2023-07-05 16:11:21] INFO root fetch - processPackages [pretix-invoice-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-invoice-net-1.0.3.tar.gz tmp/pretix-invoice-net-1.0.4.tar.gz --markdown 20230705/p/pretix-invoice-net/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-05 16:11:22] INFO root fetch - processPackages [pasqal-cloud]: executing diffoscope
+[2023-07-05 16:11:22] INFO root fetch - processPackages [pasqal-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasqal-cloud-0.3.2.tar.gz tmp/pasqal-cloud-0.3.3.tar.gz --markdown 20230705/p/pasqal-cloud/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-05 16:11:22] INFO root fetch - processPackages [abin-sim]: Downloading https://files.pythonhosted.org/packages/79/fc/0207f68ce34e78ae8ded0dfa5d57e45f636fd54bf0ebff3ff3aa6208f5e4/abin_sim-1.1.2.tar.gz
+[2023-07-05 16:11:22] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-05 16:11:22] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230705/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-05 16:11:22] INFO root fetch - processPackages [abin-sim]: executing diffoscope
+[2023-07-05 16:11:22] INFO root fetch - processPackages [abin-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abin_sim-1.1.1.tar.gz tmp/abin_sim-1.1.2.tar.gz --markdown 20230705/a/abin-sim/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-05 16:11:23] INFO root fetch - processPackages [multimodal-autoencoders]: Remove: archive file [/home/abi/fetcher/tmp/multimodal_autoencoders-0.2.1.tar.gz]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [multimodal-autoencoders]: Remove: archive file [/home/abi/fetcher/tmp/multimodal_autoencoders-0.2.2.tar.gz]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [multimodal-autoencoders]: Start processing: curia
+[2023-07-05 16:11:23] INFO root fetch - main [MainThread]: End processing [multimodal-autoencoders]: success
+[2023-07-05 16:11:23] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.82.tar.gz]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.83.tar.gz]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [irene-pro]: Start processing: asciinema
+[2023-07-05 16:11:23] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-05 16:11:23] INFO root fetch - processPackages [curia]: New version: [4.3.0b1] Old Version: [4.2.3b2]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [asciinema]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [osgpy]: Remove: archive file [/home/abi/fetcher/tmp/osgpy-0.1.4-py3-none-any.whl.zip]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [osgpy]: Remove: archive file [/home/abi/fetcher/tmp/osgpy-0.1.5-py3-none-any.whl.zip]
+[2023-07-05 16:11:23] INFO root fetch - processPackages [osgpy]: Start processing: directory-api-client
+[2023-07-05 16:11:23] INFO root fetch - main [MainThread]: End processing [osgpy]: success
+[2023-07-05 16:11:23] INFO root fetch - processPackages [directory-api-client]: New version: [9.17.0] Old Version: [9.16.0]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [asciinema]: Downloading https://files.pythonhosted.org/packages/26/40/20891ed2770311c22543499a011906858bb12450bf46bd6d763f39da0002/asciinema-2.2.0.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/1e/69/96cd730b1d1e10de95cab24a8c2ad0d7026debfc72f1afcd974bc301ca09/directory_api_client-9.16.0-py3-none-any.whl
+[2023-07-05 16:11:24] INFO root fetch - processPackages [trailml]: Remove: archive file [/home/abi/fetcher/tmp/trailml-1.0.1.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [trailml]: Remove: archive file [/home/abi/fetcher/tmp/trailml-1.0.2.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [trailml]: Start processing: cybrid-api-id-python
+[2023-07-05 16:11:24] INFO root fetch - main [MainThread]: End processing [trailml]: success
+[2023-07-05 16:11:24] INFO root fetch - processPackages [abin-sim]: Remove: archive file [/home/abi/fetcher/tmp/abin_sim-1.1.1.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [abin-sim]: Remove: archive file [/home/abi/fetcher/tmp/abin_sim-1.1.2.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [abin-sim]: Start processing: cybrid-api-bank-python
+[2023-07-05 16:11:24] INFO root fetch - main [MainThread]: End processing [abin-sim]: success
+[2023-07-05 16:11:24] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [curia]: Downloading https://files.pythonhosted.org/packages/d1/14/9d344caced17130ff86021e2a2c084eb3f7711b0a58a034e4d50f709c568/curia-4.3.0b1.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [QuNet]: Start processing: pretix-invoice-net
+[2023-07-05 16:11:24] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pretix-invoice-net]: Remove: archive file [/home/abi/fetcher/tmp/pretix-invoice-net-1.0.3.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pretix-invoice-net]: Remove: archive file [/home/abi/fetcher/tmp/pretix-invoice-net-1.0.4.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pretix-invoice-net]: Start processing: cybrid-api-organization-python
+[2023-07-05 16:11:24] INFO root fetch - main [MainThread]: End processing [pretix-invoice-net]: success
+[2023-07-05 16:11:24] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [remotivelabs-cli]: Start processing: pilmoji
+[2023-07-05 16:11:24] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.2.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pasqal-cloud]: Remove: archive file [/home/abi/fetcher/tmp/pasqal-cloud-0.3.3.tar.gz]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pasqal-cloud]: Start processing: qwak-core
+[2023-07-05 16:11:24] INFO root fetch - main [MainThread]: End processing [pasqal-cloud]: success
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pretix-invoice-net]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [directory-api-client]: Downloading https://files.pythonhosted.org/packages/52/85/2f3191f81cb23b1eedb870fab1c978f87574116c71a64471af24e75db35d/directory_api_client-9.17.0-py3-none-any.whl
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pretix-invoice-net]: Downloading https://files.pythonhosted.org/packages/f9/7b/d8c4ede04c992ba575ee2b3f5627506b49455df789ee1a74c57a7a12fa8a/pretix-invoice-net-1.0.3.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pilmoji]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-05 16:11:24] INFO root fetch - processPackages [curia]: executing diffoscope
+[2023-07-05 16:11:24] INFO root fetch - processPackages [curia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curia-4.2.3b2.tar.gz tmp/curia-4.3.0b1.tar.gz --markdown 20230705/c/curia/4.2.3b2-4.3.0b1/diff.md --exclude *.pyd
+[2023-07-05 16:11:24] INFO root fetch - processPackages [asciinema]: Downloading https://files.pythonhosted.org/packages/2b/78/b57985f4efe85e1b49a7ec48fd0f876f75937ae541740c5589754d6164a9/asciinema-2.3.0.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [directory-api-client]: executing diffoscope
+[2023-07-05 16:11:24] INFO root fetch - processPackages [directory-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directory_api_client-9.16.0-py3-none-any.whl.zip tmp/directory_api_client-9.17.0-py3-none-any.whl.zip --markdown 20230705/d/directory-api-client/9.16.0-9.17.0/diff.md --exclude *.pyd
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pilmoji]: Downloading https://files.pythonhosted.org/packages/66/9f/a29152c2c115a26c4ab3d005d5dfa1eec339aae4b121f2b2c17f0816dfaa/pilmoji-2.0.2.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [asciinema]: executing diffoscope
+[2023-07-05 16:11:24] INFO root fetch - processPackages [asciinema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asciinema-2.2.0.tar.gz tmp/asciinema-2.3.0.tar.gz --markdown 20230705/a/asciinema/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [pretix-invoice-net]: Downloading https://files.pythonhosted.org/packages/eb/53/3d5ba96f6b185c822aebe697baf63f482232bffa37e166429a6f23676846/pretix-invoice-net-1.0.4.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-05 16:11:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-05 16:11:25] INFO root fetch - processPackages [pretix-invoice-net]: executing diffoscope
+[2023-07-05 16:11:25] INFO root fetch - processPackages [pretix-invoice-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-invoice-net-1.0.3.tar.gz tmp/pretix-invoice-net-1.0.4.tar.gz --markdown 20230705/p/pretix-invoice-net/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-05 16:11:25] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-05 16:11:25] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230705/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 16:11:25] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-05 16:11:25] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230705/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 16:11:25] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-05 16:11:25] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230705/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 16:11:25] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-05 16:11:25] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230705/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-05 16:11:25] INFO root fetch - processPackages [pilmoji]: Downloading https://files.pythonhosted.org/packages/64/0a/1be67e16f6d56d0f74f8182a66cc4c6e8cf2122eaf6ee01df2bad9af4df0/pilmoji-2.0.3-py3-none-any.whl
+[2023-07-05 16:11:25] INFO root fetch - processPackages [pilmoji]: executing diffoscope
+[2023-07-05 16:11:25] INFO root fetch - processPackages [pilmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilmoji-2.0.2.tar.gz tmp/pilmoji-2.0.3-py3-none-any.whl.zip --markdown 20230705/p/pilmoji/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-05 16:11:25] INFO root fetch - processPackages [curia]: Remove: archive file [/home/abi/fetcher/tmp/curia-4.2.3b2.tar.gz]
+[2023-07-05 16:11:25] INFO root fetch - processPackages [curia]: Remove: archive file [/home/abi/fetcher/tmp/curia-4.3.0b1.tar.gz]
+[2023-07-05 16:11:25] INFO root fetch - main [MainThread]: End processing [curia]: success
+[2023-07-05 16:11:26] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.16.0-py3-none-any.whl.zip]
+[2023-07-05 16:11:26] INFO root fetch - processPackages [directory-api-client]: Remove: archive file [/home/abi/fetcher/tmp/directory_api_client-9.17.0-py3-none-any.whl.zip]
+[2023-07-05 16:11:26] INFO root fetch - main [MainThread]: End processing [directory-api-client]: success
+[2023-07-05 16:11:26] INFO root fetch - processPackages [pretix-invoice-net]: Remove: archive file [/home/abi/fetcher/tmp/pretix-invoice-net-1.0.3.tar.gz]
+[2023-07-05 16:11:26] INFO root fetch - processPackages [pretix-invoice-net]: Remove: archive file [/home/abi/fetcher/tmp/pretix-invoice-net-1.0.4.tar.gz]
+[2023-07-05 16:11:26] INFO root fetch - main [MainThread]: End processing [pretix-invoice-net]: success
+[2023-07-05 16:11:26] INFO root fetch - processPackages [asciinema]: Remove: archive file [/home/abi/fetcher/tmp/asciinema-2.2.0.tar.gz]
+[2023-07-05 16:11:26] INFO root fetch - processPackages [asciinema]: Remove: archive file [/home/abi/fetcher/tmp/asciinema-2.3.0.tar.gz]
+[2023-07-05 16:11:26] INFO root fetch - main [MainThread]: End processing [asciinema]: success
+[2023-07-05 16:11:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-05 16:11:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-05 16:11:27] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-05 16:11:27] INFO root fetch - processPackages [pilmoji]: Remove: archive file [/home/abi/fetcher/tmp/pilmoji-2.0.2.tar.gz]
+[2023-07-05 16:11:27] INFO root fetch - processPackages [pilmoji]: Remove: archive file [/home/abi/fetcher/tmp/pilmoji-2.0.3-py3-none-any.whl.zip]
+[2023-07-05 16:11:27] INFO root fetch - main [MainThread]: End processing [pilmoji]: success
+[2023-07-05 16:11:27] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-05 16:11:27] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-05 16:11:27] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-05 16:11:28] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-05 16:11:28] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-05 16:11:28] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-05 16:11:28] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.8.tar.gz]
+[2023-07-05 16:11:28] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.1.9.tar.gz]
+[2023-07-05 16:11:28] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-05 16:11:29] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-05 16:11:29] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-05 16:11:29] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-05 16:11:29] INFO root fetch - main [MainThread]: Store serial: [18768344]
