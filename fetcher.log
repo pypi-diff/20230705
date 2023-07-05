@@ -15254,3 +15254,227 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:04:19] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
 [2023-07-05 13:04:19] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-07-05 13:04:19] INFO root fetch - main [MainThread]: Store serial: [18766093]
+[2023-07-05 13:09:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766093]
+[2023-07-05 13:09:28] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psqlpandas
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchgha
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-nightly-cuda110
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reqmgr2ms-rulecleaner
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acdcserver
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: global-workqueue
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reqmgr2ms-pileup
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmcore
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reqmgr2ms-unmerged
+[2023-07-05 13:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reqmgr2
+[2023-07-05 13:09:28] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [psqlpandas]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [acdcserver]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [wmcore]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [watchgha]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.28.0.dev20230704] Old Version: [1.28.0.dev20230703]
+[2023-07-05 13:09:28] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/75/2e/b27fa2172c9cb25947a0895a08f099b2ec04c84252e0463f4a402e894357/psqlpandas-1.2.2.tar.gz
+[2023-07-05 13:09:28] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/9f/5a/c0f3a33f6837bf886d1ee50eb6d36be5a74752c4a63b15998ac1257be8fa/reqmgr2-2.2.2rc2.tar.gz
+[2023-07-05 13:09:28] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/9e/c1/210efbb368e4d0f165283fb2bdf59c0dcc73717719d326cc498903171cd4/reqmgr2ms-pileup-2.2.2rc2.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/03/63/e06d1dff3e49277f7044cb6412c325b95cccff1068f32ce1f7c1a6074df1/reqmgr2ms-rulecleaner-2.2.2rc2.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/62/56/151ab7138e253eeea255e3861a7a683d692f2cef7de718263cf7247c9b60/wmcore-2.2.2rc2.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/86/06/a6d35f860a5c1fd74093a822d4432303dc1c4aff88909cc407409aa54b51/acdcserver-2.2.2rc2.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/f7/de/845dd209b400685d2e54ac0e0d818cae7c4cdc3ba608be66dc1d675fb51f/global-workqueue-2.2.2rc2.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/a2/83/8593e3dae42d92cb8149b0d657f5c09edcab37ac3f48129f5d026c448265/reqmgr2ms-unmerged-2.2.2rc2.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [watchgha]: Downloading https://files.pythonhosted.org/packages/1d/dc/d804626181ab3294e48835f5ddd360ad7b90a3eba624301aba956e51dac1/watchgha-2.0.0.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/2d/2f/05a7993c5a46648d5412dfcb93b9ea31d88229b9d71ba38c237d55544559/nvidia-dali-nightly-cuda110-1.28.0.dev20230703.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/43/56/df458c2ea6fb39534ad9d417bf1eaa30a81bb801473e416691a3cee0002d/psqlpandas-1.2.3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [watchgha]: Downloading https://files.pythonhosted.org/packages/7c/c0/77b841d72f792c2c5e70d863ed7ce4c980be33abc9ec916ca7d03bcf5afb/watchgha-2.1.0.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/ca/ab/b968f82f4aa7e812bbffe3ad042e8ea602c75f7129c752c27c314621206a/reqmgr2ms-pileup-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/31/dd/f46ce918461d9a8d66491db898a2ddac0a7e97572cde9aa965e0cb209160/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [psqlpandas]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [psqlpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psqlpandas-1.2.2.tar.gz tmp/psqlpandas-1.2.3.tar.gz --markdown 20230705/p/psqlpandas/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/cd/b3/1063c779f56a7ba8c1ca308b8af4d1d7ca1f35df463856efbbde1e1bc394/reqmgr2ms-unmerged-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/14/2e/03559e20f34652e794f5a4e3c28ab21a56947fd504b354d93be6931d0231/nvidia-dali-nightly-cuda110-1.28.0.dev20230704.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/ff/6e/f047dd815744f71649cf34150a224a1ebe403988bf0c88a66f8dc4c56610/reqmgr2-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/72/aa/046767980a1039eec57a603cc884ee348d1eab9d013dccde19b1a4d0acad/global-workqueue-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/7b/e3/4e15aa11c7628190a047ae5cc5b7b32801f89eff131dec795addd15b5468/acdcserver-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [watchgha]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [watchgha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchgha-2.0.0.tar.gz tmp/watchgha-2.1.0.tar.gz --markdown 20230705/w/watchgha/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.2rc2.tar.gz tmp/reqmgr2ms-pileup-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2ms-pileup/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/ab/c1/253374af5e5bbeb814bf27ec0e47ca51c8d98eebbfe907561ac79e470a95/wmcore-2.2.2rc3.tar.gz
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.2rc2.tar.gz tmp/reqmgr2ms-unmerged-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2ms-unmerged/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230703.tar.gz tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230704.tar.gz --markdown 20230705/n/nvidia-dali-nightly-cuda110/1.28.0.dev20230703-1.28.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.2rc2.tar.gz tmp/global-workqueue-2.2.2rc3.tar.gz --markdown 20230705/g/global-workqueue/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.2rc2.tar.gz tmp/acdcserver-2.2.2rc3.tar.gz --markdown 20230705/a/acdcserver/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-07-05 13:09:29] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.2rc2.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2ms-rulecleaner/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:30] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-07-05 13:09:30] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.2rc2.tar.gz tmp/reqmgr2-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:30] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-07-05 13:09:30] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.2rc2.tar.gz tmp/wmcore-2.2.2rc3.tar.gz --markdown 20230705/w/wmcore/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:31] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.2.tar.gz]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.3.tar.gz]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [psqlpandas]: Start processing: wmagent
+[2023-07-05 13:09:31] INFO root fetch - main [MainThread]: End processing [psqlpandas]: success
+[2023-07-05 13:09:31] INFO root fetch - processPackages [wmagent]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/58/ab/ea7cfab90a7a3bca84bff9142dcc52d6913e1ca5794f2addd0a867a15b52/wmagent-2.2.2rc2.tar.gz
+[2023-07-05 13:09:31] INFO root fetch - processPackages [watchgha]: Remove: archive file [/home/abi/fetcher/tmp/watchgha-2.0.0.tar.gz]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [watchgha]: Remove: archive file [/home/abi/fetcher/tmp/watchgha-2.1.0.tar.gz]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [watchgha]: Start processing: reqmgr2ms-monitor
+[2023-07-05 13:09:31] INFO root fetch - main [MainThread]: End processing [watchgha]: success
+[2023-07-05 13:09:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230703.tar.gz]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230704.tar.gz]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Start processing: reqmgr2ms-transferor
+[2023-07-05 13:09:31] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-07-05 13:09:31] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:31] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/19/84/e6d56841e56c3d09498974236d3022d56d0c3733a4328215990da8df0697/reqmgr2ms-monitor-2.2.2rc2.tar.gz
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/42/86/ec8624a1dfa4664da4544a4310a47e009b81a20776a5dbf24cc884e1affe/reqmgr2ms-transferor-2.2.2rc2.tar.gz
+[2023-07-05 13:09:32] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/ce/ee/986d157becd13f36acda2a398ba0e15b5f471bb9f7721c45de1116f64914/wmagent-2.2.2rc3.tar.gz
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/df/84/da7d2292bd47df8f7eb465c5b72f475b2f3cc9d0c0f9371d5a0205d65a45/reqmgr2ms-monitor-2.2.2rc3.tar.gz
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/95/0a/281597b841df4a4ef4fd7f70a4c8c6c9f41efdf23ae8452deceb220919a8/reqmgr2ms-transferor-2.2.2rc3.tar.gz
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.2rc2.tar.gz tmp/reqmgr2ms-monitor-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2ms-monitor/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:32] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:32] INFO root fetch - processPackages [acdcserver]: Remove: archive file [/home/abi/fetcher/tmp/acdcserver-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:32] INFO root fetch - processPackages [acdcserver]: Start processing: wmagent-devtools
+[2023-07-05 13:09:32] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-07-05 13:09:32] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-07-05 13:09:32] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.2rc2.tar.gz tmp/wmagent-2.2.2rc3.tar.gz --markdown 20230705/w/wmagent/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:32] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-07-05 13:09:32] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.2rc2.tar.gz tmp/reqmgr2ms-transferor-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2ms-transferor/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:33] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/d5/cc/cb9ef97ae4613562ad0a025d6b22e0135df9250b4f5fd6f9d671aa68c3b5/wmagent-devtools-2.2.2rc2.tar.gz
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-pileup]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-pileup-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-pileup]: Start processing: reqmon
+[2023-07-05 13:09:33] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11430122>=10485760
+[2023-07-05 13:09:33] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-07-05 13:09:33] INFO root fetch - processPackages [wmagent-devtools]: Start processing: reqmgr2ms-output
+[2023-07-05 13:09:33] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-unmerged-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: mscales
+[2023-07-05 13:09:33] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-rulecleaner-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Start processing: utils-bs-test
+[2023-07-05 13:09:33] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmon]: New version: [2.2.2rc3] Old Version: [2.2.2rc2]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [utils-bs-test]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [mscales]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-05 13:09:33] INFO root fetch - processPackages [mscales]: Downloading https://files.pythonhosted.org/packages/ab/2d/29864cb86063811847dba360edd9c4b9c018b7b38a934cd3134f9da849c3/mscales-1.3.3.tar.gz
+[2023-07-05 13:09:33] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/78/01/d3d9656a7d9048b7feabb3cb01b7331aaf2b2f756621d9fa83706e58a0a8/reqmgr2ms-output-2.2.2rc2.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [utils-bs-test]: Downloading https://files.pythonhosted.org/packages/34/74/da697b37bd98f6e0f18d03170287c6854b78d8fa2b5a1e3ee64b008e9d81/utils_bs_test-1.0.0.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/57/de/2acd2f59ec657c41f11f6dfab00c39901d91389efeffdb85dbd78a392a6c/reqmon-2.2.2rc2.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [mscales]: Downloading https://files.pythonhosted.org/packages/f9/0e/63e90373023d2443ef57b7a9acb66c3b6d3edbc9c31fe5c3921fab7ac7dd/mscales-1.3.4.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [mscales]: executing diffoscope
+[2023-07-05 13:09:34] INFO root fetch - processPackages [mscales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mscales-1.3.3.tar.gz tmp/mscales-1.3.4.tar.gz --markdown 20230705/m/mscales/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/eb/ee/86a3ff65fe2424cb60d609d30b7fcd1c8b9049c92f3b0721854de58c1163/reqmgr2ms-output-2.2.2rc3.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:34] INFO root fetch - processPackages [global-workqueue]: Remove: archive file [/home/abi/fetcher/tmp/global-workqueue-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:34] INFO root fetch - processPackages [global-workqueue]: Start processing: meta-example
+[2023-07-05 13:09:34] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-07-05 13:09:34] INFO root fetch - processPackages [utils-bs-test]: Downloading https://files.pythonhosted.org/packages/23/8d/864da4154c53459861bec472c85caed4fdf9a692b346b7eb801f08faef80/utils_bs_test-1.0.1-py3-none-any.whl
+[2023-07-05 13:09:34] INFO root fetch - processPackages [meta-example]: New version: [2.2.2] Old Version: [0.0.5]
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/18/17/4a1c51eafa0aee14b5e9152114ef8241f683a45d78a68b92f920e202afed/reqmon-2.2.2rc3.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [utils-bs-test]: executing diffoscope
+[2023-07-05 13:09:34] INFO root fetch - processPackages [utils-bs-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_bs_test-1.0.0.tar.gz tmp/utils_bs_test-1.0.1-py3-none-any.whl.zip --markdown 20230705/u/utils-bs-test/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.2rc2.tar.gz tmp/reqmgr2ms-output-2.2.2rc3.tar.gz --markdown 20230705/r/reqmgr2ms-output/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:34] INFO root fetch - processPackages [meta-example]: Downloading https://files.pythonhosted.org/packages/3f/4a/26219380e0ca1e7209053951e58195c62edcc6f062213bd15560b4c124f3/meta-example-0.0.5.tar.gz
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-07-05 13:09:34] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.2rc2.tar.gz tmp/reqmon-2.2.2rc3.tar.gz --markdown 20230705/r/reqmon/2.2.2rc2-2.2.2rc3/diff.md --exclude *.pyd
+[2023-07-05 13:09:35] INFO root fetch - processPackages [meta-example]: Downloading https://files.pythonhosted.org/packages/92/a4/2be25276d83796a02c419bd883c83542eb08ec47bb7a7ddae166c9c030bf/meta-example-0.0.6.tar.gz
+[2023-07-05 13:09:35] INFO root fetch - processPackages [meta-example]: executing diffoscope
+[2023-07-05 13:09:35] INFO root fetch - processPackages [meta-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-example-0.0.5.tar.gz tmp/meta-example-0.0.6.tar.gz --markdown 20230705/m/meta-example/0.0.5-2.2.2/diff.md --exclude *.pyd
+[2023-07-05 13:09:36] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [reqmgr2ms-monitor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-monitor-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: tier-sdk
+[2023-07-05 13:09:36] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-07-05 13:09:36] INFO root fetch - processPackages [tier-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [utils-bs-test]: Remove: archive file [/home/abi/fetcher/tmp/utils_bs_test-1.0.0.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [utils-bs-test]: Remove: archive file [/home/abi/fetcher/tmp/utils_bs_test-1.0.1-py3-none-any.whl.zip]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [utils-bs-test]: Start processing: innerverz
+[2023-07-05 13:09:36] INFO root fetch - main [MainThread]: End processing [utils-bs-test]: success
+[2023-07-05 13:09:36] INFO root fetch - processPackages [mscales]: Remove: archive file [/home/abi/fetcher/tmp/mscales-1.3.3.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [mscales]: Remove: archive file [/home/abi/fetcher/tmp/mscales-1.3.4.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [mscales]: Start processing: modelDrivenRpa
+[2023-07-05 13:09:36] INFO root fetch - main [MainThread]: End processing [mscales]: success
+[2023-07-05 13:09:36] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [reqmgr2ms-transferor]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-transferor-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [reqmgr2ms-transferor]: Start processing: dataplicity
+[2023-07-05 13:09:36] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-07-05 13:09:36] INFO root fetch - processPackages [innerverz]: New version: [0.0.36] Old Version: [0.0.35.2]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [modelDrivenRpa]: New version: [1.3] Old Version: [1.2]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [tier-sdk]: Downloading https://files.pythonhosted.org/packages/e0/54/0adb37578433da28d3685b52789ac8524cf79a799f200555fa67531f53cc/tier_sdk-0.1.1.tar.gz
+[2023-07-05 13:09:36] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-05 13:09:36] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/07/87/b79a93410b57fec3d278fcda453f67bcb8b8c3c050c6387b799da340b815/innerverz-0.0.35.2.tar.gz
+[2023-07-05 13:09:36] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/c7/44/5c27a692e23224159e72cf20842b8fe5ac707b4bcaaecd4d892719e3f1fe/modelDrivenRpa-1.2.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [meta-example]: Remove: archive file [/home/abi/fetcher/tmp/meta-example-0.0.5.tar.gz]
+[2023-07-05 13:09:37] INFO root fetch - processPackages [meta-example]: Remove: archive file [/home/abi/fetcher/tmp/meta-example-0.0.6.tar.gz]
+[2023-07-05 13:09:37] INFO root fetch - processPackages [meta-example]: Start processing: dsna-complete
+[2023-07-05 13:09:37] INFO root fetch - main [MainThread]: End processing [meta-example]: success
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dsna-complete]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 13:09:37] INFO root fetch - processPackages [tier-sdk]: Downloading https://files.pythonhosted.org/packages/da/e4/6229a74d47275e8e30e530a79fd7691d44273c48d4047ce4f1ac62239f93/tier_sdk-0.1.2.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/4d/2d/cec3fbd8e2f089fcc7edf2c02a84bbfa7c1c08e2e75cdd3d228ee00b7591/dsna_complete-0.0.3.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [tier-sdk]: executing diffoscope
+[2023-07-05 13:09:37] INFO root fetch - processPackages [tier-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tier_sdk-0.1.1.tar.gz tmp/tier_sdk-0.1.2.tar.gz --markdown 20230705/t/tier-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230705/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-05 13:09:37] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/a7/3d/fe4348135094f4191aa50185be0deca2ae645c81a0125197ae16f702a10f/innerverz-0.0.36.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [modelDrivenRpa]: Downloading https://files.pythonhosted.org/packages/7e/68/15951c55cb008f48c5a8606c773da7ac7fdc5a8054dfff9ca6e9c1526b0a/modelDrivenRpa-1.3.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [modelDrivenRpa]: executing diffoscope
+[2023-07-05 13:09:37] INFO root fetch - processPackages [modelDrivenRpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelDrivenRpa-1.2.tar.gz tmp/modelDrivenRpa-1.3.tar.gz --markdown 20230705/m/modelDrivenRpa/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-05 13:09:37] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-05 13:09:37] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.0.35.2.tar.gz tmp/innerverz-0.0.36.tar.gz --markdown 20230705/i/innerverz/0.0.35.2-0.0.36/diff.md --exclude *.pyd
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dsna-complete]: Downloading https://files.pythonhosted.org/packages/2b/97/e3aef077759cafa431fe352e6588c8baf9814c83c2077a206f511bd1352e/dsna_complete-0.0.4.tar.gz
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dsna-complete]: executing diffoscope
+[2023-07-05 13:09:37] INFO root fetch - processPackages [dsna-complete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsna_complete-0.0.3.tar.gz tmp/dsna_complete-0.0.4.tar.gz --markdown 20230705/d/dsna-complete/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 13:09:38] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:38] INFO root fetch - processPackages [reqmgr2ms-output]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2ms-output-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:38] INFO root fetch - processPackages [reqmgr2ms-output]: Start processing: android-sdk-platform-tools-supporter
+[2023-07-05 13:09:38] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-07-05 13:09:38] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 13:09:38] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:38] INFO root fetch - processPackages [reqmgr2]: Remove: archive file [/home/abi/fetcher/tmp/reqmgr2-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:38] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-07-05 13:09:38] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/3d/b5/f3b48d0eb60ff6c8053238f165a38d5604a97771dccff543f38d82b4e603/android-sdk-platform-tools-supporter-0.0.1.tar.gz
+[2023-07-05 13:09:39] INFO root fetch - processPackages [tier-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tier_sdk-0.1.1.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - processPackages [tier-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tier_sdk-0.1.2.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - main [MainThread]: End processing [tier-sdk]: success
+[2023-07-05 13:09:39] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.2.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - processPackages [modelDrivenRpa]: Remove: archive file [/home/abi/fetcher/tmp/modelDrivenRpa-1.3.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - main [MainThread]: End processing [modelDrivenRpa]: success
+[2023-07-05 13:09:39] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/3d/5c/cfcccce8faaa52d9c993bca59ba7ed5d108ca2b05215337e9c2f2d6505f0/android-sdk-platform-tools-supporter-0.0.2.tar.gz
+[2023-07-05 13:09:39] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.3.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - processPackages [dsna-complete]: Remove: archive file [/home/abi/fetcher/tmp/dsna_complete-0.0.4.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - main [MainThread]: End processing [dsna-complete]: success
+[2023-07-05 13:09:39] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-05 13:09:39] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: executing diffoscope
+[2023-07-05 13:09:39] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-platform-tools-supporter-0.0.1.tar.gz tmp/android-sdk-platform-tools-supporter-0.0.2.tar.gz --markdown 20230705/a/android-sdk-platform-tools-supporter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 13:09:39] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.35.2.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.0.36.tar.gz]
+[2023-07-05 13:09:39] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-05 13:09:40] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:40] INFO root fetch - processPackages [reqmon]: Remove: archive file [/home/abi/fetcher/tmp/reqmon-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:40] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-07-05 13:09:40] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.1.tar.gz]
+[2023-07-05 13:09:40] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.2.tar.gz]
+[2023-07-05 13:09:40] INFO root fetch - main [MainThread]: End processing [android-sdk-platform-tools-supporter]: success
+[2023-07-05 13:09:46] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:46] INFO root fetch - processPackages [wmagent]: Remove: archive file [/home/abi/fetcher/tmp/wmagent-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:46] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-07-05 13:09:52] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc2.tar.gz]
+[2023-07-05 13:09:52] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc3.tar.gz]
+[2023-07-05 13:09:52] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-07-05 13:09:52] INFO root fetch - main [MainThread]: Store serial: [18766152]
