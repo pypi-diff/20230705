@@ -21621,3 +21621,102 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:55:17] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-05 16:55:17] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-05 16:55:17] INFO root fetch - main [MainThread]: Store serial: [18768889]
+[2023-07-05 17:00:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768889]
+[2023-07-05 17:00:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: android-sdk-platform-tools-supporter
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebook-converter-noimage
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tessti
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: replovpy
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: type-dep
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: h21ak9-42f821
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plexonNEX5Converter
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plexonNEX5Converter
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modal-client
+[2023-07-05 17:00:27] WARNING root fetch - processPackages [h21ak9-42f821]: Skipping, unable to determine old version
+[2023-07-05 17:00:27] INFO root fetch - processPackages [h21ak9-42f821]: Start processing: modal
+[2023-07-05 17:00:27] INFO root fetch - main [MainThread]: End processing [h21ak9-42f821] error
+[2023-07-05 17:00:27] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-05 17:00:27] ERROR root fetch - processPackages [plexonNEX5Converter]: Unable to get metadata: No such project 'plexonNEX5Converter'
+[2023-07-05 17:00:27] INFO root fetch - processPackages [plexonNEX5Converter]: Start processing: dissect.etl
+[2023-07-05 17:00:27] INFO root fetch - main [MainThread]: End processing [plexonNEX5Converter] error
+[2023-07-05 17:00:27] ERROR root fetch - processPackages [plexonNEX5Converter]: Unable to get metadata: No such project 'plexonNEX5Converter'
+[2023-07-05 17:00:27] INFO root fetch - processPackages [plexonNEX5Converter]: Start processing: mvpoly
+[2023-07-05 17:00:27] INFO root fetch - main [MainThread]: End processing [plexonNEX5Converter] error
+[2023-07-05 17:00:27] WARNING root fetch - processPackages [ebook-converter-noimage]: Skipping, unable to determine old version
+[2023-07-05 17:00:27] INFO root fetch - processPackages [ebook-converter-noimage]: Start processing: dissect.eventlog
+[2023-07-05 17:00:27] INFO root fetch - main [MainThread]: End processing [ebook-converter-noimage] error
+[2023-07-05 17:00:27] WARNING root fetch - processPackages [replovpy]: Skipping, unable to determine old version
+[2023-07-05 17:00:27] INFO root fetch - main [MainThread]: End processing [replovpy] error
+[2023-07-05 17:00:27] INFO root fetch - processPackages [type-dep]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [tessti]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [modal-client]: New version: [0.50.2573] Old Version: [0.50.2570]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [modal]: New version: [0.50.2573] Old Version: [0.50.2570]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [dissect.etl]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [mvpoly]: New version: [0.98.2] Old Version: [0.98.1]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [dissect.eventlog]: New version: [3.6.dev2] Old Version: [3.6.dev1]
+[2023-07-05 17:00:27] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/01/4c/e090f98a99caa6df7d83821a2ba75889780734823c46f4e46a2dae341b8c/android-sdk-platform-tools-supporter-0.0.4.tar.gz
+[2023-07-05 17:00:27] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/9d/e5/aa4d81c3c3e744e4c02f66adb2ea09a723c5cdd0ca9d1a4f98f3a9cb377b/modal-0.50.2570-py3-none-any.whl
+[2023-07-05 17:00:27] INFO root fetch - processPackages [type-dep]: Downloading https://files.pythonhosted.org/packages/c6/44/676e8441928e9ebecddc603f3a77a1763278e2d97e8fc089ff74a1900f16/type_dep-0.0.1.tar.gz
+[2023-07-05 17:00:27] INFO root fetch - processPackages [tessti]: Downloading https://files.pythonhosted.org/packages/74/aa/0e9813b9d812810524e41c6d73733abacb76d0f08b70a17ac07283e82e42/tessti-0.1.0.tar.gz
+[2023-07-05 17:00:27] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-05 17:00:27] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/78/e3/d9f111eb63702797da4826b8ed5767d96d01a00d82fda65225d411b70301/modal_client-0.50.2570-py3-none-any.whl
+[2023-07-05 17:00:27] INFO root fetch - processPackages [mvpoly]: Downloading https://files.pythonhosted.org/packages/19/1c/9366213bcabca55c700e0108160c6df2fa158637ef0bc93644a54ce9049d/mvpoly-0.98.1.tar.gz
+[2023-07-05 17:00:27] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/f5/61/25d5692d2b17827100e8c84925685f5f67718c67bd20f06070fa38e52407/dissect.etl-3.6.dev1.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/5c/7e/e8d33e9894ad7884f000d6ad24416cebe287611baf98f986327084b68742/dissect.eventlog-3.6.dev1.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Downloading https://files.pythonhosted.org/packages/1e/58/61bf03fd0a1e7921dc0336693b0e1124a9ce24513f8ece6771554dcb8a29/android-sdk-platform-tools-supporter-0.0.5.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/d3/c4/8053646c01f23c3b968a56ed62b9e68db655b6b0f2130b6ef495ca064954/modal-0.50.2573-py3-none-any.whl
+[2023-07-05 17:00:28] INFO root fetch - processPackages [tessti]: Downloading https://files.pythonhosted.org/packages/c7/36/85774cede1fad70a701632620c17931d05b858ee31f3b7f9b5ed41acf7d4/tessti-0.1.1.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d6/b6/0bfc492457efdaf225b72030621509b74bd80809e01452f653bf59782fee/modal_client-0.50.2573-py3-none-any.whl
+[2023-07-05 17:00:28] INFO root fetch - processPackages [type-dep]: Downloading https://files.pythonhosted.org/packages/07/8f/a8fa6e8e62e1dac7ce841be296d97c84c401518ff510c5339e2eae80888d/type_dep-0.0.2.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2570-py3-none-any.whl.zip tmp/modal-0.50.2573-py3-none-any.whl.zip --markdown 20230705/m/modal/0.50.2570-0.50.2573/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [mvpoly]: Downloading https://files.pythonhosted.org/packages/b6/5b/5fc9eff9f0552a8cc4fa895c88b212f16a01195dd0ebaf621d47ae448959/mvpoly-0.98.2.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [tessti]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [tessti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tessti-0.1.0.tar.gz tmp/tessti-0.1.1.tar.gz --markdown 20230705/t/tessti/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/android-sdk-platform-tools-supporter-0.0.4.tar.gz tmp/android-sdk-platform-tools-supporter-0.0.5.tar.gz --markdown 20230705/a/android-sdk-platform-tools-supporter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [type-dep]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [type-dep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/type_dep-0.0.1.tar.gz tmp/type_dep-0.0.2.tar.gz --markdown 20230705/t/type-dep/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.eventlog]: Downloading https://files.pythonhosted.org/packages/57/bc/82732659e12f81a7f5e1029dcad2a3ab03963c9f2f724b9bb43823d7c943/dissect.eventlog-3.6.dev2.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2570-py3-none-any.whl.zip tmp/modal_client-0.50.2573-py3-none-any.whl.zip --markdown 20230705/m/modal-client/0.50.2570-0.50.2573/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [mvpoly]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [mvpoly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvpoly-0.98.1.tar.gz tmp/mvpoly-0.98.2.tar.gz --markdown 20230705/m/mvpoly/0.98.1-0.98.2/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/30/85/14dfa4da9ca8c034915fbb262da14625c9e28f64f6b8bcf37bc0fb360e27/dissect.etl-3.6.dev2.tar.gz
+[2023-07-05 17:00:28] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230705/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.eventlog]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.eventlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.eventlog-3.6.dev1.tar.gz tmp/dissect.eventlog-3.6.dev2.tar.gz --markdown 20230705/d/dissect.eventlog/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.etl]: executing diffoscope
+[2023-07-05 17:00:28] INFO root fetch - processPackages [dissect.etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.etl-3.6.dev1.tar.gz tmp/dissect.etl-3.6.dev2.tar.gz --markdown 20230705/d/dissect.etl/3.6.dev1-3.6.dev2/diff.md --exclude *.pyd
+[2023-07-05 17:00:29] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.4.tar.gz]
+[2023-07-05 17:00:29] INFO root fetch - processPackages [android-sdk-platform-tools-supporter]: Remove: archive file [/home/abi/fetcher/tmp/android-sdk-platform-tools-supporter-0.0.5.tar.gz]
+[2023-07-05 17:00:29] INFO root fetch - main [MainThread]: End processing [android-sdk-platform-tools-supporter]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [tessti]: Remove: archive file [/home/abi/fetcher/tmp/tessti-0.1.0.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [tessti]: Remove: archive file [/home/abi/fetcher/tmp/tessti-0.1.1.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [tessti]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2570-py3-none-any.whl.zip]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2573-py3-none-any.whl.zip]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [mvpoly]: Remove: archive file [/home/abi/fetcher/tmp/mvpoly-0.98.1.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [mvpoly]: Remove: archive file [/home/abi/fetcher/tmp/mvpoly-0.98.2.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [mvpoly]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [type-dep]: Remove: archive file [/home/abi/fetcher/tmp/type_dep-0.0.1.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [type-dep]: Remove: archive file [/home/abi/fetcher/tmp/type_dep-0.0.2.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [type-dep]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [dissect.eventlog]: Remove: archive file [/home/abi/fetcher/tmp/dissect.eventlog-3.6.dev1.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [dissect.eventlog]: Remove: archive file [/home/abi/fetcher/tmp/dissect.eventlog-3.6.dev2.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [dissect.eventlog]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-05 17:00:30] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2570-py3-none-any.whl.zip]
+[2023-07-05 17:00:30] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2573-py3-none-any.whl.zip]
+[2023-07-05 17:00:30] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-05 17:00:47] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.6.dev1.tar.gz]
+[2023-07-05 17:00:47] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.6.dev2.tar.gz]
+[2023-07-05 17:00:47] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
+[2023-07-05 17:00:47] INFO root fetch - main [MainThread]: Store serial: [18768940]
