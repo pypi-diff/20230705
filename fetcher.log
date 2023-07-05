@@ -12847,3 +12847,63 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 11:07:46] INFO root fetch - processPackages [pytheia]: Remove: archive file [/home/abi/fetcher/tmp/pytheia-0.1.9-cp39-cp39-manylinux_2_17_x86_64.whl.zip]
 [2023-07-05 11:07:46] INFO root fetch - main [MainThread]: End processing [pytheia]: success
 [2023-07-05 11:07:46] INFO root fetch - main [MainThread]: Store serial: [18764929]
+[2023-07-05 11:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764929]
+[2023-07-05 11:12:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-misc
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dithering
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frogbase
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-ionoscloud
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smdb-api
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elfebot
+[2023-07-05 11:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfy-mlflow-client
+[2023-07-05 11:13:00] ERROR root fetch - processPackages [frogbase]: Unable to get metadata: No such project 'frogbase'
+[2023-07-05 11:13:00] INFO root fetch - main [MainThread]: End processing [frogbase] error
+[2023-07-05 11:13:00] INFO root fetch - processPackages [drf-misc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 11:13:00] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 11:13:00] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2023-07-05 11:13:00] INFO root fetch - processPackages [dithering]: New version: [0.1.12] Old Version: [0.1.11]
+[2023-07-05 11:13:00] INFO root fetch - processPackages [elfebot]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 11:13:00] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: New version: [8.0.2] Old Version: [8.0.1]
+[2023-07-05 11:13:00] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/5d/5a/8cca4f7c62497fcb269878525c7264c728fef71e477fe53a79e076507b76/dithering-0.1.11.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/76/ea/b8585dd9cf86230310d125fdde959300e73db0ce0014e2aa45177c3224c9/drf_misc-0.1.5.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/63/32/5b056ae9a1455e2d269f5c4a73a6c4d9703b27d277f5284d192c10edbef2/elfebot-0.0.6-py3-none-any.whl
+[2023-07-05 11:13:00] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/8b/7c/462aee1f0b31705fd270ae4f3e269115e2d4d915b3f0af107c97f2e51531/smdb_api-0.9.1.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/af/ed/95edb1b0e907b4ab28e07ca0d6de4be4b6daee8257c264cb542c0f1ab221/cdktf-cdktf-provider-ionoscloud-8.0.1.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [dithering]: Downloading https://files.pythonhosted.org/packages/7a/8e/42639bddbc88b6d6e68c9a3228f2d77a0c16698b29d5c77a04cd566311cb/dithering-0.1.12.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [drf-misc]: Downloading https://files.pythonhosted.org/packages/06/61/26aa231b86150d86d5ab16914d32ef611d91a156878245edef482bdff39e/drf_misc-0.1.6.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2023-07-05 11:13:00] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20230705/t/tfy-mlflow-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 11:13:00] INFO root fetch - processPackages [elfebot]: Downloading https://files.pythonhosted.org/packages/c0/d0/50af3435125d00e5530cc0015765d53e370620d758d7a9fee5f23e4d7902/elfebot-0.0.7-py3-none-any.whl
+[2023-07-05 11:13:00] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/68/7d/c609c4d86364e513c847610522dc4124b850350bba309c8d0fc59f359507/cdktf-cdktf-provider-ionoscloud-8.0.2.tar.gz
+[2023-07-05 11:13:00] INFO root fetch - processPackages [dithering]: executing diffoscope
+[2023-07-05 11:13:00] INFO root fetch - processPackages [dithering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dithering-0.1.11.tar.gz tmp/dithering-0.1.12.tar.gz --markdown 20230705/d/dithering/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2023-07-05 11:13:00] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/7c/40/4f246c09d870d252aea285313cdb40d34031bafd148e7448cd55500393fa/smdb_api-0.9.12.tar.gz
+[2023-07-05 11:13:01] INFO root fetch - processPackages [drf-misc]: executing diffoscope
+[2023-07-05 11:13:01] INFO root fetch - processPackages [drf-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_misc-0.1.5.tar.gz tmp/drf_misc-0.1.6.tar.gz --markdown 20230705/d/drf-misc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 11:13:01] INFO root fetch - processPackages [elfebot]: executing diffoscope
+[2023-07-05 11:13:01] INFO root fetch - processPackages [elfebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elfebot-0.0.6-py3-none-any.whl.zip tmp/elfebot-0.0.7-py3-none-any.whl.zip --markdown 20230705/e/elfebot/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 11:13:01] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: executing diffoscope
+[2023-07-05 11:13:01] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ionoscloud-8.0.1.tar.gz tmp/cdktf-cdktf-provider-ionoscloud-8.0.2.tar.gz --markdown 20230705/c/cdktf-cdktf-provider-ionoscloud/8.0.1-8.0.2/diff.md --exclude *.pyd
+[2023-07-05 11:13:01] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2023-07-05 11:13:01] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20230705/s/smdb-api/0.9.1-0.9.12/diff.md --exclude *.pyd
+[2023-07-05 11:13:02] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.11.tar.gz]
+[2023-07-05 11:13:02] INFO root fetch - processPackages [dithering]: Remove: archive file [/home/abi/fetcher/tmp/dithering-0.1.12.tar.gz]
+[2023-07-05 11:13:02] INFO root fetch - main [MainThread]: End processing [dithering]: success
+[2023-07-05 11:13:02] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.6-py3-none-any.whl.zip]
+[2023-07-05 11:13:02] INFO root fetch - processPackages [elfebot]: Remove: archive file [/home/abi/fetcher/tmp/elfebot-0.0.7-py3-none-any.whl.zip]
+[2023-07-05 11:13:02] INFO root fetch - main [MainThread]: End processing [elfebot]: success
+[2023-07-05 11:13:02] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.5.tar.gz]
+[2023-07-05 11:13:02] INFO root fetch - processPackages [drf-misc]: Remove: archive file [/home/abi/fetcher/tmp/drf_misc-0.1.6.tar.gz]
+[2023-07-05 11:13:02] INFO root fetch - main [MainThread]: End processing [drf-misc]: success
+[2023-07-05 11:13:02] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.1.tar.gz]
+[2023-07-05 11:13:02] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.12.tar.gz]
+[2023-07-05 11:13:02] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2023-07-05 11:13:04] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.8.tar.gz]
+[2023-07-05 11:13:04] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
+[2023-07-05 11:13:04] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2023-07-05 11:13:04] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-8.0.1.tar.gz]
+[2023-07-05 11:13:04] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-8.0.2.tar.gz]
+[2023-07-05 11:13:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
+[2023-07-05 11:13:04] INFO root fetch - main [MainThread]: Store serial: [18765031]
