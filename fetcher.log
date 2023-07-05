@@ -14702,3 +14702,110 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 12:32:56] INFO root fetch - processPackages [openscap-report]: Remove: archive file [/home/abi/fetcher/tmp/openscap-report-0.2.4.tar.gz]
 [2023-07-05 12:32:56] INFO root fetch - main [MainThread]: End processing [openscap-report]: success
 [2023-07-05 12:32:56] INFO root fetch - main [MainThread]: Store serial: [18765850]
+[2023-07-05 12:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18765850]
+[2023-07-05 12:38:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syssqlite2libaryV2
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zyte-common-items
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-imaging-python-net
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parse2docs
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diveplane-upgrader
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: berrydb-sdk
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certify4py
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: compmec-nurbs
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SupervisedDiscretization
+[2023-07-05 12:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: psqlpandas
+[2023-07-05 12:38:05] INFO root fetch - processPackages [zyte-common-items]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [diveplane-upgrader]: New version: [0.0.8] Old Version: [0.0.10]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [syssqlite2libaryV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [compmec-nurbs]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [aspose-imaging-python-net]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-07-05 12:38:05] WARNING root fetch - processPackages [berrydb-sdk]: Skipping, unable to determine old version
+[2023-07-05 12:38:05] WARNING root fetch - processPackages [certify4py]: Skipping, unable to determine old version
+[2023-07-05 12:38:05] INFO root fetch - processPackages [berrydb-sdk]: Start processing: antchain-twc
+[2023-07-05 12:38:05] INFO root fetch - main [MainThread]: End processing [berrydb-sdk] error
+[2023-07-05 12:38:05] INFO root fetch - processPackages [psqlpandas]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [certify4py]: Start processing: multipoles
+[2023-07-05 12:38:05] WARNING root fetch - processPackages [parse2docs]: Skipping, unable to determine old version
+[2023-07-05 12:38:05] INFO root fetch - processPackages [SupervisedDiscretization]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 12:38:05] INFO root fetch - main [MainThread]: End processing [certify4py] error
+[2023-07-05 12:38:05] INFO root fetch - processPackages [parse2docs]: Start processing: skl-graph
+[2023-07-05 12:38:05] INFO root fetch - main [MainThread]: End processing [parse2docs] error
+[2023-07-05 12:38:05] INFO root fetch - processPackages [multipoles]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [skl-graph]: New version: [2023.9] Old Version: [2023.8]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [antchain-twc]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-05 12:38:05] INFO root fetch - processPackages [compmec-nurbs]: Downloading https://files.pythonhosted.org/packages/6b/d9/f057785cf332af9f80a009c0e546e2f787c27c60bdbdfa5745e33d3628ea/compmec_nurbs-1.0.3.tar.gz
+[2023-07-05 12:38:05] INFO root fetch - processPackages [SupervisedDiscretization]: Downloading https://files.pythonhosted.org/packages/cb/38/ade52e75ec4c1b15744b5f65ff4e1917974c6401ded66a2bd8847c942ddc/SupervisedDiscretization-0.0.3.tar.gz
+[2023-07-05 12:38:05] INFO root fetch - processPackages [syssqlite2libaryV2]: Downloading https://files.pythonhosted.org/packages/a0/9f/2969c5bf9e7217c4c914ab41b0c511c6b58d4c2ec0974d5382d30ab1c070/syssqlite2libaryV2-1.0.0.tar.gz
+[2023-07-05 12:38:05] INFO root fetch - processPackages [diveplane-upgrader]: Downloading https://files.pythonhosted.org/packages/02/a2/d16c95b2e97cb44a07922e124d7d4371be42e23a658c2df9a58c7d8e8c06/diveplane_upgrader-0.0.10-py3-none-any.whl
+[2023-07-05 12:38:05] INFO root fetch - processPackages [zyte-common-items]: Downloading https://files.pythonhosted.org/packages/a3/c0/d81984b7f3ca67c39b615bbb4fb68a5c24ab7be39deeda6c95ae3aa70a9c/zyte-common-items-0.5.0.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/c8/36/ff01772c79f6304da84d484196bc1707748a6660a1040ac06c256cf6ac4a/antchain_twc-1.9.0.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [aspose-imaging-python-net]: Downloading https://files.pythonhosted.org/packages/4f/a2/bbb670e672b6777c9da3e8e9beb264e406db7a2c2b7d8487c2bd4cf4b44b/aspose_imaging_python_net-23.5.0-py3-none-win_amd64.whl
+[2023-07-05 12:38:06] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/2d/e2/054b43b3084f8de149d6441b48317056a139a00b39022790d0a50f453961/psqlpandas-1.2.0.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [multipoles]: Downloading https://files.pythonhosted.org/packages/6c/9a/9711c7f13fe250ca301778f59fb6c419dbbc901b0adb7a1c3e8d5eed9222/multipoles-0.3.2.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [skl-graph]: Downloading https://files.pythonhosted.org/packages/15/a7/d7345fc604e1c94faa76a02b3050cefbf5c3e7be452108acbd957bef14e0/skl-graph-2023.8.tar.gz
+[2023-07-05 12:38:06] WARNING root fetch - processPackages [aspose-imaging-python-net]: Skipping package: exceeds size limit 62941978>=10485760
+[2023-07-05 12:38:06] INFO root fetch - processPackages [aspose-imaging-python-net]: Start processing: akerbp.mlops
+[2023-07-05 12:38:06] INFO root fetch - main [MainThread]: End processing [aspose-imaging-python-net] error
+[2023-07-05 12:38:06] INFO root fetch - processPackages [SupervisedDiscretization]: Downloading https://files.pythonhosted.org/packages/a6/60/e3235c0cace345bc11737385db6df18db90ecc8c80f8457104b2161511cb/SupervisedDiscretization-0.0.4.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [antchain-twc]: Downloading https://files.pythonhosted.org/packages/80/5d/e8c3a8e4914e62821cb8c2f92eb9444de15abfbc652758282cff30ac712a/antchain_twc-1.9.1.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [compmec-nurbs]: Downloading https://files.pythonhosted.org/packages/2c/0a/890b2d15cb6dd72c395b4c363f2033cdc5da2473884e09c6e533013e9dc1/compmec_nurbs-1.0.4.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [multipoles]: Downloading https://files.pythonhosted.org/packages/ff/8b/f031e6a68b23fce25b6baf7fa58624fa75037ae3814a9fbadf1d7045f65e/multipoles-0.3.3.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.1a5] Old Version: [3.2.1a2]
+[2023-07-05 12:38:06] INFO root fetch - processPackages [psqlpandas]: Downloading https://files.pythonhosted.org/packages/bc/f6/6a44f4dfacf0fb033c0ac510b95841ebb6fa6bdb7a3cfc6e9e4ec524e77f/psqlpandas-1.2.1.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [skl-graph]: Downloading https://files.pythonhosted.org/packages/b1/0f/0929f13352edcf9f573edac5d68206a6f8ef2512983829ddf07833acdb97/skl-graph-2023.9.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [antchain-twc]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [antchain-twc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_twc-1.9.0.tar.gz tmp/antchain_twc-1.9.1.tar.gz --markdown 20230705/a/antchain-twc/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [zyte-common-items]: Downloading https://files.pythonhosted.org/packages/d5/56/7a0b4a9e0e15e82c13f860cd54fe04983184bfe8dd30a8f57454ffdb5b83/zyte-common-items-0.6.0.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [syssqlite2libaryV2]: Downloading https://files.pythonhosted.org/packages/30/8b/ef1ec49dcff78e32de28a8f48269603cfa40caa1afe64dd303e7b62d1f19/syssqlite2libaryV2-1.1.0.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [diveplane-upgrader]: Downloading https://files.pythonhosted.org/packages/d4/6b/3f54e1d453d702d23cb8a2a8c8b346a876ed2f6ac0a0fcab1c896d133194/diveplane_upgrader-0.0.8-py3-none-any.whl
+[2023-07-05 12:38:06] INFO root fetch - processPackages [SupervisedDiscretization]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [SupervisedDiscretization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SupervisedDiscretization-0.0.3.tar.gz tmp/SupervisedDiscretization-0.0.4.tar.gz --markdown 20230705/S/SupervisedDiscretization/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [multipoles]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [multipoles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipoles-0.3.2.tar.gz tmp/multipoles-0.3.3.tar.gz --markdown 20230705/m/multipoles/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [compmec-nurbs]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [compmec-nurbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compmec_nurbs-1.0.3.tar.gz tmp/compmec_nurbs-1.0.4.tar.gz --markdown 20230705/c/compmec-nurbs/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [psqlpandas]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [psqlpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psqlpandas-1.2.0.tar.gz tmp/psqlpandas-1.2.1.tar.gz --markdown 20230705/p/psqlpandas/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [skl-graph]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [skl-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skl-graph-2023.8.tar.gz tmp/skl-graph-2023.9.tar.gz --markdown 20230705/s/skl-graph/2023.8-2023.9/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [zyte-common-items]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [zyte-common-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyte-common-items-0.5.0.tar.gz tmp/zyte-common-items-0.6.0.tar.gz --markdown 20230705/z/zyte-common-items/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [diveplane-upgrader]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [diveplane-upgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diveplane_upgrader-0.0.10-py3-none-any.whl.zip tmp/diveplane_upgrader-0.0.8-py3-none-any.whl.zip --markdown 20230705/d/diveplane-upgrader/0.0.10-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 12:38:06] INFO root fetch - processPackages [syssqlite2libaryV2]: executing diffoscope
+[2023-07-05 12:38:06] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/f2/4e/c2c697d934be79e26c2406513a414f09de8a9d147eeb6639c1961de260c0/akerbp.mlops-3.2.1a2.tar.gz
+[2023-07-05 12:38:06] INFO root fetch - processPackages [syssqlite2libaryV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syssqlite2libaryV2-1.0.0.tar.gz tmp/syssqlite2libaryV2-1.1.0.tar.gz --markdown 20230705/s/syssqlite2libaryV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 12:38:07] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/32/11/0f27ed413328261eca787bc8c27798e427f75296b88a2c0c56fa309a6d11/akerbp.mlops-3.2.1a5.tar.gz
+[2023-07-05 12:38:07] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-07-05 12:38:07] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.1a2.tar.gz tmp/akerbp.mlops-3.2.1a5.tar.gz --markdown 20230705/a/akerbp.mlops/3.2.1a2-3.2.1a5/diff.md --exclude *.pyd
+[2023-07-05 12:38:08] INFO root fetch - processPackages [SupervisedDiscretization]: Remove: archive file [/home/abi/fetcher/tmp/SupervisedDiscretization-0.0.3.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [SupervisedDiscretization]: Remove: archive file [/home/abi/fetcher/tmp/SupervisedDiscretization-0.0.4.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [SupervisedDiscretization]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.0.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [psqlpandas]: Remove: archive file [/home/abi/fetcher/tmp/psqlpandas-1.2.1.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [psqlpandas]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [compmec-nurbs]: Remove: archive file [/home/abi/fetcher/tmp/compmec_nurbs-1.0.3.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [compmec-nurbs]: Remove: archive file [/home/abi/fetcher/tmp/compmec_nurbs-1.0.4.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [compmec-nurbs]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [multipoles]: Remove: archive file [/home/abi/fetcher/tmp/multipoles-0.3.2.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [multipoles]: Remove: archive file [/home/abi/fetcher/tmp/multipoles-0.3.3.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [multipoles]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [zyte-common-items]: Remove: archive file [/home/abi/fetcher/tmp/zyte-common-items-0.5.0.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [zyte-common-items]: Remove: archive file [/home/abi/fetcher/tmp/zyte-common-items-0.6.0.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [zyte-common-items]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [syssqlite2libaryV2]: Remove: archive file [/home/abi/fetcher/tmp/syssqlite2libaryV2-1.0.0.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [syssqlite2libaryV2]: Remove: archive file [/home/abi/fetcher/tmp/syssqlite2libaryV2-1.1.0.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [syssqlite2libaryV2]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [diveplane-upgrader]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_upgrader-0.0.10-py3-none-any.whl.zip]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [diveplane-upgrader]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_upgrader-0.0.8-py3-none-any.whl.zip]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [diveplane-upgrader]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [skl-graph]: Remove: archive file [/home/abi/fetcher/tmp/skl-graph-2023.8.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [skl-graph]: Remove: archive file [/home/abi/fetcher/tmp/skl-graph-2023.9.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [skl-graph]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.0.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [antchain-twc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_twc-1.9.1.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [antchain-twc]: success
+[2023-07-05 12:38:08] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a2.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.1a5.tar.gz]
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-07-05 12:38:08] INFO root fetch - main [MainThread]: Store serial: [18765899]
