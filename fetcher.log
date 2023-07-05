@@ -10023,3 +10023,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid
 [2023-07-05 08:59:57] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.3.tar.gz]
 [2023-07-05 08:59:57] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
 [2023-07-05 08:59:57] INFO root fetch - main [MainThread]: Store serial: [18763597]
+[2023-07-05 09:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763597]
+[2023-07-05 09:05:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grassmanntn
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miniagent
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lest
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddadevops
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waifu2x-ncnn-py
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sj-tool
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tweeterpy
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edsteva
+[2023-07-05 09:05:07] INFO root fetch - processPackages [grassmanntn]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [miniagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ddadevops]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [tweeterpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [lest]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [sj-tool]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [waifu2x-ncnn-py]: New version: [1.3.0] Old Version: [1.2.0.0]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [edsteva]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-05 09:05:07] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/e3/47/f99f4ce6148171a98395acc0890390d52caf2b05cb0548e90b3e7743d276/grassmanntn-1.1.2.tar.gz
+[2023-07-05 09:05:07] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-05 09:05:07] INFO root fetch - processPackages [waifu2x-ncnn-py]: Downloading https://files.pythonhosted.org/packages/6b/07/446ddc8d5ae3eb503a9ce65d619d9d968ff8e6551d29ad31886cbd2bc326/waifu2x_ncnn_py-1.2.0.0-cp39-cp39-win_amd64.whl
+[2023-07-05 09:05:07] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-07-05 09:05:07] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/f8/80/306565a17328f36c75875b47d8a29a0c04da9ff138ed7c0b185aa7144501/tweeterpy-0.0.5.tar.gz
+[2023-07-05 09:05:07] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/53/53/8d5fbb694a5a27c3bfd85f47540af2476613fd26647dc23fb244cfb45e41/ddadevops-4.0.0.dev8.tar.gz
+[2023-07-05 09:05:07] INFO root fetch - processPackages [lest]: Downloading https://files.pythonhosted.org/packages/c9/97/f19eed49681686c01fc7977e58804c2757b26de6e44df393329eac5c4f15/lest-0.4.0.tar.gz
+[2023-07-05 09:05:07] INFO root fetch - processPackages [edsteva]: Downloading https://files.pythonhosted.org/packages/3c/96/56def14d145e8fbe439a46a22dfceebcbf1231e3d6c27efd1627b305b7af/edsteva-0.2.2.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/8b/f9/2af667f18b77632259bbdac6a0db7f33f9cbea38a7a1baa7d9979d9060d3/sj_tool-1.0.8-py3-none-any.whl
+[2023-07-05 09:05:08] WARNING root fetch - processPackages [waifu2x-ncnn-py]: Skipping package: exceeds size limit 34569698>=10485760
+[2023-07-05 09:05:08] INFO root fetch - main [MainThread]: End processing [waifu2x-ncnn-py] error
+[2023-07-05 09:05:08] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/26/5d/3f10d7f3beac5b24c1157fccf6cfdd5c5942776451ce0a82b1502dc59758/grassmanntn-1.1.3.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/1a/08/2cc64f9080402b648c61f955d3eef2148f5a01af49c6ca6905fe47939af0/ddadevops-4.0.0.dev9.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.2.tar.gz tmp/grassmanntn-1.1.3.tar.gz --markdown 20230705/g/grassmanntn/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/92/e5/684583b07fce6c155c48f3ef92f5aade89cf5a39088f833b45de3c073fdf/miniagent-0.0.9-py3-none-any.whl
+[2023-07-05 09:05:08] INFO root fetch - processPackages [sj-tool]: Downloading https://files.pythonhosted.org/packages/2e/c6/ed941d25e472426116ea2e75bd85fead4f6fad46d6238c6a7bc0c10801f1/sj_tool-1.0.9-py3-none-any.whl
+[2023-07-05 09:05:08] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230705/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.0.0.dev8.tar.gz tmp/ddadevops-4.0.0.dev9.tar.gz --markdown 20230705/d/ddadevops/4.0.0.dev8-4.0.0.dev9/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [lest]: Downloading https://files.pythonhosted.org/packages/61/ce/a9dde2d7c325d7ed81d8197346f023b5adf1192ef260bc8ecbcc3435e39e/lest-0.4.1.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/5f/f9/6d339ca11500f152b4363581a126df5e8f3c8a1e05ca1ffcd05009d4077a/tweeterpy-0.0.6.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [edsteva]: Downloading https://files.pythonhosted.org/packages/8d/61/3b7dec5499b3a805928b1a0ad249097aeda5950dc4ba26051ed247037a05/edsteva-0.2.3.tar.gz
+[2023-07-05 09:05:08] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.8-py3-none-any.whl.zip tmp/miniagent-0.0.9-py3-none-any.whl.zip --markdown 20230705/m/miniagent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [sj-tool]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [sj-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sj_tool-1.0.8-py3-none-any.whl.zip tmp/sj_tool-1.0.9-py3-none-any.whl.zip --markdown 20230705/s/sj-tool/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [tweeterpy]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [tweeterpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweeterpy-0.0.5.tar.gz tmp/tweeterpy-0.0.6.tar.gz --markdown 20230705/t/tweeterpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [lest]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [lest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lest-0.4.0.tar.gz tmp/lest-0.4.1.tar.gz --markdown 20230705/l/lest/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-05 09:05:08] INFO root fetch - processPackages [edsteva]: executing diffoscope
+[2023-07-05 09:05:08] INFO root fetch - processPackages [edsteva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsteva-0.2.2.tar.gz tmp/edsteva-0.2.3.tar.gz --markdown 20230705/e/edsteva/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-05 09:05:09] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.2.tar.gz]
+[2023-07-05 09:05:09] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.3.tar.gz]
+[2023-07-05 09:05:09] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-05 09:05:09] INFO root fetch - processPackages [lest]: Remove: archive file [/home/abi/fetcher/tmp/lest-0.4.0.tar.gz]
+[2023-07-05 09:05:09] INFO root fetch - processPackages [lest]: Remove: archive file [/home/abi/fetcher/tmp/lest-0.4.1.tar.gz]
+[2023-07-05 09:05:09] INFO root fetch - main [MainThread]: End processing [lest]: success
+[2023-07-05 09:05:09] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.8-py3-none-any.whl.zip]
+[2023-07-05 09:05:09] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
+[2023-07-05 09:05:09] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-07-05 09:05:09] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.5.tar.gz]
+[2023-07-05 09:05:09] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.6.tar.gz]
+[2023-07-05 09:05:09] INFO root fetch - main [MainThread]: End processing [tweeterpy]: success
+[2023-07-05 09:05:10] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.8-py3-none-any.whl.zip]
+[2023-07-05 09:05:10] INFO root fetch - processPackages [sj-tool]: Remove: archive file [/home/abi/fetcher/tmp/sj_tool-1.0.9-py3-none-any.whl.zip]
+[2023-07-05 09:05:10] INFO root fetch - main [MainThread]: End processing [sj-tool]: success
+[2023-07-05 09:05:10] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-05 09:05:10] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-05 09:05:10] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-05 09:05:10] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev8.tar.gz]
+[2023-07-05 09:05:10] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.0.0.dev9.tar.gz]
+[2023-07-05 09:05:10] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-05 09:05:10] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.2.2.tar.gz]
+[2023-07-05 09:05:10] INFO root fetch - processPackages [edsteva]: Remove: archive file [/home/abi/fetcher/tmp/edsteva-0.2.3.tar.gz]
+[2023-07-05 09:05:10] INFO root fetch - main [MainThread]: End processing [edsteva]: success
+[2023-07-05 09:05:10] INFO root fetch - main [MainThread]: Store serial: [18763639]
