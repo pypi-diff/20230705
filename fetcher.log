@@ -16084,3 +16084,90 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:36:06] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
 [2023-07-05 13:36:06] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
 [2023-07-05 13:36:06] INFO root fetch - main [MainThread]: Store serial: [18766379]
+[2023-07-05 13:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766379]
+[2023-07-05 13:41:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-nano
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acceldata-sdk
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-partner-address-split
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samsteady-django-utils
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fwdviewpy
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: careamics-portfolio
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: naneos-devices
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bili-uas
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minidevice
+[2023-07-05 13:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dalec-caldav
+[2023-07-05 13:41:15] WARNING root fetch - processPackages [odoo-addon-partner-address-split]: Skipping, unable to determine old version
+[2023-07-05 13:41:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-address-split] error
+[2023-07-05 13:41:15] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [acceldata-sdk]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [careamics-portfolio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [samsteady-django-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [naneos-devices]: New version: [0.4] Old Version: [0.3]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230705] Old Version: [2.4.0b20230704]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [bili-uas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [minidevice]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-07-05 13:41:15] INFO root fetch - processPackages [dalec-caldav]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-05 13:41:16] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/12/90/039297eb94bb3d2821c6ca6acaa23625d754e496fbc914a6276d1d28bcfa/naneos-devices-0.3.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/3e/73/2afa6fcbbdcbdb8f06826b7788d93771111bc330d73133654c81a5d742de/fwdviewpy-0.1.8.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/4f/8b/abedf114946fb8d30879a28770ca5436aa4855efda35cd12517bf653590b/acceldata_sdk-2.7.0.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [samsteady-django-utils]: Downloading https://files.pythonhosted.org/packages/d6/68/577d275d908a17d667dc49b1af5962da0c8372b680773a4266a9a17f24f6/samsteady-django-utils-1.0.8.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [careamics-portfolio]: Downloading https://files.pythonhosted.org/packages/23/be/0bdf23edebfeecb969b03403b4bc6e59a743d34ad7b3f72ea29c3eea46d4/careamics_portfolio-0.0.8.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/8c/e5/06dfad00262eb2f27f8cc0bd8e6e14a1e5633a226e27ae57fe1822d493f3/bili-uas-0.1.4.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [dalec-caldav]: Downloading https://files.pythonhosted.org/packages/d8/89/b5a682856f8099e3c855591743797814fca88b7bf963de5290d8009ad3cc/dalec-caldav-0.1.1.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/0d/43/3ab3e45c4c97df279644a7a9bcc45127e51489caed3c75bba5da4c26bf09/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl
+[2023-07-05 13:41:16] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/3c/8e/53a86cadca5ff42d7d6ea795c3783d8da62e02bda403c958b0219503f1f4/minidevice-2.1.4.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [naneos-devices]: Downloading https://files.pythonhosted.org/packages/e7/a0/eef5bb85210894c6f2c73ec6f4cd827e9963f11080ae89a38f5f08954cfa/naneos_devices-0.4-py3-none-any.whl
+[2023-07-05 13:41:16] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/99/9c/e2358379de45386ba61abcfee7a3561a34f7804cbcafacca8373d2aba9f4/acceldata_sdk-2.7.1.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [careamics-portfolio]: Downloading https://files.pythonhosted.org/packages/8f/a8/756d516ffb132a6a4540aa8f3e5b5161789c20a787519ecbc4a153bda4ed/careamics_portfolio-0.0.9.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [samsteady-django-utils]: Downloading https://files.pythonhosted.org/packages/6e/ed/32d48e2be813e3b8cee3c95851a12d81faa715ceafc5b8898fc3fb3ff104/samsteady-django-utils-1.0.9.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [bili-uas]: Downloading https://files.pythonhosted.org/packages/91/f1/b68988bc6d6734ea1ae43354071c336a9920595c3b1a5f21f977035a2c6c/bili-uas-0.1.5.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [fwdviewpy]: Downloading https://files.pythonhosted.org/packages/8a/ad/935ce0b4a6ffdf166ff13e80c7efb896639069807f34b5d234fca7adbeaa/fwdviewpy-0.1.9.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [naneos-devices]: executing diffoscope
+[2023-07-05 13:41:16] INFO root fetch - processPackages [naneos-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naneos-devices-0.3.tar.gz tmp/naneos_devices-0.4-py3-none-any.whl.zip --markdown 20230705/n/naneos-devices/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-05 13:41:16] INFO root fetch - processPackages [dalec-caldav]: Downloading https://files.pythonhosted.org/packages/fa/db/3c9e9821619c79b42331e7a815aae2ab848a395105934f1b2b7e10804570/dalec-caldav-0.2.0.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [acceldata-sdk]: executing diffoscope
+[2023-07-05 13:41:16] INFO root fetch - processPackages [acceldata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_sdk-2.7.0.tar.gz tmp/acceldata_sdk-2.7.1.tar.gz --markdown 20230705/a/acceldata-sdk/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-07-05 13:41:16] INFO root fetch - processPackages [careamics-portfolio]: executing diffoscope
+[2023-07-05 13:41:16] INFO root fetch - processPackages [careamics-portfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/careamics_portfolio-0.0.8.tar.gz tmp/careamics_portfolio-0.0.9.tar.gz --markdown 20230705/c/careamics-portfolio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:41:16] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/07/85/60269ca81aed10db104986ee7703459a5c4a2aa0383dc9195a8900298b05/minidevice-2.1.5.tar.gz
+[2023-07-05 13:41:16] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/1e/97/634128f2d2e4bd7ef018cbfa6773c1182d9367a1c93c76f448121051cac7/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl
+[2023-07-05 13:41:16] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-07-05 13:41:16] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.8.tar.gz tmp/fwdviewpy-0.1.9.tar.gz --markdown 20230705/f/fwdviewpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 13:41:17] INFO root fetch - processPackages [dalec-caldav]: executing diffoscope
+[2023-07-05 13:41:17] INFO root fetch - processPackages [dalec-caldav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalec-caldav-0.1.1.tar.gz tmp/dalec-caldav-0.2.0.tar.gz --markdown 20230705/d/dalec-caldav/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-05 13:41:17] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-07-05 13:41:17] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.4.tar.gz tmp/minidevice-2.1.5.tar.gz --markdown 20230705/m/minidevice/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-07-05 13:41:17] INFO root fetch - processPackages [bili-uas]: executing diffoscope
+[2023-07-05 13:41:17] INFO root fetch - processPackages [bili-uas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bili-uas-0.1.4.tar.gz tmp/bili-uas-0.1.5.tar.gz --markdown 20230705/b/bili-uas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-05 13:41:17] INFO root fetch - processPackages [samsteady-django-utils]: executing diffoscope
+[2023-07-05 13:41:17] INFO root fetch - processPackages [samsteady-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samsteady-django-utils-1.0.8.tar.gz tmp/samsteady-django-utils-1.0.9.tar.gz --markdown 20230705/s/samsteady-django-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:41:17] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-05 13:41:17] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl.zip --markdown 20230705/b/bigdl-nano/2.4.0b20230704-2.4.0b20230705/diff.md --exclude *.pyd
+[2023-07-05 13:41:18] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos-devices-0.3.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [naneos-devices]: Remove: archive file [/home/abi/fetcher/tmp/naneos_devices-0.4-py3-none-any.whl.zip]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [naneos-devices]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.8.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [fwdviewpy]: Remove: archive file [/home/abi/fetcher/tmp/fwdviewpy-0.1.9.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [careamics-portfolio]: Remove: archive file [/home/abi/fetcher/tmp/careamics_portfolio-0.0.8.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [careamics-portfolio]: Remove: archive file [/home/abi/fetcher/tmp/careamics_portfolio-0.0.9.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [careamics-portfolio]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [dalec-caldav]: Remove: archive file [/home/abi/fetcher/tmp/dalec-caldav-0.1.1.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [dalec-caldav]: Remove: archive file [/home/abi/fetcher/tmp/dalec-caldav-0.2.0.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [dalec-caldav]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-2.7.0.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-2.7.1.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [acceldata-sdk]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.4.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [bili-uas]: Remove: archive file [/home/abi/fetcher/tmp/bili-uas-0.1.5.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [bili-uas]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [samsteady-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/samsteady-django-utils-1.0.8.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [samsteady-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/samsteady-django-utils-1.0.9.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [samsteady-django-utils]: success
+[2023-07-05 13:41:18] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.4.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.5.tar.gz]
+[2023-07-05 13:41:18] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-07-05 13:41:19] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230704-py3-none-win_amd64.whl.zip]
+[2023-07-05 13:41:19] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230705-py3-none-win_amd64.whl.zip]
+[2023-07-05 13:41:19] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-05 13:41:19] INFO root fetch - main [MainThread]: Store serial: [18766409]
