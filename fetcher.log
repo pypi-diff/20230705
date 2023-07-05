@@ -23625,3 +23625,134 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 17:43:09] INFO root fetch - processPackages [renumics-spotlight]: Remove: archive file [/home/abi/fetcher/tmp/renumics_spotlight-1.3.0rc3-py3-none-any.whl.zip]
 [2023-07-05 17:43:09] INFO root fetch - main [MainThread]: End processing [renumics-spotlight]: success
 [2023-07-05 17:43:09] INFO root fetch - main [MainThread]: Store serial: [18769727]
+[2023-07-05 17:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18769727]
+[2023-07-05 17:48:18] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sigauth
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: curia
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatsapp-api-client-python
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyEasyML
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-api-python-client
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pedestal-inference
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vc-filter
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RiotWrapper
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-iot
+[2023-07-05 17:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sjvisualizer
+[2023-07-05 17:48:18] INFO root fetch - processPackages [pedestal-inference]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [sigauth]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [curia]: New version: [4.3.0b2] Old Version: [4.3.0b1]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [vc-filter]: New version: [1.1.7] Old Version: [1.1.19]
+[2023-07-05 17:48:18] WARNING root fetch - processPackages [RiotWrapper]: Skipping, unable to determine old version
+[2023-07-05 17:48:18] INFO root fetch - processPackages [RiotWrapper]: Start processing: google-cloud-pubsublite
+[2023-07-05 17:48:18] INFO root fetch - main [MainThread]: End processing [RiotWrapper] error
+[2023-07-05 17:48:18] INFO root fetch - processPackages [sjvisualizer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [google-cloud-iot]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [pyEasyML]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [whatsapp-api-client-python]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [google-api-python-client]: New version: [2.92.0] Old Version: [2.91.0]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [google-cloud-pubsublite]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-05 17:48:18] INFO root fetch - processPackages [pedestal-inference]: Downloading https://files.pythonhosted.org/packages/24/86/731658c04b875ab66753ba8d343e4f57e4f2c6647a1b460962ed4ee0eda7/pedestal-inference-0.2.1.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [vc-filter]: Downloading https://files.pythonhosted.org/packages/ba/62/937f38faa99d7c5c4336759a21f367bfbed640d259fbdc12aae412c8a62c/vc_filter-1.1.19.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [curia]: Downloading https://files.pythonhosted.org/packages/d1/14/9d344caced17130ff86021e2a2c084eb3f7711b0a58a034e4d50f709c568/curia-4.3.0b1.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sigauth]: Downloading https://files.pythonhosted.org/packages/04/e5/1f39a5715a72a0e8a21146925f1419211d0228278bf6d34e91a746973e0d/sigauth-5.2.1-py3-none-any.whl
+[2023-07-05 17:48:19] INFO root fetch - processPackages [pyEasyML]: Downloading https://files.pythonhosted.org/packages/19/eb/76ae7c16e101f629a4f482dadfc8dca934fbfa0138487258284da4631c39/pyEasyML-1.0.3.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-api-python-client]: Downloading https://files.pythonhosted.org/packages/79/f3/527b6101d49b0d05ecb6428cf5e70008c10ead8e076ed56ab3209e242887/google-api-python-client-2.91.0.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sjvisualizer]: Downloading https://files.pythonhosted.org/packages/e1/0d/9eb30e6a9319234626054ddeb6026b68a3749875a22e93af86ee2a18f2bc/sjvisualizer-0.0.7-py2.py3-none-any.whl
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-iot]: Downloading https://files.pythonhosted.org/packages/bc/ca/4e5f0d63e44ad754a803c9a2508924b0fd3fab74e9ea248be43b4b79cd15/google-cloud-iot-2.9.1.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-pubsublite]: Downloading https://files.pythonhosted.org/packages/66/af/8cbf34dc698eab3dac82d68cf46b3b01930ad4d6c625ea7e45d3f18e72f6/google-cloud-pubsublite-1.8.2.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/e9/e8/47c1d3547596db99ec74ec091a2030a1ca55c0a2a6d077ce8638739f0f05/whatsapp-api-client-python-0.0.38.tar.gz
+[2023-07-05 17:48:19] WARNING root fetch - processPackages [google-api-python-client]: Skipping package: exceeds size limit 10853485>=10485760
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-api-python-client]: Start processing: sample-calculator
+[2023-07-05 17:48:19] INFO root fetch - main [MainThread]: End processing [google-api-python-client] error
+[2023-07-05 17:48:19] WARNING root fetch - processPackages [sample-calculator]: Skipping, unable to determine old version
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sample-calculator]: Start processing: google-cloud-monitoring
+[2023-07-05 17:48:19] INFO root fetch - main [MainThread]: End processing [sample-calculator] error
+[2023-07-05 17:48:19] INFO root fetch - processPackages [pedestal-inference]: Downloading https://files.pythonhosted.org/packages/11/ff/2d41d92943bdf7db88f43593288a474c6a7689601b4a402563241942917e/pedestal-inference-0.2.2.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [vc-filter]: Downloading https://files.pythonhosted.org/packages/7f/8d/e11f55a20c94b32fcd4f7e1ebf30d8fd6e9e8471afb38f7c334a879323fd/vc-filter-1.1.7.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-monitoring]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-05 17:48:19] INFO root fetch - processPackages [curia]: Downloading https://files.pythonhosted.org/packages/57/6b/d475491817dc7f067e2dc12b06c2afdbcdfc993edc4af722c961187755e7/curia-4.3.0b2.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sigauth]: Downloading https://files.pythonhosted.org/packages/54/e5/4f0f6fe1ac96e8ca3955d6e8c74a255a3c49c58175e7b93fd713930bfdd3/sigauth-5.2.2-py3-none-any.whl
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-iot]: Downloading https://files.pythonhosted.org/packages/69/db/8bfda0a448309ad51f14cbee196c97c9f9922d55b4c78dcff62cc8b3fd5d/google-cloud-iot-2.9.2.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-pubsublite]: Downloading https://files.pythonhosted.org/packages/cf/9b/37142c204546827320c6c26251fda97818c5409b202e31639cf2998243bf/google-cloud-pubsublite-1.8.3.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [pedestal-inference]: executing diffoscope
+[2023-07-05 17:48:19] INFO root fetch - processPackages [pedestal-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pedestal-inference-0.2.1.tar.gz tmp/pedestal-inference-0.2.2.tar.gz --markdown 20230705/p/pedestal-inference/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-05 17:48:19] INFO root fetch - processPackages [vc-filter]: executing diffoscope
+[2023-07-05 17:48:19] INFO root fetch - processPackages [vc-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vc_filter-1.1.19.tar.gz tmp/vc-filter-1.1.7.tar.gz --markdown 20230705/v/vc-filter/1.1.19-1.1.7/diff.md --exclude *.pyd
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sjvisualizer]: Downloading https://files.pythonhosted.org/packages/35/e8/13236c95b940c1789c7fe995e1e02144fd52d55ecb5dd4fb4f973bacf353/sjvisualizer-0.0.8-py2.py3-none-any.whl
+[2023-07-05 17:48:19] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/af/c8/f72a6f83ca5cb03ce88e9a479e4673791ad4c5043fae279d4678bef93a56/whatsapp-api-client-python-0.0.39.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [pyEasyML]: Downloading https://files.pythonhosted.org/packages/a5/90/c1f14b4dda42f3a5f7cb53df1eff5b531bb4e624bd84fc97262f8f476567/pyEasyML-1.0.4.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-monitoring]: Downloading https://files.pythonhosted.org/packages/fb/10/e50eedd59eb506da3922689994d5420db7f3a73704bb4998fcd9d909abfe/google-cloud-monitoring-2.9.1.tar.gz
+[2023-07-05 17:48:19] INFO root fetch - processPackages [curia]: executing diffoscope
+[2023-07-05 17:48:19] INFO root fetch - processPackages [curia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curia-4.3.0b1.tar.gz tmp/curia-4.3.0b2.tar.gz --markdown 20230705/c/curia/4.3.0b1-4.3.0b2/diff.md --exclude *.pyd
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sigauth]: executing diffoscope
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sigauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigauth-5.2.1-py3-none-any.whl.zip tmp/sigauth-5.2.2-py3-none-any.whl.zip --markdown 20230705/s/sigauth/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-iot]: executing diffoscope
+[2023-07-05 17:48:19] INFO root fetch - processPackages [google-cloud-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-iot-2.9.1.tar.gz tmp/google-cloud-iot-2.9.2.tar.gz --markdown 20230705/g/google-cloud-iot/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sjvisualizer]: executing diffoscope
+[2023-07-05 17:48:19] INFO root fetch - processPackages [sjvisualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sjvisualizer-0.0.7-py2.py3-none-any.whl.zip tmp/sjvisualizer-0.0.8-py2.py3-none-any.whl.zip --markdown 20230705/s/sjvisualizer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-05 17:48:20] INFO root fetch - processPackages [google-cloud-pubsublite]: executing diffoscope
+[2023-07-05 17:48:20] INFO root fetch - processPackages [google-cloud-pubsublite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-pubsublite-1.8.2.tar.gz tmp/google-cloud-pubsublite-1.8.3.tar.gz --markdown 20230705/g/google-cloud-pubsublite/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-05 17:48:20] INFO root fetch - processPackages [whatsapp-api-client-python]: executing diffoscope
+[2023-07-05 17:48:20] INFO root fetch - processPackages [whatsapp-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-api-client-python-0.0.38.tar.gz tmp/whatsapp-api-client-python-0.0.39.tar.gz --markdown 20230705/w/whatsapp-api-client-python/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-07-05 17:48:20] INFO root fetch - processPackages [pyEasyML]: executing diffoscope
+[2023-07-05 17:48:20] INFO root fetch - processPackages [pyEasyML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEasyML-1.0.3.tar.gz tmp/pyEasyML-1.0.4.tar.gz --markdown 20230705/p/pyEasyML/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-05 17:48:20] INFO root fetch - processPackages [google-cloud-monitoring]: Downloading https://files.pythonhosted.org/packages/40/d2/65eb7171f8da6ac2dbb33bab99b3518eec47f1b0275dc369ea5b2c2f1430/google-cloud-monitoring-2.9.2.tar.gz
+[2023-07-05 17:48:20] INFO root fetch - processPackages [google-cloud-monitoring]: executing diffoscope
+[2023-07-05 17:48:20] INFO root fetch - processPackages [google-cloud-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-monitoring-2.9.1.tar.gz tmp/google-cloud-monitoring-2.9.2.tar.gz --markdown 20230705/g/google-cloud-monitoring/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-05 17:48:21] INFO root fetch - processPackages [vc-filter]: Remove: archive file [/home/abi/fetcher/tmp/vc_filter-1.1.19.tar.gz]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [vc-filter]: Remove: archive file [/home/abi/fetcher/tmp/vc-filter-1.1.7.tar.gz]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [vc-filter]: Start processing: google-cloud-error-reporting
+[2023-07-05 17:48:21] INFO root fetch - main [MainThread]: End processing [vc-filter]: success
+[2023-07-05 17:48:21] INFO root fetch - processPackages [google-cloud-error-reporting]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [sigauth]: Remove: archive file [/home/abi/fetcher/tmp/sigauth-5.2.1-py3-none-any.whl.zip]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [sigauth]: Remove: archive file [/home/abi/fetcher/tmp/sigauth-5.2.2-py3-none-any.whl.zip]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [sigauth]: Start processing: curcheck
+[2023-07-05 17:48:21] INFO root fetch - main [MainThread]: End processing [sigauth]: success
+[2023-07-05 17:48:21] INFO root fetch - processPackages [pedestal-inference]: Remove: archive file [/home/abi/fetcher/tmp/pedestal-inference-0.2.1.tar.gz]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [pedestal-inference]: Remove: archive file [/home/abi/fetcher/tmp/pedestal-inference-0.2.2.tar.gz]
+[2023-07-05 17:48:21] INFO root fetch - processPackages [pedestal-inference]: Start processing: google-cloud-game-servers
+[2023-07-05 17:48:21] INFO root fetch - main [MainThread]: End processing [pedestal-inference]: success
+[2023-07-05 17:48:21] INFO root fetch - processPackages [google-cloud-error-reporting]: Downloading https://files.pythonhosted.org/packages/6f/41/cd932e8d57574b8d19c1b95c4d50ca8765f29e72411c95cd43dfa280d161/google-cloud-error-reporting-1.9.1.tar.gz
+[2023-07-05 17:48:22] INFO root fetch - processPackages [curcheck]: New version: [1.1.4] Old Version: [1.1.3b0]
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-game-servers]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-05 17:48:22] INFO root fetch - processPackages [sjvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/sjvisualizer-0.0.7-py2.py3-none-any.whl.zip]
+[2023-07-05 17:48:22] INFO root fetch - processPackages [sjvisualizer]: Remove: archive file [/home/abi/fetcher/tmp/sjvisualizer-0.0.8-py2.py3-none-any.whl.zip]
+[2023-07-05 17:48:22] INFO root fetch - main [MainThread]: End processing [sjvisualizer]: success
+[2023-07-05 17:48:22] INFO root fetch - processPackages [curcheck]: Downloading https://files.pythonhosted.org/packages/02/0a/3e0414ff45dbc278f9b03d0bdf26ac7dcb07390c985077045f3ea9bd22f8/curcheck-1.1.3b0.tar.gz
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-game-servers]: Downloading https://files.pythonhosted.org/packages/d9/59/809ffd88e5cd8afc83733ff326d43668ec488a63a201e9de1e4fe36585f1/google-cloud-game-servers-1.8.2.tar.gz
+[2023-07-05 17:48:22] INFO root fetch - processPackages [whatsapp-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-client-python-0.0.38.tar.gz]
+[2023-07-05 17:48:22] INFO root fetch - processPackages [whatsapp-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-client-python-0.0.39.tar.gz]
+[2023-07-05 17:48:22] INFO root fetch - main [MainThread]: End processing [whatsapp-api-client-python]: success
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-error-reporting]: Downloading https://files.pythonhosted.org/packages/ee/1d/74ce6d547f29a1688dd94362e47933db8de58874545f515be487b7f7c121/google-cloud-error-reporting-1.9.2.tar.gz
+[2023-07-05 17:48:22] INFO root fetch - processPackages [pyEasyML]: Remove: archive file [/home/abi/fetcher/tmp/pyEasyML-1.0.3.tar.gz]
+[2023-07-05 17:48:22] INFO root fetch - processPackages [pyEasyML]: Remove: archive file [/home/abi/fetcher/tmp/pyEasyML-1.0.4.tar.gz]
+[2023-07-05 17:48:22] INFO root fetch - main [MainThread]: End processing [pyEasyML]: success
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-iot]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-iot-2.9.1.tar.gz]
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-iot]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-iot-2.9.2.tar.gz]
+[2023-07-05 17:48:22] INFO root fetch - main [MainThread]: End processing [google-cloud-iot]: success
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-error-reporting]: executing diffoscope
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-error-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-error-reporting-1.9.1.tar.gz tmp/google-cloud-error-reporting-1.9.2.tar.gz --markdown 20230705/g/google-cloud-error-reporting/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-05 17:48:22] INFO root fetch - processPackages [curcheck]: Downloading https://files.pythonhosted.org/packages/b6/f8/ff9db8b3f42405c1e4a8d9603e76b95e67eb0e3ba2b267e0857440595526/curcheck-1.1.4.tar.gz
+[2023-07-05 17:48:22] INFO root fetch - processPackages [google-cloud-game-servers]: Downloading https://files.pythonhosted.org/packages/c9/fb/1ed1de40cbe7b5c427f902b28283f7cc5c779e87e2388df799165303f317/google-cloud-game-servers-1.8.3.tar.gz
+[2023-07-05 17:48:22] INFO root fetch - processPackages [curcheck]: executing diffoscope
+[2023-07-05 17:48:22] INFO root fetch - processPackages [curcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curcheck-1.1.3b0.tar.gz tmp/curcheck-1.1.4.tar.gz --markdown 20230705/c/curcheck/1.1.3b0-1.1.4/diff.md --exclude *.pyd
+[2023-07-05 17:48:23] INFO root fetch - processPackages [google-cloud-game-servers]: executing diffoscope
+[2023-07-05 17:48:23] INFO root fetch - processPackages [google-cloud-game-servers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-game-servers-1.8.2.tar.gz tmp/google-cloud-game-servers-1.8.3.tar.gz --markdown 20230705/g/google-cloud-game-servers/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-05 17:48:23] INFO root fetch - processPackages [google-cloud-pubsublite]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsublite-1.8.2.tar.gz]
+[2023-07-05 17:48:23] INFO root fetch - processPackages [google-cloud-pubsublite]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsublite-1.8.3.tar.gz]
+[2023-07-05 17:48:23] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsublite]: success
+[2023-07-05 17:48:24] INFO root fetch - processPackages [curcheck]: Remove: archive file [/home/abi/fetcher/tmp/curcheck-1.1.3b0.tar.gz]
+[2023-07-05 17:48:24] INFO root fetch - processPackages [curcheck]: Remove: archive file [/home/abi/fetcher/tmp/curcheck-1.1.4.tar.gz]
+[2023-07-05 17:48:24] INFO root fetch - main [MainThread]: End processing [curcheck]: success
+[2023-07-05 17:48:24] INFO root fetch - processPackages [google-cloud-error-reporting]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-error-reporting-1.9.1.tar.gz]
+[2023-07-05 17:48:24] INFO root fetch - processPackages [google-cloud-error-reporting]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-error-reporting-1.9.2.tar.gz]
+[2023-07-05 17:48:24] INFO root fetch - main [MainThread]: End processing [google-cloud-error-reporting]: success
+[2023-07-05 17:48:24] INFO root fetch - processPackages [google-cloud-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-monitoring-2.9.1.tar.gz]
+[2023-07-05 17:48:24] INFO root fetch - processPackages [google-cloud-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-monitoring-2.9.2.tar.gz]
+[2023-07-05 17:48:24] INFO root fetch - main [MainThread]: End processing [google-cloud-monitoring]: success
+[2023-07-05 17:48:25] INFO root fetch - processPackages [google-cloud-game-servers]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-game-servers-1.8.2.tar.gz]
+[2023-07-05 17:48:25] INFO root fetch - processPackages [google-cloud-game-servers]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-game-servers-1.8.3.tar.gz]
+[2023-07-05 17:48:25] INFO root fetch - main [MainThread]: End processing [google-cloud-game-servers]: success
+[2023-07-05 17:48:31] INFO root fetch - processPackages [curia]: Remove: archive file [/home/abi/fetcher/tmp/curia-4.3.0b1.tar.gz]
+[2023-07-05 17:48:31] INFO root fetch - processPackages [curia]: Remove: archive file [/home/abi/fetcher/tmp/curia-4.3.0b2.tar.gz]
+[2023-07-05 17:48:31] INFO root fetch - main [MainThread]: End processing [curia]: success
+[2023-07-05 17:48:31] INFO root fetch - main [MainThread]: Store serial: [18769784]
