@@ -6194,3 +6194,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 04:42:00] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.9.tar.gz]
 [2023-07-05 04:42:00] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
 [2023-07-05 04:42:00] INFO root fetch - main [MainThread]: Store serial: [18762261]
+[2023-07-05 04:47:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762261]
+[2023-07-05 04:47:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsds
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pami
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-26
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chromedriver-autoinstaller
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CamoTSS
+[2023-07-05 04:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resfeci
+[2023-07-05 04:47:08] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 04:47:08] INFO root fetch - processPackages [CamoTSS]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-05 04:47:08] INFO root fetch - processPackages [resfeci]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-05 04:47:08] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-05 04:47:08] INFO root fetch - processPackages [chromedriver-autoinstaller]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-05 04:47:08] INFO root fetch - processPackages [pami]: New version: [2023.7.1] Old Version: [2023.5.1]
+[2023-07-05 04:47:09] INFO root fetch - processPackages [dsds]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-07-05 04:47:09] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/94/55/9d5119ef88fceb0539602bb096b25e5fad8c8c0647ef60801386be14dec6/naif_eop_high_prec-2023.7.3.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [CamoTSS]: Downloading https://files.pythonhosted.org/packages/bf/89/5dd692a70a948fc379fceaa5d9be9ba2675acd517eac70dd6c7dd34c2939/CamoTSS-0.1.5.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/a8/d3/d0a783fbcf3063259f455bdcb2387b915d362d75a4960a6d65579710e8f3/resfeci-0.0.14.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/8b/e9/444d59de9e1c5b3394e4faa93452dcc570279f4f4147f6c7b56613bac404/chromedriver-autoinstaller-0.4.0.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/f5/b6/7584da26375ea14d665575b5f6aa403c1ca13a2330620d6db0a5fb8187bc/pami-2023.5.1.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/07/b7/ffebe6232c4cf24b8fb6b02d9dd099adc658fca25fb45d0286004cb6e0b0/dsds-0.0.15.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [resfeci]: Downloading https://files.pythonhosted.org/packages/68/f6/c02d7e78881a0c2da8042b3f58dc12fe78e3ca2ac54e271c1e642ecc592f/resfeci-0.0.15.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [resfeci]: executing diffoscope
+[2023-07-05 04:47:09] INFO root fetch - processPackages [resfeci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resfeci-0.0.14.tar.gz tmp/resfeci-0.0.15.tar.gz --markdown 20230705/r/resfeci/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-05 04:47:09] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/aa/dc/8567a242cf663cfdde1ea750ff47ea410acff938841627fec6120649013b/naif_eop_high_prec-2023.7.4.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [chromedriver-autoinstaller]: Downloading https://files.pythonhosted.org/packages/3b/15/56505e0dfc0ba5dea781323220b0ad93033f6a96dc768ec1765b16031733/chromedriver-autoinstaller-0.4.1.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/00/d6/cb2a1fda30eb753aa28888385c714a0306ee698e1523bd1ad5fc9aacf8a0/pami-2023.7.1.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/f2/f6/a4dfcc5b6a43da303d1021d603d1c897e8a09bb0a2d3e5073d355bfae5bc/dsds-0.0.16.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [CamoTSS]: Downloading https://files.pythonhosted.org/packages/e4/0d/a4a29abf3d38b5ad2258032ceec0fbbe3d86dc6a245ef8bcda51975aa785/CamoTSS-0.1.6.tar.gz
+[2023-07-05 04:47:09] INFO root fetch - processPackages [chromedriver-autoinstaller]: executing diffoscope
+[2023-07-05 04:47:09] INFO root fetch - processPackages [chromedriver-autoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-autoinstaller-0.4.0.tar.gz tmp/chromedriver-autoinstaller-0.4.1.tar.gz --markdown 20230705/c/chromedriver-autoinstaller/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-05 04:47:09] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-07-05 04:47:09] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.5.1.tar.gz tmp/pami-2023.7.1.tar.gz --markdown 20230705/p/pami/2023.5.1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-05 04:47:09] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-07-05 04:47:09] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.15.tar.gz tmp/dsds-0.0.16.tar.gz --markdown 20230705/d/dsds/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-07-05 04:47:09] INFO root fetch - processPackages [CamoTSS]: executing diffoscope
+[2023-07-05 04:47:09] INFO root fetch - processPackages [CamoTSS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CamoTSS-0.1.5.tar.gz tmp/CamoTSS-0.1.6.tar.gz --markdown 20230705/C/CamoTSS/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-05 04:47:09] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-05 04:47:09] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.3.tar.gz tmp/naif_eop_high_prec-2023.7.4.tar.gz --markdown 20230705/n/naif-eop-high-prec/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 04:47:10] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-05 04:47:10] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230705/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-05 04:47:10] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.14.tar.gz]
+[2023-07-05 04:47:10] INFO root fetch - processPackages [resfeci]: Remove: archive file [/home/abi/fetcher/tmp/resfeci-0.0.15.tar.gz]
+[2023-07-05 04:47:10] INFO root fetch - main [MainThread]: End processing [resfeci]: success
+[2023-07-05 04:47:10] INFO root fetch - processPackages [chromedriver-autoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-autoinstaller-0.4.0.tar.gz]
+[2023-07-05 04:47:10] INFO root fetch - processPackages [chromedriver-autoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-autoinstaller-0.4.1.tar.gz]
+[2023-07-05 04:47:10] INFO root fetch - main [MainThread]: End processing [chromedriver-autoinstaller]: success
+[2023-07-05 04:47:11] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.15.tar.gz]
+[2023-07-05 04:47:11] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.16.tar.gz]
+[2023-07-05 04:47:11] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-07-05 04:47:11] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-05 04:47:11] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-05 04:47:11] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-05 04:47:12] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.5.1.tar.gz]
+[2023-07-05 04:47:12] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.1.tar.gz]
+[2023-07-05 04:47:12] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-07-05 04:47:12] INFO root fetch - processPackages [CamoTSS]: Remove: archive file [/home/abi/fetcher/tmp/CamoTSS-0.1.5.tar.gz]
+[2023-07-05 04:47:12] INFO root fetch - processPackages [CamoTSS]: Remove: archive file [/home/abi/fetcher/tmp/CamoTSS-0.1.6.tar.gz]
+[2023-07-05 04:47:12] INFO root fetch - main [MainThread]: End processing [CamoTSS]: success
+[2023-07-05 04:47:12] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.3.tar.gz]
+[2023-07-05 04:47:12] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.4.tar.gz]
+[2023-07-05 04:47:12] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-05 04:47:12] INFO root fetch - main [MainThread]: Store serial: [18762284]
