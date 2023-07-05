@@ -7452,3 +7452,163 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 05:50:11] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
 [2023-07-05 05:50:11] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-07-05 05:50:11] INFO root fetch - main [MainThread]: Store serial: [18762692]
+[2023-07-05 05:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18762692]
+[2023-07-05 05:55:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benimang
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctpwrapper
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-airticketopen
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-airticketopen20230117
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enummi
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: studentProfile
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: braintrust
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swarms
+[2023-07-05 05:55:21] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-05 05:55:21] INFO root fetch - processPackages [swarms]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ctpwrapper]: New version: [6.7.0] Old Version: [6.6.9.2]
+[2023-07-05 05:55:21] WARNING root fetch - processPackages [enummi]: Skipping, unable to determine old version
+[2023-07-05 05:55:21] INFO root fetch - main [MainThread]: End processing [enummi] error
+[2023-07-05 05:55:21] WARNING root fetch - processPackages [studentProfile]: Skipping, unable to determine old version
+[2023-07-05 05:55:21] INFO root fetch - main [MainThread]: End processing [studentProfile] error
+[2023-07-05 05:55:21] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-07-05 05:55:21] INFO root fetch - processPackages [braintrust]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 05:55:21] INFO root fetch - processPackages [benimang]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-05 05:55:21] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/3a/42/f19526b16ed1a03adff78bfa137dc4a2476b8157df658a3161ef8608abe4/aliyun-python-sdk-airticketopen-2.0.1.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/55/23/049b6f0d75ff7cf968144e14305a018571db6b5976417b35cf8f1e1eb7be/swarms-0.5.4.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [ctpwrapper]: Downloading https://files.pythonhosted.org/packages/01/2c/51e344717e67f2ea86d7c2545a8bd9488716abe06d69e51efb47890c539c/ctpwrapper-6.6.9.2.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: Downloading https://files.pythonhosted.org/packages/08/e6/eb63a0c35e4865467b9f9cb8944c452dd895ab980b21cbd2c3aedf770d83/alibabacloud_airticketopen20230117-2.0.1.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/7d/80/045f422a7e865e358b5f60dda07d681ab90f4b2d47c5d5f7713f005c900d/benimang-0.3.5.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Downloading https://files.pythonhosted.org/packages/2b/8e/1a8a80f37b4aca7eb998f559fb2a30733c40cb5f939b9bf14d125bee22ae/aliyun-python-sdk-airticketopen-2.0.2.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/ea/49/6dafb427c97ea65cb6b2e479c00756df3abbea160d67859f033ac7667a61/braintrust-0.0.8.tar.gz
+[2023-07-05 05:55:21] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: executing diffoscope
+[2023-07-05 05:55:21] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-airticketopen-2.0.1.tar.gz tmp/aliyun-python-sdk-airticketopen-2.0.2.tar.gz --markdown 20230705/a/aliyun-python-sdk-airticketopen/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-05 05:55:21] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/8e/99/2b3a3b6c297514099ece863a7227cf22ffb2f7c3184b607bae320fa2e8eb/swarms-0.5.5.tar.gz
+[2023-07-05 05:55:22] INFO root fetch - processPackages [ctpwrapper]: Downloading https://files.pythonhosted.org/packages/6c/cf/d3005c67ebbc2d076c91366e90c0519097f9ca09b6a94e9c416e2b00760b/ctpwrapper-6.7.0.tar.gz
+[2023-07-05 05:55:22] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: Downloading https://files.pythonhosted.org/packages/bc/8b/e49469b6f243c5ed9b12e10ffc1dbc7ec11ed2fa180e852778bc8e7b0267/alibabacloud_airticketopen20230117-3.0.0.tar.gz
+[2023-07-05 05:55:22] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/4e/3a/faf597cceac630ee3924d2d8dcf603fc90baec28bb6313aefcb9ee399668/braintrust-0.0.9.tar.gz
+[2023-07-05 05:55:22] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/95/7f/550b0baac032f2f29ca73642135c042e229e932de7a887e6b2219191f1fc/benimang-0.3.6.tar.gz
+[2023-07-05 05:55:22] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2023-07-05 05:55:22] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-0.5.4.tar.gz tmp/swarms-0.5.5.tar.gz --markdown 20230705/s/swarms/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-05 05:55:22] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-05 05:55:22] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.8.tar.gz tmp/braintrust-0.0.9.tar.gz --markdown 20230705/b/braintrust/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 05:55:22] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: executing diffoscope
+[2023-07-05 05:55:22] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_airticketopen20230117-2.0.1.tar.gz tmp/alibabacloud_airticketopen20230117-3.0.0.tar.gz --markdown 20230705/a/alibabacloud-airticketopen20230117/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-07-05 05:55:22] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-05 05:55:22] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.3.5.tar.gz tmp/benimang-0.3.6.tar.gz --markdown 20230705/b/benimang/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-05 05:55:22] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-airticketopen-2.0.1.tar.gz]
+[2023-07-05 05:55:22] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-airticketopen-2.0.2.tar.gz]
+[2023-07-05 05:55:22] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen]: success
+[2023-07-05 05:55:23] INFO root fetch - processPackages [ctpwrapper]: executing diffoscope
+[2023-07-05 05:55:23] INFO root fetch - processPackages [ctpwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctpwrapper-6.6.9.2.tar.gz tmp/ctpwrapper-6.7.0.tar.gz --markdown 20230705/c/ctpwrapper/6.6.9.2-6.7.0/diff.md --exclude *.pyd
+[2023-07-05 05:55:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.4.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-0.5.5.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2023-07-05 05:55:23] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.8.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.9.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-05 05:55:23] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.3.5.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.3.6.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-05 05:55:23] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_airticketopen20230117-2.0.1.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - processPackages [alibabacloud-airticketopen20230117]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_airticketopen20230117-3.0.0.tar.gz]
+[2023-07-05 05:55:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-airticketopen20230117]: success
+[2023-07-05 05:56:18] ERROR root fetch - processPackages [ctpwrapper]: Diffoscope failed: time="2023-07-05T05:55:23+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140535826226624)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140535692008864)
+
+[2023-07-05 05:56:18] INFO root fetch - main [MainThread]: End processing [ctpwrapper] error
+[2023-07-05 05:56:18] INFO root fetch - main [MainThread]: Store serial: [18762723]
