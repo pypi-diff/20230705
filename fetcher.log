@@ -8796,3 +8796,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 07:51:08] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.90.tar.gz]
 [2023-07-05 07:51:08] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-07-05 07:51:08] INFO root fetch - main [MainThread]: Store serial: [18763154]
+[2023-07-05 07:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763154]
+[2023-07-05 07:56:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-05 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-tvm
+[2023-07-05 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-rerunfailures
+[2023-07-05 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: berrydb
+[2023-07-05 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-supervisor
+[2023-07-05 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clearml-session
+[2023-07-05 07:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whisper-mic
+[2023-07-05 07:56:21] INFO root fetch - processPackages [pytest-rerunfailures]: New version: [9.1.1] Old Version: [9.1]
+[2023-07-05 07:56:21] WARNING root fetch - processPackages [berrydb]: Skipping, unable to determine old version
+[2023-07-05 07:56:21] INFO root fetch - main [MainThread]: End processing [berrydb] error
+[2023-07-05 07:56:21] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.14.dev9]
+[2023-07-05 07:56:21] INFO root fetch - processPackages [spaceone-supervisor]: New version: [1.9.7rc1] Old Version: [1.9.7]
+[2023-07-05 07:56:21] INFO root fetch - processPackages [whisper-mic]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-05 07:56:21] INFO root fetch - processPackages [clearml-session]: New version: [0.6.0] Old Version: [0.4.0]
+[2023-07-05 07:56:21] INFO root fetch - processPackages [pytest-rerunfailures]: Downloading https://files.pythonhosted.org/packages/01/2e/9c64d783f288eeb369a8e1a1eb6976244eb37f577828c2e0b88c7ad9afbc/pytest-rerunfailures-9.1.tar.gz
+[2023-07-05 07:56:21] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/97/25/3524632ea469082fdcd74f8989d5b4ac507351cb9f2ed216b86976d1dbaf/apache_tvm-0.14.dev9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-05 07:56:21] INFO root fetch - processPackages [spaceone-supervisor]: Downloading https://files.pythonhosted.org/packages/bc/4e/e44f5c097613b695cd86c690f9a2f2adb2e6611936c7e20945b00850af51/spaceone_supervisor-1.9.7-py3-none-any.whl
+[2023-07-05 07:56:21] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/9f/86/a7b025518609b48944c3fdd8ba5335c1112a09345efd2362327bf3df8bae/whisper_mic-1.0.1.tar.gz
+[2023-07-05 07:56:21] INFO root fetch - processPackages [clearml-session]: Downloading https://files.pythonhosted.org/packages/19/e6/e85f41de7b304187a55de08096923f112e038968240477a99865f4e383f7/clearml_session-0.4.0-py3-none-any.whl
+[2023-07-05 07:56:22] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 82327624>=10485760
+[2023-07-05 07:56:22] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-07-05 07:56:22] INFO root fetch - processPackages [pytest-rerunfailures]: Downloading https://files.pythonhosted.org/packages/81/d7/ef36f363e2c45d61a0a6bd070ca3f4e6adbd7c31e9ab8e7766cce6634af2/pytest-rerunfailures-9.1.1.tar.gz
+[2023-07-05 07:56:22] INFO root fetch - processPackages [clearml-session]: Downloading https://files.pythonhosted.org/packages/17/8d/83d3f777bb06a4ec431ab98aa0ce4d8282cf163bae4c306f5058d4b10c35/clearml_session-0.6.0-py3-none-any.whl
+[2023-07-05 07:56:22] INFO root fetch - processPackages [whisper-mic]: Downloading https://files.pythonhosted.org/packages/4a/49/4443767706e18f6e83ccdd368e923774d1b6d993a67989355bf3201c9470/whisper_mic-1.1.0.tar.gz
+[2023-07-05 07:56:22] INFO root fetch - processPackages [pytest-rerunfailures]: executing diffoscope
+[2023-07-05 07:56:22] INFO root fetch - processPackages [pytest-rerunfailures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-rerunfailures-9.1.tar.gz tmp/pytest-rerunfailures-9.1.1.tar.gz --markdown 20230705/p/pytest-rerunfailures/9.1-9.1.1/diff.md --exclude *.pyd
+[2023-07-05 07:56:22] INFO root fetch - processPackages [clearml-session]: executing diffoscope
+[2023-07-05 07:56:22] INFO root fetch - processPackages [clearml-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_session-0.4.0-py3-none-any.whl.zip tmp/clearml_session-0.6.0-py3-none-any.whl.zip --markdown 20230705/c/clearml-session/0.4.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-05 07:56:22] INFO root fetch - processPackages [whisper-mic]: executing diffoscope
+[2023-07-05 07:56:22] INFO root fetch - processPackages [whisper-mic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_mic-1.0.1.tar.gz tmp/whisper_mic-1.1.0.tar.gz --markdown 20230705/w/whisper-mic/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-05 07:56:22] INFO root fetch - processPackages [spaceone-supervisor]: Downloading https://files.pythonhosted.org/packages/c5/4a/438439fb9504f6e4326e0800484696c26133a7d54090b11f66d719f4e7d4/spaceone_supervisor-1.9.7rc1-py3-none-any.whl
+[2023-07-05 07:56:23] INFO root fetch - processPackages [pytest-rerunfailures]: Remove: archive file [/home/abi/fetcher/tmp/pytest-rerunfailures-9.1.tar.gz]
+[2023-07-05 07:56:23] INFO root fetch - processPackages [pytest-rerunfailures]: Remove: archive file [/home/abi/fetcher/tmp/pytest-rerunfailures-9.1.1.tar.gz]
+[2023-07-05 07:56:23] INFO root fetch - main [MainThread]: End processing [pytest-rerunfailures]: success
+[2023-07-05 07:56:23] INFO root fetch - processPackages [clearml-session]: Remove: archive file [/home/abi/fetcher/tmp/clearml_session-0.4.0-py3-none-any.whl.zip]
+[2023-07-05 07:56:23] INFO root fetch - processPackages [clearml-session]: Remove: archive file [/home/abi/fetcher/tmp/clearml_session-0.6.0-py3-none-any.whl.zip]
+[2023-07-05 07:56:23] INFO root fetch - main [MainThread]: End processing [clearml-session]: success
+[2023-07-05 07:56:23] INFO root fetch - processPackages [spaceone-supervisor]: executing diffoscope
+[2023-07-05 07:56:23] INFO root fetch - processPackages [spaceone-supervisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_supervisor-1.9.7-py3-none-any.whl.zip tmp/spaceone_supervisor-1.9.7rc1-py3-none-any.whl.zip --markdown 20230705/s/spaceone-supervisor/1.9.7-1.9.7rc1/diff.md --exclude *.pyd
+[2023-07-05 07:56:23] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.0.1.tar.gz]
+[2023-07-05 07:56:23] INFO root fetch - processPackages [whisper-mic]: Remove: archive file [/home/abi/fetcher/tmp/whisper_mic-1.1.0.tar.gz]
+[2023-07-05 07:56:23] INFO root fetch - main [MainThread]: End processing [whisper-mic]: success
+[2023-07-05 07:56:24] INFO root fetch - processPackages [spaceone-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_supervisor-1.9.7-py3-none-any.whl.zip]
+[2023-07-05 07:56:24] INFO root fetch - processPackages [spaceone-supervisor]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_supervisor-1.9.7rc1-py3-none-any.whl.zip]
+[2023-07-05 07:56:24] INFO root fetch - main [MainThread]: End processing [spaceone-supervisor]: success
+[2023-07-05 07:56:24] INFO root fetch - main [MainThread]: Store serial: [18763173]
