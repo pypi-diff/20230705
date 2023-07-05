@@ -11195,3 +11195,152 @@ AssertionError: tmp/hak-0.0.8.tar.gz does not exist
 [2023-07-05 10:03:25] INFO root fetch - processPackages [gitlint-core]: Remove: archive file [/home/abi/fetcher/tmp/gitlint_core-0.20.0.dev9.tar.gz]
 [2023-07-05 10:03:25] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
 [2023-07-05 10:03:25] INFO root fetch - main [MainThread]: Store serial: [18764196]
+[2023-07-05 10:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18764196]
+[2023-07-05 10:08:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: callllm
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vnpy-xex
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesscode-py
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-photovoltaic-api
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydoclint
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mvtech-plugin
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Finance-Seleya
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-role
+[2023-07-05 10:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygbop
+[2023-07-05 10:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PowDevLif
+[2023-07-05 10:08:35] WARNING root fetch - processPackages [callllm]: Skipping, unable to determine old version
+[2023-07-05 10:08:35] INFO root fetch - processPackages [callllm]: Start processing: pyglove
+[2023-07-05 10:08:35] INFO root fetch - main [MainThread]: End processing [callllm] error
+[2023-07-05 10:08:35] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-05 10:08:35] WARNING root fetch - processPackages [mvtech-plugin]: Skipping, unable to determine old version
+[2023-07-05 10:08:35] INFO root fetch - processPackages [mvtech-plugin]: Start processing: yyxx-game-pkg-dev
+[2023-07-05 10:08:35] INFO root fetch - main [MainThread]: End processing [mvtech-plugin] error
+[2023-07-05 10:08:35] INFO root fetch - processPackages [pygbop]: New version: [0.2.0.1] Old Version: [0.1.1.5]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [PowDevLif]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.7.5.2] Old Version: [2023.7.5.1]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [pydoclint]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [Finance-Seleya]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230704] Old Version: [0.3.1.dev20230703]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.5] Old Version: [13.0.1.1.4]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [yyxx-game-pkg-dev]: New version: [2023.7.5.5.dev4] Old Version: [2023.6.9.1.dev8]
+[2023-07-05 10:08:35] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/5e/60/5c60f7d9e9a0a3f9f8f5508d11e2038c39bf9b7f946415ff3af10cd43265/pygbop-0.1.1.5.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [PowDevLif]: Downloading https://files.pythonhosted.org/packages/13/71/60290cff5d95278081cebd528135da1ece09e76555b2ad26da302e4d3618/PowDevLif-0.0.3.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/4b/02/ba4d813ac0729d1c29475a3705dd25d69b1722ac5a2e90fa68b7165a30a4/vnpy_xex-2023.7.5.1.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/f5/87/566cee6da71ead6c63c0c418712cccba9242ddebfa0c5866df3924866477/pyglove-0.3.1.dev20230703.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [Finance-Seleya]: Downloading https://files.pythonhosted.org/packages/56/bd/0dc2ff43b06d1545b0848474b3296aa95af36d152a23874861de6462f937/Finance-Seleya-1.1.3.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/68/34/509bbbd7b2ddaa19623bdee5fa552fd9baa84887c7459d5090308047adb6/odoo13-addon-photovoltaic_api-13.0.1.1.4.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/45/ee/1a373a27583f07ade419690f49aa7c0cf5e912ac98d6e76d61c84500b51f/yyxx_game_pkg_dev-2023.6.9.1.dev8.tar.gz
+[2023-07-05 10:08:35] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/a9/49/64490aa114295f6e85e4db754f538e60f0590a323233fc543d04de46abf2/vnpy_xex-2023.7.5.2.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pygbop]: Downloading https://files.pythonhosted.org/packages/d4/7c/460788ac7ea29daaed65b7e153e0578b4e5600c93d3e949e67a182d19e42/pygbop-0.2.0.1.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [PowDevLif]: Downloading https://files.pythonhosted.org/packages/9a/2b/c1dc5c7b074337eddb431e7a8721cb195d47064ad96521a41db3d66588ff/PowDevLif-0.0.4.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230705/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pygbop]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pygbop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygbop-0.1.1.5.tar.gz tmp/pygbop-0.2.0.1.tar.gz --markdown 20230705/p/pygbop/0.1.1.5-0.2.0.1/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/0a/a3/d299e4c07e704e96f3aa6cc97630846ee56ecc5f38f581e25262032200bb/odoo13-addon-photovoltaic_api-13.0.1.1.5.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/1d/04/c037b1f360d2a93cf9037935c60b43daa437a82efeed918aef874f7d21aa/pyglove-0.3.1.dev20230704.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [Finance-Seleya]: Downloading https://files.pythonhosted.org/packages/64/bd/8f0eae955c6d5e76fb551c57428d978c6f958f67688e83bd54dcd8f4beb9/Finance-Seleya-1.1.4.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.7.5.1.tar.gz tmp/vnpy_xex-2023.7.5.2.tar.gz --markdown 20230705/v/vnpy-xex/2023.7.5.1-2023.7.5.2/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [PowDevLif]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [PowDevLif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PowDevLif-0.0.3.tar.gz tmp/PowDevLif-0.0.4.tar.gz --markdown 20230705/P/PowDevLif/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.4.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.5.tar.gz --markdown 20230705/o/odoo13-addon-photovoltaic-api/13.0.1.1.4-13.0.1.1.5/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/08/fc/a46479a39d8bd265031e3186beb56d28f720613929d6a32ec23a11b6798b/pydoclint-0.0.9.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230703.tar.gz tmp/pyglove-0.3.1.dev20230704.tar.gz --markdown 20230705/p/pyglove/0.3.1.dev20230703-0.3.1.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [Finance-Seleya]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [Finance-Seleya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Seleya-1.1.3.tar.gz tmp/Finance-Seleya-1.1.4.tar.gz --markdown 20230705/F/Finance-Seleya/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.8.tar.gz tmp/pydoclint-0.0.9.tar.gz --markdown 20230705/p/pydoclint/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:08:36] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-07-05 10:08:36] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230705/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-05 10:08:37] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.1.1.5.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [pygbop]: Remove: archive file [/home/abi/fetcher/tmp/pygbop-0.2.0.1.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [pygbop]: Start processing: diveplane-amalgam-api
+[2023-07-05 10:08:37] INFO root fetch - main [MainThread]: End processing [pygbop]: success
+[2023-07-05 10:08:37] INFO root fetch - processPackages [diveplane-amalgam-api]: New version: [2.3.9] Old Version: [2.3.7]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.7.5.1.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.7.5.2.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [vnpy-xex]: Start processing: wowipy
+[2023-07-05 10:08:37] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-07-05 10:08:37] INFO root fetch - processPackages [PowDevLif]: Remove: archive file [/home/abi/fetcher/tmp/PowDevLif-0.0.3.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [PowDevLif]: Remove: archive file [/home/abi/fetcher/tmp/PowDevLif-0.0.4.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [PowDevLif]: Start processing: diveplane-reactor-api
+[2023-07-05 10:08:37] INFO root fetch - main [MainThread]: End processing [PowDevLif]: success
+[2023-07-05 10:08:37] INFO root fetch - processPackages [wowipy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [diveplane-amalgam-api]: Downloading https://files.pythonhosted.org/packages/92/93/05cb502f2c20408bb8443a401c210d05bf1fb7ca5e04e38086eacf1bb0b3/diveplane_amalgam_api-2.3.7-py3-none-any.whl
+[2023-07-05 10:08:37] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.4.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.5.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Start processing: diveplane-reactor-community
+[2023-07-05 10:08:37] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2023-07-05 10:08:37] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.8.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [xj-role]: Remove: archive file [/home/abi/fetcher/tmp/xj_role-1.0.9.tar.gz]
+[2023-07-05 10:08:37] INFO root fetch - processPackages [xj-role]: Start processing: diveplane-openapi-client
+[2023-07-05 10:08:37] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-07-05 10:08:37] INFO root fetch - processPackages [diveplane-reactor-api]: New version: [5.0.18] Old Version: [2.5.3]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Downloading https://files.pythonhosted.org/packages/ad/96/854fce31a8df31cc270ecfe41c1255fa30ceedfbb502405ac960c479d212/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-reactor-community]: New version: [1.0.5] Old Version: [1.0.46]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-openapi-client]: New version: [23.0.6] Old Version: [22.2.5]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/7e/45/181794a5ee7b0bfee61c0bb1eb9bcdf8c400c179a163a9c7fffbf90ec221/wowipy-1.1.4.tar.gz
+[2023-07-05 10:08:38] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.9.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [pydoclint]: Start processing: alphalogic-api
+[2023-07-05 10:08:38] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-reactor-api]: Downloading https://files.pythonhosted.org/packages/96/44/790d13a84356f6ec051cbe637335293d71acae4007021f596c9f59f11de4/diveplane_reactor_api-2.5.3-py3-none-any.whl
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-reactor-community]: Downloading https://files.pythonhosted.org/packages/84/31/206e604bf8548521b6d6576a431dfee1c1cd9a7b350a24121457a6e5e5e8/diveplane_reactor_community-1.0.46-py3-none-any.whl
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-amalgam-api]: Downloading https://files.pythonhosted.org/packages/32/5a/37e0469edf90641906f088666e1518a46c4c20b5c5a641f963b7435ae45d/diveplane_amalgam_api-2.3.9-py3-none-any.whl
+[2023-07-05 10:08:38] INFO root fetch - processPackages [alphalogic-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-openapi-client]: Downloading https://files.pythonhosted.org/packages/3c/bb/6560c19db9cfaf8da4e3120ef244cccd15adf19c544516ab11241dfed15d/diveplane_openapi_client-22.2.5-py3-none-any.whl
+[2023-07-05 10:08:38] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-07-05 10:08:38] WARNING root fetch - processPackages [diveplane-reactor-community]: Skipping package: exceeds size limit 15696365>=10485760
+[2023-07-05 10:08:38] INFO root fetch - main [MainThread]: End processing [diveplane-reactor-community] error
+[2023-07-05 10:08:38] INFO root fetch - processPackages [Finance-Seleya]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Seleya-1.1.3.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [Finance-Seleya]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Seleya-1.1.4.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - main [MainThread]: End processing [Finance-Seleya]: success
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-amalgam-api]: executing diffoscope
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-amalgam-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diveplane_amalgam_api-2.3.7-py3-none-any.whl.zip tmp/diveplane_amalgam_api-2.3.9-py3-none-any.whl.zip --markdown 20230705/d/diveplane-amalgam-api/2.3.7-2.3.9/diff.md --exclude *.pyd
+[2023-07-05 10:08:38] INFO root fetch - processPackages [alphalogic-api]: Downloading https://files.pythonhosted.org/packages/c0/d9/c1e701a5dee0868f0327c73a9b85705223eee3bbc845b4d0a67d04e0fa6e/alphalogic_api-0.0.8.zip
+[2023-07-05 10:08:38] INFO root fetch - processPackages [wowipy]: Downloading https://files.pythonhosted.org/packages/42/ce/b627778b6e117451ecff2386567ca4847bcefa1cc459307e87fd4fef8880/wowipy-1.1.5.tar.gz
+[2023-07-05 10:08:38] INFO root fetch - processPackages [yyxx-game-pkg-dev]: executing diffoscope
+[2023-07-05 10:08:38] INFO root fetch - processPackages [yyxx-game-pkg-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg_dev-2023.6.9.1.dev8.tar.gz tmp/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz --markdown 20230705/y/yyxx-game-pkg-dev/2023.6.9.1.dev8-2023.7.5.5.dev4/diff.md --exclude *.pyd
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-reactor-api]: Downloading https://files.pythonhosted.org/packages/a5/fc/d6286ab324af3e09bf71c4fe5eb589524aa34aefe03a854c2b2485cf4798/diveplane_reactor_api-5.0.18-py3-none-any.whl
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-openapi-client]: Downloading https://files.pythonhosted.org/packages/0e/40/14b9e95e25f3481ed5b9e3271ac58dad08b79ef8d2cd28537c838f59098b/diveplane_openapi_client-23.0.6-py3-none-any.whl
+[2023-07-05 10:08:38] INFO root fetch - processPackages [wowipy]: executing diffoscope
+[2023-07-05 10:08:38] INFO root fetch - processPackages [wowipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowipy-1.1.4.tar.gz tmp/wowipy-1.1.5.tar.gz --markdown 20230705/w/wowipy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-05 10:08:38] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230703.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230704.tar.gz]
+[2023-07-05 10:08:38] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-reactor-api]: executing diffoscope
+[2023-07-05 10:08:38] INFO root fetch - processPackages [diveplane-reactor-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diveplane_reactor_api-2.5.3-py3-none-any.whl.zip tmp/diveplane_reactor_api-5.0.18-py3-none-any.whl.zip --markdown 20230705/d/diveplane-reactor-api/2.5.3-5.0.18/diff.md --exclude *.pyd
+[2023-07-05 10:08:39] INFO root fetch - processPackages [alphalogic-api]: Downloading https://files.pythonhosted.org/packages/a2/95/b02705d3ffc7d0abdd7accc07bc017db1741569f3197ff69b1aa0ceff05f/alphalogic_api-0.0.9.zip
+[2023-07-05 10:08:39] INFO root fetch - processPackages [diveplane-openapi-client]: executing diffoscope
+[2023-07-05 10:08:39] INFO root fetch - processPackages [diveplane-openapi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diveplane_openapi_client-22.2.5-py3-none-any.whl.zip tmp/diveplane_openapi_client-23.0.6-py3-none-any.whl.zip --markdown 20230705/d/diveplane-openapi-client/22.2.5-23.0.6/diff.md --exclude *.pyd
+[2023-07-05 10:08:39] INFO root fetch - processPackages [alphalogic-api]: executing diffoscope
+[2023-07-05 10:08:39] INFO root fetch - processPackages [alphalogic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphalogic_api-0.0.8.zip tmp/alphalogic_api-0.0.9.zip --markdown 20230705/a/alphalogic-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 10:08:39] INFO root fetch - processPackages [diveplane-amalgam-api]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_amalgam_api-2.3.7-py3-none-any.whl.zip]
+[2023-07-05 10:08:39] INFO root fetch - processPackages [diveplane-amalgam-api]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_amalgam_api-2.3.9-py3-none-any.whl.zip]
+[2023-07-05 10:08:39] INFO root fetch - main [MainThread]: End processing [diveplane-amalgam-api]: success
+[2023-07-05 10:08:39] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.4.tar.gz]
+[2023-07-05 10:08:39] INFO root fetch - processPackages [wowipy]: Remove: archive file [/home/abi/fetcher/tmp/wowipy-1.1.5.tar.gz]
+[2023-07-05 10:08:39] INFO root fetch - main [MainThread]: End processing [wowipy]: success
+[2023-07-05 10:08:40] INFO root fetch - processPackages [alphalogic-api]: Remove: archive file [/home/abi/fetcher/tmp/alphalogic_api-0.0.8.zip]
+[2023-07-05 10:08:40] INFO root fetch - processPackages [alphalogic-api]: Remove: archive file [/home/abi/fetcher/tmp/alphalogic_api-0.0.9.zip]
+[2023-07-05 10:08:40] INFO root fetch - main [MainThread]: End processing [alphalogic-api]: success
+[2023-07-05 10:08:40] INFO root fetch - processPackages [diveplane-reactor-api]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_reactor_api-2.5.3-py3-none-any.whl.zip]
+[2023-07-05 10:08:40] INFO root fetch - processPackages [diveplane-reactor-api]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_reactor_api-5.0.18-py3-none-any.whl.zip]
+[2023-07-05 10:08:40] INFO root fetch - main [MainThread]: End processing [diveplane-reactor-api]: success
+[2023-07-05 10:08:40] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.6.9.1.dev8.tar.gz]
+[2023-07-05 10:08:40] INFO root fetch - processPackages [yyxx-game-pkg-dev]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg_dev-2023.7.5.5.dev4.tar.gz]
+[2023-07-05 10:08:40] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg-dev]: success
+[2023-07-05 10:08:41] INFO root fetch - processPackages [diveplane-openapi-client]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_openapi_client-22.2.5-py3-none-any.whl.zip]
+[2023-07-05 10:08:41] INFO root fetch - processPackages [diveplane-openapi-client]: Remove: archive file [/home/abi/fetcher/tmp/diveplane_openapi_client-23.0.6-py3-none-any.whl.zip]
+[2023-07-05 10:08:41] INFO root fetch - main [MainThread]: End processing [diveplane-openapi-client]: success
+[2023-07-05 10:08:41] INFO root fetch - main [MainThread]: Store serial: [18764249]
