@@ -15882,3 +15882,107 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 13:25:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-05 13:25:40] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-05 13:25:40] INFO root fetch - main [MainThread]: Store serial: [18766294]
+[2023-07-05 13:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18766294]
+[2023-07-05 13:30:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pip-project-square
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dwiqc
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-supporter
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataplicity
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: watchgha
+[2023-07-05 13:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlalchemy-bind-manager
+[2023-07-05 13:30:49] WARNING root fetch - processPackages [pip-project-square]: Skipping, unable to determine old version
+[2023-07-05 13:30:49] INFO root fetch - processPackages [pip-project-square]: Start processing: idelium
+[2023-07-05 13:30:49] INFO root fetch - main [MainThread]: End processing [pip-project-square] error
+[2023-07-05 13:30:49] INFO root fetch - processPackages [python-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [watchgha]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [dwiqc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-05 13:30:49] WARNING root fetch - processPackages [idelium]: Skipping, unable to determine old version
+[2023-07-05 13:30:49] INFO root fetch - processPackages [idelium]: Start processing: feynml
+[2023-07-05 13:30:49] INFO root fetch - main [MainThread]: End processing [idelium] error
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [feynml]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-05 13:30:49] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/7b/6f/98c23a37675c8704d9b0b2bb757ff68a237bf1233e54456d2f47b8f60fc5/python-supporter-0.0.8.tar.gz
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2a/f9/737ae610b28e029da4e25c3241e4cb1f4e9434b1b39a66176a93502eb26a/torch_workflow_archiver_nightly-2023.7.3-py3-none-any.whl
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/68/8f/19dfed4dae132310bdc2ac6a9eed277f212db59c9319cc16449ad8b2593e/torchrl_nightly-2023.7.3-cp39-cp39-win_amd64.whl
+[2023-07-05 13:30:49] INFO root fetch - processPackages [watchgha]: Downloading https://files.pythonhosted.org/packages/7c/c0/77b841d72f792c2c5e70d863ed7ce4c980be33abc9ec916ca7d03bcf5afb/watchgha-2.1.0.tar.gz
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/c5/7b/e72f48e962024f5afa62b676f93c8de1deae85de92bb1be5bad2c424f763/torch_model_archiver_nightly-2023.7.3-py3-none-any.whl
+[2023-07-05 13:30:49] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/e6/c4/0d145545074023500eebe1b7862fd87d781c5dd95078b44366186a87e358/sqlalchemy_bind_manager-0.4.0.tar.gz
+[2023-07-05 13:30:49] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/eb/90/1b8c2fad825f46cc9bea812debaefc3f1a931cc6a5a6daedfc5c876bf5a1/feynml-0.2.2.tar.gz
+[2023-07-05 13:30:49] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/fa/6a/d36e03a715e14cdf3b3742a3521d7dfa51402c683236ad2681048119cff2/dwiqc-0.5.8-py2.py3-none-any.whl
+[2023-07-05 13:30:49] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/89/f7/4b699884eba8fa735c10c5441bb47bd0e97d41475fb88e5dbb664ee2d795/torchserve_nightly-2023.7.3-py3-none-any.whl
+[2023-07-05 13:30:49] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750206>=10485760
+[2023-07-05 13:30:49] INFO root fetch - processPackages [torchserve-nightly]: Start processing: funfluid
+[2023-07-05 13:30:49] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-05 13:30:50] INFO root fetch - processPackages [funfluid]: New version: [202307051930] Old Version: [202307041340]
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/23/82/9dd6e66c894aacbe0249843e9845aba9cc33a22dbaa0542988e09a5b5c3a/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl
+[2023-07-05 13:30:50] INFO root fetch - processPackages [python-supporter]: Downloading https://files.pythonhosted.org/packages/46/5a/b86299eadff25b47d4094f9437467e39ed8b1b422fdc8c0b0bfcd6f5770e/python-supporter-0.0.9.tar.gz
+[2023-07-05 13:30:50] INFO root fetch - processPackages [feynml]: Downloading https://files.pythonhosted.org/packages/8c/76/754e2ee4820bf0069e1c71693cc72b753397fbf8f76f274303d328331b49/feynml-0.2.3.tar.gz
+[2023-07-05 13:30:50] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/00/02/6ca4f118a8d38e27461544c9de58fb911c3b163c8ce7db7d8f4af280f08b/torchrl_nightly-2023.7.4-cp39-cp39-win_amd64.whl
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.3-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl.zip --markdown 20230705/t/torch-workflow-archiver-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [watchgha]: Downloading https://files.pythonhosted.org/packages/5b/15/f88dca95ff90e84937b667b52c84baccc7833d43f0a0f42950b45588067e/watchgha-2.1.1.tar.gz
+[2023-07-05 13:30:50] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/73/d29b3b15c0b27b26c7d344d49f5fbe716984eaccaa31ba2b3560803ba50b/dwiqc-0.5.9-py2.py3-none-any.whl
+[2023-07-05 13:30:50] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/a5/80/ba407b821e195b154c1630a25c4027881b052738319fab47d809df587d03/sqlalchemy_bind_manager-0.5.0.tar.gz
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/86/75/0a475046b6dc746ffbda3fb8a8e66f41b3a7ad403d6e15f3a5fc3cb658d4/torch_model_archiver_nightly-2023.7.4-py3-none-any.whl
+[2023-07-05 13:30:50] INFO root fetch - processPackages [python-supporter]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [python-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-supporter-0.0.8.tar.gz tmp/python-supporter-0.0.9.tar.gz --markdown 20230705/p/python-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [feynml]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [feynml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynml-0.2.2.tar.gz tmp/feynml-0.2.3.tar.gz --markdown 20230705/f/feynml/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230705/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/ba/4c/219d3a2b8313f0cf1bc986371ffc48a89d3bfde798ced92a6579de3745d5/funfluid-202307041340.tar.gz
+[2023-07-05 13:30:50] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.3-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.4-py3-none-any.whl.zip --markdown 20230705/t/torch-model-archiver-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.5.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.5.9-py2.py3-none-any.whl.zip --markdown 20230705/d/dwiqc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.4.0.tar.gz tmp/sqlalchemy_bind_manager-0.5.0.tar.gz --markdown 20230705/s/sqlalchemy-bind-manager/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.3-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.4-cp39-cp39-win_amd64.whl.zip --markdown 20230705/t/torchrl-nightly/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [watchgha]: executing diffoscope
+[2023-07-05 13:30:50] INFO root fetch - processPackages [watchgha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchgha-2.1.0.tar.gz tmp/watchgha-2.1.1.tar.gz --markdown 20230705/w/watchgha/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-05 13:30:50] INFO root fetch - processPackages [funfluid]: Downloading https://files.pythonhosted.org/packages/2e/c3/507e9c7369ba3e5216b3f7c6008bcf867bf08e0c7a81c5c7ac8bf1a5eeaf/funfluid-202307051930.tar.gz
+[2023-07-05 13:30:51] INFO root fetch - processPackages [funfluid]: executing diffoscope
+[2023-07-05 13:30:51] INFO root fetch - processPackages [funfluid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funfluid-202307041340.tar.gz tmp/funfluid-202307051930.tar.gz --markdown 20230705/f/funfluid/202307041340-202307051930/diff.md --exclude *.pyd
+[2023-07-05 13:30:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.3-py3-none-any.whl.zip]
+[2023-07-05 13:30:51] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.4-py3-none-any.whl.zip]
+[2023-07-05 13:30:51] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.8.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [python-supporter]: Remove: archive file [/home/abi/fetcher/tmp/python-supporter-0.0.9.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [python-supporter]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.3-py3-none-any.whl.zip]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.4-py3-none-any.whl.zip]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.8-py2.py3-none-any.whl.zip]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.5.9-py2.py3-none-any.whl.zip]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.2.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [feynml]: Remove: archive file [/home/abi/fetcher/tmp/feynml-0.2.3.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [feynml]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.4.0.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.5.0.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [watchgha]: Remove: archive file [/home/abi/fetcher/tmp/watchgha-2.1.0.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [watchgha]: Remove: archive file [/home/abi/fetcher/tmp/watchgha-2.1.1.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [watchgha]: success
+[2023-07-05 13:30:52] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307041340.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - processPackages [funfluid]: Remove: archive file [/home/abi/fetcher/tmp/funfluid-202307051930.tar.gz]
+[2023-07-05 13:30:52] INFO root fetch - main [MainThread]: End processing [funfluid]: success
+[2023-07-05 13:30:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 13:30:53] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-05 13:30:53] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-05 13:30:53] INFO root fetch - main [MainThread]: Store serial: [18766340]
