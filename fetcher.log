@@ -9011,3 +9011,192 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-07-05 08:12:10] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.0.2.tar.gz]
 [2023-07-05 08:12:10] INFO root fetch - main [MainThread]: End processing [projectal]: success
 [2023-07-05 08:12:10] INFO root fetch - main [MainThread]: Store serial: [18763232]
+[2023-07-05 08:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18763232]
+[2023-07-05 08:17:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hubotlibs
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ex4nicegui
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickbolt
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyracetimegg
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-smart-reply
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mage-ai
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tr
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ccxt
+[2023-07-05 08:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-purchase-stock-price-unit-sync
+[2023-07-05 08:17:20] INFO root fetch - processPackages [tr]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-05 08:17:20] INFO root fetch - processPackages [quickbolt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-05 08:17:21] WARNING root fetch - processPackages [ex4nicegui]: Skipping, unable to determine old version
+[2023-07-05 08:17:21] INFO root fetch - processPackages [ex4nicegui]: Start processing: nonebot-plugin-game-collection
+[2023-07-05 08:17:21] INFO root fetch - main [MainThread]: End processing [ex4nicegui] error
+[2023-07-05 08:17:21] WARNING root fetch - processPackages [pyracetimegg]: Skipping, unable to determine old version
+[2023-07-05 08:17:21] INFO root fetch - processPackages [pyracetimegg]: Start processing: z3c.sqlalchemy
+[2023-07-05 08:17:21] INFO root fetch - main [MainThread]: End processing [pyracetimegg] error
+[2023-07-05 08:17:21] INFO root fetch - processPackages [hubotlibs]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: New version: [0.1.114514.post2] Old Version: [0.1.114514.post1]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [ccxt]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [mage-ai]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230704] Old Version: [2.4.0.dev20230703]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/c9/05/e2a4b6d39dbae5be1990c0a38ad1338e68dafa35ad385604b0ff262a5cf5/quickbolt-0.1.3.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/d1/0d/e802ea4c6f5b30f6e2247a52bee8628f68259ba7e87aea341ae362125431/ccxt-4.0.6.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/09/41/f25137b98a6d0867c50bd6bc046ec9e54eaccdf3ceff791c41f5fc27c843/pyg_nightly-2.4.0.dev20230703.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [z3c.sqlalchemy]: New version: [2.1] Old Version: [2.0]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/07/d0/ebcd6d9c3397c5a245c8e65834997b6b1974ee7084fa149409dca5eb7b1d/nonebot_plugin_game_collection-2.2.8.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [tr]: Downloading https://files.pythonhosted.org/packages/bc/4c/82daa4942efd4ccbfe922e8b422c0366bef2a74b5943d5d1821da94e10e1/tr-2.6.0.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/38/74/339137f852a159c9cb1ccd83fec375f9bfba2706b3caf0a1326e6845d16d/hubotlibs-0.2.0.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/41/96/a2592b443cc7c14fee203e5c0f99c1f3c47e58349c7652ac398366cfb4d8/nonebot_plugin_smart_reply-0.1.114514.post1-py3-none-any.whl
+[2023-07-05 08:17:21] WARNING root fetch - processPackages [tr]: Skipping package: exceeds size limit 52909976>=10485760
+[2023-07-05 08:17:21] INFO root fetch - processPackages [tr]: Start processing: total-perspective-vortex
+[2023-07-05 08:17:21] INFO root fetch - main [MainThread]: End processing [tr] error
+[2023-07-05 08:17:21] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Downloading https://files.pythonhosted.org/packages/0f/ab/0ae6229c05589a02fdd0cb18681d9057ecf4a2f297c21653a95de45974a1/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.0.2-py3-none-any.whl
+[2023-07-05 08:17:21] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/0a/30/b2974b3572c6d5e838d1d5c3ec21228ee5095fcd9c9208385cb759902232/mage-ai-0.8.98.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [total-perspective-vortex]: New version: [2.3.0] Old Version: [2.2.4]
+[2023-07-05 08:17:21] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/c7/e5/9322f9ab3d3656c4d399c5505f250c679ad4cb0b6395f3b855637829c40f/quickbolt-0.1.4.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ea/64/8241c0b4ffcaf4a903025d972d7c9bb313e397f3175a719e289ca13aeeaf/ccxt-4.0.7.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [z3c.sqlalchemy]: Downloading https://files.pythonhosted.org/packages/a9/b1/63aecf61ae7b25eaa204f7f4799678213915f5f9034bb21c3ff88007e43c/z3c.sqlalchemy-2.0.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/26/57/8b244714216be7a805c6e5fc6ef4d0f4df429ea0c8cec347d68c2f87434c/nonebot_plugin_game_collection-2.2.9.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [hubotlibs]: Downloading https://files.pythonhosted.org/packages/bf/74/b000fad88669b06bb99764604406c7218be2e0759c8601f1467a6534fef6/hubotlibs-0.2.1.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [quickbolt]: executing diffoscope
+[2023-07-05 08:17:21] INFO root fetch - processPackages [quickbolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbolt-0.1.3.tar.gz tmp/quickbolt-0.1.4.tar.gz --markdown 20230705/q/quickbolt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-05 08:17:21] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-05 08:17:21] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.6.tar.gz tmp/ccxt-4.0.7.tar.gz --markdown 20230705/c/ccxt/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.2.8.tar.gz tmp/nonebot_plugin_game_collection-2.2.9.tar.gz --markdown 20230705/n/nonebot-plugin-game-collection/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-05 08:17:21] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8fc2fd48666a619e91c03f6de342faa35c49f6950804c70eacbf07f64fea/pyg_nightly-2.4.0.dev20230704.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [total-perspective-vortex]: Downloading https://files.pythonhosted.org/packages/e0/ba/58877047199cf6f7fdc29d3336be676103de763796d37feff0fcd7d2f0d1/total-perspective-vortex-2.2.4.tar.gz
+[2023-07-05 08:17:21] INFO root fetch - processPackages [hubotlibs]: executing diffoscope
+[2023-07-05 08:17:21] INFO root fetch - processPackages [hubotlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubotlibs-0.2.0.tar.gz tmp/hubotlibs-0.2.1.tar.gz --markdown 20230705/h/hubotlibs/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 08:17:21] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Downloading https://files.pythonhosted.org/packages/e7/af/246b6d7afd7ca04e459856d1e4016eeaae965a9c6877a70e8c3adbf866c1/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.1-py3-none-any.whl
+[2023-07-05 08:17:21] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: Downloading https://files.pythonhosted.org/packages/12/e9/f6a71add434b03702ddc233eecfcc179da26adeeadf2c5f37223f4c59fb5/nonebot_plugin_smart_reply-0.1.114514.post2-py3-none-any.whl
+[2023-07-05 08:17:22] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-05 08:17:22] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230703.tar.gz tmp/pyg_nightly-2.4.0.dev20230704.tar.gz --markdown 20230705/p/pyg-nightly/2.4.0.dev20230703-2.4.0.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 08:17:22] INFO root fetch - processPackages [z3c.sqlalchemy]: Downloading https://files.pythonhosted.org/packages/bc/df/9e56ef8ebbd774ed11bd1a0fe04da1c8ecec6d6f67f06f7980b6ca57482c/z3c.sqlalchemy-2.1.tar.gz
+[2023-07-05 08:17:22] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: executing diffoscope
+[2023-07-05 08:17:22] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.1-py3-none-any.whl.zip --markdown 20230705/o/odoo-addon-purchase-stock-price-unit-sync/15.0.1.0.0.2-15.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-05 08:17:22] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: executing diffoscope
+[2023-07-05 08:17:22] INFO root fetch - processPackages [nonebot-plugin-smart-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_smart_reply-0.1.114514.post1-py3-none-any.whl.zip tmp/nonebot_plugin_smart_reply-0.1.114514.post2-py3-none-any.whl.zip --markdown 20230705/n/nonebot-plugin-smart-reply/0.1.114514.post1-0.1.114514.post2/diff.md --exclude *.pyd
+[2023-07-05 08:17:22] INFO root fetch - processPackages [z3c.sqlalchemy]: executing diffoscope
+[2023-07-05 08:17:22] INFO root fetch - processPackages [z3c.sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z3c.sqlalchemy-2.0.tar.gz tmp/z3c.sqlalchemy-2.1.tar.gz --markdown 20230705/z/z3c.sqlalchemy/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-05 08:17:22] INFO root fetch - processPackages [total-perspective-vortex]: Downloading https://files.pythonhosted.org/packages/12/7e/aff63f2a6a668581d1bd31d3b788ec869cbfcaa3977bcaf3daf99291b2ee/total-perspective-vortex-2.3.0.tar.gz
+[2023-07-05 08:17:23] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.1.3.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.1.4.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - main [MainThread]: End processing [quickbolt]: success
+[2023-07-05 08:17:23] INFO root fetch - processPackages [total-perspective-vortex]: executing diffoscope
+[2023-07-05 08:17:23] INFO root fetch - processPackages [total-perspective-vortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/total-perspective-vortex-2.2.4.tar.gz tmp/total-perspective-vortex-2.3.0.tar.gz --markdown 20230705/t/total-perspective-vortex/2.2.4-2.3.0/diff.md --exclude *.pyd
+[2023-07-05 08:17:23] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/48/3d/275cee98ee6cf65f2e9990c372923001afa95a61cb121a2bf54f23c5b0be/mage-ai-0.8.99.tar.gz
+[2023-07-05 08:17:23] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.0.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - processPackages [hubotlibs]: Remove: archive file [/home/abi/fetcher/tmp/hubotlibs-0.2.1.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - main [MainThread]: End processing [hubotlibs]: success
+[2023-07-05 08:17:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.8.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.2.9.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-05 08:17:23] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-05 08:17:23] INFO root fetch - processPackages [odoo-addon-purchase-stock-price-unit-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_price_unit_sync-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-05 08:17:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-price-unit-sync]: success
+[2023-07-05 08:17:23] ERROR root fetch - processPackages [nonebot-plugin-smart-reply]: Diffoscope failed: time="2023-07-05T08:17:22+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 98: invalid continuation byte
+
+[2023-07-05 08:17:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-smart-reply] error
+[2023-07-05 08:17:23] INFO root fetch - processPackages [z3c.sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/z3c.sqlalchemy-2.0.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - processPackages [z3c.sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/z3c.sqlalchemy-2.1.tar.gz]
+[2023-07-05 08:17:23] INFO root fetch - main [MainThread]: End processing [z3c.sqlalchemy]: success
+[2023-07-05 08:17:24] INFO root fetch - processPackages [total-perspective-vortex]: Remove: archive file [/home/abi/fetcher/tmp/total-perspective-vortex-2.2.4.tar.gz]
+[2023-07-05 08:17:24] INFO root fetch - processPackages [total-perspective-vortex]: Remove: archive file [/home/abi/fetcher/tmp/total-perspective-vortex-2.3.0.tar.gz]
+[2023-07-05 08:17:24] INFO root fetch - main [MainThread]: End processing [total-perspective-vortex]: success
+[2023-07-05 08:17:25] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-07-05 08:17:25] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.98.tar.gz tmp/mage-ai-0.8.99.tar.gz --markdown 20230705/m/mage-ai/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-07-05 08:17:26] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230703.tar.gz]
+[2023-07-05 08:17:26] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230704.tar.gz]
+[2023-07-05 08:17:26] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-05 08:17:27] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.6.tar.gz]
+[2023-07-05 08:17:27] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.7.tar.gz]
+[2023-07-05 08:17:27] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-05 08:17:40] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.98.tar.gz]
+[2023-07-05 08:17:40] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.99.tar.gz]
+[2023-07-05 08:17:40] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-07-05 08:17:40] INFO root fetch - main [MainThread]: Store serial: [18763270]
