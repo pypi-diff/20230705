@@ -1682,3 +1682,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfd in position 72: invalid
 [2023-07-05 02:02:09] INFO root fetch - processPackages [ApiLogicServer]: Remove: archive file [/home/abi/fetcher/tmp/ApiLogicServer-9.1.0.tar.gz]
 [2023-07-05 02:02:09] INFO root fetch - main [MainThread]: End processing [ApiLogicServer]: success
 [2023-07-05 02:02:09] INFO root fetch - main [MainThread]: Store serial: [18760574]
+[2023-07-05 02:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18760574]
+[2023-07-05 02:07:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arkprts
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mbnk
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-github
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxkern-nightly
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdbscan
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxutils-nightly
+[2023-07-05 02:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ciscopykit
+[2023-07-05 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230704] Old Version: [0.0.8.dev20230703]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688429034] Old Version: [1688342617]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230704.post446] Old Version: [1.9.0.20230703.post447]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [ciscopykit]: New version: [1.1] Old Version: [1.0]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [mbnk]: New version: [0.2.0a1] Old Version: [0.1.3a0]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [crypto-screening]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [hdbscan]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [arkprts]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-05 02:07:20] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/57/b7/be77afe4591b49209e7f17bd4c16c1ddbc4029e7300d835a95ccffeb536f/torchdatasets-nightly-1688342617.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b8/5c/1489a731bc557045f4dc31b32235e7f43e384383dc9949be15c76b5194e5/mct-nightly-1.9.0.20230703.post447.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/69/31/5b3e37d8f2b72f751f91949d779d341653e0749dd30ee8ee7fda5dc06256/jaxutils-nightly-0.0.8.dev20230703.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/1e/62/d3b09e2ae7368e1571eaf713da39f9896cdb7b7fceb3bc514d7a6feccf54/mbnk-0.1.3a0.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/f5/75/f90136759757cb3a07e11ef1429b9bf563961dc96b5786b5c09e1280bccc/ciscopykit-1.0.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/4e/2f/0d18debc38c3af2053aadedbc0becd1e7fe8cbc9ca95ed27b31c083a8ad6/crypto-screening-1.9.5.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/b9/29/321cd59f275581c4ba519216923e9af63dac790cef7f6faa8ac1b067f357/arkprts-0.2.0.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [hdbscan]: Downloading https://files.pythonhosted.org/packages/0b/6b/92345411473586dce4a1d6a5eb796f522bb6b77193a0aac041251a66c8dd/hdbscan-0.8.7.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-05 02:07:20] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/48/d9/2d710ff07bf8b4281dfc7f076a0071f206c358906fe0ff7c674208da98a1/mct-nightly-1.9.0.20230704.post446.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/fc/28/59f4f0c26e11e6de6f4ece13a2daf01e4b06d2019ce3a883d389054fa806/jaxutils-nightly-0.0.8.dev20230704.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/40/4a/c83d446b3ebea4db1f56c66063ce177e0f9342d50410afa2e6765e93ee3a/mbnk-0.2.0a1.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/9f/48/e4f2bf7e845c1f141ac61396164ff3a553217203fffcffb00de1e776111f/torchdatasets-nightly-1688429034.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/dc/68/b6800dc489d1d775fb4f3841d443443ed004c503602fbbf6b77cffb8e8cd/ciscopykit-1.1.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [arkprts]: Downloading https://files.pythonhosted.org/packages/be/d8/60bb842073913b5e05fb1739c30f1d74e69685798a3bae3d860b67dcf9c3/arkprts-0.2.1.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230703.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230704.tar.gz --markdown 20230705/j/jaxutils-nightly/0.0.8.dev20230703-0.0.8.dev20230704/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/24/0d/b00ee41f60c12b524dc0aa274a940e9f8ed373797731ab4a6e1139e289a3/crypto-screening-1.9.6.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230703.post447.tar.gz tmp/mct-nightly-1.9.0.20230704.post446.tar.gz --markdown 20230705/m/mct-nightly/1.9.0.20230703.post447-1.9.0.20230704.post446/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-05 02:07:21] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.1.3a0.tar.gz tmp/mbnk-0.2.0a1.tar.gz --markdown 20230705/m/mbnk/0.1.3a0-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230705/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [ciscopykit]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [ciscopykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscopykit-1.0.tar.gz tmp/ciscopykit-1.1.tar.gz --markdown 20230705/c/ciscopykit/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688342617.tar.gz tmp/torchdatasets-nightly-1688429034.tar.gz --markdown 20230705/t/torchdatasets-nightly/1688342617-1688429034/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [arkprts]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [arkprts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkprts-0.2.0.tar.gz tmp/arkprts-0.2.1.tar.gz --markdown 20230705/a/arkprts/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230705/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-05 02:07:21] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-05 02:07:21] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-1.9.5.tar.gz tmp/crypto-screening-1.9.6.tar.gz --markdown 20230705/c/crypto-screening/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-05 02:07:22] INFO root fetch - processPackages [hdbscan]: Downloading https://files.pythonhosted.org/packages/71/96/06ad6b873c7266608cc95450fad08d891addce9e315084dba4afd1bd9592/hdbscan-0.8.8.tar.gz
+[2023-07-05 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230703.tar.gz]
+[2023-07-05 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230704.tar.gz]
+[2023-07-05 02:07:22] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: jupyterlab-empinken-extension
+[2023-07-05 02:07:22] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-05 02:07:22] INFO root fetch - processPackages [hdbscan]: executing diffoscope
+[2023-07-05 02:07:22] INFO root fetch - processPackages [hdbscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdbscan-0.8.7.tar.gz tmp/hdbscan-0.8.8.tar.gz --markdown 20230705/h/hdbscan/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-05 02:07:22] INFO root fetch - processPackages [jupyterlab-empinken-extension]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-05 02:07:22] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.1.3a0.tar.gz]
+[2023-07-05 02:07:22] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.2.0a1.tar.gz]
+[2023-07-05 02:07:22] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-1.0.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-1.1.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - main [MainThread]: End processing [ciscopykit]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Downloading https://files.pythonhosted.org/packages/45/64/dcd3a58c663810032d4564132356996dbc186464faec73866ca35249ab3c/jupyterlab_empinken_extension-0.4.0-py3-none-any.whl
+[2023-07-05 02:07:23] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.5.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-1.9.6.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.0.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - processPackages [arkprts]: Remove: archive file [/home/abi/fetcher/tmp/arkprts-0.2.1.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - main [MainThread]: End processing [arkprts]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688342617.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688429034.tar.gz]
+[2023-07-05 02:07:23] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-05 02:07:23] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Downloading https://files.pythonhosted.org/packages/7c/88/47de1e852b877e359d23336812a5e4c5d5a820a4746f43e4aa894ca0a330/jupyterlab_empinken_extension-0.4.1-py3-none-any.whl
+[2023-07-05 02:07:23] INFO root fetch - processPackages [jupyterlab-empinken-extension]: executing diffoscope
+[2023-07-05 02:07:23] INFO root fetch - processPackages [jupyterlab-empinken-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_empinken_extension-0.4.0-py3-none-any.whl.zip tmp/jupyterlab_empinken_extension-0.4.1-py3-none-any.whl.zip --markdown 20230705/j/jupyterlab-empinken-extension/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-05 02:07:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230703.post447.tar.gz]
+[2023-07-05 02:07:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230704.post446.tar.gz]
+[2023-07-05 02:07:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-05 02:07:25] INFO root fetch - processPackages [hdbscan]: Remove: archive file [/home/abi/fetcher/tmp/hdbscan-0.8.7.tar.gz]
+[2023-07-05 02:07:25] INFO root fetch - processPackages [hdbscan]: Remove: archive file [/home/abi/fetcher/tmp/hdbscan-0.8.8.tar.gz]
+[2023-07-05 02:07:25] INFO root fetch - main [MainThread]: End processing [hdbscan]: success
+[2023-07-05 02:07:25] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_empinken_extension-0.4.0-py3-none-any.whl.zip]
+[2023-07-05 02:07:25] INFO root fetch - processPackages [jupyterlab-empinken-extension]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_empinken_extension-0.4.1-py3-none-any.whl.zip]
+[2023-07-05 02:07:25] INFO root fetch - main [MainThread]: End processing [jupyterlab-empinken-extension]: success
+[2023-07-05 02:07:25] INFO root fetch - main [MainThread]: Store serial: [18760609]
