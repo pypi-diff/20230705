@@ -20040,3 +20040,95 @@ AssertionError: tmp/dbt-clickzetta-0.2.8.tar.gz does not exist
 [2023-07-05 16:00:43] INFO root fetch - processPackages [freemocap]: Remove: archive file [/home/abi/fetcher/tmp/freemocap-1.0.9rc0.tar.gz]
 [2023-07-05 16:00:43] INFO root fetch - main [MainThread]: End processing [freemocap]: success
 [2023-07-05 16:00:43] INFO root fetch - main [MainThread]: Store serial: [18768235]
+[2023-07-05 16:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18768235]
+[2023-07-05 16:05:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syngen
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hellolibahmed
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tubular
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unitpy
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micrOSDevToolKit
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telekinesis
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-cloud-storages
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt4all
+[2023-07-05 16:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gentle-mxml
+[2023-07-05 16:05:52] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.17.9] Old Version: [1.17.8]
+[2023-07-05 16:05:52] WARNING root fetch - processPackages [hellolibahmed]: Skipping, unable to determine old version
+[2023-07-05 16:05:52] INFO root fetch - processPackages [hellolibahmed]: Start processing: robingame
+[2023-07-05 16:05:52] INFO root fetch - main [MainThread]: End processing [hellolibahmed] error
+[2023-07-05 16:05:52] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [telekinesis]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [tubular]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.64.6] Old Version: [1.64.5]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [unitpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [gentle-mxml]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [gpt4all]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/a9/90/2eb9bf51565b808763c6fb8172bf6b4283945362110b6125a8093a11befa/django_cloud_storages-1.1.7.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [robingame]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-05 16:05:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/90/29/1fbcda995de49ea9a72206df0a8fefc84297907aeda4ba7a11826d34ed53/Simba-UW-tf-dev-1.64.5.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [tubular]: Downloading https://files.pythonhosted.org/packages/01/1a/e2858649b716ba74794612baa8d84e050df2159244deeeb9a52d99ba3e77/tubular-0.3.6.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/85/ac/9f969762155dfb16191368002b8f604f6757e6e743cef66ea25ca405d553/telekinesis-0.1.83.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/d1/5c/1a07748f97870290d6219c56768425459aa1519f941153183894348fc83a/syngen-0.1.8.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/a7/d2/c985abe966d3b9405056ffd1291c820a6a5f1a52934f76071e441aa5348c/micrOSDevToolKit-1.17.8.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/f4/b0/0a00095eda099f3ce73a578f487b32ee310d92a09b74a77bdd179703f56c/gpt4all-1.0.1-py3-none-win_amd64.whl
+[2023-07-05 16:05:52] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/d3/fc/3ea894ba5c195b3b873681c2155b26d5fac13aa7ac6b73310453d7bd8486/unitpy-0.0.6.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [gentle-mxml]: Downloading https://files.pythonhosted.org/packages/e9/ad/ea368b98a7b2e026eb544da6176cc8a844d91d5b1e8accae5302b139a7af/gentle_mxml-0.3.1.tar.gz
+[2023-07-05 16:05:52] WARNING root fetch - processPackages [micrOSDevToolKit]: Skipping package: exceeds size limit 90163272>=10485760
+[2023-07-05 16:05:52] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit] error
+[2023-07-05 16:05:52] INFO root fetch - processPackages [robingame]: Downloading https://files.pythonhosted.org/packages/63/18/2b999f25274fb70671c07e5fe4c7efc75e7dd3b9fab19afe078c4fff3cd7/robingame-0.0.9.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/50/16/555fe70d032a0ddc8ea2d09ab43ba60b9c7af5407c3e67a3d12dcb80cb38/django_cloud_storages-1.1.8.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [telekinesis]: Downloading https://files.pythonhosted.org/packages/f6/9c/89ce5106a8ef79bcf2ca3ac0083d2e3ef7e12a58b957c054cb8962d6ca34/telekinesis-0.1.9.tar.gz
+[2023-07-05 16:05:52] INFO root fetch - processPackages [tubular]: Downloading https://files.pythonhosted.org/packages/a5/1a/5f366dbd9b6e2a734c6d2b4abc73d04fd6be0e15751a5ad3c4e6193186cb/tubular-0.3.7.tar.gz
+[2023-07-05 16:05:53] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.7.tar.gz tmp/django_cloud_storages-1.1.8.tar.gz --markdown 20230705/d/django-cloud-storages/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [unitpy]: Downloading https://files.pythonhosted.org/packages/fd/b3/e7265c4d17cd11806e675a9d63e47b31fd221880e3a87e3ee356eb223264/unitpy-0.0.7.tar.gz
+[2023-07-05 16:05:53] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/79/0c/f72cc8264b18f833b4839ddffa350cb9da358ad608f08cc16d0e98490b5a/Simba-UW-tf-dev-1.64.6.tar.gz
+[2023-07-05 16:05:53] INFO root fetch - processPackages [tubular]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/40/c8/baff8b3965c5d49d05ec9ceec4d771bd679c2dc6b26ec62f8380f719b534/gpt4all-1.0.2-py3-none-win_amd64.whl
+[2023-07-05 16:05:53] INFO root fetch - processPackages [tubular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tubular-0.3.6.tar.gz tmp/tubular-0.3.7.tar.gz --markdown 20230705/t/tubular/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [gentle-mxml]: Downloading https://files.pythonhosted.org/packages/dd/c2/ca8c9f81582de1ec1a5f97fd05012a0cd8bb361effbd0522792138d815f2/gentle_mxml-0.4.0.tar.gz
+[2023-07-05 16:05:53] INFO root fetch - processPackages [telekinesis]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [telekinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telekinesis-0.1.83.tar.gz tmp/telekinesis-0.1.9.tar.gz --markdown 20230705/t/telekinesis/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [robingame]: Downloading https://files.pythonhosted.org/packages/d4/ee/31111a85370d60b4a96db73c10e2da819a7933ba4987633bd042f2f8faa9/robingame-0.1.0.tar.gz
+[2023-07-05 16:05:53] INFO root fetch - processPackages [unitpy]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [unitpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitpy-0.0.6.tar.gz tmp/unitpy-0.0.7.tar.gz --markdown 20230705/u/unitpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.64.5.tar.gz tmp/Simba-UW-tf-dev-1.64.6.tar.gz --markdown 20230705/S/Simba-UW-tf-dev/1.64.5-1.64.6/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [gentle-mxml]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [gentle-mxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentle_mxml-0.3.1.tar.gz tmp/gentle_mxml-0.4.0.tar.gz --markdown 20230705/g/gentle-mxml/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [robingame]: executing diffoscope
+[2023-07-05 16:05:53] INFO root fetch - processPackages [robingame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robingame-0.0.9.tar.gz tmp/robingame-0.1.0.tar.gz --markdown 20230705/r/robingame/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-05 16:05:53] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/1c/ec/09634635304cfe54bd538c9f136477113b28b8b56e10596aec3cf678573a/syngen-0.1.9.tar.gz
+[2023-07-05 16:05:54] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.7.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.8.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-05 16:05:54] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-07-05 16:05:54] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-1.0.1-py3-none-win_amd64.whl.zip tmp/gpt4all-1.0.2-py3-none-win_amd64.whl.zip --markdown 20230705/g/gpt4all/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-05 16:05:54] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-07-05 16:05:54] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230705:/home/abi/fetcher/20230705:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230705/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-05 16:05:54] INFO root fetch - processPackages [tubular]: Remove: archive file [/home/abi/fetcher/tmp/tubular-0.3.6.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - processPackages [tubular]: Remove: archive file [/home/abi/fetcher/tmp/tubular-0.3.7.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - main [MainThread]: End processing [tubular]: success
+[2023-07-05 16:05:54] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.83.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - processPackages [telekinesis]: Remove: archive file [/home/abi/fetcher/tmp/telekinesis-0.1.9.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - main [MainThread]: End processing [telekinesis]: success
+[2023-07-05 16:05:54] INFO root fetch - processPackages [unitpy]: Remove: archive file [/home/abi/fetcher/tmp/unitpy-0.0.6.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - processPackages [unitpy]: Remove: archive file [/home/abi/fetcher/tmp/unitpy-0.0.7.tar.gz]
+[2023-07-05 16:05:54] INFO root fetch - main [MainThread]: End processing [unitpy]: success
+[2023-07-05 16:05:55] INFO root fetch - processPackages [robingame]: Remove: archive file [/home/abi/fetcher/tmp/robingame-0.0.9.tar.gz]
+[2023-07-05 16:05:55] INFO root fetch - processPackages [robingame]: Remove: archive file [/home/abi/fetcher/tmp/robingame-0.1.0.tar.gz]
+[2023-07-05 16:05:55] INFO root fetch - main [MainThread]: End processing [robingame]: success
+[2023-07-05 16:05:55] INFO root fetch - processPackages [gentle-mxml]: Remove: archive file [/home/abi/fetcher/tmp/gentle_mxml-0.3.1.tar.gz]
+[2023-07-05 16:05:55] INFO root fetch - processPackages [gentle-mxml]: Remove: archive file [/home/abi/fetcher/tmp/gentle_mxml-0.4.0.tar.gz]
+[2023-07-05 16:05:55] INFO root fetch - main [MainThread]: End processing [gentle-mxml]: success
+[2023-07-05 16:05:55] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-07-05 16:05:55] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-07-05 16:05:55] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-07-05 16:05:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.5.tar.gz]
+[2023-07-05 16:05:57] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.64.6.tar.gz]
+[2023-07-05 16:05:57] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-07-05 16:06:11] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.1-py3-none-win_amd64.whl.zip]
+[2023-07-05 16:06:11] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.2-py3-none-win_amd64.whl.zip]
+[2023-07-05 16:06:11] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-07-05 16:06:11] INFO root fetch - main [MainThread]: Store serial: [18768279]
